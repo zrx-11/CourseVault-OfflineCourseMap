@@ -1,0 +1,36 @@
+{
+  "audience": [],
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.webvtt",
+  "file_size": 75805,
+  "file_type": "application/x-subrip",
+  "gdrive_url": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Other",
+  "title": "Lecture 16: The Min/Max Theorem and Bolzano's Intermediate Value Theorem captions",
+  "uid": "ef458ed6-20f7-4233-b7f9-21d354ddf65b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

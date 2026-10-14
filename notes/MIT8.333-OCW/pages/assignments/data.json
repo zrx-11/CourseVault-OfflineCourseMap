@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The problem sets were due in the sessions listed in the table.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nSES #\n</th>\n\n<th>\n\nASSIGNMENTS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nL6\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-1/index.html\">Problem Set 1 Thermodynamics (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL10\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-2/index.html\">Problem Set 2 Probability (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL13\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-3/index.html\">Problem Set 3 Kinetic Theory (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL20\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-4/index.html\">Problem Set 4 Non-interacting Particles (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR8\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-5/index.html\">Problem Set 5 Interacting Particles &amp; Quantum Ensembles (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL25\n</td>\n\n<td>\n\n<a href=\"../../resources/problem-set-6/index.html\">Problem Set 6 Ideal Quantum Gases (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section includes the six problem sets of the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "bb7d1ff2-bdb6-1a3b-30bd-466e5910aec3"
+}
+

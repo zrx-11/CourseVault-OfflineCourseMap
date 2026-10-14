@@ -1,0 +1,36 @@
+{
+  "audience": [],
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/1IF6ZH-tTnbGSrhsh9INxEdk_UWslK6pV_transcript.webvtt",
+  "file_size": 90216,
+  "file_type": "application/x-subrip",
+  "gdrive_url": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Other",
+  "title": "Lecture 25: Power Series and the Weierstrass Approximation Theorem captions",
+  "uid": "242f7d1c-6b1d-4a3b-b474-742c4d2d74d1",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

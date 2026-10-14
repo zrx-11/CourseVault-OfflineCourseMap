@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "16211428",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Time Independent Perturbation Theory and WKB Approximation",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "L2.4 Degenerate Perturbation Theory: Leading energy corrections",
+  "uid": "c55f6d33-5df8-c510-8122-1a60d14f62a3",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.06S18/MIT8_06S18_L02S4_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/4db09ea6894558f6b82f6987eaefe015_85xTt0cU3s.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/_85xTt0cU3s/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/0a4e9ffd6c613712eb1418fbe0a874d2_85xTt0cU3s.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-06-quantum-physics-iii-spring-2018, degenerate perturbation theory, time independent perturbation theory",
+    "youtube_id": "_85xTt0cU3s"
+  }
+}

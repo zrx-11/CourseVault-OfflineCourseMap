@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "52953599",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Time Independent Perturbation Theory and WKB Approximation",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "L7.1 The WKB approximation scheme",
+  "uid": "dccd4ee8-1d02-a509-d446-012607471da4",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.06S18/MIT8_06S18_L07S1_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/f0a3d04ecd4054bdbdb6be6fdbca67fc_7Y5me3mwXpA.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/7Y5me3mwXpA/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/c10ab35e849b4f606c8aa929709e70d3_7Y5me3mwXpA.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-06-quantum-physics-iii-spring-2018, semiclassical wkb approximation, wentzel–kramers–brillouin",
+    "youtube_id": "7Y5me3mwXpA"
+  }
+}

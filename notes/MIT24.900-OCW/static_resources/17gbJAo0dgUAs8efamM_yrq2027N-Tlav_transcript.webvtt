@@ -1,0 +1,6987 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.992 align:middle line:90%
+[SQUEAK] [RUSTLING] [CLICKING]
+
+00:00:03.992 --> 00:00:10.380 align:middle line:90%
+
+
+00:00:10.380 --> 00:00:11.630 align:middle line:90%
+NORVIN RICHARDS: Welcome back.
+
+00:00:11.630 --> 00:00:14.620 align:middle line:84%
+Hope everybody had a restful
+break, spent lots of time
+
+00:00:14.620 --> 00:00:17.140 align:middle line:84%
+doing syntax in
+their spare time.
+
+00:00:17.140 --> 00:00:19.810 align:middle line:90%
+Let's do a little syntax now.
+
+00:00:19.810 --> 00:00:21.743 align:middle line:90%
+I don't have any announcements.
+
+00:00:21.743 --> 00:00:23.410 align:middle line:84%
+Are there any questions
+about the things
+
+00:00:23.410 --> 00:00:25.360 align:middle line:84%
+that I'm not announcing,
+things that people
+
+00:00:25.360 --> 00:00:30.000 align:middle line:84%
+are, like, wondering
+about, where we start?
+
+00:00:30.000 --> 00:00:30.500 align:middle line:90%
+OK.
+
+00:00:30.500 --> 00:00:32.292 align:middle line:84%
+So I just wanted to
+start with some review,
+
+00:00:32.292 --> 00:00:34.174 align:middle line:84%
+just to remind
+everybody where we were.
+
+00:00:34.174 --> 00:00:38.300 align:middle line:84%
+We were drawing
+trees like this one.
+
+00:00:38.300 --> 00:00:40.430 align:middle line:84%
+So here's a tree for "I
+will tickle the child
+
+00:00:40.430 --> 00:00:42.470 align:middle line:90%
+with the feather."
+
+00:00:42.470 --> 00:00:45.710 align:middle line:84%
+It's a tree that has various
+kinds of information in it
+
+00:00:45.710 --> 00:00:50.720 align:middle line:84%
+about, well, various
+things, including substrings
+
+00:00:50.720 --> 00:00:53.000 align:middle line:84%
+that we think are
+treated as constituents
+
+00:00:53.000 --> 00:00:55.260 align:middle line:84%
+for various kinds of
+syntactic phenomena.
+
+00:00:55.260 --> 00:00:59.120 align:middle line:84%
+So this tree is meant
+to reflect the fact
+
+00:00:59.120 --> 00:01:02.840 align:middle line:84%
+that this sentence,
+first of all,
+
+00:01:02.840 --> 00:01:06.140 align:middle line:84%
+has a meaning in which
+I'm going to use a feather
+
+00:01:06.140 --> 00:01:07.580 align:middle line:90%
+to tickle a child.
+
+00:01:07.580 --> 00:01:10.370 align:middle line:84%
+That's the meaning that's
+been diagrammed here.
+
+00:01:10.370 --> 00:01:14.120 align:middle line:84%
+And that if you perform
+certain operations that
+
+00:01:14.120 --> 00:01:17.030 align:middle line:84%
+make it clear that this is the
+tree that you've got, like,
+
+00:01:17.030 --> 00:01:19.910 align:middle line:84%
+topicalizing "the child," moving
+"the child" to the beginning
+
+00:01:19.910 --> 00:01:21.770 align:middle line:84%
+of the sentence,
+"The child I will
+
+00:01:21.770 --> 00:01:24.583 align:middle line:84%
+tickle with the feather,"
+that's the only-- in fact,
+
+00:01:24.583 --> 00:01:26.000 align:middle line:84%
+the only meaning
+that you can have
+
+00:01:26.000 --> 00:01:29.110 align:middle line:84%
+is the meaning that
+goes with this tree.
+
+00:01:29.110 --> 00:01:30.800 align:middle line:84%
+So is this all sounds
+vaguely familiar?
+
+00:01:30.800 --> 00:01:32.300 align:middle line:84%
+Are there questions
+about this tree?
+
+00:01:32.300 --> 00:01:35.030 align:middle line:84%
+Is anybody looking at this
+tree and thinking, wait,
+
+00:01:35.030 --> 00:01:37.400 align:middle line:90%
+which class am I in again?
+
+00:01:37.400 --> 00:01:38.550 align:middle line:90%
+What is going on?
+
+00:01:38.550 --> 00:01:39.202 align:middle line:90%
+Why?
+
+00:01:39.202 --> 00:01:41.660 align:middle line:84%
+I'm going to talk about this
+tree in a little bit of detail
+
+00:01:41.660 --> 00:01:41.960 align:middle line:90%
+today.
+
+00:01:41.960 --> 00:01:43.460 align:middle line:84%
+But I just want to
+make sure there's
+
+00:01:43.460 --> 00:01:45.875 align:middle line:84%
+nothing here that's shocking
+or distressing anybody.
+
+00:01:45.875 --> 00:01:48.470 align:middle line:90%
+
+
+00:01:48.470 --> 00:01:51.200 align:middle line:84%
+So one of the things
+we've talked about
+
+00:01:51.200 --> 00:01:53.360 align:middle line:84%
+is that some of the
+properties of that tree
+
+00:01:53.360 --> 00:01:55.560 align:middle line:90%
+follow from selection.
+
+00:01:55.560 --> 00:01:57.080 align:middle line:84%
+So we have this
+idea that there's
+
+00:01:57.080 --> 00:02:02.880 align:middle line:84%
+a special kind of relation
+that can hold between heads,
+
+00:02:02.880 --> 00:02:05.450 align:middle line:84%
+so the smallest
+things in the tree,
+
+00:02:05.450 --> 00:02:07.970 align:middle line:84%
+the things that just
+have words under them,
+
+00:02:07.970 --> 00:02:10.729 align:middle line:84%
+things like the
+verb, a relation that
+
+00:02:10.729 --> 00:02:13.400 align:middle line:84%
+can hold between those heads
+and other kinds of phrases
+
+00:02:13.400 --> 00:02:14.250 align:middle line:90%
+in the sentence.
+
+00:02:14.250 --> 00:02:17.810 align:middle line:84%
+So we've said that the verb
+"tickle" selects the object
+
+00:02:17.810 --> 00:02:19.010 align:middle line:90%
+noun phrase, "the child."
+
+00:02:19.010 --> 00:02:23.570 align:middle line:84%
+And what we mean by that is that
+the relation between the verb
+
+00:02:23.570 --> 00:02:26.030 align:middle line:84%
+"tickle" and the
+object, "the child,"
+
+00:02:26.030 --> 00:02:28.790 align:middle line:84%
+is special in that
+not every verb can
+
+00:02:28.790 --> 00:02:31.580 align:middle line:90%
+be followed by an object.
+
+00:02:31.580 --> 00:02:33.440 align:middle line:90%
+So you can tickle a child.
+
+00:02:33.440 --> 00:02:34.567 align:middle line:90%
+You can devour a child.
+
+00:02:34.567 --> 00:02:35.150 align:middle line:90%
+You shouldn't.
+
+00:02:35.150 --> 00:02:36.230 align:middle line:90%
+But it's grammatical.
+
+00:02:36.230 --> 00:02:39.230 align:middle line:90%
+You can write a child.
+
+00:02:39.230 --> 00:02:42.230 align:middle line:84%
+But there are other verbs for
+which you just can't do this.
+
+00:02:42.230 --> 00:02:43.700 align:middle line:90%
+You can't "thrive the child."
+
+00:02:43.700 --> 00:02:45.840 align:middle line:90%
+That doesn't make any sense.
+
+00:02:45.840 --> 00:02:47.918 align:middle line:84%
+So there are some
+verbs-- classic way
+
+00:02:47.918 --> 00:02:50.210 align:middle line:84%
+to say this is there are some
+verbs that are transitive
+
+00:02:50.210 --> 00:02:52.280 align:middle line:84%
+and others that
+are intransitive.
+
+00:02:52.280 --> 00:02:54.830 align:middle line:84%
+So in order to know whether
+you can have an object
+
+00:02:54.830 --> 00:02:58.100 align:middle line:84%
+or not, whether there can be
+a noun phrase in that position
+
+00:02:58.100 --> 00:03:00.372 align:middle line:84%
+or not, the sister
+of the verb, you've
+
+00:03:00.372 --> 00:03:01.580 align:middle line:90%
+got to know what the verb is.
+
+00:03:01.580 --> 00:03:04.800 align:middle line:84%
+The verb tells you whether it
+needs to have an object or not.
+
+00:03:04.800 --> 00:03:06.470 align:middle line:84%
+So there's this
+relation of selection
+
+00:03:06.470 --> 00:03:09.020 align:middle line:84%
+that holds between the
+verb and the object.
+
+00:03:09.020 --> 00:03:11.630 align:middle line:84%
+The idea is when
+we look up words
+
+00:03:11.630 --> 00:03:13.760 align:middle line:84%
+like "tickle" and
+"devour" and "write"
+
+00:03:13.760 --> 00:03:17.670 align:middle line:84%
+in our mental lexicon, we'll
+see various things about them,
+
+00:03:17.670 --> 00:03:19.700 align:middle line:84%
+including how
+they're pronounced,
+
+00:03:19.700 --> 00:03:22.920 align:middle line:84%
+but also whether they
+can have objects or not,
+
+00:03:22.920 --> 00:03:26.160 align:middle line:84%
+whether they select for
+noun phrase sisters or not.
+
+00:03:26.160 --> 00:03:28.400 align:middle line:84%
+So when we ask, going
+back to the tree,
+
+00:03:28.400 --> 00:03:34.953 align:middle line:84%
+why is the sister of the verb,
+the noun phrase "the child,"
+
+00:03:34.953 --> 00:03:37.370 align:middle line:84%
+one way of interpreting that
+question, the answer is well,
+
+00:03:37.370 --> 00:03:40.100 align:middle line:84%
+it's because the verb "tickle"
+selects for a noun phrase
+
+00:03:40.100 --> 00:03:41.180 align:middle line:90%
+sister.
+
+00:03:41.180 --> 00:03:42.940 align:middle line:90%
+And so you give it one.
+
+00:03:42.940 --> 00:03:46.400 align:middle line:84%
+Now, that's why the tree
+has that bit of structure.
+
+00:03:46.400 --> 00:03:48.230 align:middle line:84%
+And we can tell
+that kind of story
+
+00:03:48.230 --> 00:03:49.920 align:middle line:84%
+about a lot of
+parts of this tree.
+
+00:03:49.920 --> 00:03:51.380 align:middle line:84%
+So similarly,
+we're going to want
+
+00:03:51.380 --> 00:03:53.600 align:middle line:84%
+to say that the
+preposition "with" selects
+
+00:03:53.600 --> 00:03:56.972 align:middle line:84%
+for a sister that's a noun
+phrase, "the feather."
+
+00:03:56.972 --> 00:03:58.430 align:middle line:84%
+And for that matter,
+we'll probably
+
+00:03:58.430 --> 00:04:00.860 align:middle line:84%
+want to say that the
+T, "will," is selecting
+
+00:04:00.860 --> 00:04:03.170 align:middle line:84%
+for a verb phrase that's
+why the T has a verb phrase,
+
+00:04:03.170 --> 00:04:04.463 align:middle line:90%
+it's its sister.
+
+00:04:04.463 --> 00:04:06.380 align:middle line:84%
+So there are various
+places in this tree where
+
+00:04:06.380 --> 00:04:08.300 align:middle line:90%
+a head has a particular sister.
+
+00:04:08.300 --> 00:04:10.100 align:middle line:84%
+And it's because the
+head is selecting
+
+00:04:10.100 --> 00:04:11.180 align:middle line:90%
+for that as its sister.
+
+00:04:11.180 --> 00:04:16.540 align:middle line:90%
+
+
+00:04:16.540 --> 00:04:21.160 align:middle line:84%
+We also said that this relation
+of selection that is something
+
+00:04:21.160 --> 00:04:23.410 align:middle line:84%
+that heads can do-- they
+can select for properties
+
+00:04:23.410 --> 00:04:24.970 align:middle line:90%
+of their sister--
+
+00:04:24.970 --> 00:04:28.160 align:middle line:84%
+that sometimes, at least,
+they select more specifically
+
+00:04:28.160 --> 00:04:28.660 align:middle line:90%
+than that.
+
+00:04:28.660 --> 00:04:33.070 align:middle line:84%
+They select for sisters
+where the sister's head
+
+00:04:33.070 --> 00:04:34.520 align:middle line:90%
+has a particular property.
+
+00:04:34.520 --> 00:04:37.240 align:middle line:84%
+So I think the example
+I gave you last time was
+
+00:04:37.240 --> 00:04:39.070 align:middle line:90%
+the verb depends--
+
+00:04:39.070 --> 00:04:42.860 align:middle line:84%
+where the verb depends needs
+a prepositional phrase sister,
+
+00:04:42.860 --> 00:04:44.860 align:middle line:84%
+but it specifically needs
+a prepositional phrase
+
+00:04:44.860 --> 00:04:47.230 align:middle line:84%
+sister in which the
+preposition is "on."
+
+00:04:47.230 --> 00:04:48.880 align:middle line:90%
+So you have to depend on things.
+
+00:04:48.880 --> 00:04:51.220 align:middle line:84%
+You can't depend from
+them or depend at them.
+
+00:04:51.220 --> 00:04:53.050 align:middle line:84%
+You can't just have
+any preposition there.
+
+00:04:53.050 --> 00:04:55.850 align:middle line:90%
+It has to be "on."
+
+00:04:55.850 --> 00:04:58.030 align:middle line:84%
+So there are verbs
+like "depend--"
+
+00:04:58.030 --> 00:04:59.980 align:middle line:84%
+and there are many
+verbs like this--
+
+00:04:59.980 --> 00:05:02.643 align:middle line:84%
+that select for a particular
+prepositional phrase-- sisters,
+
+00:05:02.643 --> 00:05:04.810 align:middle line:84%
+but in particular, prepositional
+phrase sisters that
+
+00:05:04.810 --> 00:05:07.540 align:middle line:90%
+have a particular preposition.
+
+00:05:07.540 --> 00:05:09.590 align:middle line:84%
+Sometimes it's less
+particular than that.
+
+00:05:09.590 --> 00:05:15.910 align:middle line:90%
+So I think in class I said--
+
+00:05:15.910 --> 00:05:18.460 align:middle line:84%
+(he said, vamping until he
+could get some chalk out)--
+
+00:05:18.460 --> 00:05:22.540 align:middle line:84%
+that the verb "put"
+seems to select
+
+00:05:22.540 --> 00:05:25.270 align:middle line:84%
+for a noun phrase sister and
+prepositional phrase sister.
+
+00:05:25.270 --> 00:05:36.970 align:middle line:84%
+So you put the book "on the
+table" or "in the refrigerator"
+
+00:05:36.970 --> 00:05:41.320 align:middle line:84%
+or "under the car"
+or whatever, wherever
+
+00:05:41.320 --> 00:05:43.280 align:middle line:90%
+it is you want to put the book.
+
+00:05:43.280 --> 00:05:45.763 align:middle line:84%
+So the "put" has to have
+a noun phrase object,
+
+00:05:45.763 --> 00:05:46.930 align:middle line:90%
+doesn't have to be the book.
+
+00:05:46.930 --> 00:05:48.013 align:middle line:90%
+It can be any noun phrase.
+
+00:05:48.013 --> 00:05:51.040 align:middle line:84%
+And then there can be
+a prepositional phrase.
+
+00:05:51.040 --> 00:05:52.222 align:middle line:90%
+"Put" is not like "depend."
+
+00:05:52.222 --> 00:05:54.430 align:middle line:84%
+There are a variety of
+prepositions that can be here.
+
+00:05:54.430 --> 00:05:56.305 align:middle line:84%
+But you can't just have
+any preposition here.
+
+00:05:56.305 --> 00:05:58.900 align:middle line:84%
+So you can't say "Put the
+book during the party."
+
+00:05:58.900 --> 00:06:02.320 align:middle line:90%
+
+
+00:06:02.320 --> 00:06:06.700 align:middle line:90%
+That's not a possible sentence.
+
+00:06:06.700 --> 00:06:09.640 align:middle line:84%
+And we might hope to
+derive that from properties
+
+00:06:09.640 --> 00:06:11.080 align:middle line:90%
+of the meaning of "put," right?
+
+00:06:11.080 --> 00:06:13.360 align:middle line:84%
+So the prepositional
+phrase that goes with "put"
+
+00:06:13.360 --> 00:06:15.760 align:middle line:84%
+needs to specify
+a location, right?
+
+00:06:15.760 --> 00:06:19.420 align:middle line:84%
+And "During the party" doesn't
+specify a location unless we're
+
+00:06:19.420 --> 00:06:22.540 align:middle line:84%
+thinking of time as space,
+which as long as syntax
+
+00:06:22.540 --> 00:06:25.420 align:middle line:84%
+is not Doctor Who,
+I think we're OK.
+
+00:06:25.420 --> 00:06:25.990 align:middle line:90%
+Yeah?
+
+00:06:25.990 --> 00:06:29.737 align:middle line:84%
+AUDIENCE: So for clarity,
+because Merge only is binary--
+
+00:06:29.737 --> 00:06:30.820 align:middle line:90%
+NORVIN RICHARDS: Oh, dear.
+
+00:06:30.820 --> 00:06:31.320 align:middle line:90%
+[LAUGHS]
+
+00:06:31.320 --> 00:06:33.340 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:06:33.340 --> 00:06:34.810 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:06:34.810 --> 00:06:36.250 align:middle line:90%
+So Merge is only binary.
+
+00:06:36.250 --> 00:06:38.590 align:middle line:84%
+And that means if
+we're going to have
+
+00:06:38.590 --> 00:06:40.510 align:middle line:84%
+a tree for these
+kinds of sentences,
+
+00:06:40.510 --> 00:06:43.960 align:middle line:84%
+we're going to need
+to put the verb "put."
+
+00:06:43.960 --> 00:06:45.970 align:middle line:84%
+And since we want
+the noun phrase
+
+00:06:45.970 --> 00:06:48.490 align:middle line:84%
+to be next-- that's what
+this seems to tell us--
+
+00:06:48.490 --> 00:06:49.840 align:middle line:90%
+we'll have a noun phrase here.
+
+00:06:49.840 --> 00:06:54.390 align:middle line:90%
+
+
+00:06:54.390 --> 00:06:59.037 align:middle line:84%
+And then we'll have a
+prepositional phrase
+
+00:06:59.037 --> 00:07:00.870 align:middle line:84%
+That's one possible
+answer to your question.
+
+00:07:00.870 --> 00:07:02.203 align:middle line:90%
+If Merge is going to be binary--
+
+00:07:02.203 --> 00:07:06.648 align:middle line:90%
+
+
+00:07:06.648 --> 00:07:08.190 align:middle line:84%
+if Merge is going
+to be binary, we're
+
+00:07:08.190 --> 00:07:10.710 align:middle line:84%
+going to want to
+say, yeah, "put"
+
+00:07:10.710 --> 00:07:13.582 align:middle line:84%
+is something that
+needs two things.
+
+00:07:13.582 --> 00:07:15.790 align:middle line:84%
+We're going to have to give
+them to it one at a time.
+
+00:07:15.790 --> 00:07:17.410 align:middle line:84%
+We can't give them
+both to it at once.
+
+00:07:17.410 --> 00:07:19.070 align:middle line:84%
+Otherwise, if we
+wanted to do that,
+
+00:07:19.070 --> 00:07:20.820 align:middle line:84%
+we would need to use
+ternary Merge, right?
+
+00:07:20.820 --> 00:07:22.660 align:middle line:84%
+We'd need to merge
+three things at once.
+
+00:07:22.660 --> 00:07:24.270 align:middle line:84%
+And so we'll merge
+them one at a time.
+
+00:07:24.270 --> 00:07:25.770 align:middle line:84%
+We'll first give
+it the noun phrase.
+
+00:07:25.770 --> 00:07:27.300 align:middle line:84%
+And then we'll give it
+the prepositional phrase.
+
+00:07:27.300 --> 00:07:29.220 align:middle line:84%
+Why do we first give it
+the noun phrase and then
+
+00:07:29.220 --> 00:07:30.262 align:middle line:90%
+the prepositional phrase?
+
+00:07:30.262 --> 00:07:33.000 align:middle line:84%
+Why don't we say, "Put
+on the table the book"?
+
+00:07:33.000 --> 00:07:34.530 align:middle line:90%
+We might actually get to that.
+
+00:07:34.530 --> 00:07:36.850 align:middle line:84%
+But we're not going
+to get to it today.
+
+00:07:36.850 --> 00:07:39.150 align:middle line:84%
+So this is one possible
+answer to your question.
+
+00:07:39.150 --> 00:07:40.960 align:middle line:84%
+Another possible answer to
+your question, of course,
+
+00:07:40.960 --> 00:07:42.510 align:middle line:84%
+would be to say,
+ah, we've discovered
+
+00:07:42.510 --> 00:07:45.120 align:middle line:84%
+that we were wrong to say that
+there's binary Merge, right?
+
+00:07:45.120 --> 00:07:48.288 align:middle line:84%
+That here's a place where we
+need there to be ternary merge.
+
+00:07:48.288 --> 00:07:49.830 align:middle line:84%
+This is going to
+interact with things
+
+00:07:49.830 --> 00:07:51.820 align:middle line:84%
+we're going to want to say
+about how selection works.
+
+00:07:51.820 --> 00:07:53.320 align:middle line:84%
+So I have now a
+couple of times said
+
+00:07:53.320 --> 00:07:56.160 align:middle line:84%
+a thing gets to select for
+the properties of its sister,
+
+00:07:56.160 --> 00:07:56.970 align:middle line:90%
+right?
+
+00:07:56.970 --> 00:07:59.310 align:middle line:84%
+And here it's selecting for
+properties of its sister.
+
+00:07:59.310 --> 00:08:00.990 align:middle line:84%
+But this is not
+its sister, right?
+
+00:08:00.990 --> 00:08:02.760 align:middle line:90%
+This is something else.
+
+00:08:02.760 --> 00:08:04.800 align:middle line:90%
+It's-- never mind.
+
+00:08:04.800 --> 00:08:07.200 align:middle line:84%
+I can't figure out the family
+relation between these two
+
+00:08:07.200 --> 00:08:08.040 align:middle line:90%
+points on the tree.
+
+00:08:08.040 --> 00:08:11.380 align:middle line:90%
+It's-- what is it?
+
+00:08:11.380 --> 00:08:12.628 align:middle line:90%
+It's its aunt, yeah.
+
+00:08:12.628 --> 00:08:14.670 align:middle line:84%
+The prepositional phrase
+is the aunt of the verb.
+
+00:08:14.670 --> 00:08:16.850 align:middle line:84%
+That's not how
+actual syntacticians
+
+00:08:16.850 --> 00:08:18.100 align:middle line:90%
+talk about this kind of thing.
+
+00:08:18.100 --> 00:08:20.550 align:middle line:90%
+So they're not sisters.
+
+00:08:20.550 --> 00:08:22.320 align:middle line:84%
+So two kinds of
+things we can say.
+
+00:08:22.320 --> 00:08:25.650 align:middle line:84%
+Oh, what we're discovering is
+that we need ternary Merge.
+
+00:08:25.650 --> 00:08:27.750 align:middle line:84%
+We need these to
+both be sisters.
+
+00:08:27.750 --> 00:08:30.180 align:middle line:84%
+Another would be
+to say, oh, we're
+
+00:08:30.180 --> 00:08:33.789 align:middle line:84%
+discovering that selection
+isn't necessarily
+
+00:08:33.789 --> 00:08:35.039 align:middle line:90%
+for properties of your sister.
+
+00:08:35.039 --> 00:08:38.350 align:middle line:84%
+It's something more
+like you select things.
+
+00:08:38.350 --> 00:08:41.418 align:middle line:84%
+The first things that you merge
+must be things that you select.
+
+00:08:41.418 --> 00:08:43.960 align:middle line:84%
+We're going to circle around
+and talk about that in a second.
+
+00:08:43.960 --> 00:08:46.905 align:middle line:84%
+So to say something more
+elaborate about how you select.
+
+00:08:46.905 --> 00:08:48.280 align:middle line:84%
+So that's a really
+good question.
+
+00:08:48.280 --> 00:08:49.740 align:middle line:84%
+What we really need
+to do is develop
+
+00:08:49.740 --> 00:08:51.240 align:middle line:84%
+tests that will
+tell us whether this
+
+00:08:51.240 --> 00:08:53.340 align:middle line:84%
+is the right tree for
+something like this,
+
+00:08:53.340 --> 00:08:56.910 align:middle line:84%
+or whether we would rather
+have something like this, where
+
+00:08:56.910 --> 00:08:59.910 align:middle line:84%
+there's a verb and a noun
+phrase and prepositional phrase,
+
+00:08:59.910 --> 00:09:03.540 align:middle line:84%
+and Merge doesn't
+have to be binary.
+
+00:09:03.540 --> 00:09:07.290 align:middle line:84%
+Just to cheat a little
+bit, what we would find out
+
+00:09:07.290 --> 00:09:08.790 align:middle line:84%
+when we develop
+these kinds of tests
+
+00:09:08.790 --> 00:09:10.873 align:middle line:84%
+is that this is not the
+kind of tree that we want.
+
+00:09:10.873 --> 00:09:12.510 align:middle line:84%
+We want trees that
+are like this.
+
+00:09:12.510 --> 00:09:14.520 align:middle line:84%
+But we're going to
+have to do some work
+
+00:09:14.520 --> 00:09:16.810 align:middle line:90%
+to develop those tests.
+
+00:09:16.810 --> 00:09:17.310 align:middle line:90%
+Raquel?
+
+00:09:17.310 --> 00:09:19.050 align:middle line:84%
+AUDIENCE: I have
+a scary thought.
+
+00:09:19.050 --> 00:09:20.112 align:middle line:90%
+NORVIN RICHARDS: Oh, no.
+
+00:09:20.112 --> 00:09:22.770 align:middle line:84%
+AUDIENCE: The thought is
+like-- so about selected--
+
+00:09:22.770 --> 00:09:23.100 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:09:23.100 --> 00:09:24.240 align:middle line:84%
+AUDIENCE: I feel like
+there are some verbs,
+
+00:09:24.240 --> 00:09:25.157 align:middle line:90%
+like, you say "board."
+
+00:09:25.157 --> 00:09:26.100 align:middle line:90%
+Like you board a ship.
+
+00:09:26.100 --> 00:09:28.403 align:middle line:84%
+You kind of have, like, a
+secret selection inside of it
+
+00:09:28.403 --> 00:09:29.820 align:middle line:84%
+because you could
+think of "board"
+
+00:09:29.820 --> 00:09:31.005 align:middle line:90%
+as like get on the ship.
+
+00:09:31.005 --> 00:09:32.130 align:middle line:90%
+NORVIN RICHARDS: Oh, I see.
+
+00:09:32.130 --> 00:09:33.838 align:middle line:84%
+AUDIENCE: And so you'd
+be like, ah, "get"
+
+00:09:33.838 --> 00:09:36.020 align:middle line:84%
+is selecting for on the
+ship, a certain type
+
+00:09:36.020 --> 00:09:37.020 align:middle line:90%
+of prepositional phrase.
+
+00:09:37.020 --> 00:09:37.260 align:middle line:90%
+NORVIN RICHARDS: Mm-hmm.
+
+00:09:37.260 --> 00:09:40.230 align:middle line:84%
+AUDIENCE: Or you could have just
+"board," which kind of includes
+
+00:09:40.230 --> 00:09:40.920 align:middle line:90%
+it inside of it.
+
+00:09:40.920 --> 00:09:43.500 align:middle line:84%
+Like, also in Spanish, if you
+have words like "buscar," which
+
+00:09:43.500 --> 00:09:46.050 align:middle line:84%
+is, like, "to look
+for," and so it's, like,
+
+00:09:46.050 --> 00:09:50.490 align:middle line:84%
+could you think of "put"
+as a verb that maybe--
+
+00:09:50.490 --> 00:09:52.120 align:middle line:84%
+like if English
+had been different,
+
+00:09:52.120 --> 00:09:55.308 align:middle line:84%
+you could have a verb like
+"You put the refrigerator."
+
+00:09:55.308 --> 00:09:57.600 align:middle line:84%
+Everyone knows that you mean
+"put in the refrigerator."
+
+00:09:57.600 --> 00:09:58.650 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:09:58.650 --> 00:09:59.483 align:middle line:90%
+I see what you mean.
+
+00:09:59.483 --> 00:10:04.620 align:middle line:84%
+So you're pointing out something
+important, which is that--
+
+00:10:04.620 --> 00:10:06.030 align:middle line:90%
+here, let's do "look for."
+
+00:10:06.030 --> 00:10:07.890 align:middle line:84%
+But in English,
+we're going to want
+
+00:10:07.890 --> 00:10:10.320 align:middle line:84%
+to have a verb
+"look" that selects
+
+00:10:10.320 --> 00:10:13.455 align:middle line:84%
+for a prepositional phrase,
+where the preposition is "for."
+
+00:10:13.455 --> 00:10:16.320 align:middle line:90%
+
+
+00:10:16.320 --> 00:10:18.420 align:middle line:84%
+But that there are other
+languages like Spanish
+
+00:10:18.420 --> 00:10:20.628 align:middle line:84%
+in which there's a single
+verb that means "look for."
+
+00:10:20.628 --> 00:10:23.730 align:middle line:84%
+For that matter, in English,
+there's a verb "seek."
+
+00:10:23.730 --> 00:10:25.350 align:middle line:90%
+So it's kind of dramatic.
+
+00:10:25.350 --> 00:10:28.717 align:middle line:84%
+But if I go into a bookstore and
+say, "I'm looking for a book,"
+
+00:10:28.717 --> 00:10:30.300 align:middle line:84%
+that's the normal
+thing for me to say.
+
+00:10:30.300 --> 00:10:33.970 align:middle line:84%
+I could also go into a bookstore
+and say "I am seeking a book."
+
+00:10:33.970 --> 00:10:36.990 align:middle line:84%
+They would probably direct me
+to the fantasy, science fiction
+
+00:10:36.990 --> 00:10:40.420 align:middle line:90%
+section if I did that.
+
+00:10:40.420 --> 00:10:43.170 align:middle line:84%
+But those are both two
+ways to say the same thing.
+
+00:10:43.170 --> 00:10:46.580 align:middle line:84%
+So maybe the way to think
+about this is, yeah, Spanish
+
+00:10:46.580 --> 00:10:48.330 align:middle line:84%
+doesn't have a verb
+that means "look for."
+
+00:10:48.330 --> 00:10:50.100 align:middle line:90%
+It has a verb that means "seek."
+
+00:10:50.100 --> 00:10:54.060 align:middle line:90%
+And-- there.
+
+00:10:54.060 --> 00:10:54.780 align:middle line:90%
+Yeah.
+
+00:10:54.780 --> 00:10:56.197 align:middle line:84%
+Or maybe another
+way to say this--
+
+00:10:56.197 --> 00:10:58.560 align:middle line:84%
+and this is going to be
+important as you guys are doing
+
+00:10:58.560 --> 00:11:01.085 align:middle line:84%
+your work with the languages
+that you're working on--
+
+00:11:01.085 --> 00:11:02.460 align:middle line:84%
+is that you
+shouldn't necessarily
+
+00:11:02.460 --> 00:11:05.250 align:middle line:84%
+expect the selectional
+properties of a verb
+
+00:11:05.250 --> 00:11:08.280 align:middle line:84%
+to be the same from one
+language to the next.
+
+00:11:08.280 --> 00:11:11.205 align:middle line:84%
+That if you are inclined
+to think of Spanish--
+
+00:11:11.205 --> 00:11:13.140 align:middle line:90%
+is it "buscar"?--
+
+00:11:13.140 --> 00:11:15.570 align:middle line:84%
+as the equivalent of
+"look for," that we
+
+00:11:15.570 --> 00:11:18.660 align:middle line:84%
+want to think of
+that as-- as-- that
+
+00:11:18.660 --> 00:11:20.655 align:middle line:84%
+English has a verb
+"look" that selects
+
+00:11:20.655 --> 00:11:21.780 align:middle line:90%
+for a prepositional phrase.
+
+00:11:21.780 --> 00:11:24.090 align:middle line:84%
+Spanish has a verb "buscar"
+that's like "seek."
+
+00:11:24.090 --> 00:11:27.070 align:middle line:84%
+It selects for a noun
+phrase complement.
+
+00:11:27.070 --> 00:11:27.570 align:middle line:90%
+Yeah.
+
+00:11:27.570 --> 00:11:29.370 align:middle line:84%
+So you want to be
+careful as you are going
+
+00:11:29.370 --> 00:11:31.170 align:middle line:90%
+from language to language.
+
+00:11:31.170 --> 00:11:34.920 align:middle line:84%
+You can't trust
+selectional restrictions.
+
+00:11:34.920 --> 00:11:38.700 align:middle line:84%
+And indeed, so I've used
+"put" as the example
+
+00:11:38.700 --> 00:11:42.690 align:middle line:84%
+of a verb that has two things
+that it seems to select.
+
+00:11:42.690 --> 00:11:44.700 align:middle line:84%
+But there are probably
+examples of verbs
+
+00:11:44.700 --> 00:11:48.690 align:middle line:84%
+that select two things, where
+the two things are, say,
+
+00:11:48.690 --> 00:11:49.930 align:middle line:90%
+both noun phrases.
+
+00:11:49.930 --> 00:11:57.450 align:middle line:84%
+So take a verb like "give
+the children books."
+
+00:11:57.450 --> 00:12:01.500 align:middle line:84%
+So here we want there to be two
+noun phrases coming together
+
+00:12:01.500 --> 00:12:02.070 align:middle line:90%
+with "give."
+
+00:12:02.070 --> 00:12:04.110 align:middle line:90%
+And "give" selects those.
+
+00:12:04.110 --> 00:12:06.960 align:middle line:84%
+It's a property of
+"give" that it can
+
+00:12:06.960 --> 00:12:08.490 align:middle line:90%
+have two noun phrases after it.
+
+00:12:08.490 --> 00:12:09.900 align:middle line:90%
+And not every verb can do that.
+
+00:12:09.900 --> 00:12:12.840 align:middle line:90%
+"Put," for example, can't.
+
+00:12:12.840 --> 00:12:15.900 align:middle line:84%
+So even verbs that are fairly
+similar in their meaning,
+
+00:12:15.900 --> 00:12:16.980 align:middle line:90%
+like "donate"--
+
+00:12:16.980 --> 00:12:18.750 align:middle line:84%
+so you can't "donate
+the children books."
+
+00:12:18.750 --> 00:12:21.780 align:middle line:84%
+You have to donate
+books to the children.
+
+00:12:21.780 --> 00:12:25.080 align:middle line:84%
+So yes, as so often
+in this class,
+
+00:12:25.080 --> 00:12:27.690 align:middle line:84%
+I'm showing you the
+easiest examples here.
+
+00:12:27.690 --> 00:12:29.580 align:middle line:84%
+And as so often in
+this class, you guys
+
+00:12:29.580 --> 00:12:30.870 align:middle line:84%
+are immediately saying,
+wait, wait, what
+
+00:12:30.870 --> 00:12:32.162 align:middle line:90%
+about the complicated examples?
+
+00:12:32.162 --> 00:12:34.200 align:middle line:84%
+So, yes, there are more
+complicated examples.
+
+00:12:34.200 --> 00:12:35.490 align:middle line:84%
+We'll try to get to
+them, cases where you're
+
+00:12:35.490 --> 00:12:36.740 align:middle line:90%
+selecting more than one thing.
+
+00:12:36.740 --> 00:12:38.072 align:middle line:90%
+We'll come back to that.
+
+00:12:38.072 --> 00:12:39.280 align:middle line:90%
+We'll talk about it more now.
+
+00:12:39.280 --> 00:12:39.780 align:middle line:90%
+Yes?
+
+00:12:39.780 --> 00:12:41.973 align:middle line:84%
+AUDIENCE: So for give
+the children books,
+
+00:12:41.973 --> 00:12:43.140 align:middle line:90%
+how would you continue that?
+
+00:12:43.140 --> 00:12:45.670 align:middle line:90%
+[INAUDIBLE]?
+
+00:12:45.670 --> 00:12:47.940 align:middle line:84%
+NORVIN RICHARDS: So if
+we use the technology
+
+00:12:47.940 --> 00:12:51.240 align:middle line:84%
+that we have right now,
+we're kind of compelled
+
+00:12:51.240 --> 00:12:52.890 align:middle line:90%
+to have a tree like this one.
+
+00:12:52.890 --> 00:13:02.610 align:middle line:90%
+
+
+00:13:02.610 --> 00:13:04.350 align:middle line:84%
+I wrote this as
+capital N because I
+
+00:13:04.350 --> 00:13:06.690 align:middle line:84%
+knew I was about to
+write a noun phrase.
+
+00:13:06.690 --> 00:13:08.220 align:middle line:90%
+"Give the children books."
+
+00:13:08.220 --> 00:13:12.660 align:middle line:84%
+So where "give" needs to-- to
+combine with two noun phrases.
+
+00:13:12.660 --> 00:13:13.770 align:middle line:90%
+And Merge is binary.
+
+00:13:13.770 --> 00:13:16.490 align:middle line:84%
+And so we'll do
+binary merge twice.
+
+00:13:16.490 --> 00:13:18.990 align:middle line:84%
+That's a kind of tree that we
+could draw with the techniques
+
+00:13:18.990 --> 00:13:21.630 align:middle line:90%
+that we have right now.
+
+00:13:21.630 --> 00:13:29.230 align:middle line:84%
+I hope I hedged enough in there
+to make you feel emotionally
+
+00:13:29.230 --> 00:13:33.160 align:middle line:84%
+grounded enough that if it
+turns out later that that's not
+
+00:13:33.160 --> 00:13:36.580 align:middle line:84%
+the right tree, that you
+won't be too disappointed
+
+00:13:36.580 --> 00:13:38.830 align:middle line:84%
+because we're going to
+talk more about this stuff.
+
+00:13:38.830 --> 00:13:41.432 align:middle line:84%
+And our understanding will
+get more sophisticated.
+
+00:13:41.432 --> 00:13:43.390 align:middle line:84%
+But given everything I'm
+telling you right now,
+
+00:13:43.390 --> 00:13:45.890 align:middle line:90%
+that's the tree we expect.
+
+00:13:45.890 --> 00:13:47.690 align:middle line:90%
+Yes?
+
+00:13:47.690 --> 00:13:51.775 align:middle line:84%
+AUDIENCE: Do these trees have
+to have the words in sentence?
+
+00:13:51.775 --> 00:13:52.900 align:middle line:90%
+NORVIN RICHARDS: I'm sorry.
+
+00:13:52.900 --> 00:13:55.480 align:middle line:90%
+I missed the middle of that.
+
+00:13:55.480 --> 00:13:58.150 align:middle line:84%
+AUDIENCE: Do these
+trees have to have
+
+00:13:58.150 --> 00:14:00.880 align:middle line:84%
+exactly each and every
+word in each sentence?
+
+00:14:00.880 --> 00:14:05.590 align:middle line:90%
+Or could it fill in some words?
+
+00:14:05.590 --> 00:14:07.870 align:middle line:84%
+For example, I learned
+in elementary school
+
+00:14:07.870 --> 00:14:10.180 align:middle line:84%
+the subject of every
+command is "you."
+
+00:14:10.180 --> 00:14:11.485 align:middle line:90%
+NORVIN RICHARDS: Oh, mm-hmm.
+
+00:14:11.485 --> 00:14:15.976 align:middle line:84%
+AUDIENCE: Could you have
+"you" in parentheses
+
+00:14:15.976 --> 00:14:17.085 align:middle line:90%
+in one of these trees?
+
+00:14:17.085 --> 00:14:18.210 align:middle line:90%
+NORVIN RICHARDS: Oh, I see.
+
+00:14:18.210 --> 00:14:19.918 align:middle line:84%
+AUDIENCE: "Give (to)
+the children books."
+
+00:14:19.918 --> 00:14:20.970 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:14:20.970 --> 00:14:21.810 align:middle line:90%
+Oh, I see.
+
+00:14:21.810 --> 00:14:23.790 align:middle line:90%
+Oh.
+
+00:14:23.790 --> 00:14:27.220 align:middle line:84%
+That's a really interesting
+and difficult question.
+
+00:14:27.220 --> 00:14:29.790 align:middle line:90%
+The short answer is yes.
+
+00:14:29.790 --> 00:14:31.740 align:middle line:84%
+There absolutely
+are places where
+
+00:14:31.740 --> 00:14:34.930 align:middle line:84%
+we're going to want to say I'm
+showing you trees in which I'm
+
+00:14:34.930 --> 00:14:36.180 align:middle line:90%
+not showing you trees anymore.
+
+00:14:36.180 --> 00:14:37.710 align:middle line:90%
+I'm showing you a nebula.
+
+00:14:37.710 --> 00:14:40.440 align:middle line:90%
+Give me just a second.
+
+00:14:40.440 --> 00:14:45.600 align:middle line:84%
+I'm showing you trees in
+which every terminal node,
+
+00:14:45.600 --> 00:14:49.350 align:middle line:84%
+every head has
+one word under it.
+
+00:14:49.350 --> 00:14:51.750 align:middle line:84%
+And you're wondering,
+could there
+
+00:14:51.750 --> 00:14:54.930 align:middle line:84%
+be trees where
+there are nodes that
+
+00:14:54.930 --> 00:14:57.060 align:middle line:84%
+don't have anything
+under them or don't have
+
+00:14:57.060 --> 00:15:00.570 align:middle line:90%
+anything pronounced under them?
+
+00:15:00.570 --> 00:15:05.070 align:middle line:84%
+And indeed the short
+answer is yes, there surely
+
+00:15:05.070 --> 00:15:06.780 align:middle line:90%
+are going to be such trees.
+
+00:15:06.780 --> 00:15:10.320 align:middle line:90%
+Your example is a good one.
+
+00:15:10.320 --> 00:15:15.730 align:middle line:84%
+Do I want to go off
+and talk about that?
+
+00:15:15.730 --> 00:15:17.910 align:middle line:84%
+Yeah, let's talk about
+that for just a second.
+
+00:15:17.910 --> 00:15:24.510 align:middle line:90%
+
+
+00:15:24.510 --> 00:15:26.100 align:middle line:90%
+We talked a little bit before--
+
+00:15:26.100 --> 00:15:28.080 align:middle line:84%
+we're going to come
+back to this later.
+
+00:15:28.080 --> 00:15:31.680 align:middle line:84%
+But we talked a little
+bit before about--
+
+00:15:31.680 --> 00:15:35.100 align:middle line:90%
+yeah, we can do this fast--
+
+00:15:35.100 --> 00:15:39.750 align:middle line:84%
+constraints on things
+that pronouns and names
+
+00:15:39.750 --> 00:15:41.380 align:middle line:90%
+can refer to.
+
+00:15:41.380 --> 00:15:44.400 align:middle line:84%
+So for example, we talked
+about the fact that if you say,
+
+00:15:44.400 --> 00:15:49.800 align:middle line:84%
+"She likes Sally," that's
+a perfectly fine sentence.
+
+00:15:49.800 --> 00:15:55.360 align:middle line:84%
+But it can't mean that she
+and Sally are the same person,
+
+00:15:55.360 --> 00:15:55.860 align:middle line:90%
+right?
+
+00:15:55.860 --> 00:15:58.590 align:middle line:84%
+So "she" has to refer to
+somebody other than Sally.
+
+00:15:58.590 --> 00:16:02.828 align:middle line:84%
+And we developed a rule
+that has that consequence.
+
+00:16:02.828 --> 00:16:05.370 align:middle line:84%
+And I promised you that we would
+talk about that rule in more
+
+00:16:05.370 --> 00:16:07.390 align:middle line:90%
+depth later on.
+
+00:16:07.390 --> 00:16:10.660 align:middle line:90%
+Here's another kind of case.
+
+00:16:10.660 --> 00:16:20.040 align:middle line:84%
+If you say something like
+"Sally defended herself,"
+
+00:16:20.040 --> 00:16:23.100 align:middle line:84%
+there's this special
+expression "herself."
+
+00:16:23.100 --> 00:16:25.950 align:middle line:84%
+And it has to refer
+to Sally, right?
+
+00:16:25.950 --> 00:16:29.490 align:middle line:84%
+So "Sally defended herself"
+means Sally defended Sally.
+
+00:16:29.490 --> 00:16:33.420 align:middle line:84%
+So "herself" refers back
+to whoever the subject is.
+
+00:16:33.420 --> 00:16:35.610 align:middle line:84%
+If this had been "Mary
+defended herself," well,
+
+00:16:35.610 --> 00:16:37.500 align:middle line:84%
+it would have to be
+Mary defending Mary.
+
+00:16:37.500 --> 00:16:44.970 align:middle line:84%
+If it had been, "I
+defended myself," well,
+
+00:16:44.970 --> 00:16:48.000 align:middle line:84%
+then you have to use this
+special form of these words,
+
+00:16:48.000 --> 00:16:49.290 align:middle line:90%
+these "-self" words.
+
+00:16:49.290 --> 00:16:50.400 align:middle line:90%
+They're called reflexives.
+
+00:16:50.400 --> 00:16:55.950 align:middle line:90%
+
+
+00:16:55.950 --> 00:16:58.110 align:middle line:84%
+These reflexives
+have to refer back
+
+00:16:58.110 --> 00:16:59.670 align:middle line:84%
+to something else
+in the sentence.
+
+00:16:59.670 --> 00:17:02.867 align:middle line:84%
+In these examples, they
+always refer to the subject.
+
+00:17:02.867 --> 00:17:04.200 align:middle line:90%
+And they have to do that, right?
+
+00:17:04.200 --> 00:17:15.280 align:middle line:84%
+So you can't say things like, "I
+defended herself" or "himself,"
+
+00:17:15.280 --> 00:17:15.780 align:middle line:90%
+right?
+
+00:17:15.780 --> 00:17:17.069 align:middle line:90%
+These are out, yeah?
+
+00:17:17.069 --> 00:17:20.490 align:middle line:84%
+So the reflexive that's at
+the end of these sentences
+
+00:17:20.490 --> 00:17:23.250 align:middle line:84%
+has to refer back to the
+subject in these cases.
+
+00:17:23.250 --> 00:17:25.230 align:middle line:84%
+And the form of the
+reflexive tells you
+
+00:17:25.230 --> 00:17:26.730 align:middle line:84%
+something about
+what the subject is.
+
+00:17:26.730 --> 00:17:29.640 align:middle line:90%
+So you get, it's got--
+
+00:17:29.640 --> 00:17:30.540 align:middle line:90%
+so-- hmm.
+
+00:17:30.540 --> 00:17:32.100 align:middle line:84%
+You get "herself"
+when the subject
+
+00:17:32.100 --> 00:17:33.870 align:middle line:90%
+is feminine and third person.
+
+00:17:33.870 --> 00:17:36.870 align:middle line:84%
+And you got "myself" when
+the subject is first person.
+
+00:17:36.870 --> 00:17:42.750 align:middle line:84%
+And if it were "you
+defended," it would
+
+00:17:42.750 --> 00:17:45.570 align:middle line:90%
+be "defended yourself," yeah?
+
+00:17:45.570 --> 00:17:47.530 align:middle line:84%
+So this reflexive is
+telling you that it's
+
+00:17:47.530 --> 00:17:48.780 align:middle line:90%
+referring back to "you," yeah?
+
+00:17:48.780 --> 00:17:50.700 align:middle line:84%
+This means you
+defended you, yeah.
+
+00:17:50.700 --> 00:17:53.367 align:middle line:84%
+I'm telling you all this
+because your example
+
+00:17:53.367 --> 00:17:55.200 align:middle line:84%
+from elementary school
+is a really good one.
+
+00:17:55.200 --> 00:18:02.450 align:middle line:84%
+If I tell you, defend
+yourself, it's a command.
+
+00:18:02.450 --> 00:18:04.950 align:middle line:84%
+Well, everything that we've now
+learned about these reflexes
+
+00:18:04.950 --> 00:18:08.010 align:middle line:84%
+leads us to hope that there's
+a "you" in that sentence
+
+00:18:08.010 --> 00:18:10.710 align:middle line:84%
+because, well, that's what
+reflexives seemed to do.
+
+00:18:10.710 --> 00:18:13.020 align:middle line:90%
+They refer back to the subject.
+
+00:18:13.020 --> 00:18:16.017 align:middle line:84%
+And they have a form
+that tells you something
+
+00:18:16.017 --> 00:18:17.100 align:middle line:90%
+about what the subject is.
+
+00:18:17.100 --> 00:18:18.690 align:middle line:84%
+In this case, they tell
+you that the subject
+
+00:18:18.690 --> 00:18:21.240 align:middle line:84%
+is "you," which is what you were
+taught in elementary school,
+
+00:18:21.240 --> 00:18:22.330 align:middle line:90%
+yeah.
+
+00:18:22.330 --> 00:18:23.970 align:middle line:90%
+So you say "Defend yourself!"
+
+00:18:23.970 --> 00:18:24.810 align:middle line:90%
+And that's fine.
+
+00:18:24.810 --> 00:18:31.720 align:middle line:84%
+And you cannot say "Defend
+himself!" or "Defend myself!"--
+
+00:18:31.720 --> 00:18:32.220 align:middle line:90%
+right?
+
+00:18:32.220 --> 00:18:34.080 align:middle line:84%
+Just as you cannot
+say you defended--
+
+00:18:34.080 --> 00:18:35.620 align:middle line:84%
+you can say you
+defended yourself,
+
+00:18:35.620 --> 00:18:41.430 align:middle line:84%
+but not "You defended myself"
+or "himself" or "herself," yeah?
+
+00:18:41.430 --> 00:18:43.080 align:middle line:84%
+So indeed, there are
+some good reasons
+
+00:18:43.080 --> 00:18:44.872 align:middle line:84%
+to think that whoever
+told you that there's
+
+00:18:44.872 --> 00:18:47.010 align:middle line:84%
+a "you" in this
+sentence was right.
+
+00:18:47.010 --> 00:18:50.560 align:middle line:84%
+You can detect the "you" by
+using these reflexives, yeah.
+
+00:18:50.560 --> 00:18:54.240 align:middle line:84%
+So there are, indeed, words
+that are not pronounced.
+
+00:18:54.240 --> 00:18:56.740 align:middle line:84%
+And if we were going to draw
+a tree for defend yourself,
+
+00:18:56.740 --> 00:18:58.407 align:middle line:84%
+we'd probably want
+to say, yeah, there's
+
+00:18:58.407 --> 00:18:59.647 align:middle line:90%
+a "you" in subject position.
+
+00:18:59.647 --> 00:19:01.980 align:middle line:84%
+And there would have to be a
+rule saying don't pronounce
+
+00:19:01.980 --> 00:19:02.897 align:middle line:90%
+that particular "you."
+
+00:19:02.897 --> 00:19:05.480 align:middle line:84%
+So the short answer
+to your question
+
+00:19:05.480 --> 00:19:08.060 align:middle line:84%
+is, yes, there are parts of
+trees that are not pronounced.
+
+00:19:08.060 --> 00:19:12.410 align:middle line:84%
+And we may get a chance
+to talk more about.
+
+00:19:12.410 --> 00:19:12.920 align:middle line:90%
+All right.
+
+00:19:12.920 --> 00:19:14.270 align:middle line:90%
+That was a tangent.
+
+00:19:14.270 --> 00:19:15.950 align:middle line:90%
+Any other questions?
+
+00:19:15.950 --> 00:19:17.750 align:middle line:84%
+Take us back to
+this main line here.
+
+00:19:17.750 --> 00:19:21.948 align:middle line:90%
+
+
+00:19:21.948 --> 00:19:22.490 align:middle line:90%
+Where are we?
+
+00:19:22.490 --> 00:19:24.170 align:middle line:90%
+Yeah, so selection.
+
+00:19:24.170 --> 00:19:26.120 align:middle line:84%
+Heads select for properties
+of their sisters,
+
+00:19:26.120 --> 00:19:27.740 align:middle line:84%
+although several
+of you want to know
+
+00:19:27.740 --> 00:19:29.570 align:middle line:84%
+what happens when they seem
+to have more than one thing
+
+00:19:29.570 --> 00:19:30.470 align:middle line:90%
+that they select.
+
+00:19:30.470 --> 00:19:33.050 align:middle line:90%
+And I'm trying to--
+
+00:19:33.050 --> 00:19:35.750 align:middle line:84%
+well, I'm not exactly ruthlessly
+suppressing that question.
+
+00:19:35.750 --> 00:19:37.430 align:middle line:84%
+But I'm telling you
+what we currently
+
+00:19:37.430 --> 00:19:40.460 align:middle line:84%
+seem to have to say about
+it and maybe flagging
+
+00:19:40.460 --> 00:19:43.970 align:middle line:84%
+the possibility that we'll have
+to say different things later.
+
+00:19:43.970 --> 00:19:46.660 align:middle line:90%
+So far so good?
+
+00:19:46.660 --> 00:19:48.910 align:middle line:90%
+So, yeah, right.
+
+00:19:48.910 --> 00:19:51.520 align:middle line:84%
+And when selection is
+for something specific--
+
+00:19:51.520 --> 00:19:54.640 align:middle line:84%
+so this was the point I was
+trying to make with this slide.
+
+00:19:54.640 --> 00:19:57.250 align:middle line:84%
+When a verb selects
+for something specific,
+
+00:19:57.250 --> 00:20:00.040 align:middle line:84%
+a verb can, for example, say
+I need a prepositional phrase.
+
+00:20:00.040 --> 00:20:02.620 align:middle line:84%
+And I need the
+preposition to be "on."
+
+00:20:02.620 --> 00:20:04.348 align:middle line:84%
+Or I need a
+prepositional phrase--
+
+00:20:04.348 --> 00:20:05.140 align:middle line:90%
+this is like "put."
+
+00:20:05.140 --> 00:20:06.310 align:middle line:90%
+I need a prepositional phrase.
+
+00:20:06.310 --> 00:20:08.477 align:middle line:84%
+And I need the preposition
+to be something locative.
+
+00:20:08.477 --> 00:20:11.500 align:middle line:84%
+It needs to describe
+a location, yeah.
+
+00:20:11.500 --> 00:20:13.780 align:middle line:84%
+So "depend" selects for
+a prepositional phrase
+
+00:20:13.780 --> 00:20:15.770 align:middle line:90%
+with the head "on."
+
+00:20:15.770 --> 00:20:18.490 align:middle line:84%
+We're never going to find, for
+example, a verb that selects
+
+00:20:18.490 --> 00:20:19.690 align:middle line:90%
+for a prepositional phrase--
+
+00:20:19.690 --> 00:20:21.398 align:middle line:84%
+and I don't care what
+the preposition is,
+
+00:20:21.398 --> 00:20:23.085 align:middle line:84%
+but the object
+must be "tomatoes."
+
+00:20:23.085 --> 00:20:24.460 align:middle line:84%
+We won't find
+anything like that.
+
+00:20:24.460 --> 00:20:28.360 align:middle line:84%
+So verbs select
+for their sisters--
+
+00:20:28.360 --> 00:20:31.120 align:middle line:84%
+sisters in all the cases
+I'm going to show you.
+
+00:20:31.120 --> 00:20:32.650 align:middle line:90%
+They select for their sisters.
+
+00:20:32.650 --> 00:20:34.570 align:middle line:84%
+But what they
+select specifically
+
+00:20:34.570 --> 00:20:36.610 align:middle line:84%
+is sisters with a
+particular head.
+
+00:20:36.610 --> 00:20:38.440 align:middle line:84%
+They don't say
+things like, I select
+
+00:20:38.440 --> 00:20:41.380 align:middle line:84%
+for a sister whose
+complement must be this
+
+00:20:41.380 --> 00:20:44.140 align:middle line:84%
+or which must contain
+a tomato or which
+
+00:20:44.140 --> 00:20:45.837 align:middle line:90%
+must be modified by an adverb.
+
+00:20:45.837 --> 00:20:47.170 align:middle line:90%
+Heads don't do things like that.
+
+00:20:47.170 --> 00:20:49.150 align:middle line:84%
+They select for properties
+of their sisters,
+
+00:20:49.150 --> 00:20:52.025 align:middle line:84%
+specifically the heads
+of their sisters.
+
+00:20:52.025 --> 00:20:54.400 align:middle line:84%
+And once we know that-- this
+is what I said in class last
+
+00:20:54.400 --> 00:20:55.300 align:middle line:90%
+time--
+
+00:20:55.300 --> 00:21:00.460 align:middle line:84%
+we can use that
+fact about selection
+
+00:21:00.460 --> 00:21:05.620 align:middle line:84%
+to detect other heads,
+so other kinds of things
+
+00:21:05.620 --> 00:21:08.440 align:middle line:84%
+that seem to be in
+this selection relation
+
+00:21:08.440 --> 00:21:11.200 align:middle line:84%
+with other words in the
+sentence, other heads
+
+00:21:11.200 --> 00:21:11.960 align:middle line:90%
+in the sentence.
+
+00:21:11.960 --> 00:21:14.890 align:middle line:84%
+So when we see other
+cases where there's
+
+00:21:14.890 --> 00:21:18.518 align:middle line:84%
+a particular word in the
+sentence whose value seems
+
+00:21:18.518 --> 00:21:20.560 align:middle line:84%
+to be determined by another
+word in the sentence,
+
+00:21:20.560 --> 00:21:23.050 align:middle line:84%
+we get to think, oh, OK, maybe
+that's a selection relation.
+
+00:21:23.050 --> 00:21:25.810 align:middle line:84%
+This was the example
+I gave you last time.
+
+00:21:25.810 --> 00:21:30.280 align:middle line:84%
+Verbs seem to be able
+to select for properties
+
+00:21:30.280 --> 00:21:33.010 align:middle line:90%
+of the clause that follows them.
+
+00:21:33.010 --> 00:21:34.990 align:middle line:84%
+So there are verbs
+like "think" that
+
+00:21:34.990 --> 00:21:36.580 align:middle line:90%
+can be followed by a clause.
+
+00:21:36.580 --> 00:21:38.980 align:middle line:84%
+Not every verb can be
+followed by a clause, right?
+
+00:21:38.980 --> 00:21:41.530 align:middle line:90%
+So "I devoured the pizza."
+
+00:21:41.530 --> 00:21:43.570 align:middle line:84%
+"Devour" can be followed
+by a noun phrase.
+
+00:21:43.570 --> 00:21:46.550 align:middle line:84%
+But "I devoured that I
+have won the lottery"
+
+00:21:46.550 --> 00:21:47.570 align:middle line:90%
+doesn't make sense.
+
+00:21:47.570 --> 00:21:50.780 align:middle line:84%
+So this looks like a
+selection relation.
+
+00:21:50.780 --> 00:21:53.260 align:middle line:84%
+And specifically, it's
+a selection relation
+
+00:21:53.260 --> 00:21:56.980 align:middle line:84%
+that's picky about these words
+that introduce the clause that
+
+00:21:56.980 --> 00:21:59.440 align:middle line:84%
+come at the beginning
+of the clause, words
+
+00:21:59.440 --> 00:22:00.670 align:middle line:90%
+like "that" and "whether."
+
+00:22:00.670 --> 00:22:04.240 align:middle line:84%
+So "think" can be
+followed by a clause where
+
+00:22:04.240 --> 00:22:06.340 align:middle line:84%
+the word that introduces
+the clauses is "that."
+
+00:22:06.340 --> 00:22:07.715 align:middle line:84%
+You can say things
+like, "I think
+
+00:22:07.715 --> 00:22:09.070 align:middle line:90%
+that I have won the lottery."
+
+00:22:09.070 --> 00:22:11.605 align:middle line:84%
+"Wonder" can be followed
+by a clause where
+
+00:22:11.605 --> 00:22:13.480 align:middle line:84%
+the word that introduces
+the following clause
+
+00:22:13.480 --> 00:22:15.310 align:middle line:84%
+is "whether," as in,
+"I wonder whether I
+
+00:22:15.310 --> 00:22:16.480 align:middle line:90%
+have won the lottery."
+
+00:22:16.480 --> 00:22:19.660 align:middle line:84%
+And these verbs
+can't be switched.
+
+00:22:19.660 --> 00:22:21.920 align:middle line:84%
+So you can say "I think that
+I have won the lottery."
+
+00:22:21.920 --> 00:22:24.620 align:middle line:84%
+You cannot say "I think whether
+I have won the lottery."
+
+00:22:24.620 --> 00:22:26.870 align:middle line:84%
+You can say "I wonder whether
+I have won the lottery."
+
+00:22:26.870 --> 00:22:29.380 align:middle line:84%
+You cannot say "I wonder
+that I have won the lottery."
+
+00:22:29.380 --> 00:22:32.132 align:middle line:84%
+And I was saying this looks
+kind of like "depend" and "on".
+
+00:22:32.132 --> 00:22:34.090 align:middle line:84%
+"Think" needs a clause
+that starts with "that."
+
+00:22:34.090 --> 00:22:36.215 align:middle line:84%
+"Wonder" needs a clause
+that starts with "whether."
+
+00:22:36.215 --> 00:22:38.650 align:middle line:84%
+"Depend" needs a prepositional
+phrase that has "on" in it.
+
+00:22:38.650 --> 00:22:41.380 align:middle line:84%
+And just like with "depend" and
+"on," we said, yeah, "depend"
+
+00:22:41.380 --> 00:22:45.250 align:middle line:84%
+is selecting for a prepositional
+phrase with a particular head.
+
+00:22:45.250 --> 00:22:46.810 align:middle line:84%
+We get to say,
+oh, OK, apparently
+
+00:22:46.810 --> 00:22:48.520 align:middle line:84%
+"that" and "whether"
+are the heads
+
+00:22:48.520 --> 00:22:51.290 align:middle line:84%
+of the clause that's getting
+selected by the verb.
+
+00:22:51.290 --> 00:22:53.350 align:middle line:84%
+So "think" and
+"wonder" are selecting
+
+00:22:53.350 --> 00:22:55.390 align:middle line:84%
+for clauses that
+are headed by words
+
+00:22:55.390 --> 00:22:56.500 align:middle line:90%
+like "that" and "whether."
+
+00:22:56.500 --> 00:22:59.050 align:middle line:84%
+We have a word for words
+like "that" and "whether"--
+
+00:22:59.050 --> 00:23:03.010 align:middle line:90%
+we call them "complementizers."
+
+00:23:03.010 --> 00:23:05.210 align:middle line:84%
+I think I apologized
+for that word last time.
+
+00:23:05.210 --> 00:23:07.460 align:middle line:84%
+I'll just apologize for it
+again because it's probably
+
+00:23:07.460 --> 00:23:09.310 align:middle line:84%
+not the word you
+learned for those things
+
+00:23:09.310 --> 00:23:11.170 align:middle line:84%
+in elementary school
+or high school.
+
+00:23:11.170 --> 00:23:14.335 align:middle line:84%
+You might have heard
+them called conjunctions,
+
+00:23:14.335 --> 00:23:16.810 align:middle line:84%
+so "subordinating conjunctions,"
+lots of things people
+
+00:23:16.810 --> 00:23:18.100 align:middle line:90%
+call them.
+
+00:23:18.100 --> 00:23:20.290 align:middle line:84%
+But in linguistics, we
+call them complementizers.
+
+00:23:20.290 --> 00:23:23.590 align:middle line:84%
+So I'll have to ask you to
+join me in calling them that.
+
+00:23:23.590 --> 00:23:26.800 align:middle line:84%
+So the abbreviation for
+complementizer is C.
+
+00:23:26.800 --> 00:23:31.780 align:middle line:84%
+And the phrase is the sister of
+verbs like "think" and "wonder"
+
+00:23:31.780 --> 00:23:34.240 align:middle line:84%
+is a complementizer
+phrase, a CP.
+
+00:23:34.240 --> 00:23:36.550 align:middle line:84%
+It's a phrase that's headed
+by "that" or "whether,"
+
+00:23:36.550 --> 00:23:39.640 align:middle line:90%
+these complementizers.
+
+00:23:39.640 --> 00:23:40.708 align:middle line:90%
+So I'll review.
+
+00:23:40.708 --> 00:23:42.625 align:middle line:84%
+Hopefully it sounds at
+least vaguely familiar.
+
+00:23:42.625 --> 00:23:46.360 align:middle line:90%
+
+
+00:23:46.360 --> 00:23:48.738 align:middle line:84%
+So now here we are back
+at the original tree.
+
+00:23:48.738 --> 00:23:50.530 align:middle line:84%
+"I will tickle the
+child with the feather."
+
+00:23:50.530 --> 00:23:52.270 align:middle line:84%
+We've talked a lot about
+selection relations.
+
+00:23:52.270 --> 00:23:54.312 align:middle line:84%
+We've said that selection
+relations are relations
+
+00:23:54.312 --> 00:24:00.160 align:middle line:84%
+between heads and phrases, many
+cases, the sister of the head.
+
+00:24:00.160 --> 00:24:02.770 align:middle line:84%
+And in particular,
+selection relations
+
+00:24:02.770 --> 00:24:04.960 align:middle line:84%
+seem to be picky
+about when there
+
+00:24:04.960 --> 00:24:08.890 align:middle line:84%
+is pickiness about the
+head of the phrase that's
+
+00:24:08.890 --> 00:24:09.648 align:middle line:90%
+getting selected.
+
+00:24:09.648 --> 00:24:12.190 align:middle line:84%
+So we've seen examples of that
+now with prepositional phrases
+
+00:24:12.190 --> 00:24:17.980 align:middle line:84%
+and now with Complementizer
+Phrases, CPs, not clauses.
+
+00:24:17.980 --> 00:24:22.370 align:middle line:84%
+But-- and this is near the
+end of what we did last time--
+
+00:24:22.370 --> 00:24:26.230 align:middle line:84%
+there is more to
+life than selection,
+
+00:24:26.230 --> 00:24:27.850 align:middle line:84%
+not much more,
+but a little more.
+
+00:24:27.850 --> 00:24:34.970 align:middle line:84%
+So we don't want to say
+that "tickle" or "child" is
+
+00:24:34.970 --> 00:24:37.550 align:middle line:84%
+selecting "with a
+feather," right?
+
+00:24:37.550 --> 00:24:42.890 align:middle line:84%
+So when I told you that
+tickle is selecting the child,
+
+00:24:42.890 --> 00:24:45.260 align:middle line:84%
+one of the ways I
+tried to convince you
+
+00:24:45.260 --> 00:24:47.840 align:middle line:84%
+of that was to say,
+yeah, not every verb
+
+00:24:47.840 --> 00:24:49.460 align:middle line:90%
+can be followed by an object.
+
+00:24:49.460 --> 00:24:51.570 align:middle line:84%
+There are transitive verbs
+and intransitive verbs.
+
+00:24:51.570 --> 00:24:53.028 align:middle line:84%
+That's the kind of
+thing that makes
+
+00:24:53.028 --> 00:24:55.010 align:middle line:84%
+us think we're looking
+at a selection relation.
+
+00:24:55.010 --> 00:24:58.580 align:middle line:84%
+But any verb can be followed
+by "with the feather."
+
+00:24:58.580 --> 00:25:00.067 align:middle line:84%
+You can do anything
+with a feather.
+
+00:25:00.067 --> 00:25:01.650 align:middle line:84%
+You can tickle a
+child with a feather.
+
+00:25:01.650 --> 00:25:03.020 align:middle line:84%
+Or you can devour a
+child with a feather.
+
+00:25:03.020 --> 00:25:04.170 align:middle line:84%
+You can write a
+novel with a feather.
+
+00:25:04.170 --> 00:25:05.545 align:middle line:84%
+Or you can thrive
+with a feather.
+
+00:25:05.545 --> 00:25:08.090 align:middle line:84%
+Feathers, they're just
+very, very flexible tools.
+
+00:25:08.090 --> 00:25:09.500 align:middle line:90%
+You can do anything with them.
+
+00:25:09.500 --> 00:25:12.752 align:middle line:84%
+Again, some of these things
+make more sense than others.
+
+00:25:12.752 --> 00:25:14.960 align:middle line:84%
+So it's not clear what you
+mean when you say that you
+
+00:25:14.960 --> 00:25:17.180 align:middle line:90%
+will thrive with a feather.
+
+00:25:17.180 --> 00:25:18.480 align:middle line:90%
+Or for that matter--
+
+00:25:18.480 --> 00:25:20.120 align:middle line:84%
+well, it's actually
+fairly clear what
+
+00:25:20.120 --> 00:25:22.578 align:middle line:84%
+you mean when you say you'll
+devour a child with a feather.
+
+00:25:22.578 --> 00:25:26.178 align:middle line:84%
+It just doesn't bear
+thinking about too closely.
+
+00:25:26.178 --> 00:25:28.220 align:middle line:84%
+But basically you can do
+anything with a feather.
+
+00:25:28.220 --> 00:25:31.100 align:middle line:84%
+There's nothing like verbs are
+transitive and intransitive.
+
+00:25:31.100 --> 00:25:33.020 align:middle line:84%
+So this particular
+prepositional phrase,
+
+00:25:33.020 --> 00:25:37.320 align:middle line:84%
+this sort of instrument, can
+go together with anything.
+
+00:25:37.320 --> 00:25:41.810 align:middle line:84%
+And so we don't seem to want to
+say that there is a selection
+
+00:25:41.810 --> 00:25:44.000 align:middle line:84%
+relation between this
+prepositional phrase
+
+00:25:44.000 --> 00:25:45.080 align:middle line:90%
+and anything at all.
+
+00:25:45.080 --> 00:25:48.030 align:middle line:90%
+
+
+00:25:48.030 --> 00:25:50.210 align:middle line:84%
+So there's a
+distinction that we draw
+
+00:25:50.210 --> 00:25:52.602 align:middle line:84%
+between what are
+called arguments
+
+00:25:52.602 --> 00:25:53.810 align:middle line:90%
+and what are called adjuncts.
+
+00:25:53.810 --> 00:25:57.440 align:middle line:84%
+So arguments, like "the child"
+in "I will tickle the child
+
+00:25:57.440 --> 00:26:00.530 align:middle line:84%
+with a feather," are things
+that are selected by something,
+
+00:26:00.530 --> 00:26:02.030 align:middle line:90%
+in this case, the verb.
+
+00:26:02.030 --> 00:26:06.380 align:middle line:84%
+And the adjuncts are just
+phrases that wandered in.
+
+00:26:06.380 --> 00:26:08.010 align:middle line:84%
+They're not selected
+by anything.
+
+00:26:08.010 --> 00:26:10.585 align:middle line:84%
+They're just there
+because they want to be.
+
+00:26:10.585 --> 00:26:11.960 align:middle line:84%
+They're not selected
+by anything.
+
+00:26:11.960 --> 00:26:14.100 align:middle line:84%
+You get to put them in
+because you feel like it.
+
+00:26:14.100 --> 00:26:16.820 align:middle line:84%
+They're often modifiers
+sort of like this one.
+
+00:26:16.820 --> 00:26:19.812 align:middle line:90%
+
+
+00:26:19.812 --> 00:26:20.770 align:middle line:90%
+So there are arguments.
+
+00:26:20.770 --> 00:26:23.415 align:middle line:90%
+And then there are adjuncts.
+
+00:26:23.415 --> 00:26:24.790 align:middle line:84%
+How do you tell
+whether something
+
+00:26:24.790 --> 00:26:26.320 align:middle line:90%
+is an argument or an adjunct?
+
+00:26:26.320 --> 00:26:29.320 align:middle line:84%
+I think I warned you last time
+this is something that people
+
+00:26:29.320 --> 00:26:30.790 align:middle line:90%
+often get confused by.
+
+00:26:30.790 --> 00:26:34.450 align:middle line:84%
+And so I want to
+be clear about it.
+
+00:26:34.450 --> 00:26:38.260 align:middle line:84%
+Again, when we decided that "the
+child" is selected by "tickle,"
+
+00:26:38.260 --> 00:26:40.330 align:middle line:84%
+what we were doing
+was saying not
+
+00:26:40.330 --> 00:26:43.430 align:middle line:84%
+every verb can be
+followed by an object.
+
+00:26:43.430 --> 00:26:46.330 align:middle line:84%
+So if you're going to have a
+child right after the verb,
+
+00:26:46.330 --> 00:26:47.727 align:middle line:84%
+you have to know
+what verb it is.
+
+00:26:47.727 --> 00:26:49.810 align:middle line:84%
+There are transitive verbs
+and intransitive verbs.
+
+00:26:49.810 --> 00:26:51.940 align:middle line:84%
+And some verbs are OK
+with the following object,
+
+00:26:51.940 --> 00:26:54.580 align:middle line:90%
+and others or not.
+
+00:26:54.580 --> 00:26:58.520 align:middle line:84%
+That's the signature of
+a selection relation.
+
+00:26:58.520 --> 00:27:00.700 align:middle line:84%
+So the arguments are
+picky about which
+
+00:27:00.700 --> 00:27:04.000 align:middle line:84%
+heads they can combine
+with, and adjuncts are not.
+
+00:27:04.000 --> 00:27:05.830 align:middle line:84%
+What people sometimes
+get confused about
+
+00:27:05.830 --> 00:27:09.318 align:middle line:84%
+is thinking that it's the
+opposite, that the pickiness
+
+00:27:09.318 --> 00:27:10.610 align:middle line:90%
+goes in the opposite direction.
+
+00:27:10.610 --> 00:27:14.440 align:middle line:84%
+So people think here's a verb
+that needs to have an object.
+
+00:27:14.440 --> 00:27:15.940 align:middle line:84%
+And I've probably
+said things that
+
+00:27:15.940 --> 00:27:17.290 align:middle line:90%
+led you down this garden path.
+
+00:27:17.290 --> 00:27:20.110 align:middle line:84%
+So there are indeed verbs that
+are obligatorily transitive.
+
+00:27:20.110 --> 00:27:22.210 align:middle line:84%
+I think the example I
+gave before was "devour."
+
+00:27:22.210 --> 00:27:31.090 align:middle line:84%
+So "The dragon
+devoured pizza"---
+
+00:27:31.090 --> 00:27:34.270 align:middle line:84%
+because we've devoured enough
+children for one class,
+
+00:27:34.270 --> 00:27:35.200 align:middle line:90%
+possibly too many--
+
+00:27:35.200 --> 00:27:36.580 align:middle line:90%
+"The dragon devoured the pizza."
+
+00:27:36.580 --> 00:27:39.670 align:middle line:84%
+"Devour" actually has to
+combine with an object.
+
+00:27:39.670 --> 00:27:42.460 align:middle line:84%
+Not only is this a
+selection relation
+
+00:27:42.460 --> 00:27:44.440 align:middle line:84%
+because not just any
+verb can have an object,
+
+00:27:44.440 --> 00:27:48.040 align:middle line:84%
+but actually, "devour" has
+to combine with an object.
+
+00:27:48.040 --> 00:27:50.290 align:middle line:84%
+It's ungrammatical
+without the pizza.
+
+00:27:50.290 --> 00:27:54.310 align:middle line:84%
+So if I take out the pizza,
+it becomes star, yeah?
+
+00:27:54.310 --> 00:27:58.560 align:middle line:84%
+So "The dragon devoured,"
+that's not a sentence.
+
+00:27:58.560 --> 00:28:00.890 align:middle line:84%
+So that's an argument, which
+is actually obligatory.
+
+00:28:00.890 --> 00:28:02.390 align:middle line:90%
+"Devour" has to be transitive.
+
+00:28:02.390 --> 00:28:05.450 align:middle line:84%
+But there are plenty of
+verbs that-- in fact, it's
+
+00:28:05.450 --> 00:28:09.380 align:middle line:84%
+more common for verbs to
+be optionally transitive.
+
+00:28:09.380 --> 00:28:11.900 align:middle line:84%
+So "devour" needs
+to have an object.
+
+00:28:11.900 --> 00:28:16.342 align:middle line:84%
+But "eat," which means almost
+the same thing as "devour,"
+
+00:28:16.342 --> 00:28:17.550 align:middle line:90%
+the transitivity is optional.
+
+00:28:17.550 --> 00:28:18.758 align:middle line:90%
+You can say "I ate an apple."
+
+00:28:18.758 --> 00:28:21.140 align:middle line:90%
+But you can also say "I ate."
+
+00:28:21.140 --> 00:28:24.080 align:middle line:84%
+Obligatorily transitive verbs
+are actually kind of rare.
+
+00:28:24.080 --> 00:28:26.660 align:middle line:84%
+And the best ones
+are kind of violent.
+
+00:28:26.660 --> 00:28:29.600 align:middle line:84%
+They are things like
+"eviscerate" and "devour"
+
+00:28:29.600 --> 00:28:30.290 align:middle line:90%
+and "mutilate."
+
+00:28:30.290 --> 00:28:32.420 align:middle line:84%
+Those are the really
+clear transitive verbs.
+
+00:28:32.420 --> 00:28:34.760 align:middle line:84%
+They're-- very handy
+in syntax classes.
+
+00:28:34.760 --> 00:28:35.300 align:middle line:90%
+Yes?
+
+00:28:35.300 --> 00:28:40.046 align:middle line:84%
+AUDIENCE: So are we suggesting
+the fact that since [INAUDIBLE]
+
+00:28:40.046 --> 00:28:44.187 align:middle line:84%
+property of a feather, or is
+that any adjunct can modify?
+
+00:28:44.187 --> 00:28:46.520 align:middle line:84%
+NORVIN RICHARDS: We're talking
+as though any adjunct can
+
+00:28:46.520 --> 00:28:47.780 align:middle line:90%
+modify anything.
+
+00:28:47.780 --> 00:28:52.950 align:middle line:84%
+And so this is another
+one of those places where
+
+00:28:52.950 --> 00:28:57.690 align:middle line:84%
+we have to carefully distinguish
+between syntax and semantics.
+
+00:28:57.690 --> 00:28:59.820 align:middle line:84%
+There are surely
+things that it's
+
+00:28:59.820 --> 00:29:03.670 align:middle line:84%
+very difficult to imagine
+anybody doing with a feather,
+
+00:29:03.670 --> 00:29:04.290 align:middle line:90%
+right?
+
+00:29:04.290 --> 00:29:07.810 align:middle line:90%
+But those kinds of cases--
+
+00:29:07.810 --> 00:29:11.250 align:middle line:90%
+so what's an example?
+
+00:29:11.250 --> 00:29:16.950 align:middle line:84%
+"She proved Fermat's last
+theorem with a feather," right?
+
+00:29:16.950 --> 00:29:20.010 align:middle line:84%
+I don't know how she
+would do that, right?
+
+00:29:20.010 --> 00:29:22.320 align:middle line:90%
+But that's a math problem.
+
+00:29:22.320 --> 00:29:23.770 align:middle line:90%
+That's not a syntax problem.
+
+00:29:23.770 --> 00:29:26.160 align:middle line:90%
+So the sentence is grammatical.
+
+00:29:26.160 --> 00:29:28.020 align:middle line:90%
+We just can't figure out--
+
+00:29:28.020 --> 00:29:29.980 align:middle line:84%
+I wouldn't be able to
+draw a picture of it.
+
+00:29:29.980 --> 00:29:30.940 align:middle line:90%
+Does that make sense?
+
+00:29:30.940 --> 00:29:32.970 align:middle line:84%
+So, yeah, what we're saying is
+that that prepositional phrase
+
+00:29:32.970 --> 00:29:34.920 align:middle line:84%
+can combine with
+anything in principle.
+
+00:29:34.920 --> 00:29:37.500 align:middle line:84%
+Though there may be
+kinds of combinations
+
+00:29:37.500 --> 00:29:40.480 align:middle line:84%
+that will give us meanings that
+are kind of hard to understand.
+
+00:29:40.480 --> 00:29:41.250 align:middle line:90%
+Yeah, Joseph?
+
+00:29:41.250 --> 00:29:43.660 align:middle line:84%
+AUDIENCE: [INAUDIBLE]
+stylistically common that
+
+00:29:43.660 --> 00:29:45.070 align:middle line:90%
+violent words--
+
+00:29:45.070 --> 00:29:47.070 align:middle line:84%
+NORVIN RICHARDS: --are
+the most transitive ones?
+
+00:29:47.070 --> 00:29:48.580 align:middle line:90%
+I think it is, yeah.
+
+00:29:48.580 --> 00:29:51.000 align:middle line:84%
+Yeah, there's something about
+violence and transitivity,
+
+00:29:51.000 --> 00:29:52.473 align:middle line:90%
+yeah.
+
+00:29:52.473 --> 00:29:53.890 align:middle line:84%
+Something to think
+about as you're
+
+00:29:53.890 --> 00:29:58.090 align:middle line:84%
+working on your
+languages, if you want to.
+
+00:29:58.090 --> 00:30:00.880 align:middle line:84%
+So arguments are picky about
+what heads they combined with.
+
+00:30:00.880 --> 00:30:03.628 align:middle line:84%
+But there are--
+to look at things
+
+00:30:03.628 --> 00:30:05.170 align:middle line:84%
+from the other
+perspective, if you're
+
+00:30:05.170 --> 00:30:08.980 align:middle line:84%
+asking for a particular
+head, if you see a head
+
+00:30:08.980 --> 00:30:11.140 align:middle line:84%
+and it's followed by a
+phrase, the question you
+
+00:30:11.140 --> 00:30:13.720 align:middle line:84%
+ask yourself is not "Is
+that phrase optional?"
+
+00:30:13.720 --> 00:30:15.770 align:middle line:90%
+People often ask that question.
+
+00:30:15.770 --> 00:30:18.785 align:middle line:84%
+And it's a question that gets
+you in the wrong direction.
+
+00:30:18.785 --> 00:30:21.160 align:middle line:84%
+There are plenty of examples
+of things that are, in fact,
+
+00:30:21.160 --> 00:30:22.493 align:middle line:90%
+arguments, but they're optional.
+
+00:30:22.493 --> 00:30:28.240 align:middle line:90%
+
+
+00:30:28.240 --> 00:30:31.325 align:middle line:84%
+And then I think this is the
+last thing we did last time.
+
+00:30:31.325 --> 00:30:33.700 align:middle line:84%
+I was trying to illustrate
+arguments and adjuncts to you.
+
+00:30:33.700 --> 00:30:36.970 align:middle line:84%
+And we were in the middle
+of deciding on the boat.
+
+00:30:36.970 --> 00:30:40.280 align:middle line:84%
+So let's decide on the
+boat again, fairly quickly.
+
+00:30:40.280 --> 00:30:42.910 align:middle line:84%
+So what we decided
+was that the sentence
+
+00:30:42.910 --> 00:30:46.460 align:middle line:84%
+"I decided on the boat" can
+mean at least two things.
+
+00:30:46.460 --> 00:30:49.180 align:middle line:84%
+It can mean either I had
+some decision to make,
+
+00:30:49.180 --> 00:30:52.420 align:middle line:84%
+and I made it while I
+was on the boat, right?
+
+00:30:52.420 --> 00:30:54.562 align:middle line:84%
+Or it could mean I
+chose the boat, right?
+
+00:30:54.562 --> 00:30:57.020 align:middle line:84%
+I was trying to choose between
+the boat and something else.
+
+00:30:57.020 --> 00:30:59.860 align:middle line:90%
+And I chose the boat.
+
+00:30:59.860 --> 00:31:04.960 align:middle line:84%
+And what we said was, if we
+ask, "The prepositional phrase
+
+00:31:04.960 --> 00:31:08.080 align:middle line:84%
+'on the boat,' is that an
+argument or an adjunct?"
+
+00:31:08.080 --> 00:31:11.290 align:middle line:84%
+the answer to that
+question is yes.
+
+00:31:11.290 --> 00:31:12.580 align:middle line:90%
+It can be an adjunct.
+
+00:31:12.580 --> 00:31:14.950 align:middle line:84%
+"I made my decision"
+when it has the--
+
+00:31:14.950 --> 00:31:16.870 align:middle line:84%
+when the sentence means
+"I made my decision
+
+00:31:16.870 --> 00:31:21.460 align:middle line:84%
+while I was on the boat," then
+"on the boat" is an adjunct.
+
+00:31:21.460 --> 00:31:22.585 align:middle line:90%
+You can kind of see why.
+
+00:31:22.585 --> 00:31:24.460 align:middle line:84%
+Just like you can do
+anything with a feather,
+
+00:31:24.460 --> 00:31:26.410 align:middle line:84%
+you can do anything
+on a boat, right?
+
+00:31:26.410 --> 00:31:31.030 align:middle line:84%
+So any phrase you can modify
+it with "on the boat."
+
+00:31:31.030 --> 00:31:32.920 align:middle line:84%
+This particular
+prepositional phrase,
+
+00:31:32.920 --> 00:31:37.730 align:middle line:84%
+then, is an adjunct
+in that reading, yeah?
+
+00:31:37.730 --> 00:31:41.170 align:middle line:84%
+Have to be careful because,
+of course, if I say things
+
+00:31:41.170 --> 00:31:51.730 align:middle line:84%
+like "It depends on the boat,"
+or for that-- well, let's use
+
+00:31:51.730 --> 00:31:53.322 align:middle line:84%
+that one, it
+depends on the boat.
+
+00:31:53.322 --> 00:31:55.030 align:middle line:84%
+This is a case where
+there is a selection
+
+00:31:55.030 --> 00:31:58.438 align:middle line:84%
+relation between
+"depend" and "on," right?
+
+00:31:58.438 --> 00:31:59.980 align:middle line:84%
+We've been talking
+about that before,
+
+00:31:59.980 --> 00:32:02.272 align:middle line:84%
+that "depend" select for
+prepositional phrase for which
+
+00:32:02.272 --> 00:32:03.400 align:middle line:90%
+the head is "on," yeah?
+
+00:32:03.400 --> 00:32:05.602 align:middle line:84%
+So you can't just look
+at a prepositional--
+
+00:32:05.602 --> 00:32:07.810 align:middle line:84%
+if someone asks you out of
+the blue, is "on the boat"
+
+00:32:07.810 --> 00:32:09.313 align:middle line:90%
+an argument or an adjunct--
+
+00:32:09.313 --> 00:32:11.230 align:middle line:84%
+in a way, that's the
+point of this slide too--
+
+00:32:11.230 --> 00:32:13.980 align:middle line:84%
+the answer is, wait, what's the
+rest of the sentence, right?
+
+00:32:13.980 --> 00:32:16.450 align:middle line:84%
+Because you have to find
+out what the relationship is
+
+00:32:16.450 --> 00:32:18.658 align:middle line:84%
+between that prepositional
+phrase and the other words
+
+00:32:18.658 --> 00:32:20.960 align:middle line:90%
+that are around it.
+
+00:32:20.960 --> 00:32:23.770 align:middle line:84%
+So in the reading where
+"I decided on the boat"
+
+00:32:23.770 --> 00:32:25.840 align:middle line:84%
+means "I made my
+decision while I
+
+00:32:25.840 --> 00:32:28.000 align:middle line:84%
+was on the boat," "on
+the boat" is an adjunct.
+
+00:32:28.000 --> 00:32:29.710 align:middle line:84%
+It's just describing
+the location
+
+00:32:29.710 --> 00:32:32.770 align:middle line:84%
+where the rest of the
+sentence took place.
+
+00:32:32.770 --> 00:32:36.760 align:middle line:84%
+And any sentence can take
+place on the boat, maybe.
+
+00:32:36.760 --> 00:32:41.290 align:middle line:84%
+As opposed to the reading where
+it means "I chose the boat,"
+
+00:32:41.290 --> 00:32:45.240 align:middle line:84%
+there it's an argument
+because, again,
+
+00:32:45.240 --> 00:32:49.120 align:middle line:84%
+just the fact that
+"decide on" means choose
+
+00:32:49.120 --> 00:32:53.740 align:middle line:84%
+is kind of an idiosyncratic
+property of the verb "decide"
+
+00:32:53.740 --> 00:32:56.200 align:middle line:90%
+and the preposition "on."
+
+00:32:56.200 --> 00:32:59.880 align:middle line:84%
+It's like if you look up
+"decide" in the lexicon,
+
+00:32:59.880 --> 00:33:01.540 align:middle line:84%
+it's going to have
+there, we're going
+
+00:33:01.540 --> 00:33:04.780 align:middle line:84%
+to have to list the information,
+that it can optionally
+
+00:33:04.780 --> 00:33:06.910 align:middle line:84%
+select an argument
+that starts with "on"
+
+00:33:06.910 --> 00:33:10.180 align:middle line:84%
+and that the result of that
+combination means "choose."
+
+00:33:10.180 --> 00:33:11.970 align:middle line:84%
+If you think about
+other things that
+
+00:33:11.970 --> 00:33:13.720 align:middle line:84%
+mean something pretty
+similar to "decide,"
+
+00:33:13.720 --> 00:33:18.430 align:middle line:84%
+like "make up your mind," so
+"I made up my mind on the boat"
+
+00:33:18.430 --> 00:33:21.610 align:middle line:84%
+only means the first
+thing, I think, right?
+
+00:33:21.610 --> 00:33:24.108 align:middle line:84%
+"I made up my mind on the
+boat" means "I made my decision
+
+00:33:24.108 --> 00:33:25.150 align:middle line:90%
+while I was on the boat."
+
+00:33:25.150 --> 00:33:27.100 align:middle line:84%
+It doesn't mean "I
+chose the boat," right?
+
+00:33:27.100 --> 00:33:29.450 align:middle line:84%
+I made a choice between the
+boat and something else.
+
+00:33:29.450 --> 00:33:31.030 align:middle line:90%
+And I chose the boat, right?
+
+00:33:31.030 --> 00:33:33.520 align:middle line:84%
+So it's not a property
+of expressions
+
+00:33:33.520 --> 00:33:36.430 align:middle line:84%
+that mean "decide" that they
+always combined with "on"
+
+00:33:36.430 --> 00:33:37.480 align:middle line:90%
+to mean this.
+
+00:33:37.480 --> 00:33:40.300 align:middle line:84%
+It's a idiosyncratic
+property of "decide."
+
+00:33:40.300 --> 00:33:43.267 align:middle line:84%
+It's kind of like we have
+to list for particular verbs
+
+00:33:43.267 --> 00:33:45.100 align:middle line:84%
+that they're transitive
+or that they're not.
+
+00:33:45.100 --> 00:33:46.642 align:middle line:84%
+We have to list for
+the word "decide"
+
+00:33:46.642 --> 00:33:48.225 align:middle line:84%
+that it combines
+with "on" to give you
+
+00:33:48.225 --> 00:33:49.780 align:middle line:84%
+a meaning with
+something like choose.
+
+00:33:49.780 --> 00:33:50.280 align:middle line:90%
+I'm sorry.
+
+00:33:50.280 --> 00:33:51.280 align:middle line:90%
+I'm talking over you.
+
+00:33:51.280 --> 00:33:52.170 align:middle line:84%
+AUDIENCE: Is this
+the same effect
+
+00:33:52.170 --> 00:33:53.060 align:middle line:90%
+as "look," where you "look up"?
+
+00:33:53.060 --> 00:33:54.170 align:middle line:90%
+NORVIN RICHARDS: Yes.
+
+00:33:54.170 --> 00:33:55.590 align:middle line:84%
+Yeah, that's another
+good example.
+
+00:33:55.590 --> 00:33:59.270 align:middle line:84%
+So you can "look
+up a reference."
+
+00:33:59.270 --> 00:34:01.880 align:middle line:90%
+So you can "look up."
+
+00:34:01.880 --> 00:34:05.870 align:middle line:84%
+And that "up" is
+probably an adjunct.
+
+00:34:05.870 --> 00:34:08.150 align:middle line:90%
+You can do anything up.
+
+00:34:08.150 --> 00:34:10.205 align:middle line:84%
+But to "look up a
+reference," the fact
+
+00:34:10.205 --> 00:34:14.000 align:middle line:84%
+that that means "look through
+some stuff and find it,"
+
+00:34:14.000 --> 00:34:18.418 align:middle line:84%
+that's an idiosyncratic
+fact about looking up.
+
+00:34:18.418 --> 00:34:20.210 align:middle line:84%
+That's another good
+example of an argument.
+
+00:34:20.210 --> 00:34:22.010 align:middle line:90%
+Yeah, nice example.
+
+00:34:22.010 --> 00:34:23.340 align:middle line:90%
+Yeah?
+
+00:34:23.340 --> 00:34:23.840 align:middle line:90%
+OK.
+
+00:34:23.840 --> 00:34:26.590 align:middle line:90%
+
+
+00:34:26.590 --> 00:34:29.560 align:middle line:84%
+And then-- I think this
+is where we stopped--
+
+00:34:29.560 --> 00:34:32.290 align:middle line:84%
+I asked you to think about
+sentences like "I decided
+
+00:34:32.290 --> 00:34:34.620 align:middle line:90%
+on the boat on the plane."
+
+00:34:34.620 --> 00:34:38.250 align:middle line:84%
+And I asked you to
+suppress your natural urge
+
+00:34:38.250 --> 00:34:43.239 align:middle line:84%
+to make things more complicated
+and to think of alternatives.
+
+00:34:43.239 --> 00:34:46.469 align:middle line:84%
+So consider situations
+in which there's
+
+00:34:46.469 --> 00:34:48.900 align:middle line:84%
+only one boat and only one
+plane and neither of them
+
+00:34:48.900 --> 00:34:51.810 align:middle line:90%
+is on the other.
+
+00:34:51.810 --> 00:34:56.370 align:middle line:84%
+There are two things that you
+could imagine this meaning.
+
+00:34:56.370 --> 00:35:01.140 align:middle line:84%
+It could mean I chose the
+boat while I was on the plane.
+
+00:35:01.140 --> 00:35:03.060 align:middle line:84%
+Or it could mean,
+in principle, I
+
+00:35:03.060 --> 00:35:07.280 align:middle line:84%
+chose the plane while
+I was on the boat,
+
+00:35:07.280 --> 00:35:09.350 align:middle line:84%
+if we've decided that
+"decide" and "on"
+
+00:35:09.350 --> 00:35:11.830 align:middle line:90%
+can combine in these ways.
+
+00:35:11.830 --> 00:35:14.890 align:middle line:84%
+But I think the fact
+generally was that it only
+
+00:35:14.890 --> 00:35:16.648 align:middle line:90%
+has one of those readings.
+
+00:35:16.648 --> 00:35:18.190 align:middle line:84%
+Is that the reading
+that people have?
+
+00:35:18.190 --> 00:35:19.750 align:middle line:90%
+I'll write the readings down.
+
+00:35:19.750 --> 00:35:31.720 align:middle line:84%
+One is chose the boat
+while on the plane.
+
+00:35:31.720 --> 00:35:38.980 align:middle line:84%
+And the other was chose the
+plane while I was on the boat.
+
+00:35:38.980 --> 00:35:42.770 align:middle line:90%
+
+
+00:35:42.770 --> 00:35:43.270 align:middle line:90%
+Yeah?
+
+00:35:43.270 --> 00:35:46.340 align:middle line:90%
+
+
+00:35:46.340 --> 00:35:50.600 align:middle line:84%
+How many of you can get it
+to mean this first thing?
+
+00:35:50.600 --> 00:35:53.770 align:middle line:84%
+How many of you can get it
+to mean the second thing?
+
+00:35:53.770 --> 00:35:55.807 align:middle line:90%
+A few of you.
+
+00:35:55.807 --> 00:35:58.390 align:middle line:84%
+The few of you who can get it
+to mean the second thing, please
+
+00:35:58.390 --> 00:36:00.060 align:middle line:84%
+meet with your
+classmates after class
+
+00:36:00.060 --> 00:36:02.560 align:middle line:84%
+and get them to convince you,
+or maybe you can convince them
+
+00:36:02.560 --> 00:36:04.040 align:middle line:90%
+that they're wrong.
+
+00:36:04.040 --> 00:36:10.330 align:middle line:84%
+I think we talked about this a
+little bit in class, possibly,
+
+00:36:10.330 --> 00:36:14.770 align:middle line:84%
+that, for me, at least-- and
+people should stop me if this
+
+00:36:14.770 --> 00:36:16.840 align:middle line:90%
+is not true--
+
+00:36:16.840 --> 00:36:20.230 align:middle line:84%
+I can get it to mean
+the second thing,
+
+00:36:20.230 --> 00:36:22.480 align:middle line:90%
+but I need an opera score.
+
+00:36:22.480 --> 00:36:25.280 align:middle line:84%
+I have to say it in
+a particular way.
+
+00:36:25.280 --> 00:36:29.530 align:middle line:84%
+I have to say something like
+"I decided, on the boat,
+
+00:36:29.530 --> 00:36:30.730 align:middle line:90%
+on the plane."
+
+00:36:30.730 --> 00:36:32.890 align:middle line:90%
+There have to be commas.
+
+00:36:32.890 --> 00:36:36.070 align:middle line:84%
+And I have to kind of
+squash "on the boat"
+
+00:36:36.070 --> 00:36:40.790 align:middle line:84%
+a little bit in order to get
+it to have this second meaning.
+
+00:36:40.790 --> 00:36:42.320 align:middle line:84%
+Those of you who
+were considering
+
+00:36:42.320 --> 00:36:45.110 align:middle line:84%
+raising your hands the second
+time, is that true of you?
+
+00:36:45.110 --> 00:36:48.650 align:middle line:84%
+Or are you people who can just
+say, "I decided on the boat
+
+00:36:48.650 --> 00:36:51.370 align:middle line:90%
+on the plane," and mean this?
+
+00:36:51.370 --> 00:36:54.810 align:middle line:90%
+
+
+00:36:54.810 --> 00:36:57.855 align:middle line:84%
+Some of you are raising
+thumbs and nodding
+
+00:36:57.855 --> 00:36:58.730 align:middle line:90%
+and things like that.
+
+00:36:58.730 --> 00:36:59.720 align:middle line:90%
+Is there anybody who--
+
+00:36:59.720 --> 00:37:01.720 align:middle line:84%
+that thing that I just
+said when I pronounced it
+
+00:37:01.720 --> 00:37:03.387 align:middle line:84%
+in that particular
+way, is there anybody
+
+00:37:03.387 --> 00:37:05.502 align:middle line:84%
+who did not think, oh,
+yeah, that's the way I
+
+00:37:05.502 --> 00:37:07.960 align:middle line:84%
+was pronouncing it in my head
+when I said that I could have
+
+00:37:07.960 --> 00:37:09.880 align:middle line:90%
+it be this way?
+
+00:37:09.880 --> 00:37:10.730 align:middle line:90%
+Let me say it again.
+
+00:37:10.730 --> 00:37:13.210 align:middle line:84%
+Is there anybody who, if you
+say, "I decided on the boat
+
+00:37:13.210 --> 00:37:14.470 align:middle line:90%
+on the plane"--
+
+00:37:14.470 --> 00:37:15.610 align:middle line:90%
+saying it that way--
+
+00:37:15.610 --> 00:37:18.730 align:middle line:84%
+can it mean this,
+the second thing?
+
+00:37:18.730 --> 00:37:20.650 align:middle line:90%
+Yes?
+
+00:37:20.650 --> 00:37:23.970 align:middle line:84%
+AUDIENCE: I feel like that
+way, the same sentence is
+
+00:37:23.970 --> 00:37:27.810 align:middle line:90%
+more neutral than suggesting.
+
+00:37:27.810 --> 00:37:29.838 align:middle line:84%
+I still have to say
+it in a different way
+
+00:37:29.838 --> 00:37:34.090 align:middle line:84%
+to get the second meaning,
+but when I say like that,
+
+00:37:34.090 --> 00:37:36.207 align:middle line:84%
+I don't immediately get
+the part [INAUDIBLE]..
+
+00:37:36.207 --> 00:37:37.040 align:middle line:90%
+NORVIN RICHARDS: Oh.
+
+00:37:37.040 --> 00:37:37.873 align:middle line:90%
+Oh, I see.
+
+00:37:37.873 --> 00:37:39.290 align:middle line:84%
+How do you have
+to say it in order
+
+00:37:39.290 --> 00:37:40.462 align:middle line:90%
+to get the second reading?
+
+00:37:40.462 --> 00:37:42.420 align:middle line:84%
+AUDIENCE: I absolutely
+didn't think about that.
+
+00:37:42.420 --> 00:37:43.740 align:middle line:90%
+NORVIN RICHARDS: Oh, OK.
+
+00:37:43.740 --> 00:37:44.310 align:middle line:90%
+Fair enough.
+
+00:37:44.310 --> 00:37:45.600 align:middle line:90%
+Fair enough.
+
+00:37:45.600 --> 00:37:48.662 align:middle line:84%
+This is one of
+many places where I
+
+00:37:48.662 --> 00:37:51.120 align:middle line:84%
+think I'm going to be content
+with the fact that all of you
+
+00:37:51.120 --> 00:37:53.220 align:middle line:84%
+raised your hands when I asked
+whether it could mean this
+
+00:37:53.220 --> 00:37:54.960 align:middle line:84%
+and only a few of you raised
+your hands when I asked
+
+00:37:54.960 --> 00:37:56.085 align:middle line:90%
+whether it could mean this.
+
+00:37:56.085 --> 00:37:58.230 align:middle line:84%
+I think maybe the
+ones of you who
+
+00:37:58.230 --> 00:38:01.050 align:middle line:84%
+can get it to mean this are
+doing it by pronouncing it
+
+00:38:01.050 --> 00:38:03.840 align:middle line:84%
+in a especially interesting
+way, which is itself
+
+00:38:03.840 --> 00:38:06.340 align:middle line:90%
+an interesting fact.
+
+00:38:06.340 --> 00:38:08.610 align:middle line:84%
+There is-- I think I have
+alluded to this a couple
+
+00:38:08.610 --> 00:38:09.720 align:middle line:90%
+of times--
+
+00:38:09.720 --> 00:38:11.790 align:middle line:84%
+a topic of study
+that people work on,
+
+00:38:11.790 --> 00:38:14.160 align:middle line:84%
+trying to figure out what
+the rules are for how
+
+00:38:14.160 --> 00:38:16.380 align:middle line:84%
+the pitch of your voice
+rises and falls as you speak
+
+00:38:16.380 --> 00:38:18.017 align:middle line:84%
+and where you put
+in pauses and so on.
+
+00:38:18.017 --> 00:38:20.100 align:middle line:84%
+It's the study of what's
+sometimes called prosody.
+
+00:38:20.100 --> 00:38:24.610 align:middle line:84%
+It's very complicated and hard,
+but it's really interesting.
+
+00:38:24.610 --> 00:38:28.173 align:middle line:84%
+So maybe the short thing for
+me to say is, on the prosody
+
+00:38:28.173 --> 00:38:30.090 align:middle line:84%
+where there's nothing
+special, where we're not
+
+00:38:30.090 --> 00:38:33.210 align:middle line:84%
+doing any pausing or downgrading
+of anything, where we're just
+
+00:38:33.210 --> 00:38:34.950 align:middle line:84%
+reading this straight
+through, I think
+
+00:38:34.950 --> 00:38:38.110 align:middle line:90%
+everybody prefers this to this.
+
+00:38:38.110 --> 00:38:42.440 align:middle line:84%
+Let me say that
+for the time being.
+
+00:38:42.440 --> 00:38:45.520 align:middle line:84%
+So "I decided on the
+boat on the plane."
+
+00:38:45.520 --> 00:38:48.820 align:middle line:84%
+When you've got these two
+"on" phrases after "decide,"
+
+00:38:48.820 --> 00:38:52.000 align:middle line:84%
+the sort of tendency
+anyway, unless you
+
+00:38:52.000 --> 00:38:54.107 align:middle line:84%
+do fancy prosodic
+things, is to have
+
+00:38:54.107 --> 00:38:55.690 align:middle line:84%
+the first one be the
+argument and then
+
+00:38:55.690 --> 00:38:56.940 align:middle line:90%
+the second one be the adjunct.
+
+00:38:56.940 --> 00:39:00.240 align:middle line:90%
+
+
+00:39:00.240 --> 00:39:03.300 align:middle line:84%
+So what we're finding out, then,
+is that if you've got a head
+
+00:39:03.300 --> 00:39:05.510 align:middle line:84%
+and it has both an
+argument and an adjunct,
+
+00:39:05.510 --> 00:39:08.935 align:middle line:84%
+the argument is
+closer to the head.
+
+00:39:08.935 --> 00:39:10.310 align:middle line:84%
+We're going to
+come back to that.
+
+00:39:10.310 --> 00:39:13.790 align:middle line:84%
+But a way to think about it--
+and we'll come back to it
+
+00:39:13.790 --> 00:39:15.530 align:middle line:84%
+and say this more
+formally in a second--
+
+00:39:15.530 --> 00:39:16.760 align:middle line:90%
+it's as though--
+
+00:39:16.760 --> 00:39:19.760 align:middle line:84%
+I think I have a tree that
+I can make use of here.
+
+00:39:19.760 --> 00:39:21.650 align:middle line:84%
+It's as though, if
+you're going to have
+
+00:39:21.650 --> 00:39:23.900 align:middle line:84%
+a verb like "decide"
+that's going
+
+00:39:23.900 --> 00:39:27.770 align:middle line:84%
+to have two prepositional
+phrases after it--
+
+00:39:27.770 --> 00:39:29.840 align:middle line:84%
+and forget what
+these are for now,
+
+00:39:29.840 --> 00:39:34.370 align:middle line:84%
+and also we'll have "on the
+boat" and "on the plane."
+
+00:39:34.370 --> 00:39:36.950 align:middle line:90%
+
+
+00:39:36.950 --> 00:39:38.030 align:middle line:90%
+So you've got "decide."
+
+00:39:38.030 --> 00:39:40.447 align:middle line:84%
+And it's going to have two
+prepositional phrases after it.
+
+00:39:40.447 --> 00:39:43.190 align:middle line:84%
+And "decide" optionally selects
+for a prepositional phrase
+
+00:39:43.190 --> 00:39:45.560 align:middle line:90%
+with "on" as the head.
+
+00:39:45.560 --> 00:39:48.200 align:middle line:84%
+And what we're seeing is
+it's as though-- if you
+
+00:39:48.200 --> 00:39:49.745 align:middle line:84%
+pick the version
+of "decide" that's
+
+00:39:49.745 --> 00:39:53.900 align:middle line:84%
+like-- if you decide to have
+"decide" select for something,
+
+00:39:53.900 --> 00:39:57.440 align:middle line:84%
+it's as though, when
+you're merging these two
+
+00:39:57.440 --> 00:40:00.830 align:middle line:84%
+prepositional phrases to
+projections of the verb,
+
+00:40:00.830 --> 00:40:03.980 align:middle line:84%
+you need to merge the one
+that's selected first.
+
+00:40:03.980 --> 00:40:07.460 align:middle line:84%
+There's some kind of urgency
+about this selection relation.
+
+00:40:07.460 --> 00:40:10.340 align:middle line:84%
+You don't just get
+to freely decide
+
+00:40:10.340 --> 00:40:12.650 align:middle line:84%
+what order to merge these
+two prepositional phrases in,
+
+00:40:12.650 --> 00:40:14.180 align:middle line:90%
+the argument and the adjunct.
+
+00:40:14.180 --> 00:40:16.820 align:middle line:84%
+You need to hurry up and give
+it its selection requirements.
+
+00:40:16.820 --> 00:40:18.140 align:middle line:90%
+Something like that.
+
+00:40:18.140 --> 00:40:20.060 align:middle line:84%
+And we'll come back and
+talk more about that.
+
+00:40:20.060 --> 00:40:24.290 align:middle line:90%
+
+
+00:40:24.290 --> 00:40:27.380 align:middle line:90%
+Incidentally-- well, who cares?
+
+00:40:27.380 --> 00:40:32.630 align:middle line:84%
+Incidentally, that way
+of talking about things--
+
+00:40:32.630 --> 00:40:33.770 align:middle line:90%
+no, sorry.
+
+00:40:33.770 --> 00:40:35.740 align:middle line:84%
+Let me wait until we
+get more formal about it
+
+00:40:35.740 --> 00:40:36.737 align:middle line:90%
+to make the next point.
+
+00:40:36.737 --> 00:40:38.570 align:middle line:84%
+The next point is that
+this may help us some
+
+00:40:38.570 --> 00:40:40.460 align:middle line:84%
+with the kinds of cases
+that got me to write
+
+00:40:40.460 --> 00:40:42.470 align:middle line:84%
+that tree in the first
+place, the kinds of cases
+
+00:40:42.470 --> 00:40:45.120 align:middle line:84%
+where a head seems to select
+for more than one thing.
+
+00:40:45.120 --> 00:40:48.630 align:middle line:90%
+So we'll come back to that.
+
+00:40:48.630 --> 00:40:52.010 align:middle line:84%
+So that's where we were
+last time, I think.
+
+00:40:52.010 --> 00:40:54.500 align:middle line:84%
+[LAUGHS] Does anybody have any
+questions about any of that?
+
+00:40:54.500 --> 00:40:55.490 align:middle line:84%
+This has been an
+attempt to review
+
+00:40:55.490 --> 00:40:57.948 align:middle line:84%
+because I know you've had a
+week during which you might not
+
+00:40:57.948 --> 00:41:00.680 align:middle line:84%
+have spent every waking
+moment thinking about syntax.
+
+00:41:00.680 --> 00:41:03.770 align:middle line:84%
+I don't know why, but I
+guess young people today,
+
+00:41:03.770 --> 00:41:06.290 align:middle line:90%
+they have their priorities.
+
+00:41:06.290 --> 00:41:07.600 align:middle line:90%
+Are there questions about this?
+
+00:41:07.600 --> 00:41:10.370 align:middle line:84%
+Are there things
+that aren't clear?
+
+00:41:10.370 --> 00:41:11.620 align:middle line:90%
+OK.
+
+00:41:11.620 --> 00:41:14.237 align:middle line:90%
+Yeah?
+
+00:41:14.237 --> 00:41:16.820 align:middle line:84%
+AUDIENCE: I guess it seems to
+me that "decide" and "decide on"
+
+00:41:16.820 --> 00:41:18.320 align:middle line:84%
+are almost like two
+different verbs.
+
+00:41:18.320 --> 00:41:19.237 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:41:19.237 --> 00:41:21.752 align:middle line:84%
+AUDIENCE: So why couldn't
+you merge "decide" with "on"
+
+00:41:21.752 --> 00:41:24.690 align:middle line:84%
+and have that be a verb phrase
+and the argument of that
+
+00:41:24.690 --> 00:41:25.763 align:middle line:90%
+is [INAUDIBLE]?
+
+00:41:25.763 --> 00:41:26.680 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:41:26.680 --> 00:41:27.280 align:middle line:90%
+Yeah.
+
+00:41:27.280 --> 00:41:27.850 align:middle line:90%
+Yeah.
+
+00:41:27.850 --> 00:41:32.080 align:middle line:84%
+So you're wondering for
+"decide on the boat,"
+
+00:41:32.080 --> 00:41:38.830 align:middle line:84%
+why not do "decide
+on" and then combine
+
+00:41:38.830 --> 00:41:43.847 align:middle line:84%
+that whole thing with a
+noun phrase, "the boat,"
+
+00:41:43.847 --> 00:41:44.680 align:middle line:90%
+something like that?
+
+00:41:44.680 --> 00:41:45.263 align:middle line:90%
+AUDIENCE: Yes.
+
+00:41:45.263 --> 00:41:46.810 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:41:46.810 --> 00:41:49.210 align:middle line:84%
+Notice that these
+are making different
+
+00:41:49.210 --> 00:41:55.300 align:middle line:84%
+claims about whether "on the
+boat" is a constituent or not.
+
+00:41:55.300 --> 00:41:57.760 align:middle line:84%
+And so, for example,
+one of the constituency
+
+00:41:57.760 --> 00:42:02.560 align:middle line:84%
+tests that we fooled around
+with was the one where
+
+00:42:02.560 --> 00:42:06.460 align:middle line:84%
+I'm amazed by something
+that you've said,
+
+00:42:06.460 --> 00:42:09.140 align:middle line:84%
+and I repeat part of what
+you've said in amazement.
+
+00:42:09.140 --> 00:42:12.880 align:middle line:84%
+So if you say, "I decided on the
+boat," one thing I can surely
+
+00:42:12.880 --> 00:42:15.860 align:middle line:90%
+say is, "The boat?"
+
+00:42:15.860 --> 00:42:17.630 align:middle line:84%
+But I think I can also
+say, "On the boat?"
+
+00:42:17.630 --> 00:42:20.333 align:middle line:90%
+
+
+00:42:20.333 --> 00:42:22.250 align:middle line:84%
+AUDIENCE: Does that
+switch "up the reference"?
+
+00:42:22.250 --> 00:42:24.890 align:middle line:84%
+NORVIN RICHARDS: So I
+don't think so, right?
+
+00:42:24.890 --> 00:42:27.420 align:middle line:84%
+"Up the reference"--
+that's a good example.
+
+00:42:27.420 --> 00:42:32.690 align:middle line:90%
+"Look up the reference."
+
+00:42:32.690 --> 00:42:36.230 align:middle line:84%
+If I'm amazed when you say,
+"I looked up the reference,"
+
+00:42:36.230 --> 00:42:38.420 align:middle line:90%
+if I say, "Up the reference?"
+
+00:42:38.420 --> 00:42:40.670 align:middle line:90%
+that's weird.
+
+00:42:40.670 --> 00:42:43.410 align:middle line:84%
+I have a lifetime's
+experience being weird.
+
+00:42:43.410 --> 00:42:47.630 align:middle line:84%
+And I think that's
+worse than "I decided
+
+00:42:47.630 --> 00:42:50.090 align:middle line:90%
+on the boat," "On the boat?"
+
+00:42:50.090 --> 00:42:50.840 align:middle line:90%
+I think.
+
+00:42:50.840 --> 00:42:52.585 align:middle line:90%
+But, yeah, that's the claim.
+
+00:42:52.585 --> 00:42:53.960 align:middle line:84%
+Notice there's
+another difference
+
+00:42:53.960 --> 00:42:56.335 align:middle line:84%
+between "look up the reference"
+and "decide on the boat."
+
+00:42:56.335 --> 00:42:59.900 align:middle line:84%
+You can also say, "look
+the reference up."
+
+00:42:59.900 --> 00:43:03.050 align:middle line:84%
+You cannot say
+"decide the boat on."
+
+00:43:03.050 --> 00:43:06.380 align:middle line:84%
+So we probably don't want
+these to be the same.
+
+00:43:06.380 --> 00:43:08.990 align:middle line:84%
+It's another reason to think
+that they're different.
+
+00:43:08.990 --> 00:43:11.600 align:middle line:84%
+If you're familiar
+with German, German
+
+00:43:11.600 --> 00:43:13.400 align:middle line:84%
+has a zillion
+particles like this,
+
+00:43:13.400 --> 00:43:15.650 align:middle line:84%
+where you're putting
+things between the verb
+
+00:43:15.650 --> 00:43:19.010 align:middle line:84%
+and the separable
+prefix, they're called.
+
+00:43:19.010 --> 00:43:19.510 align:middle line:90%
+Yeah?
+
+00:43:19.510 --> 00:43:23.112 align:middle line:90%
+
+
+00:43:23.112 --> 00:43:25.930 align:middle line:90%
+OK.
+
+00:43:25.930 --> 00:43:28.660 align:middle line:84%
+So now, hopefully I've got you
+willing to entertain, at least
+
+00:43:28.660 --> 00:43:30.310 align:middle line:84%
+temporarily, the
+possibility that there
+
+00:43:30.310 --> 00:43:33.790 align:middle line:84%
+are things that we can describe
+as arguments and adjuncts.
+
+00:43:33.790 --> 00:43:36.550 align:middle line:84%
+Arguments are the things that
+are selected by other heads.
+
+00:43:36.550 --> 00:43:40.330 align:middle line:84%
+Adjuncts are phrases that
+just wandered in by mistake.
+
+00:43:40.330 --> 00:43:41.470 align:middle line:90%
+Nothing is selecting them.
+
+00:43:41.470 --> 00:43:43.608 align:middle line:84%
+They're just here
+because they want to be.
+
+00:43:43.608 --> 00:43:45.400 align:middle line:84%
+They're not here because
+they're satisfying
+
+00:43:45.400 --> 00:43:47.072 align:middle line:90%
+any needs of anything at all.
+
+00:43:47.072 --> 00:43:49.030 align:middle line:84%
+They're parasites,
+basically, is what they are.
+
+00:43:49.030 --> 00:43:53.452 align:middle line:84%
+They end up in here
+inside the clause.
+
+00:43:53.452 --> 00:43:54.910 align:middle line:84%
+And I've shown you
+one kind of test
+
+00:43:54.910 --> 00:43:59.260 align:middle line:84%
+for them, which is that if you
+have a head that is combining
+
+00:43:59.260 --> 00:44:02.140 align:middle line:84%
+both with an argument
+and with an adjunct,
+
+00:44:02.140 --> 00:44:05.170 align:middle line:84%
+it looks like there's at least
+a tendency for the argument
+
+00:44:05.170 --> 00:44:07.880 align:middle line:84%
+to want to be closer to
+the head than the adjunct.
+
+00:44:07.880 --> 00:44:10.060 align:middle line:84%
+So "decide on the
+boat on the plane,"
+
+00:44:10.060 --> 00:44:12.760 align:middle line:84%
+the argument-y reading,
+the choose reading,
+
+00:44:12.760 --> 00:44:14.110 align:middle line:90%
+goes with the first one.
+
+00:44:14.110 --> 00:44:17.170 align:middle line:84%
+That means chose the
+boat on the plane.
+
+00:44:17.170 --> 00:44:22.450 align:middle line:84%
+I want to show you another test
+for arguments versus adjuncts.
+
+00:44:22.450 --> 00:44:23.560 align:middle line:90%
+Here's another sentence.
+
+00:44:23.560 --> 00:44:28.010 align:middle line:84%
+"I decided on the boat, and
+Mary decided on the plane."
+
+00:44:28.010 --> 00:44:34.650 align:middle line:84%
+That can mean at least
+two things, I think--
+
+00:44:34.650 --> 00:44:37.260 align:middle line:90%
+possibly four, but at least two.
+
+00:44:37.260 --> 00:44:39.930 align:middle line:84%
+One thing that it can
+mean is I chose the boat,
+
+00:44:39.930 --> 00:44:41.980 align:middle line:90%
+and Mary chose the plane.
+
+00:44:41.980 --> 00:44:44.150 align:middle line:84%
+Another thing it
+can mean is Mary
+
+00:44:44.150 --> 00:44:46.170 align:middle line:84%
+and I both had
+decisions to make.
+
+00:44:46.170 --> 00:44:49.302 align:middle line:84%
+We had to decide whether to
+major in linguistics or not.
+
+00:44:49.302 --> 00:44:51.260 align:middle line:84%
+And I made my decision
+while I was in the boat,
+
+00:44:51.260 --> 00:44:54.200 align:middle line:84%
+and she made hers while
+she was on the plane.
+
+00:44:54.200 --> 00:44:57.320 align:middle line:90%
+So it could mean that, too.
+
+00:44:57.320 --> 00:45:00.650 align:middle line:84%
+I guess it could also
+mean I chose the boat,
+
+00:45:00.650 --> 00:45:02.690 align:middle line:84%
+and Mary decided to
+become a linguistics major
+
+00:45:02.690 --> 00:45:05.150 align:middle line:90%
+while she was on the plane?
+
+00:45:05.150 --> 00:45:06.525 align:middle line:90%
+Maybe?
+
+00:45:06.525 --> 00:45:07.650 align:middle line:90%
+I'm not so sure about that.
+
+00:45:07.650 --> 00:45:09.733 align:middle line:84%
+But anyway, it can mean
+at least those two things.
+
+00:45:09.733 --> 00:45:13.790 align:middle line:90%
+
+
+00:45:13.790 --> 00:45:17.320 align:middle line:90%
+Now consider this sentence.
+
+00:45:17.320 --> 00:45:20.185 align:middle line:84%
+"I decided on the boat, and
+Mary did so on the plane."
+
+00:45:20.185 --> 00:45:24.520 align:middle line:90%
+
+
+00:45:24.520 --> 00:45:27.900 align:middle line:90%
+Does that mean two things?
+
+00:45:27.900 --> 00:45:29.330 align:middle line:90%
+I don't think so.
+
+00:45:29.330 --> 00:45:30.440 align:middle line:90%
+What does that one mean?
+
+00:45:30.440 --> 00:45:33.180 align:middle line:90%
+
+
+00:45:33.180 --> 00:45:33.780 align:middle line:90%
+Joseph?
+
+00:45:33.780 --> 00:45:34.988 align:middle line:90%
+AUDIENCE: That's the example.
+
+00:45:34.988 --> 00:45:37.370 align:middle line:90%
+
+
+00:45:37.370 --> 00:45:39.310 align:middle line:84%
+I decided to become
+a linguistics major
+
+00:45:39.310 --> 00:45:40.523 align:middle line:90%
+while I was on the boat.
+
+00:45:40.523 --> 00:45:42.730 align:middle line:84%
+And Mary chose not to,
+but she [INAUDIBLE]..
+
+00:45:42.730 --> 00:45:43.540 align:middle line:90%
+NORVIN RICHARDS: Yeah, exactly.
+
+00:45:43.540 --> 00:45:45.248 align:middle line:84%
+So I made the right
+decision on the boat,
+
+00:45:45.248 --> 00:45:47.170 align:middle line:84%
+and Mary made the wrong
+decision on the plane.
+
+00:45:47.170 --> 00:45:50.440 align:middle line:90%
+Yeah, it can mean that.
+
+00:45:50.440 --> 00:45:50.980 align:middle line:90%
+Yes.
+
+00:45:50.980 --> 00:45:53.320 align:middle line:84%
+So there's a phenomenon
+called VP-pronominalization.
+
+00:45:53.320 --> 00:45:59.000 align:middle line:84%
+That is you're taking
+the VP "decide,"
+
+00:45:59.000 --> 00:46:02.350 align:middle line:84%
+and you're replacing
+it with "do so,"
+
+00:46:02.350 --> 00:46:04.750 align:middle line:90%
+which is kind of like a pronoun.
+
+00:46:04.750 --> 00:46:07.060 align:middle line:84%
+It's like a pronoun in that
+it's an expression that
+
+00:46:07.060 --> 00:46:09.123 align:middle line:84%
+can stand in for lots
+of different kinds
+
+00:46:09.123 --> 00:46:09.790 align:middle line:90%
+of verb phrases.
+
+00:46:09.790 --> 00:46:13.420 align:middle line:84%
+So just like a pronoun
+like "she" can stand in
+
+00:46:13.420 --> 00:46:16.720 align:middle line:84%
+for any female
+person, "do so" can
+
+00:46:16.720 --> 00:46:20.980 align:middle line:84%
+stand in for lots of
+kinds of verb phrases.
+
+00:46:20.980 --> 00:46:24.910 align:middle line:84%
+And what we're learning
+is that if you do that,
+
+00:46:24.910 --> 00:46:29.217 align:middle line:84%
+the phrase that's outside of
+"do so"-- "on the plane"--
+
+00:46:29.217 --> 00:46:32.830 align:middle line:90%
+
+
+00:46:32.830 --> 00:46:34.120 align:middle line:90%
+can only be an adjunct.
+
+00:46:34.120 --> 00:46:36.562 align:middle line:90%
+It can't be an argument.
+
+00:46:36.562 --> 00:46:38.770 align:middle line:84%
+And there are various ways
+we could think about this,
+
+00:46:38.770 --> 00:46:40.270 align:middle line:90%
+but here's one.
+
+00:46:40.270 --> 00:46:43.495 align:middle line:84%
+We could say, look,
+this is the argument.
+
+00:46:43.495 --> 00:46:46.790 align:middle line:90%
+
+
+00:46:46.790 --> 00:46:49.360 align:middle line:90%
+This is the adjunct.
+
+00:46:49.360 --> 00:46:52.390 align:middle line:84%
+We said there's a special
+relation of selection
+
+00:46:52.390 --> 00:46:55.213 align:middle line:84%
+between "decide" and
+the argument that
+
+00:46:55.213 --> 00:46:57.130 align:middle line:84%
+doesn't hold between
+"decide" and the adjunct.
+
+00:46:57.130 --> 00:46:59.150 align:middle line:84%
+The adjunct is just here
+because it wants to be.
+
+00:46:59.150 --> 00:47:01.370 align:middle line:84%
+So there's a selection relation
+between these two things.
+
+00:47:01.370 --> 00:47:02.800 align:middle line:84%
+And then the adjunct
+is just something
+
+00:47:02.800 --> 00:47:05.470 align:middle line:84%
+you merge because, well, you've
+got it, and you can merge it.
+
+00:47:05.470 --> 00:47:08.690 align:middle line:90%
+
+
+00:47:08.690 --> 00:47:09.940 align:middle line:90%
+That's what we've been saying.
+
+00:47:09.940 --> 00:47:11.440 align:middle line:84%
+And maybe what
+we're learning here
+
+00:47:11.440 --> 00:47:15.400 align:middle line:84%
+is that if you look up
+"decide" in the lexicon,
+
+00:47:15.400 --> 00:47:17.710 align:middle line:84%
+you're going to see that it
+has the option of selecting
+
+00:47:17.710 --> 00:47:20.480 align:middle line:84%
+for a prepositional
+phrase headed by "on."
+
+00:47:20.480 --> 00:47:22.930 align:middle line:84%
+But if you look up "do
+so" in the lexicon,
+
+00:47:22.930 --> 00:47:25.270 align:middle line:84%
+well, it doesn't
+select anything.
+
+00:47:25.270 --> 00:47:28.450 align:middle line:84%
+There aren't any selectional
+relations with "do so."
+
+00:47:28.450 --> 00:47:31.240 align:middle line:90%
+So "do so" is kind of blank.
+
+00:47:31.240 --> 00:47:32.770 align:middle line:84%
+It just means there's
+a verb phrase,
+
+00:47:32.770 --> 00:47:36.520 align:middle line:84%
+and look around at the rest
+of the sentence to figure out
+
+00:47:36.520 --> 00:47:38.380 align:middle line:90%
+what the verb phrase is.
+
+00:47:38.380 --> 00:47:40.550 align:middle line:90%
+But there's a verb phrase.
+
+00:47:40.550 --> 00:47:42.350 align:middle line:90%
+So it's not doing any selecting.
+
+00:47:42.350 --> 00:47:45.670 align:middle line:84%
+So if you see a prepositional
+phrase after "do so,"
+
+00:47:45.670 --> 00:47:48.220 align:middle line:84%
+it's not an argument
+of anything.
+
+00:47:48.220 --> 00:47:50.110 align:middle line:90%
+It had better be an adjunct.
+
+00:47:50.110 --> 00:47:52.270 align:middle line:84%
+I guess that's what
+we're learning here.
+
+00:47:52.270 --> 00:47:53.770 align:middle line:84%
+As I told you, this
+is another test
+
+00:47:53.770 --> 00:47:54.910 align:middle line:90%
+for arguments and adjuncts.
+
+00:47:54.910 --> 00:47:58.270 align:middle line:84%
+If you do VP-pronominalization--
+if you replace the verb phrase
+
+00:47:58.270 --> 00:48:01.300 align:middle line:84%
+with "do so" and you
+have a phrase left over,
+
+00:48:01.300 --> 00:48:03.880 align:middle line:84%
+then that thing had
+better not be an argument.
+
+00:48:03.880 --> 00:48:06.910 align:middle line:90%
+It had better be an adjunct.
+
+00:48:06.910 --> 00:48:09.220 align:middle line:84%
+The action with
+arguments and adjuncts
+
+00:48:09.220 --> 00:48:12.340 align:middle line:84%
+so far has been with
+prepositional phrases.
+
+00:48:12.340 --> 00:48:14.770 align:middle line:84%
+We've talked as though
+direct objects, for example,
+
+00:48:14.770 --> 00:48:15.972 align:middle line:90%
+are always arguments.
+
+00:48:15.972 --> 00:48:18.430 align:middle line:84%
+And so what we expect is that
+a direct object will never be
+
+00:48:18.430 --> 00:48:19.722 align:middle line:90%
+able to be left over like this.
+
+00:48:19.722 --> 00:48:26.170 align:middle line:84%
+That is, you won't be able
+to say, "I chose the boat,
+
+00:48:26.170 --> 00:48:35.000 align:middle line:84%
+and Mary did so the
+plane," because "do so"
+
+00:48:35.000 --> 00:48:36.230 align:middle line:90%
+doesn't select for anything.
+
+00:48:36.230 --> 00:48:37.880 align:middle line:84%
+Direct objects are
+always selected for.
+
+00:48:37.880 --> 00:48:40.190 align:middle line:84%
+You get them just if the
+verb is a transitive verb.
+
+00:48:40.190 --> 00:48:41.690 align:middle line:84%
+And "do so" isn't
+a transitive verb.
+
+00:48:41.690 --> 00:48:44.420 align:middle line:90%
+It's almost not a verb at all.
+
+00:48:44.420 --> 00:48:46.250 align:middle line:84%
+Does that accord with
+people's intuitions,
+
+00:48:46.250 --> 00:48:47.450 align:middle line:90%
+that you can't say that?
+
+00:48:47.450 --> 00:48:48.050 align:middle line:90%
+Yeah.
+
+00:48:48.050 --> 00:48:48.550 align:middle line:90%
+OK.
+
+00:48:48.550 --> 00:48:50.570 align:middle line:84%
+In fact, I'm going to
+star it before anybody
+
+00:48:50.570 --> 00:48:52.880 align:middle line:90%
+gets the wrong idea.
+
+00:48:52.880 --> 00:48:53.540 align:middle line:90%
+Bad sentence.
+
+00:48:53.540 --> 00:48:54.230 align:middle line:90%
+Bad sentence.
+
+00:48:54.230 --> 00:48:55.660 align:middle line:90%
+No biscuit!
+
+00:48:55.660 --> 00:48:56.658 align:middle line:90%
+Yeah?
+
+00:48:56.658 --> 00:48:59.530 align:middle line:90%
+OK.
+
+00:48:59.530 --> 00:49:02.445 align:middle line:90%
+All right, so-- yeah?
+
+00:49:02.445 --> 00:49:03.820 align:middle line:84%
+AUDIENCE: You
+could say, "I chose
+
+00:49:03.820 --> 00:49:05.470 align:middle line:90%
+the boat and Mary the plane."
+
+00:49:05.470 --> 00:49:09.025 align:middle line:84%
+NORVIN RICHARDS:
+Yes, good example.
+
+00:49:09.025 --> 00:49:13.759 align:middle line:90%
+
+
+00:49:13.759 --> 00:49:17.373 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:49:17.373 --> 00:49:18.290 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:49:18.290 --> 00:49:20.780 align:middle line:84%
+So, "I chose a boat
+and Mary a plane,"
+
+00:49:20.780 --> 00:49:28.350 align:middle line:84%
+or "I decided on a boat
+and Mary on a plane."
+
+00:49:28.350 --> 00:49:29.060 align:middle line:90%
+Can you say that?
+
+00:49:29.060 --> 00:49:33.954 align:middle line:90%
+
+
+00:49:33.954 --> 00:49:37.373 align:middle line:84%
+"I live in Somerville
+and Mary in Allston."
+
+00:49:37.373 --> 00:49:38.790 align:middle line:84%
+You can have
+prepositional phrases
+
+00:49:38.790 --> 00:49:42.040 align:middle line:84%
+in this construction, but
+maybe not selected ones.
+
+00:49:42.040 --> 00:49:42.540 align:middle line:90%
+Ugh.
+
+00:49:42.540 --> 00:49:47.242 align:middle line:84%
+Because "I decided on the
+boat and Mary on the plane,"
+
+00:49:47.242 --> 00:49:48.700 align:middle line:84%
+that feels kind of
+adjunct-y to me.
+
+00:49:48.700 --> 00:49:50.786 align:middle line:90%
+I don't know about guys.
+
+00:49:50.786 --> 00:49:52.970 align:middle line:84%
+AUDIENCE: It works,
+but it's still vague.
+
+00:49:52.970 --> 00:49:55.033 align:middle line:84%
+NORVIN RICHARDS: Works
+but it's still vague?
+
+00:49:55.033 --> 00:49:55.950 align:middle line:90%
+Is that what you said?
+
+00:49:55.950 --> 00:49:57.180 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:49:57.180 --> 00:49:58.170 align:middle line:84%
+NORVIN RICHARDS: It
+could mean either one?
+
+00:49:58.170 --> 00:49:58.530 align:middle line:90%
+AUDIENCE: Either one.
+
+00:49:58.530 --> 00:49:59.400 align:middle line:90%
+NORVIN RICHARDS: OK, good.
+
+00:49:59.400 --> 00:50:00.870 align:middle line:84%
+I was sort of
+hoping that was true
+
+00:50:00.870 --> 00:50:02.828 align:middle line:84%
+because I don't know any
+reason why it wouldn't
+
+00:50:02.828 --> 00:50:04.290 align:middle line:90%
+be able to mean either one.
+
+00:50:04.290 --> 00:50:06.133 align:middle line:84%
+This is a really
+interesting phenomenon.
+
+00:50:06.133 --> 00:50:07.300 align:middle line:90%
+There's a lot of work on it.
+
+00:50:07.300 --> 00:50:10.140 align:middle line:90%
+It's called gapping.
+
+00:50:10.140 --> 00:50:14.550 align:middle line:84%
+And dissertations
+have been written.
+
+00:50:14.550 --> 00:50:16.830 align:middle line:90%
+[LAUGHS] It's interesting stuff.
+
+00:50:16.830 --> 00:50:17.648 align:middle line:90%
+Yeah?
+
+00:50:17.648 --> 00:50:19.440 align:middle line:84%
+AUDIENCE: When you
+first read the sentence,
+
+00:50:19.440 --> 00:50:23.250 align:middle line:84%
+I actually interpreted it as "I
+chose the boat and Mary did so
+
+00:50:23.250 --> 00:50:24.110 align:middle line:90%
+on the plane."
+
+00:50:24.110 --> 00:50:25.110 align:middle line:90%
+NORVIN RICHARDS: Oh, no.
+
+00:50:25.110 --> 00:50:26.385 align:middle line:90%
+What did Mary do on the plane?
+
+00:50:26.385 --> 00:50:27.540 align:middle line:90%
+AUDIENCE: She chose the boat.
+
+00:50:27.540 --> 00:50:29.010 align:middle line:84%
+NORVIN RICHARDS: Oh, she
+chose the boat on the plane.
+
+00:50:29.010 --> 00:50:29.970 align:middle line:90%
+Oh, yes.
+
+00:50:29.970 --> 00:50:31.110 align:middle line:90%
+Well, that would be OK.
+
+00:50:31.110 --> 00:50:32.475 align:middle line:90%
+[LAUGHS] Phew.
+
+00:50:32.475 --> 00:50:34.350 align:middle line:84%
+I thought you meant that
+she chose the plane.
+
+00:50:34.350 --> 00:50:36.930 align:middle line:84%
+Yes, no, that's-- no,
+that's absolutely right.
+
+00:50:36.930 --> 00:50:38.733 align:middle line:90%
+OK, phew.
+
+00:50:38.733 --> 00:50:39.900 align:middle line:90%
+Yeah, that's a nice example.
+
+00:50:39.900 --> 00:50:43.950 align:middle line:90%
+"I decided on the boat."
+
+00:50:43.950 --> 00:50:45.360 align:middle line:90%
+Oh, here-- we can use this tree.
+
+00:50:45.360 --> 00:50:48.465 align:middle line:84%
+"I decided on the boat and
+Mary did so on the plane."
+
+00:50:48.465 --> 00:50:51.702 align:middle line:90%
+
+
+00:50:51.702 --> 00:50:58.020 align:middle line:84%
+I was taking that to mean
+"decide" in the first clause
+
+00:50:58.020 --> 00:51:00.360 align:middle line:84%
+is taking an adjunct,
+"on the boat."
+
+00:51:00.360 --> 00:51:02.610 align:middle line:84%
+And in the second
+clause, well, "do so"
+
+00:51:02.610 --> 00:51:04.740 align:middle line:90%
+is just replacing "decide."
+
+00:51:04.740 --> 00:51:06.690 align:middle line:84%
+And "on the plane"
+is another adjunct.
+
+00:51:06.690 --> 00:51:09.720 align:middle line:84%
+You're saying, yeah, "on the
+plane" is an adjunct all right.
+
+00:51:09.720 --> 00:51:12.480 align:middle line:84%
+But "do so" is replacing
+the entire verb phrase
+
+00:51:12.480 --> 00:51:16.770 align:middle line:84%
+"decide on the boat," where
+"on the boat" is an argument.
+
+00:51:16.770 --> 00:51:18.420 align:middle line:84%
+And yes, that's
+another reading that it
+
+00:51:18.420 --> 00:51:20.040 align:middle line:90%
+ought to be able to have.
+
+00:51:20.040 --> 00:51:21.780 align:middle line:84%
+I was just ignoring
+that reading.
+
+00:51:21.780 --> 00:51:23.430 align:middle line:84%
+Thank you for pulling
+that reading out
+
+00:51:23.430 --> 00:51:24.960 align:middle line:84%
+and making me pay
+attention to it.
+
+00:51:24.960 --> 00:51:26.770 align:middle line:90%
+You're absolutely right.
+
+00:51:26.770 --> 00:51:27.640 align:middle line:90%
+Yeah?
+
+00:51:27.640 --> 00:51:28.330 align:middle line:90%
+Cool.
+
+00:51:28.330 --> 00:51:29.200 align:middle line:90%
+All right.
+
+00:51:29.200 --> 00:51:33.100 align:middle line:90%
+So arguments versus adjuncts--
+
+00:51:33.100 --> 00:51:35.080 align:middle line:84%
+"decide," "on the
+boat," "on the plane."
+
+00:51:35.080 --> 00:51:37.420 align:middle line:90%
+"On the boat" is an argument.
+
+00:51:37.420 --> 00:51:40.360 align:middle line:84%
+This means I chose the
+boat on the plane, at least
+
+00:51:40.360 --> 00:51:41.860 align:middle line:90%
+on the most natural prosody.
+
+00:51:41.860 --> 00:51:47.710 align:middle line:84%
+And we've now seen two ways
+of distinguishing arguments
+
+00:51:47.710 --> 00:51:48.310 align:middle line:90%
+from adjuncts.
+
+00:51:48.310 --> 00:51:51.460 align:middle line:84%
+One is if you have
+anything left over after
+
+00:51:51.460 --> 00:51:53.230 align:middle line:90%
+VP-pronominalization--
+
+00:51:53.230 --> 00:51:55.030 align:middle line:84%
+anything that's
+outside, "do so."
+
+00:51:55.030 --> 00:51:56.740 align:middle line:84%
+Anything that's still
+there had better
+
+00:51:56.740 --> 00:51:59.290 align:middle line:84%
+be an adjunct and not an
+argument because "do so"
+
+00:51:59.290 --> 00:52:02.090 align:middle line:90%
+doesn't select for things.
+
+00:52:02.090 --> 00:52:05.050 align:middle line:84%
+And if you have both an
+argument and an adjunct,
+
+00:52:05.050 --> 00:52:09.460 align:middle line:84%
+the argument tends to be closer
+to the verb than the adjunct.
+
+00:52:09.460 --> 00:52:12.070 align:middle line:84%
+Those are the two tests
+that I've given you so far.
+
+00:52:12.070 --> 00:52:17.970 align:middle line:90%
+
+
+00:52:17.970 --> 00:52:21.085 align:middle line:84%
+And then here's a
+mini-constituency test
+
+00:52:21.085 --> 00:52:23.460 align:middle line:84%
+that's meant to get you to
+take seriously the possibility
+
+00:52:23.460 --> 00:52:25.680 align:middle line:84%
+that there is a constituent,
+"decide on the boat."
+
+00:52:25.680 --> 00:52:28.560 align:middle line:84%
+Look, you can coordinate
+that constituent
+
+00:52:28.560 --> 00:52:30.330 align:middle line:84%
+with another constituent
+of the same kind.
+
+00:52:30.330 --> 00:52:32.100 align:middle line:84%
+You can say, "Mary
+will decide on the boat
+
+00:52:32.100 --> 00:52:34.075 align:middle line:90%
+and read a novel on the plane."
+
+00:52:34.075 --> 00:52:34.575 align:middle line:90%
+That's fine.
+
+00:52:34.575 --> 00:52:37.680 align:middle line:90%
+
+
+00:52:37.680 --> 00:52:41.610 align:middle line:84%
+So, terminology break-- the
+lower thing is the complement.
+
+00:52:41.610 --> 00:52:43.860 align:middle line:90%
+It's the sister of the head.
+
+00:52:43.860 --> 00:52:45.840 align:middle line:84%
+So "complement"
+is a name that we
+
+00:52:45.840 --> 00:52:48.190 align:middle line:84%
+use for sisters of heads
+which, as we've seen,
+
+00:52:48.190 --> 00:52:52.980 align:middle line:84%
+is a position that's kind
+of privileged for arguments,
+
+00:52:52.980 --> 00:52:54.250 align:middle line:90%
+for things that are selected.
+
+00:52:54.250 --> 00:52:59.070 align:middle line:84%
+So if there's only going
+to be one thing that
+
+00:52:59.070 --> 00:53:01.860 align:middle line:84%
+can be-- if there's a
+competition between an argument
+
+00:53:01.860 --> 00:53:03.663 align:middle line:84%
+and an adjunct to
+be the complement,
+
+00:53:03.663 --> 00:53:05.580 align:middle line:84%
+well, it's the argument
+that's the complement.
+
+00:53:05.580 --> 00:53:07.538 align:middle line:84%
+That's the thing that
+gets to be the sister.
+
+00:53:07.538 --> 00:53:08.580 align:middle line:90%
+That's what we're seeing.
+
+00:53:08.580 --> 00:53:12.770 align:middle line:90%
+
+
+00:53:12.770 --> 00:53:15.940 align:middle line:84%
+So here's the principle
+that I introduced informally
+
+00:53:15.940 --> 00:53:18.550 align:middle line:84%
+a second ago and I'll now
+say a little more formally.
+
+00:53:18.550 --> 00:53:21.310 align:middle line:84%
+If you've got a head that's
+selecting for an argument, what
+
+00:53:21.310 --> 00:53:25.930 align:middle line:84%
+we're seeing is you need to
+take care of the selection
+
+00:53:25.930 --> 00:53:29.470 align:middle line:84%
+requirements of the head first
+before you do anything else.
+
+00:53:29.470 --> 00:53:31.900 align:middle line:84%
+You must first eat your
+broccoli before you
+
+00:53:31.900 --> 00:53:33.130 align:middle line:90%
+can have your dessert.
+
+00:53:33.130 --> 00:53:34.810 align:middle line:84%
+You have to take
+your core classes
+
+00:53:34.810 --> 00:53:37.540 align:middle line:84%
+before you can switch to
+taking all linguistics classes.
+
+00:53:37.540 --> 00:53:40.670 align:middle line:90%
+That's the way life is.
+
+00:53:40.670 --> 00:53:43.630 align:middle line:84%
+So if you're going to
+read books quickly,
+
+00:53:43.630 --> 00:53:45.430 align:middle line:90%
+"read" is a transitive verb.
+
+00:53:45.430 --> 00:53:49.210 align:middle line:84%
+It can combine
+with a noun phrase.
+
+00:53:49.210 --> 00:53:52.930 align:middle line:84%
+And so you're going to want to
+give it its noun phrase first.
+
+00:53:52.930 --> 00:53:55.540 align:middle line:84%
+That's the first thing
+you'll merge with "read."
+
+00:53:55.540 --> 00:53:56.950 align:middle line:90%
+"Quickly" is an adjunct.
+
+00:53:56.950 --> 00:53:58.720 align:middle line:90%
+You can do anything quickly.
+
+00:53:58.720 --> 00:54:00.460 align:middle line:84%
+It's not getting
+selected by "read."
+
+00:54:00.460 --> 00:54:02.860 align:middle line:84%
+We won't find verbs that
+can combine with "quickly"
+
+00:54:02.860 --> 00:54:03.940 align:middle line:90%
+and verbs that can't.
+
+00:54:03.940 --> 00:54:08.380 align:middle line:84%
+And so, yeah, you need to
+satisfy the needs of "read"
+
+00:54:08.380 --> 00:54:11.200 align:middle line:84%
+first before you go merging
+"quickly," which is just
+
+00:54:11.200 --> 00:54:13.160 align:middle line:90%
+kind of an optional thing.
+
+00:54:13.160 --> 00:54:15.760 align:middle line:84%
+And that's why the
+story is going to be--
+
+00:54:15.760 --> 00:54:18.160 align:middle line:84%
+we can say, "He read
+the book quickly,"
+
+00:54:18.160 --> 00:54:21.580 align:middle line:84%
+but not, "He read quickly
+the book," in English.
+
+00:54:21.580 --> 00:54:22.780 align:middle line:90%
+Yeah?
+
+00:54:22.780 --> 00:54:25.150 align:middle line:84%
+AUDIENCE: In languages that
+have flexible word order--
+
+00:54:25.150 --> 00:54:26.370 align:middle line:90%
+NORVIN RICHARDS: Yes.
+
+00:54:26.370 --> 00:54:27.760 align:middle line:90%
+[LAUGHS] Let me sit down.
+
+00:54:27.760 --> 00:54:29.920 align:middle line:84%
+AUDIENCE: How do
+these sentences--
+
+00:54:29.920 --> 00:54:34.420 align:middle line:84%
+the sentence trees work
+out if you can rearrange?
+
+00:54:34.420 --> 00:54:37.252 align:middle line:84%
+NORVIN RICHARDS: So you're
+pointing to the fact
+
+00:54:37.252 --> 00:54:39.460 align:middle line:84%
+that there are many languages
+out there in which word
+
+00:54:39.460 --> 00:54:42.940 align:middle line:84%
+order is a lot more flexible
+than it is in English.
+
+00:54:42.940 --> 00:54:44.920 align:middle line:90%
+And you know what?
+
+00:54:44.920 --> 00:54:47.140 align:middle line:84%
+Even in English,
+it sometimes gets
+
+00:54:47.140 --> 00:54:48.680 align:middle line:90%
+more complicated than this.
+
+00:54:48.680 --> 00:54:52.060 align:middle line:84%
+So let me show you the ways in
+which it gets more complicated
+
+00:54:52.060 --> 00:54:52.930 align:middle line:90%
+in English.
+
+00:54:52.930 --> 00:54:59.020 align:middle line:84%
+And when we get to that,
+we will have a tool
+
+00:54:59.020 --> 00:55:00.610 align:middle line:84%
+that we can use
+to describe what's
+
+00:55:00.610 --> 00:55:03.670 align:middle line:84%
+going on in the languages
+you have in mind.
+
+00:55:03.670 --> 00:55:07.090 align:middle line:84%
+So let me just get you to hold
+off on your question for now.
+
+00:55:07.090 --> 00:55:10.810 align:middle line:84%
+Are there any other
+questions about this so far?
+
+00:55:10.810 --> 00:55:11.590 align:middle line:90%
+OK.
+
+00:55:11.590 --> 00:55:12.090 align:middle line:90%
+All right.
+
+00:55:12.090 --> 00:55:14.700 align:middle line:90%
+
+
+00:55:14.700 --> 00:55:17.010 align:middle line:84%
+In fact, I think we might
+be about to do it right now.
+
+00:55:17.010 --> 00:55:17.510 align:middle line:90%
+Yeah.
+
+00:55:17.510 --> 00:55:18.870 align:middle line:90%
+So where are we?
+
+00:55:18.870 --> 00:55:20.990 align:middle line:84%
+Trees are constructed
+by binary Merge.
+
+00:55:20.990 --> 00:55:23.817 align:middle line:84%
+Merge is constrained by
+selection via this thing I just
+
+00:55:23.817 --> 00:55:25.650 align:middle line:84%
+called the Projection
+Principle, which says,
+
+00:55:25.650 --> 00:55:27.330 align:middle line:84%
+if a head selects
+for something, then
+
+00:55:27.330 --> 00:55:29.910 align:middle line:84%
+that should be the
+first thing you merge.
+
+00:55:29.910 --> 00:55:31.970 align:middle line:84%
+Before, some of you
+were tormenting me
+
+00:55:31.970 --> 00:55:33.720 align:middle line:84%
+with questions about
+heads that seem to be
+
+00:55:33.720 --> 00:55:35.190 align:middle line:90%
+selecting more than one thing.
+
+00:55:35.190 --> 00:55:37.440 align:middle line:84%
+And you can kind of interpret
+the Projection Principle
+
+00:55:37.440 --> 00:55:39.450 align:middle line:84%
+in a way that's
+sympathetic to that.
+
+00:55:39.450 --> 00:55:41.550 align:middle line:84%
+You get to say, yeah,
+if you have a head that
+
+00:55:41.550 --> 00:55:44.760 align:middle line:84%
+selects for more than one
+thing, "give the children books"
+
+00:55:44.760 --> 00:55:49.440 align:middle line:84%
+or "put the book on the
+table," it has two needs.
+
+00:55:49.440 --> 00:55:51.300 align:middle line:84%
+And you had better
+satisfy those needs
+
+00:55:51.300 --> 00:55:54.210 align:middle line:84%
+as fast as you can,
+modulo binary merge.
+
+00:55:54.210 --> 00:55:56.227 align:middle line:90%
+So give it one of its arguments.
+
+00:55:56.227 --> 00:55:57.810 align:middle line:84%
+And then it still
+has another argument
+
+00:55:57.810 --> 00:56:00.630 align:middle line:84%
+it needs, so you better
+merge that one next.
+
+00:56:00.630 --> 00:56:03.810 align:middle line:84%
+The tools that we have right
+now make that a possible answer
+
+00:56:03.810 --> 00:56:06.750 align:middle line:90%
+to those kinds of questions.
+
+00:56:06.750 --> 00:56:08.993 align:middle line:84%
+Questions still floating
+around about whether those
+
+00:56:08.993 --> 00:56:10.410 align:middle line:84%
+are the right
+trees, but those are
+
+00:56:10.410 --> 00:56:12.660 align:middle line:90%
+the trees we expect right now.
+
+00:56:12.660 --> 00:56:14.120 align:middle line:90%
+Yep.
+
+00:56:14.120 --> 00:56:15.460 align:middle line:90%
+OK.
+
+00:56:15.460 --> 00:56:16.400 align:middle line:90%
+All right.
+
+00:56:16.400 --> 00:56:18.130 align:middle line:90%
+Yeah?
+
+00:56:18.130 --> 00:56:18.630 align:middle line:90%
+Yes?
+
+00:56:18.630 --> 00:56:20.670 align:middle line:84%
+AUDIENCE: So for a
+verb like "give,"
+
+00:56:20.670 --> 00:56:22.880 align:middle line:84%
+and you are trying to make
+a construction like "give
+
+00:56:22.880 --> 00:56:27.450 align:middle line:84%
+the children books,"
+would it make sense
+
+00:56:27.450 --> 00:56:30.090 align:middle line:84%
+to instead say that
+"books" as an argument
+
+00:56:30.090 --> 00:56:36.850 align:middle line:84%
+is an argument for what you
+get after you merge "gives"
+
+00:56:36.850 --> 00:56:39.240 align:middle line:90%
+with that first argument?
+
+00:56:39.240 --> 00:56:41.400 align:middle line:90%
+It's kind of like--
+
+00:56:41.400 --> 00:56:43.200 align:middle line:84%
+NORVIN RICHARDS: Yeah,
+I see what you mean.
+
+00:56:43.200 --> 00:56:43.700 align:middle line:90%
+Sorry.
+
+00:56:43.700 --> 00:56:45.696 align:middle line:90%
+Go ahead.
+
+00:56:45.696 --> 00:56:48.880 align:middle line:84%
+AUDIENCE: Kind of like
+cutting in lambda calculus.
+
+00:56:48.880 --> 00:56:49.795 align:middle line:90%
+NORVIN RICHARDS: Yes.
+
+00:56:49.795 --> 00:56:50.670 align:middle line:90%
+Yes, it is like that.
+
+00:56:50.670 --> 00:56:53.170 align:middle line:84%
+That's a nice way
+to talk about it.
+
+00:56:53.170 --> 00:56:57.288 align:middle line:90%
+So I've been talking as though--
+
+00:56:57.288 --> 00:57:00.300 align:middle line:84%
+let's see if I can
+say it coherently.
+
+00:57:00.300 --> 00:57:04.590 align:middle line:84%
+I've been talking as though
+when we look up "give," "give"
+
+00:57:04.590 --> 00:57:07.273 align:middle line:84%
+is going to say, well,
+I need two noun phrases.
+
+00:57:07.273 --> 00:57:08.940 align:middle line:84%
+Or at least there is
+a version of "give"
+
+00:57:08.940 --> 00:57:10.710 align:middle line:90%
+that takes two noun phrases.
+
+00:57:10.710 --> 00:57:14.708 align:middle line:84%
+You're asking me,
+wait, couldn't--
+
+00:57:14.708 --> 00:57:17.250 align:middle line:84%
+first of all, don't we want to
+say something more complicated
+
+00:57:17.250 --> 00:57:17.880 align:middle line:90%
+than that?
+
+00:57:17.880 --> 00:57:19.657 align:middle line:84%
+And we saw this
+with "put" as well.
+
+00:57:19.657 --> 00:57:21.240 align:middle line:84%
+It doesn't just want
+two noun phrases.
+
+00:57:21.240 --> 00:57:23.760 align:middle line:84%
+It wants two noun phrases
+in a particular order.
+
+00:57:23.760 --> 00:57:25.920 align:middle line:84%
+So you want to "give
+the children books."
+
+00:57:25.920 --> 00:57:29.070 align:middle line:84%
+You don't want to "give
+the books children,"
+
+00:57:29.070 --> 00:57:31.770 align:middle line:90%
+meaning give children books.
+
+00:57:31.770 --> 00:57:34.860 align:middle line:84%
+So the first noun
+phrase in this list
+
+00:57:34.860 --> 00:57:36.810 align:middle line:84%
+is the noun phrase
+that gets the books,
+
+00:57:36.810 --> 00:57:37.980 align:middle line:90%
+gets the second noun phrase.
+
+00:57:37.980 --> 00:57:39.760 align:middle line:90%
+It's not the other way around.
+
+00:57:39.760 --> 00:57:42.070 align:middle line:84%
+And in "put the
+book on the table,"
+
+00:57:42.070 --> 00:57:44.010 align:middle line:84%
+"put" maybe selects
+for a noun phrase
+
+00:57:44.010 --> 00:57:48.082 align:middle line:84%
+and a prepositional
+phrase, but we
+
+00:57:48.082 --> 00:57:50.040 align:middle line:84%
+need to say something
+more structured than that
+
+00:57:50.040 --> 00:57:51.990 align:middle line:84%
+because it has to be the
+noun phrase first and then
+
+00:57:51.990 --> 00:57:52.800 align:middle line:90%
+the prepositional phrase.
+
+00:57:52.800 --> 00:57:54.280 align:middle line:84%
+It can't be the
+other way around.
+
+00:57:54.280 --> 00:57:57.660 align:middle line:84%
+And you're wondering, can
+we say something like,
+
+00:57:57.660 --> 00:58:02.790 align:middle line:84%
+"give" is a function
+that takes a noun phrase
+
+00:58:02.790 --> 00:58:06.840 align:middle line:84%
+and gets converted into another
+function that also takes a noun
+
+00:58:06.840 --> 00:58:08.295 align:middle line:90%
+phrase, something like that.
+
+00:58:08.295 --> 00:58:11.042 align:middle line:90%
+
+
+00:58:11.042 --> 00:58:12.750 align:middle line:84%
+That's sort of the
+equivalent of currying
+
+00:58:12.750 --> 00:58:17.490 align:middle line:84%
+in or Schönfinkelization
+or whatever.
+
+00:58:17.490 --> 00:58:19.890 align:middle line:84%
+If you ever study
+semantics in my department,
+
+00:58:19.890 --> 00:58:22.940 align:middle line:84%
+I have several German
+semantics colleagues,
+
+00:58:22.940 --> 00:58:24.690 align:middle line:84%
+colleagues whose native
+language is German
+
+00:58:24.690 --> 00:58:26.520 align:middle line:90%
+and they are semanticists.
+
+00:58:26.520 --> 00:58:31.787 align:middle line:84%
+And there were two people who
+invented the kind of functions
+
+00:58:31.787 --> 00:58:33.870 align:middle line:84%
+that he's talking about,
+where you have a function
+
+00:58:33.870 --> 00:58:36.120 align:middle line:84%
+and it changes the function
+into another function that
+
+00:58:36.120 --> 00:58:38.200 align:middle line:90%
+takes another kind of thing.
+
+00:58:38.200 --> 00:58:40.440 align:middle line:84%
+One of them had
+the surname Curry,
+
+00:58:40.440 --> 00:58:42.865 align:middle line:84%
+and the other had the
+surname Schönfinkel.
+
+00:58:42.865 --> 00:58:45.720 align:middle line:90%
+
+
+00:58:45.720 --> 00:58:47.340 align:middle line:90%
+This guy was, I think, British.
+
+00:58:47.340 --> 00:58:49.170 align:middle line:90%
+And this person was German.
+
+00:58:49.170 --> 00:58:52.660 align:middle line:84%
+So most English speakers
+refer to this as currying in.
+
+00:58:52.660 --> 00:58:55.950 align:middle line:84%
+But if you are German, you refer
+to it as Schönfinkelization.
+
+00:58:55.950 --> 00:58:56.910 align:middle line:90%
+[LAUGHTER]
+
+00:58:56.910 --> 00:59:00.360 align:middle line:84%
+And apparently Schönfinkel
+discovered it before Curry,
+
+00:59:00.360 --> 00:59:03.420 align:middle line:84%
+so the Germans are annoyed
+by the fact that we call it
+
+00:59:03.420 --> 00:59:04.502 align:middle line:90%
+currying.
+
+00:59:04.502 --> 00:59:06.210 align:middle line:84%
+I'm not German, so
+I'm not annoyed by you
+
+00:59:06.210 --> 00:59:08.580 align:middle line:90%
+calling it currying in.
+
+00:59:08.580 --> 00:59:10.950 align:middle line:84%
+Indeed, we clearly want
+something more structured
+
+00:59:10.950 --> 00:59:12.600 align:middle line:90%
+than what I'm giving us.
+
+00:59:12.600 --> 00:59:15.645 align:middle line:84%
+And I'm just going to leave
+your point right there.
+
+00:59:15.645 --> 00:59:17.400 align:middle line:84%
+We need to do something
+more sophisticated
+
+00:59:17.400 --> 00:59:19.578 align:middle line:90%
+than what I'm doing here.
+
+00:59:19.578 --> 00:59:21.120 align:middle line:84%
+I keep hinting at
+the fact that we're
+
+00:59:21.120 --> 00:59:24.120 align:middle line:84%
+going to want to investigate
+these trees, the trees that I'm
+
+00:59:24.120 --> 00:59:26.160 align:middle line:84%
+showing you, with
+other techniques
+
+00:59:26.160 --> 00:59:30.390 align:middle line:84%
+to find out whether these
+are the right constituency
+
+00:59:30.390 --> 00:59:31.270 align:middle line:90%
+structures.
+
+00:59:31.270 --> 00:59:33.660 align:middle line:84%
+And when we do
+that, I think we'll
+
+00:59:33.660 --> 00:59:36.743 align:middle line:84%
+have another reason to revise
+what I'm telling you now.
+
+00:59:36.743 --> 00:59:38.910 align:middle line:84%
+So there are several reasons
+to be uneasy about what
+
+00:59:38.910 --> 00:59:40.920 align:middle line:90%
+I'm telling you now.
+
+00:59:40.920 --> 00:59:43.770 align:middle line:84%
+I've shown you a theory
+which works fine as long as
+
+00:59:43.770 --> 00:59:46.032 align:middle line:90%
+heads only have one argument.
+
+00:59:46.032 --> 00:59:47.490 align:middle line:84%
+As soon as they
+have two arguments,
+
+00:59:47.490 --> 00:59:50.538 align:middle line:84%
+these kinds of unsettling
+questions arise.
+
+00:59:50.538 --> 00:59:52.080 align:middle line:84%
+And we're going to
+come back to them.
+
+00:59:52.080 --> 00:59:53.630 align:middle line:90%
+OK?
+
+00:59:53.630 --> 00:59:54.960 align:middle line:90%
+Good question.
+
+00:59:54.960 --> 00:59:56.790 align:middle line:90%
+Other questions about this?
+
+00:59:56.790 --> 00:59:57.870 align:middle line:90%
+This is great.
+
+00:59:57.870 --> 01:00:01.140 align:middle line:84%
+I feel like I'm in
+a graduate seminar.
+
+01:00:01.140 --> 01:00:02.150 align:middle line:90%
+OK?
+
+01:00:02.150 --> 01:00:02.810 align:middle line:90%
+All right.
+
+01:00:02.810 --> 01:00:05.210 align:middle line:90%
+So this is where we are then.
+
+01:00:05.210 --> 01:00:07.145 align:middle line:84%
+Trees are constructed
+by binary Merge.
+
+01:00:07.145 --> 01:00:09.020 align:middle line:84%
+We have the Projection
+Principle, which says,
+
+01:00:09.020 --> 01:00:10.220 align:middle line:84%
+if there's a selection
+relation, you
+
+01:00:10.220 --> 01:00:11.780 align:middle line:84%
+need to do that
+Merge relation first.
+
+01:00:11.780 --> 01:00:14.690 align:middle line:90%
+
+
+01:00:14.690 --> 01:00:17.570 align:middle line:84%
+And that's going to get us
+contrasts like "Mary wrote
+
+01:00:17.570 --> 01:00:19.785 align:middle line:84%
+the novel on a
+typewriter" versus "Mary
+
+01:00:19.785 --> 01:00:22.160 align:middle line:84%
+wrote on a typewriter the
+novel," where the second one is
+
+01:00:22.160 --> 01:00:26.270 align:middle line:84%
+no good because "write"
+has the option of being
+
+01:00:26.270 --> 01:00:27.560 align:middle line:90%
+a transitive verb.
+
+01:00:27.560 --> 01:00:32.000 align:middle line:84%
+And when it's a transitive verb,
+it selects for a direct object.
+
+01:00:32.000 --> 01:00:33.590 align:middle line:90%
+And that's the novel.
+
+01:00:33.590 --> 01:00:35.990 align:middle line:84%
+"On a typewriter" is
+like "with a feather."
+
+01:00:35.990 --> 01:00:37.520 align:middle line:84%
+You can do anything
+on a typewriter.
+
+01:00:37.520 --> 01:00:38.880 align:middle line:90%
+You can combine with anything.
+
+01:00:38.880 --> 01:00:39.830 align:middle line:90%
+So it's an adjunct.
+
+01:00:39.830 --> 01:00:42.110 align:middle line:84%
+And so there's no
+hurry to merge it.
+
+01:00:42.110 --> 01:00:47.072 align:middle line:90%
+
+
+01:00:47.072 --> 01:00:48.780 align:middle line:84%
+So we've worked our
+way to the conclusion
+
+01:00:48.780 --> 01:00:51.150 align:middle line:84%
+that "write," when it's
+transitive, absolutely,
+
+01:00:51.150 --> 01:00:53.792 align:middle line:84%
+absolutely has to
+select an object.
+
+01:00:53.792 --> 01:00:56.250 align:middle line:84%
+And the object has to be the
+first thing you merge together
+
+01:00:56.250 --> 01:00:57.360 align:middle line:90%
+with "write."
+
+01:00:57.360 --> 01:00:59.772 align:middle line:84%
+So it has to be right
+after "write" in English.
+
+01:00:59.772 --> 01:01:01.230 align:middle line:84%
+That's why you can
+say, "Mary wrote
+
+01:01:01.230 --> 01:01:02.355 align:middle line:90%
+the novel on a typewriter."
+
+01:01:02.355 --> 01:01:05.112 align:middle line:84%
+You cannot say "Mary wrote
+on a typewriter the novel."
+
+01:01:05.112 --> 01:01:06.570 align:middle line:84%
+The novel, the
+thing that's getting
+
+01:01:06.570 --> 01:01:08.895 align:middle line:84%
+written, it absolutely has
+to be right next to "write."
+
+01:01:08.895 --> 01:01:11.850 align:middle line:90%
+
+
+01:01:11.850 --> 01:01:13.770 align:middle line:90%
+Darn!
+
+01:01:13.770 --> 01:01:18.270 align:middle line:84%
+That last example looks
+problematic, right?
+
+01:01:18.270 --> 01:01:21.510 align:middle line:84%
+If I ask you, "What did
+Mary write on a typewriter,"
+
+01:01:21.510 --> 01:01:24.300 align:middle line:84%
+we've just worked our way to
+the conclusion that "write,"
+
+01:01:24.300 --> 01:01:26.308 align:middle line:84%
+when it takes a direct
+object, the direct object
+
+01:01:26.308 --> 01:01:28.350 align:middle line:84%
+has to be the first thing
+you Merge with "write."
+
+01:01:28.350 --> 01:01:29.808 align:middle line:84%
+It has to be right
+next to "write."
+
+01:01:29.808 --> 01:01:32.010 align:middle line:84%
+There can't be anything
+intervening between "write"
+
+01:01:32.010 --> 01:01:36.840 align:middle line:84%
+and it's complement, the
+thing that's getting written.
+
+01:01:36.840 --> 01:01:39.960 align:middle line:84%
+What's the thing that's getting
+written in that example?
+
+01:01:39.960 --> 01:01:41.820 align:middle line:84%
+What did Mary write
+on the typewriter?
+
+01:01:41.820 --> 01:01:42.510 align:middle line:90%
+Joseph?
+
+01:01:42.510 --> 01:01:42.780 align:middle line:90%
+AUDIENCE: "What."
+
+01:01:42.780 --> 01:01:43.780 align:middle line:90%
+NORVIN RICHARDS: "What."
+
+01:01:43.780 --> 01:01:45.000 align:middle line:90%
+Yeah.
+
+01:01:45.000 --> 01:01:47.648 align:middle line:84%
+This sounds like an Abbott
+and Costello routine.
+
+01:01:47.648 --> 01:01:48.690 align:middle line:90%
+"What's getting written."
+
+01:01:48.690 --> 01:01:50.070 align:middle line:90%
+Yes.
+
+01:01:50.070 --> 01:01:50.820 align:middle line:90%
+[LAUGHTER]
+
+01:01:50.820 --> 01:01:52.740 align:middle line:90%
+
+
+01:01:52.740 --> 01:01:55.320 align:middle line:84%
+But that's not the
+sister of "write."
+
+01:01:55.320 --> 01:01:56.520 align:middle line:90%
+That's nowhere near "write."
+
+01:01:56.520 --> 01:01:58.680 align:middle line:84%
+It's way the heck at the
+beginning of the sentence.
+
+01:01:58.680 --> 01:02:02.000 align:middle line:90%
+What the heck is going on?
+
+01:02:02.000 --> 01:02:03.942 align:middle line:84%
+Are you all
+emotionally distraught?
+
+01:02:03.942 --> 01:02:05.150 align:middle line:90%
+That's what I'm trying to do.
+
+01:02:05.150 --> 01:02:05.650 align:middle line:90%
+Yeah?
+
+01:02:05.650 --> 01:02:07.670 align:middle line:90%
+OK, good.
+
+01:02:07.670 --> 01:02:11.450 align:middle line:84%
+So two possible
+responses-- oh, well, we
+
+01:02:11.450 --> 01:02:13.730 align:middle line:84%
+didn't have time to get too
+attached to the Projection
+
+01:02:13.730 --> 01:02:14.438 align:middle line:90%
+Principle anyway.
+
+01:02:14.438 --> 01:02:16.590 align:middle line:84%
+It was just a couple
+of slides ago.
+
+01:02:16.590 --> 01:02:18.200 align:middle line:90%
+So much for that idea.
+
+01:02:18.200 --> 01:02:19.420 align:middle line:90%
+That's one possibility.
+
+01:02:19.420 --> 01:02:21.698 align:middle line:84%
+So apparently heads
+can select for things,
+
+01:02:21.698 --> 01:02:23.490 align:middle line:84%
+and they don't have to
+be anywhere near it.
+
+01:02:23.490 --> 01:02:25.020 align:middle line:90%
+So, well.
+
+01:02:25.020 --> 01:02:25.520 align:middle line:90%
+But, look.
+
+01:02:25.520 --> 01:02:26.645 align:middle line:90%
+Here's another possibility.
+
+01:02:26.645 --> 01:02:30.860 align:middle line:84%
+We could say, no, the
+Projection Principle is right--
+
+01:02:30.860 --> 01:02:32.840 align:middle line:90%
+is correct.
+
+01:02:32.840 --> 01:02:35.360 align:middle line:84%
+I should have picked
+a different verb.
+
+01:02:35.360 --> 01:02:37.140 align:middle line:84%
+The Projection
+Principle is correct.
+
+01:02:37.140 --> 01:02:38.660 align:middle line:84%
+It is true that a
+verb like "write"
+
+01:02:38.660 --> 01:02:40.400 align:middle line:84%
+that selects for an
+object absolutely has
+
+01:02:40.400 --> 01:02:41.692 align:middle line:90%
+to merge with the object first.
+
+01:02:41.692 --> 01:02:45.010 align:middle line:84%
+And so, really what
+you're doing when
+
+01:02:45.010 --> 01:02:47.350 align:middle line:84%
+you start to ask a question
+like, "What did Mary
+
+01:02:47.350 --> 01:02:48.820 align:middle line:84%
+write on a
+typewriter?" is you are
+
+01:02:48.820 --> 01:02:50.635 align:middle line:90%
+merging "write" with "what."
+
+01:02:50.635 --> 01:02:53.020 align:middle line:84%
+"What" is starting off
+as the sister of "write."
+
+01:02:53.020 --> 01:02:55.810 align:middle line:84%
+So you start off with something
+more like "Mary wrote what
+
+01:02:55.810 --> 01:02:59.110 align:middle line:90%
+on a typewriter."
+
+01:02:59.110 --> 01:03:01.630 align:middle line:84%
+And then, apparently,
+there is some operation
+
+01:03:01.630 --> 01:03:04.260 align:middle line:84%
+that takes "what" and
+puts it somewhere else,
+
+01:03:04.260 --> 01:03:05.635 align:middle line:84%
+at the beginning
+of the sentence.
+
+01:03:05.635 --> 01:03:10.780 align:middle line:90%
+
+
+01:03:10.780 --> 01:03:14.590 align:middle line:90%
+So-- this was a while ago--
+
+01:03:14.590 --> 01:03:17.050 align:middle line:84%
+Kateryna asked me,
+what about languages
+
+01:03:17.050 --> 01:03:18.730 align:middle line:90%
+where word order is freer?
+
+01:03:18.730 --> 01:03:21.640 align:middle line:84%
+And I said, things are about
+to get more complicated.
+
+01:03:21.640 --> 01:03:24.110 align:middle line:84%
+Things have now gotten
+more complicated.
+
+01:03:24.110 --> 01:03:25.900 align:middle line:90%
+So, yeah, there's selection.
+
+01:03:25.900 --> 01:03:27.070 align:middle line:90%
+Things select for things.
+
+01:03:27.070 --> 01:03:29.920 align:middle line:84%
+And when x selects
+for y, then y needs
+
+01:03:29.920 --> 01:03:31.780 align:middle line:90%
+to merge with x right away.
+
+01:03:31.780 --> 01:03:34.330 align:middle line:84%
+And there are adjuncts that
+can merge wherever they want.
+
+01:03:34.330 --> 01:03:36.460 align:middle line:90%
+And there are things like this--
+
+01:03:36.460 --> 01:03:38.440 align:middle line:90%
+movement operations.
+
+01:03:38.440 --> 01:03:41.150 align:middle line:84%
+I can spend some time trying to
+convince you that this is true.
+
+01:03:41.150 --> 01:03:44.350 align:middle line:84%
+But right now let me just assert
+that it's true-- cases where,
+
+01:03:44.350 --> 01:03:48.008 align:middle line:84%
+indeed, things do merge just the
+way we've convinced ourselves
+
+01:03:48.008 --> 01:03:48.550 align:middle line:90%
+that they do.
+
+01:03:48.550 --> 01:03:49.758 align:middle line:90%
+They merge where they should.
+
+01:03:49.758 --> 01:03:51.400 align:middle line:90%
+They merge as sisters of verbs.
+
+01:03:51.400 --> 01:03:56.080 align:middle line:84%
+But then something else happens,
+and they end up somewhere else.
+
+01:03:56.080 --> 01:03:58.000 align:middle line:84%
+So there's this
+operation of movement
+
+01:03:58.000 --> 01:04:00.370 align:middle line:84%
+where you take the word
+"what," and you move it
+
+01:04:00.370 --> 01:04:03.160 align:middle line:84%
+to the beginning of the sentence
+in order to form questions
+
+01:04:03.160 --> 01:04:04.480 align:middle line:90%
+like this one.
+
+01:04:04.480 --> 01:04:07.450 align:middle line:84%
+Notice that in English, and
+indeed in many languages--
+
+01:04:07.450 --> 01:04:08.290 align:middle line:90%
+most languages.
+
+01:04:08.290 --> 01:04:11.290 align:middle line:84%
+Not all languages,
+but in many languages,
+
+01:04:11.290 --> 01:04:15.580 align:middle line:84%
+if I'm amazed by
+something you've
+
+01:04:15.580 --> 01:04:20.920 align:middle line:84%
+said-- if you say, "Mary wrote
+a proof of Fermat's Last Theorem
+
+01:04:20.920 --> 01:04:23.710 align:middle line:84%
+on a typewriter,"
+I can say, "Mary
+
+01:04:23.710 --> 01:04:25.660 align:middle line:90%
+wrote what on the typewriter?"
+
+01:04:25.660 --> 01:04:28.330 align:middle line:84%
+So it actually is possible to
+say these words in this order.
+
+01:04:28.330 --> 01:04:31.180 align:middle line:84%
+I just have to be in a
+particular emotional state.
+
+01:04:31.180 --> 01:04:32.995 align:middle line:90%
+I have to be astonished.
+
+01:04:32.995 --> 01:04:35.170 align:middle line:84%
+This is actually
+cross-linguistically extremely
+
+01:04:35.170 --> 01:04:36.910 align:middle line:90%
+common for--
+
+01:04:36.910 --> 01:04:39.340 align:middle line:84%
+they're called echo
+questions, where,
+
+01:04:39.340 --> 01:04:41.933 align:middle line:84%
+if I can't believe
+what you just said
+
+01:04:41.933 --> 01:04:44.350 align:middle line:84%
+or if I couldn't quite hear
+what you just said-- if you're
+
+01:04:44.350 --> 01:04:47.710 align:middle line:84%
+telling me on the
+T, and you say,
+
+01:04:47.710 --> 01:04:50.047 align:middle line:84%
+"Mary wrote [GARGLING NOISE]
+on a typewriter,"
+
+01:04:50.047 --> 01:04:51.880 align:middle line:84%
+and there's lots of
+noise in the background,
+
+01:04:51.880 --> 01:04:53.960 align:middle line:84%
+and I missed the crucial
+thing, I can say,
+
+01:04:53.960 --> 01:04:55.997 align:middle line:84%
+"Mary wrote what
+on a typewriter?"
+
+01:04:55.997 --> 01:04:57.580 align:middle line:84%
+These are called
+echo questions, where
+
+01:04:57.580 --> 01:05:01.300 align:middle line:84%
+I'm repeating most
+of what you just said
+
+01:05:01.300 --> 01:05:04.150 align:middle line:84%
+and replacing part
+of it with a wh-word.
+
+01:05:04.150 --> 01:05:06.100 align:middle line:84%
+And it's extremely common
+cross-linguistically
+
+01:05:06.100 --> 01:05:09.100 align:middle line:84%
+for it to be possible
+to leave these question
+
+01:05:09.100 --> 01:05:12.077 align:middle line:84%
+words like "what"
+in the positions
+
+01:05:12.077 --> 01:05:14.660 align:middle line:84%
+where you would expect them to
+be in those kinds of questions,
+
+01:05:14.660 --> 01:05:16.577 align:middle line:84%
+in the positions where
+they would be selected.
+
+01:05:16.577 --> 01:05:18.062 align:middle line:90%
+It's not universal, actually.
+
+01:05:18.062 --> 01:05:20.020 align:middle line:84%
+There are languages that
+don't let you do that.
+
+01:05:20.020 --> 01:05:22.640 align:middle line:84%
+If you're working
+on a language, it
+
+01:05:22.640 --> 01:05:24.760 align:middle line:84%
+could be interesting
+to do some finding out
+
+01:05:24.760 --> 01:05:29.430 align:middle line:84%
+about how it forms these
+kinds of questions.
+
+01:05:29.430 --> 01:05:32.450 align:middle line:84%
+OK, so lots of
+questions about what's
+
+01:05:32.450 --> 01:05:34.910 align:middle line:90%
+going on in this last example.
+
+01:05:34.910 --> 01:05:36.920 align:middle line:84%
+There are several
+reasons to think
+
+01:05:36.920 --> 01:05:40.670 align:middle line:90%
+that "what" is ending up in CP.
+
+01:05:40.670 --> 01:05:41.750 align:middle line:90%
+Remember CP?
+
+01:05:41.750 --> 01:05:47.300 align:middle line:84%
+It was the thing that had heads
+like "whether" and "that."
+
+01:05:47.300 --> 01:05:50.420 align:middle line:84%
+And we said verbs like
+"know" and "think"--
+
+01:05:50.420 --> 01:05:52.700 align:middle line:84%
+and "wonder" I think was
+the example I used before--
+
+01:05:52.700 --> 01:05:54.740 align:middle line:90%
+they select for clauses.
+
+01:05:54.740 --> 01:05:56.900 align:middle line:84%
+And in particular, they
+select for properties
+
+01:05:56.900 --> 01:05:58.200 align:middle line:90%
+of the head of the clause.
+
+01:05:58.200 --> 01:06:02.525 align:middle line:84%
+So "think" can select for a
+clause that's headed by "that."
+
+01:06:02.525 --> 01:06:03.800 align:middle line:90%
+"That" is the complementizer.
+
+01:06:03.800 --> 01:06:06.410 align:middle line:84%
+That's our word
+for it in syntax.
+
+01:06:06.410 --> 01:06:08.300 align:middle line:84%
+"That" is the complementizer
+that introduces
+
+01:06:08.300 --> 01:06:10.185 align:middle line:90%
+that embedded clause.
+
+01:06:10.185 --> 01:06:11.810 align:middle line:84%
+"I don't know whether
+he ate the ants."
+
+01:06:11.810 --> 01:06:15.050 align:middle line:84%
+"Whether" is a complementizer
+that can be selected by "know."
+
+01:06:15.050 --> 01:06:17.840 align:middle line:84%
+You can't "think whether
+he ate the ants."
+
+01:06:17.840 --> 01:06:20.270 align:middle line:84%
+And actually there are
+verbs like "know" that
+
+01:06:20.270 --> 01:06:23.510 align:middle line:84%
+can have either
+"whether" or "that."
+
+01:06:23.510 --> 01:06:25.700 align:middle line:84%
+With a verb like "know"
+that can have "whether,"
+
+01:06:25.700 --> 01:06:29.670 align:middle line:84%
+it can also have "what"
+immediately following it.
+
+01:06:29.670 --> 01:06:33.590 align:middle line:84%
+So you can say, "I
+don't know what he ate."
+
+01:06:33.590 --> 01:06:36.320 align:middle line:84%
+And notice that
+if it has "what,"
+
+01:06:36.320 --> 01:06:38.420 align:middle line:84%
+it cannot have either
+"that" or "whether."
+
+01:06:38.420 --> 01:06:43.550 align:middle line:84%
+So you can say, "I know
+that he ate the ants."
+
+01:06:43.550 --> 01:06:46.910 align:middle line:84%
+You can say, "I know
+whether he ate the ants."
+
+01:06:46.910 --> 01:06:48.683 align:middle line:84%
+And you can say, "I
+know what he ate."
+
+01:06:48.683 --> 01:06:50.600 align:middle line:84%
+But you cannot say, "I
+know what that he ate,"
+
+01:06:50.600 --> 01:06:51.890 align:middle line:90%
+or "what whether he ate."
+
+01:06:51.890 --> 01:06:54.020 align:middle line:84%
+So "that" and "whether"
+and "what"-- they all
+
+01:06:54.020 --> 01:06:55.940 align:middle line:84%
+seem to be sort of in
+the same slot there.
+
+01:06:55.940 --> 01:06:58.945 align:middle line:90%
+They're in the CP somehow.
+
+01:06:58.945 --> 01:07:00.820 align:middle line:84%
+We'll see they're not
+quite in the same slot.
+
+01:07:00.820 --> 01:07:02.710 align:middle line:84%
+But the idea that
+"what" ends up somewhere
+
+01:07:02.710 --> 01:07:07.330 align:middle line:84%
+in CP, that seems to be part
+of what's going on here.
+
+01:07:07.330 --> 01:07:10.040 align:middle line:90%
+
+
+01:07:10.040 --> 01:07:13.010 align:middle line:84%
+And then, as I said,
+I promised you there
+
+01:07:13.010 --> 01:07:16.190 align:middle line:84%
+will be various reasons to
+think that "what" starts off
+
+01:07:16.190 --> 01:07:19.040 align:middle line:84%
+as the sister of "write"
+and moves into CP.
+
+01:07:19.040 --> 01:07:21.860 align:middle line:84%
+But one of them is the
+one I just went through.
+
+01:07:21.860 --> 01:07:24.680 align:middle line:84%
+Under certain circumstances,
+communicative circumstances,
+
+01:07:24.680 --> 01:07:26.845 align:middle line:84%
+I can say, "Mary wrote
+what on a typewriter?"
+
+01:07:26.845 --> 01:07:28.220 align:middle line:84%
+like if I couldn't
+quite hear you
+
+01:07:28.220 --> 01:07:31.610 align:middle line:84%
+or if I don't believe
+what you just said.
+
+01:07:31.610 --> 01:07:33.830 align:middle line:84%
+So here's a tree
+that we're going
+
+01:07:33.830 --> 01:07:36.860 align:middle line:84%
+to draw for "What
+will Mary write?"
+
+01:07:36.860 --> 01:07:39.200 align:middle line:84%
+It's going to have
+"what" starting off
+
+01:07:39.200 --> 01:07:41.780 align:middle line:84%
+as the sister of "write,"
+right where the Projection
+
+01:07:41.780 --> 01:07:43.250 align:middle line:90%
+Principle wants it to be.
+
+01:07:43.250 --> 01:07:46.310 align:middle line:84%
+"Write" selects for a direct
+object, and it gets one.
+
+01:07:46.310 --> 01:07:47.840 align:middle line:90%
+That's the sister of "write."
+
+01:07:47.840 --> 01:07:52.790 align:middle line:84%
+And then it moves to
+the edge of the CP.
+
+01:07:52.790 --> 01:07:56.480 align:middle line:84%
+And so that's the kind of
+tree that we're going to draw.
+
+01:07:56.480 --> 01:07:59.400 align:middle line:84%
+This phenomenon--
+there's a name for it.
+
+01:07:59.400 --> 01:08:01.950 align:middle line:90%
+It's called wh-movement.
+
+01:08:01.950 --> 01:08:04.850 align:middle line:84%
+It's called wh-movement
+because these question words--
+
+01:08:04.850 --> 01:08:10.640 align:middle line:84%
+these words like "what" and
+"where" and "why" and "when"--
+
+01:08:10.640 --> 01:08:15.350 align:middle line:84%
+tend to start with the
+letters W and H in English.
+
+01:08:15.350 --> 01:08:17.840 align:middle line:84%
+"Who" and "what" and "where"
+and "when" and "why"--
+
+01:08:17.840 --> 01:08:22.430 align:middle line:84%
+and "how," which doesn't start
+with the letters W and H,
+
+01:08:22.430 --> 01:08:24.560 align:middle line:84%
+but it does contain
+the letters W and H,
+
+01:08:24.560 --> 01:08:26.130 align:middle line:90%
+just not in the right order.
+
+01:08:26.130 --> 01:08:28.939 align:middle line:84%
+So these words are
+called wh-words.
+
+01:08:28.939 --> 01:08:30.050 align:middle line:90%
+And they're called that.
+
+01:08:30.050 --> 01:08:32.029 align:middle line:84%
+It's just a technical
+term in syntax.
+
+01:08:32.029 --> 01:08:35.300 align:middle line:84%
+We call these words wh-words,
+regardless of the language
+
+01:08:35.300 --> 01:08:36.229 align:middle line:90%
+we're working in.
+
+01:08:36.229 --> 01:08:39.367 align:middle line:84%
+It's a sort of embarrassingly
+Anglocentric term.
+
+01:08:39.367 --> 01:08:41.450 align:middle line:84%
+So they're called wh-words
+because in English they
+
+01:08:41.450 --> 01:08:42.979 align:middle line:90%
+start with W and H.
+
+01:08:42.979 --> 01:08:44.479 align:middle line:84%
+The language that
+you're working on,
+
+01:08:44.479 --> 01:08:46.370 align:middle line:84%
+they surely will not
+start with W and H.
+
+01:08:46.370 --> 01:08:49.160 align:middle line:84%
+But we're still going to
+want to call them wh-words.
+
+01:08:49.160 --> 01:08:52.399 align:middle line:84%
+And this phenomenon
+is called wh-movement.
+
+01:08:52.399 --> 01:08:55.310 align:middle line:84%
+And it's a cross-linguistically
+very common phenomenon.
+
+01:08:55.310 --> 01:08:57.904 align:middle line:90%
+
+
+01:08:57.904 --> 01:08:59.779 align:middle line:84%
+There's an English
+example of it there again.
+
+01:08:59.779 --> 01:09:01.208 align:middle line:90%
+"What did you put on the table?"
+
+01:09:01.208 --> 01:09:03.500 align:middle line:84%
+Here's the Tagalog for "What
+did you put on the table?"
+
+01:09:03.500 --> 01:09:06.800 align:middle line:84%
+You can see the Tagalog word
+for "what" doesn't begin with W
+
+01:09:06.800 --> 01:09:10.520 align:middle line:84%
+and H. Tagalog
+does have W and H,
+
+01:09:10.520 --> 01:09:13.220 align:middle line:84%
+but words can't
+start with W and H.
+
+01:09:13.220 --> 01:09:17.213 align:middle line:84%
+And there's the Finnish for
+"where did I put my clothes."
+
+01:09:17.213 --> 01:09:19.130 align:middle line:84%
+I should really learn
+how to say "what did you
+
+01:09:19.130 --> 01:09:20.660 align:middle line:90%
+put on the table" in Finnish.
+
+01:09:20.660 --> 01:09:23.069 align:middle line:84%
+I don't know why that's
+my Finnish example.
+
+01:09:23.069 --> 01:09:26.750 align:middle line:84%
+So various unrelated languages
+that have wh-movement.
+
+01:09:26.750 --> 01:09:30.540 align:middle line:84%
+It's a cross-linguistically
+very common phenomenon.
+
+01:09:30.540 --> 01:09:32.062 align:middle line:90%
+It's not universal.
+
+01:09:32.062 --> 01:09:33.770 align:middle line:84%
+Some of you, in fact,
+are native speakers
+
+01:09:33.770 --> 01:09:37.640 align:middle line:84%
+of languages in which
+wh-words don't move
+
+01:09:37.640 --> 01:09:39.859 align:middle line:90%
+to the left edge of the clause.
+
+01:09:39.859 --> 01:09:41.910 align:middle line:90%
+They just stay where they are.
+
+01:09:41.910 --> 01:09:44.314 align:middle line:84%
+So in Chinese, for
+example, if you
+
+01:09:44.314 --> 01:09:45.814 align:middle line:84%
+want to say "What
+did Zhangsan buy,"
+
+01:09:45.814 --> 01:09:48.120 align:middle line:84%
+you don't say, "What
+did Zhangsan buy,"
+
+01:09:48.120 --> 01:09:49.370 align:middle line:90%
+or at least you don't have to.
+
+01:09:49.370 --> 01:09:51.260 align:middle line:84%
+The standard thing
+to say is, literally,
+
+01:09:51.260 --> 01:09:53.930 align:middle line:84%
+"Zhangsan bought what,"
+which, as I said,
+
+01:09:53.930 --> 01:09:57.230 align:middle line:84%
+you can say in English, but only
+under special circumstances.
+
+01:09:57.230 --> 01:09:58.940 align:middle line:84%
+In Chinese, that's
+just the natural way
+
+01:09:58.940 --> 01:10:01.520 align:middle line:84%
+to ask that question, is
+to leave [INAUDIBLE] right
+
+01:10:01.520 --> 01:10:04.580 align:middle line:84%
+where it would be as
+the object of the verb.
+
+01:10:04.580 --> 01:10:06.680 align:middle line:84%
+And here are a couple
+more examples--
+
+01:10:06.680 --> 01:10:08.690 align:middle line:84%
+Bafut, which is a
+language of Cameroon,
+
+01:10:08.690 --> 01:10:12.200 align:middle line:84%
+and Hopi, which is a language
+of the American Southwest.
+
+01:10:12.200 --> 01:10:15.100 align:middle line:90%
+
+
+01:10:15.100 --> 01:10:18.160 align:middle line:84%
+So there's
+cross-linguistic variation
+
+01:10:18.160 --> 01:10:19.635 align:middle line:90%
+in how you form wh-questions.
+
+01:10:19.635 --> 01:10:21.010 align:middle line:84%
+There are languages,
+like English
+
+01:10:21.010 --> 01:10:23.350 align:middle line:84%
+and Finnish and Tagalog and
+many other languages, where
+
+01:10:23.350 --> 01:10:25.240 align:middle line:84%
+you take your wh-words
+and you move them
+
+01:10:25.240 --> 01:10:27.600 align:middle line:90%
+to the left edge of CP.
+
+01:10:27.600 --> 01:10:29.350 align:middle line:84%
+And then there are
+languages, like Chinese
+
+01:10:29.350 --> 01:10:32.600 align:middle line:84%
+and Bafut and Hopi, where
+the wh-words just don't move.
+
+01:10:32.600 --> 01:10:36.060 align:middle line:84%
+They just stay where
+they would normally go,
+
+01:10:36.060 --> 01:10:38.060 align:middle line:84%
+wherever they would
+normally go in the sentence.
+
+01:10:38.060 --> 01:10:39.380 align:middle line:90%
+There's no movement going on.
+
+01:10:39.380 --> 01:10:42.820 align:middle line:84%
+So in Chinese, if
+you wanted to say,
+
+01:10:42.820 --> 01:10:44.950 align:middle line:84%
+"Zhangsan bought a
+book," instead of "what,"
+
+01:10:44.950 --> 01:10:48.160 align:middle line:84%
+you would just put
+the word for "book."
+
+01:10:48.160 --> 01:10:50.270 align:middle line:84%
+Chinese normal word
+order is subject,
+
+01:10:50.270 --> 01:10:51.940 align:middle line:84%
+verb, object, kind
+of like English.
+
+01:10:51.940 --> 01:10:53.380 align:middle line:90%
+Same deal for Bafut.
+
+01:10:53.380 --> 01:10:55.270 align:middle line:84%
+Hopi has the verb at
+the end of the sentence.
+
+01:10:55.270 --> 01:10:58.702 align:middle line:84%
+So these wh-words, these
+words that mean things
+
+01:10:58.702 --> 01:11:00.160 align:middle line:84%
+like "what" and
+"who," they're just
+
+01:11:00.160 --> 01:11:02.050 align:middle line:84%
+going where the object
+would normally go
+
+01:11:02.050 --> 01:11:04.910 align:middle line:90%
+in these wh-in-situ languages.
+
+01:11:04.910 --> 01:11:08.660 align:middle line:84%
+And those are almost
+the only two options.
+
+01:11:08.660 --> 01:11:11.690 align:middle line:84%
+Take your wh-word and move
+it to the left edge of CP,
+
+01:11:11.690 --> 01:11:14.720 align:middle line:84%
+or leave it where it
+would normally go.
+
+01:11:14.720 --> 01:11:16.550 align:middle line:90%
+You can imagine others, right?
+
+01:11:16.550 --> 01:11:20.240 align:middle line:84%
+So, for example, it's
+not clear that there
+
+01:11:20.240 --> 01:11:22.400 align:middle line:84%
+are any languages in
+which you take the wh-word
+
+01:11:22.400 --> 01:11:24.945 align:middle line:84%
+and you move it to
+the end of the clause.
+
+01:11:24.945 --> 01:11:26.570 align:middle line:84%
+You could imagine a
+language like that,
+
+01:11:26.570 --> 01:11:27.890 align:middle line:84%
+but it's not clear
+that there are
+
+01:11:27.890 --> 01:11:30.390 align:middle line:84%
+any languages in which you say,
+"You put on the table what?"
+
+01:11:30.390 --> 01:11:33.110 align:middle line:90%
+
+
+01:11:33.110 --> 01:11:37.400 align:middle line:84%
+I think my next slides make that
+observation more complicated.
+
+01:11:37.400 --> 01:11:39.687 align:middle line:84%
+And I think I want to
+skip them, actually.
+
+01:11:39.687 --> 01:11:41.270 align:middle line:84%
+So to make this fact
+more interesting,
+
+01:11:41.270 --> 01:11:44.288 align:middle line:84%
+let me show you one other kind
+of cross-linguistic variation.
+
+01:11:44.288 --> 01:11:45.330 align:middle line:90%
+I'm not going to do that.
+
+01:11:45.330 --> 01:11:46.580 align:middle line:90%
+So let me do that fast.
+
+01:11:46.580 --> 01:11:49.940 align:middle line:84%
+We'll come back to this because
+we're running low on time.
+
+01:11:49.940 --> 01:11:51.830 align:middle line:84%
+And I want to show you
+one other quick thing.
+
+01:11:51.830 --> 01:11:56.053 align:middle line:90%
+
+
+01:11:56.053 --> 01:11:57.470 align:middle line:84%
+In the remaining
+five minutes, I'm
+
+01:11:57.470 --> 01:11:59.090 align:middle line:90%
+going to set up another thing.
+
+01:11:59.090 --> 01:12:03.230 align:middle line:84%
+And then we'll come back, and
+we'll start here next time.
+
+01:12:03.230 --> 01:12:06.290 align:middle line:84%
+I've been concentrating on
+wh-questions where you're only
+
+01:12:06.290 --> 01:12:08.150 align:middle line:90%
+asking about one thing.
+
+01:12:08.150 --> 01:12:10.410 align:middle line:84%
+In many languages--
+not all languages,
+
+01:12:10.410 --> 01:12:12.260 align:middle line:84%
+but in many languages,
+it's possible to ask
+
+01:12:12.260 --> 01:12:14.280 align:middle line:84%
+about more than one
+thing at the same time.
+
+01:12:14.280 --> 01:12:16.943 align:middle line:84%
+So you can ask questions like,
+"What did you give to whom,"
+
+01:12:16.943 --> 01:12:18.860 align:middle line:84%
+where, if I ask you a
+question like that, what
+
+01:12:18.860 --> 01:12:23.870 align:middle line:84%
+I want is a list of people
+and things such that person
+
+01:12:23.870 --> 01:12:28.052 align:middle line:84%
+x got thing x and
+person y got thing y.
+
+01:12:28.052 --> 01:12:30.635 align:middle line:84%
+That's what I'm asking you if I
+ask you that kind of question.
+
+01:12:30.635 --> 01:12:36.060 align:middle line:90%
+
+
+01:12:36.060 --> 01:12:37.630 align:middle line:90%
+Again, there's some variation.
+
+01:12:37.630 --> 01:12:40.650 align:middle line:84%
+So English, as I said, is a
+language with wh-movement.
+
+01:12:40.650 --> 01:12:44.340 align:middle line:84%
+But it's specifically a language
+with wh-movement of one WH.
+
+01:12:44.340 --> 01:12:46.800 align:middle line:84%
+So if you want to ask
+a multiple wh-question,
+
+01:12:46.800 --> 01:12:49.230 align:middle line:84%
+you move one of your
+wh-words, but you leave
+
+01:12:49.230 --> 01:12:50.640 align:middle line:90%
+the other ones where they are.
+
+01:12:50.640 --> 01:12:52.445 align:middle line:84%
+So you say, "What did
+you give to whom?"
+
+01:12:52.445 --> 01:12:55.860 align:middle line:84%
+or "What did you give to
+whom when, where, why, how?"
+
+01:12:55.860 --> 01:12:57.720 align:middle line:84%
+So all your other
+wh-words just stay
+
+01:12:57.720 --> 01:12:59.880 align:middle line:90%
+where they would normally go.
+
+01:12:59.880 --> 01:13:03.120 align:middle line:84%
+There are other languages
+in which all of the wh-words
+
+01:13:03.120 --> 01:13:07.870 align:middle line:84%
+move in this big, moving herd
+to the beginning of the clause.
+
+01:13:07.870 --> 01:13:10.140 align:middle line:84%
+So in Bulgarian,
+for example, you
+
+01:13:10.140 --> 01:13:12.570 align:middle line:84%
+don't ask literally, "What
+did you give to whom?"
+
+01:13:12.570 --> 01:13:16.390 align:middle line:84%
+You ask literally, "What
+to whom did he give?"
+
+01:13:16.390 --> 01:13:18.900 align:middle line:84%
+So "what" and "to whom"
+are both at the beginning
+
+01:13:18.900 --> 01:13:19.710 align:middle line:90%
+of the sentence.
+
+01:13:19.710 --> 01:13:21.335 align:middle line:84%
+There are bunch of
+languages like this.
+
+01:13:21.335 --> 01:13:23.070 align:middle line:90%
+Mohawk is another one.
+
+01:13:23.070 --> 01:13:27.390 align:middle line:84%
+Mohawk's a language spoken
+not too far from here,
+
+01:13:27.390 --> 01:13:30.620 align:middle line:90%
+in parts of America and Canada.
+
+01:13:30.620 --> 01:13:33.400 align:middle line:84%
+These are both languages
+in which the wh-words all
+
+01:13:33.400 --> 01:13:35.290 align:middle line:84%
+have to move in a
+multiple wh-question.
+
+01:13:35.290 --> 01:13:38.930 align:middle line:90%
+
+
+01:13:38.930 --> 01:13:42.350 align:middle line:84%
+And again, there's some
+variation between languages.
+
+01:13:42.350 --> 01:13:47.690 align:middle line:84%
+There are languages that move
+one wh-word, like English.
+
+01:13:47.690 --> 01:13:50.330 align:middle line:84%
+There are languages that move
+no wh-words, like Chinese.
+
+01:13:50.330 --> 01:13:52.460 align:middle line:84%
+There are languages that
+move all the wh-words,
+
+01:13:52.460 --> 01:13:54.980 align:middle line:90%
+like Bulgarian or Mohawk.
+
+01:13:54.980 --> 01:13:57.660 align:middle line:84%
+And again, it's not too hard
+to imagine other options.
+
+01:13:57.660 --> 01:13:59.870 align:middle line:84%
+So for example, you
+could imagine a language
+
+01:13:59.870 --> 01:14:02.810 align:middle line:90%
+that only moves two wh-words.
+
+01:14:02.810 --> 01:14:04.460 align:middle line:84%
+That would be a
+language where you
+
+01:14:04.460 --> 01:14:07.940 align:middle line:84%
+would say, "Who
+what gave to whom?"
+
+01:14:07.940 --> 01:14:11.750 align:middle line:90%
+to mean who gave what to whom.
+
+01:14:11.750 --> 01:14:13.358 align:middle line:84%
+There aren't any
+languages like that.
+
+01:14:13.358 --> 01:14:14.900 align:middle line:84%
+The only kinds of
+languages there are
+
+01:14:14.900 --> 01:14:16.700 align:middle line:90%
+are the English kind--
+
+01:14:16.700 --> 01:14:18.620 align:middle line:84%
+so first, the Mandarin
+kind, the Chinese kind,
+
+01:14:18.620 --> 01:14:19.790 align:middle line:84%
+where you don't
+move any of them;
+
+01:14:19.790 --> 01:14:22.310 align:middle line:84%
+the English kind, where you
+move one, where you say, "Who
+
+01:14:22.310 --> 01:14:25.370 align:middle line:84%
+gave what to whom?"; and the
+Bulgarian/Mohawk kind, where
+
+01:14:25.370 --> 01:14:26.120 align:middle line:90%
+you move them all.
+
+01:14:26.120 --> 01:14:28.460 align:middle line:84%
+You say, "Who what
+to whom gave?"
+
+01:14:28.460 --> 01:14:31.130 align:middle line:84%
+There aren't any languages
+like this that just
+
+01:14:31.130 --> 01:14:33.390 align:middle line:90%
+move two or move up to two.
+
+01:14:33.390 --> 01:14:37.380 align:middle line:84%
+You can imagine a language like
+that, but there aren't any.
+
+01:14:37.380 --> 01:14:39.960 align:middle line:84%
+And let me just leave
+you with this last point,
+
+01:14:39.960 --> 01:14:42.465 align:middle line:84%
+and we'll probably take it
+up here again next time.
+
+01:14:42.465 --> 01:14:46.020 align:middle line:90%
+
+
+01:14:46.020 --> 01:14:49.470 align:middle line:84%
+Logical problem of
+language acquisition--
+
+01:14:49.470 --> 01:14:50.820 align:middle line:90%
+here's a game we can play.
+
+01:14:50.820 --> 01:14:52.060 align:middle line:90%
+Here's a function.
+
+01:14:52.060 --> 01:14:54.450 align:middle line:84%
+It's a function that if you
+give it 1, the answer is 1.
+
+01:14:54.450 --> 01:14:55.530 align:middle line:84%
+If you give it 2,
+the answer is 2.
+
+01:14:55.530 --> 01:14:56.947 align:middle line:84%
+If you give it 3,
+the answer is 3.
+
+01:14:56.947 --> 01:14:58.410 align:middle line:84%
+If you give it 4,
+the answer is 4.
+
+01:14:58.410 --> 01:15:01.020 align:middle line:84%
+What do you think the
+answer is if you give it 5?
+
+01:15:01.020 --> 01:15:01.520 align:middle line:90%
+AUDIENCE: 5.
+
+01:15:01.520 --> 01:15:02.990 align:middle line:90%
+NORVIN RICHARDS: 5?
+
+01:15:02.990 --> 01:15:04.830 align:middle line:84%
+Can anybody think of
+any other options?
+
+01:15:04.830 --> 01:15:05.330 align:middle line:90%
+Ha!
+
+01:15:05.330 --> 01:15:06.740 align:middle line:90%
+You've fallen into my trap.
+
+01:15:06.740 --> 01:15:09.957 align:middle line:84%
+The function that I actually
+had in mind was this one.
+
+01:15:09.957 --> 01:15:11.420 align:middle line:90%
+[LAUGHTER]
+
+01:15:11.420 --> 01:15:12.800 align:middle line:90%
+Such that the answer is 29.
+
+01:15:12.800 --> 01:15:16.190 align:middle line:84%
+In fact, the answer
+could be anything at all.
+
+01:15:16.190 --> 01:15:18.830 align:middle line:84%
+So this is the kind of
+question you sometimes get
+
+01:15:18.830 --> 01:15:20.300 align:middle line:90%
+asked on standardized tests.
+
+01:15:20.300 --> 01:15:23.820 align:middle line:84%
+And it's always unfair because
+the answer could be anything
+
+01:15:23.820 --> 01:15:24.320 align:middle line:90%
+at all.
+
+01:15:24.320 --> 01:15:26.150 align:middle line:84%
+That first thing
+which I carefully
+
+01:15:26.150 --> 01:15:29.360 align:middle line:84%
+devised to be 0 as long as the
+thing I was giving the function
+
+01:15:29.360 --> 01:15:32.880 align:middle line:84%
+was 1, 2, 3, or 4, you could
+multiply that by anything.
+
+01:15:32.880 --> 01:15:36.590 align:middle line:90%
+And so 5 could be any number.
+
+01:15:36.590 --> 01:15:37.855 align:middle line:90%
+Life is like that a lot.
+
+01:15:37.855 --> 01:15:39.980 align:middle line:84%
+There are lots of places
+where you go through life,
+
+01:15:39.980 --> 01:15:42.710 align:middle line:84%
+and you get a certain number
+of finite observations
+
+01:15:42.710 --> 01:15:44.630 align:middle line:90%
+of how life works.
+
+01:15:44.630 --> 01:15:46.160 align:middle line:84%
+And then you have
+to make a decision
+
+01:15:46.160 --> 01:15:47.690 align:middle line:90%
+about what the basic rule is.
+
+01:15:47.690 --> 01:15:49.335 align:middle line:84%
+So you're doing
+science, let's say.
+
+01:15:49.335 --> 01:15:50.210 align:middle line:90%
+And you go out there.
+
+01:15:50.210 --> 01:15:54.253 align:middle line:90%
+You see many white swans.
+
+01:15:54.253 --> 01:15:55.670 align:middle line:84%
+At some point, you
+have to decide,
+
+01:15:55.670 --> 01:15:57.500 align:middle line:84%
+have I seen enough
+white swans that I get
+
+01:15:57.500 --> 01:15:59.360 align:middle line:90%
+to decide that swans are white?
+
+01:15:59.360 --> 01:16:01.250 align:middle line:84%
+Have I seen enough
+black crows that I get
+
+01:16:01.250 --> 01:16:03.260 align:middle line:90%
+to say that crows are black?
+
+01:16:03.260 --> 01:16:04.040 align:middle line:90%
+You never know.
+
+01:16:04.040 --> 01:16:06.940 align:middle line:84%
+Maybe the next one is going
+to be purple or green.
+
+01:16:06.940 --> 01:16:08.090 align:middle line:90%
+It's just hard to know.
+
+01:16:08.090 --> 01:16:12.470 align:middle line:84%
+And this function is sort of
+a dramatic example of that.
+
+01:16:12.470 --> 01:16:15.080 align:middle line:84%
+Imagine, just in the
+remaining seconds,
+
+01:16:15.080 --> 01:16:17.930 align:middle line:90%
+that you are a Bulgarian child.
+
+01:16:17.930 --> 01:16:20.550 align:middle line:84%
+Were any of you
+Bulgarian children?
+
+01:16:20.550 --> 01:16:22.520 align:middle line:84%
+OK, so just imagine
+counterfactually
+
+01:16:22.520 --> 01:16:24.950 align:middle line:90%
+that you were a Bulgarian child.
+
+01:16:24.950 --> 01:16:27.560 align:middle line:84%
+Here you are,
+growing up, hearing
+
+01:16:27.560 --> 01:16:30.620 align:middle line:90%
+your parents ask wh-questions.
+
+01:16:30.620 --> 01:16:34.520 align:middle line:84%
+And there's got to
+be some number, n,
+
+01:16:34.520 --> 01:16:37.790 align:middle line:84%
+that is the largest
+number of wh-words
+
+01:16:37.790 --> 01:16:40.370 align:middle line:90%
+you ever heard in a question.
+
+01:16:40.370 --> 01:16:44.660 align:middle line:84%
+Maybe you heard your parents
+say two wh-words in a question.
+
+01:16:44.660 --> 01:16:46.520 align:middle line:90%
+Maybe you heard them say three.
+
+01:16:46.520 --> 01:16:48.110 align:middle line:84%
+It's kind of unlikely
+that you ever
+
+01:16:48.110 --> 01:16:50.240 align:middle line:90%
+heard them say four or five.
+
+01:16:50.240 --> 01:16:53.030 align:middle line:84%
+I mean, it depends, I guess, on
+what your parents' line of work
+
+01:16:53.030 --> 01:16:54.080 align:middle line:90%
+was.
+
+01:16:54.080 --> 01:16:56.270 align:middle line:84%
+But there's some number
+that's the largest number.
+
+01:16:56.270 --> 01:16:59.360 align:middle line:84%
+And it's probably different
+from Bulgarian to Bulgarian.
+
+01:16:59.360 --> 01:17:00.780 align:middle line:90%
+So what we might expect--
+
+01:17:00.780 --> 01:17:03.140 align:middle line:84%
+so Bulgarians are sort
+of in the position
+
+01:17:03.140 --> 01:17:06.290 align:middle line:84%
+you guys were in
+with that function.
+
+01:17:06.290 --> 01:17:09.260 align:middle line:84%
+If you just hear this,
+let's say, "What to whom
+
+01:17:09.260 --> 01:17:10.910 align:middle line:90%
+did he give?"
+
+01:17:10.910 --> 01:17:13.130 align:middle line:84%
+you've got to ask
+yourself, is the rule move
+
+01:17:13.130 --> 01:17:14.540 align:middle line:90%
+all the wh-phrases?
+
+01:17:14.540 --> 01:17:16.670 align:middle line:84%
+Is it move two of
+the wh-phrases?
+
+01:17:16.670 --> 01:17:20.300 align:middle line:84%
+Is it move maximally three,
+maximally four, whatever?
+
+01:17:20.300 --> 01:17:23.120 align:middle line:84%
+There are literally
+infinitely many rules
+
+01:17:23.120 --> 01:17:26.370 align:middle line:84%
+that are compatible
+with this data point.
+
+01:17:26.370 --> 01:17:28.800 align:middle line:84%
+And so you might have expected
+that Bulgarians, depending
+
+01:17:28.800 --> 01:17:31.320 align:middle line:84%
+on how weird their parents
+were, would grow up
+
+01:17:31.320 --> 01:17:32.700 align:middle line:84%
+with slightly
+different grammars,
+
+01:17:32.700 --> 01:17:34.860 align:middle line:84%
+that when you took
+Bulgarians and you put them
+
+01:17:34.860 --> 01:17:39.600 align:middle line:84%
+into a hyperbaric chamber and
+you gradually added wh-words
+
+01:17:39.600 --> 01:17:41.640 align:middle line:84%
+to the questions, that
+they would diverge
+
+01:17:41.640 --> 01:17:43.650 align:middle line:84%
+as the questions got more
+and more complicated,
+
+01:17:43.650 --> 01:17:46.500 align:middle line:84%
+that there would be
+the two-wh Bulgarians
+
+01:17:46.500 --> 01:17:49.305 align:middle line:84%
+and the three-wh Bulgarians
+and the four and the five,
+
+01:17:49.305 --> 01:17:50.890 align:middle line:90%
+that you would find that out.
+
+01:17:50.890 --> 01:17:52.290 align:middle line:90%
+That's not what we find out.
+
+01:17:52.290 --> 01:17:54.330 align:middle line:90%
+The experiment has been done.
+
+01:17:54.330 --> 01:17:56.740 align:middle line:84%
+What you find out is the
+Bulgarians are all the same.
+
+01:17:56.740 --> 01:18:00.420 align:middle line:84%
+They all move all
+their wh-phrases.
+
+01:18:00.420 --> 01:18:04.890 align:middle line:84%
+What we think is going on really
+is that being a human being
+
+01:18:04.890 --> 01:18:08.040 align:middle line:84%
+means having the kind of mind
+that can put language together
+
+01:18:08.040 --> 01:18:10.960 align:middle line:90%
+in some ways but not others.
+
+01:18:10.960 --> 01:18:14.040 align:middle line:84%
+There was never any danger
+of the Bulgarian children
+
+01:18:14.040 --> 01:18:16.140 align:middle line:84%
+entertaining the
+possibility that the grammar
+
+01:18:16.140 --> 01:18:18.240 align:middle line:90%
+was move two wh-phrases.
+
+01:18:18.240 --> 01:18:21.030 align:middle line:84%
+They knew that there
+aren't languages like that.
+
+01:18:21.030 --> 01:18:23.050 align:middle line:84%
+Human languages
+don't work that way.
+
+01:18:23.050 --> 01:18:25.980 align:middle line:84%
+This is what we mean when we
+talk about universal grammar.
+
+01:18:25.980 --> 01:18:28.350 align:middle line:84%
+We'll review this next time
+because we're out of time.
+
+01:18:28.350 --> 01:18:31.220 align:middle line:84%
+But we'll talk more
+about this next time.
+
+01:18:31.220 --> 01:18:37.000 align:middle line:90%

@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "33371072",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Time Dependent Perturbation Theory and Adiabatic Approximation",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "L16.5 Landau-Zener transitions (continued)",
+  "uid": "d9c7f032-0c6b-a080-a445-33d657e34942",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.06S18/MIT8_06S18_L16S5_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/96a45d3815a2581cb563a68e9488af10_FIef9sP-Yq8.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/FIef9sP-Yq8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/e3ed89342be47957eefc889914aedb29_FIef9sP-Yq8.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-06-quantum-physics-iii-spring-2018, adiabatic approximation, landau-zener",
+    "youtube_id": "FIef9sP-Yq8"
+  }
+}

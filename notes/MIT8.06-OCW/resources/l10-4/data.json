@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "26944562",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Time Dependent Perturbation Theory and Adiabatic Approximation",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "L10.4 Autoionization transitions",
+  "uid": "fbdac89b-e512-a96a-2430-7cabfa8ca5c8",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.06S18/MIT8_06S18_L10S4_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/2c2347c509405c66b3e362a8be68a22c_nd_sryUc1tc.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/nd_sryUc1tc/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/4ec6cfc097497b02ae53d980579c42df_nd_sryUc1tc.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-06-quantum-physics-iii-spring-2018, autoionization transitions, fermi's golden rule",
+    "youtube_id": "nd_sryUc1tc"
+  }
+}

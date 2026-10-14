@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains the information regarding Solution 2.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information regarding Solution 2.",
+  "draft": false,
+  "file": "/courses/18-445-introduction-to-stochastic-processes-spring-2015/bf131eea46fddddea9b3ff0b34a7ad26_MIT18_445S15_homework2_sol.pdf",
+  "file_size": 345121,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "77a58fd7-7428-eca6-2500-d70dc2c1b3a9",
+  "resourcetype": "Document",
+  "title": "Introduction to Stochastic Processes, Solution 2",
+  "uid": "bf131eea-46fd-ddde-a9b3-ff0b34a7ad26",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-445-introduction-to-stochastic-processes-spring-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-445-introduction-to-stochastic-processes-spring-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

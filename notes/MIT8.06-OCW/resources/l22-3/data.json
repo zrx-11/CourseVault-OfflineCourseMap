@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "50246665",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Scattering and Identical Particles",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "L22.3 Diagrammatic Representation of the Born series. Scattering Amplitude for Spherically Symmetric Potentials",
+  "uid": "82fc8b08-98d0-6968-c65e-77da7f347fac",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.06S18/MIT8_06S18_L22S3_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/de460b4ae4255b92a06df9c719902cb7_o10QADeeK04.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/o10QADeeK04/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-06-quantum-physics-iii-spring-2018/6fda78825a6bf78c701745efce69246a_o10QADeeK04.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-06-quantum-physics-iii-spring-2018, born approximation, identical particles, scattering, scattering amplitude",
+    "youtube_id": "o10QADeeK04"
+  }
+}

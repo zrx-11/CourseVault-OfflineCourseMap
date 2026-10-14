@@ -1,0 +1,705 @@
+1
+00:00:00,610 --> 00:00:04,390
+PROFESSOR: So so far
+even though these things
+
+2
+00:00:04,390 --> 00:00:09,430
+look maybe interesting
+or a little familiar,
+
+3
+00:00:09,430 --> 00:00:16,870
+we have not yet stated clearly
+how they apply to physics.
+
+4
+00:00:16,870 --> 00:00:21,760
+We've been talking about vector
+spaces, V, for a particle.
+
+5
+00:00:21,760 --> 00:00:27,020
+Then V tensor N. And we've
+looked at states there.
+
+6
+00:00:27,020 --> 00:00:29,590
+We've looked at permutation
+operators there.
+
+7
+00:00:29,590 --> 00:00:31,210
+Symmetric states there.
+
+8
+00:00:31,210 --> 00:00:33,790
+Antisymmetric states there.
+
+9
+00:00:33,790 --> 00:00:36,970
+What is missing is
+something that connects
+
+10
+00:00:36,970 --> 00:00:38,890
+it to quantum mechanics.
+
+11
+00:00:38,890 --> 00:00:49,940
+And that is given by the
+so-called symmetrization
+
+12
+00:00:49,940 --> 00:00:50,640
+postulate.
+
+13
+00:00:53,420 --> 00:00:56,100
+So it's a postulate.
+
+14
+00:00:56,100 --> 00:01:02,170
+It's something that you
+technically can't derive.
+
+15
+00:01:02,170 --> 00:01:03,370
+Therefore, you postulate.
+
+16
+00:01:03,370 --> 00:01:09,220
+You can say it's an extra
+axiom even, quantum mechanics.
+
+17
+00:01:09,220 --> 00:01:11,290
+You would say also
+that probably there's
+
+18
+00:01:11,290 --> 00:01:13,070
+no other way to do things.
+
+19
+00:01:13,070 --> 00:01:14,830
+So in some sense, it's forced.
+
+20
+00:01:14,830 --> 00:01:20,180
+But I think it's more honest to
+admit it's an extra postulate.
+
+21
+00:01:20,180 --> 00:01:21,130
+So here it goes.
+
+22
+00:01:21,130 --> 00:01:22,510
+I'll read it first.
+
+23
+00:01:22,510 --> 00:01:23,920
+Then I'll write it.
+
+24
+00:01:23,920 --> 00:01:25,900
+So it says the following.
+
+25
+00:01:25,900 --> 00:01:31,840
+If you have a system of
+N identical particles,
+
+26
+00:01:31,840 --> 00:01:39,100
+arbitrary states in V tensor
+N are not physical states.
+
+27
+00:01:39,100 --> 00:01:42,160
+The physical states
+are the states
+
+28
+00:01:42,160 --> 00:01:44,920
+that are totally symmetric.
+
+29
+00:01:44,920 --> 00:01:48,400
+In that case, the particles
+are called bosons.
+
+30
+00:01:48,400 --> 00:01:51,980
+Or totally antisymmetric,
+in which case
+
+31
+00:01:51,980 --> 00:01:54,130
+the particles are
+called fermions.
+
+32
+00:01:54,130 --> 00:01:55,570
+That's basically it.
+
+33
+00:01:55,570 --> 00:01:58,360
+The arbitrary state that
+is neither symmetric
+
+34
+00:01:58,360 --> 00:02:01,750
+nor antisymmetric,
+and all that is not
+
+35
+00:02:01,750 --> 00:02:07,190
+a physical state of a system
+of identical particles.
+
+36
+00:02:07,190 --> 00:02:09,340
+So it's stated here.
+
+37
+00:02:09,340 --> 00:02:24,340
+In a system with N
+identical particles,
+
+38
+00:02:24,340 --> 00:02:43,800
+physical states are not
+arbitrary states in V tensor N.
+
+39
+00:02:43,800 --> 00:02:52,260
+Rather, they are
+totally symmetric.
+
+40
+00:02:57,850 --> 00:03:08,380
+In parentheses, they
+belong to SymN of V.
+
+41
+00:03:08,380 --> 00:03:28,260
+In which case, the particles
+are said to be bosons
+
+42
+00:03:28,260 --> 00:03:33,240
+or they are totally
+antisymmetric.
+
+43
+00:03:33,240 --> 00:03:38,180
+Are totally antisymmetric.
+
+44
+00:03:42,100 --> 00:03:46,340
+They belong to anti NV.
+
+45
+00:03:52,090 --> 00:04:05,060
+In which case, they are
+said to be fermions.
+
+46
+00:04:08,990 --> 00:04:09,740
+All right.
+
+47
+00:04:09,740 --> 00:04:14,930
+So this is really
+pretty fundamental.
+
+48
+00:04:14,930 --> 00:04:17,600
+It's a statement that
+we began our discussion
+
+49
+00:04:17,600 --> 00:04:20,714
+by saying we have an
+electron at this up
+
+50
+00:04:20,714 --> 00:04:22,910
+and another electron
+at this down.
+
+51
+00:04:22,910 --> 00:04:27,860
+Is it the plus minus state or
+is it the minus plus state?
+
+52
+00:04:27,860 --> 00:04:29,960
+And we said it's neither one.
+
+53
+00:04:33,714 --> 00:04:36,830
+You cannot declare those
+two to be equivalent.
+
+54
+00:04:36,830 --> 00:04:38,300
+And that's what this says.
+
+55
+00:04:38,300 --> 00:04:40,730
+It's not arbitrary
+states in this.
+
+56
+00:04:40,730 --> 00:04:45,590
+But they have to become
+totally symmetric,
+
+57
+00:04:45,590 --> 00:04:48,320
+if they're bosons or
+totally antisymmetric
+
+58
+00:04:48,320 --> 00:04:50,900
+if they are fermions.
+
+59
+00:04:50,900 --> 00:04:55,390
+So we have to make
+a few comments.
+
+60
+00:04:55,390 --> 00:04:58,770
+And that's what will keep
+us busy for the next 20,
+
+61
+00:04:58,770 --> 00:05:02,210
+25 minutes.
+
+62
+00:05:02,210 --> 00:05:07,250
+And to understand this
+and see what it implies
+
+63
+00:05:07,250 --> 00:05:08,420
+and how we use it.
+
+64
+00:05:17,170 --> 00:05:18,150
+So here it is.
+
+65
+00:05:22,600 --> 00:05:25,420
+The statement we have
+made is a statement
+
+66
+00:05:25,420 --> 00:05:28,820
+of fact in three dimensions.
+
+67
+00:05:28,820 --> 00:05:35,890
+There's no particles that
+we like and we study.
+
+68
+00:05:35,890 --> 00:05:40,690
+There are further
+possibilities in worlds
+
+69
+00:05:40,690 --> 00:05:46,690
+of lower dimension two, three
+dimensions, space, time,
+
+70
+00:05:46,690 --> 00:05:49,420
+or so two dimensional
+space, that
+
+71
+00:05:49,420 --> 00:05:52,960
+allows for further
+kinds of statistics
+
+72
+00:05:52,960 --> 00:05:54,980
+that are interesting.
+
+73
+00:05:54,980 --> 00:05:59,200
+But this is the
+general statement.
+
+74
+00:05:59,200 --> 00:06:04,800
+So the first comment is this
+is the general statement.
+
+75
+00:06:07,630 --> 00:06:16,720
+But further statistics,
+other types of space,
+
+76
+00:06:16,720 --> 00:06:25,720
+exist in two dimensions,
+not in three, where we live.
+
+77
+00:06:25,720 --> 00:06:29,290
+We say three in
+the Galilean ways.
+
+78
+00:06:29,290 --> 00:06:31,180
+3 plus 1 time.
+
+79
+00:06:31,180 --> 00:06:34,810
+But this is spatial dimensions.
+
+80
+00:06:34,810 --> 00:06:43,230
+This is the
+statistical definition
+
+81
+00:06:43,230 --> 00:06:47,120
+of bosons and fermions.
+
+82
+00:06:52,410 --> 00:06:57,080
+But then comes the spin
+statistics theorem.
+
+83
+00:07:06,060 --> 00:07:11,190
+That applies then you understand
+with quantum mechanics.
+
+84
+00:07:11,190 --> 00:07:15,480
+And that's a deep
+theorem that ends up
+
+85
+00:07:15,480 --> 00:07:27,770
+telling you that
+particles with spin 0, 1,
+
+86
+00:07:27,770 --> 00:07:33,290
+2 integer are bosons.
+
+87
+00:07:33,290 --> 00:07:42,060
+And particles with spin 1/2,
+3/2 [INAUDIBLE] are fermions.
+
+88
+00:07:46,910 --> 00:07:49,330
+So it's a great achievement
+of quantum field
+
+89
+00:07:49,330 --> 00:07:56,950
+theory associating the
+statistical properties
+
+90
+00:07:56,950 --> 00:07:59,630
+with the spin.
+
+91
+00:07:59,630 --> 00:08:02,930
+It's a deep connection.
+
+92
+00:08:02,930 --> 00:08:05,690
+It's valid for
+elementary particles
+
+93
+00:08:05,690 --> 00:08:08,240
+or composite particles.
+
+94
+00:08:08,240 --> 00:08:11,870
+The list of particles
+is not that big.
+
+95
+00:08:11,870 --> 00:08:15,630
+Particles of spin 1,
+we know a lot of them.
+
+96
+00:08:15,630 --> 00:08:17,894
+A photon is spin 1.
+
+97
+00:08:17,894 --> 00:08:20,660
+Gluons are spin 1.
+
+98
+00:08:20,660 --> 00:08:24,650
+The w's, the c's are
+spin 1 particles.
+
+99
+00:08:24,650 --> 00:08:25,770
+Particles spin 0.
+
+100
+00:08:25,770 --> 00:08:28,550
+We didn't know an
+elementary one for a while.
+
+101
+00:08:28,550 --> 00:08:33,710
+We finally know the
+[INAUDIBLE] is there, spin 0.
+
+102
+00:08:33,710 --> 00:08:35,750
+Particles of spin 2.
+
+103
+00:08:35,750 --> 00:08:38,330
+Just [INAUDIBLE] along.
+
+104
+00:08:38,330 --> 00:08:40,159
+Higher spin unknown.
+
+105
+00:08:40,159 --> 00:08:41,510
+It may exist.
+
+106
+00:08:41,510 --> 00:08:44,250
+String theory has them.
+
+107
+00:08:44,250 --> 00:08:47,840
+All kinds of theories
+postulate them.
+
+108
+00:08:47,840 --> 00:08:48,960
+They may exist.
+
+109
+00:08:48,960 --> 00:08:51,440
+They may not.
+
+110
+00:08:51,440 --> 00:08:54,440
+Spin of 1/2, fractional spin.
+
+111
+00:08:54,440 --> 00:08:59,300
+Well, all the matter particles,
+quarks, muons, leptons,
+
+112
+00:08:59,300 --> 00:09:01,970
+neutrinos are spin 1/2.
+
+113
+00:09:01,970 --> 00:09:06,650
+Spin 3/2 is hypothetical
+as an elementary particle.
+
+114
+00:09:06,650 --> 00:09:10,610
+If it exists, it would
+be called the gravitino.
+
+115
+00:09:10,610 --> 00:09:14,000
+There are composite particles.
+
+116
+00:09:14,000 --> 00:09:15,710
+You could [INAUDIBLE]
+with quarks,
+
+117
+00:09:15,710 --> 00:09:19,310
+or with other particles,
+mesons, baryons.
+
+118
+00:09:19,310 --> 00:09:22,340
+You can get several spins.
+
+119
+00:09:22,340 --> 00:09:24,050
+Not with elementary particles.
+
+120
+00:09:24,050 --> 00:09:27,740
+Many time unstable particles.
+
+121
+00:09:27,740 --> 00:09:32,510
+So anyway, those are
+very interesting things.
+
+122
+00:09:32,510 --> 00:09:40,610
+Now next fact is that you can
+go from elementary particles
+
+123
+00:09:40,610 --> 00:09:45,200
+to composite particles.
+
+124
+00:09:45,200 --> 00:09:49,680
+So if you have, for
+example, the hydrogen atom.
+
+125
+00:09:49,680 --> 00:09:54,200
+That this has a proton
+and an electron.
+
+126
+00:09:54,200 --> 00:09:59,570
+And you want to figure out
+if it's a boson or a fermion.
+
+127
+00:09:59,570 --> 00:10:05,600
+Well, you think of another
+hydrogen atom here, p and e.
+
+128
+00:10:05,600 --> 00:10:07,850
+And you write a
+wave function that
+
+129
+00:10:07,850 --> 00:10:13,970
+involves the protons, the first
+proton, the second proton,
+
+130
+00:10:13,970 --> 00:10:17,180
+the first electron, and
+the second electron.
+
+131
+00:10:17,180 --> 00:10:20,130
+That's a little bit
+of a funny notation.
+
+132
+00:10:20,130 --> 00:10:22,340
+This would correspond
+to maybe the coordinates
+
+133
+00:10:22,340 --> 00:10:25,220
+of the first proton, the second
+proton, the first electron,
+
+134
+00:10:25,220 --> 00:10:28,190
+the second electron.
+
+135
+00:10:28,190 --> 00:10:32,090
+Since protons are identical
+particles that are fermions,
+
+136
+00:10:32,090 --> 00:10:36,140
+the wave function
+must change sign
+
+137
+00:10:36,140 --> 00:10:38,990
+if P1 and P2 are exchanged.
+
+138
+00:10:38,990 --> 00:10:40,850
+There would be a minus sign.
+
+139
+00:10:40,850 --> 00:10:43,880
+It's antisymmetric.
+
+140
+00:10:43,880 --> 00:10:45,910
+Since the electrons
+are fermions,
+
+141
+00:10:45,910 --> 00:10:50,090
+it should antisymmetric
+by exchanging this 2.
+
+142
+00:10:50,090 --> 00:10:53,430
+So it's also antisymmetric
+under this exchange.
+
+143
+00:10:53,430 --> 00:10:58,280
+So finally, if you exchange
+this item with this item,
+
+144
+00:10:58,280 --> 00:11:01,820
+you must exchange the two
+protons and the two electrons
+
+145
+00:11:01,820 --> 00:11:03,160
+at the same time.
+
+146
+00:11:03,160 --> 00:11:05,690
+Two minuses and you get a plus.
+
+147
+00:11:05,690 --> 00:11:09,590
+Therefore, the hydrogen
+atom is a boson.
+
+148
+00:11:09,590 --> 00:11:13,820
+So these statistical
+properties build up.
+
+149
+00:11:13,820 --> 00:11:18,300
+So an object built
+with a number of bosons
+
+150
+00:11:18,300 --> 00:11:23,180
+and a number of fermions
+will be a boson or a fermion,
+
+151
+00:11:23,180 --> 00:11:24,425
+depending on those numbers.
+
+152
+00:11:27,430 --> 00:11:29,730
+So that's a nice thing.
+
+153
+00:11:29,730 --> 00:11:36,140
+So the hydrogen atom is a boson.

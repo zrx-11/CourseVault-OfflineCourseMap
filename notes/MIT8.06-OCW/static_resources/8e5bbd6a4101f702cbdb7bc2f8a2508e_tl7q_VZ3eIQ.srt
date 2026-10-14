@@ -1,0 +1,1102 @@
+1
+00:00:01,080 --> 00:00:03,510
+PROFESSOR: All right, so
+our next thing will be
+
+2
+00:00:03,510 --> 00:00:05,500
+getting into the electron spin.
+
+3
+00:00:05,500 --> 00:00:09,720
+And I want to discuss of
+two things, a little bit
+
+4
+00:00:09,720 --> 00:00:12,280
+of the Dirac equation
+and the Pauli
+
+5
+00:00:12,280 --> 00:00:15,150
+equation for the electron.
+
+6
+00:00:15,150 --> 00:00:18,660
+We need to understand
+electron a little better
+
+7
+00:00:18,660 --> 00:00:22,770
+and understand
+the perturbations,
+
+8
+00:00:22,770 --> 00:00:25,560
+the relativistic
+corrections so we'll
+
+9
+00:00:25,560 --> 00:00:29,120
+consider the Pauli equation.
+
+10
+00:00:33,280 --> 00:00:38,280
+So the Pauli equation is
+what we have to do now.
+
+11
+00:00:38,280 --> 00:00:41,490
+So what is the Pauli equation?
+
+12
+00:00:41,490 --> 00:00:44,910
+It is the first
+attempt there was
+
+13
+00:00:44,910 --> 00:00:48,450
+to figure out how the
+Schrodinger equation should
+
+14
+00:00:48,450 --> 00:00:51,580
+be tailored for an electron.
+
+15
+00:00:51,580 --> 00:00:55,500
+So we can also think
+of the Pauli equation
+
+16
+00:00:55,500 --> 00:00:59,010
+as a baby version of the
+Dirac equation, which
+
+17
+00:00:59,010 --> 00:01:02,230
+is the complete equation
+for the electron.
+
+18
+00:01:02,230 --> 00:01:04,800
+So it all begins
+at the motivations
+
+19
+00:01:04,800 --> 00:01:19,630
+by considering what is the
+magnetic moment of an electron?
+
+20
+00:01:25,840 --> 00:01:28,570
+So it's a question that
+you've been addressing
+
+21
+00:01:28,570 --> 00:01:33,650
+in this course for a while,
+from Stern-Gerlach experiment
+
+22
+00:01:33,650 --> 00:01:37,270
+and how magnetic fields
+interact with electron.
+
+23
+00:01:37,270 --> 00:01:49,080
+So classically and
+in Gaussian units,
+
+24
+00:01:49,080 --> 00:01:55,505
+if you have a current
+loop and an area a,
+
+25
+00:01:55,505 --> 00:02:04,460
+the magnetic moment is
+equal to i times the area
+
+26
+00:02:04,460 --> 00:02:08,410
+vector divided by c.
+
+27
+00:02:11,690 --> 00:02:17,275
+You can use that to imagine
+an object that is rotating.
+
+28
+00:02:17,275 --> 00:02:22,190
+And as the object
+rotates, if its charged,
+
+29
+00:02:22,190 --> 00:02:26,000
+it generates a magnetic
+moment, and the magnetic moment
+
+30
+00:02:26,000 --> 00:02:28,740
+depends on the amount of
+rotation of the orbit.
+
+31
+00:02:28,740 --> 00:02:32,060
+So it turns out that, with
+a little classical argument,
+
+32
+00:02:32,060 --> 00:02:37,010
+you can derive that the
+magnetic moment is related
+
+33
+00:02:37,010 --> 00:02:48,150
+to the angular momentum by
+a relation of the form L,
+
+34
+00:02:48,150 --> 00:02:52,320
+so the charge of the object,
+the mass of the object c,
+
+35
+00:02:52,320 --> 00:02:53,730
+and the angular momentum.
+
+36
+00:02:53,730 --> 00:02:56,730
+And that's perfectly
+correct classically.
+
+37
+00:02:56,730 --> 00:02:59,850
+So people thought that
+quantum mechanically
+
+38
+00:02:59,850 --> 00:03:07,680
+they expect that for an electron
+or for an elementary particle,
+
+39
+00:03:07,680 --> 00:03:15,280
+you would get q times 2 mc
+times the spin of the particle.
+
+40
+00:03:15,280 --> 00:03:20,070
+So this would be the intrinsic
+magnetic moment of an electron
+
+41
+00:03:20,070 --> 00:03:29,140
+that it seems to have
+times a fudge factor, g
+
+42
+00:03:29,140 --> 00:03:30,610
+that you would have to measure.
+
+43
+00:03:30,610 --> 00:03:33,640
+Because after all, the
+world is not classical.
+
+44
+00:03:33,640 --> 00:03:38,050
+There's no reason why a
+classical relation like that
+
+45
+00:03:38,050 --> 00:03:42,610
+would give you the right exact
+value of the magnetic moment
+
+46
+00:03:42,610 --> 00:03:44,200
+of the electron.
+
+47
+00:03:44,200 --> 00:03:50,170
+As it turns out, this g
+happens to be equal to 2.
+
+48
+00:03:56,980 --> 00:03:58,730
+And we get the following.
+
+49
+00:03:58,730 --> 00:04:08,380
+So for electrons g
+happens to be equal to 2.
+
+50
+00:04:08,380 --> 00:04:14,820
+So mu is equal to 2 times minus
+e-- the charge of the electron
+
+51
+00:04:14,820 --> 00:04:19,100
+is minus 2 mc, and the
+spin of the electron
+
+52
+00:04:19,100 --> 00:04:25,100
+is h bar over 2 times
+sigma, the Pauli matrices.
+
+53
+00:04:25,100 --> 00:04:39,750
+So this thing is minus
+eh bar over 2 mc sigma
+
+54
+00:04:39,750 --> 00:04:40,570
+mu of the electron.
+
+55
+00:04:44,430 --> 00:04:54,620
+So if you have a magnetic
+field, a B external,
+
+56
+00:04:54,620 --> 00:04:59,000
+the Hamiltonian that
+includes the energetics
+
+57
+00:04:59,000 --> 00:05:00,980
+of the magnetic
+field interacting
+
+58
+00:05:00,980 --> 00:05:08,320
+with the dipole moment,
+it's always minus mu dot b.
+
+59
+00:05:08,320 --> 00:05:19,110
+So in this case it would be
+eh bar over 2 mc sigma dot b.
+
+60
+00:05:19,110 --> 00:05:21,900
+That's the Hamiltonian
+for an electron
+
+61
+00:05:21,900 --> 00:05:26,550
+in a magnetic field, something
+you've used many, many times.
+
+62
+00:05:26,550 --> 00:05:31,530
+The most unpleasant part of
+this thing is this g equal 2.
+
+63
+00:05:31,530 --> 00:05:34,860
+Why did it turn out
+to be g equal 2?
+
+64
+00:05:34,860 --> 00:05:37,920
+People knew it was g equal 2.
+
+65
+00:05:37,920 --> 00:05:39,600
+But why?
+
+66
+00:05:39,600 --> 00:05:43,230
+And here we're going to see the
+beginning of an explanation.
+
+67
+00:05:43,230 --> 00:05:45,900
+In fact, it comes very close
+to an explanation of that
+
+68
+00:05:45,900 --> 00:05:49,290
+through the Pauli equation.
+
+69
+00:05:49,290 --> 00:05:53,190
+The Pauli equation is a
+nice equation you can write,
+
+70
+00:05:53,190 --> 00:05:55,260
+and you can motivate.
+
+71
+00:05:55,260 --> 00:05:56,850
+And it predicts.
+
+72
+00:05:56,850 --> 00:05:59,790
+Once you admit the
+Pauli equation,
+
+73
+00:05:59,790 --> 00:06:02,350
+it predicts that g
+would be equal to 2.
+
+74
+00:06:04,990 --> 00:06:08,320
+And that, of course, happens
+also for the Dirac equation.
+
+75
+00:06:08,320 --> 00:06:12,340
+And Dirac noticed that, and
+he was very happy about it.
+
+76
+00:06:15,130 --> 00:06:21,190
+So it's quite remarkable
+how these things showed up,
+
+77
+00:06:21,190 --> 00:06:27,450
+and the G equal to 2
+was perfectly natural.
+
+78
+00:06:27,450 --> 00:06:33,690
+So let's see this
+Pauli equation first.
+
+79
+00:06:33,690 --> 00:06:34,430
+What is it?
+
+80
+00:06:38,870 --> 00:06:43,600
+Well, when you do the
+Schrodinger equation for a wave
+
+81
+00:06:43,600 --> 00:06:47,260
+function, you say
+p squared over 2m--
+
+82
+00:06:47,260 --> 00:06:50,850
+say a free particle,
+and you would
+
+83
+00:06:50,850 --> 00:06:57,170
+put the wave function is equal
+to energies times the wave
+
+84
+00:06:57,170 --> 00:06:59,510
+function.
+
+85
+00:06:59,510 --> 00:07:03,440
+h on the wave function is
+equal to energy terms the wave
+
+86
+00:07:03,440 --> 00:07:04,820
+function.
+
+87
+00:07:04,820 --> 00:07:11,000
+So for this
+electron, you already
+
+88
+00:07:11,000 --> 00:07:14,990
+know it's a two-dimensional
+Hilbert space, the state
+
+89
+00:07:14,990 --> 00:07:16,610
+space of the up and down.
+
+90
+00:07:16,610 --> 00:07:21,230
+So it's convenient to change
+this and to say, you know what?
+
+91
+00:07:21,230 --> 00:07:23,450
+I'm going to put here
+something I'll call a spinor.
+
+92
+00:07:26,130 --> 00:07:29,110
+Chi is a Pauli.
+
+93
+00:07:29,110 --> 00:07:35,950
+It has two things, a chi 1 and a
+chi 2, and it's a Pauli spinor.
+
+94
+00:07:40,790 --> 00:07:44,250
+And this is reasonable so far.
+
+95
+00:07:44,250 --> 00:07:50,470
+The spin is defined by 2 degrees
+of freedom, 2 basis is vectors.
+
+96
+00:07:50,470 --> 00:07:53,630
+So you've done wave
+functions for spin.
+
+97
+00:07:53,630 --> 00:07:56,900
+And the wave functions for
+spin have these things,
+
+98
+00:07:56,900 --> 00:08:00,680
+and each themself can be
+a function of position.
+
+99
+00:08:00,680 --> 00:08:03,740
+So that's perfectly reasonable.
+
+100
+00:08:03,740 --> 00:08:11,270
+I don't think anyone of you is
+very impressed by this so far.
+
+101
+00:08:11,270 --> 00:08:15,380
+But here comes the funny thing.
+
+102
+00:08:15,380 --> 00:08:24,440
+In a sense here, there is a 2 by
+2 identity matrix sitting here.
+
+103
+00:08:24,440 --> 00:08:30,290
+So Pauli observes the
+following identity.
+
+104
+00:08:30,290 --> 00:08:37,559
+If you have sigma dot
+8 and sigma dot b,
+
+105
+00:08:37,559 --> 00:08:50,910
+it's equal to a dot b times 1
+plus i sigma plot a cross b.
+
+106
+00:08:50,910 --> 00:08:55,330
+Look, these are two
+vectors, a and b.
+
+107
+00:08:55,330 --> 00:08:59,520
+And if you multiply half
+this product-- first,
+
+108
+00:08:59,520 --> 00:09:00,900
+this is a dot product.
+
+109
+00:09:00,900 --> 00:09:06,450
+It means sigma 1 times a1 sigma
+2 times a2 sigma 3 times a3.
+
+110
+00:09:06,450 --> 00:09:08,010
+So this is a dot product.
+
+111
+00:09:08,010 --> 00:09:10,770
+This product here
+is a matrix product
+
+112
+00:09:10,770 --> 00:09:12,930
+because this is
+already a matrix,
+
+113
+00:09:12,930 --> 00:09:16,590
+this is already a matrix,
+so this is a matrix product.
+
+114
+00:09:16,590 --> 00:09:18,630
+And this is the
+result. This comes
+
+115
+00:09:18,630 --> 00:09:22,740
+from properties of the Pauli
+matrices you already know.
+
+116
+00:09:22,740 --> 00:09:26,070
+In particular, their
+commutator determines
+
+117
+00:09:26,070 --> 00:09:29,140
+this piece and
+the anticommutator
+
+118
+00:09:29,140 --> 00:09:30,590
+determines this piece.
+
+119
+00:09:30,590 --> 00:09:34,960
+So here, if you
+have, for example,
+
+120
+00:09:34,960 --> 00:09:40,900
+sigma dot p times sigma dot p--
+
+121
+00:09:40,900 --> 00:09:44,620
+see, these two vectors are
+the same in this case--
+
+122
+00:09:44,620 --> 00:09:51,380
+you'll get just p
+squared times 1 plus 0.
+
+123
+00:09:51,380 --> 00:09:57,110
+Because p times P, those are two
+vector operators if you wish,
+
+124
+00:09:57,110 --> 00:10:00,310
+but still they commute.
+
+125
+00:10:00,310 --> 00:10:04,240
+So this is equal to 0.
+
+126
+00:10:04,240 --> 00:10:08,920
+So your p squared can be
+replaced by sigma dot p sigma
+
+127
+00:10:08,920 --> 00:10:09,580
+dot p.
+
+128
+00:10:09,580 --> 00:10:15,310
+So h, the Hamiltonian-- that
+is p squared over 2 m times
+
+129
+00:10:15,310 --> 00:10:18,310
+the identity matrix--
+
+130
+00:10:18,310 --> 00:10:21,890
+can be perhaps better
+thought as sigma
+
+131
+00:10:21,890 --> 00:10:29,680
+dot p times sigma
+dot p divided by 2m.
+
+132
+00:10:35,990 --> 00:10:38,310
+So this is the first step.
+
+133
+00:10:38,310 --> 00:10:41,190
+You haven't done
+really much, but you've
+
+134
+00:10:41,190 --> 00:10:44,690
+rewritten the Hamiltonian
+with a unit matrix
+
+135
+00:10:44,690 --> 00:10:50,100
+here perhaps in a
+somewhat provocative way.
+
+136
+00:10:50,100 --> 00:10:54,240
+In quantum mechanics, when we
+couple to electromagnetism,
+
+137
+00:10:54,240 --> 00:10:58,290
+there are simple
+changes we have to do.
+
+138
+00:10:58,290 --> 00:11:04,720
+And we will study that in
+detail in about three weeks,
+
+139
+00:11:04,720 --> 00:11:07,860
+but today I will
+just bench on what
+
+140
+00:11:07,860 --> 00:11:13,320
+you're supposed to do in order
+to couple to electromagnetism.
+
+141
+00:11:13,320 --> 00:11:15,000
+In order to couple
+to electromagnetism,
+
+142
+00:11:15,000 --> 00:11:18,780
+you're supposed to
+change p wherever you see
+
+143
+00:11:18,780 --> 00:11:23,070
+by an object you can call pi.
+
+144
+00:11:23,070 --> 00:11:27,270
+It's some sort of more
+canonical momentum
+
+145
+00:11:27,270 --> 00:11:34,080
+in which it's got
+to p minus q over c.
+
+146
+00:11:34,080 --> 00:11:37,380
+The vector potential
+is a function of x.
+
+147
+00:11:37,380 --> 00:11:41,100
+Well, people write it
+like this, qp minus q ac.
+
+148
+00:11:44,560 --> 00:11:47,290
+So you're supposed to
+do this replacement.
+
+149
+00:11:47,290 --> 00:11:50,260
+When you're dealing
+with a particle moving
+
+150
+00:11:50,260 --> 00:11:56,080
+in some electromagnetic field,
+that's the change you must do.
+
+151
+00:11:56,080 --> 00:11:57,890
+We will study that in detail.
+
+152
+00:11:57,890 --> 00:12:01,180
+But I think an obvious
+question at this moment
+
+153
+00:12:01,180 --> 00:12:02,210
+is the following.
+
+154
+00:12:02,210 --> 00:12:04,690
+You say, well, I'm
+in quantum mechanics,
+
+155
+00:12:04,690 --> 00:12:07,720
+and I work with p and x.
+
+156
+00:12:07,720 --> 00:12:11,350
+Those are my opera-- what
+is a? is it an operator?
+
+157
+00:12:11,350 --> 00:12:12,610
+Is it a vector?
+
+158
+00:12:12,610 --> 00:12:18,190
+Is it what? p is an
+operator, but what is a?
+
+159
+00:12:18,190 --> 00:12:20,950
+You should think of
+this vector potential.
+
+160
+00:12:20,950 --> 00:12:23,950
+In general, this
+vector potential
+
+161
+00:12:23,950 --> 00:12:25,790
+will depend on the position.
+
+162
+00:12:25,790 --> 00:12:30,070
+So if you put a magnetic field,
+you require a vector potential.
+
+163
+00:12:30,070 --> 00:12:32,470
+It has some position dependent.
+
+164
+00:12:32,470 --> 00:12:35,680
+So actually, this
+a here should be
+
+165
+00:12:35,680 --> 00:12:41,140
+thought as a of x,
+the same way as when
+
+166
+00:12:41,140 --> 00:12:44,020
+you have the potential
+that depends on x.
+
+167
+00:12:44,020 --> 00:12:47,440
+In quantum mechanics, we just
+think of that x as an operator.
+
+168
+00:12:47,440 --> 00:12:52,270
+So the a is an operator
+because x is an operator,
+
+169
+00:12:52,270 --> 00:12:55,850
+and a has x dependents.
+
+170
+00:12:55,850 --> 00:13:09,660
+So the Pauli Hamiltonian, h
+Pauli is nothing else but sigma
+
+171
+00:13:09,660 --> 00:13:18,760
+dot pi times sigma
+dot pi over 2 m.
+
+172
+00:13:18,760 --> 00:13:21,790
+Because we said p must
+be replaced by pi,
+
+173
+00:13:21,790 --> 00:13:26,090
+so this is the
+Pauli Hamiltonian.
+
+174
+00:13:26,090 --> 00:13:34,340
+And it's equal to 1
+over 2m pi squared
+
+175
+00:13:34,340 --> 00:13:45,880
+pi dot pi times 1 plus i
+sigma dotted with pi cross pi.
+
+176
+00:13:59,190 --> 00:14:04,260
+OK, here is the
+computation we need to do.
+
+177
+00:14:04,260 --> 00:14:07,350
+What is pi cross pi?
+
+178
+00:14:07,350 --> 00:14:08,655
+You know what pi is.
+
+179
+00:14:08,655 --> 00:14:10,710
+It's given by this thing.
+
+180
+00:14:10,710 --> 00:14:12,870
+So how much is pi cross pi?
+
+181
+00:14:16,310 --> 00:14:18,820
+Well, it takes a
+little computation.
+
+182
+00:14:18,820 --> 00:14:21,740
+I'll tell you what
+you have to do.
+
+183
+00:14:21,740 --> 00:14:23,840
+It's a very interesting
+computation.
+
+184
+00:14:23,840 --> 00:14:25,160
+It's small.
+
+185
+00:14:25,160 --> 00:14:27,260
+It reminds you of
+this computation
+
+186
+00:14:27,260 --> 00:14:32,060
+in angular momentum, l cross l.
+
+187
+00:14:32,060 --> 00:14:35,240
+Maybe you've written the
+algebra of angular momentum
+
+188
+00:14:35,240 --> 00:14:36,110
+in this language.
+
+189
+00:14:36,110 --> 00:14:39,350
+It's equal to h bar l.
+
+190
+00:14:42,420 --> 00:14:46,430
+That's your computation in
+relations of angular momentum
+
+191
+00:14:46,430 --> 00:14:47,240
+written like that.
+
+192
+00:14:47,240 --> 00:14:51,730
+So pi cross pi,
+the kth component
+
+193
+00:14:51,730 --> 00:15:00,620
+is epsilon ijk pi i
+pi j or 1/2 epsilon
+
+194
+00:15:00,620 --> 00:15:06,005
+ijk pi I commutator with pi j.
+
+195
+00:15:09,720 --> 00:15:13,680
+This last step, it
+can be explained
+
+196
+00:15:13,680 --> 00:15:15,990
+by writing out the
+commutator, which
+
+197
+00:15:15,990 --> 00:15:19,650
+is pi i pi j minus pi j pi i.
+
+198
+00:15:19,650 --> 00:15:22,770
+But with this epsilon, those
+two terms are the same,
+
+199
+00:15:22,770 --> 00:15:26,000
+and it becomes this.
+
+200
+00:15:26,000 --> 00:15:30,400
+So how much is this thing?
+
+201
+00:15:30,400 --> 00:15:33,220
+I'll leave it for you to do it.
+
+202
+00:15:33,220 --> 00:15:39,410
+It's simple thing.
+
+203
+00:15:39,410 --> 00:15:42,200
+You have to commute
+these things,
+
+204
+00:15:42,200 --> 00:15:45,860
+and you must think
+of p as derivatives.
+
+205
+00:15:45,860 --> 00:15:57,680
+So this pi i pi j is i h bar
+q over c di a j minus dj a i.
+
+206
+00:15:57,680 --> 00:15:59,450
+You can see it coming.
+
+207
+00:15:59,450 --> 00:16:05,120
+You see, you have a commutator
+of two factors like that.
+
+208
+00:16:05,120 --> 00:16:07,340
+The a with a will commute.
+
+209
+00:16:07,340 --> 00:16:09,200
+The p with p will commute.
+
+210
+00:16:09,200 --> 00:16:12,639
+The cross products won't,
+but that's just derivatives.
+
+211
+00:16:12,639 --> 00:16:14,180
+So therefore, you
+get the derivatives
+
+212
+00:16:14,180 --> 00:16:17,390
+of a antisymmetrized.
+
+213
+00:16:17,390 --> 00:16:20,030
+And the derivatives
+of a antisymmetrized
+
+214
+00:16:20,030 --> 00:16:21,890
+is the curl of a.
+
+215
+00:16:21,890 --> 00:16:24,660
+And the curl of a is
+the magnetic field.
+
+216
+00:16:24,660 --> 00:16:27,870
+So that's why this happens.
+
+217
+00:16:27,870 --> 00:16:32,210
+So at the end of the day, when
+you'll finish this computation,
+
+218
+00:16:32,210 --> 00:16:40,700
+get that pi cross pi is
+just i q i h bar q over c
+
+219
+00:16:40,700 --> 00:16:44,060
+times the magnetic field.
+
+220
+00:16:44,060 --> 00:16:45,190
+Pretty nice equation.
+
+221
+00:16:48,630 --> 00:16:52,845
+So the Pauli Hamiltonian
+includes h Pauli.
+
+222
+00:16:55,560 --> 00:17:06,250
+It includes this term,
+which is i sigma over 2m
+
+223
+00:17:06,250 --> 00:17:18,520
+dotted with i hQ over
+cb plus the other terms.
+
+224
+00:17:18,520 --> 00:17:24,700
+I'm just looking at this term
+which has the magnetic field.
+
+225
+00:17:24,700 --> 00:17:26,740
+And therefore, look at this.
+
+226
+00:17:26,740 --> 00:17:30,640
+i with i is minus
+1, but q is minus e.
+
+227
+00:17:30,640 --> 00:17:45,020
+So this is eh bar over 2 mc
+sigma dot b, which is here,
+
+228
+00:17:45,020 --> 00:17:48,260
+which came from g equal 2.
+
+229
+00:17:48,260 --> 00:17:53,530
+Nowhere I had to say there
+that g is equal to 2.
+
+230
+00:17:53,530 --> 00:17:56,890
+It came out of this calculation.
+
+231
+00:17:56,890 --> 00:18:00,310
+The Pauli Hamiltonian
+knew of this.
+
+232
+00:18:00,310 --> 00:18:04,120
+And therefore, it's a
+great progress, that Pauli
+
+233
+00:18:04,120 --> 00:18:07,960
+Hamiltonian, but
+it suggests to us
+
+234
+00:18:07,960 --> 00:18:12,290
+that we can do things still
+even better, as Dirac did.

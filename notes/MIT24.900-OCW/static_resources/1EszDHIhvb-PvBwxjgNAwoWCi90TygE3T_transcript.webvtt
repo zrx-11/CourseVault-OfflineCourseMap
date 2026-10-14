@@ -1,0 +1,6537 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.455 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.455 --> 00:00:03.428 align:middle line:90%
+[RUSTLING]
+
+00:00:03.428 --> 00:00:03.928 align:middle line:90%
+
+
+00:00:03.928 --> 00:00:05.401 align:middle line:90%
+[CLICKING]
+
+00:00:05.401 --> 00:00:10.595 align:middle line:90%
+
+
+00:00:10.595 --> 00:00:11.720 align:middle line:90%
+NORVIN RICHARDS: All right.
+
+00:00:11.720 --> 00:00:15.230 align:middle line:84%
+So I think this is our
+last day for semantics.
+
+00:00:15.230 --> 00:00:20.340 align:middle line:84%
+So we're going to do a grab bag
+of semantics-y topics today,
+
+00:00:20.340 --> 00:00:23.960 align:middle line:84%
+and then we will pass on
+in to other topics starting
+
+00:00:23.960 --> 00:00:26.560 align:middle line:90%
+next week.
+
+00:00:26.560 --> 00:00:28.720 align:middle line:84%
+Last time, we ended
+on a cliffhanger.
+
+00:00:28.720 --> 00:00:31.330 align:middle line:84%
+So let me remind
+you where we were.
+
+00:00:31.330 --> 00:00:36.000 align:middle line:84%
+We said-- here we are with
+guards and buildings again.
+
+00:00:36.000 --> 00:00:39.250 align:middle line:84%
+And we said that this
+sentence was ambiguous.
+
+00:00:39.250 --> 00:00:41.920 align:middle line:84%
+So "Two guards seemed
+to me to be standing
+
+00:00:41.920 --> 00:00:45.640 align:middle line:84%
+in front of every building"
+has the two familiar readings,
+
+00:00:45.640 --> 00:00:49.270 align:middle line:84%
+the one where looks to me like
+every building has two guards,
+
+00:00:49.270 --> 00:00:53.080 align:middle line:84%
+and the wacky reading
+where I believe
+
+00:00:53.080 --> 00:00:54.725 align:middle line:84%
+there are two very
+large guards who
+
+00:00:54.725 --> 00:00:56.350 align:middle line:84%
+are guarding all the
+buildings at once.
+
+00:00:56.350 --> 00:00:57.933 align:middle line:84%
+You could have both
+of those readings.
+
+00:00:57.933 --> 00:01:00.700 align:middle line:84%
+And then we had also
+convinced ourselves
+
+00:01:00.700 --> 00:01:04.250 align:middle line:84%
+that that ambiguity goes
+away in this second sentence.
+
+00:01:04.250 --> 00:01:05.950 align:middle line:84%
+So "Two guards
+seemed to themselves
+
+00:01:05.950 --> 00:01:11.705 align:middle line:84%
+to be standing in front of
+every building" can only mean--
+
+00:01:11.705 --> 00:01:13.610 align:middle line:90%
+this belongs to somebody--
+
+00:01:13.610 --> 00:01:17.510 align:middle line:84%
+can only mean that
+there are two guards who
+
+00:01:17.510 --> 00:01:21.230 align:middle line:84%
+have a hallucination in
+which they are very large.
+
+00:01:21.230 --> 00:01:25.070 align:middle line:84%
+Or there's something else
+you could imagine it meaning.
+
+00:01:25.070 --> 00:01:27.943 align:middle line:84%
+It could mean for
+each building, there
+
+00:01:27.943 --> 00:01:29.360 align:middle line:84%
+are two guards who
+think that they
+
+00:01:29.360 --> 00:01:31.310 align:middle line:90%
+are standing in front of it.
+
+00:01:31.310 --> 00:01:33.650 align:middle line:84%
+That would, in a way,
+be more alarming.
+
+00:01:33.650 --> 00:01:36.200 align:middle line:84%
+There would be more
+guards who had some kind
+
+00:01:36.200 --> 00:01:38.270 align:middle line:90%
+of psychological problem.
+
+00:01:38.270 --> 00:01:40.280 align:middle line:84%
+But they at least
+wouldn't be believing
+
+00:01:40.280 --> 00:01:43.940 align:middle line:84%
+that they are impossibly
+large guards, just that they
+
+00:01:43.940 --> 00:01:45.435 align:middle line:90%
+believe they're on duty.
+
+00:01:45.435 --> 00:01:47.820 align:middle line:90%
+[INAUDIBLE]
+
+00:01:47.820 --> 00:01:50.180 align:middle line:84%
+AUDIENCE: If we arrange the
+second sentence and say,
+
+00:01:50.180 --> 00:01:51.980 align:middle line:84%
+"In front of every
+building, two guards
+
+00:01:51.980 --> 00:01:55.577 align:middle line:84%
+seem themselves to be standing,"
+is that the same thing?
+
+00:01:55.577 --> 00:01:57.160 align:middle line:84%
+NORVIN RICHARDS:
+What do people think?
+
+00:01:57.160 --> 00:01:58.690 align:middle line:84%
+If I say, "In front
+of every building,
+
+00:01:58.690 --> 00:02:00.148 align:middle line:84%
+two guards seem to
+themselves to be
+
+00:02:00.148 --> 00:02:04.860 align:middle line:84%
+standing," to the extent
+that you can say that,
+
+00:02:04.860 --> 00:02:06.660 align:middle line:90%
+does it mean--
+
+00:02:06.660 --> 00:02:10.180 align:middle line:90%
+can it mean there are two--
+
+00:02:10.180 --> 00:02:12.670 align:middle line:84%
+for each building, there
+are twice as many guards
+
+00:02:12.670 --> 00:02:14.258 align:middle line:90%
+as there are buildings?
+
+00:02:14.258 --> 00:02:16.300 align:middle line:84%
+Twice as many people who
+believe themselves to be
+
+00:02:16.300 --> 00:02:18.190 align:middle line:90%
+guards as there are buildings?
+
+00:02:18.190 --> 00:02:18.760 align:middle line:90%
+Yes?
+
+00:02:18.760 --> 00:02:23.620 align:middle line:84%
+AUDIENCE: I think that does
+stay closer to the two--
+
+00:02:23.620 --> 00:02:25.570 align:middle line:84%
+there are two guards
+for every building.
+
+00:02:25.570 --> 00:02:28.480 align:middle line:84%
+But I could still
+interpret it as there
+
+00:02:28.480 --> 00:02:31.003 align:middle line:84%
+are two very large guards
+or that the buildings all
+
+00:02:31.003 --> 00:02:31.670 align:middle line:90%
+face each other.
+
+00:02:31.670 --> 00:02:31.970 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:02:31.970 --> 00:02:33.598 align:middle line:84%
+I agree with you,
+actually, that it's--
+
+00:02:33.598 --> 00:02:36.140 align:middle line:84%
+I think it becomes ambiguous,
+I think, is what you're saying.
+
+00:02:36.140 --> 00:02:38.390 align:middle line:84%
+So it gets the meaning
+that this doesn't have,
+
+00:02:38.390 --> 00:02:40.880 align:middle line:90%
+but it still has this meaning.
+
+00:02:40.880 --> 00:02:43.020 align:middle line:90%
+I think you're right about that.
+
+00:02:43.020 --> 00:02:43.520 align:middle line:90%
+Yeah?
+
+00:02:43.520 --> 00:02:45.560 align:middle line:90%
+AUDIENCE: I don't know.
+
+00:02:45.560 --> 00:02:48.504 align:middle line:84%
+Somehow, it does feel to
+lean towards the other--
+
+00:02:48.504 --> 00:02:49.962 align:middle line:84%
+NORVIN RICHARDS:
+The other meaning.
+
+00:02:49.962 --> 00:02:51.822 align:middle line:84%
+AUDIENCE: More so than
+the top one for me.
+
+00:02:51.822 --> 00:02:53.530 align:middle line:84%
+NORVIN RICHARDS: Oh,
+I see what you mean.
+
+00:02:53.530 --> 00:02:55.140 align:middle line:84%
+Yeah, the top one,
+it's easier to say,
+
+00:02:55.140 --> 00:02:58.140 align:middle line:90%
+yeah, this is ambiguous.
+
+00:02:58.140 --> 00:02:59.490 align:middle line:90%
+Yes.
+
+00:02:59.490 --> 00:03:02.790 align:middle line:84%
+This is kind of reminiscent of
+when I was first showing you
+
+00:03:02.790 --> 00:03:03.810 align:middle line:90%
+quantifier scope.
+
+00:03:03.810 --> 00:03:07.620 align:middle line:84%
+We were talking about sentences
+like "Everyone in this room
+
+00:03:07.620 --> 00:03:09.360 align:middle line:84%
+speaks two languages"
+and "Two languages
+
+00:03:09.360 --> 00:03:11.580 align:middle line:84%
+are spoken by everyone
+in this room."
+
+00:03:11.580 --> 00:03:14.653 align:middle line:84%
+And I think convincing
+ourselves that whether you have
+
+00:03:14.653 --> 00:03:17.070 align:middle line:84%
+the active or the passive has
+some kind of effect on which
+
+00:03:17.070 --> 00:03:20.790 align:middle line:84%
+reading is easiest to get, and
+there's something similar going
+
+00:03:20.790 --> 00:03:23.010 align:middle line:84%
+on here, I think, that
+there's certainly more
+
+00:03:23.010 --> 00:03:26.880 align:middle line:84%
+to say than some sentences are
+ambiguous and others are not.
+
+00:03:26.880 --> 00:03:29.217 align:middle line:84%
+So some sentences
+lean in the direction
+
+00:03:29.217 --> 00:03:30.300 align:middle line:90%
+of one reading or another.
+
+00:03:30.300 --> 00:03:33.420 align:middle line:84%
+There's a lot of work to do
+here, which we won't try to do.
+
+00:03:33.420 --> 00:03:37.320 align:middle line:84%
+This is almost the end of our
+acquaintance with quantifiers.
+
+00:03:37.320 --> 00:03:39.210 align:middle line:84%
+But yes, there's lots
+of interesting topics
+
+00:03:39.210 --> 00:03:40.350 align:middle line:90%
+to work on here.
+
+00:03:40.350 --> 00:03:41.500 align:middle line:90%
+Did you have a question?
+
+00:03:41.500 --> 00:03:43.290 align:middle line:84%
+AUDIENCE: Well, I was
+just going to say,
+
+00:03:43.290 --> 00:03:46.670 align:middle line:84%
+rearranging that sentence
+seems to add extra ambiguity
+
+00:03:46.670 --> 00:03:49.970 align:middle line:84%
+because now it now
+gives a sense of whether
+
+00:03:49.970 --> 00:03:52.100 align:middle line:84%
+or not the guards are
+standing themselves.
+
+00:03:52.100 --> 00:03:53.285 align:middle line:90%
+They could be sitting.
+
+00:03:53.285 --> 00:03:55.460 align:middle line:84%
+They seem to themselves
+to be standing.
+
+00:03:55.460 --> 00:03:56.780 align:middle line:90%
+NORVIN RICHARDS: Oh.
+
+00:03:56.780 --> 00:03:57.330 align:middle line:90%
+Oh.
+
+00:03:57.330 --> 00:03:57.830 align:middle line:90%
+Oh.
+
+00:03:57.830 --> 00:03:59.630 align:middle line:90%
+I didn't even think about that.
+
+00:03:59.630 --> 00:04:00.150 align:middle line:90%
+Right.
+
+00:04:00.150 --> 00:04:00.650 align:middle line:90%
+Right.
+
+00:04:00.650 --> 00:04:02.240 align:middle line:90%
+Right.
+
+00:04:02.240 --> 00:04:03.380 align:middle line:90%
+I was-- yes.
+
+00:04:03.380 --> 00:04:04.160 align:middle line:90%
+Oh, gosh.
+
+00:04:04.160 --> 00:04:06.140 align:middle line:84%
+I was thinking about
+the "seeming"--
+
+00:04:06.140 --> 00:04:08.570 align:middle line:90%
+"stand" as just a--
+
+00:04:08.570 --> 00:04:10.202 align:middle line:90%
+meaning be, basically.
+
+00:04:10.202 --> 00:04:10.910 align:middle line:90%
+But you're right.
+
+00:04:10.910 --> 00:04:13.340 align:middle line:84%
+There's another way that things
+could seem and not be true.
+
+00:04:13.340 --> 00:04:14.870 align:middle line:84%
+They could think
+that they're standing
+
+00:04:14.870 --> 00:04:17.328 align:middle line:84%
+in front of the buildings, but
+actually they're lying down.
+
+00:04:17.328 --> 00:04:19.430 align:middle line:84%
+These are guards with a
+different kind of problem.
+
+00:04:19.430 --> 00:04:21.649 align:middle line:90%
+Yeah, good point.
+
+00:04:21.649 --> 00:04:23.440 align:middle line:90%
+Yeah?
+
+00:04:23.440 --> 00:04:25.210 align:middle line:90%
+So far so good?
+
+00:04:25.210 --> 00:04:26.980 align:middle line:90%
+All right.
+
+00:04:26.980 --> 00:04:28.595 align:middle line:84%
+So ambiguity in
+the first example,
+
+00:04:28.595 --> 00:04:31.540 align:middle line:84%
+and ambiguity going away
+in the second example.
+
+00:04:31.540 --> 00:04:36.100 align:middle line:84%
+And Raquel thinks, and I think
+we decided to agree with her,
+
+00:04:36.100 --> 00:04:38.140 align:middle line:84%
+that you can get
+the ambiguity back
+
+00:04:38.140 --> 00:04:41.465 align:middle line:84%
+in that second kind of example
+by moving "every building."
+
+00:04:41.465 --> 00:04:43.090 align:middle line:84%
+Let's put Raquel's
+point aside and just
+
+00:04:43.090 --> 00:04:44.440 align:middle line:90%
+concentrate on these for a sec.
+
+00:04:44.440 --> 00:04:47.400 align:middle line:90%
+
+
+00:04:47.400 --> 00:04:50.990 align:middle line:84%
+Remember way back
+when, we had the idea
+
+00:04:50.990 --> 00:04:52.970 align:middle line:84%
+that a sentence like
+"Two guards seemed
+
+00:04:52.970 --> 00:04:56.130 align:middle line:84%
+to be standing in front of
+every building" is ambiguous.
+
+00:04:56.130 --> 00:04:59.060 align:middle line:84%
+Remember, we decided this
+ambiguity comes from the fact
+
+00:04:59.060 --> 00:05:01.790 align:middle line:84%
+that "every building"
+can, but doesn't
+
+00:05:01.790 --> 00:05:04.850 align:middle line:84%
+have to, undergo
+this operation of QR,
+
+00:05:04.850 --> 00:05:09.950 align:middle line:84%
+quantifier raising, that
+gets it past two guards.
+
+00:05:09.950 --> 00:05:12.898 align:middle line:84%
+And we also convinced
+ourselves that this operation
+
+00:05:12.898 --> 00:05:14.690 align:middle line:84%
+of quantifier raising
+has some restrictions
+
+00:05:14.690 --> 00:05:17.123 align:middle line:90%
+on how far it can go.
+
+00:05:17.123 --> 00:05:19.040 align:middle line:84%
+The evidence for that
+had to do with sentences
+
+00:05:19.040 --> 00:05:20.750 align:middle line:90%
+like the last one on this slide.
+
+00:05:20.750 --> 00:05:22.340 align:middle line:84%
+"Two guards think
+that I am standing
+
+00:05:22.340 --> 00:05:27.020 align:middle line:84%
+in front of every
+building" isn't ambiguous.
+
+00:05:27.020 --> 00:05:29.780 align:middle line:84%
+Doesn't mean-- so
+it can only mean
+
+00:05:29.780 --> 00:05:35.530 align:middle line:84%
+there are two guards, two
+particular guards, who
+
+00:05:35.530 --> 00:05:39.220 align:middle line:84%
+are having real problems
+who seem to see me
+
+00:05:39.220 --> 00:05:40.780 align:middle line:90%
+in front of every building.
+
+00:05:40.780 --> 00:05:43.120 align:middle line:84%
+It doesn't mean there
+are two guards who
+
+00:05:43.120 --> 00:05:44.553 align:middle line:84%
+think I'm in front
+of building 32,
+
+00:05:44.553 --> 00:05:45.970 align:middle line:84%
+and there are two
+other guards who
+
+00:05:45.970 --> 00:05:47.410 align:middle line:84%
+think I'm in front of
+the Student Center,
+
+00:05:47.410 --> 00:05:48.400 align:middle line:84%
+and there are two
+other guards who
+
+00:05:48.400 --> 00:05:50.025 align:middle line:84%
+think that I'm in
+front of the library.
+
+00:05:50.025 --> 00:05:51.580 align:middle line:90%
+It doesn't mean that.
+
+00:05:51.580 --> 00:05:54.370 align:middle line:84%
+So it only has the reading
+where "every building" hasn't
+
+00:05:54.370 --> 00:05:56.410 align:middle line:90%
+undergone QR past "two guards."
+
+00:05:56.410 --> 00:05:58.270 align:middle line:84%
+It only has the
+meaning where you
+
+00:05:58.270 --> 00:05:59.690 align:middle line:90%
+interpret "two guards" first.
+
+00:05:59.690 --> 00:06:02.050 align:middle line:84%
+It's like, there are two
+guards who have this property.
+
+00:06:02.050 --> 00:06:04.383 align:middle line:84%
+They think that I'm standing
+in front of every building.
+
+00:06:04.383 --> 00:06:06.460 align:middle line:84%
+It doesn't mean it's
+true of every building.
+
+00:06:06.460 --> 00:06:09.490 align:middle line:84%
+The set of buildings and the set
+of things that two guards think
+
+00:06:09.490 --> 00:06:14.470 align:middle line:84%
+that I am standing in front of
+has the following intersection.
+
+00:06:14.470 --> 00:06:16.255 align:middle line:90%
+Do people see that?
+
+00:06:16.255 --> 00:06:18.130 align:middle line:84%
+So there's no ambiguity
+in that last example.
+
+00:06:18.130 --> 00:06:20.440 align:middle line:84%
+And our story about why
+there's no ambiguity
+
+00:06:20.440 --> 00:06:23.440 align:middle line:84%
+in that last example, this
+description of that fact
+
+00:06:23.440 --> 00:06:25.690 align:middle line:84%
+was to say, OK, we're
+learning something about QR.
+
+00:06:25.690 --> 00:06:28.450 align:middle line:84%
+QR can't-- when you have
+two guards that are standing
+
+00:06:28.450 --> 00:06:31.390 align:middle line:84%
+in front of every building, "two
+guards" and "every building"
+
+00:06:31.390 --> 00:06:33.650 align:middle line:84%
+are close enough that
+QR can reorder them,
+
+00:06:33.650 --> 00:06:34.720 align:middle line:90%
+and you get ambiguity.
+
+00:06:34.720 --> 00:06:36.310 align:middle line:84%
+But in this one,
+"Two guards think
+
+00:06:36.310 --> 00:06:38.227 align:middle line:84%
+that I'm standing in
+front of every building,"
+
+00:06:38.227 --> 00:06:39.970 align:middle line:84%
+"every building"
+can't QR that far.
+
+00:06:39.970 --> 00:06:41.570 align:middle line:84%
+And then that gets
+us into question.
+
+00:06:41.570 --> 00:06:43.120 align:middle line:90%
+So how far can QR go?
+
+00:06:43.120 --> 00:06:45.370 align:middle line:90%
+How does it work?
+
+00:06:45.370 --> 00:06:46.990 align:middle line:90%
+We got started on that question.
+
+00:06:46.990 --> 00:06:48.160 align:middle line:90%
+Do people remember all this?
+
+00:06:48.160 --> 00:06:49.360 align:middle line:90%
+This is all review.
+
+00:06:49.360 --> 00:06:51.580 align:middle line:90%
+This might make sense.
+
+00:06:51.580 --> 00:06:53.800 align:middle line:84%
+Did you have a
+question, Katrina?
+
+00:06:53.800 --> 00:06:54.730 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:06:54.730 --> 00:06:57.220 align:middle line:84%
+What does it mean that "two
+guards" can reconstruct back
+
+00:06:57.220 --> 00:06:58.310 align:middle line:90%
+into the embedded clause?
+
+00:06:58.310 --> 00:06:59.500 align:middle line:90%
+NORVIN RICHARDS: Oh, OK.
+
+00:06:59.500 --> 00:07:01.550 align:middle line:84%
+I'm sorry, I'm doing
+this slide out of order.
+
+00:07:01.550 --> 00:07:03.348 align:middle line:84%
+So I'm talking about
+the last sentence.
+
+00:07:03.348 --> 00:07:05.140 align:middle line:84%
+In the last sentence,
+there's no ambiguity,
+
+00:07:05.140 --> 00:07:07.557 align:middle line:84%
+and we convinced ourselves
+that's because "every building"
+
+00:07:07.557 --> 00:07:09.160 align:middle line:84%
+can't get out of
+that embedded clause.
+
+00:07:09.160 --> 00:07:11.590 align:middle line:84%
+So question, what
+counts as a clause?
+
+00:07:11.590 --> 00:07:13.780 align:middle line:90%
+How far can QR go?
+
+00:07:13.780 --> 00:07:15.940 align:middle line:84%
+The fact that there's
+ambiguity in "Two guards
+
+00:07:15.940 --> 00:07:18.580 align:middle line:84%
+seem to be standing in front
+of every building," we said,
+
+00:07:18.580 --> 00:07:20.622 align:middle line:84%
+we could have handled that
+in two different ways.
+
+00:07:20.622 --> 00:07:23.560 align:middle line:84%
+Here, let me write
+that on the board.
+
+00:07:23.560 --> 00:07:24.910 align:middle line:90%
+For some reason, there are--
+
+00:07:24.910 --> 00:07:25.782 align:middle line:90%
+here we go.
+
+00:07:25.782 --> 00:07:28.240 align:middle line:84%
+There are many erasers on the
+board, but there is no chalk.
+
+00:07:28.240 --> 00:07:30.910 align:middle line:84%
+I think someone is trying
+to send me a message.
+
+00:07:30.910 --> 00:07:41.650 align:middle line:84%
+So "Two guards
+seem to be standing
+
+00:07:41.650 --> 00:07:45.295 align:middle line:90%
+in front of every building."
+
+00:07:45.295 --> 00:07:49.640 align:middle line:90%
+
+
+00:07:49.640 --> 00:07:53.650 align:middle line:84%
+So recall that for
+independent reasons,
+
+00:07:53.650 --> 00:07:55.540 align:middle line:90%
+we thought that "two guards"--
+
+00:07:55.540 --> 00:07:57.040 align:middle line:84%
+in a sentence like
+this, "Two guards
+
+00:07:57.040 --> 00:07:59.582 align:middle line:84%
+seem to be standing in front of
+every building," "two guards"
+
+00:07:59.582 --> 00:08:01.870 align:middle line:84%
+is here, but it starts
+down here and moves.
+
+00:08:01.870 --> 00:08:05.320 align:middle line:84%
+We have this NP movement
+that took things
+
+00:08:05.320 --> 00:08:07.240 align:middle line:84%
+from embedded clauses
+and moved them
+
+00:08:07.240 --> 00:08:10.480 align:middle line:84%
+into the subject of
+things like "seem"
+
+00:08:10.480 --> 00:08:13.640 align:middle line:84%
+in order to satisfy
+the EPP was the story.
+
+00:08:13.640 --> 00:08:16.400 align:middle line:84%
+So we have this
+operation and movement.
+
+00:08:16.400 --> 00:08:18.940 align:middle line:84%
+So now there's
+this open question.
+
+00:08:18.940 --> 00:08:23.920 align:middle line:84%
+We want QR to be able to get
+"every building" past "two
+
+00:08:23.920 --> 00:08:25.090 align:middle line:90%
+guards."
+
+00:08:25.090 --> 00:08:28.090 align:middle line:84%
+But "two guards"
+is in two places.
+
+00:08:28.090 --> 00:08:29.305 align:middle line:90%
+It's in the lower position.
+
+00:08:29.305 --> 00:08:30.680 align:middle line:84%
+It's also in the
+higher position.
+
+00:08:30.680 --> 00:08:34.240 align:middle line:84%
+So we could say QR can
+go from here all the way
+
+00:08:34.240 --> 00:08:35.919 align:middle line:90%
+to the beginning.
+
+00:08:35.919 --> 00:08:38.830 align:middle line:84%
+That's a way of saying that
+embedded clause does not
+
+00:08:38.830 --> 00:08:40.840 align:middle line:90%
+count as a clause.
+
+00:08:40.840 --> 00:08:44.230 align:middle line:84%
+QR can get out of that kind of
+clause, that infinitival kind
+
+00:08:44.230 --> 00:08:45.018 align:middle line:90%
+of clause.
+
+00:08:45.018 --> 00:08:46.810 align:middle line:84%
+But another kind of
+thing that we could say
+
+00:08:46.810 --> 00:08:49.600 align:middle line:84%
+would be no, the reason
+this is ambiguous
+
+00:08:49.600 --> 00:08:51.970 align:middle line:84%
+is that "every building"
+can get this far
+
+00:08:51.970 --> 00:08:54.770 align:middle line:84%
+to the edge of the
+embedded clause.
+
+00:08:54.770 --> 00:08:59.770 align:middle line:84%
+And so it can't, in
+fact, get this far.
+
+00:08:59.770 --> 00:09:01.570 align:middle line:84%
+Can't get out of
+that embedded clause.
+
+00:09:01.570 --> 00:09:09.760 align:middle line:84%
+Basically, this involves
+saying QR can't escape TP.
+
+00:09:09.760 --> 00:09:12.220 align:middle line:84%
+So it can't escape
+any kind of TP.
+
+00:09:12.220 --> 00:09:15.610 align:middle line:84%
+Not a finite clause like
+the one in the last example
+
+00:09:15.610 --> 00:09:17.110 align:middle line:84%
+here, "Two guards
+think I'm standing
+
+00:09:17.110 --> 00:09:21.580 align:middle line:84%
+in front of every building," and
+also not an infinitival clause.
+
+00:09:21.580 --> 00:09:24.220 align:middle line:84%
+And we saw before some reasons
+to think that that's right,
+
+00:09:24.220 --> 00:09:26.185 align:middle line:84%
+that the only reason
+this is ambiguous,
+
+00:09:26.185 --> 00:09:28.060 align:middle line:84%
+it's not because "every
+building" can get out
+
+00:09:28.060 --> 00:09:28.808 align:middle line:90%
+of an infinitive.
+
+00:09:28.808 --> 00:09:30.100 align:middle line:90%
+"Every building" is stuck here.
+
+00:09:30.100 --> 00:09:31.480 align:middle line:84%
+It can't get any
+higher than this.
+
+00:09:31.480 --> 00:09:33.970 align:middle line:84%
+And the reason that this is
+ambiguous is that "two guards,"
+
+00:09:33.970 --> 00:09:37.180 align:middle line:84%
+yes, it's pronounced here,
+but it can be interpreted here
+
+00:09:37.180 --> 00:09:39.370 align:middle line:90%
+via reconstruction.
+
+00:09:39.370 --> 00:09:41.420 align:middle line:84%
+Which is just a name for
+this mysterious fact.
+
+00:09:41.420 --> 00:09:43.630 align:middle line:84%
+You can interpret
+things lower if they
+
+00:09:43.630 --> 00:09:45.100 align:middle line:90%
+moved from lower positions.
+
+00:09:45.100 --> 00:09:47.650 align:middle line:84%
+We saw some evidence
+for that idea before.
+
+00:09:47.650 --> 00:09:50.230 align:middle line:84%
+I'm about to show you another
+bit of evidence for that idea.
+
+00:09:50.230 --> 00:09:53.260 align:middle line:90%
+But is this much clear?
+
+00:09:53.260 --> 00:09:54.850 align:middle line:90%
+It's late in the semester.
+
+00:09:54.850 --> 00:09:57.950 align:middle line:84%
+Probably almost nothing
+is clear anymore.
+
+00:09:57.950 --> 00:09:59.440 align:middle line:90%
+It's spring outside.
+
+00:09:59.440 --> 00:10:02.530 align:middle line:84%
+Yeah, it's very hard
+to make things clear.
+
+00:10:02.530 --> 00:10:04.810 align:middle line:84%
+Do people want to ask
+questions about this?
+
+00:10:04.810 --> 00:10:06.730 align:middle line:90%
+OK, all right.
+
+00:10:06.730 --> 00:10:09.200 align:middle line:84%
+So here's a new
+bit of ambiguity,
+
+00:10:09.200 --> 00:10:11.190 align:middle line:84%
+a new bit of evidence
+that this is right,
+
+00:10:11.190 --> 00:10:12.820 align:middle line:84%
+that this is the
+right way of handling
+
+00:10:12.820 --> 00:10:14.980 align:middle line:84%
+the ambiguity for the first
+example in this slide,
+
+00:10:14.980 --> 00:10:17.480 align:middle line:84%
+"Two guards seem to be standing
+in front of every building."
+
+00:10:17.480 --> 00:10:19.810 align:middle line:84%
+So we'll say, the
+reason that's ambiguous
+
+00:10:19.810 --> 00:10:23.752 align:middle line:84%
+is that QR, first of
+all, can't get out of TP.
+
+00:10:23.752 --> 00:10:25.960 align:middle line:84%
+It can't get out of that
+embedded infinitival clause.
+
+00:10:25.960 --> 00:10:28.100 align:middle line:90%
+The earliest it can get is here.
+
+00:10:28.100 --> 00:10:30.200 align:middle line:84%
+So "to be standing in
+front of every building."
+
+00:10:30.200 --> 00:10:31.420 align:middle line:84%
+And the reason
+you have ambiguity
+
+00:10:31.420 --> 00:10:34.003 align:middle line:84%
+there is that "two guards" has
+the option of being interpreted
+
+00:10:34.003 --> 00:10:36.978 align:middle line:84%
+down here, this mysterious
+option that we've been seeing
+
+00:10:36.978 --> 00:10:39.520 align:middle line:84%
+for movement, that you have the
+option of interpreting things
+
+00:10:39.520 --> 00:10:41.920 align:middle line:84%
+as though they were lower
+than they actually are,
+
+00:10:41.920 --> 00:10:46.620 align:middle line:84%
+as though they are still
+where they used to be.
+
+00:10:46.620 --> 00:10:48.910 align:middle line:90%
+Here's the bit of evidence.
+
+00:10:48.910 --> 00:10:50.620 align:middle line:84%
+"Two guards seem
+to themselves to be
+
+00:10:50.620 --> 00:10:52.162 align:middle line:84%
+standing in front
+of every building,"
+
+00:10:52.162 --> 00:10:55.240 align:middle line:90%
+we decided that's not ambiguous.
+
+00:10:55.240 --> 00:10:59.270 align:middle line:84%
+"Every building" can't take
+scope above "two guards."
+
+00:10:59.270 --> 00:11:04.250 align:middle line:84%
+Well, let's think about
+what would happen.
+
+00:11:04.250 --> 00:11:06.410 align:middle line:84%
+I'm going to add "to
+themselves" here.
+
+00:11:06.410 --> 00:11:09.890 align:middle line:90%
+
+
+00:11:09.890 --> 00:11:11.600 align:middle line:84%
+We're fooling around
+with the possibility
+
+00:11:11.600 --> 00:11:14.260 align:middle line:84%
+that the ambiguity
+in "Two guards seemed
+
+00:11:14.260 --> 00:11:16.010 align:middle line:84%
+to be standing in front
+of every building"
+
+00:11:16.010 --> 00:11:17.450 align:middle line:84%
+is there because
+"two guards" has
+
+00:11:17.450 --> 00:11:19.592 align:middle line:84%
+the option of reconstructing
+into the lower clause,
+
+00:11:19.592 --> 00:11:21.050 align:middle line:84%
+has the option of
+being interpreted
+
+00:11:21.050 --> 00:11:23.270 align:middle line:84%
+as though it was
+still down here.
+
+00:11:23.270 --> 00:11:26.580 align:middle line:84%
+But that's why that
+sentence is ambiguous.
+
+00:11:26.580 --> 00:11:29.720 align:middle line:84%
+So why isn't this
+sentence ambiguous?
+
+00:11:29.720 --> 00:11:32.770 align:middle line:84%
+Well, what we want
+is for something
+
+00:11:32.770 --> 00:11:35.270 align:middle line:84%
+to prevent the "two guards"
+from reconstructing down to here
+
+00:11:35.270 --> 00:11:38.390 align:middle line:84%
+if the "two guards" had to
+be up here, if they couldn't
+
+00:11:38.390 --> 00:11:40.790 align:middle line:84%
+be interpreted in
+this lower position.
+
+00:11:40.790 --> 00:11:43.130 align:middle line:84%
+Well, then QR wouldn't
+be able to get past them
+
+00:11:43.130 --> 00:11:47.127 align:middle line:84%
+because the hypothesis is
+that QR can only get this far.
+
+00:11:47.127 --> 00:11:48.960 align:middle line:84%
+Is there something that
+will stop the guards
+
+00:11:48.960 --> 00:11:51.290 align:middle line:90%
+from reconstructing?
+
+00:11:51.290 --> 00:11:53.090 align:middle line:84%
+Why shouldn't "two
+guards"-- suppose
+
+00:11:53.090 --> 00:11:54.560 align:middle line:84%
+we got rid of "two
+guards" up here.
+
+00:11:54.560 --> 00:11:59.150 align:middle line:84%
+So we would have "Seemed
+to themselves, two guards,
+
+00:11:59.150 --> 00:12:01.872 align:middle line:84%
+to be standing in front
+of every building."
+
+00:12:01.872 --> 00:12:04.205 align:middle line:84%
+Would anything go wrong with
+the interpretation of that?
+
+00:12:04.205 --> 00:12:06.900 align:middle line:90%
+
+
+00:12:06.900 --> 00:12:10.070 align:middle line:84%
+Recall that what makes the
+sentence unambiguous is
+
+00:12:10.070 --> 00:12:11.510 align:middle line:90%
+putting in "to themselves."
+
+00:12:11.510 --> 00:12:14.565 align:middle line:84%
+If "to themselves" is not
+here, if it's just seem,
+
+00:12:14.565 --> 00:12:16.190 align:middle line:84%
+well then "two guards"
+can reconstruct.
+
+00:12:16.190 --> 00:12:18.273 align:middle line:84%
+But when we add "to
+themselves," it can't anymore.
+
+00:12:18.273 --> 00:12:21.630 align:middle line:90%
+It has to stay up high.
+
+00:12:21.630 --> 00:12:24.270 align:middle line:90%
+What's "themselves"?
+
+00:12:24.270 --> 00:12:25.440 align:middle line:90%
+(What are "themselves"?
+
+00:12:25.440 --> 00:12:26.640 align:middle line:90%
+What am "themselves"?
+
+00:12:26.640 --> 00:12:27.948 align:middle line:90%
+What??)
+
+00:12:27.948 --> 00:12:29.280 align:middle line:90%
+AUDIENCE: Anaphore?
+
+00:12:29.280 --> 00:12:31.290 align:middle line:84%
+NORVIN RICHARDS: It's
+an anaphore, right?
+
+00:12:31.290 --> 00:12:32.670 align:middle line:90%
+It's a reflexive.
+
+00:12:32.670 --> 00:12:33.660 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:12:33.660 --> 00:12:36.035 align:middle line:84%
+NORVIN RICHARDS: Yeah, that's
+what you were about to say.
+
+00:12:36.035 --> 00:12:37.433 align:middle line:90%
+It's a reflexive.
+
+00:12:37.433 --> 00:12:38.725 align:middle line:90%
+Somebody just had a great idea.
+
+00:12:38.725 --> 00:12:41.660 align:middle line:90%
+
+
+00:12:41.660 --> 00:12:42.550 align:middle line:90%
+It's a reflexive.
+
+00:12:42.550 --> 00:12:45.550 align:middle line:84%
+Reflexives are subject
+to condition A, right?
+
+00:12:45.550 --> 00:12:46.720 align:middle line:90%
+What does condition A say?
+
+00:12:46.720 --> 00:12:48.175 align:middle line:90%
+What do reflexives need in life?
+
+00:12:48.175 --> 00:12:51.729 align:middle line:90%
+
+
+00:12:51.729 --> 00:12:53.130 align:middle line:90%
+AUDIENCE: They have to be bound.
+
+00:12:53.130 --> 00:12:54.570 align:middle line:84%
+NORVIN RICHARDS: They
+have to be bound, exactly.
+
+00:12:54.570 --> 00:12:55.980 align:middle line:84%
+They need something
+to bind them.
+
+00:12:55.980 --> 00:12:57.647 align:middle line:84%
+They need something
+that c-commands them
+
+00:12:57.647 --> 00:12:59.700 align:middle line:90%
+and co-refers with them.
+
+00:12:59.700 --> 00:13:03.280 align:middle line:84%
+That's why you can say, "The
+guards like themselves,"
+
+00:13:03.280 --> 00:13:06.000 align:middle line:84%
+but not Themselves
+like the guards."
+
+00:13:06.000 --> 00:13:07.500 align:middle line:84%
+"Themselves" needs
+to be c-commanded
+
+00:13:07.500 --> 00:13:10.430 align:middle line:84%
+by "guards," or some other
+noun that refers to them.
+
+00:13:10.430 --> 00:13:12.960 align:middle line:90%
+
+
+00:13:12.960 --> 00:13:15.540 align:middle line:84%
+So what would go wrong if you
+reconstructed "the guards" down
+
+00:13:15.540 --> 00:13:17.460 align:middle line:84%
+here if you have
+"themselves" here
+
+00:13:17.460 --> 00:13:20.410 align:middle line:84%
+is that, yeah, "guards" would
+be able to be scope ambiguous
+
+00:13:20.410 --> 00:13:21.660 align:middle line:90%
+with respect to the buildings.
+
+00:13:21.660 --> 00:13:26.830 align:middle line:84%
+But "themselves" would
+not have a binder anymore.
+
+00:13:26.830 --> 00:13:31.800 align:middle line:84%
+What we're learning-- so
+when I was first showing you
+
+00:13:31.800 --> 00:13:36.540 align:middle line:84%
+some examples of reconstruction,
+I think I said something like,
+
+00:13:36.540 --> 00:13:41.170 align:middle line:84%
+it's as though anaphores get to
+look back on the past and say,
+
+00:13:41.170 --> 00:13:43.952 align:middle line:84%
+well, I'm not bound
+anymore, but I used to be.
+
+00:13:43.952 --> 00:13:44.910 align:middle line:90%
+And that's good enough.
+
+00:13:44.910 --> 00:13:46.393 align:middle line:90%
+Something like that.
+
+00:13:46.393 --> 00:13:48.060 align:middle line:84%
+This is showing that
+that's not actually
+
+00:13:48.060 --> 00:13:50.143 align:middle line:84%
+quite the right way to
+think about reconstruction.
+
+00:13:50.143 --> 00:13:53.440 align:middle line:84%
+It's more like if
+you move something,
+
+00:13:53.440 --> 00:13:56.580 align:middle line:84%
+it exists in various
+positions in the clause.
+
+00:13:56.580 --> 00:14:00.420 align:middle line:84%
+But you have to pick
+one for interpretation.
+
+00:14:00.420 --> 00:14:03.000 align:middle line:84%
+For things like quantifier
+scope and binding,
+
+00:14:03.000 --> 00:14:06.990 align:middle line:84%
+you've got all of these places
+where it is simultaneously.
+
+00:14:06.990 --> 00:14:10.860 align:middle line:84%
+But the waveform has
+to collapse in order
+
+00:14:10.860 --> 00:14:15.030 align:middle line:84%
+to give it a scope and an
+interpretation for binding.
+
+00:14:15.030 --> 00:14:19.380 align:middle line:84%
+You have to pick one of the
+positions for it to be in.
+
+00:14:19.380 --> 00:14:21.510 align:middle line:84%
+You run the
+experiment, you detect
+
+00:14:21.510 --> 00:14:23.430 align:middle line:84%
+the electron or
+whatever it is, and then
+
+00:14:23.430 --> 00:14:26.200 align:middle line:90%
+you know where the guards are.
+
+00:14:26.200 --> 00:14:27.630 align:middle line:84%
+And once where
+they are, they have
+
+00:14:27.630 --> 00:14:32.550 align:middle line:84%
+to be in a position where
+they behave as being just
+
+00:14:32.550 --> 00:14:35.805 align:middle line:84%
+in that position both for
+anaphore binding and for scope.
+
+00:14:35.805 --> 00:14:37.680 align:middle line:84%
+That's what these data
+seem to be telling us.
+
+00:14:37.680 --> 00:14:39.243 align:middle line:84%
+So "Two guards
+seem to be standing
+
+00:14:39.243 --> 00:14:40.410 align:middle line:90%
+in front of every building."
+
+00:14:40.410 --> 00:14:42.995 align:middle line:84%
+"Two guards" is in two
+places simultaneously.
+
+00:14:42.995 --> 00:14:45.120 align:middle line:84%
+And you get to choose, is
+it in the higher position
+
+00:14:45.120 --> 00:14:46.485 align:middle line:90%
+or the lower position?
+
+00:14:46.485 --> 00:14:48.360 align:middle line:84%
+"Two guards seem to
+themselves to be standing
+
+00:14:48.360 --> 00:14:50.277 align:middle line:84%
+in front of every building"
+forces you to pick
+
+00:14:50.277 --> 00:14:51.120 align:middle line:90%
+a particular choice.
+
+00:14:51.120 --> 00:14:53.670 align:middle line:84%
+You have to keep "the guards"
+up high so that "themselves"
+
+00:14:53.670 --> 00:14:54.660 align:middle line:90%
+will have a binder.
+
+00:14:54.660 --> 00:14:57.810 align:middle line:84%
+And by choosing
+that, you also make
+
+00:14:57.810 --> 00:15:00.222 align:middle line:84%
+a choice about how quantifier
+scope is going to work.
+
+00:15:00.222 --> 00:15:01.680 align:middle line:84%
+You make it so that
+the quantifiers
+
+00:15:01.680 --> 00:15:03.360 align:middle line:84%
+can't be ambiguous anymore
+because the guards are
+
+00:15:03.360 --> 00:15:03.990 align:middle line:90%
+too high.
+
+00:15:03.990 --> 00:15:05.670 align:middle line:84%
+The buildings
+cannot get to them.
+
+00:15:05.670 --> 00:15:08.220 align:middle line:90%
+QR doesn't go that far.
+
+00:15:08.220 --> 00:15:10.970 align:middle line:84%
+That's the way quantifier
+scope seems to work.
+
+00:15:10.970 --> 00:15:14.740 align:middle line:84%
+It's the way reconstruction
+seems to work.
+
+00:15:14.740 --> 00:15:17.850 align:middle line:84%
+So the moral of all
+this is reconstruction
+
+00:15:17.850 --> 00:15:20.100 align:middle line:84%
+involves picking a
+particular position
+
+00:15:20.100 --> 00:15:22.740 align:middle line:90%
+to interpret a moved phrase in.
+
+00:15:22.740 --> 00:15:25.290 align:middle line:84%
+I gave you this idea
+or this metaphor
+
+00:15:25.290 --> 00:15:27.450 align:middle line:84%
+of you've got this
+thing, which is moving,
+
+00:15:27.450 --> 00:15:31.182 align:middle line:84%
+and you get to rewind
+the tape and decide--
+
+00:15:31.182 --> 00:15:32.640 align:middle line:84%
+look at it in a
+different position,
+
+00:15:32.640 --> 00:15:35.100 align:middle line:84%
+not the position where it's
+actually being pronounced.
+
+00:15:35.100 --> 00:15:37.780 align:middle line:84%
+And you can think about
+it that way if you want.
+
+00:15:37.780 --> 00:15:41.340 align:middle line:84%
+But the point is you have to
+pick one particular position
+
+00:15:41.340 --> 00:15:43.440 align:middle line:90%
+as the position where it gets--
+
+00:15:43.440 --> 00:15:47.850 align:middle line:84%
+you don't get to say, OK, it'll
+be here for anaphore binding,
+
+00:15:47.850 --> 00:15:51.183 align:middle line:84%
+but for quantifier
+scope, it will be here.
+
+00:15:51.183 --> 00:15:52.350 align:middle line:90%
+That's not the way it works.
+
+00:15:52.350 --> 00:15:54.690 align:middle line:84%
+You pick one spot
+for it to be for all
+
+00:15:54.690 --> 00:15:58.080 align:middle line:90%
+of its interpretive properties.
+
+00:15:58.080 --> 00:16:00.630 align:middle line:84%
+This way of-- this fact
+about reconstruction,
+
+00:16:00.630 --> 00:16:02.730 align:middle line:84%
+just the existence
+of reconstruction
+
+00:16:02.730 --> 00:16:04.590 align:middle line:84%
+and this fact
+about how it works,
+
+00:16:04.590 --> 00:16:07.980 align:middle line:84%
+is sometimes taken
+as a bit of evidence
+
+00:16:07.980 --> 00:16:11.040 align:middle line:84%
+for a particular way of talking
+about movement, what's called
+
+00:16:11.040 --> 00:16:12.360 align:middle line:90%
+the copy theory of movement.
+
+00:16:12.360 --> 00:16:14.040 align:middle line:84%
+And so I just want
+to show you that
+
+00:16:14.040 --> 00:16:16.680 align:middle line:84%
+and then we're going to
+leave this whole area behind
+
+00:16:16.680 --> 00:16:18.180 align:middle line:90%
+for a little bit.
+
+00:16:18.180 --> 00:16:19.450 align:middle line:90%
+The copy theory of movement.
+
+00:16:19.450 --> 00:16:23.610 align:middle line:84%
+So when we started
+syntax, cast your mind
+
+00:16:23.610 --> 00:16:25.678 align:middle line:84%
+back to when we started
+syntax, when you
+
+00:16:25.678 --> 00:16:26.970 align:middle line:90%
+were younger and more carefree.
+
+00:16:26.970 --> 00:16:29.520 align:middle line:90%
+
+
+00:16:29.520 --> 00:16:31.440 align:middle line:84%
+When we started
+syntax, I started
+
+00:16:31.440 --> 00:16:34.800 align:middle line:84%
+by saying something
+like, syntax is
+
+00:16:34.800 --> 00:16:36.960 align:middle line:84%
+going to be a little
+bit like morphology.
+
+00:16:36.960 --> 00:16:39.930 align:middle line:84%
+So cast your mind
+back to morphology.
+
+00:16:39.930 --> 00:16:42.030 align:middle line:84%
+We said we're going
+to create these tree
+
+00:16:42.030 --> 00:16:45.775 align:middle line:84%
+structures via repeated
+application of merge.
+
+00:16:45.775 --> 00:16:47.400 align:middle line:84%
+So we're going to
+take things and we're
+
+00:16:47.400 --> 00:16:50.370 align:middle line:84%
+going to put them together
+and make larger things.
+
+00:16:50.370 --> 00:16:53.130 align:middle line:84%
+And Merge is going to be
+recursive in the sense
+
+00:16:53.130 --> 00:16:55.260 align:middle line:84%
+that it gets to take
+things that it created
+
+00:16:55.260 --> 00:16:57.160 align:middle line:84%
+and merge them
+with other things.
+
+00:16:57.160 --> 00:16:58.920 align:middle line:84%
+So you can merge things
+that you take out
+
+00:16:58.920 --> 00:17:01.496 align:middle line:84%
+of the lexicon, morphemes,
+or words, or whatever,
+
+00:17:01.496 --> 00:17:04.079 align:middle line:84%
+and you can merge those things
+together to form larger things.
+
+00:17:04.079 --> 00:17:07.950 align:middle line:84%
+But you can also merge the
+phrases you've created together
+
+00:17:07.950 --> 00:17:08.760 align:middle line:90%
+with other phrases.
+
+00:17:08.760 --> 00:17:11.010 align:middle line:84%
+So for example, suppose
+we want to construct
+
+00:17:11.010 --> 00:17:13.944 align:middle line:84%
+the embedded clause of "I
+don't know what Mary will eat,"
+
+00:17:13.944 --> 00:17:15.569 align:middle line:84%
+where I'm using an
+embedded clause just
+
+00:17:15.569 --> 00:17:18.640 align:middle line:84%
+so we won't have to think
+about what the auxiliary does.
+
+00:17:18.640 --> 00:17:24.000 align:middle line:84%
+So the idea was you're going
+to do the embedded clause
+
+00:17:24.000 --> 00:17:26.819 align:middle line:90%
+by merging "eat" with "what."
+
+00:17:26.819 --> 00:17:29.160 align:middle line:84%
+Remember, we have
+the idea that forming
+
+00:17:29.160 --> 00:17:33.180 align:middle line:84%
+this kind of embedded clause
+involves moving "what."
+
+00:17:33.180 --> 00:17:35.790 align:middle line:84%
+And so we're going to start
+"what" as the object of "eat."
+
+00:17:35.790 --> 00:17:38.070 align:middle line:84%
+So we'll take these two
+things from the lexicon, "eat"
+
+00:17:38.070 --> 00:17:40.080 align:middle line:84%
+and "what," and we'll
+merge them together
+
+00:17:40.080 --> 00:17:42.960 align:middle line:84%
+to make this bigger
+thing, this verb phrase.
+
+00:17:42.960 --> 00:17:45.900 align:middle line:84%
+And then we'll take that
+thing, that verb phrase that we
+
+00:17:45.900 --> 00:17:48.210 align:middle line:84%
+created, and we'll merge that
+together with a new thing
+
+00:17:48.210 --> 00:17:49.950 align:middle line:84%
+that we'll get from
+the lexicon, "will."
+
+00:17:49.950 --> 00:17:51.300 align:middle line:90%
+Yeah, so we'll take "will."
+
+00:17:51.300 --> 00:17:53.290 align:middle line:84%
+We'll put that together
+with the verb phrase.
+
+00:17:53.290 --> 00:17:56.350 align:middle line:84%
+Now we have an even larger thing
+and we have "will eat what."
+
+00:17:56.350 --> 00:17:58.352 align:middle line:84%
+And then we take that
+thing that we've made,
+
+00:17:58.352 --> 00:18:00.060 align:middle line:84%
+and we merge it together
+with a new thing
+
+00:18:00.060 --> 00:18:02.160 align:middle line:84%
+that we get out of
+the lexicon, "Mary."
+
+00:18:02.160 --> 00:18:05.580 align:middle line:84%
+So we take "Mary," and merge
+that together with T-bar.
+
+00:18:05.580 --> 00:18:09.640 align:middle line:84%
+As a comparatively simple
+example, if it were,
+
+00:18:09.640 --> 00:18:12.240 align:middle line:84%
+"I don't know what the
+students will eat,"
+
+00:18:12.240 --> 00:18:14.160 align:middle line:84%
+then I'd have a bit
+where it had to create
+
+00:18:14.160 --> 00:18:16.215 align:middle line:84%
+"the students" by merging
+"the" with "students."
+
+00:18:16.215 --> 00:18:17.730 align:middle line:90%
+I have a noun phrase.
+
+00:18:17.730 --> 00:18:22.230 align:middle line:84%
+I merge my noun phrase with my
+T-bar, and now I've got my TP.
+
+00:18:22.230 --> 00:18:23.100 align:middle line:90%
+So far so good?
+
+00:18:23.100 --> 00:18:25.855 align:middle line:84%
+This is-- I'm just
+building a tree.
+
+00:18:25.855 --> 00:18:28.230 align:middle line:84%
+One more step, I'll grab one
+more thing from the lexicon.
+
+00:18:28.230 --> 00:18:32.550 align:middle line:84%
+We'll merge a C with what we've
+created so far, a C and a TP.
+
+00:18:32.550 --> 00:18:34.950 align:middle line:84%
+And now it's time
+to do wh-movement.
+
+00:18:34.950 --> 00:18:38.880 align:middle line:84%
+And the idea behind the copy
+theory of movement is look,
+
+00:18:38.880 --> 00:18:41.220 align:middle line:84%
+this is just another
+case of Merge.
+
+00:18:41.220 --> 00:18:43.650 align:middle line:84%
+So all of our cases
+of Merge, we've
+
+00:18:43.650 --> 00:18:48.090 align:middle line:84%
+always had the option of merging
+either something we've created
+
+00:18:48.090 --> 00:18:51.267 align:middle line:84%
+via Merge, we've merged
+the VP with something,
+
+00:18:51.267 --> 00:18:53.850 align:middle line:84%
+merged the T-bar with something,
+merged the TP with something,
+
+00:18:53.850 --> 00:18:55.860 align:middle line:84%
+or grabbing something
+new from the lexicon
+
+00:18:55.860 --> 00:18:57.230 align:middle line:90%
+and putting that in.
+
+00:18:57.230 --> 00:18:59.880 align:middle line:84%
+We've always had that
+option right along.
+
+00:18:59.880 --> 00:19:03.240 align:middle line:84%
+And the idea is this thing
+that we're calling movement,
+
+00:19:03.240 --> 00:19:05.250 align:middle line:84%
+it's just another
+example of Merge.
+
+00:19:05.250 --> 00:19:08.040 align:middle line:84%
+We'll take this C-bar
+that we've created
+
+00:19:08.040 --> 00:19:10.200 align:middle line:84%
+and we'll merge it with
+something that's already
+
+00:19:10.200 --> 00:19:12.870 align:middle line:90%
+in the tree, with "what"?
+
+00:19:12.870 --> 00:19:16.180 align:middle line:84%
+So we've got-- now
+"what" is in two places.
+
+00:19:16.180 --> 00:19:18.330 align:middle line:84%
+So it's in the place
+where we merged it first
+
+00:19:18.330 --> 00:19:20.375 align:middle line:84%
+and it's in this new place
+that's up at the top.
+
+00:19:20.375 --> 00:19:24.630 align:middle line:84%
+And so we end up with
+"What Mary will eat what,"
+
+00:19:24.630 --> 00:19:27.180 align:middle line:90%
+which raises certain questions.
+
+00:19:27.180 --> 00:19:30.870 align:middle line:84%
+Like why don't we say,
+"What Mary will eat what?"
+
+00:19:30.870 --> 00:19:33.780 align:middle line:84%
+So we need a theory of
+what happens when you merge
+
+00:19:33.780 --> 00:19:37.050 align:middle line:90%
+a single thing in two places.
+
+00:19:37.050 --> 00:19:39.210 align:middle line:84%
+But the result is
+that "what" is now
+
+00:19:39.210 --> 00:19:43.230 align:middle line:84%
+in more than one
+place in the tree.
+
+00:19:43.230 --> 00:19:45.420 align:middle line:90%
+And that's all that Merge--
+
+00:19:45.420 --> 00:19:47.070 align:middle line:90%
+that's all that movement is.
+
+00:19:47.070 --> 00:19:48.570 align:middle line:84%
+So I've been showing
+you trees where
+
+00:19:48.570 --> 00:19:51.820 align:middle line:84%
+we created trees via Merge
+and then there were arrows.
+
+00:19:51.820 --> 00:19:53.400 align:middle line:84%
+So you took things
+out of the places
+
+00:19:53.400 --> 00:19:55.400 align:middle line:84%
+where they were, and you
+put them in new places,
+
+00:19:55.400 --> 00:19:57.720 align:middle line:84%
+and they weren't in
+the old places anymore.
+
+00:19:57.720 --> 00:19:59.610 align:middle line:84%
+And now all this talk
+about reconstruction
+
+00:19:59.610 --> 00:20:01.710 align:middle line:84%
+makes it look like
+that was misleading.
+
+00:20:01.710 --> 00:20:04.440 align:middle line:84%
+There's a sense in which
+thing-- when you move things,
+
+00:20:04.440 --> 00:20:09.015 align:middle line:84%
+they're in all of the
+places where they ever were.
+
+00:20:09.015 --> 00:20:10.890 align:middle line:84%
+For interpretation, it
+sure looks like that's
+
+00:20:10.890 --> 00:20:12.090 align:middle line:90%
+the way to think about it.
+
+00:20:12.090 --> 00:20:15.210 align:middle line:84%
+You can interpret them as though
+they were in any of the places
+
+00:20:15.210 --> 00:20:17.520 align:middle line:90%
+that they've ever been.
+
+00:20:17.520 --> 00:20:19.290 align:middle line:84%
+And the copy theory
+of movement is meant
+
+00:20:19.290 --> 00:20:21.195 align:middle line:90%
+to be a way to handle that.
+
+00:20:21.195 --> 00:20:23.520 align:middle line:84%
+It's as though when you
+move things, what you do,
+
+00:20:23.520 --> 00:20:25.530 align:middle line:84%
+really, is take something
+that you've already
+
+00:20:25.530 --> 00:20:27.720 align:middle line:84%
+merged in the tree and
+you merge it again.
+
+00:20:27.720 --> 00:20:29.220 align:middle line:84%
+And then there have
+to be principles
+
+00:20:29.220 --> 00:20:33.870 align:middle line:84%
+that explain where you
+pronounce it when you merge it
+
+00:20:33.870 --> 00:20:34.650 align:middle line:90%
+more than once.
+
+00:20:34.650 --> 00:20:37.590 align:middle line:84%
+Do you pronounce this
+"what Mary will eat?"--
+
+00:20:37.590 --> 00:20:39.060 align:middle line:84%
+"I don't know what
+Mary will eat."
+
+00:20:39.060 --> 00:20:42.360 align:middle line:84%
+Do you pronounce it, "I don't
+know, Mary will eat what"?
+
+00:20:42.360 --> 00:20:45.060 align:middle line:84%
+We've talked about the fact that
+some languages have wh-movement
+
+00:20:45.060 --> 00:20:46.050 align:middle line:90%
+and some don't.
+
+00:20:46.050 --> 00:20:47.970 align:middle line:84%
+So maybe there
+are languages that
+
+00:20:47.970 --> 00:20:50.187 align:middle line:84%
+pronounce the higher copy
+of "what," that's English,
+
+00:20:50.187 --> 00:20:52.770 align:middle line:84%
+and languages that pronounce the
+lower copy of "what," that's,
+
+00:20:52.770 --> 00:20:55.680 align:middle line:90%
+like, Mandarin, say.
+
+00:20:55.680 --> 00:20:58.302 align:middle line:84%
+And similarly for
+reconstruction,
+
+00:20:58.302 --> 00:20:59.760 align:middle line:84%
+the way to talk
+about this is yeah,
+
+00:20:59.760 --> 00:21:01.385 align:middle line:84%
+there are two copies
+of "what," and you
+
+00:21:01.385 --> 00:21:04.170 align:middle line:84%
+have to pick one to be the
+one that you'll interpret.
+
+00:21:04.170 --> 00:21:08.140 align:middle line:84%
+And the same deal with "two
+guards," or whatever all else.
+
+00:21:08.140 --> 00:21:10.080 align:middle line:90%
+So "what" is now in two places.
+
+00:21:10.080 --> 00:21:11.340 align:middle line:90%
+Yeah?
+
+00:21:11.340 --> 00:21:13.500 align:middle line:84%
+AUDIENCE: Do you always
+pronounce the higher?
+
+00:21:13.500 --> 00:21:17.160 align:middle line:84%
+NORVIN RICHARDS: So one
+theory about what's going on
+
+00:21:17.160 --> 00:21:20.040 align:middle line:84%
+is in English, you
+pronounce the higher
+
+00:21:20.040 --> 00:21:23.010 align:middle line:84%
+of two copies when you're
+doing wh- movements.
+
+00:21:23.010 --> 00:21:25.890 align:middle line:84%
+But maybe the-- so
+we've said there
+
+00:21:25.890 --> 00:21:28.800 align:middle line:84%
+are languages in which the way
+to ask "What did Mary eat?"
+
+00:21:28.800 --> 00:21:31.500 align:middle line:84%
+is to say literally,
+"Mary ate what."
+
+00:21:31.500 --> 00:21:33.390 align:middle line:84%
+So Mandarin is like
+that, for example,
+
+00:21:33.390 --> 00:21:35.887 align:middle line:90%
+or Japanese is like that.
+
+00:21:35.887 --> 00:21:37.470 align:middle line:84%
+There are lots of
+languages like that.
+
+00:21:37.470 --> 00:21:39.345 align:middle line:84%
+And maybe a way to talk
+about those languages
+
+00:21:39.345 --> 00:21:41.070 align:middle line:84%
+is as far as movement
+goes, they're
+
+00:21:41.070 --> 00:21:42.930 align:middle line:84%
+doing all the same
+movement that English is.
+
+00:21:42.930 --> 00:21:45.408 align:middle line:84%
+They're just pronouncing
+the lower copy.
+
+00:21:45.408 --> 00:21:47.200 align:middle line:84%
+And English is pronouncing
+the higher copy,
+
+00:21:47.200 --> 00:21:49.140 align:middle line:84%
+and those are languages that
+pronounce the lower copy.
+
+00:21:49.140 --> 00:21:51.015 align:middle line:84%
+That's one way to talk
+about what's going on.
+
+00:21:51.015 --> 00:21:53.482 align:middle line:90%
+
+
+00:21:53.482 --> 00:21:54.940 align:middle line:84%
+So copy theory of
+movement is meant
+
+00:21:54.940 --> 00:21:59.620 align:middle line:84%
+to be responsible for these
+data about reconstruction, which
+
+00:21:59.620 --> 00:22:03.010 align:middle line:84%
+really seem to make it look like
+it's misleading to say when you
+
+00:22:03.010 --> 00:22:04.540 align:middle line:90%
+move something--
+
+00:22:04.540 --> 00:22:06.730 align:middle line:84%
+we talk about it as movement
+because, well, we're
+
+00:22:06.730 --> 00:22:09.230 align:middle line:84%
+pronouncing it over
+here and not over there.
+
+00:22:09.230 --> 00:22:11.830 align:middle line:84%
+And that led us to think
+of it as now it's here
+
+00:22:11.830 --> 00:22:12.955 align:middle line:90%
+and it's not there anymore.
+
+00:22:12.955 --> 00:22:14.830 align:middle line:84%
+Reconstruction makes it
+look like no, there's
+
+00:22:14.830 --> 00:22:16.480 align:middle line:84%
+some sense in which
+it's simultaneously
+
+00:22:16.480 --> 00:22:18.070 align:middle line:84%
+in all the places
+it's ever been,
+
+00:22:18.070 --> 00:22:22.132 align:middle line:84%
+and you get to choose which of
+the places to interpret it in.
+
+00:22:22.132 --> 00:22:23.590 align:middle line:84%
+And maybe there's
+something similar
+
+00:22:23.590 --> 00:22:27.280 align:middle line:84%
+going on with pronunciation,
+as I just said.
+
+00:22:27.280 --> 00:22:29.250 align:middle line:84%
+I don't know if anybody
+remembers Finnish vowel
+
+00:22:29.250 --> 00:22:30.000 align:middle line:90%
+harmony.
+
+00:22:30.000 --> 00:22:32.748 align:middle line:90%
+We're doing nostalgia today.
+
+00:22:32.748 --> 00:22:34.290 align:middle line:84%
+So I've asked you
+to remember syntax,
+
+00:22:34.290 --> 00:22:35.873 align:middle line:84%
+I've asked you to
+remember morphology.
+
+00:22:35.873 --> 00:22:39.390 align:middle line:84%
+Now remember this thing that we
+did very fast about phonology.
+
+00:22:39.390 --> 00:22:41.460 align:middle line:84%
+So there's this
+observation about Finnish
+
+00:22:41.460 --> 00:22:46.290 align:middle line:84%
+that properties like front
+or back for vowels in Finnish
+
+00:22:46.290 --> 00:22:49.470 align:middle line:84%
+are just constant across
+the word, more or less.
+
+00:22:49.470 --> 00:22:52.393 align:middle line:90%
+So there are words in--
+
+00:22:52.393 --> 00:22:54.060 align:middle line:84%
+Finnish has what's
+called vowel harmony.
+
+00:22:54.060 --> 00:22:56.550 align:middle line:84%
+There are words in which
+all the vowels are back
+
+00:22:56.550 --> 00:22:59.202 align:middle line:84%
+and words in which all
+the vowels are front.
+
+00:22:59.202 --> 00:23:01.410 align:middle line:84%
+So there are words like
+[SPEAKING FINNISH],, which is
+
+00:23:01.410 --> 00:23:02.850 align:middle line:90%
+the Finnish word for "table."
+
+00:23:02.850 --> 00:23:06.090 align:middle line:84%
+And if you want to put that
+in the case that expresses
+
+00:23:06.090 --> 00:23:08.100 align:middle line:84%
+the meaning "on
+the table," there's
+
+00:23:08.100 --> 00:23:11.070 align:middle line:84%
+a suffix, which, when you
+add it to [SPEAKING FINNISH],,
+
+00:23:11.070 --> 00:23:14.040 align:middle line:84%
+is pronounced lah, with
+an ah with the front vowel
+
+00:23:14.040 --> 00:23:16.470 align:middle line:84%
+because [SPEAKING FINNISH]
+has front vowels.
+
+00:23:16.470 --> 00:23:18.870 align:middle line:84%
+And so when you add
+"la" to it, you get lah.
+
+00:23:18.870 --> 00:23:22.410 align:middle line:90%
+
+
+00:23:22.410 --> 00:23:25.140 align:middle line:84%
+If you added la to
+the word for "chair,"
+
+00:23:25.140 --> 00:23:28.110 align:middle line:84%
+which is [SPEAKING FINNISH],,
+you'd get [SPEAKING FINNISH]..
+
+00:23:28.110 --> 00:23:30.420 align:middle line:84%
+So the vowel would
+be back in the la.
+
+00:23:30.420 --> 00:23:34.410 align:middle line:84%
+And the idea that I floated,
+is an old idea in phonology,
+
+00:23:34.410 --> 00:23:37.080 align:middle line:84%
+is that we should think
+of properties like front
+
+00:23:37.080 --> 00:23:41.500 align:middle line:84%
+or back in Finnish as being
+smeared across the whole word.
+
+00:23:41.500 --> 00:23:43.668 align:middle line:84%
+So it's not like for
+every Finnish vowel
+
+00:23:43.668 --> 00:23:45.210 align:middle line:84%
+in a Finnish word,
+you get to specify
+
+00:23:45.210 --> 00:23:46.445 align:middle line:90%
+whether it's front or back.
+
+00:23:46.445 --> 00:23:48.570 align:middle line:84%
+Front or back is just a
+property of the whole word.
+
+00:23:48.570 --> 00:23:50.310 align:middle line:84%
+It's in all of these
+places at once,
+
+00:23:50.310 --> 00:23:53.130 align:middle line:84%
+this property of
+being front or back,
+
+00:23:53.130 --> 00:23:57.120 align:middle line:84%
+and it appears in more
+than one place at once.
+
+00:23:57.120 --> 00:23:59.940 align:middle line:84%
+What I'm talking about now,
+copy theory of movement,
+
+00:23:59.940 --> 00:24:02.190 align:middle line:90%
+is like that for syntax.
+
+00:24:02.190 --> 00:24:04.650 align:middle line:84%
+There are things that are
+in more than one place
+
+00:24:04.650 --> 00:24:08.670 align:middle line:84%
+at the same time because
+you merged them to the tree
+
+00:24:08.670 --> 00:24:10.680 align:middle line:90%
+over and over again.
+
+00:24:10.680 --> 00:24:13.740 align:middle line:84%
+And then it is the job of the
+phonology and the semantics
+
+00:24:13.740 --> 00:24:17.580 align:middle line:84%
+to take that property of these
+syntactic representations
+
+00:24:17.580 --> 00:24:20.130 align:middle line:84%
+and figure out what the
+heck to do with them.
+
+00:24:20.130 --> 00:24:25.890 align:middle line:84%
+So syntax is handing phonology
+structures that literally look
+
+00:24:25.890 --> 00:24:27.442 align:middle line:90%
+like "What Mary will eat what?"
+
+00:24:27.442 --> 00:24:29.400 align:middle line:84%
+And phonology has to look
+at that and go, what?
+
+00:24:29.400 --> 00:24:30.328 align:middle line:90%
+Wait, which of these?
+
+00:24:30.328 --> 00:24:31.620 align:middle line:90%
+Where am I going to pronounce--
+
+00:24:31.620 --> 00:24:33.642 align:middle line:84%
+I have to pronounce
+"what" once, and I
+
+00:24:33.642 --> 00:24:35.850 align:middle line:84%
+have to choose which of
+these places to pronounce it.
+
+00:24:35.850 --> 00:24:37.808 align:middle line:84%
+And maybe semantics is
+doing something similar.
+
+00:24:37.808 --> 00:24:40.590 align:middle line:84%
+Maybe that's what all this talk
+about reconstruction is doing.
+
+00:24:40.590 --> 00:24:42.613 align:middle line:84%
+Semantics similarly looks
+at that representation
+
+00:24:42.613 --> 00:24:44.280 align:middle line:84%
+and says, oh, I've
+got this thing that's
+
+00:24:44.280 --> 00:24:45.238 align:middle line:90%
+in more than one place.
+
+00:24:45.238 --> 00:24:48.810 align:middle line:84%
+I can only interpret it in
+one place, and I'll pick one.
+
+00:24:48.810 --> 00:24:52.230 align:middle line:84%
+And then big literature
+figuring out how do we pick?
+
+00:24:52.230 --> 00:24:54.450 align:middle line:84%
+What are the rules
+about where we pick?
+
+00:24:54.450 --> 00:24:56.880 align:middle line:90%
+Lots of work on this.
+
+00:24:56.880 --> 00:24:57.970 align:middle line:90%
+Copy theory of movement.
+
+00:24:57.970 --> 00:25:02.060 align:middle line:90%
+
+
+00:25:02.060 --> 00:25:05.090 align:middle line:84%
+So yeah, reconstruction involves
+picking a particular position
+
+00:25:05.090 --> 00:25:07.550 align:middle line:84%
+to interpret a move phrasing,
+both for binding theory
+
+00:25:07.550 --> 00:25:11.070 align:middle line:90%
+and for quantifiers.
+
+00:25:11.070 --> 00:25:12.510 align:middle line:90%
+Topic shift.
+
+00:25:12.510 --> 00:25:16.410 align:middle line:84%
+I think I can promise that
+I will never again talk
+
+00:25:16.410 --> 00:25:18.692 align:middle line:90%
+about guards and buildings.
+
+00:25:18.692 --> 00:25:21.150 align:middle line:84%
+So if anybody has any questions
+about guards and buildings,
+
+00:25:21.150 --> 00:25:21.650 align:middle line:90%
+go ahead.
+
+00:25:21.650 --> 00:25:23.290 align:middle line:90%
+Get them out of your system.
+
+00:25:23.290 --> 00:25:24.960 align:middle line:84%
+And we're going to
+leave them behind.
+
+00:25:24.960 --> 00:25:28.030 align:middle line:84%
+No more guards,
+no more buildings.
+
+00:25:28.030 --> 00:25:30.360 align:middle line:90%
+Let's talk about ellipsis again.
+
+00:25:30.360 --> 00:25:33.000 align:middle line:90%
+We talked about ellipses before.
+
+00:25:33.000 --> 00:25:39.360 align:middle line:84%
+So this is a property of
+sentences where you can leave
+
+00:25:39.360 --> 00:25:41.180 align:middle line:90%
+out parts of the sentence.
+
+00:25:41.180 --> 00:25:43.680 align:middle line:84%
+Language is varied with respect
+to how much of this they do.
+
+00:25:43.680 --> 00:25:47.940 align:middle line:84%
+English has VP-ellipsis,
+which is comparatively exotic.
+
+00:25:47.940 --> 00:25:50.070 align:middle line:84%
+There are other languages
+that has VP-ellipsis,
+
+00:25:50.070 --> 00:25:52.210 align:middle line:84%
+but it's certainly
+not every language.
+
+00:25:52.210 --> 00:25:54.510 align:middle line:84%
+So VP-ellipsis is this
+option that English
+
+00:25:54.510 --> 00:25:56.730 align:middle line:84%
+and some other
+languages have where
+
+00:25:56.730 --> 00:25:58.608 align:middle line:84%
+if you're about to
+repeat a verb phrase,
+
+00:25:58.608 --> 00:26:00.900 align:middle line:84%
+you have the option of just
+leaving out the second verb
+
+00:26:00.900 --> 00:26:01.400 align:middle line:90%
+phrase.
+
+00:26:01.400 --> 00:26:03.930 align:middle line:84%
+So you can say things like,
+"Adam ate an apple and Eve did,
+
+00:26:03.930 --> 00:26:07.245 align:middle line:84%
+too," where the missing verb
+phrase is "ate an apple."
+
+00:26:07.245 --> 00:26:11.050 align:middle line:90%
+
+
+00:26:11.050 --> 00:26:13.153 align:middle line:84%
+There's another phenomenon
+which is a lot more
+
+00:26:13.153 --> 00:26:14.320 align:middle line:90%
+cross-linguistically common.
+
+00:26:14.320 --> 00:26:19.270 align:middle line:84%
+It's called sluicing,
+where you get to leave out
+
+00:26:19.270 --> 00:26:22.280 align:middle line:90%
+most of a question.
+
+00:26:22.280 --> 00:26:25.220 align:middle line:84%
+So you can say things
+like, "Adam ate something,
+
+00:26:25.220 --> 00:26:27.670 align:middle line:84%
+but I don't know
+what" where this means
+
+00:26:27.670 --> 00:26:30.160 align:middle line:90%
+"I don't know what Adam ate."
+
+00:26:30.160 --> 00:26:33.002 align:middle line:84%
+So what's been left out is
+the rest of the question,
+
+00:26:33.002 --> 00:26:34.210 align:middle line:90%
+"I don't know what Adam ate."
+
+00:26:34.210 --> 00:26:37.540 align:middle line:84%
+All you pronounce
+is the "what" part.
+
+00:26:37.540 --> 00:26:39.550 align:middle line:90%
+This is called sluicing.
+
+00:26:39.550 --> 00:26:40.900 align:middle line:90%
+There's an old name for it.
+
+00:26:40.900 --> 00:26:43.973 align:middle line:90%
+It's called that because--
+
+00:26:43.973 --> 00:26:45.640 align:middle line:84%
+I think I've made
+this mistake sometimes
+
+00:26:45.640 --> 00:26:50.710 align:middle line:84%
+on slides where
+something that's called--
+
+00:26:50.710 --> 00:26:53.470 align:middle line:84%
+we've been calling TP, which
+people these days usually
+
+00:26:53.470 --> 00:26:54.820 align:middle line:90%
+do call TP.
+
+00:26:54.820 --> 00:26:57.305 align:middle line:90%
+It used to be called IP.
+
+00:26:57.305 --> 00:26:58.430 align:middle line:90%
+It's just a different name.
+
+00:26:58.430 --> 00:26:59.440 align:middle line:84%
+So now we call it
+a tense phrase.
+
+00:26:59.440 --> 00:27:01.240 align:middle line:84%
+It used to be called
+an inflection phrase.
+
+00:27:01.240 --> 00:27:03.910 align:middle line:84%
+And we've had some slides where
+I accidentally left in an IP
+
+00:27:03.910 --> 00:27:06.490 align:middle line:84%
+and I apologized, and
+had to go in and fix it
+
+00:27:06.490 --> 00:27:07.667 align:middle line:90%
+before I posted the slides.
+
+00:27:07.667 --> 00:27:10.000 align:middle line:84%
+I hope I managed to do that
+for all the slides I posted.
+
+00:27:10.000 --> 00:27:16.690 align:middle line:84%
+Before it was called an IP, it
+was called an S. So if you--
+
+00:27:16.690 --> 00:27:18.355 align:middle line:90%
+S stood for sentence.
+
+00:27:18.355 --> 00:27:21.040 align:middle line:90%
+
+
+00:27:21.040 --> 00:27:24.340 align:middle line:84%
+So it was before our
+terminology got as sophisticated
+
+00:27:24.340 --> 00:27:25.400 align:middle line:90%
+as it is today.
+
+00:27:25.400 --> 00:27:27.250 align:middle line:90%
+So S stood for sentence.
+
+00:27:27.250 --> 00:27:30.370 align:middle line:84%
+And sluicing was a
+cute name for this.
+
+00:27:30.370 --> 00:27:36.940 align:middle line:84%
+The idea was when you say "I
+don't know what Adam ate,"
+
+00:27:36.940 --> 00:27:38.920 align:middle line:84%
+you're getting
+rid of "Adam ate."
+
+00:27:38.920 --> 00:27:44.050 align:middle line:84%
+This is the S. So
+you are "S-loosing."
+
+00:27:44.050 --> 00:27:45.520 align:middle line:84%
+You're getting rid
+of the S. Yeah,
+
+00:27:45.520 --> 00:27:47.410 align:middle line:84%
+so that's how it got
+the name "sluicing."
+
+00:27:47.410 --> 00:27:48.730 align:middle line:90%
+Yeah, it's a cute name.
+
+00:27:48.730 --> 00:27:51.160 align:middle line:84%
+I'm sorry, that's the only
+excuse I have for telling you
+
+00:27:51.160 --> 00:27:53.380 align:middle line:84%
+that this thing used
+to be called S. That,
+
+00:27:53.380 --> 00:27:56.830 align:middle line:84%
+and that if you ever read
+ancient literature in syntax,
+
+00:27:56.830 --> 00:27:59.590 align:middle line:84%
+you'll sometimes
+see it called S.
+
+00:27:59.590 --> 00:28:01.150 align:middle line:90%
+So VP-ellipsis.
+
+00:28:01.150 --> 00:28:02.230 align:middle line:90%
+Fairly common phenomenon.
+
+00:28:02.230 --> 00:28:04.510 align:middle line:84%
+Sluicing, possibly a
+universal phenomenon.
+
+00:28:04.510 --> 00:28:06.940 align:middle line:84%
+There's a lot of work
+on whether things
+
+00:28:06.940 --> 00:28:08.440 align:middle line:84%
+that look like
+sluicing really are
+
+00:28:08.440 --> 00:28:12.280 align:middle line:90%
+sluicing in various languages.
+
+00:28:12.280 --> 00:28:15.190 align:middle line:84%
+And at least one way of
+understanding what's going on
+
+00:28:15.190 --> 00:28:16.453 align:middle line:90%
+here is that these are--
+
+00:28:16.453 --> 00:28:18.370 align:middle line:84%
+so there are a couple
+of ways of understanding
+
+00:28:18.370 --> 00:28:20.453 align:middle line:84%
+what's going on here, and
+we will talk about them.
+
+00:28:20.453 --> 00:28:21.910 align:middle line:84%
+But here's one
+way you could say,
+
+00:28:21.910 --> 00:28:26.080 align:middle line:84%
+yeah, it's possible sometimes
+to just refrain from pronouncing
+
+00:28:26.080 --> 00:28:27.560 align:middle line:90%
+parts of a sentence.
+
+00:28:27.560 --> 00:28:33.640 align:middle line:84%
+So if you have built a sentence
+with the structure "Adam
+
+00:28:33.640 --> 00:28:36.340 align:middle line:84%
+ate something, but I don't
+know what Adam ate," well,
+
+00:28:36.340 --> 00:28:37.610 align:middle line:90%
+you can say that.
+
+00:28:37.610 --> 00:28:39.820 align:middle line:84%
+But you also have the
+option of refraining
+
+00:28:39.820 --> 00:28:43.342 align:middle line:84%
+from repeating the "Adam
+ate" at the end there.
+
+00:28:43.342 --> 00:28:44.425 align:middle line:90%
+You can just leave it out.
+
+00:28:44.425 --> 00:28:48.000 align:middle line:90%
+
+
+00:28:48.000 --> 00:28:49.440 align:middle line:90%
+That's one way to talk about it.
+
+00:28:49.440 --> 00:28:51.690 align:middle line:84%
+There's another way to talk
+about it, of course, which
+
+00:28:51.690 --> 00:28:54.930 align:middle line:84%
+is to say, no, look, if you
+say "Adam ate something,
+
+00:28:54.930 --> 00:28:58.110 align:middle line:84%
+but I don't know what,"
+well, you have said,
+
+00:28:58.110 --> 00:29:00.990 align:middle line:84%
+"Adam ate something
+but I don't know what."
+
+00:29:00.990 --> 00:29:03.270 align:middle line:84%
+We need a structure
+for that where
+
+00:29:03.270 --> 00:29:05.130 align:middle line:90%
+there's no sentence after what.
+
+00:29:05.130 --> 00:29:06.570 align:middle line:90%
+There's just nothing there.
+
+00:29:06.570 --> 00:29:09.690 align:middle line:84%
+And yeah, it's the
+job of the semantics
+
+00:29:09.690 --> 00:29:12.690 align:middle line:84%
+to interpret that as "I
+don't know what Adam ate."
+
+00:29:12.690 --> 00:29:16.480 align:middle line:84%
+But the syntax is not
+building a structure,
+
+00:29:16.480 --> 00:29:19.053 align:middle line:84%
+"I don't know what Adam
+ate," and then refraining
+
+00:29:19.053 --> 00:29:20.220 align:middle line:90%
+from pronouncing part of it.
+
+00:29:20.220 --> 00:29:22.380 align:middle line:84%
+There's none of
+this ellipsis stuff.
+
+00:29:22.380 --> 00:29:25.170 align:middle line:84%
+You're just-- we have a
+pretty sophisticated way
+
+00:29:25.170 --> 00:29:28.823 align:middle line:84%
+of interpreting things
+like "I don't know what."
+
+00:29:28.823 --> 00:29:30.990 align:middle line:84%
+Do people see the difference
+between these theories?
+
+00:29:30.990 --> 00:29:32.940 align:middle line:84%
+And one of them says
+the syntax always
+
+00:29:32.940 --> 00:29:35.430 align:middle line:84%
+creates complete sentences,
+and then the phonology
+
+00:29:35.430 --> 00:29:38.430 align:middle line:84%
+has the option of refraining
+from pronouncing parts of them.
+
+00:29:38.430 --> 00:29:39.330 align:middle line:90%
+Yeah.
+
+00:29:39.330 --> 00:29:41.250 align:middle line:84%
+The other says, no, the
+syntax has the option
+
+00:29:41.250 --> 00:29:43.380 align:middle line:84%
+of creating things that
+are not complete sentences,
+
+00:29:43.380 --> 00:29:47.070 align:middle line:84%
+and then the semantics just
+has to deal, figure out
+
+00:29:47.070 --> 00:29:49.950 align:middle line:90%
+how to interpret those things.
+
+00:29:49.950 --> 00:29:51.540 align:middle line:84%
+Those are two takes
+that people have
+
+00:29:51.540 --> 00:29:54.210 align:middle line:90%
+had on this kind of phenomena.
+
+00:29:54.210 --> 00:29:55.440 align:middle line:90%
+Yeah?
+
+00:29:55.440 --> 00:29:57.690 align:middle line:84%
+Now let me give you one
+reason to take one of these
+
+00:29:57.690 --> 00:30:00.063 align:middle line:84%
+takes seriously, more
+seriously than the other one.
+
+00:30:00.063 --> 00:30:01.980 align:middle line:84%
+Though, they are both
+live options, and people
+
+00:30:01.980 --> 00:30:03.810 align:middle line:90%
+argue for both of them.
+
+00:30:03.810 --> 00:30:04.600 align:middle line:90%
+Different people.
+
+00:30:04.600 --> 00:30:06.975 align:middle line:84%
+Some people argue for one,
+other people argue for others.
+
+00:30:06.975 --> 00:30:09.330 align:middle line:84%
+Most people do not
+argue for both.
+
+00:30:09.330 --> 00:30:12.010 align:middle line:90%
+Here's one.
+
+00:30:12.010 --> 00:30:14.320 align:middle line:84%
+We've talked about
+preposition stranding.
+
+00:30:14.320 --> 00:30:17.650 align:middle line:84%
+So preposition
+stranding is this fact
+
+00:30:17.650 --> 00:30:21.010 align:middle line:84%
+that in certain strange and
+exotic languages like the one
+
+00:30:21.010 --> 00:30:24.400 align:middle line:84%
+I'm speaking, you
+have the option
+
+00:30:24.400 --> 00:30:27.040 align:middle line:84%
+of asking two kinds
+of questions if you
+
+00:30:27.040 --> 00:30:30.280 align:middle line:84%
+want to ask a question about
+the object of a preposition.
+
+00:30:30.280 --> 00:30:33.550 align:middle line:84%
+You can ask questions like
+"Who was he talking with?"
+
+00:30:33.550 --> 00:30:37.750 align:middle line:84%
+Or you can ask questions like
+"With whom was he talking?"
+
+00:30:37.750 --> 00:30:40.450 align:middle line:84%
+That is, if you want to ask
+a question about the object
+
+00:30:40.450 --> 00:30:43.960 align:middle line:84%
+of "with," you can just
+wh-move the object of "with,"
+
+00:30:43.960 --> 00:30:46.810 align:middle line:84%
+and leave the "with" behind:
+"Who was he talking with?"
+
+00:30:46.810 --> 00:30:49.510 align:middle line:84%
+Or you can move the entire
+prepositional phrase:
+
+00:30:49.510 --> 00:30:51.250 align:middle line:90%
+"With whom was he talking?"
+
+00:30:51.250 --> 00:30:55.430 align:middle line:84%
+I, at least, would much
+rather say the first of those.
+
+00:30:55.430 --> 00:30:58.600 align:middle line:84%
+But some people are able
+to say the second one.
+
+00:30:58.600 --> 00:31:00.340 align:middle line:84%
+It depends on how
+savagely you were
+
+00:31:00.340 --> 00:31:02.620 align:middle line:84%
+beaten by English
+teachers in high school.
+
+00:31:02.620 --> 00:31:05.665 align:middle line:84%
+So your English
+teachers in high school
+
+00:31:05.665 --> 00:31:08.290 align:middle line:84%
+maybe tried to convince you that
+the right way to speak English
+
+00:31:08.290 --> 00:31:10.480 align:middle line:84%
+involves the sentence
+on the right.
+
+00:31:10.480 --> 00:31:13.030 align:middle line:84%
+They did that-- I mean, they
+had the best of intentions.
+
+00:31:13.030 --> 00:31:15.730 align:middle line:84%
+They did that because
+most languages only
+
+00:31:15.730 --> 00:31:17.510 align:middle line:90%
+have that second option.
+
+00:31:17.510 --> 00:31:20.260 align:middle line:84%
+So English is quite unusual
+in having that first option,
+
+00:31:20.260 --> 00:31:25.540 align:middle line:84%
+and scholars of the English
+language sometime in the 1700s
+
+00:31:25.540 --> 00:31:27.820 align:middle line:84%
+decided that English
+would be much cooler if it
+
+00:31:27.820 --> 00:31:29.320 align:middle line:90%
+were like every other language.
+
+00:31:29.320 --> 00:31:31.790 align:middle line:84%
+It's basically
+grammatical peer pressure.
+
+00:31:31.790 --> 00:31:33.490 align:middle line:84%
+So they were like,
+wouldn't it be nice
+
+00:31:33.490 --> 00:31:36.340 align:middle line:84%
+if English were more
+like Latin, and French,
+
+00:31:36.340 --> 00:31:38.320 align:middle line:84%
+and other civilized
+languages where you can't
+
+00:31:38.320 --> 00:31:40.752 align:middle line:90%
+leave prepositions behind?
+
+00:31:40.752 --> 00:31:43.210 align:middle line:84%
+So there are some languages
+that have this option of what's
+
+00:31:43.210 --> 00:31:45.190 align:middle line:84%
+called preposition
+stranding, leaving "with"
+
+00:31:45.190 --> 00:31:50.680 align:middle line:84%
+behind and wh-moving the object
+of the preposition out, as
+
+00:31:50.680 --> 00:31:52.060 align:middle line:90%
+in "Who is he talking with?"
+
+00:31:52.060 --> 00:31:53.870 align:middle line:84%
+Most languages don't
+have that option.
+
+00:31:53.870 --> 00:31:55.480 align:middle line:84%
+You only have the
+option on the right.
+
+00:31:55.480 --> 00:31:57.830 align:middle line:84%
+This is all-- we've
+said all of this.
+
+00:31:57.830 --> 00:31:59.650 align:middle line:84%
+So I say we should
+be proud of the fact
+
+00:31:59.650 --> 00:32:02.050 align:middle line:84%
+that we can say, "Who
+was he talking with?"
+
+00:32:02.050 --> 00:32:03.520 align:middle line:90%
+It should be on our currency.
+
+00:32:03.520 --> 00:32:06.130 align:middle line:84%
+It should be part of the
+official motto of the US.
+
+00:32:06.130 --> 00:32:07.210 align:middle line:90%
+"Who are you talking to?"
+
+00:32:07.210 --> 00:32:08.920 align:middle line:90%
+That should be our motto.
+
+00:32:08.920 --> 00:32:11.260 align:middle line:90%
+No?
+
+00:32:11.260 --> 00:32:15.140 align:middle line:84%
+Now as I said, most
+languages are not like this.
+
+00:32:15.140 --> 00:32:17.110 align:middle line:84%
+So here are some
+Russian examples.
+
+00:32:17.110 --> 00:32:19.540 align:middle line:84%
+In Russian, this is
+Russian for "Peter
+
+00:32:19.540 --> 00:32:24.040 align:middle line:84%
+was talking with somebody
+but I don't know whom."
+
+00:32:24.040 --> 00:32:26.200 align:middle line:84%
+And similarly, let's
+concentrate first
+
+00:32:26.200 --> 00:32:27.430 align:middle line:90%
+on the sentences at the end.
+
+00:32:27.430 --> 00:32:30.340 align:middle line:84%
+In Russian, Russian is like most
+civilized languages in which
+
+00:32:30.340 --> 00:32:32.350 align:middle line:84%
+you cannot say, "Who
+is he talking with?"
+
+00:32:32.350 --> 00:32:35.080 align:middle line:84%
+You can't say,
+[SPEAKING RUSSIAN]..
+
+00:32:35.080 --> 00:32:37.120 align:middle line:84%
+You have to say
+[SPEAKING RUSSIAN]..
+
+00:32:37.120 --> 00:32:39.130 align:middle line:90%
+So "With whom was he talking?"
+
+00:32:39.130 --> 00:32:40.750 align:middle line:84%
+So that the preposition
+"with," which
+
+00:32:40.750 --> 00:32:42.370 align:middle line:84%
+is [SPEAKING RUSSIAN]
+in Russian.
+
+00:32:42.370 --> 00:32:44.290 align:middle line:84%
+Russian has longer
+prepositions than that,
+
+00:32:44.290 --> 00:32:46.420 align:middle line:84%
+but that's one of
+them, prepositions
+
+00:32:46.420 --> 00:32:48.605 align:middle line:90%
+that are just a consonant.
+
+00:32:48.605 --> 00:32:50.230 align:middle line:84%
+You have to take that
+preposition along
+
+00:32:50.230 --> 00:32:53.260 align:middle line:90%
+with the wh- word.
+
+00:32:53.260 --> 00:32:58.650 align:middle line:84%
+And relatedly, possibly,
+Russian has sluicing.
+
+00:32:58.650 --> 00:33:01.170 align:middle line:84%
+But in Russian-- so
+let's go back to English.
+
+00:33:01.170 --> 00:33:03.760 align:middle line:84%
+In English, if you do
+sluicing, you have two options.
+
+00:33:03.760 --> 00:33:05.968 align:middle line:84%
+You can either say, "Peter
+was talking with somebody,
+
+00:33:05.968 --> 00:33:09.760 align:middle line:84%
+but I don't know who,"
+leaving the preposition out.
+
+00:33:09.760 --> 00:33:11.760 align:middle line:84%
+Or you can say, "Peter
+was talking with someone,
+
+00:33:11.760 --> 00:33:13.270 align:middle line:90%
+but I don't know with whom."
+
+00:33:13.270 --> 00:33:16.430 align:middle line:90%
+Yeah, you can say that, too.
+
+00:33:16.430 --> 00:33:17.930 align:middle line:84%
+Russian only has
+the second option.
+
+00:33:17.930 --> 00:33:19.190 align:middle line:84%
+You can only say
+the Russian version
+
+00:33:19.190 --> 00:33:20.648 align:middle line:84%
+of "Peter was
+talking with someone,
+
+00:33:20.648 --> 00:33:23.310 align:middle line:90%
+but I don't with whom."
+
+00:33:23.310 --> 00:33:26.188 align:middle line:84%
+You can't say in Russian, "Peter
+was talking with somebody,
+
+00:33:26.188 --> 00:33:27.105 align:middle line:90%
+but I don't know who."
+
+00:33:27.105 --> 00:33:29.690 align:middle line:90%
+
+
+00:33:29.690 --> 00:33:32.810 align:middle line:84%
+And this is English and Russian,
+but this is quite widespread.
+
+00:33:32.810 --> 00:33:34.460 align:middle line:90%
+It's generally true.
+
+00:33:34.460 --> 00:33:36.260 align:middle line:84%
+There are some interesting
+counterexamples,
+
+00:33:36.260 --> 00:33:37.930 align:middle line:84%
+which people get
+interested in and try
+
+00:33:37.930 --> 00:33:39.180 align:middle line:90%
+to figure out what's going on.
+
+00:33:39.180 --> 00:33:42.200 align:middle line:84%
+But it's generally true
+that if you are like English
+
+00:33:42.200 --> 00:33:44.450 align:middle line:84%
+in allowing prepositions
+to be left behind,
+
+00:33:44.450 --> 00:33:47.360 align:middle line:84%
+you can leave prepositions
+out in sluicing.
+
+00:33:47.360 --> 00:33:50.270 align:middle line:84%
+And if you are like Russian in
+which your prepositions have
+
+00:33:50.270 --> 00:33:52.220 align:middle line:84%
+to move along with
+your wh- phrase,
+
+00:33:52.220 --> 00:33:56.030 align:middle line:84%
+then your prepositions have
+to be kept under sluicing.
+
+00:33:56.030 --> 00:33:57.590 align:middle line:84%
+So let's think about
+what that means
+
+00:33:57.590 --> 00:33:58.882 align:middle line:90%
+for these theories of sluicing.
+
+00:33:58.882 --> 00:34:01.750 align:middle line:90%
+
+
+00:34:01.750 --> 00:34:03.830 align:middle line:84%
+The two theories of sluicing
+again, one of them--
+
+00:34:03.830 --> 00:34:05.230 align:middle line:90%
+let's take the first one first.
+
+00:34:05.230 --> 00:34:07.570 align:middle line:84%
+One of them said, when you
+say "Peter was talking with
+
+00:34:07.570 --> 00:34:09.790 align:middle line:84%
+somebody, but I don't
+know who," well,
+
+00:34:09.790 --> 00:34:11.074 align:middle line:90%
+what you're doing is you're--
+
+00:34:11.074 --> 00:34:13.449 align:middle line:84%
+the syntax is generating "Peter
+was talking with someone,
+
+00:34:13.449 --> 00:34:15.520 align:middle line:84%
+but I don't know who
+he was talking with."
+
+00:34:15.520 --> 00:34:19.510 align:middle line:84%
+And then you leave
+out everything
+
+00:34:19.510 --> 00:34:23.870 align:middle line:84%
+in the lowest sentence except
+for the wh- word itself.
+
+00:34:23.870 --> 00:34:26.280 align:middle line:84%
+So you start off with "Peter
+was talking with somebody,
+
+00:34:26.280 --> 00:34:28.030 align:middle line:84%
+but I don't know who
+he was talking with,"
+
+00:34:28.030 --> 00:34:29.590 align:middle line:84%
+and then you leave out
+"he was talking with."
+
+00:34:29.590 --> 00:34:31.350 align:middle line:84%
+So you end up with
+"I don't know who."
+
+00:34:31.350 --> 00:34:33.100 align:middle line:84%
+Now that's a story
+where sluicing involves
+
+00:34:33.100 --> 00:34:35.560 align:middle line:84%
+creating a complete
+sentence and then electing
+
+00:34:35.560 --> 00:34:38.380 align:middle line:90%
+to not pronounce part of it.
+
+00:34:38.380 --> 00:34:41.170 align:middle line:84%
+If we have that kind
+of theory of sluicing,
+
+00:34:41.170 --> 00:34:45.730 align:middle line:84%
+then the facts in
+English and Russian
+
+00:34:45.730 --> 00:34:49.670 align:middle line:84%
+boil down to a single difference
+between the languages.
+
+00:34:49.670 --> 00:34:52.480 align:middle line:84%
+So the single difference
+between the languages
+
+00:34:52.480 --> 00:34:55.179 align:middle line:84%
+has to do with whether you
+have to take prepositions along
+
+00:34:55.179 --> 00:34:59.458 align:middle line:84%
+with you when you wh-move
+the object of a preposition,
+
+00:34:59.458 --> 00:35:01.000 align:middle line:84%
+whether you have
+the option of saying
+
+00:35:01.000 --> 00:35:02.330 align:middle line:90%
+"Who is he talking with?"
+
+00:35:02.330 --> 00:35:04.960 align:middle line:84%
+So there's a relation between
+the fact that in English
+
+00:35:04.960 --> 00:35:07.450 align:middle line:84%
+but not in Russian, you can
+say, "Who was he talking with?"
+
+00:35:07.450 --> 00:35:09.400 align:middle line:84%
+And the fact that in
+English, but not in Russian,
+
+00:35:09.400 --> 00:35:11.233 align:middle line:84%
+you can say, "Peter was
+talking to somebody,
+
+00:35:11.233 --> 00:35:13.990 align:middle line:90%
+but I don't know who."
+
+00:35:13.990 --> 00:35:15.410 align:middle line:90%
+Those are both the same fact.
+
+00:35:15.410 --> 00:35:18.370 align:middle line:84%
+The fact is when the
+syntax is constructing
+
+00:35:18.370 --> 00:35:21.245 align:middle line:84%
+the sluiced example, in English,
+you have the option of saying,
+
+00:35:21.245 --> 00:35:22.870 align:middle line:84%
+"I don't know who he
+was talking with,"
+
+00:35:22.870 --> 00:35:24.880 align:middle line:84%
+and then leaving out
+"he was talking with."
+
+00:35:24.880 --> 00:35:26.740 align:middle line:84%
+In Russian, you don't
+have that option.
+
+00:35:26.740 --> 00:35:28.870 align:middle line:84%
+You have to say, "I don't know
+with whom he was talking."
+
+00:35:28.870 --> 00:35:30.820 align:middle line:84%
+And that's why when you do
+sluicing, you have to say,
+
+00:35:30.820 --> 00:35:32.820 align:middle line:84%
+"but I don't know with
+whom," and you can't say,
+
+00:35:32.820 --> 00:35:33.820 align:middle line:90%
+"I don't know who."
+
+00:35:33.820 --> 00:35:35.770 align:middle line:84%
+So these facts are
+related to each other.
+
+00:35:35.770 --> 00:35:37.930 align:middle line:84%
+If you can strand
+prepositions, then you
+
+00:35:37.930 --> 00:35:39.340 align:middle line:90%
+can leave them out in sluicing.
+
+00:35:39.340 --> 00:35:42.910 align:middle line:84%
+And those facts are connected
+if sluicing involves, well,
+
+00:35:42.910 --> 00:35:45.550 align:middle line:84%
+actual wh-movement,
+together with a decision
+
+00:35:45.550 --> 00:35:47.225 align:middle line:84%
+to fail to pronounce
+part of a sentence.
+
+00:35:47.225 --> 00:35:49.840 align:middle line:90%
+
+
+00:35:49.840 --> 00:35:51.803 align:middle line:84%
+Yep, that's one argument
+for that approach.
+
+00:35:51.803 --> 00:35:54.220 align:middle line:84%
+On the other hand, if you have
+the kind of approach that's
+
+00:35:54.220 --> 00:35:59.080 align:middle line:84%
+like, no, look, there's
+no-- you don't always
+
+00:35:59.080 --> 00:36:00.280 align:middle line:90%
+create complete sentences.
+
+00:36:00.280 --> 00:36:02.697 align:middle line:84%
+The syntax when you say, "Peter
+was talking with somebody,
+
+00:36:02.697 --> 00:36:05.860 align:middle line:84%
+but I don't know who," the
+syntax is just creating
+
+00:36:05.860 --> 00:36:07.090 align:middle line:90%
+"I don't know who."
+
+00:36:07.090 --> 00:36:09.130 align:middle line:84%
+And then it is the
+job of the semantics
+
+00:36:09.130 --> 00:36:11.500 align:middle line:84%
+to figure out what the heck
+you mean when you say that,
+
+00:36:11.500 --> 00:36:14.380 align:middle line:84%
+and to supply the rest of
+the sentence from context.
+
+00:36:14.380 --> 00:36:18.910 align:middle line:84%
+Well then, it's less
+clear why these facts
+
+00:36:18.910 --> 00:36:21.070 align:middle line:84%
+should track each other,
+the fact about whether you
+
+00:36:21.070 --> 00:36:22.778 align:middle line:84%
+constrain prepositions
+and the fact about
+
+00:36:22.778 --> 00:36:24.487 align:middle line:84%
+whether you can leave
+it out in a sluice,
+
+00:36:24.487 --> 00:36:27.100 align:middle line:84%
+because the sluice doesn't, on
+that kind of theory, literally
+
+00:36:27.100 --> 00:36:30.740 align:middle line:90%
+involve any wh-movement.
+
+00:36:30.740 --> 00:36:33.900 align:middle line:90%
+Another similar kind of fact.
+
+00:36:33.900 --> 00:36:40.650 align:middle line:84%
+German has verbs that
+assign entertaining cases
+
+00:36:40.650 --> 00:36:42.650 align:middle line:90%
+to their objects.
+
+00:36:42.650 --> 00:36:44.240 align:middle line:84%
+So English does not
+have a whole lot
+
+00:36:44.240 --> 00:36:47.690 align:middle line:84%
+of case morphology, but way back
+when, we talked a little bit
+
+00:36:47.690 --> 00:36:50.360 align:middle line:84%
+back in syntax about case
+morphology, this idea
+
+00:36:50.360 --> 00:36:54.740 align:middle line:84%
+that nouns have morphology on
+them telling you roughly what
+
+00:36:54.740 --> 00:36:56.700 align:middle line:90%
+they're doing in the sentence.
+
+00:36:56.700 --> 00:36:58.283 align:middle line:84%
+So we talked about
+the fact that there
+
+00:36:58.283 --> 00:37:00.140 align:middle line:84%
+are languages that
+have a marker that
+
+00:37:00.140 --> 00:37:02.837 align:middle line:84%
+says, hey, I'm the subject,
+or hey, I'm the object.
+
+00:37:02.837 --> 00:37:04.670 align:middle line:84%
+There are languages
+that have other markers,
+
+00:37:04.670 --> 00:37:07.400 align:middle line:84%
+these case markers,
+we called them.
+
+00:37:07.400 --> 00:37:11.180 align:middle line:84%
+German has more of this
+stuff than English does.
+
+00:37:11.180 --> 00:37:14.240 align:middle line:84%
+And in particular, German
+has this phenomenon sometimes
+
+00:37:14.240 --> 00:37:16.728 align:middle line:84%
+called quirky case,
+where there are verbs.
+
+00:37:16.728 --> 00:37:18.770 align:middle line:84%
+One of the fun things
+about-- one of the many fun
+
+00:37:18.770 --> 00:37:21.590 align:middle line:84%
+things about learning
+German is that if you
+
+00:37:21.590 --> 00:37:24.140 align:middle line:84%
+want to learn a verb
+like "schmeicheln," which
+
+00:37:24.140 --> 00:37:26.760 align:middle line:84%
+is the German verb to
+flatter, first of all,
+
+00:37:26.760 --> 00:37:29.340 align:middle line:84%
+you must learn to pronounce
+it possibly better than I just
+
+00:37:29.340 --> 00:37:29.840 align:middle line:90%
+did.
+
+00:37:29.840 --> 00:37:33.260 align:middle line:84%
+And second, you must learn
+that its object is dative.
+
+00:37:33.260 --> 00:37:33.920 align:middle line:90%
+Why?
+
+00:37:33.920 --> 00:37:36.080 align:middle line:90%
+Well, it just is.
+
+00:37:36.080 --> 00:37:38.690 align:middle line:84%
+So part of learning
+German is learning
+
+00:37:38.690 --> 00:37:42.290 align:middle line:84%
+that if you flatter someone,
+you flatter them datively.
+
+00:37:42.290 --> 00:37:45.350 align:middle line:84%
+To say that the object of
+"schmeicheln" is dative
+
+00:37:45.350 --> 00:37:46.880 align:middle line:84%
+is to say that when
+you want to say
+
+00:37:46.880 --> 00:37:49.430 align:middle line:84%
+he wants to flatter someone,
+the word for someone
+
+00:37:49.430 --> 00:37:53.090 align:middle line:84%
+is "jemandem" and ends in
+an M, which is the mark
+
+00:37:53.090 --> 00:37:55.700 align:middle line:90%
+that it's dative.
+
+00:37:55.700 --> 00:37:58.760 align:middle line:84%
+If you wanted to say, for
+example, he wants to praise
+
+00:37:58.760 --> 00:38:01.430 align:middle line:84%
+someone, well,
+praise, "loben," is
+
+00:38:01.430 --> 00:38:04.550 align:middle line:84%
+like most transitive verbs in
+that its object is accusative.
+
+00:38:04.550 --> 00:38:09.020 align:middle line:84%
+So now someone isn't
+"jemandem," it's "jemanden."
+
+00:38:09.020 --> 00:38:10.580 align:middle line:90%
+A fun, quirky fact about German.
+
+00:38:10.580 --> 00:38:12.260 align:middle line:84%
+If any of you were
+considering learning German,
+
+00:38:12.260 --> 00:38:14.468 align:middle line:84%
+this is one of the many
+things you will get to learn.
+
+00:38:14.468 --> 00:38:15.380 align:middle line:90%
+Yeah?
+
+00:38:15.380 --> 00:38:16.120 align:middle line:90%
+Yeah.
+
+00:38:16.120 --> 00:38:20.360 align:middle line:84%
+Now cool fact, if you
+sluice in German--
+
+00:38:20.360 --> 00:38:23.360 align:middle line:84%
+German's like English,
+it has sluicing.
+
+00:38:23.360 --> 00:38:25.700 align:middle line:84%
+If you sluice in German,
+if you want to say,
+
+00:38:25.700 --> 00:38:28.700 align:middle line:84%
+"He wants to flatter somebody,
+but they don't know who,"
+
+00:38:28.700 --> 00:38:30.918 align:middle line:90%
+you can say that in German.
+
+00:38:30.918 --> 00:38:32.960 align:middle line:84%
+If you want to say, "He
+wants to praise somebody,
+
+00:38:32.960 --> 00:38:36.780 align:middle line:84%
+but they don't know who," you
+can say that in German, too.
+
+00:38:36.780 --> 00:38:39.630 align:middle line:84%
+But if you say, "He wants
+to flatter somebody,
+
+00:38:39.630 --> 00:38:42.065 align:middle line:84%
+but they don't know who,"
+well, the word for "who,"
+
+00:38:42.065 --> 00:38:43.440 align:middle line:84%
+it's like the word
+for "someone."
+
+00:38:43.440 --> 00:38:46.020 align:middle line:84%
+It has different dative
+and accusative forms.
+
+00:38:46.020 --> 00:38:48.930 align:middle line:84%
+So as you can see in the slide,
+"He wants to flatter someone,
+
+00:38:48.930 --> 00:38:51.900 align:middle line:84%
+but they don't know who," the
+word for "who" has to be "wem".
+
+00:38:51.900 --> 00:38:53.970 align:middle line:90%
+Has to be dative.
+
+00:38:53.970 --> 00:38:55.680 align:middle line:84%
+Whereas "He wants
+to praise somebody,
+
+00:38:55.680 --> 00:38:58.440 align:middle line:84%
+but they don't know who," the
+word for "who" has to be "wen,"
+
+00:38:58.440 --> 00:39:01.003 align:middle line:90%
+has to be accusative.
+
+00:39:01.003 --> 00:39:03.420 align:middle line:84%
+So let's think about what that
+means on the two approaches
+
+00:39:03.420 --> 00:39:04.415 align:middle line:90%
+to sluicing.
+
+00:39:04.415 --> 00:39:06.540 align:middle line:84%
+On the approach to sluicing
+where sluicing involves
+
+00:39:06.540 --> 00:39:08.760 align:middle line:84%
+creating a complete
+sentence and then
+
+00:39:08.760 --> 00:39:11.370 align:middle line:84%
+forgetting to say
+part of it, just one
+
+00:39:11.370 --> 00:39:14.730 align:middle line:84%
+theory of sluicing we talked
+about, well, this makes sense.
+
+00:39:14.730 --> 00:39:17.940 align:middle line:84%
+Because that first
+sluicing example,
+
+00:39:17.940 --> 00:39:20.970 align:middle line:84%
+you're saying, in German, "He
+wants to flatter somebody,
+
+00:39:20.970 --> 00:39:23.640 align:middle line:84%
+but they don't know who
+he wants to flatter."
+
+00:39:23.640 --> 00:39:26.153 align:middle line:84%
+And "who" starts off as the
+object of "schmeicheln,"
+
+00:39:26.153 --> 00:39:28.320 align:middle line:84%
+a version of "schmeicheln,"
+that you're not actually
+
+00:39:28.320 --> 00:39:29.880 align:middle line:90%
+going to say.
+
+00:39:29.880 --> 00:39:33.330 align:middle line:84%
+And because it's the object of
+"schmeicheln," it is dative,
+
+00:39:33.330 --> 00:39:36.513 align:middle line:84%
+and so it gets
+pronounced with dative.
+
+00:39:36.513 --> 00:39:38.930 align:middle line:84%
+And then if you want to say,
+"He wants to praise somebody,
+
+00:39:38.930 --> 00:39:41.513 align:middle line:84%
+but they don't know who," well,
+you start off by constructing,
+
+00:39:41.513 --> 00:39:43.347 align:middle line:84%
+"He wants to praise
+somebody, but they don't
+
+00:39:43.347 --> 00:39:44.968 align:middle line:90%
+know who he wants to praise."
+
+00:39:44.968 --> 00:39:46.760 align:middle line:84%
+"Who" starts off as
+the object of "praise,"
+
+00:39:46.760 --> 00:39:49.160 align:middle line:90%
+and so it's accusative.
+
+00:39:49.160 --> 00:39:51.440 align:middle line:84%
+And so we have an account
+of why these words for "who"
+
+00:39:51.440 --> 00:39:54.110 align:middle line:84%
+are dative or accusative,
+depending on the properties
+
+00:39:54.110 --> 00:39:57.080 align:middle line:90%
+of a verb which you cannot hear.
+
+00:39:57.080 --> 00:40:01.850 align:middle line:84%
+The idea is yeah, you can't
+hear it, but it's there.
+
+00:40:01.850 --> 00:40:03.440 align:middle line:90%
+And it does its thing.
+
+00:40:03.440 --> 00:40:05.468 align:middle line:84%
+It makes "who" either
+dative or accusative,
+
+00:40:05.468 --> 00:40:07.010 align:middle line:84%
+and then you move
+"who" out of there,
+
+00:40:07.010 --> 00:40:09.510 align:middle line:84%
+and then you forget
+to pronounce the verb.
+
+00:40:09.510 --> 00:40:12.147 align:middle line:90%
+Yeah, that's how sluicing works.
+
+00:40:12.147 --> 00:40:14.230 align:middle line:84%
+On the alternative approach
+to sluicing that says,
+
+00:40:14.230 --> 00:40:16.480 align:middle line:84%
+no, it's just
+semanticists are smarter
+
+00:40:16.480 --> 00:40:19.348 align:middle line:84%
+than you think they
+are, you can give them,
+
+00:40:19.348 --> 00:40:21.640 align:middle line:84%
+"He wants to flatter someone,
+but they don't know who,"
+
+00:40:21.640 --> 00:40:23.260 align:middle line:90%
+and it will be their job--
+
+00:40:23.260 --> 00:40:25.703 align:middle line:84%
+that will just have all the
+structure that you can hear.
+
+00:40:25.703 --> 00:40:27.370 align:middle line:84%
+There's no complete
+sentence down there.
+
+00:40:27.370 --> 00:40:31.750 align:middle line:84%
+The end of the
+sentence is just "who."
+
+00:40:31.750 --> 00:40:34.480 align:middle line:84%
+Well, the semanticists will
+have to be so smart that they
+
+00:40:34.480 --> 00:40:38.410 align:middle line:84%
+can know that the verb
+"to flatter" in German
+
+00:40:38.410 --> 00:40:40.030 align:middle line:84%
+assigns dative
+case to its object,
+
+00:40:40.030 --> 00:40:41.530 align:middle line:84%
+even though "who"
+is, in some sense,
+
+00:40:41.530 --> 00:40:43.630 align:middle line:84%
+not the object of
+"flatter" on that story.
+
+00:40:43.630 --> 00:40:46.540 align:middle line:84%
+It's never been anywhere
+near the verb "flatter."
+
+00:40:46.540 --> 00:40:49.570 align:middle line:84%
+So there are some
+complications for that approach
+
+00:40:49.570 --> 00:40:50.710 align:middle line:90%
+in these kinds of facts.
+
+00:40:50.710 --> 00:40:53.240 align:middle line:90%
+
+
+00:40:53.240 --> 00:40:57.380 align:middle line:84%
+So those are two reasons
+to take seriously the idea
+
+00:40:57.380 --> 00:41:02.650 align:middle line:84%
+that ellipsis, this has been
+concentrating on sluicing,
+
+00:41:02.650 --> 00:41:07.870 align:middle line:84%
+is a process in which you
+create a complete sentence,
+
+00:41:07.870 --> 00:41:09.670 align:middle line:84%
+a syntactically
+present structure.
+
+00:41:09.670 --> 00:41:13.360 align:middle line:84%
+When you say "John
+is eating something,
+
+00:41:13.360 --> 00:41:15.235 align:middle line:84%
+but I don't know what,"
+you really are saying
+
+00:41:15.235 --> 00:41:16.818 align:middle line:84%
+"John is eating
+something, but I don't
+
+00:41:16.818 --> 00:41:18.040 align:middle line:90%
+know what John is eating."
+
+00:41:18.040 --> 00:41:21.520 align:middle line:84%
+And then you are leaving
+out "John is eating"
+
+00:41:21.520 --> 00:41:23.410 align:middle line:90%
+from the end of the sentence.
+
+00:41:23.410 --> 00:41:25.090 align:middle line:84%
+So there's this
+process of ellipsis
+
+00:41:25.090 --> 00:41:28.660 align:middle line:84%
+that gets rid of stuff that's
+syntactically present so
+
+00:41:28.660 --> 00:41:30.070 align:middle line:90%
+that it's not pronounced.
+
+00:41:30.070 --> 00:41:32.110 align:middle line:90%
+But it is interpreted.
+
+00:41:32.110 --> 00:41:33.490 align:middle line:84%
+And it can have
+effects on things
+
+00:41:33.490 --> 00:41:35.380 align:middle line:90%
+like case, as we saw in German.
+
+00:41:35.380 --> 00:41:37.960 align:middle line:84%
+Now let me show you
+one bit of evidence
+
+00:41:37.960 --> 00:41:41.380 align:middle line:84%
+for the alternative
+approach, actually,
+
+00:41:41.380 --> 00:41:43.300 align:middle line:84%
+just so that you can
+see why people take
+
+00:41:43.300 --> 00:41:45.420 align:middle line:90%
+the other theory seriously.
+
+00:41:45.420 --> 00:41:47.660 align:middle line:84%
+Here are some more
+sluicing examples.
+
+00:41:47.660 --> 00:41:49.410 align:middle line:84%
+The classic example's
+from the literature.
+
+00:41:49.410 --> 00:41:52.280 align:middle line:84%
+"She bought a big car,
+but I don't know how big."
+
+00:41:52.280 --> 00:41:54.740 align:middle line:90%
+Fine.
+
+00:41:54.740 --> 00:41:56.420 align:middle line:84%
+"A biography of one
+of the Marx brothers
+
+00:41:56.420 --> 00:41:57.878 align:middle line:84%
+is going to be
+published this year.
+
+00:41:57.878 --> 00:42:00.260 align:middle line:90%
+Guess which?"
+
+00:42:00.260 --> 00:42:01.900 align:middle line:90%
+Also fine.
+
+00:42:01.900 --> 00:42:05.670 align:middle line:84%
+Do people agree
+that these are fine?
+
+00:42:05.670 --> 00:42:07.085 align:middle line:90%
+I think they're fine.
+
+00:42:07.085 --> 00:42:08.460 align:middle line:84%
+All right, let's
+think about what
+
+00:42:08.460 --> 00:42:13.170 align:middle line:84%
+would be in the part
+that's not pronounced.
+
+00:42:13.170 --> 00:42:16.010 align:middle line:84%
+The way we've been
+talking, these
+
+00:42:16.010 --> 00:42:17.600 align:middle line:84%
+should mean, "She
+bought a big car,
+
+00:42:17.600 --> 00:42:20.250 align:middle line:84%
+but I don't know how
+big she bought a car,"
+
+00:42:20.250 --> 00:42:22.132 align:middle line:84%
+or "A biography of one
+of the Marx brothers
+
+00:42:22.132 --> 00:42:23.590 align:middle line:84%
+is going to be
+published this year.
+
+00:42:23.590 --> 00:42:28.080 align:middle line:84%
+Guess which a biography of
+is going to be published."
+
+00:42:28.080 --> 00:42:30.780 align:middle line:84%
+And the problem with that
+is that these are not
+
+00:42:30.780 --> 00:42:32.850 align:middle line:90%
+grammatical sentences.
+
+00:42:32.850 --> 00:42:33.960 align:middle line:90%
+Do people agree with that?
+
+00:42:33.960 --> 00:42:38.520 align:middle line:84%
+If you were to pronounce the
+whole thing, you would die.
+
+00:42:38.520 --> 00:42:41.920 align:middle line:90%
+Well, maybe not die.
+
+00:42:41.920 --> 00:42:45.580 align:middle line:84%
+It would depend on your
+previous medical condition.
+
+00:42:45.580 --> 00:42:46.080 align:middle line:90%
+Yeah?
+
+00:42:46.080 --> 00:42:49.200 align:middle line:90%
+AUDIENCE: [INAUDIBLE] published.
+
+00:42:49.200 --> 00:42:51.080 align:middle line:84%
+NORVIN RICHARDS: I'm
+sorry, say it again.
+
+00:42:51.080 --> 00:42:52.110 align:middle line:90%
+AUDIENCE: I meant--
+
+00:42:52.110 --> 00:42:53.360 align:middle line:90%
+NORVIN RICHARDS: You're just--
+
+00:42:53.360 --> 00:42:55.398 align:middle line:84%
+AUDIENCE: You said
+you would what?
+
+00:42:55.398 --> 00:42:57.440 align:middle line:84%
+NORVIN RICHARDS: Oh, you're
+just testing my claim
+
+00:42:57.440 --> 00:42:58.850 align:middle line:84%
+that if you said this
+aloud, you would die?
+
+00:42:58.850 --> 00:42:59.690 align:middle line:90%
+Oh, gosh.
+
+00:42:59.690 --> 00:43:00.230 align:middle line:90%
+So--
+
+00:43:00.230 --> 00:43:02.180 align:middle line:84%
+AUDIENCE: "A biography of
+one of the Marx brothers
+
+00:43:02.180 --> 00:43:03.597 align:middle line:84%
+is going to be
+published this year
+
+00:43:03.597 --> 00:43:05.390 align:middle line:84%
+and guess what the
+biography of (blank)."
+
+00:43:05.390 --> 00:43:09.120 align:middle line:84%
+Whatever goes in the blank
+is going to be published.
+
+00:43:09.120 --> 00:43:09.990 align:middle line:90%
+OK.
+
+00:43:09.990 --> 00:43:12.530 align:middle line:84%
+NORVIN RICHARDS: How do
+people feel about this?
+
+00:43:12.530 --> 00:43:14.530 align:middle line:84%
+I didn't say that people
+were going to kill you.
+
+00:43:14.530 --> 00:43:15.760 align:middle line:90%
+I said you were going to die.
+
+00:43:15.760 --> 00:43:19.020 align:middle line:84%
+So you shouldn't feel like you
+have to harm him in any way.
+
+00:43:19.020 --> 00:43:20.752 align:middle line:90%
+Raquel, did--
+
+00:43:20.752 --> 00:43:24.310 align:middle line:84%
+AUDIENCE: I think the way that
+I think of filling it is--
+
+00:43:24.310 --> 00:43:27.940 align:middle line:84%
+"I don't know how big the car
+is," or "I don't know which
+
+00:43:27.940 --> 00:43:32.500 align:middle line:84%
+biography is in which--"
+thinking [INAUDIBLE]
+
+00:43:32.500 --> 00:43:33.640 align:middle line:90%
+it feels kind of weird.
+
+00:43:33.640 --> 00:43:35.910 align:middle line:84%
+It feels it's weird
+movement going on there.
+
+00:43:35.910 --> 00:43:36.220 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:43:36.220 --> 00:43:36.928 align:middle line:90%
+Yeah, yeah, yeah.
+
+00:43:36.928 --> 00:43:40.460 align:middle line:90%
+So you seized on the move.
+
+00:43:40.460 --> 00:43:43.340 align:middle line:84%
+So I said, here's a bit of
+evidence for the opposing camp.
+
+00:43:43.340 --> 00:43:46.670 align:middle line:84%
+So the opposing camp, the people
+who think, no, in a sluice,
+
+00:43:46.670 --> 00:43:48.700 align:middle line:90%
+there's no wh-movement going on.
+
+00:43:48.700 --> 00:43:53.190 align:middle line:84%
+When you say, "I'm reading a
+book--" "I'm reading a book,
+
+00:43:53.190 --> 00:43:55.040 align:middle line:90%
+but I can't remember what."
+
+00:43:55.040 --> 00:43:57.385 align:middle line:84%
+"John is reading a book,
+but I don't know what."
+
+00:43:57.385 --> 00:43:59.510 align:middle line:84%
+"John is reading something,
+but I don't know what."
+
+00:43:59.510 --> 00:44:01.430 align:middle line:84%
+That sentence just
+ends with "what."
+
+00:44:01.430 --> 00:44:06.003 align:middle line:84%
+It isn't "but I don't
+know what he's reading."
+
+00:44:06.003 --> 00:44:07.670 align:middle line:84%
+So you don't have the
+complete sentence,
+
+00:44:07.670 --> 00:44:08.960 align:middle line:84%
+and you're leaving
+part of it out.
+
+00:44:08.960 --> 00:44:10.502 align:middle line:84%
+These people want
+to say, no, there's
+
+00:44:10.502 --> 00:44:11.812 align:middle line:90%
+no wh-movement going on at all.
+
+00:44:11.812 --> 00:44:13.520 align:middle line:84%
+And these kinds of
+examples are the kinds
+
+00:44:13.520 --> 00:44:14.603 align:middle line:90%
+of examples they point at.
+
+00:44:14.603 --> 00:44:16.992 align:middle line:84%
+They say, look, we know
+how wh-movement works.
+
+00:44:16.992 --> 00:44:18.950 align:middle line:84%
+You can't do it out of
+certain kinds of things.
+
+00:44:18.950 --> 00:44:20.720 align:middle line:84%
+We talked about in
+this class, that there
+
+00:44:20.720 --> 00:44:22.580 align:middle line:84%
+are what are called
+islands, domains
+
+00:44:22.580 --> 00:44:23.720 align:middle line:90%
+that you can't move out of.
+
+00:44:23.720 --> 00:44:26.480 align:middle line:84%
+These are not among the
+islands that we talked about.
+
+00:44:26.480 --> 00:44:28.760 align:middle line:84%
+I think I warned you when
+I showed you some islands.
+
+00:44:28.760 --> 00:44:30.350 align:middle line:84%
+There are so many
+islands out there.
+
+00:44:30.350 --> 00:44:31.982 align:middle line:90%
+It's like the Pacific out there.
+
+00:44:31.982 --> 00:44:33.440 align:middle line:84%
+There are lots and
+lots of islands.
+
+00:44:33.440 --> 00:44:35.390 align:middle line:84%
+Lots of work on charting
+them and figuring out
+
+00:44:35.390 --> 00:44:38.130 align:middle line:84%
+how deep the water is
+in different places.
+
+00:44:38.130 --> 00:44:40.558 align:middle line:84%
+And so here are
+some more islands.
+
+00:44:40.558 --> 00:44:42.350 align:middle line:84%
+We don't have to worry
+about what they are,
+
+00:44:42.350 --> 00:44:43.190 align:middle line:90%
+or why they're islands.
+
+00:44:43.190 --> 00:44:45.482 align:middle line:84%
+It's clear that if you were
+to say this whole sentence,
+
+00:44:45.482 --> 00:44:46.310 align:middle line:90%
+it would be bad.
+
+00:44:46.310 --> 00:44:49.035 align:middle line:90%
+Bad things would happen to you.
+
+00:44:49.035 --> 00:44:50.660 align:middle line:84%
+And the people who
+want to say, there's
+
+00:44:50.660 --> 00:44:53.600 align:middle line:84%
+no wh-movement in a sluice,
+they point at stuff like this.
+
+00:44:53.600 --> 00:44:55.940 align:middle line:84%
+The people who say,
+yes there is, too,
+
+00:44:55.940 --> 00:44:58.468 align:middle line:84%
+wh-movement in a
+sluice, what they say
+
+00:44:58.468 --> 00:44:59.510 align:middle line:90%
+is what Raquel just said.
+
+00:44:59.510 --> 00:45:00.290 align:middle line:90%
+They said, no, but look.
+
+00:45:00.290 --> 00:45:02.832 align:middle line:84%
+How do you know that you're not
+saying "She bought a big car,
+
+00:45:02.832 --> 00:45:05.240 align:middle line:84%
+but I don't know
+how big it was."
+
+00:45:05.240 --> 00:45:07.280 align:middle line:84%
+Or "A biography of one
+of the Marx brothers
+
+00:45:07.280 --> 00:45:08.738 align:middle line:84%
+is going to be
+published this year.
+
+00:45:08.738 --> 00:45:10.250 align:middle line:90%
+Guess which one it is"--
+
+00:45:10.250 --> 00:45:12.210 align:middle line:84%
+"...Guess which Marx
+brother it will be."
+
+00:45:12.210 --> 00:45:15.060 align:middle line:90%
+Yeah, another possibility.
+
+00:45:15.060 --> 00:45:18.630 align:middle line:84%
+Kateryna, did you have
+a question before?
+
+00:45:18.630 --> 00:45:22.110 align:middle line:84%
+Or I'm sorry, I didn't
+mean to put you on track--
+
+00:45:22.110 --> 00:45:22.800 align:middle line:90%
+spot.
+
+00:45:22.800 --> 00:45:24.990 align:middle line:84%
+So that's an argument that
+goes on between these two
+
+00:45:24.990 --> 00:45:25.823 align:middle line:90%
+halves of the field.
+
+00:45:25.823 --> 00:45:26.380 align:middle line:90%
+Yeah?
+
+00:45:26.380 --> 00:45:28.122 align:middle line:84%
+AUDIENCE: Isn't this
+the essence of one
+
+00:45:28.122 --> 00:45:29.580 align:middle line:84%
+of the questions
+that [INAUDIBLE],,
+
+00:45:29.580 --> 00:45:37.080 align:middle line:84%
+and also that there might be wh-
+movement or there might not be,
+
+00:45:37.080 --> 00:45:39.091 align:middle line:84%
+and that there are
+certain things that you
+
+00:45:39.091 --> 00:45:40.433 align:middle line:90%
+can't move things out of?
+
+00:45:40.433 --> 00:45:41.350 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:45:41.350 --> 00:45:42.040 align:middle line:90%
+Yeah, yeah, yeah.
+
+00:45:42.040 --> 00:45:42.540 align:middle line:90%
+Yeah, no.
+
+00:45:42.540 --> 00:45:43.210 align:middle line:90%
+Absolutely.
+
+00:45:43.210 --> 00:45:47.260 align:middle line:84%
+So this is-- one of the things
+I love about linguistics is that
+
+00:45:47.260 --> 00:45:49.970 align:middle line:84%
+it's very-- here we are in
+24.900 and it's not all that
+
+00:45:49.970 --> 00:45:50.470 align:middle line:90%
+hard.
+
+00:45:50.470 --> 00:45:51.970 align:middle line:84%
+I mean, we're late
+in the semester.
+
+00:45:51.970 --> 00:45:53.200 align:middle line:84%
+I've had to teach
+you a bunch of things
+
+00:45:53.200 --> 00:45:54.350 align:middle line:90%
+in order to get you here.
+
+00:45:54.350 --> 00:45:57.400 align:middle line:84%
+But where I've got
+now is standing
+
+00:45:57.400 --> 00:46:00.130 align:middle line:84%
+right on the edge of
+the abyss looking out.
+
+00:46:00.130 --> 00:46:03.010 align:middle line:84%
+So it's not clear
+where the bridge
+
+00:46:03.010 --> 00:46:05.260 align:middle line:84%
+is, that will get
+us across the abyss.
+
+00:46:05.260 --> 00:46:09.520 align:middle line:84%
+These are two ways that
+people deal with this problem.
+
+00:46:09.520 --> 00:46:13.480 align:middle line:84%
+One is to say, no, there's
+always wh-movement.
+
+00:46:13.480 --> 00:46:15.912 align:middle line:84%
+And what's going
+on here is that you
+
+00:46:15.912 --> 00:46:17.120 align:middle line:90%
+get to rephrase these things.
+
+00:46:17.120 --> 00:46:18.537 align:middle line:84%
+Notice that you
+have to be careful
+
+00:46:18.537 --> 00:46:20.740 align:middle line:84%
+about this to avoid
+losing the results
+
+00:46:20.740 --> 00:46:22.480 align:middle line:84%
+that we got from
+the previous slides.
+
+00:46:22.480 --> 00:46:28.300 align:middle line:84%
+So why can't a Russian say, "He
+wants to talk with somebody,
+
+00:46:28.300 --> 00:46:33.310 align:middle line:84%
+but I don't know who it
+is," leaving out the "with,"
+
+00:46:33.310 --> 00:46:34.708 align:middle line:90%
+which they can't do?
+
+00:46:34.708 --> 00:46:36.250 align:middle line:84%
+So we have to
+understand what's going
+
+00:46:36.250 --> 00:46:38.083 align:middle line:90%
+on in those kinds of examples.
+
+00:46:38.083 --> 00:46:39.500 align:middle line:84%
+There are other
+things people say,
+
+00:46:39.500 --> 00:46:42.280 align:middle line:84%
+but this is the place where
+the field currently is,
+
+00:46:42.280 --> 00:46:44.800 align:middle line:84%
+trying to figure out what to
+do about this kind of clash
+
+00:46:44.800 --> 00:46:46.195 align:middle line:90%
+between data.
+
+00:46:46.195 --> 00:46:50.000 align:middle line:90%
+
+
+00:46:50.000 --> 00:46:50.540 align:middle line:90%
+Cool.
+
+00:46:50.540 --> 00:46:51.707 align:middle line:90%
+Questions about any of that?
+
+00:46:51.707 --> 00:46:54.768 align:middle line:90%
+
+
+00:46:54.768 --> 00:46:56.130 align:middle line:90%
+OK.
+
+00:46:56.130 --> 00:47:01.900 align:middle line:84%
+So moral of all this, and then
+we will switch topics again,
+
+00:47:01.900 --> 00:47:05.020 align:middle line:84%
+what we're seeing, maybe
+we knew this before,
+
+00:47:05.020 --> 00:47:11.800 align:middle line:84%
+is that our best take on
+how-- so here we are, almost
+
+00:47:11.800 --> 00:47:13.120 align:middle line:90%
+at the end of semantics.
+
+00:47:13.120 --> 00:47:16.780 align:middle line:84%
+And what we're
+learning is if you
+
+00:47:16.780 --> 00:47:19.720 align:middle line:84%
+are trying to interpret
+a sentence, what
+
+00:47:19.720 --> 00:47:22.150 align:middle line:84%
+you are interpreting
+is not necessarily
+
+00:47:22.150 --> 00:47:24.370 align:middle line:90%
+exactly what you hear.
+
+00:47:24.370 --> 00:47:26.890 align:middle line:84%
+So there are phenomena
+like reconstruction
+
+00:47:26.890 --> 00:47:30.460 align:middle line:84%
+where it sure looks like you
+get to take something that
+
+00:47:30.460 --> 00:47:33.670 align:middle line:84%
+used to be in one place
+and is now in another place
+
+00:47:33.670 --> 00:47:37.610 align:middle line:84%
+and interpret it as though it
+was still where it used to be.
+
+00:47:37.610 --> 00:47:39.460 align:middle line:84%
+So "Which picture of
+himself did he buy?"
+
+00:47:39.460 --> 00:47:43.253 align:middle line:84%
+is grammatical, because you have
+the option of reconstructing
+
+00:47:43.253 --> 00:47:44.920 align:middle line:84%
+"Which picture of
+himself" to a position
+
+00:47:44.920 --> 00:47:47.590 align:middle line:84%
+where he "himself" is
+still bound by "he."
+
+00:47:47.590 --> 00:47:50.170 align:middle line:84%
+so we know that "himself" needs
+to be c-commanded by "he,"
+
+00:47:50.170 --> 00:47:52.570 align:middle line:84%
+and it isn't in the
+move to position.
+
+00:47:52.570 --> 00:47:56.020 align:middle line:84%
+Or we think that there is
+such a thing as QR, quantifier
+
+00:47:56.020 --> 00:47:58.000 align:middle line:84%
+raising, which
+creates ambiguities
+
+00:47:58.000 --> 00:48:00.100 align:middle line:84%
+like the one in "Someone
+loves everyone."
+
+00:48:00.100 --> 00:48:01.990 align:middle line:84%
+By taking "everyone"
+and moving it
+
+00:48:01.990 --> 00:48:04.140 align:middle line:90%
+to a position above "someone."
+
+00:48:04.140 --> 00:48:06.610 align:middle line:84%
+Yeah, we saw some
+evidence for that.
+
+00:48:06.610 --> 00:48:08.890 align:middle line:84%
+In English, you can't
+see that, at least you
+
+00:48:08.890 --> 00:48:11.290 align:middle line:84%
+don't have to say
+"Everyone someone
+
+00:48:11.290 --> 00:48:13.858 align:middle line:84%
+loves" in order for the
+sentence to be ambiguous.
+
+00:48:13.858 --> 00:48:15.400 align:middle line:84%
+You can say, "Someone
+loves everyone"
+
+00:48:15.400 --> 00:48:16.510 align:middle line:90%
+and get an ambiguous sentence.
+
+00:48:16.510 --> 00:48:18.430 align:middle line:84%
+We saw that there are
+languages, like Hungarian, where
+
+00:48:18.430 --> 00:48:20.138 align:middle line:84%
+you do get to see the
+movement, but there
+
+00:48:20.138 --> 00:48:23.620 align:middle line:84%
+are plenty of languages where
+you don't, like English.
+
+00:48:23.620 --> 00:48:26.530 align:middle line:84%
+Or ellipsis, where we've seen
+some arguments, some of them
+
+00:48:26.530 --> 00:48:28.988 align:middle line:84%
+pretty compelling, that when
+you say "She bought something,
+
+00:48:28.988 --> 00:48:31.330 align:middle line:84%
+but I don't know what,"
+that it's really "She bought
+
+00:48:31.330 --> 00:48:33.310 align:middle line:84%
+something, but I don't
+know what she bought,"
+
+00:48:33.310 --> 00:48:35.590 align:middle line:84%
+and you are interpreting
+something that's
+
+00:48:35.590 --> 00:48:37.210 align:middle line:90%
+larger than what you can hear.
+
+00:48:37.210 --> 00:48:38.800 align:middle line:84%
+There's this option
+of leaving out
+
+00:48:38.800 --> 00:48:42.760 align:middle line:84%
+some of the stuff that's
+syntactically there.
+
+00:48:42.760 --> 00:48:46.985 align:middle line:84%
+So interpretation is complicated
+for all kinds of reasons.
+
+00:48:46.985 --> 00:48:49.610 align:middle line:84%
+There's all kinds of interesting
+stuff semanticists talk about.
+
+00:48:49.610 --> 00:48:51.370 align:middle line:84%
+But one of the things
+that they have to do
+
+00:48:51.370 --> 00:48:54.910 align:middle line:84%
+is figure out what exactly
+is being interpreted.
+
+00:48:54.910 --> 00:48:58.270 align:middle line:84%
+And it's not just a matter of
+figuring out what you heard.
+
+00:48:58.270 --> 00:49:02.562 align:middle line:84%
+There's stuff that you
+didn't hear that's going on.
+
+00:49:02.562 --> 00:49:04.645 align:middle line:84%
+Part of what makes semantics
+an interesting field.
+
+00:49:04.645 --> 00:49:07.920 align:middle line:90%
+
+
+00:49:07.920 --> 00:49:10.020 align:middle line:90%
+Complete shift in topic.
+
+00:49:10.020 --> 00:49:12.930 align:middle line:84%
+No more talk about
+reconstruction, very little
+
+00:49:12.930 --> 00:49:14.910 align:middle line:90%
+talk about syntax.
+
+00:49:14.910 --> 00:49:16.780 align:middle line:84%
+Talk about something
+completely different.
+
+00:49:16.780 --> 00:49:18.420 align:middle line:84%
+So if anybody would
+like to continue
+
+00:49:18.420 --> 00:49:24.750 align:middle line:84%
+to discuss sluicing, or guards,
+or buildings, or ellipses,
+
+00:49:24.750 --> 00:49:28.500 align:middle line:84%
+or any of this stuff,
+this is the time.
+
+00:49:28.500 --> 00:49:31.142 align:middle line:84%
+So other kinds of things
+semanticists talk about.
+
+00:49:31.142 --> 00:49:32.850 align:middle line:84%
+We'll see how much of
+this we get through
+
+00:49:32.850 --> 00:49:34.635 align:middle line:90%
+before we have to stop.
+
+00:49:34.635 --> 00:49:37.260 align:middle line:84%
+Consider a sentence like "I will
+only give Mary three cookies."
+
+00:49:37.260 --> 00:49:40.810 align:middle line:90%
+
+
+00:49:40.810 --> 00:49:44.680 align:middle line:84%
+That's a very
+ambiguous sentence.
+
+00:49:44.680 --> 00:49:47.200 align:middle line:84%
+It can mean-- here's
+one thing it can mean.
+
+00:49:47.200 --> 00:49:49.405 align:middle line:84%
+No, actually, let me
+say it a different way.
+
+00:49:49.405 --> 00:49:51.530 align:middle line:84%
+You can say, "I will only
+give Mary three cookies."
+
+00:49:51.530 --> 00:49:55.570 align:middle line:84%
+You can say, "I will only give
+Mary three cookies," which
+
+00:49:55.570 --> 00:49:58.000 align:middle line:84%
+means something different
+from "I will only give Mary
+
+00:49:58.000 --> 00:50:04.370 align:middle line:84%
+three cookies," which means
+something different from "I
+
+00:50:04.370 --> 00:50:06.370 align:middle line:84%
+will only give Mary
+three cookies."
+
+00:50:06.370 --> 00:50:09.120 align:middle line:90%
+Yeah.
+
+00:50:09.120 --> 00:50:11.250 align:middle line:84%
+I think you can also
+say, "I will only
+
+00:50:11.250 --> 00:50:13.120 align:middle line:90%
+give Mary three cookies."
+
+00:50:13.120 --> 00:50:13.740 align:middle line:90%
+Yeah.
+
+00:50:13.740 --> 00:50:15.810 align:middle line:90%
+I will not-- yeah.
+
+00:50:15.810 --> 00:50:16.560 align:middle line:90%
+Yes?
+
+00:50:16.560 --> 00:50:18.352 align:middle line:84%
+AUDIENCE: Another
+example I've seen of this
+
+00:50:18.352 --> 00:50:20.117 align:middle line:84%
+is "Congratulations
+on your baby!"
+
+00:50:20.117 --> 00:50:20.992 align:middle line:90%
+NORVIN RICHARDS: Yes?
+
+00:50:20.992 --> 00:50:22.230 align:middle line:90%
+AUDIENCE: Or if you--
+
+00:50:22.230 --> 00:50:23.355 align:middle line:90%
+NORVIN RICHARDS: Thank you.
+
+00:50:23.355 --> 00:50:25.520 align:middle line:90%
+
+
+00:50:25.520 --> 00:50:27.480 align:middle line:90%
+AUDIENCE: If you put a focus--
+
+00:50:27.480 --> 00:50:30.810 align:middle line:84%
+every single word in the
+sentence except for "on,"
+
+00:50:30.810 --> 00:50:32.730 align:middle line:84%
+if you put your
+focus on that word,
+
+00:50:32.730 --> 00:50:34.530 align:middle line:84%
+it means something
+completely different.
+
+00:50:34.530 --> 00:50:35.655 align:middle line:90%
+NORVIN RICHARDS: Oh, I see.
+
+00:50:35.655 --> 00:50:36.870 align:middle line:90%
+Yes.
+
+00:50:36.870 --> 00:50:38.280 align:middle line:90%
+AUDIENCE: You can't say that.
+
+00:50:38.280 --> 00:50:39.570 align:middle line:84%
+NORVIN RICHARDS:
+"Congratulations on your baby,
+
+00:50:39.570 --> 00:50:40.500 align:middle line:90%
+not under your baby."
+
+00:50:40.500 --> 00:50:41.000 align:middle line:90%
+Yes.
+
+00:50:41.000 --> 00:50:43.200 align:middle line:90%
+Yeah, yeah, yeah.
+
+00:50:43.200 --> 00:50:44.500 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:50:44.500 --> 00:50:46.500 align:middle line:84%
+NORVIN RICHARDS:
+"Congratulations on your baby,"
+
+00:50:46.500 --> 00:50:47.640 align:middle line:90%
+yeah.
+
+00:50:47.640 --> 00:50:52.200 align:middle line:84%
+So let's go back to
+the cookies, though.
+
+00:50:52.200 --> 00:50:55.390 align:middle line:84%
+The phenomenon is called
+association with focus.
+
+00:50:55.390 --> 00:50:57.510 align:middle line:84%
+And the idea is
+if I say something
+
+00:50:57.510 --> 00:51:02.950 align:middle line:84%
+like "I will only give
+Mary three cookies,"
+
+00:51:02.950 --> 00:51:06.850 align:middle line:84%
+what I'm doing is
+inviting you to consider
+
+00:51:06.850 --> 00:51:09.160 align:middle line:84%
+all of the sentences
+of the form,
+
+00:51:09.160 --> 00:51:12.810 align:middle line:90%
+"I will give x three cookies."
+
+00:51:12.810 --> 00:51:15.890 align:middle line:84%
+And I'm asserting all
+of these are false,
+
+00:51:15.890 --> 00:51:18.980 align:middle line:84%
+except for the one
+where x is Mary.
+
+00:51:18.980 --> 00:51:20.010 align:middle line:90%
+That's what that means.
+
+00:51:20.010 --> 00:51:22.160 align:middle line:84%
+So "I will only give
+Mary three cookies"
+
+00:51:22.160 --> 00:51:24.200 align:middle line:84%
+means I will give
+Mary three cookies,
+
+00:51:24.200 --> 00:51:27.590 align:middle line:84%
+and I will not give three
+cookies to Bill, or John,
+
+00:51:27.590 --> 00:51:31.410 align:middle line:84%
+or Susan, or Fred, or
+anybody else that's relevant.
+
+00:51:31.410 --> 00:51:36.590 align:middle line:84%
+Similarly, if I say "I will
+only give Mary three cookies,"
+
+00:51:36.590 --> 00:51:38.870 align:middle line:84%
+it means I will give
+her three cookies,
+
+00:51:38.870 --> 00:51:42.380 align:middle line:84%
+but I will not give her three
+hamburgers, or three hot dogs,
+
+00:51:42.380 --> 00:51:43.670 align:middle line:90%
+or three cakes.
+
+00:51:43.670 --> 00:51:45.740 align:middle line:90%
+Only three cookies.
+
+00:51:45.740 --> 00:51:50.330 align:middle line:84%
+So association with focus, it's
+this interesting phenomenon
+
+00:51:50.330 --> 00:51:53.450 align:middle line:84%
+that shows up where, depending
+on which of these words
+
+00:51:53.450 --> 00:51:57.950 align:middle line:84%
+I'm saying loudest, what
+I'm inviting you to do
+
+00:51:57.950 --> 00:52:01.700 align:middle line:84%
+is consider other sentences
+where that word has been
+
+00:52:01.700 --> 00:52:03.155 align:middle line:90%
+substituted for something else.
+
+00:52:03.155 --> 00:52:07.430 align:middle line:90%
+
+
+00:52:07.430 --> 00:52:09.290 align:middle line:84%
+And in this
+particular case, what
+
+00:52:09.290 --> 00:52:11.790 align:middle line:84%
+I'm asserting is that all the
+other sentences are false,
+
+00:52:11.790 --> 00:52:15.920 align:middle line:84%
+all the ones except
+the one that I've said.
+
+00:52:15.920 --> 00:52:19.500 align:middle line:84%
+People generally decompose
+this into two parts.
+
+00:52:19.500 --> 00:52:23.750 align:middle line:84%
+There's focus, which is the
+putting special emphasis
+
+00:52:23.750 --> 00:52:26.210 align:middle line:84%
+on a particular
+word thing, which
+
+00:52:26.210 --> 00:52:29.373 align:middle line:84%
+invites you to consider all of
+the alternatives to that word.
+
+00:52:29.373 --> 00:52:31.790 align:middle line:84%
+And what you're supposed to
+do with the other alternatives
+
+00:52:31.790 --> 00:52:33.350 align:middle line:84%
+to that word depends
+on what goes on
+
+00:52:33.350 --> 00:52:34.880 align:middle line:90%
+in the rest of the sentence.
+
+00:52:34.880 --> 00:52:38.940 align:middle line:84%
+So "only" associates
+with focus to say,
+
+00:52:38.940 --> 00:52:40.970 align:middle line:84%
+all the other
+alternatives are false,
+
+00:52:40.970 --> 00:52:42.330 align:middle line:90%
+give you false sentences.
+
+00:52:42.330 --> 00:52:44.270 align:middle line:84%
+So "I will only give
+Mary three cookies"
+
+00:52:44.270 --> 00:52:46.130 align:middle line:84%
+means I will give
+Mary three cookies,
+
+00:52:46.130 --> 00:52:48.470 align:middle line:84%
+but I won't give three
+cookies to anyone else.
+
+00:52:48.470 --> 00:52:53.930 align:middle line:84%
+If I say, "I will even give
+Mary three cookies," that
+
+00:52:53.930 --> 00:52:57.140 align:middle line:84%
+means something like I will
+give Mary three cookies,
+
+00:52:57.140 --> 00:52:59.360 align:middle line:84%
+and she is the least
+likely person for me
+
+00:52:59.360 --> 00:53:01.190 align:middle line:90%
+to give three cookies.
+
+00:53:01.190 --> 00:53:03.590 align:middle line:90%
+We all know that I hate Mary.
+
+00:53:03.590 --> 00:53:05.900 align:middle line:84%
+But I'm going to give
+three cookies to everybody,
+
+00:53:05.900 --> 00:53:09.380 align:middle line:84%
+even Mary, who I hate,
+and also she's diabetic.
+
+00:53:09.380 --> 00:53:11.660 align:middle line:84%
+But I'm going to give
+her three cookies anyway.
+
+00:53:11.660 --> 00:53:14.213 align:middle line:90%
+Yeah?
+
+00:53:14.213 --> 00:53:15.880 align:middle line:84%
+Or "I will even give
+Mary three cookies"
+
+00:53:15.880 --> 00:53:20.530 align:middle line:84%
+means I will give her
+three cookies, not just
+
+00:53:20.530 --> 00:53:23.200 align:middle line:90%
+other numbers, like two or one.
+
+00:53:23.200 --> 00:53:25.450 align:middle line:90%
+That's what that means.
+
+00:53:25.450 --> 00:53:28.030 align:middle line:84%
+"I will give Mary
+three cookies, too,"
+
+00:53:28.030 --> 00:53:30.520 align:middle line:84%
+actually says, I will
+give Mary three cookies,
+
+00:53:30.520 --> 00:53:32.830 align:middle line:84%
+and there's at least
+one alternative, which
+
+00:53:32.830 --> 00:53:34.338 align:middle line:90%
+is also true, I guess.
+
+00:53:34.338 --> 00:53:36.130 align:middle line:84%
+So "I will give Mary
+three cookies" means--
+
+00:53:36.130 --> 00:53:37.450 align:middle line:84%
+"I will give Mary
+three cookies, too,"
+
+00:53:37.450 --> 00:53:39.430 align:middle line:84%
+means I'll give Mary
+three cookies in addition
+
+00:53:39.430 --> 00:53:41.260 align:middle line:84%
+to the other person that I'm
+going to give three cookies to,
+
+00:53:41.260 --> 00:53:42.790 align:middle line:84%
+which maybe you
+already know about.
+
+00:53:42.790 --> 00:53:43.397 align:middle line:90%
+Yeah?
+
+00:53:43.397 --> 00:53:45.730 align:middle line:84%
+AUDIENCE: In the middle one,
+if you emphasize "cookies,"
+
+00:53:45.730 --> 00:53:47.860 align:middle line:84%
+it would be like giving
+her three of other things,
+
+00:53:47.860 --> 00:53:49.780 align:middle line:84%
+but you're also throwing
+in three cookies.
+
+00:53:49.780 --> 00:53:50.697 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:53:50.697 --> 00:53:53.560 align:middle line:84%
+So "I will give Mary
+three cookies, too."
+
+00:53:53.560 --> 00:53:55.660 align:middle line:84%
+So this is another
+interesting aspect
+
+00:53:55.660 --> 00:53:56.950 align:middle line:90%
+of association with focus.
+
+00:53:56.950 --> 00:54:01.130 align:middle line:90%
+
+
+00:54:01.130 --> 00:54:04.242 align:middle line:84%
+Yes, so it can mean
+what you just said.
+
+00:54:04.242 --> 00:54:05.450 align:middle line:90%
+I'm going to write that down.
+
+00:54:05.450 --> 00:54:08.312 align:middle line:90%
+
+
+00:54:08.312 --> 00:54:18.500 align:middle line:84%
+"I will give Mary
+three cookies, too."
+
+00:54:18.500 --> 00:54:20.780 align:middle line:84%
+It can mean, I will
+give her three cookies
+
+00:54:20.780 --> 00:54:23.360 align:middle line:84%
+and I will also give her
+three of something else.
+
+00:54:23.360 --> 00:54:25.543 align:middle line:90%
+You're absolutely right.
+
+00:54:25.543 --> 00:54:27.710 align:middle line:84%
+I feel as though it can
+mean something else as well.
+
+00:54:27.710 --> 00:54:31.190 align:middle line:84%
+"I will give Mary
+three cookies, too."
+
+00:54:31.190 --> 00:54:34.120 align:middle line:84%
+Can people get that to
+mean something else?
+
+00:54:34.120 --> 00:54:35.650 align:middle line:84%
+I feel as though
+it can also mean,
+
+00:54:35.650 --> 00:54:37.570 align:middle line:84%
+not only will I give
+her three cookies,
+
+00:54:37.570 --> 00:54:40.373 align:middle line:90%
+but I will give her a bicycle.
+
+00:54:40.373 --> 00:54:42.290 align:middle line:84%
+That is, the other thing
+that I will give her,
+
+00:54:42.290 --> 00:54:44.170 align:middle line:90%
+it doesn't have to be three.
+
+00:54:44.170 --> 00:54:49.150 align:middle line:84%
+So I will give Mary a cake,
+I will give Mary a pie,
+
+00:54:49.150 --> 00:54:52.520 align:middle line:84%
+and I will give her
+three cookies, too.
+
+00:54:52.520 --> 00:54:53.520 align:middle line:90%
+Yeah.
+
+00:54:53.520 --> 00:54:57.200 align:middle line:84%
+So this is an interesting
+aspect of all this
+
+00:54:57.200 --> 00:54:58.580 align:middle line:90%
+that people work on a lot.
+
+00:54:58.580 --> 00:55:02.570 align:middle line:84%
+So I've just been talking about
+putting stress on the word
+
+00:55:02.570 --> 00:55:04.110 align:middle line:84%
+and saying you get
+to consider all
+
+00:55:04.110 --> 00:55:05.360 align:middle line:90%
+the alternatives to that word.
+
+00:55:05.360 --> 00:55:07.730 align:middle line:84%
+And that is true, that if
+you put stress on a word,
+
+00:55:07.730 --> 00:55:09.980 align:middle line:84%
+you get to consider all the
+alternatives to this word.
+
+00:55:09.980 --> 00:55:12.140 align:middle line:84%
+There's this
+phenomenon is sometimes
+
+00:55:12.140 --> 00:55:13.700 align:middle line:90%
+called focus projection.
+
+00:55:13.700 --> 00:55:15.810 align:middle line:84%
+And one way to
+think about it is,
+
+00:55:15.810 --> 00:55:18.650 align:middle line:84%
+we know how to focus a word,
+you say the word louder.
+
+00:55:18.650 --> 00:55:21.260 align:middle line:90%
+How do you focus a phrase?
+
+00:55:21.260 --> 00:55:24.440 align:middle line:84%
+And maybe what we're
+learning is a way
+
+00:55:24.440 --> 00:55:27.490 align:middle line:84%
+to focus the whole
+phrase, "three cookies,"
+
+00:55:27.490 --> 00:55:30.010 align:middle line:84%
+is the same way you
+would focus "cookies."
+
+00:55:30.010 --> 00:55:31.870 align:middle line:84%
+That is, you put
+stress on "cookies."
+
+00:55:31.870 --> 00:55:34.078 align:middle line:84%
+You might have thought that
+the way to focus a phrase
+
+00:55:34.078 --> 00:55:35.950 align:middle line:84%
+would be to say the
+whole phrase louder.
+
+00:55:35.950 --> 00:55:39.250 align:middle line:84%
+So "I will give Mary a
+cake, I will give her a pie,
+
+00:55:39.250 --> 00:55:41.950 align:middle line:84%
+and I will give her
+three cookies, too."
+
+00:55:41.950 --> 00:55:44.830 align:middle line:84%
+You might have thought that
+you would have to do that.
+
+00:55:44.830 --> 00:55:45.460 align:middle line:90%
+You don't.
+
+00:55:45.460 --> 00:55:50.380 align:middle line:84%
+You can, maybe, but you
+don't have to do that.
+
+00:55:50.380 --> 00:55:54.610 align:middle line:84%
+One of your options
+is to just emphasize
+
+00:55:54.610 --> 00:55:57.580 align:middle line:84%
+part of the phrase,
+and now the theory,
+
+00:55:57.580 --> 00:56:00.020 align:middle line:84%
+or the literature
+is off and running:
+
+00:56:00.020 --> 00:56:03.070 align:middle line:84%
+which part of the phrase do
+you get to emphasize in order
+
+00:56:03.070 --> 00:56:04.630 align:middle line:90%
+to focus the whole phrase?
+
+00:56:04.630 --> 00:56:07.150 align:middle line:84%
+Because notice there
+are constraints.
+
+00:56:07.150 --> 00:56:14.410 align:middle line:84%
+If I say, "I will give Mary
+three cookies, too," well.
+
+00:56:14.410 --> 00:56:19.640 align:middle line:84%
+That's grammatical, but the only
+alternatives are other numbers.
+
+00:56:19.640 --> 00:56:21.353 align:middle line:84%
+So "I will give Mary
+three cookies, too,"
+
+00:56:21.353 --> 00:56:23.770 align:middle line:84%
+means not only will I give her
+one cookie and two cookies,
+
+00:56:23.770 --> 00:56:25.420 align:middle line:84%
+but I will also give
+her three cookies.
+
+00:56:25.420 --> 00:56:26.320 align:middle line:90%
+It can mean that.
+
+00:56:26.320 --> 00:56:28.930 align:middle line:84%
+But "I will give her a cake,
+and I will give her a pie,
+
+00:56:28.930 --> 00:56:32.230 align:middle line:84%
+and I will also give
+her three cookies"--
+
+00:56:32.230 --> 00:56:32.980 align:middle line:90%
+that's peculiar.
+
+00:56:32.980 --> 00:56:35.870 align:middle line:90%
+
+
+00:56:35.870 --> 00:56:38.810 align:middle line:84%
+If I want to avoid
+being peculiar,
+
+00:56:38.810 --> 00:56:41.720 align:middle line:90%
+I have a long way to go.
+
+00:56:41.720 --> 00:56:43.770 align:middle line:90%
+But I can start.
+
+00:56:43.770 --> 00:56:46.160 align:middle line:84%
+The first step on the
+long, long journey
+
+00:56:46.160 --> 00:56:47.960 align:middle line:84%
+is to avoid saying
+things like that.
+
+00:56:47.960 --> 00:56:50.150 align:middle line:90%
+Instead, I need to say--
+
+00:56:50.150 --> 00:56:53.055 align:middle line:90%
+sorry, I'm cracking myself up.
+
+00:56:53.055 --> 00:56:54.680 align:middle line:84%
+What I need to say
+instead is something
+
+00:56:54.680 --> 00:56:57.560 align:middle line:84%
+like "I will give her a cake,
+and I will give her a pie,
+
+00:56:57.560 --> 00:56:59.320 align:middle line:84%
+and I will give her
+three cookies, too"--
+
+00:56:59.320 --> 00:57:00.830 align:middle line:90%
+to put the stress on "cookies."
+
+00:57:00.830 --> 00:57:02.995 align:middle line:84%
+That's the normal way to
+focus the whole phrase
+
+00:57:02.995 --> 00:57:05.120 align:middle line:84%
+"three cookies," is to put
+the stress on "cookies."
+
+00:57:05.120 --> 00:57:08.660 align:middle line:84%
+So how come it's on the
+"cookies" and not on "three"?
+
+00:57:08.660 --> 00:57:11.750 align:middle line:84%
+Maybe because the whole phrase
+is a noun phrase and "cookies"
+
+00:57:11.750 --> 00:57:13.982 align:middle line:90%
+is the noun.
+
+00:57:13.982 --> 00:57:15.690 align:middle line:84%
+Or maybe it's more
+complicated than that.
+
+00:57:15.690 --> 00:57:19.348 align:middle line:84%
+There's all kinds of work now
+to figure out what's going on.
+
+00:57:19.348 --> 00:57:21.140 align:middle line:84%
+So there's a phenomenon
+in focus projection
+
+00:57:21.140 --> 00:57:23.515 align:middle line:84%
+which people get very excited
+about trying to figure out.
+
+00:57:23.515 --> 00:57:26.360 align:middle line:84%
+What is it that
+lets you do this?
+
+00:57:26.360 --> 00:57:28.370 align:middle line:84%
+Because it goes
+further than this--
+
+00:57:28.370 --> 00:57:33.530 align:middle line:84%
+So actually, let me destroy
+the theory that I just offered.
+
+00:57:33.530 --> 00:57:48.630 align:middle line:84%
+Consider a sentence like "I
+will only talk about bats."
+
+00:57:48.630 --> 00:57:52.600 align:middle line:90%
+
+
+00:57:52.600 --> 00:57:55.360 align:middle line:84%
+Now imagine that the main thing
+that I emphasize is "bats."
+
+00:57:55.360 --> 00:57:58.010 align:middle line:90%
+
+
+00:57:58.010 --> 00:58:02.240 align:middle line:84%
+So that has one meaning,
+that's the easy meaning.
+
+00:58:02.240 --> 00:58:05.360 align:middle line:84%
+"I will only talk about
+bats" means I will not
+
+00:58:05.360 --> 00:58:07.058 align:middle line:90%
+talk about anything else.
+
+00:58:07.058 --> 00:58:08.225 align:middle line:90%
+I will only talk about bats.
+
+00:58:08.225 --> 00:58:10.693 align:middle line:90%
+
+
+00:58:10.693 --> 00:58:12.860 align:middle line:84%
+But I think there are some
+other things it can mean.
+
+00:58:12.860 --> 00:58:14.990 align:middle line:84%
+One of them, for
+example, is I can say
+
+00:58:14.990 --> 00:58:16.790 align:middle line:90%
+"I will only talk about bats."
+
+00:58:16.790 --> 00:58:20.180 align:middle line:84%
+I will not draw any
+disturbing drawings,
+
+00:58:20.180 --> 00:58:22.610 align:middle line:90%
+or sing any weird songs.
+
+00:58:22.610 --> 00:58:25.220 align:middle line:84%
+All I will do is
+talk about bats.
+
+00:58:25.220 --> 00:58:27.110 align:middle line:90%
+I think it can mean that.
+
+00:58:27.110 --> 00:58:30.470 align:middle line:84%
+So I can be contrasting
+the bats with other things,
+
+00:58:30.470 --> 00:58:32.930 align:middle line:84%
+but I can also be contrasting
+the whole verb phrase,
+
+00:58:32.930 --> 00:58:37.490 align:middle line:84%
+"talk about bats,"
+with other verb phrases
+
+00:58:37.490 --> 00:58:38.450 align:middle line:90%
+that I could be doing.
+
+00:58:38.450 --> 00:58:38.950 align:middle line:90%
+Yeah?
+
+00:58:38.950 --> 00:58:40.867 align:middle line:84%
+AUDIENCE: I feel like
+if you get that meaning,
+
+00:58:40.867 --> 00:58:42.410 align:middle line:84%
+you would have to
+emphasize talk.
+
+00:58:42.410 --> 00:58:44.640 align:middle line:90%
+"I will only talk about them.
+
+00:58:44.640 --> 00:58:46.810 align:middle line:84%
+I won't sing about them,
+I won't draw them."
+
+00:58:46.810 --> 00:58:48.660 align:middle line:84%
+NORVIN RICHARDS: Ah,
+that's a nice example.
+
+00:58:48.660 --> 00:58:50.352 align:middle line:90%
+Let's do that.
+
+00:58:50.352 --> 00:58:51.790 align:middle line:90%
+"I will only talk about bats."
+
+00:58:51.790 --> 00:58:58.720 align:middle line:90%
+
+
+00:58:58.720 --> 00:59:00.160 align:middle line:84%
+I think Faith is
+absolutely right.
+
+00:59:00.160 --> 00:59:03.942 align:middle line:84%
+It's possible to say "I
+will only talk about bats."
+
+00:59:03.942 --> 00:59:05.650 align:middle line:84%
+And I think the
+alternatives are the ones
+
+00:59:05.650 --> 00:59:06.608 align:middle line:90%
+that you just outlined.
+
+00:59:06.608 --> 00:59:08.950 align:middle line:84%
+It means I won't
+sing about bats,
+
+00:59:08.950 --> 00:59:10.777 align:middle line:84%
+I won't compose
+poetry about bats,
+
+00:59:10.777 --> 00:59:11.860 align:middle line:90%
+I won't dress up as a bat.
+
+00:59:11.860 --> 00:59:13.540 align:middle line:84%
+All I will do is
+talk about bats.
+
+00:59:13.540 --> 00:59:16.440 align:middle line:90%
+Yeah, I think that's right.
+
+00:59:16.440 --> 00:59:20.400 align:middle line:90%
+But notice-- I think this one--
+
+00:59:20.400 --> 00:59:24.735 align:middle line:84%
+imagine that what I want to
+say is "I'm obsessed with bats,
+
+00:59:24.735 --> 00:59:25.235 align:middle line:90%
+I'm sorry.
+
+00:59:25.235 --> 00:59:28.790 align:middle line:90%
+
+
+00:59:28.790 --> 00:59:30.950 align:middle line:90%
+And in fact, I--
+
+00:59:30.950 --> 00:59:34.440 align:middle line:84%
+but I'm going to do my best to
+behave normally at the party.
+
+00:59:34.440 --> 00:59:39.200 align:middle line:84%
+So I'm not going to try
+to swim in the punch bowl,
+
+00:59:39.200 --> 00:59:44.030 align:middle line:84%
+and I'm not going to
+scare the host's pets,
+
+00:59:44.030 --> 00:59:47.180 align:middle line:84%
+and I'm not going
+to eat all the food.
+
+00:59:47.180 --> 00:59:49.908 align:middle line:84%
+I'm only going to talk about
+bats, which is a little weird.
+
+00:59:49.908 --> 00:59:52.450 align:middle line:84%
+But it's not as weird as some
+of the things that I could do."
+
+00:59:52.450 --> 00:59:55.660 align:middle line:90%
+
+
+00:59:55.660 --> 00:59:57.730 align:middle line:84%
+So if we're considering
+a bunch of verb phrases
+
+00:59:57.730 --> 01:00:00.780 align:middle line:84%
+that have nothing to
+do with each other,
+
+01:00:00.780 --> 01:00:04.700 align:middle line:84%
+I think one way to do it is by
+putting the emphasis on "bats,"
+
+01:00:04.700 --> 01:00:07.620 align:middle line:84%
+to say "I will only
+talk about bats."
+
+01:00:07.620 --> 01:00:12.310 align:middle line:84%
+("I won't try to
+eat the host's dog.
+
+01:00:12.310 --> 01:00:13.420 align:middle line:90%
+I'll just talk about bats.
+
+01:00:13.420 --> 01:00:15.160 align:middle line:90%
+Is that so bad?
+
+01:00:15.160 --> 01:00:18.640 align:middle line:90%
+I like bats.") Yeah?
+
+01:00:18.640 --> 01:00:20.170 align:middle line:90%
+I think this is true.
+
+01:00:20.170 --> 01:00:24.600 align:middle line:84%
+Has everybody seen the video
+about the bats on the swing?
+
+01:00:24.600 --> 01:00:25.203 align:middle line:90%
+Oh, OK.
+
+01:00:25.203 --> 01:00:27.120 align:middle line:84%
+I'll try to find it and
+put it on the website.
+
+01:00:27.120 --> 01:00:28.290 align:middle line:84%
+It has nothing to
+do with linguistics,
+
+01:00:28.290 --> 01:00:29.373 align:middle line:90%
+but it's an awesome video.
+
+01:00:29.373 --> 01:00:32.770 align:middle line:90%
+
+
+01:00:32.770 --> 01:00:33.910 align:middle line:90%
+So it looks as though--
+
+01:00:33.910 --> 01:00:35.710 align:middle line:84%
+I think Faith is exactly
+right that if you
+
+01:00:35.710 --> 01:00:40.840 align:middle line:84%
+put the stress on "talk,"
+the alternatives are talk--
+
+01:00:40.840 --> 01:00:42.050 align:middle line:90%
+are to the verb.
+
+01:00:42.050 --> 01:00:43.360 align:middle line:90%
+So I'll only talk about bats.
+
+01:00:43.360 --> 01:00:45.735 align:middle line:84%
+I won't sing about bats, I
+won't do an interpretive dance
+
+01:00:45.735 --> 01:00:47.470 align:middle line:90%
+about bats.
+
+01:00:47.470 --> 01:00:49.293 align:middle line:84%
+But if I put stress
+on "bats," then we
+
+01:00:49.293 --> 01:00:50.710 align:middle line:84%
+can consider
+alternatives to bats,
+
+01:00:50.710 --> 01:00:52.252 align:middle line:84%
+but we can also
+consider alternatives
+
+01:00:52.252 --> 01:00:53.797 align:middle line:90%
+to the whole verb phrase.
+
+01:00:53.797 --> 01:00:55.630 align:middle line:84%
+And so this is the kind
+of thing, as I said,
+
+01:00:55.630 --> 01:00:56.980 align:middle line:84%
+people who work on
+focus projection
+
+01:00:56.980 --> 01:00:58.438 align:middle line:84%
+try to figure out
+what the heck are
+
+01:00:58.438 --> 01:01:02.000 align:middle line:84%
+the rules for focus projection,
+because they're complicated.
+
+01:01:02.000 --> 01:01:02.500 align:middle line:90%
+Yeah?
+
+01:01:02.500 --> 01:01:03.917 align:middle line:84%
+AUDIENCE: Oh, it's
+just a question
+
+01:01:03.917 --> 01:01:06.130 align:middle line:84%
+because I feel like my
+ability to interpret meanings
+
+01:01:06.130 --> 01:01:06.760 align:middle line:90%
+has gone out the window.
+
+01:01:06.760 --> 01:01:07.195 align:middle line:90%
+NORVIN RICHARDS: I understand.
+
+01:01:07.195 --> 01:01:07.961 align:middle line:90%
+[LAUGHTER]
+
+01:01:07.961 --> 01:01:11.645 align:middle line:84%
+AUDIENCE: What happens if you
+put the emphasis on "only?"
+
+01:01:11.645 --> 01:01:12.770 align:middle line:90%
+NORVIN RICHARDS: On "only?"
+
+01:01:12.770 --> 01:01:14.150 align:middle line:90%
+I will only talk about bats.
+
+01:01:14.150 --> 01:01:16.780 align:middle line:90%
+
+
+01:01:16.780 --> 01:01:18.197 align:middle line:84%
+I don't know, what
+does that mean?
+
+01:01:18.197 --> 01:01:19.655 align:middle line:84%
+AUDIENCE: I won't
+do anything else.
+
+01:01:19.655 --> 01:01:21.490 align:middle line:84%
+NORVIN RICHARDS: I
+won't do anything else.
+
+01:01:21.490 --> 01:01:23.910 align:middle line:90%
+I will only talk about bats.
+
+01:01:23.910 --> 01:01:26.160 align:middle line:84%
+AUDIENCE: I feel like it
+could call into question
+
+01:01:26.160 --> 01:01:28.650 align:middle line:90%
+everything in the little brace.
+
+01:01:28.650 --> 01:01:30.840 align:middle line:84%
+So you say "I will
+only talk about bats,"
+
+01:01:30.840 --> 01:01:32.910 align:middle line:84%
+and that could mean
+that you're saying
+
+01:01:32.910 --> 01:01:35.370 align:middle line:84%
+as opposed to anything
+else about bats, anything
+
+01:01:35.370 --> 01:01:36.090 align:middle line:90%
+else about--
+
+01:01:36.090 --> 01:01:37.483 align:middle line:90%
+or talk about any other--
+
+01:01:37.483 --> 01:01:38.400 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+01:01:38.400 --> 01:01:39.210 align:middle line:90%
+Yeah.
+
+01:01:39.210 --> 01:01:40.530 align:middle line:90%
+Yeah.
+
+01:01:40.530 --> 01:01:42.490 align:middle line:90%
+I think that might be true.
+
+01:01:42.490 --> 01:01:44.465 align:middle line:90%
+I think that might be right.
+
+01:01:44.465 --> 01:01:44.965 align:middle line:90%
+Yeah.
+
+01:01:44.965 --> 01:01:49.190 align:middle line:90%
+
+
+01:01:49.190 --> 01:01:50.060 align:middle line:90%
+More mysteries.
+
+01:01:50.060 --> 01:01:52.970 align:middle line:90%
+
+
+01:01:52.970 --> 01:01:57.723 align:middle line:84%
+Any other questions about bats,
+or "only," or focus projection?
+
+01:01:57.723 --> 01:01:59.390 align:middle line:84%
+It's just a phenomenon
+that's out there.
+
+01:01:59.390 --> 01:01:59.890 align:middle line:90%
+Yeah?
+
+01:01:59.890 --> 01:02:03.290 align:middle line:84%
+AUDIENCE: Have we gotten
+across a sentence where
+
+01:02:03.290 --> 01:02:06.020 align:middle line:84%
+stressing a particular
+word doesn't actually
+
+01:02:06.020 --> 01:02:07.066 align:middle line:90%
+mean anything different?
+
+01:02:07.066 --> 01:02:11.435 align:middle line:84%
+Because I feel you could
+stress any of the words in "I
+
+01:02:11.435 --> 01:02:12.560 align:middle line:90%
+will only talk about bats."
+
+01:02:12.560 --> 01:02:13.962 align:middle line:90%
+I will only talk about bats.
+
+01:02:13.962 --> 01:02:15.170 align:middle line:90%
+NORVIN RICHARDS: That's true.
+
+01:02:15.170 --> 01:02:16.180 align:middle line:84%
+So we've only
+talked about things
+
+01:02:16.180 --> 01:02:17.380 align:middle line:90%
+that come after the "only."
+
+01:02:17.380 --> 01:02:19.585 align:middle line:90%
+So I will only talk about bats.
+
+01:02:19.585 --> 01:02:22.774 align:middle line:90%
+
+
+01:02:22.774 --> 01:02:24.150 align:middle line:90%
+AUDIENCE: And not you or--
+
+01:02:24.150 --> 01:02:26.422 align:middle line:90%
+
+
+01:02:26.422 --> 01:02:28.630 align:middle line:84%
+NORVIN RICHARDS: OK, first,
+let's forget about "only"
+
+01:02:28.630 --> 01:02:30.770 align:middle line:90%
+for a second.
+
+01:02:30.770 --> 01:02:34.850 align:middle line:84%
+If I say, I will talk
+about that, remember focus.
+
+01:02:34.850 --> 01:02:37.180 align:middle line:84%
+So there's focus, which
+says let's consider
+
+01:02:37.180 --> 01:02:39.850 align:middle line:84%
+all the alternatives to
+the thing that's focused.
+
+01:02:39.850 --> 01:02:42.070 align:middle line:84%
+And now since we've talked
+about focus projection,
+
+01:02:42.070 --> 01:02:44.710 align:middle line:84%
+we're bearing in mind the
+fact that what's focused
+
+01:02:44.710 --> 01:02:47.020 align:middle line:90%
+is not necessarily what's loud.
+
+01:02:47.020 --> 01:02:51.070 align:middle line:84%
+There's what's loud, which is
+contained in what's focused,
+
+01:02:51.070 --> 01:02:52.780 align:middle line:84%
+and it might just
+be what's focused.
+
+01:02:52.780 --> 01:02:54.520 align:middle line:84%
+But the thing that's
+loud could just
+
+01:02:54.520 --> 01:02:57.040 align:middle line:84%
+be one part of the whole
+phrase that's focused.
+
+01:02:57.040 --> 01:02:59.730 align:middle line:90%
+
+
+01:02:59.730 --> 01:03:01.160 align:middle line:84%
+So forget about
+only for a second.
+
+01:03:01.160 --> 01:03:08.030 align:middle line:84%
+If I say "I will talk about
+that," there's focus on "I,"
+
+01:03:08.030 --> 01:03:10.208 align:middle line:84%
+and I think I'm inviting--
+out of the blue,
+
+01:03:10.208 --> 01:03:11.750 align:middle line:84%
+I think I'm inviting
+you to entertain
+
+01:03:11.750 --> 01:03:14.760 align:middle line:84%
+the possibility that all
+the alternatives are false.
+
+01:03:14.760 --> 01:03:17.390 align:middle line:84%
+So if I say "I will
+talk about bats,"
+
+01:03:17.390 --> 01:03:19.518 align:middle line:84%
+I mean "I will talk about
+bats and for some reason,
+
+01:03:19.518 --> 01:03:21.560 align:middle line:84%
+the idea that somebody
+else might talk about bats
+
+01:03:21.560 --> 01:03:25.590 align:middle line:84%
+is salient and it
+will not happen."
+
+01:03:25.590 --> 01:03:32.240 align:middle line:84%
+So for example, if
+you ask me "Is Faith
+
+01:03:32.240 --> 01:03:34.550 align:middle line:84%
+going to talk about
+bats at the party?"
+
+01:03:34.550 --> 01:03:37.640 align:middle line:84%
+I can say, "No, I
+will talk about bats,"
+
+01:03:37.640 --> 01:03:39.230 align:middle line:84%
+and that means I
+will talk about bats
+
+01:03:39.230 --> 01:03:42.600 align:middle line:84%
+and the salient alternative
+gives you a false sentence.
+
+01:03:42.600 --> 01:03:45.000 align:middle line:90%
+That's what that means.
+
+01:03:45.000 --> 01:03:47.750 align:middle line:84%
+So I think when we
+say "I will only
+
+01:03:47.750 --> 01:03:55.430 align:middle line:84%
+talk about bats," that's
+similarly something you can
+
+01:03:55.430 --> 01:03:56.970 align:middle line:90%
+use in that kind of situation.
+
+01:03:56.970 --> 01:04:01.760 align:middle line:84%
+So if you ask me,
+"Will Enrico only
+
+01:04:01.760 --> 01:04:04.400 align:middle line:90%
+talk about bats at the party?"
+
+01:04:04.400 --> 01:04:05.570 align:middle line:90%
+I say, "No, no.
+
+01:04:05.570 --> 01:04:07.760 align:middle line:90%
+I will only talk about bats."
+
+01:04:07.760 --> 01:04:11.348 align:middle line:84%
+And that means I am the person
+such that the only thing I'll
+
+01:04:11.348 --> 01:04:12.140 align:middle line:90%
+talk about is bats.
+
+01:04:12.140 --> 01:04:15.860 align:middle line:84%
+Enrico is more normal
+than me, like most people.
+
+01:04:15.860 --> 01:04:16.580 align:middle line:90%
+Yeah, Kateryna?
+
+01:04:16.580 --> 01:04:18.163 align:middle line:84%
+AUDIENCE: What if
+the more natural way
+
+01:04:18.163 --> 01:04:20.385 align:middle line:84%
+to say that sentence
+is "only I?"
+
+01:04:20.385 --> 01:04:22.010 align:middle line:84%
+NORVIN RICHARDS: So
+what's complicating
+
+01:04:22.010 --> 01:04:23.385 align:middle line:84%
+this is that it's
+possible to get
+
+01:04:23.385 --> 01:04:26.230 align:middle line:84%
+a meaning that's sort of like
+"only," without an "only."
+
+01:04:26.230 --> 01:04:29.000 align:middle line:84%
+that's why I started with
+"I will talk about bats,"
+
+01:04:29.000 --> 01:04:32.420 align:middle line:84%
+which means I will talk about
+bats and the alternatives to me
+
+01:04:32.420 --> 01:04:34.220 align:middle line:90%
+won't.
+
+01:04:34.220 --> 01:04:36.210 align:middle line:84%
+Maybe if we do one
+of these other ones.
+
+01:04:36.210 --> 01:04:41.640 align:middle line:84%
+So "I will even talk about
+bats" means several things.
+
+01:04:41.640 --> 01:04:43.670 align:middle line:84%
+It can mean "I will talk
+about bats in addition
+
+01:04:43.670 --> 01:04:47.180 align:middle line:84%
+to the many other things
+I will talk about."
+
+01:04:47.180 --> 01:04:52.670 align:middle line:84%
+It can also mean "You wanted
+somebody to entertain everybody
+
+01:04:52.670 --> 01:04:53.610 align:middle line:90%
+at the party.
+
+01:04:53.610 --> 01:04:57.440 align:middle line:84%
+I will juggle, I will dance,
+I will even talk about bats.
+
+01:04:57.440 --> 01:04:59.480 align:middle line:84%
+So I will do all the
+many talented things
+
+01:04:59.480 --> 01:05:01.220 align:middle line:90%
+that I'm capable of doing.
+
+01:05:01.220 --> 01:05:02.450 align:middle line:90%
+People will be agog.
+
+01:05:02.450 --> 01:05:04.530 align:middle line:90%
+You'll be glad you invited me."
+
+01:05:04.530 --> 01:05:06.240 align:middle line:90%
+It can mean that.
+
+01:05:06.240 --> 01:05:08.720 align:middle line:84%
+So putting emphasis
+on "bats" like that
+
+01:05:08.720 --> 01:05:11.840 align:middle line:84%
+can either invite you to
+consider the alternatives
+
+01:05:11.840 --> 01:05:15.170 align:middle line:84%
+to bats, or the alternatives
+to talk about bats.
+
+01:05:15.170 --> 01:05:16.610 align:middle line:90%
+Yeah.
+
+01:05:16.610 --> 01:05:21.640 align:middle line:84%
+"I will even talk
+about bats," I think,
+
+01:05:21.640 --> 01:05:23.338 align:middle line:90%
+can also mean that, right?
+
+01:05:23.338 --> 01:05:24.130 align:middle line:90%
+That kind of thing.
+
+01:05:24.130 --> 01:05:26.380 align:middle line:84%
+"I will even talk
+about bats" can
+
+01:05:26.380 --> 01:05:31.440 align:middle line:84%
+mean "I will talk
+about bats, and so will
+
+01:05:31.440 --> 01:05:34.560 align:middle line:90%
+all of the linguistics TAs.
+
+01:05:34.560 --> 01:05:37.500 align:middle line:84%
+Various people will talk
+about bats, and I'm one."
+
+01:05:37.500 --> 01:05:38.820 align:middle line:90%
+I will even talk about bats.
+
+01:05:38.820 --> 01:05:40.690 align:middle line:84%
+John will talk about bats,
+Mary will talk about bats,
+
+01:05:40.690 --> 01:05:41.857 align:middle line:90%
+I will even talk about bats.
+
+01:05:41.857 --> 01:05:43.780 align:middle line:90%
+I think it can mean that.
+
+01:05:43.780 --> 01:05:44.280 align:middle line:90%
+Faith?
+
+01:05:44.280 --> 01:05:46.590 align:middle line:84%
+AUDIENCE: Aren't there
+even further divisions
+
+01:05:46.590 --> 01:05:49.980 align:middle line:84%
+of variations of tone where,
+like, if you were to say
+
+01:05:49.980 --> 01:05:53.610 align:middle line:90%
+"I will talk about bats."
+
+01:05:53.610 --> 01:05:56.910 align:middle line:84%
+You can't say that if
+someone were like, oh yeah,
+
+01:05:56.910 --> 01:05:58.990 align:middle line:84%
+you're going to talk
+about bats at this party.
+
+01:05:58.990 --> 01:06:01.300 align:middle line:84%
+It just doesn't sound like
+an appropriate [INAUDIBLE]..
+
+01:06:01.300 --> 01:06:03.050 align:middle line:84%
+NORVIN RICHARDS: "I
+will talk about bats."
+
+01:06:03.050 --> 01:06:05.230 align:middle line:90%
+
+
+01:06:05.230 --> 01:06:07.650 align:middle line:90%
+Yeah, so we actually--
+
+01:06:07.650 --> 01:06:09.400 align:middle line:84%
+did we touch on something
+related to this?
+
+01:06:09.400 --> 01:06:11.560 align:middle line:90%
+I think we did.
+
+01:06:11.560 --> 01:06:13.810 align:middle line:84%
+Yes, we did, because we were
+talking about pragmatics,
+
+01:06:13.810 --> 01:06:15.370 align:middle line:84%
+and I was trying
+to get you to stop.
+
+01:06:15.370 --> 01:06:19.420 align:middle line:84%
+Not you specifically, but
+the whole class en masse.
+
+01:06:19.420 --> 01:06:21.850 align:middle line:84%
+You were all trying to force
+me to talk about pragmatics,
+
+01:06:21.850 --> 01:06:22.900 align:middle line:84%
+and I was trying
+to stop you, and I
+
+01:06:22.900 --> 01:06:25.108 align:middle line:84%
+don't know why I'm bringing
+this up now because we're
+
+01:06:25.108 --> 01:06:27.170 align:middle line:90%
+about to do it again.
+
+01:06:27.170 --> 01:06:31.960 align:middle line:84%
+And I was giving examples like
+if you ask me "How did people
+
+01:06:31.960 --> 01:06:33.010 align:middle line:90%
+do on the test?"
+
+01:06:33.010 --> 01:06:37.000 align:middle line:90%
+I can say, "Well, Mary passed."
+
+01:06:37.000 --> 01:06:39.220 align:middle line:90%
+And then you get--
+
+01:06:39.220 --> 01:06:43.330 align:middle line:84%
+that means-- all I've told
+you is that Mary passed.
+
+01:06:43.330 --> 01:06:46.240 align:middle line:84%
+And if we were all
+robots, you might
+
+01:06:46.240 --> 01:06:48.340 align:middle line:84%
+have expected that
+all you would conclude
+
+01:06:48.340 --> 01:06:50.230 align:middle line:90%
+from that is that Mary passed.
+
+01:06:50.230 --> 01:06:52.180 align:middle line:84%
+So you start that
+conversation not knowing
+
+01:06:52.180 --> 01:06:53.480 align:middle line:90%
+how people did on the test.
+
+01:06:53.480 --> 01:06:55.210 align:middle line:84%
+That's why you asked me, "How
+did people do on the test?"
+
+01:06:55.210 --> 01:06:56.818 align:middle line:84%
+I told you Mary
+passed, and now you
+
+01:06:56.818 --> 01:06:59.110 align:middle line:84%
+know that Mary passed and
+you don't know anything else.
+
+01:06:59.110 --> 01:07:01.277 align:middle line:84%
+You might have imagined
+that it would work that way,
+
+01:07:01.277 --> 01:07:02.350 align:middle line:90%
+but it doesn't.
+
+01:07:02.350 --> 01:07:04.940 align:middle line:84%
+So if you ask me "How did people
+do on the test? and I say,
+
+01:07:04.940 --> 01:07:07.785 align:middle line:84%
+"Well, Mary passed,"
+there are lots
+
+01:07:07.785 --> 01:07:09.910 align:middle line:84%
+of possible interpretations,
+but one is Mary passed
+
+01:07:09.910 --> 01:07:12.250 align:middle line:90%
+and no one else did.
+
+01:07:12.250 --> 01:07:14.380 align:middle line:84%
+So you do draw conclusions
+about everybody
+
+01:07:14.380 --> 01:07:18.970 align:middle line:84%
+else partly from the fact that I
+failed to answer your question.
+
+01:07:18.970 --> 01:07:21.760 align:middle line:84%
+That's one of the kinds of
+things pragmatists talk about.
+
+01:07:21.760 --> 01:07:23.860 align:middle line:84%
+But it's possible that
+the particular tune
+
+01:07:23.860 --> 01:07:26.800 align:middle line:84%
+that I sing as I
+say "Mary passed,"
+
+01:07:26.800 --> 01:07:31.030 align:middle line:84%
+invites you to
+contrastively focus Mary.
+
+01:07:31.030 --> 01:07:33.190 align:middle line:84%
+That you're saying-- I'm
+saying to you, in a sense,
+
+01:07:33.190 --> 01:07:35.830 align:middle line:84%
+Mary passed, and all the
+alternatives to Mary,
+
+01:07:35.830 --> 01:07:38.080 align:middle line:84%
+notice that I haven't told
+you anything about them,
+
+01:07:38.080 --> 01:07:39.520 align:middle line:90%
+draw your own conclusions.
+
+01:07:39.520 --> 01:07:41.080 align:middle line:90%
+That's what I'm doing.
+
+01:07:41.080 --> 01:07:43.810 align:middle line:84%
+Sometimes called a
+contrastive topic.
+
+01:07:43.810 --> 01:07:46.240 align:middle line:84%
+And I think that's connected
+with your example as well,
+
+01:07:46.240 --> 01:07:49.610 align:middle line:84%
+maybe, or something
+similar going on.
+
+01:07:49.610 --> 01:07:51.053 align:middle line:90%
+No?
+
+01:07:51.053 --> 01:07:52.970 align:middle line:84%
+As you might tell, there's
+a huge can of worms
+
+01:07:52.970 --> 01:07:55.475 align:middle line:90%
+right here, this work on--
+
+01:07:55.475 --> 01:07:56.743 align:middle line:90%
+a really fascinating can.
+
+01:07:56.743 --> 01:07:58.160 align:middle line:84%
+I shouldn't call
+it a can of worms
+
+01:07:58.160 --> 01:07:59.360 align:middle line:84%
+because that makes
+it sound disgusting.
+
+01:07:59.360 --> 01:08:01.250 align:middle line:84%
+It's fascinating, really,
+really interesting.
+
+01:08:01.250 --> 01:08:02.625 align:middle line:84%
+There's all this
+interesting work
+
+01:08:02.625 --> 01:08:05.720 align:middle line:84%
+on intonation, the kind of
+thing Faith is asking about,
+
+01:08:05.720 --> 01:08:09.270 align:middle line:84%
+and the semantics of these
+kinds of expressions.
+
+01:08:09.270 --> 01:08:11.373 align:middle line:84%
+So how do you
+connect the games you
+
+01:08:11.373 --> 01:08:13.040 align:middle line:84%
+get to play with the
+pitch of your voice
+
+01:08:13.040 --> 01:08:16.319 align:middle line:84%
+and your loudness
+with other sentences
+
+01:08:16.319 --> 01:08:17.819 align:middle line:84%
+that I want you to
+think about that.
+
+01:08:17.819 --> 01:08:20.689 align:middle line:84%
+I am not, in fact, saying but
+I'm communicating something
+
+01:08:20.689 --> 01:08:22.729 align:middle line:90%
+to you about them.
+
+01:08:22.729 --> 01:08:25.130 align:middle line:84%
+This is all fascinating,
+difficult stuff
+
+01:08:25.130 --> 01:08:27.410 align:middle line:90%
+that people work on.
+
+01:08:27.410 --> 01:08:27.910 align:middle line:90%
+Cool.
+
+01:08:27.910 --> 01:08:32.458 align:middle line:90%
+
+
+01:08:32.458 --> 01:08:34.250 align:middle line:84%
+All right, we're back
+from bats to cookies.
+
+01:08:34.250 --> 01:08:35.810 align:middle line:90%
+Any questions about cookies?
+
+01:08:35.810 --> 01:08:37.050 align:middle line:90%
+Bats?
+
+01:08:37.050 --> 01:08:37.830 align:middle line:90%
+Only even?
+
+01:08:37.830 --> 01:08:39.899 align:middle line:90%
+OK.
+
+01:08:39.899 --> 01:08:43.410 align:middle line:90%
+Yes, association with focus.
+
+01:08:43.410 --> 01:08:45.458 align:middle line:84%
+And then this is
+reminding ourselves
+
+01:08:45.458 --> 01:08:48.000 align:middle line:84%
+that there are also sentences
+where you just focus something.
+
+01:08:48.000 --> 01:08:52.817 align:middle line:84%
+"I will give Mary three cookies"
+used when alternatives to Mary
+
+01:08:52.817 --> 01:08:55.109 align:middle line:84%
+are salient, like "Who will
+you give three cookies to?"
+
+01:08:55.109 --> 01:08:57.180 align:middle line:90%
+I'll give Mary three cookies.
+
+01:08:57.180 --> 01:08:59.183 align:middle line:84%
+Or some of you
+just said, "Are you
+
+01:08:59.183 --> 01:09:00.600 align:middle line:84%
+going to give John
+three cookies?"
+
+01:09:00.600 --> 01:09:02.700 align:middle line:84%
+And I say, "No, I will
+give Mary three cookies."
+
+01:09:02.700 --> 01:09:04.977 align:middle line:84%
+Or when you're making
+lists, like "I'll give Susan
+
+01:09:04.977 --> 01:09:06.810 align:middle line:84%
+three cookies, I'll
+give John three cookies,
+
+01:09:06.810 --> 01:09:08.227 align:middle line:84%
+and I'll give Mary
+three cookies."
+
+01:09:08.227 --> 01:09:12.180 align:middle line:84%
+So I'm inviting you to consider
+various alternatives to Mary.
+
+01:09:12.180 --> 01:09:17.750 align:middle line:84%
+That's the point of putting
+this extra focus on these words.
+
+01:09:17.750 --> 01:09:19.910 align:middle line:84%
+And then languages
+vary a lot, actually,
+
+01:09:19.910 --> 01:09:22.082 align:middle line:84%
+with respect to how
+they realize focus.
+
+01:09:22.082 --> 01:09:23.540 align:middle line:84%
+So there are
+languages like English
+
+01:09:23.540 --> 01:09:28.010 align:middle line:84%
+that do it with gymnastics
+of the vocal tract.
+
+01:09:28.010 --> 01:09:30.920 align:middle line:84%
+Your voice gets louder and
+softer, and higher and lower
+
+01:09:30.920 --> 01:09:31.520 align:middle line:90%
+in pitch.
+
+01:09:31.520 --> 01:09:35.120 align:middle line:84%
+There are other languages that
+tend to move the words around.
+
+01:09:35.120 --> 01:09:37.700 align:middle line:84%
+So apparently, at least in
+some dialects of Spanish,
+
+01:09:37.700 --> 01:09:39.470 align:middle line:84%
+a standard response
+to "Who bought
+
+01:09:39.470 --> 01:09:40.819 align:middle line:90%
+the newspaper yesterday?"
+
+01:09:40.819 --> 01:09:43.609 align:middle line:84%
+is literally "Yesterday
+bought the newspaper Juan."
+
+01:09:43.609 --> 01:09:47.729 align:middle line:84%
+That is, you put the answer
+to the wh-question at the end.
+
+01:09:47.729 --> 01:09:50.930 align:middle line:84%
+That's a normal way to answer
+these kinds of questions,
+
+01:09:50.930 --> 01:09:55.430 align:middle line:84%
+although that's not the
+default Spanish word order.
+
+01:09:55.430 --> 01:09:58.160 align:middle line:84%
+Or similarly, in Tagalog,
+if I want to say,
+
+01:09:58.160 --> 01:10:01.880 align:middle line:84%
+"I'll only eat balut," you
+can't literally say that.
+
+01:10:01.880 --> 01:10:05.750 align:middle line:84%
+So the last sentence on
+the slide is the attempt
+
+01:10:05.750 --> 01:10:07.910 align:middle line:84%
+to translate word-for-word
+I will only eat balut,
+
+01:10:07.910 --> 01:10:11.248 align:middle line:90%
+[NON-ENGLISH]
+
+01:10:11.248 --> 01:10:13.040 align:middle line:84%
+I was doing some work
+with Tagalog speakers
+
+01:10:13.040 --> 01:10:14.498 align:middle line:84%
+not too long ago
+trying to get them
+
+01:10:14.498 --> 01:10:16.540 align:middle line:84%
+to accept this last
+sentence, and they were like,
+
+01:10:16.540 --> 01:10:17.900 align:middle line:90%
+no, no, you can't say that.
+
+01:10:17.900 --> 01:10:19.250 align:middle line:84%
+You have to say the
+first sentence, which
+
+01:10:19.250 --> 01:10:20.708 align:middle line:84%
+is something
+literally like, "Balut
+
+01:10:20.708 --> 01:10:22.260 align:middle line:90%
+is the only thing I will eat."
+
+01:10:22.260 --> 01:10:26.450 align:middle line:84%
+So Tagalog speakers can't
+just say balut really loud
+
+01:10:26.450 --> 01:10:28.700 align:middle line:84%
+and have that be the thing
+that associates with focus.
+
+01:10:28.700 --> 01:10:30.740 align:middle line:84%
+They have to put
+it somewhere else
+
+01:10:30.740 --> 01:10:32.900 align:middle line:84%
+at the beginning of
+the sentence in order
+
+01:10:32.900 --> 01:10:33.960 align:middle line:90%
+to get it to mean things.
+
+01:10:33.960 --> 01:10:36.620 align:middle line:84%
+Balut, if you remember,
+is this Filipino delicacy
+
+01:10:36.620 --> 01:10:39.020 align:middle line:84%
+that involves a fertilized
+duck's egg, which is
+
+01:10:39.020 --> 01:10:40.670 align:middle line:90%
+hard boiled before it hatches.
+
+01:10:40.670 --> 01:10:42.467 align:middle line:84%
+Good source of
+protein, I'm told,
+
+01:10:42.467 --> 01:10:43.550 align:middle line:90%
+though I've never had one.
+
+01:10:43.550 --> 01:10:46.042 align:middle line:90%
+
+
+01:10:46.042 --> 01:10:47.500 align:middle line:84%
+And then there are
+also languages--
+
+01:10:47.500 --> 01:10:51.850 align:middle line:84%
+this is Chickasaw, which is
+a Muskogean language spoken
+
+01:10:51.850 --> 01:10:54.630 align:middle line:90%
+in Oklahoma, I think.
+
+01:10:54.630 --> 01:10:57.520 align:middle line:84%
+It used to be spoken
+around Alabama,
+
+01:10:57.520 --> 01:11:02.380 align:middle line:84%
+but I think they
+were moved, in which
+
+01:11:02.380 --> 01:11:04.540 align:middle line:84%
+there are morphemes
+that you put on nouns
+
+01:11:04.540 --> 01:11:06.220 align:middle line:90%
+that say this is the focus.
+
+01:11:06.220 --> 01:11:09.530 align:middle line:90%
+
+
+01:11:09.530 --> 01:11:11.960 align:middle line:90%
+We are just about out of time.
+
+01:11:11.960 --> 01:11:14.133 align:middle line:84%
+There's one other
+topic on here, and I
+
+01:11:14.133 --> 01:11:16.050 align:middle line:84%
+think we don't have time
+for the other topics.
+
+01:11:16.050 --> 01:11:17.100 align:middle line:90%
+So I think we should stop here.
+
+01:11:17.100 --> 01:11:18.620 align:middle line:84%
+Are there any questions
+about any of this,
+
+01:11:18.620 --> 01:11:19.770 align:middle line:90%
+association with focus?
+
+01:11:19.770 --> 01:11:23.180 align:middle line:84%
+So please ask me any questions
+you have left about semantics
+
+01:11:23.180 --> 01:11:24.980 align:middle line:84%
+because I refuse to
+teach you anything
+
+01:11:24.980 --> 01:11:26.430 align:middle line:90%
+about semantics from now on.
+
+01:11:26.430 --> 01:11:28.580 align:middle line:84%
+We will never talk
+about it again.
+
+01:11:28.580 --> 01:11:29.570 align:middle line:90%
+That's probably a lie.
+
+01:11:29.570 --> 01:11:31.910 align:middle line:84%
+I mean, I was telling you
+about syntax, and phonology,
+
+01:11:31.910 --> 01:11:33.550 align:middle line:84%
+and morphology
+today, and those are
+
+01:11:33.550 --> 01:11:35.300 align:middle line:84%
+things we thought we
+had left behind, too.
+
+01:11:35.300 --> 01:11:37.085 align:middle line:90%
+It all kind of blends together.
+
+01:11:37.085 --> 01:11:40.550 align:middle line:84%
+Any last-minute questions
+about semantics?
+
+01:11:40.550 --> 01:11:42.350 align:middle line:84%
+All right, go out
+and enjoy the day,
+
+01:11:42.350 --> 01:11:46.450 align:middle line:84%
+and we'll see you
+guys on Tuesday.
+
+01:11:46.450 --> 01:11:51.000 align:middle line:90%

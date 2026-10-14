@@ -1,0 +1,88 @@
+{
+  "course_description": "This class provides some answers to basic questions about the nature of human language. Throughout the course, we examine a number of ways in which human language is a complex but law-governed mental system. Much of the class is devoted to studying some core aspects of this system in detail; we also spend individual classes discussing a number of other issues, including how language is acquired, how languages change over time, language endangerment, and others.",
+  "course_description_html": "This class provides some answers to basic questions about the nature of human language. Throughout the course, we examine a number of ways in which human language is a complex but law-governed mental system. Much of the class is devoted to studying some core aspects of this system in detail; we also spend individual classes discussing a number of other issues, including how language is acquired, how languages change over time, language endangerment, and others.",
+  "course_image": {
+    "content": "467fe435-68d3-4d3e-9ef6-ad4f94edb839",
+    "website": "introduction-to-linguistics"
+  },
+  "course_image_metadata": {
+    "body": "",
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/24-900-introduction-to-linguistics-spring-2022/24-900s22.jpg",
+    "file_size": 41185,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A portion of the 23rd Psalm, as translated by John Eliot into the language of the Wampanoag people of Massachusetts in the 17th century. In the 21st century, that translation and other surviving written documents have formed the basis for efforts to re-establish Wampanoag as a living language. (Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}.)",
+      "credit": "Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}.",
+      "image-alt": ""
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "resourcetype": "Image",
+    "title": "24-900s22.jpg",
+    "uid": "467fe435-68d3-4d3e-9ef6-ad4f94edb839",
+    "video_files": {
+      "video_captions_file": "",
+      "video_thumbnail_file": "",
+      "video_transcript_file": ""
+    },
+    "video_metadata": {
+      "video_speakers": "",
+      "video_tags": "",
+      "youtube_description": "",
+      "youtube_id": ""
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "def0ab47-db7e-46f8-b2d1-830d7b4ff8ea",
+    "website": "introduction-to-linguistics"
+  },
+  "course_title": "Introduction to Linguistics",
+  "department_numbers": [
+    "24"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/24-900s22.jpg",
+  "instructors": [
+    {
+      "first_name": "Norvin",
+      "last_name": "Richards",
+      "middle_initial": "W.",
+      "salutation": "Prof.",
+      "title": "Prof. Norvin W. Richards",
+      "uid": "906fb5b5-becc-0ab7-eccd-df0d09c0f34b",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Norvin+W.+Richards"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Lecture Notes",
+    "Written Assignments",
+    "Problem Sets"
+  ],
+  "legacy_uid": "",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Humanities",
+      "Linguistics"
+    ]
+  ],
+  "primary_course_number": "24.900",
+  "site_short_id": "24.900-spring-2022",
+  "site_uid": "9455d4eb-9345-4d8b-b420-5924c0375bd8",
+  "site_url_path": "courses/24-900-introduction-to-linguistics-spring-2022",
+  "term": "Spring",
+  "topics": [
+    [
+      "Humanities",
+      "Linguistics"
+    ]
+  ],
+  "year": "2022"
+}

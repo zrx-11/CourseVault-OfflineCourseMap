@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editable Files on MIT OpenCourseWare</title>
+    <link>/resources/editable-files/</link>
+    <description>Recent content in Editable Files on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/editable-files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Complete Lecture Notes (TEX)</title>
+      <link>/resources/mit18_100a_f20_compile_tex/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100a_f20_compile_tex/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complete Lecture Notes (TEX)</title>
+      <link>/resources/mit18_100af20_notes_tex_zip/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100af20_notes_tex_zip/data.json</guid>
+      <description>&lt;p&gt;mit18_100af20_notes_tex.zip&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_100af20_lec13.tex</title>
+      <link>/resources/mit18_100af20_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100af20_lec13/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_100af20_lec22.tex</title>
+      <link>/resources/mit18_100af20_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100af20_lec22/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

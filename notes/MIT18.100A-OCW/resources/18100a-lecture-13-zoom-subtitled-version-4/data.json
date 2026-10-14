@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p><strong>Description:</strong> We begin to discuss limits of functions, introducing cluster points and left and right sided limits. This will help us better understand continuity in the next lecture.</p>\n<p><strong>Speaker:</strong> Casey Rodriguez</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-13-zoom-subtitled-version-4_360p_16_9.mp4",
+  "file_size": 85612747,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Lecture 13: Limits of Functions",
+  "uid": "b6e6b343-d096-4992-bfb9-6ba0f520931b",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.webvtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/cjeXg5rJ9D8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "18-100a-real-analysis-fall-2020, cluster point, continuity, limits, limits of functions",
+    "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe begin to discuss limits of functions, introducing cluster points and left and right sided limits. This will help us better understand continuity in the next lecture.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+    "youtube_id": "cjeXg5rJ9D8"
+  }
+}

@@ -1,0 +1,14 @@
+
+{
+  "content": "<p><a href=\"../../resources/mit14_124s17_reviewnotes/index.html\">Review Notes; Contracts I (PDF)</a> </p>\n<p>(By Arda Gitmez and Kosti Takala. Used with permission.)</p>\n\n    <h4 id=\"table-of-contents\">Table of Contents</h4>\n\n<p>1. A Very Brief Introduction to Mechanism Design</p>\n<p>     1.1 Revelation Principle</p>\n<p>2. Efficient Mechanisms</p>\n<p>     2.1 Vickrey-Clark-Groves Mechanism</p>\n<p>     2.2 Payoff Equivalence</p>\n<p>3. Optimal Mechanisms</p>\n<p>     3.1 An Example</p>\n<p>     3.2 Single-Crossing and Constraint Simplification</p>\n<p>     3.3 The General Case</p>\n<p>     3.4 Optimal Auctions</p>\n<p>4. Appendix</p>\n\n    <h3 id=\"adverse-selection-an-ic-transfer-scheme\">Adverse Selection: An IC Transfer Scheme </h3>\n\n<img src=\"../../static_resources/c4070738a47e0877f5212886eb0bd21b_MIT14_124S17_Fig1.JPG\" alt=\"A graph with blue, teal, red, and green lines that go from bottom left corner to the top right corner. \" loading=\"lazy\" decoding=\"async\" />\n<p>(Image courtesy of Kosti Takala. Used with permission.)</p>\n",
+  "content_type": "page",
+  "description": "This section contains some study materials used during the course's recitation session. ",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Study Materials",
+  "uid": "b5cbd324-e6ea-5fba-a8e9-515482ba5a80"
+}
+

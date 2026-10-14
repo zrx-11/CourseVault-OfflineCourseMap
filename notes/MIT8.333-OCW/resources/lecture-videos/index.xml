@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Thermodynamics Part 1</title>
+      <link>/resources/lecture-1-thermodynamics-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-thermodynamics-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of four lectures on Thermodynamics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Kinetic Theory of Gases Part 4</title>
+      <link>/resources/lecture-10-kinetic-theory-of-gases-part-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-kinetic-theory-of-gases-part-4/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fourth of five lectures on the Kinetic Theory of Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Kinetic Theory of Gases Part 5</title>
+      <link>/resources/lecture-11-kinetic-theory-of-gases-part-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-kinetic-theory-of-gases-part-5/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fifth of five lectures on the Kinetic Theory of Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Classical Statistical Mechanics Part 1</title>
+      <link>/resources/lecture-12-classical-statistical-mechanics-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-classical-statistical-mechanics-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of three lectures on Classical Statistical Mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Classical Statistical Mechanics Part 2</title>
+      <link>/resources/lecture-13-classical-statistical-mechanics-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-classical-statistical-mechanics-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of three lectures on Classical Statistical Mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Classical Statistical Mechanics Part 3</title>
+      <link>/resources/lecture-14-classical-statistical-mechanics-part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-classical-statistical-mechanics-part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the third of three lectures on Classical Statistical Mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Interacting Particles Part 1</title>
+      <link>/resources/lecture-15-interacting-particles-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-interacting-particles-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of five lectures on Interacting Particles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Interacting Particles Part 2</title>
+      <link>/resources/lecture-16-interacting-particles-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-interacting-particles-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of five lectures on Interacting Particles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Interacting Particles Part 3</title>
+      <link>/resources/lecture-17-interacting-particles-part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-interacting-particles-part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the third of five lectures on Interacting Particles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Interacting Particles Part 4</title>
+      <link>/resources/lecture-18-interacting-particles-part-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-interacting-particles-part-4/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fourth of five lectures on Interacting Particles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Interacting Particles Part 5</title>
+      <link>/resources/lecture-19-interacting-particles-part-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-interacting-particles-part-5/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fifth of five lectures on Interacting Particles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Thermodynamics Part 2</title>
+      <link>/resources/lecture-2-thermodynamics-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-thermodynamics-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of four lectures on Thermodynamics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Quantum Statistical Mechanics Part 1</title>
+      <link>/resources/lecture-20-quantum-statistical-mechanics-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-quantum-statistical-mechanics-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of two lectures on Quantum Statistical Mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Quantum Statistical Mechanics Part 2</title>
+      <link>/resources/lecture-21-quantum-statistical-mechanics-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-quantum-statistical-mechanics-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of two lectures on Quantum Statistical Mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Ideal Quantum Gases Part 1</title>
+      <link>/resources/lecture-22-ideal-quantum-gases-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-ideal-quantum-gases-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of five lectures on Ideal Quantum Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Ideal Quantum Gases Part 2</title>
+      <link>/resources/lecture-23-ideal-quantum-gases-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-ideal-quantum-gases-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of five lectures on Ideal Quantum Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Ideal Quantum Gases Part 3</title>
+      <link>/resources/lecture-24-ideal-quantum-gases-part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-ideal-quantum-gases-part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the third of five lectures on Ideal Quantum Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Ideal Quantum Gases Part 4</title>
+      <link>/resources/lecture-25-ideal-quantum-gases-part-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-ideal-quantum-gases-part-4/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fourth of five lectures on Ideal Quantum Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26: Ideal Quantum Gases Part 5</title>
+      <link>/resources/lecture-26-ideal-quantum-gases-part-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-26-ideal-quantum-gases-part-5/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fifth of five lectures on Ideal Quantum Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Thermodynamics Part 3</title>
+      <link>/resources/lecture-3-thermodynamics-part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-thermodynamics-part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the third of four lectures on Thermodynamics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Thermodynamics Part 4</title>
+      <link>/resources/lecture-4-thermodynamics-part-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-thermodynamics-part-4/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the fourth of four lectures on Thermodynamics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Probability Part 1</title>
+      <link>/resources/lecture-5-probability-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-probability-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of two lectures on Probability.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Probability Part 2</title>
+      <link>/resources/lecture-6-probability-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-probability-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of two lectures on Probability.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Kinetic Theory of Gases Part 1</title>
+      <link>/resources/lecture-7-kinetic-theory-of-gases-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-kinetic-theory-of-gases-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the first of five lectures on the Kinetic Theory of Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Kinetic Theory of Gases Part 2</title>
+      <link>/resources/lecture-8-kinetic-theory-of-gases-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-kinetic-theory-of-gases-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the second of five lectures on the Kinetic Theory of Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Kinetic Theory of Gases Part 3</title>
+      <link>/resources/lecture-9-kinetic-theory-of-gases-part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-kinetic-theory-of-gases-part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is the third of five lectures on the Kinetic Theory of Gases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Mehran Kardar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;p&gt;The titles reflect content of the &lt;a href=&#34;../../pages/lecture-notes/index.html&#34;&gt;lecture notes&lt;/a&gt;, which may not completely reflect the sequence of the video lectures.&lt;/p&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-thermodynamics-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/4RX_lpoGRBg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Thermodynamics Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-thermodynamics-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/EQB2Pw0lWRU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Thermodynamics Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-thermodynamics-part-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/JaEqS1ozlHY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Thermodynamics Part 3&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-thermodynamics-part-4/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/__tGxUu5BTc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Thermodynamics Part 4&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-probability-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/w_I0AkvbWFc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Probability Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-probability-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/I_LcUur7quE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Probability Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-kinetic-theory-of-gases-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/BhVyiU_dWps/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Kinetic Theory of Gases Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-kinetic-theory-of-gases-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/8woIHrY6eM0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Kinetic Theory of Gases Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-kinetic-theory-of-gases-part-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/t7pTpwMjQ5I/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Kinetic Theory of Gases Part 3&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-kinetic-theory-of-gases-part-4/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ybCsMYk5xMg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Kinetic Theory of Gases Part 4&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-kinetic-theory-of-gases-part-5/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/QmV7FOXijMo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Kinetic Theory of Gases Part 5&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-classical-statistical-mechanics-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ckUyxmwaC5E/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Classical Statistical Mechanics Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-classical-statistical-mechanics-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Lt8FtWsq0q0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Classical Statistical Mechanics Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-classical-statistical-mechanics-part-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/tCxonq5r-O8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Classical Statistical Mechanics Part 3&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-interacting-particles-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Y59FgktB4uQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Interacting Particles Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-interacting-particles-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TDnfhpAZBqs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Interacting Particles Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-interacting-particles-part-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TSjJlJJ2aoI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Interacting Particles Part 3&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-interacting-particles-part-4/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/l2Q31eoy_rY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Interacting Particles Part 4&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-interacting-particles-part-5/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/hl4c1P9D8IY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Interacting Particles Part 5&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-quantum-statistical-mechanics-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/b1P0hurY6UE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Quantum Statistical Mechanics Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-quantum-statistical-mechanics-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/34lmLIYpkYQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Quantum Statistical Mechanics Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-ideal-quantum-gases-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/hRHzPaDpgu0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Ideal Quantum Gases Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-ideal-quantum-gases-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/8kNP_VWmfFs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Ideal Quantum Gases Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-ideal-quantum-gases-part-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/FmylhZqFXNk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: Ideal Quantum Gases Part 3&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25-ideal-quantum-gases-part-4/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6rn4q9mv4jQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Ideal Quantum Gases Part 4&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-26-ideal-quantum-gases-part-5/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6gMgNriK1Nk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 26: Ideal Quantum Gases Part 5&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

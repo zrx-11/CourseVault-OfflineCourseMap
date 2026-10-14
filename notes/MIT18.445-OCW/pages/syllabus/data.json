@@ -1,0 +1,14 @@
+
+{
+  "content": "\n    <h3 id=\"course-meeting-times\">Course Meeting Times</h3>\n\n<p>Lectures: 2 sessions / week, 1.5 hours / session</p>\n\n    <h3 id=\"prerequisites\">Prerequisites</h3>\n\n<p><a href=\"https://ocw.mit.edu/courses/18-440-probability-and-random-variables-spring-2014\" target=\"_blank\" rel=\"noopener\"><em>18.440 Probability and Random Variables</em></a> or <a href=\"https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013\" target=\"_blank\" rel=\"noopener\"><em>6.041SC Probabilistic Systems Analysis and Applied Probability</em></a></p>\n\n    <h3 id=\"description\">Description</h3>\n\n<p>This course is an introduction to Markov chains, random walks, martingales, and Galton-Watsom tree. The course requires basic knowledge in probability theory and linear algebra including conditional expectation and matrix.</p>\n\n    <h3 id=\"recommended-textbooks\">Recommended Textbooks</h3>\n\n<p>Levin, David Asher, Y. Peres, and Elizabeth L. Wilmer. <em>Markov Chains and Mixing Times</em>. American Mathematical Society, 2008. ISBN: 9780821847398. [Preview with <a   class=\"external-link \"   target=\"_blank\"   href=\"http://books.google.com/books?id=6Cg5Nq5sSv4C&amp;pg=PAfrontcover\"  aria-label=\"Google Books (opens in a new tab)\"  >Google Books</a>]</p>\n<p>Williams, D. <em>Probability with Martingales</em>. Cambridge University Press, 1991. ISBN: 9780387985091.</p>\n<p>Brémaud, Pierre. <em>Markov Chains: Gibbs Fields, Monte Carlo Simulation, and Queues</em>. Springer, 2008. ISBN: 9780387985091. [Preview with <a   class=\"external-link \"   target=\"_blank\"   href=\"http://books.google.com/books?id=KF0LgxRCgQsC&amp;pg=PAfrontcover\"  aria-label=\"Google Books (opens in a new tab)\"  >Google Books</a>]</p>\n\n    <h3 id=\"assignments-and-exams\">Assignments and Exams</h3>\n\n<p>There are 5 homework assignments, 1 midterm exam, and final exam. The midterm and the final exams are closed book, closed notes, and no calculators.</p>\n\n    <h3 id=\"grading\">Grading</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nACTIVITIES\n</th>\n\n<th>\n\nPERCENTAGES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nAssignments\n</td>\n\n<td>\n\n50% (10% each)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nMidterm Exam\n</td>\n\n<td>\n\n15%\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal Project\n</td>\n\n<td>\n\n35%\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This syllabus section provides the course description and information on prerequisites, recommended textbooks, assignments, exams, and grading.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Syllabus",
+  "uid": "7e370f07-bfe2-9064-874a-1552bcad8217"
+}
+

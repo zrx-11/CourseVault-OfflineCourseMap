@@ -1,0 +1,5679 @@
+1
+00:00:00,060 --> 00:00:01,780
+The following
+content is provided
+
+2
+00:00:01,780 --> 00:00:04,019
+under a Creative
+Commons license.
+
+3
+00:00:04,019 --> 00:00:06,870
+Your support will help MIT
+OpenCourseWare continue
+
+4
+00:00:06,870 --> 00:00:10,730
+to offer high quality
+educational resources for free.
+
+5
+00:00:10,730 --> 00:00:13,330
+To make a donation or
+view additional materials
+
+6
+00:00:13,330 --> 00:00:17,217
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,217 --> 00:00:17,842
+at ocw.mit.edu.
+
+8
+00:00:20,560 --> 00:00:22,610
+MEHRAN KARDAR: You
+decide at first look
+
+9
+00:00:22,610 --> 00:00:28,830
+at the our simple system,
+which was the ideal gas.
+
+10
+00:00:33,930 --> 00:00:38,250
+And imagine that we
+have this gas contained
+
+11
+00:00:38,250 --> 00:00:44,630
+in a box of volume V that
+contains N particles.
+
+12
+00:00:44,630 --> 00:00:48,970
+And it's completely isolated
+from the rest of the universe.
+
+13
+00:00:48,970 --> 00:00:55,240
+So you can know the amount
+of energy that it has.
+
+14
+00:00:55,240 --> 00:00:58,770
+So the macroscopic
+description of the system
+
+15
+00:00:58,770 --> 00:01:02,015
+consists of these three
+numbers, E, V, and N.
+
+16
+00:01:02,015 --> 00:01:07,540
+And this was the characteristics
+of a microcanonical ensemble
+
+17
+00:01:07,540 --> 00:01:10,600
+in which there was no
+exchange of heat or work.
+
+18
+00:01:10,600 --> 00:01:13,540
+And therefore,
+energy was conserved.
+
+19
+00:01:13,540 --> 00:01:17,710
+And our task was somehow to
+characterize the probability
+
+20
+00:01:17,710 --> 00:01:21,370
+to find the system
+in some microstate.
+
+21
+00:01:21,370 --> 00:01:26,410
+Now if you have N
+particles in the system,
+
+22
+00:01:26,410 --> 00:01:30,180
+there is at the microscopic
+level, some microstate that
+
+23
+00:01:30,180 --> 00:01:36,520
+consists of a description of
+all of the positions of momenta.
+
+24
+00:01:36,520 --> 00:01:39,690
+And there is
+Hamiltonian that governs
+
+25
+00:01:39,690 --> 00:01:43,850
+how that microstate evolves
+as a function of time.
+
+26
+00:01:43,850 --> 00:01:49,660
+And for the case of ideal gas,
+the particles don't interact.
+
+27
+00:01:49,660 --> 00:01:55,070
+So the Hamiltonian can be
+written as the sum of n terms
+
+28
+00:01:55,070 --> 00:01:59,680
+that describe essentially
+the energy of the end
+
+29
+00:01:59,680 --> 00:02:04,770
+particle composed of
+its kinetic energy.
+
+30
+00:02:04,770 --> 00:02:08,490
+And the term that is really
+just confining the particle
+
+31
+00:02:08,490 --> 00:02:10,240
+is in this box.
+
+32
+00:02:10,240 --> 00:02:12,990
+And so the volume of
+the box is contained.
+
+33
+00:02:12,990 --> 00:02:14,510
+Let's say that in
+this potential,
+
+34
+00:02:14,510 --> 00:02:19,050
+that it's zero inside the
+box and infinity outside.
+
+35
+00:02:19,050 --> 00:02:25,900
+And we said, OK, so given that
+I know what the energy, volume,
+
+36
+00:02:25,900 --> 00:02:29,910
+number of particles
+are, what's the chance
+
+37
+00:02:29,910 --> 00:02:35,350
+that I will find the system
+in some particular microstate?
+
+38
+00:02:35,350 --> 00:02:38,490
+And the answer was
+that, obviously, you
+
+39
+00:02:38,490 --> 00:02:45,450
+will have to put zero if the
+particles are outside box.
+
+40
+00:02:50,320 --> 00:02:55,520
+Or if the energy, which is
+really just the kinetic energy,
+
+41
+00:02:55,520 --> 00:03:00,560
+does not much the energy that
+we know is in the system,
+
+42
+00:03:00,560 --> 00:03:06,030
+we sum over i of P
+i squared over 2m
+
+43
+00:03:06,030 --> 00:03:10,071
+is not equal to the
+energy of the system.
+
+44
+00:03:14,790 --> 00:03:18,170
+Otherwise, we say that if
+the microstate corresponds
+
+45
+00:03:18,170 --> 00:03:22,010
+to exactly the right
+amount of energy, then
+
+46
+00:03:22,010 --> 00:03:24,710
+I have no reason to exclude it.
+
+47
+00:03:24,710 --> 00:03:26,960
+And just like saying
+that the dice can
+
+48
+00:03:26,960 --> 00:03:29,400
+have six possible
+faces, you would
+
+49
+00:03:29,400 --> 00:03:33,650
+assign all of those possible
+phases equal probability.
+
+50
+00:03:33,650 --> 00:03:36,050
+I will give all of
+the microstates that
+
+51
+00:03:36,050 --> 00:03:37,720
+don't conflict
+with the conditions
+
+52
+00:03:37,720 --> 00:03:40,800
+that I have set out
+the same probability.
+
+53
+00:03:40,800 --> 00:03:43,400
+I will call that
+probability 1 over
+
+54
+00:03:43,400 --> 00:03:47,530
+some overall constant omega.
+
+55
+00:03:47,530 --> 00:03:49,140
+And so this is one otherwise.
+
+56
+00:03:56,780 --> 00:03:59,590
+So then the next
+statement is well
+
+57
+00:03:59,590 --> 00:04:04,980
+what is this number omega
+that you have put it?
+
+58
+00:04:04,980 --> 00:04:07,960
+And how do we determine it?
+
+59
+00:04:07,960 --> 00:04:12,100
+Well, we know that this
+P is a probability so
+
+60
+00:04:12,100 --> 00:04:15,640
+that if I were to integrate
+over the entirety of the face
+
+61
+00:04:15,640 --> 00:04:25,480
+space of this probability,
+the answer should be 1.
+
+62
+00:04:29,580 --> 00:04:32,700
+So that means this
+omega, which is
+
+63
+00:04:32,700 --> 00:04:36,250
+a function of these parameters
+that I set out from the outside
+
+64
+00:04:36,250 --> 00:04:39,190
+to describe the
+microstate, should
+
+65
+00:04:39,190 --> 00:04:53,660
+be obtained by integrating over
+all q and p of this collection
+
+66
+00:04:53,660 --> 00:04:57,620
+of 1s and 0s that
+I have out here.
+
+67
+00:04:57,620 --> 00:05:02,330
+So I think this box of
+1s and 0s, put it here,
+
+68
+00:05:02,330 --> 00:05:03,060
+and I integrate.
+
+69
+00:05:07,630 --> 00:05:09,940
+So what do I get?
+
+70
+00:05:09,940 --> 00:05:13,850
+Well, the integration
+over the q's is easy.
+
+71
+00:05:13,850 --> 00:05:17,890
+The places that I get 1 are
+when the q's are inside the box.
+
+72
+00:05:17,890 --> 00:05:22,280
+So each one of them will
+give me a factor of V.
+
+73
+00:05:22,280 --> 00:05:24,290
+And there are N of them.
+
+74
+00:05:24,290 --> 00:05:28,490
+So I would get V to the N.
+
+75
+00:05:28,490 --> 00:05:32,090
+The integrations over
+momenta essentially
+
+76
+00:05:32,090 --> 00:05:36,960
+have to do with seeing whether
+or not the condition sum
+
+77
+00:05:36,960 --> 00:05:42,730
+over i Pi squared over 2m
+equals to E is satisfied or not.
+
+78
+00:05:42,730 --> 00:05:46,232
+So this I can write
+also as sum over i
+
+79
+00:05:46,232 --> 00:05:55,180
+P i squared equals to 2mE,
+which I can write as R squared.
+
+80
+00:05:55,180 --> 00:06:00,690
+And essentially, in
+this momentum space,
+
+81
+00:06:00,690 --> 00:06:05,200
+I have to make sure that the
+sum of the components of all
+
+82
+00:06:05,200 --> 00:06:09,320
+of the momenta squared
+add up to this R. squared,
+
+83
+00:06:09,320 --> 00:06:11,950
+which as we discussed
+last time, is
+
+84
+00:06:11,950 --> 00:06:29,620
+the surface of hypershpere
+in 3N dimensions of radius
+
+85
+00:06:29,620 --> 00:06:31,370
+R, which is square root of 2mE.
+
+86
+00:06:35,850 --> 00:06:40,350
+So I have to integrate
+over all of these momenta.
+
+87
+00:06:40,350 --> 00:06:42,820
+And most of the
+time I will get 0,
+
+88
+00:06:42,820 --> 00:06:47,850
+except when I heat the
+surface of this sphere.
+
+89
+00:06:47,850 --> 00:06:50,500
+There's kind of a little
+bit of singularity
+
+90
+00:06:50,500 --> 00:06:53,010
+here because you have a
+probability that there's 0,
+
+91
+00:06:53,010 --> 00:06:57,960
+except at the very sharp
+interval, and then 0 again.
+
+92
+00:06:57,960 --> 00:07:02,660
+So it's kind of like a delta
+function, which is maybe
+
+93
+00:07:02,660 --> 00:07:05,930
+a little bit hard to deal with.
+
+94
+00:07:05,930 --> 00:07:09,860
+So sometimes we
+will generalize this
+
+95
+00:07:09,860 --> 00:07:13,900
+by adding a little
+bit be delta E here.
+
+96
+00:07:13,900 --> 00:07:18,130
+So let's say that the energy
+does not have to be exactly E,
+
+97
+00:07:18,130 --> 00:07:20,970
+but E minus plus
+a little bit, so
+
+98
+00:07:20,970 --> 00:07:25,850
+that when we look at
+this surface in three
+
+99
+00:07:25,850 --> 00:07:28,520
+n dimensional space--
+let's say this was two
+
+100
+00:07:28,520 --> 00:07:31,220
+dimensional space--
+rather than having
+
+101
+00:07:31,220 --> 00:07:34,940
+to deal with an
+exact boundary, we
+
+102
+00:07:34,940 --> 00:07:42,720
+have kind of smoothed that
+out into an interval that
+
+103
+00:07:42,720 --> 00:07:47,340
+has some kind of a thickness
+R, that presumably is related
+
+104
+00:07:47,340 --> 00:07:49,690
+to this delta E
+that I put up there.
+
+105
+00:07:49,690 --> 00:07:51,860
+Turns out it doesn't
+really make any difference.
+
+106
+00:07:51,860 --> 00:07:53,970
+The reason it doesn't
+make any difference I
+
+107
+00:07:53,970 --> 00:07:56,960
+will tell you shortly.
+
+108
+00:07:56,960 --> 00:07:59,750
+But now when I'm integrating
+over all of these
+
+109
+00:07:59,750 --> 00:08:03,360
+P's-- so there's P. There's
+another P. This could be P1.
+
+110
+00:08:03,360 --> 00:08:04,650
+This could be P2.
+
+111
+00:08:04,650 --> 00:08:06,730
+And there are
+different components.
+
+112
+00:08:06,730 --> 00:08:13,530
+I then get 0, except
+when I hit this interval
+
+113
+00:08:13,530 --> 00:08:16,150
+around the surface
+of this hypersphere.
+
+114
+00:08:16,150 --> 00:08:22,280
+So what do I get as a result
+of the integration over this 3N
+
+115
+00:08:22,280 --> 00:08:24,110
+dimensional space?
+
+116
+00:08:24,110 --> 00:08:29,250
+I will get the volume
+of this element, which
+
+117
+00:08:29,250 --> 00:08:32,950
+is composed of the
+surface area, which
+
+118
+00:08:32,950 --> 00:08:37,380
+has some kind of a solid
+angle in 3N dimensions.
+
+119
+00:08:37,380 --> 00:08:41,429
+The radius raised to
+the power of dimension
+
+120
+00:08:41,429 --> 00:08:45,330
+minus 1, because it's a surface.
+
+121
+00:08:45,330 --> 00:08:49,620
+And then if I want to
+really include a delta R
+
+122
+00:08:49,620 --> 00:08:54,960
+to make it into a volume, this
+would be the appropriate volume
+
+123
+00:08:54,960 --> 00:08:58,640
+of this interval
+in momentum space.
+
+124
+00:08:58,640 --> 00:08:59,395
+Yes.
+
+125
+00:08:59,395 --> 00:09:01,135
+AUDIENCE: Just to
+clarify, you're
+
+126
+00:09:01,135 --> 00:09:02,910
+asserting that
+there's no potential
+
+127
+00:09:02,910 --> 00:09:05,782
+inside the [INAUDIBLE] that
+comes from the hard walls.
+
+128
+00:09:05,782 --> 00:09:06,740
+MEHRAN KARDAR: Correct.
+
+129
+00:09:06,740 --> 00:09:10,490
+We can elaborate
+on that later on.
+
+130
+00:09:10,490 --> 00:09:13,710
+But for the description of the
+ideal gas without potential,
+
+131
+00:09:13,710 --> 00:09:16,300
+like in the box, I have
+said that potential
+
+132
+00:09:16,300 --> 00:09:19,610
+to be just 0 infinity.
+
+133
+00:09:19,610 --> 00:09:20,110
+OK?
+
+134
+00:09:24,170 --> 00:09:26,350
+OK, so fine.
+
+135
+00:09:26,350 --> 00:09:28,080
+So this is the description.
+
+136
+00:09:28,080 --> 00:09:29,620
+There was one
+thing that I needed
+
+137
+00:09:29,620 --> 00:09:41,550
+to tell you, which is the d,
+dimension, of solid angle,
+
+138
+00:09:41,550 --> 00:09:47,020
+which is 2pi to the
+d over 2 divided
+
+139
+00:09:47,020 --> 00:09:51,100
+by d over 2 minus 1
+factorial So again,
+
+140
+00:09:51,100 --> 00:09:55,330
+in two dimensions, such as the
+picture that I drew over here,
+
+141
+00:09:55,330 --> 00:10:00,210
+the circumference of a
+circle would be 2 pi r.
+
+142
+00:10:00,210 --> 00:10:03,065
+So this s sub 2--
+right there'd be 2 pi--
+
+143
+00:10:03,065 --> 00:10:06,380
+and you can show that
+it is 2 pi divided
+
+144
+00:10:06,380 --> 00:10:09,490
+by 0 factorial, which is 1.
+
+145
+00:10:09,490 --> 00:10:13,850
+In three dimensions it should
+give you 4 pi r squared.
+
+146
+00:10:13,850 --> 00:10:15,340
+Kind of looks
+strange because you
+
+147
+00:10:15,340 --> 00:10:20,090
+get 2 pi to the 3/2 divided
+by 1/2 half factorial.
+
+148
+00:10:20,090 --> 00:10:22,530
+But the 1/2 factorial
+is in fact root 2
+
+149
+00:10:22,530 --> 00:10:25,670
+over pi-- root pi over 2.
+
+150
+00:10:25,670 --> 00:10:27,670
+And so this will work out fine.
+
+151
+00:10:30,340 --> 00:10:33,840
+Again, the definition of
+this factorial in general
+
+152
+00:10:33,840 --> 00:10:36,280
+is through the gamma
+function and an integral
+
+153
+00:10:36,280 --> 00:10:38,270
+that we saw already.
+
+154
+00:10:38,270 --> 00:10:43,910
+And factorial is the integral
+0 to infinity, dx, x to the n
+
+155
+00:10:43,910 --> 00:10:46,680
+into the minus x.
+
+156
+00:10:46,680 --> 00:10:49,990
+Now, the thing is that
+this is a quantity that
+
+157
+00:10:49,990 --> 00:10:55,990
+for large values of dimension
+grows exponentially v E d.
+
+158
+00:10:55,990 --> 00:11:00,750
+So what I claim is that if I
+take the log of this surface
+
+159
+00:11:00,750 --> 00:11:06,610
+area and take the limit that
+d is much larger than 1,
+
+160
+00:11:06,610 --> 00:11:09,280
+the quantity that I
+will get-- well, let's
+
+161
+00:11:09,280 --> 00:11:10,340
+take the log of this.
+
+162
+00:11:10,340 --> 00:11:13,390
+I will get log of 2.
+
+163
+00:11:13,390 --> 00:11:23,840
+I will get d over 2 log
+pi and minus the log
+
+164
+00:11:23,840 --> 00:11:26,680
+of this large factorial.
+
+165
+00:11:26,680 --> 00:11:30,650
+And the log of the factorial
+I will use Sterling's formula.
+
+166
+00:11:30,650 --> 00:11:32,870
+I will ignore in
+that large limit
+
+167
+00:11:32,870 --> 00:11:36,920
+the difference between d
+over 2 and d over 2 minus 1.
+
+168
+00:11:36,920 --> 00:11:38,530
+Or actually I guess
+at the beginning
+
+169
+00:11:38,530 --> 00:11:46,380
+I may even write it d over 2
+minus 1 log of d over 2 minus 1
+
+170
+00:11:46,380 --> 00:11:49,337
+plus d over 2 minus 1.
+
+171
+00:11:53,000 --> 00:11:56,340
+Now if I'm in this
+limit of large d again,
+
+172
+00:11:56,340 --> 00:12:00,210
+I can ignore the 1s.
+
+173
+00:12:00,210 --> 00:12:06,020
+And I can ignore the log 2
+with respect to this d over 2.
+
+174
+00:12:06,020 --> 00:12:10,070
+And so the answer in this
+limit is in fact proportional
+
+175
+00:12:10,070 --> 00:12:11,950
+to d over 2.
+
+176
+00:12:11,950 --> 00:12:14,390
+And I have the log.
+
+177
+00:12:14,390 --> 00:12:16,550
+I have pi.
+
+178
+00:12:16,550 --> 00:12:21,290
+I have this d over 2 that
+will carry in the denominator.
+
+179
+00:12:21,290 --> 00:12:26,460
+And then this d over 2 times 1
+I can write as d over 2 log e.
+
+180
+00:12:26,460 --> 00:12:30,520
+And so this is
+the answer we get.
+
+181
+00:12:30,520 --> 00:12:38,590
+So you can see that the
+answer is exponentially large
+
+182
+00:12:38,590 --> 00:12:41,530
+if I were to again write s of d.
+
+183
+00:12:41,530 --> 00:12:46,500
+S of d grows like
+an exponential in d.
+
+184
+00:12:46,500 --> 00:12:49,930
+OK, so what do I
+conclude from that?
+
+185
+00:12:49,930 --> 00:12:59,740
+I conclude that s over Kd--
+and we said that the entropy,
+
+186
+00:12:59,740 --> 00:13:05,080
+we can regard as the entropy of
+this probability distribution.
+
+187
+00:13:05,080 --> 00:13:08,065
+So that's going to give
+me the log of this omega.
+
+188
+00:13:12,050 --> 00:13:16,460
+And log off this omega,
+we'll get a factor
+
+189
+00:13:16,460 --> 00:13:18,970
+from this v to the n.
+
+190
+00:13:18,970 --> 00:13:24,190
+So I will get N
+log V. I will get
+
+191
+00:13:24,190 --> 00:13:30,130
+a factor from log of S of 3N.
+
+192
+00:13:30,130 --> 00:13:35,260
+I figured out what that
+log was in the limit
+
+193
+00:13:35,260 --> 00:13:37,110
+of large dimensions.
+
+194
+00:13:37,110 --> 00:13:46,340
+So I essentially have 3N over 2
+because my d is now roughly 3N.
+
+195
+00:13:46,340 --> 00:13:48,980
+It's in fact exactly 3N, sorry.
+
+196
+00:13:48,980 --> 00:13:53,645
+I have the log of 2 pi e.
+
+197
+00:13:53,645 --> 00:13:56,900
+For d I have 3N.
+
+198
+00:13:56,900 --> 00:14:00,940
+And then I actually
+have also from here
+
+199
+00:14:00,940 --> 00:14:09,600
+a 3N log R, which I can write
+as 3N over 2 log of R squared.
+
+200
+00:14:09,600 --> 00:14:13,506
+And my R squared is 2mE.
+
+201
+00:14:13,506 --> 00:14:14,464
+The figure I have here.
+
+202
+00:14:17,430 --> 00:14:24,950
+And then you say, OK,
+we added this delta R.
+
+203
+00:14:24,950 --> 00:14:27,250
+But now you can
+see that I can also
+
+204
+00:14:27,250 --> 00:14:33,230
+ignore this delta R, because
+everything else that I have
+
+205
+00:14:33,230 --> 00:14:37,240
+in this expression is
+something that grows radially
+
+206
+00:14:37,240 --> 00:14:43,400
+with N. What's the worse
+that I can do for delta R?
+
+207
+00:14:43,400 --> 00:14:49,910
+I could make delta R even as big
+as the entirety of this volume.
+
+208
+00:14:49,910 --> 00:14:52,680
+And then the
+typical volume would
+
+209
+00:14:52,680 --> 00:14:57,530
+be of the order of the energy--
+sorry, the typical value of R
+
+210
+00:14:57,530 --> 00:15:00,220
+would be like the
+square root of energy.
+
+211
+00:15:00,220 --> 00:15:02,310
+So here I would
+have to put this log
+
+212
+00:15:02,310 --> 00:15:04,680
+of the square root
+of the energy.
+
+213
+00:15:04,680 --> 00:15:07,495
+And log of a square roots
+of an extensive quantity
+
+214
+00:15:07,495 --> 00:15:10,400
+is much less than the
+extensive quantity.
+
+215
+00:15:10,400 --> 00:15:12,470
+I can ignore it.
+
+216
+00:15:12,470 --> 00:15:17,870
+And actually this reminds me,
+that some 35 years ago when
+
+217
+00:15:17,870 --> 00:15:22,680
+I was taking this course,
+from Professor Felix Villiers,
+
+218
+00:15:22,680 --> 00:15:25,370
+he said that he
+had gone to lunch.
+
+219
+00:15:25,370 --> 00:15:30,515
+And he had gotten to this
+very beautiful, large orange.
+
+220
+00:15:30,515 --> 00:15:32,780
+And he was excited.
+
+221
+00:15:32,780 --> 00:15:36,700
+And he opened up the
+orange, and it was all skin.
+
+222
+00:15:36,700 --> 00:15:39,500
+And there was just a
+little bit in the middle.
+
+223
+00:15:39,500 --> 00:15:41,560
+He was saying it is like this.
+
+224
+00:15:41,560 --> 00:15:43,370
+It's all in the surface.
+
+225
+00:15:43,370 --> 00:15:48,560
+So if Professor Villiers had
+an orange in 3N dimension,
+
+226
+00:15:48,560 --> 00:15:52,040
+he would have exponentially
+hard time extracting an orange.
+
+227
+00:15:55,070 --> 00:16:00,880
+So this is our formula for
+the entropy of this gas.
+
+228
+00:16:00,880 --> 00:16:04,110
+Essentially the
+extensive parts, n log v
+
+229
+00:16:04,110 --> 00:16:07,590
+and something that
+depends on n log E.
+
+230
+00:16:07,590 --> 00:16:10,100
+And that's really all
+we need to figure out
+
+231
+00:16:10,100 --> 00:16:12,950
+all of the thermodynamic
+properties,
+
+232
+00:16:12,950 --> 00:16:18,540
+because we said that
+we can construct--
+
+233
+00:16:18,540 --> 00:16:25,710
+that's in thermodynamics--
+dE is TdS minus PdV plus YdN
+
+234
+00:16:25,710 --> 00:16:29,440
+in the case of a gas.
+
+235
+00:16:29,440 --> 00:16:32,950
+And so we can
+rearrange that to dS
+
+236
+00:16:32,950 --> 00:16:43,410
+be dE over T plus P over
+T dV minus Y over T dN.
+
+237
+00:16:43,410 --> 00:16:46,630
+And the first thing
+that we see is
+
+238
+00:16:46,630 --> 00:16:50,090
+by taking the derivative of S
+with respect to the quantities
+
+239
+00:16:50,090 --> 00:16:53,010
+that we have
+established, E, V, and N,
+
+240
+00:16:53,010 --> 00:16:57,780
+we should be able to read
+off appropriate quantities.
+
+241
+00:16:57,780 --> 00:17:01,040
+And in particular,
+let's say 1 over T
+
+242
+00:17:01,040 --> 00:17:06,819
+would be dS by dE
+of constant v and n.
+
+243
+00:17:06,819 --> 00:17:10,480
+S will be proportional to kB.
+
+244
+00:17:10,480 --> 00:17:14,829
+And then they dependents
+of this object on E
+
+245
+00:17:14,829 --> 00:17:19,599
+only appears on
+this log E. Except
+
+246
+00:17:19,599 --> 00:17:23,210
+that there's a factor
+of 3N over 2 out front.
+
+247
+00:17:23,210 --> 00:17:30,110
+And the derivative of log E
+with respect to E is 1 over E.
+
+248
+00:17:30,110 --> 00:17:32,820
+So I can certainly
+immediately rearrange
+
+249
+00:17:32,820 --> 00:17:37,720
+this and to get that
+the energy is 3/2 N k
+
+250
+00:17:37,720 --> 00:17:46,160
+T in this system of ideal point
+particles in three dimensions.
+
+251
+00:17:46,160 --> 00:17:51,067
+And then the
+pressure, P over T, is
+
+252
+00:17:51,067 --> 00:17:54,380
+the S by dV at constant e and n.
+
+253
+00:17:54,380 --> 00:17:56,520
+And it's again, kB.
+
+254
+00:17:56,520 --> 00:18:00,850
+The only dependence on V
+is through this N log V.
+
+255
+00:18:00,850 --> 00:18:06,365
+So I will get a factor of N over
+V, which I can rearrange to PV
+
+256
+00:18:06,365 --> 00:18:12,150
+is N kB T by the ideal gas law.
+
+257
+00:18:12,150 --> 00:18:15,530
+And in principle,
+the next step would
+
+258
+00:18:15,530 --> 00:18:17,670
+be to calculate the
+chemical potential.
+
+259
+00:18:17,670 --> 00:18:21,800
+But we will leave that
+for the time being
+
+260
+00:18:21,800 --> 00:18:23,830
+for reasons that
+will become apparent.
+
+261
+00:18:34,260 --> 00:18:46,480
+Now, one thing to note is that
+what you have postulated here,
+
+262
+00:18:46,480 --> 00:18:51,640
+right at the beginning, is
+much, much, more information
+
+263
+00:18:51,640 --> 00:18:56,390
+than what we extracted here
+about thermodynamic properties.
+
+264
+00:18:56,390 --> 00:19:00,760
+It's a statement about a
+joint probability distribution
+
+265
+00:19:00,760 --> 00:19:04,160
+in this six N
+dimensional face space.
+
+266
+00:19:04,160 --> 00:19:08,210
+So it has huge amount
+of information.
+
+267
+00:19:08,210 --> 00:19:11,290
+Just to show you part
+of it, let's take
+
+268
+00:19:11,290 --> 00:19:14,670
+a note at the following.
+
+269
+00:19:14,670 --> 00:19:19,820
+What it is a probability
+as a function of all
+
+270
+00:19:19,820 --> 00:19:23,540
+coordinates and momenta
+across your system.
+
+271
+00:19:23,540 --> 00:19:26,470
+But let me ask a
+specific question.
+
+272
+00:19:26,470 --> 00:19:31,420
+I can ask what's the probability
+that some particular particle--
+
+273
+00:19:31,420 --> 00:19:36,160
+say particle number
+one-- has a momentum P1.
+
+274
+00:19:36,160 --> 00:19:37,990
+It's the only
+question that I care
+
+275
+00:19:37,990 --> 00:19:42,460
+to ask about this huge
+amount of degrees of freedom
+
+276
+00:19:42,460 --> 00:19:45,090
+that are encoded in P of mu.
+
+277
+00:19:45,090 --> 00:19:48,070
+And so what do I do if I
+don't really care about all
+
+278
+00:19:48,070 --> 00:19:51,690
+of the other degrees of freedom
+is I will integrate them.
+
+279
+00:19:51,690 --> 00:19:57,810
+So I don't really care where
+particle number one is located.
+
+280
+00:19:57,810 --> 00:20:00,470
+I didn't ask where
+it is in the box.
+
+281
+00:20:00,470 --> 00:20:05,750
+I don't really care where part
+because numbers two through N
+
+282
+00:20:05,750 --> 00:20:08,680
+are located or which
+momenta they have.
+
+283
+00:20:08,680 --> 00:20:12,410
+So I integrate over
+all of those things
+
+284
+00:20:12,410 --> 00:20:17,200
+of the full joint
+probability, which
+
+285
+00:20:17,200 --> 00:20:20,161
+depends on the entirety
+of the face space.
+
+286
+00:20:23,460 --> 00:20:25,140
+Fine, you say, OK.
+
+287
+00:20:25,140 --> 00:20:29,450
+This joint probability actually
+has a very simple form.
+
+288
+00:20:29,450 --> 00:20:35,670
+It is 1 over this
+omega E, V, and N,
+
+289
+00:20:35,670 --> 00:20:38,990
+multiplying either 1 or 0.
+
+290
+00:20:38,990 --> 00:20:45,210
+So I have to integrate
+over all of these q1's, all
+
+291
+00:20:45,210 --> 00:20:49,020
+of these qi P i.
+
+292
+00:20:51,630 --> 00:20:56,420
+Of 1 over omega or 0
+over omega, this delta
+
+293
+00:20:56,420 --> 00:20:58,890
+like function that
+we put in a box
+
+294
+00:20:58,890 --> 00:21:02,070
+up there-- so this is
+this delta function that
+
+295
+00:21:02,070 --> 00:21:05,850
+says that the particular
+should be inside the box.
+
+296
+00:21:05,850 --> 00:21:07,690
+And the sum of
+the momenta should
+
+297
+00:21:07,690 --> 00:21:09,900
+be on the surface
+of this hypershpere.
+
+298
+00:21:14,760 --> 00:21:18,390
+Now, let's do
+these integrations.
+
+299
+00:21:18,390 --> 00:21:19,555
+Let's do it here.
+
+300
+00:21:19,555 --> 00:21:22,020
+I may need space.
+
+301
+00:21:22,020 --> 00:21:24,830
+The integration over
+Q1 is very simple.
+
+302
+00:21:24,830 --> 00:21:28,490
+It will give me a factor of V.
+
+303
+00:21:28,490 --> 00:21:31,505
+I have this omega E, V,
+N, in the denominator.
+
+304
+00:21:35,320 --> 00:21:41,340
+And I claim that the numerator
+is simply the following.
+
+305
+00:21:41,340 --> 00:21:50,550
+Omega E minus P1 squared
+over 2m V N minus 1.
+
+306
+00:21:50,550 --> 00:21:52,250
+Why?
+
+307
+00:21:52,250 --> 00:21:59,230
+Because what I need to do over
+here in terms of integrations
+
+308
+00:21:59,230 --> 00:22:03,320
+is pretty much what I would
+have to integrate over here
+
+309
+00:22:03,320 --> 00:22:08,040
+that gave rise to that surface
+and all of those factors
+
+310
+00:22:08,040 --> 00:22:09,900
+with one exception.
+
+311
+00:22:09,900 --> 00:22:14,540
+First of all, I integrated
+over one particle already,
+
+312
+00:22:14,540 --> 00:22:18,520
+so the coordinate momenta here
+that I'm integrating pertains
+
+313
+00:22:18,520 --> 00:22:21,280
+to the remaining N minus 1.
+
+314
+00:22:21,280 --> 00:22:25,470
+Hence, the omega
+pertains to N minus 1.
+
+315
+00:22:25,470 --> 00:22:27,900
+It's still in the
+same box of volume V.
+
+316
+00:22:27,900 --> 00:22:31,250
+So V, the other
+argument, is the same.
+
+317
+00:22:31,250 --> 00:22:33,530
+But the energy is changed.
+
+318
+00:22:33,530 --> 00:22:34,030
+Why?
+
+319
+00:22:34,030 --> 00:22:37,430
+Because I told you
+how much momentum
+
+320
+00:22:37,430 --> 00:22:40,460
+I want the first
+particle to carry.
+
+321
+00:22:40,460 --> 00:22:42,520
+So given the knowledge
+that I'm looking
+
+322
+00:22:42,520 --> 00:22:47,030
+at the probability of the first
+particle having momentum P1,
+
+323
+00:22:47,030 --> 00:22:50,810
+then I know that the
+remainder of the energy
+
+324
+00:22:50,810 --> 00:22:54,570
+should be shared among the
+momenta of all the remaining
+
+325
+00:22:54,570 --> 00:22:57,650
+N minus 1 particles.
+
+326
+00:22:57,650 --> 00:23:03,580
+So I have already calculated
+these omegas up here.
+
+327
+00:23:03,580 --> 00:23:06,710
+All I need to do is to
+substitute them over here.
+
+328
+00:23:06,710 --> 00:23:09,500
+And I will get this probability.
+
+329
+00:23:09,500 --> 00:23:16,000
+So first of all, let's check
+that the volume part cancels.
+
+330
+00:23:16,000 --> 00:23:19,090
+I have one factor a volume here.
+
+331
+00:23:19,090 --> 00:23:23,540
+Each of my omegas is in fact
+proportional to V to the N.
+
+332
+00:23:23,540 --> 00:23:26,080
+So the denominator
+has V to the N.
+
+333
+00:23:26,080 --> 00:23:29,060
+The numerator has a
+V to the N minus 1.
+
+334
+00:23:29,060 --> 00:23:32,930
+And all of the V's
+would cancel out.
+
+335
+00:23:32,930 --> 00:23:39,900
+So the interesting thing really
+comes from these solid angle
+
+336
+00:23:39,900 --> 00:23:42,720
+and radius parts.
+
+337
+00:23:42,720 --> 00:23:47,240
+The solid angle is a ratio of--
+let's write the denominator.
+
+338
+00:23:47,240 --> 00:23:48,300
+It's easier.
+
+339
+00:23:48,300 --> 00:23:54,130
+It is 2 pi to the 3N over
+2 divided by 3N over 2
+
+340
+00:23:54,130 --> 00:23:56,200
+minus one factorial.
+
+341
+00:23:56,200 --> 00:24:00,670
+The numerator would be 2
+pi to the 3 N and minus 1
+
+342
+00:24:00,670 --> 00:24:09,745
+over 2 divided by 3 N minus
+1 over 2 minus 1 factorial.
+
+343
+00:24:13,200 --> 00:24:18,620
+And then I have these
+ratio of the radii.
+
+344
+00:24:18,620 --> 00:24:34,980
+In the denominator I have 2mE to
+the power of 3 N minus 1 over 2
+
+345
+00:24:34,980 --> 00:24:36,130
+minus 1.
+
+346
+00:24:36,130 --> 00:24:48,770
+So minus 3N-- it is
+3N minus 1 over 2.
+
+347
+00:24:48,770 --> 00:24:52,010
+Same thing that we have
+been calculating so far.
+
+348
+00:24:52,010 --> 00:24:59,490
+And in the numerator it is 2m
+E minus P1 squared over 2m.
+
+349
+00:24:59,490 --> 00:25:05,350
+So I will factor out the E.
+I have 1 minus P1 squared
+
+350
+00:25:05,350 --> 00:25:09,380
+over 2m E. The whole
+thing raised to something
+
+351
+00:25:09,380 --> 00:25:14,338
+that is 3 N minus
+1 minus 1 over 2.
+
+352
+00:25:25,954 --> 00:25:31,300
+Now, the most
+important part of this
+
+353
+00:25:31,300 --> 00:25:39,360
+is the fact that the dependence
+on P1 appears as follows.
+
+354
+00:25:39,360 --> 00:25:45,320
+I have this factor of 1
+minus P1 squared over 2m E.
+
+355
+00:25:45,320 --> 00:25:48,400
+That's the one place
+that P1, the momentum
+
+356
+00:25:48,400 --> 00:25:51,760
+of the particle that
+I'm interested appears.
+
+357
+00:25:51,760 --> 00:25:54,280
+And it raised to
+the huge problem,
+
+358
+00:25:54,280 --> 00:25:57,080
+which is of the
+order of 3N over 2.
+
+359
+00:25:57,080 --> 00:25:59,160
+It is likely less.
+
+360
+00:25:59,160 --> 00:26:01,290
+But it really doesn't
+make any difference
+
+361
+00:26:01,290 --> 00:26:06,050
+whether I write 3N over 2, 3N
+over minus 1 over 2, et cetera.
+
+362
+00:26:06,050 --> 00:26:08,720
+Really, ultimately,
+what I will have
+
+363
+00:26:08,720 --> 00:26:13,260
+is 1 minus the very small
+number, because presumably
+
+364
+00:26:13,260 --> 00:26:15,920
+the energy of one
+part they can is
+
+365
+00:26:15,920 --> 00:26:19,030
+less than the energy of the
+entirety of the particle.
+
+366
+00:26:19,030 --> 00:26:22,670
+So this is something that is
+order of 1 out of N raised
+
+367
+00:26:22,670 --> 00:26:25,420
+to something that is
+order of N. So that's
+
+368
+00:26:25,420 --> 00:26:28,520
+where an exponentiation
+will come into play.
+
+369
+00:26:28,520 --> 00:26:31,680
+And then there's a whole
+bunch of other factors
+
+370
+00:26:31,680 --> 00:26:36,320
+that if I don't make any
+mistake I can try to write down.
+
+371
+00:26:36,320 --> 00:26:39,300
+There is the 2s
+certainly cancel when
+
+372
+00:26:39,300 --> 00:26:42,480
+I look at the factors of pi.
+
+373
+00:26:42,480 --> 00:26:45,670
+The denominator with
+respect to the numerator
+
+374
+00:26:45,670 --> 00:26:49,780
+has an additional
+factor of pi to the 3/2.
+
+375
+00:26:49,780 --> 00:26:51,430
+In fact, I will
+have a whole bunch
+
+376
+00:26:51,430 --> 00:26:54,840
+of things that are raised
+to the powers of 3/2.
+
+377
+00:26:54,840 --> 00:26:57,980
+I also have this
+2mE that compared
+
+378
+00:26:57,980 --> 00:27:01,420
+to the 2mE that
+comes out front has
+
+379
+00:27:01,420 --> 00:27:03,940
+an additional factor of 3/2.
+
+380
+00:27:03,940 --> 00:27:06,220
+So let's put all
+of them together.
+
+381
+00:27:06,220 --> 00:27:09,760
+2 pi mE raised to
+the power of 3/2.
+
+382
+00:27:13,260 --> 00:27:18,230
+And then I have the ratio
+of these factorials.
+
+383
+00:27:18,230 --> 00:27:22,350
+And again, the factorial that
+I have in the denominator
+
+384
+00:27:22,350 --> 00:27:27,940
+has one and a half times
+more or 3/2 times more
+
+385
+00:27:27,940 --> 00:27:31,420
+than what is in the numerator.
+
+386
+00:27:31,420 --> 00:27:34,480
+Roughly it is something
+like the ratio
+
+387
+00:27:34,480 --> 00:27:39,390
+of 3 N over 2
+factorial divided by 3
+
+388
+00:27:39,390 --> 00:27:42,065
+N minus 1 over 2 factorial.
+
+389
+00:27:46,870 --> 00:27:50,390
+And I claim that, say,
+N factorial compared
+
+390
+00:27:50,390 --> 00:27:55,430
+to N minus 1 factorial is
+larger by a factor of N.
+
+391
+00:27:55,430 --> 00:27:59,990
+If I go between N factorial
+N minus 2 factorial is
+
+392
+00:27:59,990 --> 00:28:02,960
+a factor that is
+roughly N squared.
+
+393
+00:28:02,960 --> 00:28:08,810
+Now this does not shift either
+by 1 or by 2, but by 1 and 1/2.
+
+394
+00:28:08,810 --> 00:28:12,250
+And if you go through
+Sterling formula, et cetera,
+
+395
+00:28:12,250 --> 00:28:16,650
+you can convince yourself that
+this is roughly 3 N over 2
+
+396
+00:28:16,650 --> 00:28:19,335
+to the power of 1 and 1/2-- 3/2.
+
+397
+00:28:21,930 --> 00:28:28,180
+And so once you do all of your
+arrangements, what do you get?
+
+398
+00:28:28,180 --> 00:28:32,210
+1 minus a small quantity
+raised to a huge power,
+
+399
+00:28:32,210 --> 00:28:34,580
+that's the definition
+of the exponential.
+
+400
+00:28:34,580 --> 00:28:41,650
+So I get exponential of
+minus P1 squared over 2m.
+
+401
+00:28:41,650 --> 00:28:46,060
+And the factor that
+multiplies it is E.
+
+402
+00:28:46,060 --> 00:28:50,260
+And then I have 3N over 2.
+
+403
+00:28:55,660 --> 00:29:02,160
+And again, if I have
+not made any mistake
+
+404
+00:29:02,160 --> 00:29:05,890
+and I'm careful with all of
+the other factors that remain,
+
+405
+00:29:05,890 --> 00:29:12,340
+I have here 2 pi m
+E. And this E also
+
+406
+00:29:12,340 --> 00:29:17,040
+gets multiplied by the
+inverse of 3N over 2.
+
+407
+00:29:17,040 --> 00:29:20,890
+So I will have this
+replaced by 2E over 3N.
+
+408
+00:29:29,140 --> 00:29:34,650
+So statement number
+one, this assignment
+
+409
+00:29:34,650 --> 00:29:37,500
+of probabilities according
+to just throwing the dice
+
+410
+00:29:37,500 --> 00:29:41,970
+and saying that everything
+that has the same right energy
+
+411
+00:29:41,970 --> 00:29:45,080
+is equally likely is
+equivalent to looking
+
+412
+00:29:45,080 --> 00:29:47,680
+at one of the
+particles and stating
+
+413
+00:29:47,680 --> 00:29:50,455
+that the momentum of that part
+again is Gaussian distributed.
+
+414
+00:29:53,660 --> 00:30:00,200
+Secondly, you can check that
+this combination, 2E divided
+
+415
+00:30:00,200 --> 00:30:03,330
+by 3N is the same thing as kT.
+
+416
+00:30:03,330 --> 00:30:05,360
+So essentially
+this you could also
+
+417
+00:30:05,360 --> 00:30:09,030
+if you want to
+replace 1 over kT.
+
+418
+00:30:09,030 --> 00:30:13,120
+And you would get the
+more familiar kind
+
+419
+00:30:13,120 --> 00:30:16,370
+of Maxwell type of
+distribution for the momentum
+
+420
+00:30:16,370 --> 00:30:20,320
+of a single particle
+in an ideal gas.
+
+421
+00:30:20,320 --> 00:30:23,540
+And again, since
+everything that we did
+
+422
+00:30:23,540 --> 00:30:26,760
+was consistent with the
+laws of probability,
+
+423
+00:30:26,760 --> 00:30:30,200
+if we did not mix up the
+orders of N, et cetera,
+
+424
+00:30:30,200 --> 00:30:32,860
+the answer should be
+properly normalized.
+
+425
+00:30:32,860 --> 00:30:38,520
+And indeed, you can check that
+this is the three dimensional
+
+426
+00:30:38,520 --> 00:30:43,490
+normalization that you
+would require for this gas.
+
+427
+00:30:43,490 --> 00:30:49,790
+So the statement of saying
+that everything is allowed
+
+428
+00:30:49,790 --> 00:30:56,220
+is equally likely is a
+huge statement in space
+
+429
+00:30:56,220 --> 00:30:58,390
+of possible configurations.
+
+430
+00:30:58,390 --> 00:31:01,980
+On the one hand, it gives
+you macroscopic information.
+
+431
+00:31:01,980 --> 00:31:04,580
+On the other hand, it
+retains a huge amount
+
+432
+00:31:04,580 --> 00:31:06,640
+of microscopic information.
+
+433
+00:31:06,640 --> 00:31:08,340
+The parts of it
+that are relevant,
+
+434
+00:31:08,340 --> 00:31:10,257
+you can try to
+extract this here.
+
+435
+00:31:13,361 --> 00:31:13,860
+OK?
+
+436
+00:31:22,680 --> 00:31:25,820
+So those were the successes.
+
+437
+00:31:25,820 --> 00:31:29,470
+Question is why didn't
+I calculate for you
+
+438
+00:31:29,470 --> 00:31:31,840
+this u over T?
+
+439
+00:31:31,840 --> 00:31:35,300
+It is because this
+expression as we wrote down
+
+440
+00:31:35,300 --> 00:31:39,450
+has a glaring problem
+with it, which in order
+
+441
+00:31:39,450 --> 00:31:43,870
+to make it explicit, we will
+look at mixing entropies.
+
+442
+00:31:52,490 --> 00:31:54,580
+So the idea is
+this is as follows.
+
+443
+00:31:54,580 --> 00:31:59,585
+Let's imagine that we
+start with two gases.
+
+444
+00:32:03,780 --> 00:32:11,080
+Initially, I have N1 particles
+of one type in volume 1.
+
+445
+00:32:11,080 --> 00:32:16,640
+And I have N2 particles of
+another type in volume 2.
+
+446
+00:32:16,640 --> 00:32:20,600
+And for simplicity I will
+assume that both of them
+
+447
+00:32:20,600 --> 00:32:23,430
+are of the same temperature.
+
+448
+00:32:23,430 --> 00:32:27,590
+So this is my initial state.
+
+449
+00:32:27,590 --> 00:32:30,720
+And then I remove the partition.
+
+450
+00:32:30,720 --> 00:32:33,770
+And I come up with
+this situation
+
+451
+00:32:33,770 --> 00:32:38,950
+where the particles are mixed.
+
+452
+00:32:38,950 --> 00:32:44,070
+So the particles of type
+1 could be either way.
+
+453
+00:32:44,070 --> 00:32:48,100
+Particles of type 2
+could be in either place.
+
+454
+00:32:48,100 --> 00:32:55,715
+And let's say I have a box
+of some toxic gas here.
+
+455
+00:32:55,715 --> 00:32:57,510
+And I remove the lid.
+
+456
+00:32:57,510 --> 00:33:00,080
+And it will get
+mixed in the room.
+
+457
+00:33:00,080 --> 00:33:03,740
+It's certainly an
+irreversible situation
+
+458
+00:33:03,740 --> 00:33:07,075
+where is an increase of
+entropy i associated with that.
+
+459
+00:33:07,075 --> 00:33:10,310
+And we can calculate
+that increase of entropy,
+
+460
+00:33:10,310 --> 00:33:14,400
+because we know what the
+expression for entropy is.
+
+461
+00:33:14,400 --> 00:33:18,060
+So what we have to do is to
+compare the entropy initially.
+
+462
+00:33:20,930 --> 00:33:23,315
+So this is the initial entropy.
+
+463
+00:33:23,315 --> 00:33:26,430
+And I calculate
+everything in units of kB
+
+464
+00:33:26,430 --> 00:33:30,610
+so I don't have to write
+kB all over the place.
+
+465
+00:33:30,610 --> 00:33:33,940
+For particle number
+one, what do I have?
+
+466
+00:33:33,940 --> 00:33:36,030
+I have N1 log V1.
+
+467
+00:33:40,240 --> 00:33:50,100
+And then I have a contribution,
+which is 3 N 1 over 2.
+
+468
+00:33:50,100 --> 00:33:53,970
+But I notice that whatever
+appears here is really
+
+469
+00:33:53,970 --> 00:33:59,690
+only a function of
+E over N. E over N
+
+470
+00:33:59,690 --> 00:34:02,970
+is really only a
+function of temperature.
+
+471
+00:34:02,970 --> 00:34:11,840
+So this is something that I can
+call a sigma of T over here.
+
+472
+00:34:11,840 --> 00:34:21,139
+And the contribution of box 2
+is N2 log V plus 3N 2 over 2.
+
+473
+00:34:21,139 --> 00:34:28,179
+This-- huh-- let's
+say that they are--
+
+474
+00:34:28,179 --> 00:34:30,000
+we ignore the
+difference in masses.
+
+475
+00:34:30,000 --> 00:34:33,840
+You could potentially have
+here sigma 1, sigma 2.
+
+476
+00:34:33,840 --> 00:34:37,330
+It really doesn't
+make any difference.
+
+477
+00:34:37,330 --> 00:34:45,780
+The final state,
+what do we have?
+
+478
+00:34:45,780 --> 00:34:50,179
+Essentially, the one
+thing that changed
+
+479
+00:34:50,179 --> 00:34:53,770
+is that the N1 particles now
+are occupying the box of volume
+
+480
+00:34:53,770 --> 00:35:00,420
+V. So if call V to the
+V1 plus V2, what we have
+
+481
+00:35:00,420 --> 00:35:10,620
+is that we have N1 log
+of V plus N2 log of V.
+
+482
+00:35:10,620 --> 00:35:15,240
+My claim is that all
+of these other factors
+
+483
+00:35:15,240 --> 00:35:16,500
+really stay the same.
+
+484
+00:35:22,920 --> 00:35:28,150
+Because essentially what is
+happening in these expressions
+
+485
+00:35:28,150 --> 00:35:35,900
+are various ratios of E over N.
+And by stating that initially I
+
+486
+00:35:35,900 --> 00:35:38,480
+had the things at
+the same temperature,
+
+487
+00:35:38,480 --> 00:35:44,850
+what I had effectively
+stated was that E1 over N1
+
+488
+00:35:44,850 --> 00:35:48,430
+is the same thing as E2 over N2.
+
+489
+00:35:48,430 --> 00:35:51,640
+I guess in the ideal
+gas case this E over N
+
+490
+00:35:51,640 --> 00:35:54,350
+is the same thing as 3/2 kT.
+
+491
+00:36:01,530 --> 00:36:07,180
+But if I have a
+ratio such as this,
+
+492
+00:36:07,180 --> 00:36:14,330
+that is also the same as E1
+plus E2 divided by N1 plus N2.
+
+493
+00:36:14,330 --> 00:36:19,090
+This is a simple manipulation
+of fractions that I can make.
+
+494
+00:36:19,090 --> 00:36:26,510
+And E1 plus E2 over N1 plus N2,
+by the same kinds of arguments,
+
+495
+00:36:26,510 --> 00:36:29,220
+would give me the
+final temperature.
+
+496
+00:36:29,220 --> 00:36:35,060
+So what I have to compute is
+that the final temperature
+
+497
+00:36:35,060 --> 00:36:37,210
+is the same thing as
+the initial temperature.
+
+498
+00:36:37,210 --> 00:36:40,320
+Essentially, in this
+mixing of the ideal gases,
+
+499
+00:36:40,320 --> 00:36:42,880
+temperature does not change.
+
+500
+00:36:42,880 --> 00:36:48,870
+So basically, these
+factors of sigma
+
+501
+00:36:48,870 --> 00:36:51,630
+are the same before and after.
+
+502
+00:36:51,630 --> 00:36:56,630
+And so when we calculate
+the increase in entropy, Sf
+
+503
+00:36:56,630 --> 00:37:00,690
+minus Si, really
+the contribution
+
+504
+00:37:00,690 --> 00:37:05,720
+that you care about comes
+from these volume factors.
+
+505
+00:37:05,720 --> 00:37:10,620
+And really the statement is
+that in one particle currently
+
+506
+00:37:10,620 --> 00:37:13,190
+are occupying a
+volume of size V,
+
+507
+00:37:13,190 --> 00:37:15,990
+whereas previously
+they were in V1.
+
+508
+00:37:15,990 --> 00:37:17,760
+And similarly for
+the N2 particles.
+
+509
+00:37:22,670 --> 00:37:26,550
+And if you have more of these
+particles, more of these boxes,
+
+510
+00:37:26,550 --> 00:37:28,980
+you could see how the
+general expression
+
+511
+00:37:28,980 --> 00:37:32,550
+for the mixing entropy goes.
+
+512
+00:37:32,550 --> 00:37:34,930
+And so that's fine.
+
+513
+00:37:34,930 --> 00:37:38,110
+V is certainly
+greater than V1 or V2.
+
+514
+00:37:38,110 --> 00:37:40,940
+Each of these logs gives
+you a positive contribution.
+
+515
+00:37:40,940 --> 00:37:43,045
+There's an increase in
+entropy as we expect.
+
+516
+00:37:48,080 --> 00:37:52,430
+Now, there is the following
+difficulty however.
+
+517
+00:37:57,830 --> 00:38:04,050
+What if the gases are
+identical-- are the same?
+
+518
+00:38:11,180 --> 00:38:14,930
+We definitely have to do this
+if I take a box of methane here
+
+519
+00:38:14,930 --> 00:38:18,615
+and I open it, we all know
+that something has happened.
+
+520
+00:38:18,615 --> 00:38:21,920
+There is an irreversible
+process that has occured.
+
+521
+00:38:21,920 --> 00:38:25,020
+But if the box--
+I have essentially
+
+522
+00:38:25,020 --> 00:38:27,310
+taken the air in this
+room, put it in this box,
+
+523
+00:38:27,310 --> 00:38:30,632
+whether I open the lid
+or not open the lid,
+
+524
+00:38:30,632 --> 00:38:32,710
+it doesn't make any difference.
+
+525
+00:38:32,710 --> 00:38:35,250
+There is no
+additional work that I
+
+526
+00:38:35,250 --> 00:38:38,300
+have to do in order to
+close or open the lid.
+
+527
+00:38:38,300 --> 00:38:42,430
+Is no there no increase of
+entropy one way or the other.
+
+528
+00:38:42,430 --> 00:38:45,450
+Whereas if I look
+at this expression,
+
+529
+00:38:45,450 --> 00:38:48,530
+this expression only
+depends on the final volume
+
+530
+00:38:48,530 --> 00:38:50,860
+and the initial
+volumes, and says
+
+531
+00:38:50,860 --> 00:38:53,690
+that there should an
+increase in entropy
+
+532
+00:38:53,690 --> 00:38:57,650
+when we know that
+there shouldn't be.
+
+533
+00:38:57,650 --> 00:39:02,500
+And of course, the
+resolution for that
+
+534
+00:39:02,500 --> 00:39:03,780
+is something like this.
+
+535
+00:39:06,390 --> 00:39:15,280
+That if I look at my two boxes--
+and I said maybe one of them
+
+536
+00:39:15,280 --> 00:39:19,420
+is a box that contains methane.
+
+537
+00:39:19,420 --> 00:39:22,000
+Let's call it A.
+And the other is
+
+538
+00:39:22,000 --> 00:39:27,820
+the room that contains the air.
+
+539
+00:39:27,820 --> 00:39:31,480
+Now this situation
+where all of the methane
+
+540
+00:39:31,480 --> 00:39:35,750
+is in the box and the oxygen
+freely floating in the room
+
+541
+00:39:35,750 --> 00:39:39,820
+is certainly different
+from a configuration
+
+542
+00:39:39,820 --> 00:39:44,140
+where I exchange these two
+and the methane is here
+
+543
+00:39:44,140 --> 00:39:48,148
+and the oxygen
+went into the box.
+
+544
+00:39:48,148 --> 00:39:50,340
+They're different
+configurations.
+
+545
+00:39:50,340 --> 00:39:54,320
+You can definitely
+tell them apart.
+
+546
+00:39:54,320 --> 00:40:01,570
+Whereas if I do the same
+thing, but the box and outside
+
+547
+00:40:01,570 --> 00:40:11,710
+contain the same entity, and
+the same entity is, let's say,
+
+548
+00:40:11,710 --> 00:40:16,520
+oxygen, then how can you tell
+apart these two configurations?
+
+549
+00:40:16,520 --> 00:40:19,740
+And so the meaning of-- yes.
+
+550
+00:40:19,740 --> 00:40:21,192
+AUDIENCE: Are you
+thinking quantum
+
+551
+00:40:21,192 --> 00:40:22,644
+mechanically or classically.
+
+552
+00:40:22,644 --> 00:40:25,064
+Classically we can
+tell them apart, right?
+
+553
+00:40:27,980 --> 00:40:29,820
+MEHRAN KARDAR:
+This is currently I
+
+554
+00:40:29,820 --> 00:40:32,810
+am making a
+macroscopic statement.
+
+555
+00:40:32,810 --> 00:40:36,410
+Now when I get to the
+distinction of microstates
+
+556
+00:40:36,410 --> 00:40:40,590
+we have to-- so I was
+very careful in saying
+
+557
+00:40:40,590 --> 00:40:43,210
+whether or not you
+could tell apart
+
+558
+00:40:43,210 --> 00:40:45,970
+whether it is methane or oxygen.
+
+559
+00:40:45,970 --> 00:40:48,960
+So this was a very
+macroscopic statement as to
+
+560
+00:40:48,960 --> 00:40:50,570
+whether or not you
+can distinguish
+
+561
+00:40:50,570 --> 00:40:53,660
+this circumstance versus
+that circumstance.
+
+562
+00:40:53,660 --> 00:40:57,090
+So as far as our senses of
+this macroscopic process
+
+563
+00:40:57,090 --> 00:41:02,940
+is concerned, these two cases
+have to be treated differently.
+
+564
+00:41:02,940 --> 00:41:08,560
+Now, what we have calculated
+here for these factors
+
+565
+00:41:08,560 --> 00:41:12,130
+are some volume of phase space.
+
+566
+00:41:12,130 --> 00:41:15,190
+And where in the
+evening you might
+
+567
+00:41:15,190 --> 00:41:18,790
+say that following
+this procedure
+
+568
+00:41:18,790 --> 00:41:23,690
+you counted these as
+two distinct cases.
+
+569
+00:41:23,690 --> 00:41:26,730
+In this case, these
+were two distinct cases.
+
+570
+00:41:26,730 --> 00:41:30,050
+But here, you can't
+really tell them apart.
+
+571
+00:41:30,050 --> 00:41:31,990
+So if you can't
+tell them apart, you
+
+572
+00:41:31,990 --> 00:41:34,580
+shouldn't call them
+two distinct cases.
+
+573
+00:41:34,580 --> 00:41:39,950
+You have over counted phase
+space by a factor of two here.
+
+574
+00:41:39,950 --> 00:41:43,620
+And here, I just looked
+at two particles.
+
+575
+00:41:43,620 --> 00:41:47,080
+If I have N
+particles, I have over
+
+576
+00:41:47,080 --> 00:41:50,980
+counted the phase space
+of identical particles
+
+577
+00:41:50,980 --> 00:41:56,110
+by all possible permutations of
+n objects, it is n factorial.
+
+578
+00:41:56,110 --> 00:42:03,680
+So there is an over
+counting of phase space
+
+579
+00:42:03,680 --> 00:42:19,020
+or configurations of
+N identical particles
+
+580
+00:42:19,020 --> 00:42:24,300
+by a factor of N factorial.
+
+581
+00:42:31,210 --> 00:42:38,390
+I.e., when we said that particle
+number one can be anywhere
+
+582
+00:42:38,390 --> 00:42:42,060
+in the box, particle
+number two can be anywhere
+
+583
+00:42:42,060 --> 00:42:46,250
+in the box, all the way
+to particle number n,
+
+584
+00:42:46,250 --> 00:42:50,370
+well, in fact, I can't
+tell which each is which.
+
+585
+00:42:50,370 --> 00:42:53,060
+If I can't tell which
+particle is which,
+
+586
+00:42:53,060 --> 00:42:57,195
+I have to divide by the number
+of permutations and factors.
+
+587
+00:42:59,950 --> 00:43:02,105
+Now, as somebody was
+asking the question,
+
+588
+00:43:02,105 --> 00:43:06,950
+as you were asking the
+question, classically,
+
+589
+00:43:06,950 --> 00:43:11,240
+if I write a
+computer program that
+
+590
+00:43:11,240 --> 00:43:14,620
+looks at the trajectories
+of N particles
+
+591
+00:43:14,620 --> 00:43:18,780
+in the gas in this room,
+classically, your computer
+
+592
+00:43:18,780 --> 00:43:22,670
+would always know the particle
+that started over here
+
+593
+00:43:22,670 --> 00:43:24,430
+after many collisions
+or whatever
+
+594
+00:43:24,430 --> 00:43:28,960
+is the particle that
+ended up somewhere else.
+
+595
+00:43:28,960 --> 00:43:33,010
+So if you ask the
+computer, the computer
+
+596
+00:43:33,010 --> 00:43:37,600
+can certainly distinguish
+these classical trajectories.
+
+597
+00:43:37,600 --> 00:43:42,180
+And then it is kind of
+strange to say that, well, I
+
+598
+00:43:42,180 --> 00:43:44,860
+have to divide by N factorial
+because all of these
+
+599
+00:43:44,860 --> 00:43:45,760
+are identical.
+
+600
+00:43:45,760 --> 00:43:48,950
+Again, classically
+these particles
+
+601
+00:43:48,950 --> 00:43:51,070
+are following
+specific trajectories.
+
+602
+00:43:51,070 --> 00:43:54,170
+And you know where in
+phase space they are.
+
+603
+00:43:54,170 --> 00:43:58,530
+Whereas quantum mechanically,
+you can't tell that apart.
+
+604
+00:43:58,530 --> 00:44:02,670
+So quantum mechanically, as
+we will describe later, rather
+
+605
+00:44:02,670 --> 00:44:04,820
+than classical statistical
+mechanics-- when
+
+606
+00:44:04,820 --> 00:44:07,880
+we do quantum statistical
+mechanics-- if you have
+
+607
+00:44:07,880 --> 00:44:10,580
+identical particles,
+you have to write down
+
+608
+00:44:10,580 --> 00:44:13,820
+of a wave function that
+is either symmetric or
+
+609
+00:44:13,820 --> 00:44:16,960
+anti-symmetric under the
+exchange of particles.
+
+610
+00:44:16,960 --> 00:44:19,500
+And when we do eventually
+the calculations
+
+611
+00:44:19,500 --> 00:44:23,070
+for these factors of
+1 over N factorial
+
+612
+00:44:23,070 --> 00:44:26,070
+will emerge very naturally.
+
+613
+00:44:26,070 --> 00:44:31,070
+So I think different people
+have different perspectives.
+
+614
+00:44:31,070 --> 00:44:34,540
+My own perspective is
+that this factor really
+
+615
+00:44:34,540 --> 00:44:39,130
+is due to the quantum
+origin of identity.
+
+616
+00:44:39,130 --> 00:44:42,290
+And classically, you have to
+sort of fudge it and put it
+
+617
+00:44:42,290 --> 00:44:43,670
+over there.
+
+618
+00:44:43,670 --> 00:44:46,710
+But some people say that really
+it's a matter of measurements.
+
+619
+00:44:46,710 --> 00:44:50,090
+And if you can't really tell
+A and B sufficiently apart,
+
+620
+00:44:50,090 --> 00:44:51,800
+then you don't know.
+
+621
+00:44:51,800 --> 00:44:53,890
+I always go back
+to the computer.
+
+622
+00:44:53,890 --> 00:44:56,260
+And say, well, the
+computer can tell.
+
+623
+00:44:56,260 --> 00:44:58,990
+But it's kind of
+immaterial at this stage.
+
+624
+00:44:58,990 --> 00:45:03,390
+It's obvious that for all
+practical purposes for things
+
+625
+00:45:03,390 --> 00:45:08,040
+that are identical you have
+to divide by this factor.
+
+626
+00:45:08,040 --> 00:45:12,210
+So what happens if you
+divide by that factor?
+
+627
+00:45:12,210 --> 00:45:17,180
+So I have changed all
+of my calculations now.
+
+628
+00:45:17,180 --> 00:45:24,040
+So when I do the log of--
+previously I had V to the N.
+
+629
+00:45:24,040 --> 00:45:29,300
+And it gave me N log
+V. Now, I have log of V
+
+630
+00:45:29,300 --> 00:45:32,550
+to the N divided by N factorial.
+
+631
+00:45:32,550 --> 00:45:36,780
+So I will get my Sterling's
+approximation additional factor
+
+632
+00:45:36,780 --> 00:45:42,300
+of minus N log N plus N, which
+I can sort of absorb here
+
+633
+00:45:42,300 --> 00:45:43,110
+in this fashion.
+
+634
+00:45:48,825 --> 00:45:53,450
+Now you say, well, having
+done that, you have to first
+
+635
+00:45:53,450 --> 00:45:57,610
+of all show me that you
+fixed the case of this change
+
+636
+00:45:57,610 --> 00:46:00,960
+in entropy for
+identical particles,
+
+637
+00:46:00,960 --> 00:46:04,380
+but also you should show me
+that the previous case where
+
+638
+00:46:04,380 --> 00:46:07,570
+we know there has to be an
+increase in entropy just
+
+639
+00:46:07,570 --> 00:46:12,640
+because of the gas being
+different that that is not
+
+640
+00:46:12,640 --> 00:46:15,530
+changed because of this
+modification that you make.
+
+641
+00:46:15,530 --> 00:46:17,280
+So let's check that.
+
+642
+00:46:17,280 --> 00:46:25,490
+So for distinct gases, what
+would be the generalization
+
+643
+00:46:25,490 --> 00:46:29,648
+of this form Sf minus
+Si divided by kV?
+
+644
+00:46:35,310 --> 00:46:38,820
+Well, what happens here?
+
+645
+00:46:38,820 --> 00:46:51,000
+In the case of the final object,
+I have to divide N1 log of V.
+
+646
+00:46:51,000 --> 00:46:58,640
+But that V really becomes
+V divided by N1, because
+
+647
+00:46:58,640 --> 00:47:02,920
+in the volume of size
+V, I have N1 oxygen
+
+648
+00:47:02,920 --> 00:47:04,630
+that I can't tell apart.
+
+649
+00:47:04,630 --> 00:47:08,630
+So I divide by the N1
+factorial for the oxygens.
+
+650
+00:47:08,630 --> 00:47:13,020
+And then I have N2 methanes
+that I can't tell apart
+
+651
+00:47:13,020 --> 00:47:18,560
+in that volume, so I divide by
+essentially N2 factorial that
+
+652
+00:47:18,560 --> 00:47:20,840
+goes over there.
+
+653
+00:47:20,840 --> 00:47:30,450
+The initial change is over
+here I would have N1 log of V1
+
+654
+00:47:30,450 --> 00:47:32,440
+over N1.
+
+655
+00:47:32,440 --> 00:47:41,980
+And here I would have
+had N2 log of V2 over N2.
+
+656
+00:47:41,980 --> 00:47:46,100
+So every one of these
+expressions that was previously
+
+657
+00:47:46,100 --> 00:47:51,870
+log V, and I had four
+of them, gets changed.
+
+658
+00:47:51,870 --> 00:47:57,150
+But they get change precisely in
+a manner that this N1 log of N1
+
+659
+00:47:57,150 --> 00:48:00,530
+here cancels this N1
+log of and N1 here.
+
+660
+00:48:00,530 --> 00:48:05,140
+This N2 log of N2 here cancels
+this N2 log of N2 here.
+
+661
+00:48:05,140 --> 00:48:08,320
+So the delta S that I get
+is precisely the same thing
+
+662
+00:48:08,320 --> 00:48:09,960
+as I had before.
+
+663
+00:48:09,960 --> 00:48:18,230
+I will get N1 log of V over
+V1 plus N2 log of V over V2.
+
+664
+00:48:21,230 --> 00:48:27,240
+So this division,
+because the oxygens were
+
+665
+00:48:27,240 --> 00:48:29,370
+identical to
+themselves and methanes
+
+666
+00:48:29,370 --> 00:48:31,670
+were identical to
+themselves, does not
+
+667
+00:48:31,670 --> 00:48:37,110
+change the mixing entropy
+of oxygen and nitrogen.
+
+668
+00:48:37,110 --> 00:48:40,520
+But let's say that both
+gases are the same.
+
+669
+00:48:40,520 --> 00:48:42,380
+They're both oxygen.
+
+670
+00:48:42,380 --> 00:48:43,130
+Then what happens?
+
+671
+00:48:50,890 --> 00:48:55,500
+Now, in the final
+state, I have a box.
+
+672
+00:48:55,500 --> 00:48:59,110
+It has a N1 plus N2 particles
+that are all oxygen.
+
+673
+00:48:59,110 --> 00:49:01,370
+I can't tell them apart.
+
+674
+00:49:01,370 --> 00:49:07,140
+So the contribution
+from the phase space
+
+675
+00:49:07,140 --> 00:49:14,450
+would be N1 plus N2 log of the
+volume divided by N1 plus N2
+
+676
+00:49:14,450 --> 00:49:15,240
+factorial.
+
+677
+00:49:15,240 --> 00:49:18,460
+That ultimately will give me
+a factor of N1 plus N2 here.
+
+678
+00:49:22,550 --> 00:49:24,800
+The initial entropy
+is exactly the one
+
+679
+00:49:24,800 --> 00:49:26,706
+that I calculated before.
+
+680
+00:49:26,706 --> 00:49:32,040
+For the line above,
+I have N1 log of V1
+
+681
+00:49:32,040 --> 00:49:37,157
+over N1 minus N2
+log of V2 over N2.
+
+682
+00:49:45,440 --> 00:49:48,840
+Now certainly, I still expect
+to see some mixing entropy
+
+683
+00:49:48,840 --> 00:49:53,870
+if I have a box of oxygen
+that is at very low pressure
+
+684
+00:49:53,870 --> 00:49:56,340
+and is very dilute,
+and I open it
+
+685
+00:49:56,340 --> 00:49:59,185
+into this room, which is
+at much higher pressure
+
+686
+00:49:59,185 --> 00:50:01,600
+and is much more dense.
+
+687
+00:50:01,600 --> 00:50:03,520
+So really, the
+case where I don't
+
+688
+00:50:03,520 --> 00:50:06,210
+expect to see any
+change in entropy
+
+689
+00:50:06,210 --> 00:50:09,505
+is when the two boxes
+have the same density.
+
+690
+00:50:12,680 --> 00:50:14,860
+And hence, when I mix
+them, I would also
+
+691
+00:50:14,860 --> 00:50:16,255
+have exactly the same density.
+
+692
+00:50:21,170 --> 00:50:26,090
+And you can see that, therefore,
+all of these factors that
+
+693
+00:50:26,090 --> 00:50:30,370
+are in the log are of the
+inverse of the same density.
+
+694
+00:50:30,370 --> 00:50:33,320
+And there's N1 plus N2
+of them that's positive.
+
+695
+00:50:33,320 --> 00:50:36,100
+And N1 plus N2 of
+them that is negative.
+
+696
+00:50:36,100 --> 00:50:38,830
+So the answer in
+this case, as long
+
+697
+00:50:38,830 --> 00:50:44,020
+as I try to mix identical
+particles of the same density,
+
+698
+00:50:44,020 --> 00:50:46,340
+if I include this
+correction to the phase
+
+699
+00:50:46,340 --> 00:50:48,586
+space of identical
+particles, the answer
+
+700
+00:50:48,586 --> 00:50:54,438
+will be [? 0. ?] Yes?
+
+701
+00:50:54,438 --> 00:50:58,422
+AUDIENCE: Question,
+[INAUDIBLE] in terms
+
+702
+00:50:58,422 --> 00:51:04,398
+of the revolution
+of the [INAUDIBLE]
+
+703
+00:51:04,398 --> 00:51:09,400
+there is no
+transition [INAUDIBLE]
+
+704
+00:51:09,400 --> 00:51:13,388
+so that your temporary, and say
+like, oxygen and nitrogen can
+
+705
+00:51:13,388 --> 00:51:15,778
+catch a molecule, put it
+in a [? aspertometer. ?]
+
+706
+00:51:15,778 --> 00:51:18,168
+and have different isotopes.
+
+707
+00:51:18,168 --> 00:51:20,668
+You can take like closed
+isotopes of oxygen
+
+708
+00:51:20,668 --> 00:51:22,604
+and still tell them apart.
+
+709
+00:51:22,604 --> 00:51:25,992
+But this is like
+their continuous way
+
+710
+00:51:25,992 --> 00:51:28,684
+of choosing a pair
+of gases which
+
+711
+00:51:28,684 --> 00:51:31,980
+would be arbitrarily
+closed in atomic mass.
+
+712
+00:51:31,980 --> 00:51:34,500
+MEHRAN KARDAR: So,
+as I said, there
+
+713
+00:51:34,500 --> 00:51:38,030
+are alternative explanations
+that I've heard.
+
+714
+00:51:38,030 --> 00:51:40,530
+And that's precisely
+one of them.
+
+715
+00:51:40,530 --> 00:51:44,620
+And my counter is that
+what we are putting here
+
+716
+00:51:44,620 --> 00:51:47,670
+is the volume of phase space.
+
+717
+00:51:47,670 --> 00:51:52,180
+And to me that has a
+very specific meaning.
+
+718
+00:51:52,180 --> 00:51:55,120
+That is there's a set of
+coordinates and momenta
+
+719
+00:51:55,120 --> 00:51:58,960
+that are moving according
+to Hamiltonian trajectories.
+
+720
+00:51:58,960 --> 00:52:03,690
+And in principle, there
+is a computer nature
+
+721
+00:52:03,690 --> 00:52:06,060
+that is following
+these trajectories,
+
+722
+00:52:06,060 --> 00:52:08,800
+or I can actually put
+them on the computer.
+
+723
+00:52:08,800 --> 00:52:11,920
+And then no matter
+how long I run
+
+724
+00:52:11,920 --> 00:52:14,980
+and they're identical
+oxygen molecules,
+
+725
+00:52:14,980 --> 00:52:18,010
+I start with number one
+here, numbers two here.
+
+726
+00:52:18,010 --> 00:52:21,420
+The computer will say that this
+is the trajectory of number one
+
+727
+00:52:21,420 --> 00:52:23,760
+and this is the
+trajectory of numbers two.
+
+728
+00:52:23,760 --> 00:52:28,030
+So unless I change my
+definition of phase space
+
+729
+00:52:28,030 --> 00:52:32,710
+and how I am calculating
+things, I run into this paradox.
+
+730
+00:52:32,710 --> 00:52:36,050
+So what you're saying
+is forget about that.
+
+731
+00:52:36,050 --> 00:52:39,720
+It's just can tell isotopes
+apart or something like that.
+
+732
+00:52:39,720 --> 00:52:41,140
+And I'm saying that that's fine.
+
+733
+00:52:41,140 --> 00:52:43,480
+That's perspective,
+but it has nothing
+
+734
+00:52:43,480 --> 00:52:45,091
+to do with phase space counting.
+
+735
+00:52:51,300 --> 00:52:51,800
+OK?
+
+736
+00:52:54,560 --> 00:52:57,100
+Fine, now, why didn't
+I calculate this?
+
+737
+00:52:57,100 --> 00:53:02,220
+It was also for the
+same reason, because we
+
+738
+00:53:02,220 --> 00:53:07,460
+expect to have quantities
+that are extensive
+
+739
+00:53:07,460 --> 00:53:11,362
+and quantities
+that are intensive.
+
+740
+00:53:11,362 --> 00:53:13,950
+And therefore, if I
+were to, for example,
+
+741
+00:53:13,950 --> 00:53:16,630
+calculate this object,
+that it should be something
+
+742
+00:53:16,630 --> 00:53:18,672
+that is intensive.
+
+743
+00:53:18,672 --> 00:53:22,420
+Now the problem is that if I
+take a derivative with respect
+
+744
+00:53:22,420 --> 00:53:26,470
+N, I have log V.
+And log V is clearly
+
+745
+00:53:26,470 --> 00:53:30,590
+something that does not
+grow proportionately to size
+
+746
+00:53:30,590 --> 00:53:33,890
+but grows proportionately
+to size logarithmically.
+
+747
+00:53:33,890 --> 00:53:36,640
+So if I make volume
+twice as big,
+
+748
+00:53:36,640 --> 00:53:40,590
+I will get an additional factor
+of log 2 here contribution
+
+749
+00:53:40,590 --> 00:53:42,470
+to the chemical potential.
+
+750
+00:53:42,470 --> 00:53:45,500
+And that does not make sense.
+
+751
+00:53:45,500 --> 00:53:52,520
+But when I do this identity,
+then this V becomes V over N.
+
+752
+00:53:52,520 --> 00:53:56,270
+And then everything
+becomes nicely intensive.
+
+753
+00:53:56,270 --> 00:54:02,520
+So if I allowed now to
+replace this V over N,
+
+754
+00:54:02,520 --> 00:54:14,774
+then I can calculate V over T
+as dS by dN at constant E and V.
+
+755
+00:54:14,774 --> 00:54:17,470
+And so then
+essentially I will get
+
+756
+00:54:17,470 --> 00:54:22,880
+to drop the factor of log N that
+comes in front, so I will get
+
+757
+00:54:22,880 --> 00:54:28,840
+kT log of V over
+N. And then I would
+
+758
+00:54:28,840 --> 00:54:40,060
+have 3/2 log of something, which
+I can put together as 4 pi N
+
+759
+00:54:40,060 --> 00:54:45,030
+E over 3N raised
+to the 3/2 power.
+
+760
+00:54:49,730 --> 00:54:53,980
+And you can see that
+there were these E's
+
+761
+00:54:53,980 --> 00:54:57,500
+from Sterling's
+approximation up there that
+
+762
+00:54:57,500 --> 00:55:01,265
+got dropped here, because
+you can also take derivative
+
+763
+00:55:01,265 --> 00:55:04,260
+with respect to the
+N's that are inside.
+
+764
+00:55:04,260 --> 00:55:07,310
+And you can check that the
+function of derivatives
+
+765
+00:55:07,310 --> 00:55:09,320
+with respects to the
+N's that are inside
+
+766
+00:55:09,320 --> 00:55:11,415
+is precisely to get
+rid of those factors.
+
+767
+00:55:15,841 --> 00:55:16,340
+OK?
+
+768
+00:55:23,850 --> 00:55:26,610
+Now, there is still
+one other thing
+
+769
+00:55:26,610 --> 00:55:30,950
+that is not wrong, but
+kind of like jarring
+
+770
+00:55:30,950 --> 00:55:32,430
+about the expressions
+that they've
+
+771
+00:55:32,430 --> 00:55:39,280
+had so far in that right
+from the beginning,
+
+772
+00:55:39,280 --> 00:55:43,510
+I said that you can certainly
+calculate entropies out
+
+773
+00:55:43,510 --> 00:55:49,710
+of probabilities as minus
+log of P average if you like.
+
+774
+00:55:49,710 --> 00:55:51,610
+But it makes sense
+only if you're
+
+775
+00:55:51,610 --> 00:55:55,170
+dealing with discrete
+variables, because when you're
+
+776
+00:55:55,170 --> 00:55:57,220
+dealing with continual
+variables and you
+
+777
+00:55:57,220 --> 00:55:59,870
+have a probability density.
+
+778
+00:55:59,870 --> 00:56:01,590
+And the probability
+density depends
+
+779
+00:56:01,590 --> 00:56:03,490
+on the units of measurement.
+
+780
+00:56:03,490 --> 00:56:06,240
+And if you were to change
+measurement from meters
+
+781
+00:56:06,240 --> 00:56:08,580
+to centimeters or
+something else,
+
+782
+00:56:08,580 --> 00:56:13,460
+then there will be changes
+in the probability densities,
+
+783
+00:56:13,460 --> 00:56:17,750
+which would then modify the
+various factors over here.
+
+784
+00:56:17,750 --> 00:56:22,080
+And that's really also
+is reflected ultimately
+
+785
+00:56:22,080 --> 00:56:24,720
+in the fact that these
+combinations of terms
+
+786
+00:56:24,720 --> 00:56:28,890
+that I have written
+here have dimensions.
+
+787
+00:56:28,890 --> 00:56:32,250
+And it is kind
+of, again, jarring
+
+788
+00:56:32,250 --> 00:56:36,450
+to have expressions inside the
+logarithm or in the exponential
+
+789
+00:56:36,450 --> 00:56:39,550
+that our not dimensionless.
+
+790
+00:56:39,550 --> 00:56:43,480
+So it would be good
+if we had some way
+
+791
+00:56:43,480 --> 00:56:46,500
+of making all of
+these dimensionless.
+
+792
+00:56:46,500 --> 00:56:50,570
+And you say, well,
+really the origin of it
+
+793
+00:56:50,570 --> 00:56:53,430
+is all the way back
+here, when I was
+
+794
+00:56:53,430 --> 00:56:56,050
+calculating volumes
+in phase space.
+
+795
+00:56:56,050 --> 00:56:59,060
+And volumes in phase
+space have dimensions.
+
+796
+00:56:59,060 --> 00:57:03,560
+And that dimensions of
+pq raised to the 3N power
+
+797
+00:57:03,560 --> 00:57:07,240
+really survives all
+the way down here.
+
+798
+00:57:07,240 --> 00:57:12,150
+So I can say, OK, I
+choose some quantity
+
+799
+00:57:12,150 --> 00:57:15,775
+as a reference that has the
+right dimensions of the product
+
+800
+00:57:15,775 --> 00:57:18,690
+of p and q, which is an action.
+
+801
+00:57:18,690 --> 00:57:22,790
+And I divide all
+of my measurements
+
+802
+00:57:22,790 --> 00:57:28,140
+by that reference unit, so
+that, for example, here I
+
+803
+00:57:28,140 --> 00:57:32,130
+have 3N factors of this.
+
+804
+00:57:32,130 --> 00:57:34,120
+Or let's say each
+one of them is 3.
+
+805
+00:57:34,120 --> 00:57:39,720
+I divide by some quantity
+that has units of action .
+
+806
+00:57:39,720 --> 00:57:41,680
+And then I will be set.
+
+807
+00:57:41,680 --> 00:57:47,008
+So basically, the units of this
+h is the product of p and q.
+
+808
+00:57:51,160 --> 00:57:56,050
+Now, at this point
+we have no way
+
+809
+00:57:56,050 --> 00:57:59,330
+of choosing some h as
+opposed to another h.
+
+810
+00:57:59,330 --> 00:58:04,070
+And so by adding that factor,
+we can make things look nicer.
+
+811
+00:58:04,070 --> 00:58:08,610
+But then things are undefined
+after this factor of h.
+
+812
+00:58:08,610 --> 00:58:11,150
+When we do quantum
+mechanics, another thing
+
+813
+00:58:11,150 --> 00:58:14,640
+that quantum mechanics
+does is to provide us
+
+814
+00:58:14,640 --> 00:58:18,670
+with precisely [? age ?] of
+Planck's constant as a measure
+
+815
+00:58:18,670 --> 00:58:21,900
+of these kinds of integrations.
+
+816
+00:58:21,900 --> 00:58:25,390
+So when we eventually
+you go to calculate, say,
+
+817
+00:58:25,390 --> 00:58:28,900
+the ideal gas or any
+other mechanic system
+
+818
+00:58:28,900 --> 00:58:32,180
+that involves p and q
+in quantum mechanics,
+
+819
+00:58:32,180 --> 00:58:34,400
+then the phase space
+becomes discretized.
+
+820
+00:58:34,400 --> 00:58:39,030
+You would have-- The
+appropriate description
+
+821
+00:58:39,030 --> 00:58:42,730
+would have energies that are
+discretized corresponding
+
+822
+00:58:42,730 --> 00:58:46,650
+to various other discretization
+that are eventually
+
+823
+00:58:46,650 --> 00:58:52,670
+the equivalent to dividing
+by this Planck's constant.
+
+824
+00:58:52,670 --> 00:58:56,400
+Ultimately, I will
+have additionally
+
+825
+00:58:56,400 --> 00:59:01,600
+a factor of h squared
+appearing here.
+
+826
+00:59:01,600 --> 00:59:05,920
+And it will make everything
+nicely that much [? less. ?]
+
+827
+00:59:05,920 --> 00:59:16,700
+None of these other quantities
+that I mentioned calculated
+
+828
+00:59:16,700 --> 00:59:18,572
+would be affected by this.
+
+829
+00:59:28,990 --> 00:59:31,250
+So essentially,
+what I'm saying is
+
+830
+00:59:31,250 --> 00:59:38,340
+that you are going to
+use a measure for phase
+
+831
+00:59:38,340 --> 00:59:43,960
+space of identical particles.
+
+832
+00:59:51,310 --> 00:59:59,270
+Previously we had a product,
+d cubed Pi, d cubed Qi.
+
+833
+00:59:59,270 --> 01:00:02,430
+This is what we were
+integrating and requiring
+
+834
+01:00:02,430 --> 01:00:06,540
+that this integration
+will give us [INAUDIBLE].
+
+835
+01:00:06,540 --> 01:00:11,950
+Now, we will change this to
+divide by this N factorial,
+
+836
+01:00:11,950 --> 01:00:14,920
+if the particles are identical.
+
+837
+01:00:14,920 --> 01:00:21,560
+And we divide by h
+to the 3N because
+
+838
+01:00:21,560 --> 01:00:25,386
+of the number of pairs of
+pq that appear in this.
+
+839
+01:00:30,850 --> 01:00:35,020
+The justification to come when
+we ultimately do quantum study.
+
+840
+01:00:40,597 --> 01:00:41,180
+Any questions?
+
+841
+01:00:59,640 --> 01:01:04,780
+So I said that this
+prescription when
+
+842
+01:01:04,780 --> 01:01:08,480
+we look at a system
+at complete isolation,
+
+843
+01:01:08,480 --> 01:01:12,360
+and therefore, specify
+fully its energy
+
+844
+01:01:12,360 --> 01:01:16,300
+is the microcanonical
+ensemble, as opposed
+
+845
+01:01:16,300 --> 01:01:27,440
+to the canonical
+ensemble, whereas the set
+
+846
+01:01:27,440 --> 01:01:32,145
+of microscopic parameters
+that you identified
+
+847
+01:01:32,145 --> 01:01:39,400
+with your system, you replace
+the energy with temperature.
+
+848
+01:01:39,400 --> 01:01:42,630
+So in general,
+let's say there will
+
+849
+01:01:42,630 --> 01:01:48,590
+be some bunch of
+displacements, x, that give you
+
+850
+01:01:48,590 --> 01:01:51,490
+the work content to the system.
+
+851
+01:01:51,490 --> 01:01:54,550
+Just like we fixed over there
+the volume and the number
+
+852
+01:01:54,550 --> 01:02:00,420
+of particles, let's say that
+all of the work parameters,
+
+853
+01:02:00,420 --> 01:02:03,130
+such as x
+microscopically, we will
+
+854
+01:02:03,130 --> 01:02:06,130
+fix in this canonical ensemble.
+
+855
+01:02:06,130 --> 01:02:09,040
+So however, the
+ensemble is one in which
+
+856
+01:02:09,040 --> 01:02:12,640
+the energy is not specified.
+
+857
+01:02:12,640 --> 01:02:15,550
+And so how do I
+imagine that I can
+
+858
+01:02:15,550 --> 01:02:18,120
+maintain a system
+at temperature T?
+
+859
+01:02:18,120 --> 01:02:21,740
+Well, if this room is at
+some particular temperature,
+
+860
+01:02:21,740 --> 01:02:25,150
+I assume that smaller objects
+that I put in this room
+
+861
+01:02:25,150 --> 01:02:27,480
+will come to the
+same temperature.
+
+862
+01:02:27,480 --> 01:02:31,260
+So the general prescription
+for beginning something other
+
+863
+01:02:31,260 --> 01:02:34,860
+than temperature T is
+to put it in contact
+
+864
+01:02:34,860 --> 01:02:37,550
+with something that
+is much bigger.
+
+865
+01:02:37,550 --> 01:02:39,390
+So let's call this
+to be a reservoir.
+
+866
+01:02:43,330 --> 01:02:48,420
+And we put our system, which
+we assume to be smaller,
+
+867
+01:02:48,420 --> 01:02:49,580
+in contact with it.
+
+868
+01:02:49,580 --> 01:02:53,810
+And we allow it to exchange
+heat with the reservoir.
+
+869
+01:02:58,570 --> 01:03:04,600
+Now I did this way of
+managing the system
+
+870
+01:03:04,600 --> 01:03:07,750
+to come to a
+temperature T, which
+
+871
+01:03:07,750 --> 01:03:09,990
+is the characteristic
+of a big reservoir.
+
+872
+01:03:09,990 --> 01:03:11,980
+Imagine that you have a lake.
+
+873
+01:03:11,980 --> 01:03:15,390
+And you put your gas or
+something else inside the lake.
+
+874
+01:03:15,390 --> 01:03:21,140
+And it will equilibrate to
+the temperature of the lake.
+
+875
+01:03:21,140 --> 01:03:23,900
+I will assume that
+the two of them,
+
+876
+01:03:23,900 --> 01:03:26,610
+the system and the
+reservoir, just
+
+877
+01:03:26,610 --> 01:03:30,450
+for the purpose of my being
+able to do some computation,
+
+878
+01:03:30,450 --> 01:03:33,230
+are isolated from the
+rest of the universe,
+
+879
+01:03:33,230 --> 01:03:38,750
+so that the system plus
+reservoir is microcanonical.
+
+880
+01:03:44,400 --> 01:03:52,620
+And the sum total of their
+energies is sum E total.
+
+881
+01:03:59,320 --> 01:04:05,120
+So now this system still
+is something like a gas.
+
+882
+01:04:05,120 --> 01:04:08,970
+It's a has a huge number of
+potential degrees of freedom.
+
+883
+01:04:08,970 --> 01:04:12,270
+And these potential number
+of degrees of freedom
+
+884
+01:04:12,270 --> 01:04:16,020
+can be captured through the
+microstate of the system,
+
+885
+01:04:16,020 --> 01:04:17,660
+u sub s.
+
+886
+01:04:17,660 --> 01:04:21,390
+And similarly, the water
+particle in the lake
+
+887
+01:04:21,390 --> 01:04:22,600
+have their own state.
+
+888
+01:04:22,600 --> 01:04:25,330
+An there's some
+microstate that describes
+
+889
+01:04:25,330 --> 01:04:28,880
+the positions and the momenta
+of all of the particles
+
+890
+01:04:28,880 --> 01:04:32,150
+that are in the lake.
+
+891
+01:04:32,150 --> 01:04:32,940
+Yes?
+
+892
+01:04:32,940 --> 01:04:35,400
+AUDIENCE: When you're writing
+the set of particles used
+
+893
+01:04:35,400 --> 01:04:37,750
+to describe it, why
+don't you write N?
+
+894
+01:04:37,750 --> 01:04:39,874
+Since it said the number
+of particles in the system
+
+895
+01:04:39,874 --> 01:04:40,560
+is not fixed.
+
+896
+01:04:40,560 --> 01:04:43,800
+MEHRAN KARDAR: Yes, so I
+did want to [INAUDIBLE]
+
+897
+01:04:43,800 --> 01:04:48,660
+but in principle I could add N.
+I wanted to be kind of general.
+
+898
+01:04:48,660 --> 01:04:51,800
+If you like X,
+[? it ?] is allowed
+
+899
+01:04:51,800 --> 01:05:04,210
+to include chemical
+work type of an X.
+
+900
+01:05:04,210 --> 01:05:09,020
+So what do I know?
+
+901
+01:05:09,020 --> 01:05:14,940
+I know that there is also if
+I want to describe microstates
+
+902
+01:05:14,940 --> 01:05:17,260
+and their revolution,
+I need to specify
+
+903
+01:05:17,260 --> 01:05:21,260
+that there's a
+Hamiltonian that governs
+
+904
+01:05:21,260 --> 01:05:23,780
+the evolution of
+these microstates.
+
+905
+01:05:23,780 --> 01:05:25,930
+And presumably
+there's a Hamiltonian
+
+906
+01:05:25,930 --> 01:05:31,610
+that describes the evolution
+of the reservoir microstate.
+
+907
+01:05:31,610 --> 01:05:35,910
+And so presumably the
+allowed microstates
+
+908
+01:05:35,910 --> 01:05:40,180
+are ones in which
+E total is made up
+
+909
+01:05:40,180 --> 01:05:44,090
+of the energy of the system plus
+the energy of the reservoir.
+
+910
+01:05:53,350 --> 01:06:04,300
+So because the whole thing
+is the microcanonical,
+
+911
+01:06:04,300 --> 01:06:07,810
+I can assign a probability,
+a joint probability,
+
+912
+01:06:07,810 --> 01:06:15,070
+to finding some particular
+mu s, mu r combination,
+
+913
+01:06:15,070 --> 01:06:18,040
+just like we were
+doing over there.
+
+914
+01:06:18,040 --> 01:06:21,180
+You would say that
+essentially this
+
+915
+01:06:21,180 --> 01:06:25,120
+is a combination
+of these 1s and 0s.
+
+916
+01:06:25,120 --> 01:06:30,940
+So it is 0 if H of--
+again, for simplicity I
+
+917
+01:06:30,940 --> 01:06:38,030
+drop the s on the
+system-- H of mu s plus H
+
+918
+01:06:38,030 --> 01:06:43,660
+reservoir of mu reservoir
+is not equal to E total.
+
+919
+01:06:43,660 --> 01:06:52,595
+And it is 1 over some omega
+of reservoir in the system
+
+920
+01:06:52,595 --> 01:06:53,095
+otherwise.
+
+921
+01:06:58,980 --> 01:07:02,010
+So this is just again,
+throwing the dice,
+
+922
+01:07:02,010 --> 01:07:05,860
+saying that it has so many
+possible configurations, given
+
+923
+01:07:05,860 --> 01:07:08,210
+that I know what
+the total energy is.
+
+924
+01:07:08,210 --> 01:07:13,290
+All the ones that are consistent
+with that are allowed.
+
+925
+01:07:13,290 --> 01:07:17,150
+Which is to say, I don't
+really care about the lake.
+
+926
+01:07:17,150 --> 01:07:21,720
+All I care is about to
+the states of my gas,
+
+927
+01:07:21,720 --> 01:07:24,550
+and say, OK, no problem, if
+I have the joint probability
+
+928
+01:07:24,550 --> 01:07:27,950
+distribution just
+like I did over here,
+
+929
+01:07:27,950 --> 01:07:29,980
+I get rid of all of
+the degrees of freedom
+
+930
+01:07:29,980 --> 01:07:32,190
+that I'm not interested in.
+
+931
+01:07:32,190 --> 01:07:37,370
+So if I'm interested only
+in the states of the system,
+
+932
+01:07:37,370 --> 01:07:41,680
+I sum over or integrate
+over-- so this would be a sum.
+
+933
+01:07:41,680 --> 01:07:44,200
+This would be an
+integration, whatever--
+
+934
+01:07:44,200 --> 01:07:46,085
+of the joint probability
+distribution.
+
+935
+01:07:50,230 --> 01:07:54,330
+Now actually follow the
+steps that I had over here
+
+936
+01:07:54,330 --> 01:07:58,040
+when we were looking at the
+momentum of a gas particle.
+
+937
+01:07:58,040 --> 01:08:00,940
+I say that what
+I have over here,
+
+938
+01:08:00,940 --> 01:08:04,165
+this probability see
+is this 1 over omega R,
+
+939
+01:08:04,165 --> 01:08:09,110
+S. This is a function
+that is either 1 or 0.
+
+940
+01:08:09,110 --> 01:08:13,660
+And then I have so sum
+over all configurations
+
+941
+01:08:13,660 --> 01:08:16,120
+of the reservoir.
+
+942
+01:08:16,120 --> 01:08:23,050
+But given that I said what
+the microstate of the system
+
+943
+01:08:23,050 --> 01:08:30,735
+is, then I know that the
+reservoir has to take energy
+
+944
+01:08:30,735 --> 01:08:35,149
+in total minus the amount
+the microstates has taken.
+
+945
+01:08:35,149 --> 01:08:39,040
+And I'm summing over all
+of the microstates that
+
+946
+01:08:39,040 --> 01:08:41,830
+are consistent with
+the requirement
+
+947
+01:08:41,830 --> 01:08:44,569
+that the energy in
+the reservoir is
+
+948
+01:08:44,569 --> 01:08:48,050
+E total minus H of microstate.
+
+949
+01:08:48,050 --> 01:08:50,910
+So what that is that
+the omega that I
+
+950
+01:08:50,910 --> 01:08:54,390
+have for the reservoir--
+and I don't know what it is,
+
+951
+01:08:54,390 --> 01:08:59,010
+but whatever it is,
+evaluated at the total energy
+
+952
+01:08:59,010 --> 01:09:03,250
+minus the energy that is
+taken outside the microstate.
+
+953
+01:09:03,250 --> 01:09:07,390
+So again, exactly the reason
+why this became E minus Pi
+
+954
+01:09:07,390 --> 01:09:08,670
+squared over 2.
+
+955
+01:09:08,670 --> 01:09:14,000
+This becomes E total
+minus H of mu S. Except
+
+956
+01:09:14,000 --> 01:09:16,640
+that I don't know either
+what this is or what this is.
+
+957
+01:09:20,200 --> 01:09:22,790
+Actually, I don't really
+even care about this
+
+958
+01:09:22,790 --> 01:09:26,695
+because all of the H dependents
+on microstate dependents
+
+959
+01:09:26,695 --> 01:09:28,359
+is in the numerator.
+
+960
+01:09:28,359 --> 01:09:31,890
+So I write that as
+proportional to exponential.
+
+961
+01:09:31,890 --> 01:09:36,060
+And the log of omega
+is the entropy.
+
+962
+01:09:36,060 --> 01:09:40,470
+So I have the entropy of the
+[INAUDIBLE] in units of kB,
+
+963
+01:09:40,470 --> 01:09:54,980
+evaluated at the argument that
+this E total minus H of mu S.
+
+964
+01:09:54,980 --> 01:09:57,370
+So my statement is
+that when I look
+
+965
+01:09:57,370 --> 01:10:02,030
+at the entropy of the
+reservoir as a function of E
+
+966
+01:10:02,030 --> 01:10:06,650
+total minus the energy
+that is taken out
+
+967
+01:10:06,650 --> 01:10:11,490
+by the system, my
+construction I assume
+
+968
+01:10:11,490 --> 01:10:16,440
+that I'm putting a small
+volume of gas in contact
+
+969
+01:10:16,440 --> 01:10:19,150
+with a huge lake.
+
+970
+01:10:19,150 --> 01:10:24,520
+So this total energy is
+overwhelmingly larger
+
+971
+01:10:24,520 --> 01:10:28,230
+than the amount of energy
+that the system can occupy.
+
+972
+01:10:28,230 --> 01:10:32,530
+So I can make a Taylor
+expansion of this quantity
+
+973
+01:10:32,530 --> 01:10:39,920
+and say that this is S R of E
+total minus the derivative of S
+
+974
+01:10:39,920 --> 01:10:41,290
+with respect to its energy.
+
+975
+01:10:41,290 --> 01:10:44,310
+So the derivative
+of the S reservoir
+
+976
+01:10:44,310 --> 01:10:47,990
+with respect to the energy
+of the reservoir times
+
+977
+01:10:47,990 --> 01:10:54,010
+H of the microstate and
+presumably higher order terms
+
+978
+01:10:54,010 --> 01:10:55,090
+that are negligible.
+
+979
+01:10:58,340 --> 01:11:02,090
+Now the next thing that is
+important about the reservoir
+
+980
+01:11:02,090 --> 01:11:04,150
+is you have this huge lake.
+
+981
+01:11:04,150 --> 01:11:07,850
+Let's say it's exactly at some
+temperature of 30 degrees.
+
+982
+01:11:07,850 --> 01:11:11,030
+And you take some small
+amount of energy from it
+
+983
+01:11:11,030 --> 01:11:12,610
+to put in the system.
+
+984
+01:11:12,610 --> 01:11:14,910
+The temperature of the
+lake should not change.
+
+985
+01:11:14,910 --> 01:11:17,590
+So that's the definition
+of the reservoir.
+
+986
+01:11:17,590 --> 01:11:22,930
+It's a system that is so big
+that for the range of energies
+
+987
+01:11:22,930 --> 01:11:26,420
+that we are considering,
+this S by dE
+
+988
+01:11:26,420 --> 01:11:30,706
+is 1 over the temperature that
+characterizes the reservoir.
+
+989
+01:11:34,600 --> 01:11:38,070
+So just like here,
+but eventually
+
+990
+01:11:38,070 --> 01:11:41,520
+the answer that we
+got was something
+
+991
+01:11:41,520 --> 01:11:44,830
+like the energy of the
+particle divided by kT.
+
+992
+01:11:44,830 --> 01:11:48,940
+Once I exponentiate, I
+find that the probability
+
+993
+01:11:48,940 --> 01:11:54,370
+to find the system in some
+microstate is proportional to E
+
+994
+01:11:54,370 --> 01:12:01,250
+to the minus of the energy of
+that microstate divided by kT.
+
+995
+01:12:04,330 --> 01:12:06,570
+And of course, there's
+a bunch of other things
+
+996
+01:12:06,570 --> 01:12:11,206
+that I have to eventually
+put into a normalization that
+
+997
+01:12:11,206 --> 01:12:11,705
+will cause.
+
+998
+01:12:15,390 --> 01:12:21,310
+So in the canonical
+prescription you sort of replace
+
+999
+01:12:21,310 --> 01:12:23,550
+this throwing of
+the dice and saying
+
+1000
+01:12:23,550 --> 01:12:26,630
+that everything is equivalent
+to saying that well,
+
+1001
+01:12:26,630 --> 01:12:30,750
+each microstates can have
+some particular energy.
+
+1002
+01:12:30,750 --> 01:12:34,800
+And the probabilities
+are partitioned according
+
+1003
+01:12:34,800 --> 01:12:39,480
+to the Boltzmann weights
+of these energies.
+
+1004
+01:12:39,480 --> 01:12:43,650
+And clearly this quantity,
+Z, the normalization
+
+1005
+01:12:43,650 --> 01:12:48,630
+is obtained by integrating
+over the entire space
+
+1006
+01:12:48,630 --> 01:12:50,870
+of microstates, or
+summing over them
+
+1007
+01:12:50,870 --> 01:12:54,865
+if they are discrete of this
+factor of E to the minus beta
+
+1008
+01:12:54,865 --> 01:13:01,370
+H of mu S. And we'll use
+this notation beta 1 over kT
+
+1009
+01:13:01,370 --> 01:13:02,837
+sometimes for simplicity.
+
+1010
+01:13:28,200 --> 01:13:33,660
+Now, the thing is that
+thermodynamically, we
+
+1011
+01:13:33,660 --> 01:13:38,520
+said that you can choose
+any set of parameters,
+
+1012
+01:13:38,520 --> 01:13:42,070
+as long as they are
+independent, to describe
+
+1013
+01:13:42,070 --> 01:13:45,510
+the macroscopic equilibrium
+state of the system.
+
+1014
+01:13:45,510 --> 01:13:50,670
+So what we did in the
+microcanonical ensemble is
+
+1015
+01:13:50,670 --> 01:13:54,330
+we specified a number of
+things, such as energy.
+
+1016
+01:13:54,330 --> 01:13:56,805
+And we derived the other
+things, such as temperature.
+
+1017
+01:13:59,360 --> 01:14:03,750
+So here, in the
+canonical ensemble,
+
+1018
+01:14:03,750 --> 01:14:07,349
+we have stated what the
+temperature of the system is.
+
+1019
+01:14:07,349 --> 01:14:08,390
+Well, then what happened?
+
+1020
+01:14:11,950 --> 01:14:16,060
+On one hand, maybe we have
+to worry because energy
+
+1021
+01:14:16,060 --> 01:14:19,580
+is constantly being
+exchanged with the reservoir.
+
+1022
+01:14:19,580 --> 01:14:25,770
+And so the energy of the system
+does not have a specific value.
+
+1023
+01:14:25,770 --> 01:14:28,420
+There's a probability for it.
+
+1024
+01:14:28,420 --> 01:14:36,740
+So probability of
+system having energy
+
+1025
+01:14:36,740 --> 01:14:44,940
+epsilon-- it doesn't
+have a fixed energy.
+
+1026
+01:14:44,940 --> 01:14:47,770
+There is a probability
+that it should have energy.
+
+1027
+01:14:47,770 --> 01:14:49,850
+And this probability,
+let's say we indicate
+
+1028
+01:14:49,850 --> 01:14:55,610
+with P epsilon given that
+we know what temperature is.
+
+1029
+01:14:55,610 --> 01:14:58,920
+Well, on one hand we
+have this factor of E
+
+1030
+01:14:58,920 --> 01:15:01,980
+to the minus epsilon over kT.
+
+1031
+01:15:01,980 --> 01:15:03,560
+That comes from the [INAUDIBLE].
+
+1032
+01:15:06,710 --> 01:15:10,660
+But there isn't a single
+state that has that energy.
+
+1033
+01:15:10,660 --> 01:15:14,340
+There's a whole
+bunch of other states
+
+1034
+01:15:14,340 --> 01:15:18,770
+of the system that
+have that energy.
+
+1035
+01:15:18,770 --> 01:15:23,740
+So as I scan the
+microstates, there
+
+1036
+01:15:23,740 --> 01:15:28,800
+will be a huge number of them,
+omega of epsilon in number,
+
+1037
+01:15:28,800 --> 01:15:30,740
+that have this right energy.
+
+1038
+01:15:30,740 --> 01:15:33,600
+And so that's the
+probability of the energy.
+
+1039
+01:15:33,600 --> 01:15:39,710
+And I can write this
+as E to the minus 1
+
+1040
+01:15:39,710 --> 01:15:42,610
+over kT that I've called beta.
+
+1041
+01:15:42,610 --> 01:15:44,730
+I have epsilon.
+
+1042
+01:15:44,730 --> 01:15:47,387
+And then the log of
+omega that I take
+
+1043
+01:15:47,387 --> 01:15:52,580
+in the numerator
+is S divided by Kb.
+
+1044
+01:15:52,580 --> 01:15:57,620
+I can take that Kb here and
+write this as T S of epsilon.
+
+1045
+01:15:57,620 --> 01:16:00,440
+And so this kind of
+should remind you
+
+1046
+01:16:00,440 --> 01:16:02,135
+of something like a free energy.
+
+1047
+01:16:06,620 --> 01:16:14,980
+But it tells you is
+that this probability
+
+1048
+01:16:14,980 --> 01:16:22,310
+to have some particular energy
+is some kind of [? a form. ?]
+
+1049
+01:16:22,310 --> 01:16:25,300
+Now note that again for
+something like a gas
+
+1050
+01:16:25,300 --> 01:16:30,360
+or whatever, we expect typical
+values of both the energy
+
+1051
+01:16:30,360 --> 01:16:33,000
+and entropy to be
+quantities that
+
+1052
+01:16:33,000 --> 01:16:35,700
+are proportional to
+the size of the system.
+
+1053
+01:16:35,700 --> 01:16:39,470
+As the size of the system
+becomes exponentially large,
+
+1054
+01:16:39,470 --> 01:16:42,140
+we would expect that
+this probability would
+
+1055
+01:16:42,140 --> 01:16:45,800
+be one of those things
+that has portions that
+
+1056
+01:16:45,800 --> 01:16:49,190
+let's say are exponentially
+larger than any other portion.
+
+1057
+01:16:52,440 --> 01:16:55,720
+There will be a factor of
+E to the minus N something
+
+1058
+01:16:55,720 --> 01:16:58,870
+that will really peak up,
+let's say, the extremum
+
+1059
+01:16:58,870 --> 01:17:02,800
+and make the extremum
+overwhelmingly more likely
+
+1060
+01:17:02,800 --> 01:17:05,770
+than other places.
+
+1061
+01:17:05,770 --> 01:17:08,450
+Let's try to quantify
+that a little bit better.
+
+1062
+01:17:10,990 --> 01:17:14,130
+Once we have a
+probability, we can also
+
+1063
+01:17:14,130 --> 01:17:16,920
+start calculating averages.
+
+1064
+01:17:16,920 --> 01:17:22,566
+So let's define what the
+average energy of the system is.
+
+1065
+01:17:22,566 --> 01:17:25,590
+The average energy
+of the system is
+
+1066
+01:17:25,590 --> 01:17:30,380
+obtained by summing
+over all microstates.
+
+1067
+01:17:30,380 --> 01:17:34,020
+The energy of that
+microstate, the probability
+
+1068
+01:17:34,020 --> 01:17:40,580
+of that microstate, which
+is E to the minus beta H
+
+1069
+01:17:40,580 --> 01:17:44,900
+microstate divided by the
+partition function, which
+
+1070
+01:17:44,900 --> 01:17:48,400
+is the sum-- OK,
+the normalization,
+
+1071
+01:17:48,400 --> 01:17:51,760
+which we will call the
+partition function, which
+
+1072
+01:17:51,760 --> 01:17:54,074
+is the sum over all
+of these microstates.
+
+1073
+01:17:57,890 --> 01:18:03,290
+Now this is something
+that we've already seen.
+
+1074
+01:18:03,290 --> 01:18:08,180
+If I look at this expression
+in the denominator
+
+1075
+01:18:08,180 --> 01:18:13,610
+that we call Z and has a
+name, which is the partition
+
+1076
+01:18:13,610 --> 01:18:19,530
+function, then it's
+certainly a function of beta.
+
+1077
+01:18:19,530 --> 01:18:24,610
+If I take a derivative of Z with
+respect to beta, what happens
+
+1078
+01:18:24,610 --> 01:18:28,050
+I'll bring down a
+factor of H over here.
+
+1079
+01:18:28,050 --> 01:18:33,610
+So the numerator up to
+a sine is the derivative
+
+1080
+01:18:33,610 --> 01:18:36,330
+of Z with respect to beta.
+
+1081
+01:18:36,330 --> 01:18:41,580
+And the denominator is 1 over
+Z. And so this is none other
+
+1082
+01:18:41,580 --> 01:18:47,090
+than minus the log Z
+with respect to beta.
+
+1083
+01:18:47,090 --> 01:18:52,900
+So OK, fine, so the mean
+value of this probability
+
+1084
+01:18:52,900 --> 01:18:57,890
+is given by some
+expression such as this.
+
+1085
+01:18:57,890 --> 01:19:07,850
+Well, you can see that if I
+were to repeat this process
+
+1086
+01:19:07,850 --> 01:19:11,980
+and rather than
+taking one derivative,
+
+1087
+01:19:11,980 --> 01:19:27,320
+I will take n derivatives
+and then divide by 1 over Z.
+
+1088
+01:19:27,320 --> 01:19:33,000
+Each time I do that, I will
+bring down a factor of H.
+
+1089
+01:19:33,000 --> 01:19:40,740
+So this is going to give me
+the average of H to the N.
+
+1090
+01:19:40,740 --> 01:19:43,490
+The end moment of this
+probability distribution
+
+1091
+01:19:43,490 --> 01:19:46,890
+of energy is obtainable
+by this procedure.
+
+1092
+01:19:50,920 --> 01:19:56,220
+So now you recognize, oh, I've
+seen things like such as this.
+
+1093
+01:19:56,220 --> 01:19:59,560
+So clearly this
+partition function
+
+1094
+01:19:59,560 --> 01:20:03,080
+is something that
+generates the moments
+
+1095
+01:20:03,080 --> 01:20:05,920
+by taking subsequent
+derivatives.
+
+1096
+01:20:05,920 --> 01:20:09,360
+I can generate different
+moments of this distribution.
+
+1097
+01:20:11,880 --> 01:20:13,570
+But then there
+was something else
+
+1098
+01:20:13,570 --> 01:20:16,040
+that maybe this
+should remind you,
+
+1099
+01:20:16,040 --> 01:20:19,450
+which is that if there's
+a quantity that generates
+
+1100
+01:20:19,450 --> 01:20:24,470
+moments, then its log
+generates cumulants.
+
+1101
+01:20:24,470 --> 01:20:31,590
+So you would say,
+OK, the nth cumulant
+
+1102
+01:20:31,590 --> 01:20:36,580
+should be obtainable up to this
+factor of minus 1 to the n,
+
+1103
+01:20:36,580 --> 01:20:41,630
+as the nth derivative with
+respect to the beta of logs.
+
+1104
+01:20:45,887 --> 01:20:48,560
+And it's very easy
+to check that indeed
+
+1105
+01:20:48,560 --> 01:20:50,970
+if I were to take
+two derivatives,
+
+1106
+01:20:50,970 --> 01:20:53,190
+I will get the
+expectation value of H
+
+1107
+01:20:53,190 --> 01:20:58,080
+squared minus the average
+of H squared, et cetera.
+
+1108
+01:20:58,080 --> 01:21:04,460
+But the point is that
+clearly this to log Z
+
+1109
+01:21:04,460 --> 01:21:08,730
+is, again, something
+that is extensive.
+
+1110
+01:21:08,730 --> 01:21:12,600
+Another way of getting
+the normalization-- I
+
+1111
+01:21:12,600 --> 01:21:15,600
+guess I forgot to put
+this 1 over Z here.
+
+1112
+01:21:21,990 --> 01:21:25,670
+So now it is a perfectly
+normalized object.
+
+1113
+01:21:25,670 --> 01:21:32,660
+So another way to get
+z would be to look
+
+1114
+01:21:32,660 --> 01:21:34,810
+at the normalization
+of the probability.
+
+1115
+01:21:34,810 --> 01:21:39,570
+I could integrate over epsilon
+this factor of E to the minus
+
+1116
+01:21:39,570 --> 01:21:45,580
+beta epsilon minus
+T S of epsilon.
+
+1117
+01:21:45,580 --> 01:21:51,710
+And that would give
+me Z. Now, again
+
+1118
+01:21:51,710 --> 01:21:54,750
+the quantities that appear
+in the exponent, energy--
+
+1119
+01:21:54,750 --> 01:21:57,010
+entropy, their
+difference, free energy--
+
+1120
+01:21:57,010 --> 01:21:59,180
+are quantities
+that are extensive.
+
+1121
+01:21:59,180 --> 01:22:02,850
+So this Z is going
+to be dominated again
+
+1122
+01:22:02,850 --> 01:22:04,950
+by where this peak is.
+
+1123
+01:22:04,950 --> 01:22:08,370
+And therefore, log of Z
+will be proportional to log
+
+1124
+01:22:08,370 --> 01:22:10,170
+of what we have over here.
+
+1125
+01:22:10,170 --> 01:22:12,660
+And it be an extensive quantity.
+
+1126
+01:22:12,660 --> 01:22:16,720
+So ultimately, my statement
+is that this log of Z
+
+1127
+01:22:16,720 --> 01:22:23,510
+is something that is order of N.
+
+1128
+01:22:23,510 --> 01:22:26,560
+So we are, again,
+kind of reminiscent
+
+1129
+01:22:26,560 --> 01:22:29,290
+of the central limit theorem.
+
+1130
+01:22:29,290 --> 01:22:33,860
+In a situation where we have
+a probability distribution,
+
+1131
+01:22:33,860 --> 01:22:37,540
+at large N, in which
+all of the cumulants
+
+1132
+01:22:37,540 --> 01:22:42,150
+are proportional to N. The
+mean is proportional to N.
+
+1133
+01:22:42,150 --> 01:22:45,690
+The variance is proportional
+to N. All of the cumulants
+
+1134
+01:22:45,690 --> 01:22:48,010
+are proportional
+to N, which means
+
+1135
+01:22:48,010 --> 01:22:51,420
+that essentially the extent of
+the fluctuations that you have
+
+1136
+01:22:51,420 --> 01:23:00,380
+over here are going to go the
+order of the square root of N.
+
+1137
+01:23:00,380 --> 01:23:04,020
+So the bridge, the thing
+that again allows us,
+
+1138
+01:23:04,020 --> 01:23:09,130
+while we have in principle in
+the expression that we have
+
+1139
+01:23:09,130 --> 01:23:13,540
+said, a variable
+energy for the system.
+
+1140
+01:23:13,540 --> 01:23:18,530
+In fact, in the limit of
+things becoming extensive,
+
+1141
+01:23:18,530 --> 01:23:23,960
+I know where that energy
+is, up to fluctuations
+
+1142
+01:23:23,960 --> 01:23:25,680
+or up to uncertainty
+that is only
+
+1143
+01:23:25,680 --> 01:23:28,060
+of the order of
+square root of N.
+
+1144
+01:23:28,060 --> 01:23:32,580
+And so the relative uncertainty
+will vanish as the N goes
+
+1145
+01:23:32,580 --> 01:23:34,790
+to infinity, limit
+is approached.
+
+1146
+01:23:34,790 --> 01:23:36,570
+So although again
+we have something
+
+1147
+01:23:36,570 --> 01:23:39,410
+that is in principle
+probabilistic,
+
+1148
+01:23:39,410 --> 01:23:41,990
+again, in the
+thermodynamic sense
+
+1149
+01:23:41,990 --> 01:23:46,740
+we can identify uniquely an
+energy for our system as,
+
+1150
+01:23:46,740 --> 01:23:49,440
+let's say, the mean value
+or the most likely value.
+
+1151
+01:23:49,440 --> 01:23:53,250
+They're all the same thing
+of the order of 1 over N.
+
+1152
+01:23:53,250 --> 01:23:58,680
+And again, to be more
+precise, the variance
+
+1153
+01:23:58,680 --> 01:24:05,050
+is clearly the second derivative
+of log Z. 1 derivative of a log
+
+1154
+01:24:05,050 --> 01:24:07,560
+Z is going to give
+me the energy.
+
+1155
+01:24:07,560 --> 01:24:10,483
+So this is going to
+be d by d beta up
+
+1156
+01:24:10,483 --> 01:24:14,000
+to a minus sign of the
+energy or the expectation
+
+1157
+01:24:14,000 --> 01:24:17,820
+value of the Hamiltonian,
+which we identified
+
+1158
+01:24:17,820 --> 01:24:19,900
+as the energy of the system.
+
+1159
+01:24:19,900 --> 01:24:21,615
+The derivative with
+respect to beta,
+
+1160
+01:24:21,615 --> 01:24:25,320
+I can write as kB T squared.
+
+1161
+01:24:25,320 --> 01:24:28,530
+The derivative of energy
+with respect to T,
+
+1162
+01:24:28,530 --> 01:24:32,110
+everything here we are doing
+that conditions of no work.
+
+1163
+01:24:32,110 --> 01:24:37,030
+So the variance is
+in fact kB T squared,
+
+1164
+01:24:37,030 --> 01:24:40,880
+the heat capacity of the system.
+
+1165
+01:24:40,880 --> 01:24:45,300
+So the extent that these
+fluctuations squared
+
+1166
+01:24:45,300 --> 01:24:50,680
+is kB T squared times the
+heat capacity the system.
+
+1167
+01:24:50,680 --> 01:24:53,790
+OK, so next time
+what we will do is
+
+1168
+01:24:53,790 --> 01:24:57,490
+we will calculate the
+results for the ideal gas.
+
+1169
+01:24:57,490 --> 01:24:59,790
+First thing, the
+canonical ensemble
+
+1170
+01:24:59,790 --> 01:25:02,990
+to show that we get exactly
+the same macroscopic
+
+1171
+01:25:02,990 --> 01:25:05,620
+and microscopic descriptions.
+
+1172
+01:25:05,620 --> 01:25:09,460
+And then we look
+at other ensembles.
+
+1173
+01:25:09,460 --> 01:25:11,250
+And that will
+conclude the segment
+
+1174
+01:25:11,250 --> 01:25:13,700
+that we have on
+statistical mechanics
+
+1175
+01:25:13,700 --> 01:25:16,387
+of non-interacting systems.

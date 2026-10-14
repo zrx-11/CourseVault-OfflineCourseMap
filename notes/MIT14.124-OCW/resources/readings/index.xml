@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>14.124 S17 Lecture Notes 1: Decision Making Under Uncertainty</title>
+      <link>/resources/mit14_124s17_notes1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_notes1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;[MWG] = Mas-Colell, Andreu, Michael D. Whinston, and Jerry R. Green. &lt;em&gt;Microeconomic Theory&lt;/em&gt;. Oxford University Press, 1995. ISBN: 9780195073409.&lt;/p&gt;&#xA;&lt;p&gt;[Varian] = Varian, Hal R. &lt;em&gt;Microeconomic Analysis, Third Edition&lt;/em&gt;. W.W Norton &amp;amp; Company, 1992. ISBN: 9780393957358.&lt;/p&gt;&#xA;&lt;p&gt;Bolton, Patrick, and Mathias Dewatripont. &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://mitpress.mit.edu/9780262025768/contract-theory/&#34;  aria-label=&#34;Contract Theory (opens in a new tab)&#34;  &gt;&lt;em&gt;Contract Theory&lt;/em&gt;&lt;/a&gt;. MIT Press, 2004. ISBN: 978026202576.&lt;/p&gt;&#xA;&lt;p&gt;[Kreps] =  Kreps, David M. &lt;em&gt;A Course in Microeconomic Theory&lt;/em&gt;. Financial Times Prentice Hall, 1990. ISBN: 9780745007625. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

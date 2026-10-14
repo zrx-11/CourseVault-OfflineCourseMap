@@ -1,0 +1,34 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/mit18_100af20_hw11.pdf",
+  "file_size": 189577,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Document",
+  "title": "Assignment 11",
+  "uid": "50d0ed0f-d647-46da-98e5-26fa3146d918",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

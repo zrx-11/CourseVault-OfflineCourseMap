@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p>This video describes the efforts to revive the Wampanoag language, and the ways historical documents can be used to reconstruct the grammar of an extinct language.</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture24_2022may03_360p_16_9.mp4",
+  "file_size": 86988791,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Lecture 24: Endangered Languages",
+  "uid": "a00ff79c-e7c7-433c-a7d3-d626e54abe93",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1DbBdWkispOb6VReTZ7KCoYhQ3gTO1_6C_transcript.webvtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/LOsNklq-dH8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1DbBdWkispOb6VReTZ7KCoYhQ3gTO1_6C_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "Prof. Norvin W. Richards",
+    "video_tags": "24-900-introduction-to-linguistics-spring-2022, eliot bible, indigenous languages, language immersion, lexicography, wampanoag",
+    "youtube_description": "MIT 24.900 Introduction to Linguistics, Spring 2022\nInstructor: Prof. Norvin W. Richards\n\nView the complete course: https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP63BZGNOqrF2qf_yxOjuG35j\n\nThis video describes the efforts to revive the Wampanoag language, and the ways historical documents can be used to reconstruct the grammar of an extinct language.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.\n",
+    "youtube_id": "LOsNklq-dH8"
+  }
+}

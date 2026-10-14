@@ -1,0 +1,95 @@
+{
+  "course_description": "This course covers the fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, and the interchange of limit operations. It shows the utility of abstract concepts through a study of real numbers, and teaches an understanding and construction of proofs.",
+  "course_description_html": "This course covers the fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, and the interchange of limit operations. It shows the utility of abstract concepts through a study of real numbers, and teaches an understanding and construction of proofs.",
+  "course_image": {
+    "content": "1dfc01c9-ec55-4054-a3ae-a5d068f69412",
+    "website": "18100a-real-analysis-fall-2020"
+  },
+  "course_image_metadata": {
+    "body": "",
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/18-100a-real-analysis-fall-2020/18-100af20.jpg",
+    "file_size": 91487,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Dr. Casey Rodriguez teaching Lecture 1 of Real Analysis. (Image by MIT OpenCourseWare.)",
+      "credit": "",
+      "image-alt": "A man standing in front of a blackboard and pointing to some text on the blackboard."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "resourcetype": "Image",
+    "title": "18-100af20.jpg",
+    "uid": "1dfc01c9-ec55-4054-a3ae-a5d068f69412",
+    "video_files": {
+      "video_captions_file": "",
+      "video_thumbnail_file": "",
+      "video_transcript_file": ""
+    },
+    "video_metadata": {
+      "video_speakers": "",
+      "video_tags": "",
+      "youtube_description": "",
+      "youtube_id": ""
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "1ad840eb-313c-416a-8912-e1b307a0c93b",
+    "website": "18100a-real-analysis-fall-2020"
+  },
+  "course_title": "Real Analysis",
+  "department_numbers": [
+    "18"
+  ],
+  "extra_course_numbers": "18.1001",
+  "hide_download": false,
+  "image_src": "./static_resources/18-100af20.jpg",
+  "instructors": [
+    {
+      "first_name": "Casey",
+      "last_name": "Rodriguez",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. Casey Rodriguez",
+      "uid": "6d295edd-6dc3-dac9-83e4-ce194076cc5d",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+Casey+Rodriguez"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Lecture Videos",
+    "Exams",
+    "Problem Sets",
+    "Editable Files"
+  ],
+  "legacy_uid": "",
+  "level": [
+    "Undergraduate",
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Mathematics"
+    ]
+  ],
+  "primary_course_number": "18.100A",
+  "site_short_id": "18-100a-fall-2020",
+  "site_uid": "b9de9b15-2e9c-4deb-8fa9-5dd1963ebfaf",
+  "site_url_path": "courses/18-100a-real-analysis-fall-2020",
+  "term": "Fall",
+  "topics": [
+    [
+      "Mathematics",
+      "Calculus"
+    ],
+    [
+      "Mathematics",
+      "Mathematical Analysis"
+    ]
+  ],
+  "year": "2020"
+}

@@ -1,0 +1,21 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/14-124-microeconomic-theory-iv-spring-2017/2a5450d125410e2f98c8c1e362a28245_MIT14_124S17_Pset1.pdf",
+  "file_size": 134401,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "b4342457-8658-628e-ce4d-d45b7126e95e",
+  "resourcetype": "Document",
+  "title": "14.124 Spring 2017 Problem Set 1",
+  "uid": "2a5450d1-2541-0e2f-98c8-c1e362a28245"
+}

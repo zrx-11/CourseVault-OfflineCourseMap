@@ -1,0 +1,34 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/mit18_100af20_hw2.pdf",
+  "file_size": 135769,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Document",
+  "title": "Assignment 2",
+  "uid": "a91ee48b-2a2b-4f15-9bdb-9b3121ca77cf",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

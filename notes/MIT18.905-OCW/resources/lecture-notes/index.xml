@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebraic Topology I: Lecture 1 Introduction: Singular Simplices and Chains</title>
+      <link>/resources/mit18_905f16_lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 10 Excision and Applications</title>
+      <link>/resources/mit18_905f16_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec10/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 11 The Eilenberg Steenrod Axioms and the Locality Principle</title>
+      <link>/resources/mit18_905f16_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec11/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 12 Subdivision</title>
+      <link>/resources/mit18_905f16_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec12/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 13 Proof of the Locality Principle</title>
+      <link>/resources/mit18_905f16_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec13/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 14 CW-Complexes</title>
+      <link>/resources/mit18_905f16_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec14/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 15 CW-Complexes II</title>
+      <link>/resources/mit18_905f16_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec15/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 16 Homology of CW-Complexes</title>
+      <link>/resources/mit18_905f16_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec16/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 17 Real Projective Space</title>
+      <link>/resources/mit18_905f16_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec17/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 18 Euler Characteristic and Homology Approximation</title>
+      <link>/resources/mit18_905f16_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec18/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 19 Coefficients</title>
+      <link>/resources/mit18_905f16_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec19/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 2 Homology</title>
+      <link>/resources/mit18_905f16_lec2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 20 Tensor Product</title>
+      <link>/resources/mit18_905f16_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec20/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 21 Tensor and Tor</title>
+      <link>/resources/mit18_905f16_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec21/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 22 The Fundamental Theorem of Homological Algebra</title>
+      <link>/resources/mit18_905f16_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec22/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 23 Hom and Lim</title>
+      <link>/resources/mit18_905f16_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec23/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 24 Universal Coefficient Theorem</title>
+      <link>/resources/mit18_905f16_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec24/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 25 Künneth and Eilenberg-Zilber</title>
+      <link>/resources/mit18_905f16_lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec25/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 26 Coproducts, Cohomology</title>
+      <link>/resources/mit18_905f16_lec26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec26/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 27 Ext and UCT</title>
+      <link>/resources/mit18_905f16_lec27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec27/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 27 Products in Cohomology</title>
+      <link>/resources/mit18_905f16_lec28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec28/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 29 Cup Product (cont.)</title>
+      <link>/resources/mit18_905f16_lec29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec29/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 3 Categories, Functors, Natural Transformations</title>
+      <link>/resources/mit18_905f16_lec3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 30 Surfaces and Nondegenerate Symmetric Bilinear Forms</title>
+      <link>/resources/mit18_905f16_lec30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec30/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 31 Local Coefficients and Orientations</title>
+      <link>/resources/mit18_905f16_lec31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec31/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 32 Proof of the Orientation Theorem</title>
+      <link>/resources/mit18_905f16_lec32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec32/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 33 A Plethora of Products</title>
+      <link>/resources/mit18_905f16_lec33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec33/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 34 Cap Product and “Cech” Cohomology</title>
+      <link>/resources/mit18_905f16_lec34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec34/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 35 Cech Cohomology as a Cohomology Theory</title>
+      <link>/resources/mit18_905f16_lec35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec35/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 36 The Fully Relative Cap Product</title>
+      <link>/resources/mit18_905f16_lec36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec36/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 37 Poincaré Duality</title>
+      <link>/resources/mit18_905f16_lec37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec37/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 38 Applications</title>
+      <link>/resources/mit18_905f16_lec38/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec38/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 4 Categorical Language</title>
+      <link>/resources/mit18_905f16_lec4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 5 Homotopy, Star-shaped Regions</title>
+      <link>/resources/mit18_905f16_lec5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 6 Homotopy Invariance of Homology</title>
+      <link>/resources/mit18_905f16_lec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec6/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 7 Homology Cross Product</title>
+      <link>/resources/mit18_905f16_lec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec7/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 8 Relative Homology</title>
+      <link>/resources/mit18_905f16_lec8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec8/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture 9 The Homology Long Exact Sequence</title>
+      <link>/resources/mit18_905f16_lec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lec9/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Topology I: Lecture Notes</title>
+      <link>/resources/mit18_905f16_lecture_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_905f16_lecture_notes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;These lecture notes are based on a live LaTeX record made by Sanath Devalapurkar with images by Xianglong Ni, both of whom were students in the class at the time it was taught on campus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;I. Singular Homology&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec1/index.html&#34;&gt;Introduction: Singular Simplices and Chains (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec2/index.html&#34;&gt;Homology (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec3/index.html&#34;&gt;Categories, Functors, Natural Transformations (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec4/index.html&#34;&gt;Categorical Language (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec5/index.html&#34;&gt;Homotopy, Star-shaped Regions (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_905f16_lec6/index.html&#34;&gt;Homotopy Invariance of Homology (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Some of the problems are adapted from or assigned from the required textbook:</p>\n<p>Griffiths, David J. <em>Introduction to Quantum Mechanics</em>. Pearson Prentice Hall, 2004. ISBN: 9780131118928.</p>\n<p><a href=\"../../resources/problem-set-1/index.html\">Problem Set 1 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-2/index.html\">Problem Set 2 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-3/index.html\">Problem Set 3 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-4/index.html\">Problem Set 4 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-5/index.html\">Problem Set 5 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-6/index.html\">Problem Set 6 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-7/index.html\">Problem Set 7 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-8/index.html\">Problem Set 8 (PDF)</a></p>\n<p><a href=\"../../resources/problem-set-9/index.html\">Problem Set 9 (PDF)</a></p>\n",
+  "content_type": "page",
+  "description": "This section includes all of problem sets assigned in the course.  ",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "9a488145-3a8d-1268-9541-6973a7ece57b"
+}
+

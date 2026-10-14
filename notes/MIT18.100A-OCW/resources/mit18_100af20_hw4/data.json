@@ -1,0 +1,34 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/mit18_100af20_hw4.pdf",
+  "file_size": 176188,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Document",
+  "title": "Assignment 4",
+  "uid": "9ef16e6d-c969-4dca-a3a5-d38843157ccb",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-06-quantum-physics-iii-spring-2018/yHfFsuYGgaQ_captions.webvtt",
+  "file_size": 12122,
+  "file_type": "application/x-subrip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Other",
+  "title": "L13.5 Charged particles in EM fields: Schrodinger equation captions",
+  "uid": "85580fa6-74b6-4202-909e-dbf8816564db",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-06-quantum-physics-iii-spring-2018"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-06-quantum-physics-iii-spring-2018"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

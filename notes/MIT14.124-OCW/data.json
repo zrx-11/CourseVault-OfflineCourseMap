@@ -1,0 +1,82 @@
+{
+  "course_description": "The topic of the class is information and contract theory. The purpose is to give an introduction to some of the main subjects in this field: decision making under uncertainty, risk sharing, moral hazard, adverse selection, mechanism design, and incomplete contracting.\n",
+  "course_description_html": "The topic of the class is information and contract theory. The purpose is to give an introduction to some of the main subjects in this field: decision making under uncertainty, risk sharing, moral hazard, adverse selection, mechanism design, and incomplete contracting.",
+  "course_image": {
+    "content": "7de4a40b-a2d4-c37b-a95a-926673285f57",
+    "website": "14-124-microeconomic-theory-iv-spring-2017"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/14-124-microeconomic-theory-iv-spring-2017/7de4a40ba2d4c37ba95a926673285f57_14-124s17.jpg",
+    "file_size": 42652,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A man signs a contract. Contract theory, the study of how businesses and people create and develop legal agreements, is discussed at length in this course. (Image courtesy of Olu Eletu on {{% resource_link \"ab5afdb1-a54f-4c6d-a63e-b5b239785dff\" \"Unsplash\" %}}.)",
+      "credit": "Image courtesy of Olu Eletu on Unsplash.",
+      "image-alt": "A man stands at a table and writes on a piece of paper."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "14-124s17.jpg",
+    "uid": "7de4a40b-a2d4-c37b-a95a-926673285f57"
+  },
+  "course_image_thumbnail": {
+    "content": "ae7e08dd-1de9-ce93-2df5-abdacf941bc1",
+    "website": "14-124-microeconomic-theory-iv-spring-2017"
+  },
+  "course_title": "Microeconomic Theory IV",
+  "department_numbers": [
+    "14"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/7de4a40ba2d4c37ba95a926673285f57_14-124s17.jpg",
+  "instructors": [
+    {
+      "first_name": "Bengt",
+      "last_name": "Holmstrom",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Bengt Holmstrom",
+      "uid": "a3fdc8c3-5835-978d-778c-8b6eecdacaf7",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Bengt+Holmstrom"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions"
+  ],
+  "legacy_uid": "cbb2fd7e-781b-8a19-a847-32bc322adf1a",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Social Sciences",
+      "Economics"
+    ]
+  ],
+  "primary_course_number": "14.124",
+  "site_short_id": "14.124-spring-2017",
+  "site_uid": "d93839d9-c6d9-4dbf-b2d0-21b7b79515ad",
+  "site_url_path": "courses/14-124-microeconomic-theory-iv-spring-2017",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Social Science",
+      "Economics"
+    ],
+    [
+      "Social Science",
+      "Economics",
+      "Microeconomics"
+    ]
+  ],
+  "year": "2017"
+}

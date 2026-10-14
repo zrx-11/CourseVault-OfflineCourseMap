@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The videos in this course are broadly divided into three parts:</p>\n<p><strong><a href=\"../../pages/video-lectures/time-independent-perturbation-theory/index.html\">Part 1. Time Independent Perturbation Theory and WKB Approximation.</a></strong></p>\n<p>In this section, we discuss in detail non-degenerate and degenerate time-independent perturbation theory. As an application and illustration of the methods, we study the fine structure of the hydrogen atom as well as the Zeeman effect, both in its weak and strong forms. We develop the Wentzel-Kramers-Brillouin (WKB) approximation, useful for time-independent problems that involve potentials with slow-varying spatial dependence.</p>\n<p><strong><a href=\"../../pages/video-lectures/time-dependent-perturbation-theory/index.html\">Part 2. Time Dependent Perturbation Theory and Adiabatic Approximation.</a></strong> </p>\n<p>In this section, we begin by developing perturbation theory for time-dependent Hamiltonians. We then turn to Fermi’s Golden Rule, and then to the interaction of light with atoms, focusing on the processes of absorption, stimulated emission, and spontaneous emission. We discuss charged particles in electromagnetic fields and derive the Landau levels of a particle in a uniform magnetic field. We study in detail the Adiabatic approximation, discussing Landau-Zener transitions, Berry’s phase, and the Born-Oppenheimer approximation for molecules.</p>\n<p><strong><a href=\"../../pages/video-lectures/scattering-and-identical-particles/index.html\">Part 3. Scattering and Identical Particles.</a></strong> </p>\n<p>The final part of the course begins with a study of scattering. We discuss cross sections and develop the theory of partial waves and phase shifts. An integral reformulation of the scattering problem leads to the Born approximation. We then turn to the subject of identical particles. We explain the exchange degeneracy problem and develop the machinery of permutation operators, symmetrizers and anti-symmetrizers. We discuss the symmetrization postulate and discuss the construction and properties of multi particle bosonic and fermonic states.</p>\n",
+  "content_type": "page",
+  "description": "This section includes a complete set of video lectures for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "7dbfa566-6c42-75ab-fc10-43882dc5419d"
+}
+

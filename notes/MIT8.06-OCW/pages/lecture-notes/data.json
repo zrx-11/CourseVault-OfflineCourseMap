@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Chapter 1: <a href=\"../../resources/chapter-1-non-degenerate-and-degenerate-perturbation-theory/index.html\">Perturbation Theory (PDF)</a></p>\n<p>Chapter 2: <a href=\"../../resources/chapter-2-hydrogen-fine-structure/index.html\">Hydrogen Fine Structure (PDF)</a></p>\n<p>Chapter 3: <a href=\"../../resources/chapter-3-semiclassical-approximation/index.html\">Semiclassical Approximation (PDF)</a></p>\n<p>Chapter 4: <a href=\"../../resources/chapter-4-time-dependent-perturbation-theory/index.html\">Time Dependent Perturbation Theory (PDF - 1.1MB)</a></p>\n<p>Chapter 5: Particles in Electromagnetic Fields [not available]</p>\n<p>Chapter 6: <a href=\"../../resources/chapter-6-adiabatic-approximation/index.html\">Adiabatic Approximation (PDF)</a></p>\n<p>Chapter 7: <a href=\"../../resources/chapter-7-scattering/index.html\">Scattering (PDF)</a></p>\n<p>Chapter 8: <a href=\"../../resources/chapter-8-summary-of-connection-formulas/index.html\">Identical Particles (PDF)</a></p>\n",
+  "content_type": "page",
+  "description": "This section provides lecture notes for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Lecture Notes",
+  "uid": "5fe9f734-1f0a-3e79-04c9-183a6adf0be8"
+}
+

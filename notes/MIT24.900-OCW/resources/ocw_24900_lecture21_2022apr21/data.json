@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p>This video discusses semantic interpretations of sentences, particularly ones featuring ellipsis.</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture21_2022apr21_360p_16_9.mp4",
+  "file_size": 109438593,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Lecture 21: Semantics, Part 5",
+  "uid": "8e9d88ba-642e-4e33-9cf8-1d8b138b70d3",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1EszDHIhvb-PvBwxjgNAwoWCi90TygE3T_transcript.webvtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/msSCIvkjbHI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1EszDHIhvb-PvBwxjgNAwoWCi90TygE3T_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "Prof. Norvin W. Richards",
+    "video_tags": "24-900-introduction-to-linguistics-spring-2022, binding theory, ellipsis, preposition stranding, quantifier scope, sluicing",
+    "youtube_description": "MIT 24.900 Introduction to Linguistics, Spring 2022\nInstructor: Prof. Norvin W. Richards\n\nView the complete course: https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP63BZGNOqrF2qf_yxOjuG35j\n\nThis video discusses semantic interpretations of sentences, particularly ones featuring ellipsis. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.\n",
+    "youtube_id": "msSCIvkjbHI"
+  }
+}

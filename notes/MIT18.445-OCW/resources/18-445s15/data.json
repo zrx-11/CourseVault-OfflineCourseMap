@@ -1,0 +1,21 @@
+{
+  "content": "<p>Galton-Watson tree is a branching stochastic process arising from Fracis Galton&rsquo;s statistical investigation of the extinction of family names. The process models family names. Each vertex has a random number of offsprings. The figure shows the first four generations of a possible Galton-Watson tree. Image by Dr. Hao Wu.</p>\n",
+  "content_type": "resource",
+  "description": "Galton-Watson tree is a branching stochastic process arising from Fracis Galton's statistical investigation of the extinction of family names. The process models family names. Each vertex has a random number of offsprings. The figure shows the first four generations of a possible Galton-Watson tree. Image by Dr. Hao Wu.",
+  "draft": false,
+  "file": "/courses/18-445-introduction-to-stochastic-processes-spring-2015/4c04ce9f1bb7609292aaa5818ff8d1bc_18-445s15.jpg",
+  "file_size": 17464,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Galton-Watson tree is a branching stochastic process arising from Fracis Galton's statistical investigation of the extinction of family names. The process models family names. Each vertex has a random number of offsprings. The figure shows the first four generations of a possible Galton-Watson tree. (Image by Dr. Hao Wu.)",
+    "credit": "Image by Dr. Hao Wu.",
+    "image-alt": "A branching Galton-Watson tree."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "18-445s15.jpg",
+  "uid": "4c04ce9f-1bb7-6092-92aa-a5818ff8d1bc"
+}

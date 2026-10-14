@@ -1,0 +1,1062 @@
+
+{
+  "content": "",
+  "content_type": "video_gallery",
+  "draft": false,
+  "iscjklanguage": false,
+  "title": "Lecture Videos",
+  "uid": "02693778-9f09-4818-9933-e4b7689b4c27",
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-1-multicammp4_360p_16_9.mp4",
+      "file_size": 136563220,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 1: Sets, Set Operations and Mathematical Induction",
+      "uid": "7b9a5003-36e9-4d0f-8b84-20ef9762189e",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1c3M0aPBTrAxgJPGQ0lbmWtFAHTXsd0P9_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/LY7YmuDbuW0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1c3M0aPBTrAxgJPGQ0lbmWtFAHTXsd0P9_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, de morgan’s laws, proof by induction, set theory, union; intersection",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nAn introduction to set theory and useful proof writing techniques required for the course. We start to see the power of mathematical induction.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "LY7YmuDbuW0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-2-multicammp4_360p_16_9.mp4",
+      "file_size": 147480947,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 2: Cantor's Theory of Cardinality (Size)",
+      "uid": "8f7d06cd-a1ee-48af-8219-dc3ceeba55cc",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/10eRBzxaDhmhDya7nrt4G50lMys37g_7m_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9_xG0AGRa-w/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/10eRBzxaDhmhDya7nrt4G50lMys37g_7m_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, bijections, cantor, cardinality, power set, rational’s countability",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWhat does it mean for one set to be bigger than another? Defining injections, surjections, bijections, and cardinality, and showing the countability of the rationals.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "9_xG0AGRa-w"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-3-multicammp418_360p_16_9.mp4",
+      "file_size": 135820200,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 3: Cantor's Remarkable Theorem and the Rationals' Lack of the Least Upper Bound Property",
+      "uid": "4d372448-a624-49fe-b85c-32a226f2ce4d",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1Zk8AvPsay3MbLl4DzWNJu4uHALNX6Tl-_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/nbENJ-Ce7Nc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1Zk8AvPsay3MbLl4DzWNJu4uHALNX6Tl-_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, least upper bound property, ordered sets",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nFinishing the lecture on Cantor’s notion of cardinality and starting to define the real numbers. Introducing ordered sets, the least upper bound property, and the incompleteness of the rational numbers.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "nbENJ-Ce7Nc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-4-multicam_360p_16_9.mp4",
+      "file_size": 149787462,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 4: The Characterization of the Real Numbers",
+      "uid": "24675063-3638-418a-843d-57fbd8e75837",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1ntPBhuGKrbwtkzdJ5p2-OIh8OSMkp5sp_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/mlPLLXHZ8_U/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1ntPBhuGKrbwtkzdJ5p2-OIh8OSMkp5sp_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, defining real numbers, fields, ordered fields",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nAn introduction to properties of fields and ordered fields. We put the ‘real’ in real analysis and fully define the real numbers!\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "mlPLLXHZ8_U"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-5-multicam_360p_16_9.mp4",
+      "file_size": 134817006,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 5: The Archimedian Property, Density of the Rationals, and Absolute Value",
+      "uid": "1875ef16-2f16-414c-aa74-f1f542ae5242",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1q_zk-bP9eY1S2dzcZmK-zIIXu6PGTK1r_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/M2d4HsBsu8Y/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1q_zk-bP9eY1S2dzcZmK-zIIXu6PGTK1r_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, absolute values, archimedean property",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe show that the real numbers satisfy the Archimedean property, a property we will constantly use, and we prove rationals are dense in the reals. We also rigorously define absolute values and the properties that follow from this definition.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "M2d4HsBsu8Y"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-6-multicam_360p_16_9.mp4",
+      "file_size": 142381343,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 6: The Uncountabality of the Real Numbers",
+      "uid": "1988e901-621e-49bb-ae09-11332a310e0f",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1xAzql4TtzN25bWOHC_VOH5yDE3jGfxsL_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/PnDtMfyZSIE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1xAzql4TtzN25bWOHC_VOH5yDE3jGfxsL_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, decimal representation, limits of sequences, sequences of real numbers, triangle inequality, uncountability of reals",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe prove the humble, but powerful, triangle inequality, and show that the real numbers are uncountable, and thus the irrational numbers greatly outnumber the rational numbers. We introduce sequences and limits of real numbers. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "PnDtMfyZSIE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-7-multicam_360p_16_9.mp4",
+      "file_size": 99456575,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 7: Convergent Sequences of Real Numbers",
+      "uid": "a71bbc9c-145d-4432-8b1a-c2a5e507cc40",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1_NK2jm1gpP8PCLXiqusrPI3vYAuVTQfJ_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/49Ro2zf9hAc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1_NK2jm1gpP8PCLXiqusrPI3vYAuVTQfJ_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, monotone sequences, subsequences",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe begin studying convergent sequences, considering monotone sequences and introducing a inconspicuous but very useful tool: subsequences. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "49Ro2zf9hAc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-8-multicam_360p_16_9.mp4",
+      "file_size": 125891362,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 8: The Squeeze Theorem and Operations Involving Convergent Sequences",
+      "uid": "18e9b8cf-acfe-4c88-8ee7-f2196dedcc3a",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1zfW4x2QAVv0IpBp80dOQ6Hh8j7opYMwU_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/os_XGBNPllM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1zfW4x2QAVv0IpBp80dOQ6Hh8j7opYMwU_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, limit operations, squeeze theorem",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nImportant facts about limits, including the squeeze theorem and algebraic operations on limits. Limits with quotients, absolute values, and square roots. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "os_XGBNPllM"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-9-multicam-version-2_360p_16_9.mp4",
+      "file_size": 121904012,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 9: Limsup, Liminf, and the Bolzano-Weierstrass Theorem",
+      "uid": "f5217154-96b3-4aa6-884c-d0d422e68787",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/10IcZbDFqzrgrKvNyTGQTmy-h_W7IO3Dr_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Xn8wL2ItzZw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/10IcZbDFqzrgrKvNyTGQTmy-h_W7IO3Dr_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, bolzano-weierstrass, limit inferior, limit superior",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nDoes a bounded sequence have a convergent subsequence? We introduce limit inferiors and limit superiors to prove this is the case (known as the Bolzano-Weierstrass theorem). \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "Xn8wL2ItzZw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-10-multicam_1_360p_16_9.mp4",
+      "file_size": 127922682,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 10: The Completeness of the Real Numbers and Basic Properties of Infinite Series",
+      "uid": "a4107c45-e4f9-4cc4-8306-1bc871289540",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1Qdkoc6qQFOHjUfOYS7ulcBgmI7sHo9HH_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/0_w-R_g5lRA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1Qdkoc6qQFOHjUfOYS7ulcBgmI7sHo9HH_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, cauchy completeness of the reals, cauchy sequences, geometric series, infinite series",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe introduce Cauchy sequences and prove the completeness of the real numbers: i.e. every Cauchy sequence is convergent. We also begin studying infinite series, which we will focus on for the next few lectures, starting with geometric series. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "0_w-R_g5lRA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-11-multicam_360p_16_9.mp4",
+      "file_size": 101103813,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 11: Absolute Convergence and the Comparison Test for Series",
+      "uid": "4b28a9c1-d7a9-4eba-945e-fc13984b2f86",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/15InmWX8dOuS-_9CKFnIqysdHrnyvHtD8_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/RzSp9nIFnbo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/15InmWX8dOuS-_9CKFnIqysdHrnyvHtD8_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, absolute convergence, comparison test, harmonic series, p-series",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe continue studying the convergence of infinite series, defining absolute convergence and proving the comparison test: the test of all tests. We also prove properties of p-series. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "RzSp9nIFnbo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-12-multicam_360p_16_9.mp4",
+      "file_size": 103203879,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 12: The Ratio, Root, and Alternating Series Tests",
+      "uid": "fdd475ca-c5ca-4440-8521-6e568bf43282",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1d0IaJVYrozWUIUjCZUKR3XNjeEMAK71O_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ZjjpLMKs7Tc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1d0IaJVYrozWUIUjCZUKR3XNjeEMAK71O_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, alternating series test, infinite series, ratio test, root test",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe show three important tests for convergence of infinite series: the ratio, root, and alternating series tests. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "ZjjpLMKs7Tc"
+      }
+    },
+    {
+      "body": "",
+      "content_type": "resource",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-13-zoom-subtitled-version-4_360p_16_9.mp4",
+      "file_size": 85612747,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 13: Limits of Functions",
+      "uid": "b6e6b343-d096-4992-bfb9-6ba0f520931b",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/cjeXg5rJ9D8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, cluster point, continuity, limits, limits of functions",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe begin to discuss limits of functions, introducing cluster points and left and right sided limits. This will help us better understand continuity in the next lecture.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "cjeXg5rJ9D8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-14-multicam_360p_16_9.mp4",
+      "file_size": 102546917,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 14: Limits of Functions in Terms of Sequences and Continuity",
+      "uid": "1498d10a-b06c-43c7-b806-eec6607c274d",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1vRlhrS0O5BaJlwsJA04CW9NpCV_AMi83_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bBESL68iX6s/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1vRlhrS0O5BaJlwsJA04CW9NpCV_AMi83_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, calculus, continuity, continuous functions, limits of functions, single variable calculus",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nHow are limits of functions and limits of sequences connected? Continuity gives us the perfect connection as we start to prove facts about single variable calculus. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "bBESL68iX6s"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-15-multicam_360p_16_9.mp4",
+      "file_size": 104717961,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 15: The Continuity of Sine and Cosine and the Many Discontinuities of Dirichlet's Function",
+      "uid": "3c6a329c-8d04-4e26-b9a9-82a730d70476",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1PUmaEW1L7O-KnCYAnFDpkRYosM7p-gtT_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/smIcuRZybsA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1PUmaEW1L7O-KnCYAnFDpkRYosM7p-gtT_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, continuity, continuity of cosine, continuity of sine, continuity operations, the dirichlet function",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe wrap up our discussion of cluster points and move towards continuity. We show that sine and cosine are continuous, prove facts about algebraic operations on continuous functions, and define the Dirichlet function. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "smIcuRZybsA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-16-multicam_360p_16_9.mp4",
+      "file_size": 111042704,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 16: The Min/Max Theorem and Bolzano's Intermediate Value Theorem",
+      "uid": "e94ff385-dd21-4f53-9644-d15616098b19",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/dcUKdwHRSD8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, evt, extreme value theorem, intermediate value theorem, ivt, min/max theorem",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe prove some of the most useful tools of calculus: the Min/Max theorem or the Extreme Value Theorem (EVT) and the Intermediate Value Theorem (IVT). Is every hypothesis in these theorems required? \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "dcUKdwHRSD8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-17-multicam_360p_16_9.mp4",
+      "file_size": 120501598,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 17: Uniform Continuity and the Definition of the Derivative",
+      "uid": "6b6997e1-a276-4bbd-be5c-09ce311710a1",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1W1-9ZyyWj2a3xcClmmlXzZWrp6TDOuBX_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/f_sNWn7zujU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1W1-9ZyyWj2a3xcClmmlXzZWrp6TDOuBX_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, continuity, derivative, the power rule, uniform continuity",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe wrap up our current study of continuous functions by considering uniform continuity. We show that uniform continuity is equivalent to continuity on a closed and bounded interval, and begin to consider the derivative of a function. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "f_sNWn7zujU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-18-multicam_360p_16_9.mp4",
+      "file_size": 129604051,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 18: Weierstrass's Example of a Continuous and Nowhere Differentiable Function",
+      "uid": "12504165-b691-4ccd-8840-3a5ab3ec1b8f",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1QZEO5PtMCq4uCozEmygto_ISF63mjfJo_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/PuRJ9IgUW-M/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1QZEO5PtMCq4uCozEmygto_ISF63mjfJo_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, continuous but nowhere differentiable, differentiability, weierstrass",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe can show that differentiability implies continuity, but does continuity imply differentiability? We use the continuity and oscillatory nature of sine and cosine to prove the existence of Weierstrass’ continuous but nowhere differentiable function. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "PuRJ9IgUW-M"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-19-multicam_360p_16_9.mp4",
+      "file_size": 125156663,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 19: Differentiation Rules, Rolle's Theorem, and the Mean Value Theorem",
+      "uid": "85f1b2e7-64d2-4918-9eb4-d40e4992410c",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1amfhQA2YEpNhkZSG5NGFQKW3te6BKAef_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/V3Wg_jrMSQY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1amfhQA2YEpNhkZSG5NGFQKW3te6BKAef_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, chain rule, mean value theorem, mvt, operations on derivatives, product rule, quotient rule, rolle’s theorem",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe begin proving key properties of derivatives, such as the infamous product rule, quotient rule, and chain rule. We also prove the Mean Value Theorem (MVT), the low-key hero of calculus, and consider some applications. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "V3Wg_jrMSQY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-20-multicam_1_360p_16_9.mp4",
+      "file_size": 87650467,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 20: Taylor's Theorem and the Definition of Riemann Sums",
+      "uid": "174da1dd-ed24-4388-be3e-0d405312c701",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1kk7ggLs5GSgVPl8hsOtXEAyw7A0RVf_G_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ImHAGH_OEow/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1kk7ggLs5GSgVPl8hsOtXEAyw7A0RVf_G_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, mean value theorem, mvt, partitions, riemann integral, riemann sums, taylor’s theorem",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe study Taylor’s theorem, essentially a direct consequence of applying the Mean Value Theorem repeatedly. We also begin our study of the Riemann integral, defining partitions and Riemann sums. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "ImHAGH_OEow"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-21-multicam_360p_16_9.mp4",
+      "file_size": 112948097,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 21: The Riemann Integral of a Continuous Function",
+      "uid": "2d778c4e-268e-4c46-a3ac-a36bad128558",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1T64KBVHQWygm5QR94v-05Vp5_t4_T87u_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/QeYUHA0UMVg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1T64KBVHQWygm5QR94v-05Vp5_t4_T87u_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, convergence of riemann sums, properties of riemann integrals, riemann integral, riemann sums",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe continue studying the Riemann integral, proving the convergence of Riemann sums of a continuous function on a bounded interval. We also begin studying properties of the Riemann integral, which we explore more in the next lecture. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "QeYUHA0UMVg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-22-multicam_360p_16_9.mp4",
+      "file_size": 120454383,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 22: Fundamental Theorem of Calculus, Integration by Parts, and Change of Variable Formula",
+      "uid": "7dbae9a2-ff53-4692-8ff6-7b8565467cb8",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1LKqnNzODrg8PPyw-_iPcf93AM86Lj2GE_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/WWZ_CeiRnIo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1LKqnNzODrg8PPyw-_iPcf93AM86Lj2GE_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, fundamental theorem of calculus, properties of riemann integrals, triangle inequality for integrals",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe prove many more properties of the Riemann integral, including the triangle inequality for integrals, integration by parts, and the change of variable formula. We also prove the Fundamental Theorem of Calculus, a consequence of the Mean Value Theorem. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "WWZ_CeiRnIo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-23-multicam_360p_16_9.mp4",
+      "file_size": 115973972,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 23: Pointwise and Uniform Convergence of Sequences of Functions",
+      "uid": "f872f46c-a220-4ce5-8aeb-8efe05179fff",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1RaKLWv7F-clQEuFEQ6Tc7V2d5qi4G82i_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/_HRTdXJgZ0Q/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1RaKLWv7F-clQEuFEQ6Tc7V2d5qi4G82i_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, fourier coefficients, pointwise convergence, power series, sequences of functions, uniform convergence",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nInstead of sequences of real numbers, what can we say about sequences of functions? We start a study of Power series, defining pointwise and uniform convergence of sequences of functions. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "_HRTdXJgZ0Q"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-24-multicam_360p_16_9.mp4",
+      "file_size": 124332260,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 24: Uniform Convergence, the Weierstrass M-Test, and Interchanging Limits",
+      "uid": "9ed453eb-b2a3-4450-9d68-fbb73a4f71eb",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1vu4GMg5v7TRTz-K943dU10R7KZuWqwZN_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/gXPX29KfEc4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1vu4GMg5v7TRTz-K943dU10R7KZuWqwZN_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, interchanging limits, limits of uniformly convergent sequences, uniform convergence, weierstrass m-test",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe prove the powerful Weierstrass M-test, and within our setting of sequences of continuous or differentiable functions, we address a fundamental question of analysis: when can we interchange two limits? \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "gXPX29KfEc4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-25-multicam_360p_16_9.mp4",
+      "file_size": 127951711,
+      "file_type": "video/mp4",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "resourcetype": "Video",
+      "title": "Lecture 25: Power Series and the Weierstrass Approximation Theorem",
+      "uid": "8a6deb50-bbb9-42fc-b6c7-39667340d55b",
+      "video_files": {
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1IF6ZH-tTnbGSrhsh9INxEdk_UWslK6pV_transcript.webvtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/u4qQ1oIQcW8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-100a-real-analysis-fall-2020/1IF6ZH-tTnbGSrhsh9INxEdk_UWslK6pV_transcript.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_speakers": "",
+        "video_tags": "18-100a-real-analysis-fall-2020, power series, sequences of polynomials, weierstrass approximation theorem",
+        "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe return to the study of power series as we conclude our semester of 18.100A. We prove the Weierstrass Approximation Theorem, showing that every continuous function on a closed and bounded interval is a uniform limit of a sequence of polynomials. \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+        "youtube_id": "u4qQ1oIQcW8"
+      }
+    }
+  ]
+}
+

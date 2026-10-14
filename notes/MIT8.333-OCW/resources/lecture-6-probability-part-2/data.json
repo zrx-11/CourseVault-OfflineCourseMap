@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This is the second of two lectures on Probability.</p>\n<p><strong>Instructor:</strong> Mehran Kardar</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "203394163",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 6: Probability Part 2",
+  "uid": "dff846fe-630e-2525-fbb1-522f3b9af3f0",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec06_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/0c6c24661d785f06a02f7997addd0578_I_LcUur7quE.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/I_LcUur7quE/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/2632a11d682c265c4b538a8b55f847bf_I_LcUur7quE.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, central limit theorem, entropy, estimation, information, many random variables, rules for large numbers, sums of random variables",
+    "youtube_id": "I_LcUur7quE"
+  }
+}

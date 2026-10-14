@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The 3 in-class tests are composed entirely from a subset of the problem sets. The tests are &ldquo;closed book,&rdquo; but students may bring a one-sided sheet of formulas.</p>\n<p>All topics presented in the course will be covered in the final exam, with emphasis on the second half. The exam is closed book, but students may bring a two-sided sheet of formulas.</p>\n<p>Below are review problems from previous tests.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAM #\n</th>\n\n<th>\n\nEXAM REVIEWS\n</th>\n\n<th>\n\nEXAM REVIEW SOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-1/index.html\">Exam Review 1 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-1-solution/index.html\">Exam Review 1 Solution (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-2/index.html\">Exam Review 2 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-2-solution/index.html\">Exam Review 2 Solution (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n3\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-3/index.html\">Exam Review 3 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/exam-review-3-solution/index.html\">Exam Review 3 Solution (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal\n</td>\n\n<td>\n\n<a href=\"../../resources/final-exam-review/index.html\">Final Exam Review (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/final-exam-review-solution/index.html\">Final Exam Review Solution (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provide exam review problems and solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "40eed3bd-b90a-8283-b00f-97f3aa6b161d"
+}
+

@@ -1,0 +1,21 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-06-quantum-physics-iii-spring-2018/7e06e41aca118a296f881bd3c53a520f_8-06s18.jpg",
+  "file_size": 13596,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Weak field Zeeman effect, in which splittings of hydrogen atom degenerate multiplets due to an external magnetic field are smaller than fine-structure effect. (Image courtesy of {{% resource_link \"b9ac7a22-9ce2-4597-ba6a-66e30214da8a\" \"Evgeny at English Wikipedia\" %}}. License CC BY.)",
+    "credit": "(Image courtesy of Evgeny at English Wikipedia. License CC BY)",
+    "image-alt": "Two sets of horizontal and vertical lines with labels next to the horizontal lines and arrows at the bottom ends of the vertical lines."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "8-06s18.jpg",
+  "uid": "7e06e41a-ca11-8a29-6f88-1bd3c53a520f"
+}

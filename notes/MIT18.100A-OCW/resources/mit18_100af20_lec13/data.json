@@ -1,0 +1,36 @@
+{
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/mit18_100af20_lec13.tex",
+  "file_size": 5289,
+  "file_type": "text/x-tex",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Editable Files"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Document",
+  "title": "MIT18_100af20_lec13.tex",
+  "uid": "5019f80f-b20b-485a-81cb-396319906581",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

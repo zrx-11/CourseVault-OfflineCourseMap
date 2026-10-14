@@ -1,0 +1,5712 @@
+1
+00:00:00,070 --> 00:00:01,780
+The following
+content is provided
+
+2
+00:00:01,780 --> 00:00:04,019
+under a Creative
+Commons license.
+
+3
+00:00:04,019 --> 00:00:06,870
+Your support will help MIT
+OpenCourseWare continue
+
+4
+00:00:06,870 --> 00:00:10,730
+to offer high-quality
+educational resources for free.
+
+5
+00:00:10,730 --> 00:00:13,330
+To make a donation, or
+view additional materials
+
+6
+00:00:13,330 --> 00:00:17,217
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,217 --> 00:00:17,842
+at ocw.mit.edu.
+
+8
+00:00:20,650 --> 00:00:21,830
+PROFESSOR: OK, let's start.
+
+9
+00:00:24,530 --> 00:00:29,980
+So last time, having
+dealt with the ideal gas
+
+10
+00:00:29,980 --> 00:00:33,225
+as much as possible, we started
+with interacting systems.
+
+11
+00:00:39,420 --> 00:00:42,660
+Let's say interacting gas.
+
+12
+00:00:42,660 --> 00:00:46,760
+And the first topic
+that we did was
+
+13
+00:00:46,760 --> 00:00:51,860
+what I called an approach
+towards interaction
+
+14
+00:00:51,860 --> 00:00:54,451
+through the Cumulant expansion.
+
+15
+00:00:57,400 --> 00:01:03,720
+The idea is that we certainly
+solved the problem where
+
+16
+00:01:03,720 --> 00:01:14,550
+we had particles in a box and
+it was just a trivial system.
+
+17
+00:01:14,550 --> 00:01:20,690
+Basically, the particles were
+independent of each other
+
+18
+00:01:20,690 --> 00:01:23,520
+in the canonical ensemble.
+
+19
+00:01:23,520 --> 00:01:27,540
+And things become interesting
+if you put interactions
+
+20
+00:01:27,540 --> 00:01:30,710
+among all of the particles.
+
+21
+00:01:30,710 --> 00:01:33,480
+Very soon, we will
+have a specific form
+
+22
+00:01:33,480 --> 00:01:35,520
+of this interaction.
+
+23
+00:01:35,520 --> 00:01:37,270
+But for the beginning,
+let's maintain
+
+24
+00:01:37,270 --> 00:01:40,190
+it as general as possible.
+
+25
+00:01:40,190 --> 00:01:42,240
+And the idea was
+that we are trying
+
+26
+00:01:42,240 --> 00:01:46,120
+to calculate the partition
+function for a system that
+
+27
+00:01:46,120 --> 00:01:49,400
+has a given temperature.
+
+28
+00:01:49,400 --> 00:01:54,410
+The box has some volume V and
+there are N particles in it.
+
+29
+00:01:54,410 --> 00:01:58,250
+And to do so, we have
+to integrate over
+
+30
+00:01:58,250 --> 00:02:02,140
+the entirety of the phase
+space of N particles.
+
+31
+00:02:02,140 --> 00:02:09,100
+So we have to integrate over all
+of the momenta and coordinates
+
+32
+00:02:09,100 --> 00:02:11,710
+of e to the minus beta h.
+
+33
+00:02:11,710 --> 00:02:15,580
+But we said that we are
+going to first of all,
+
+34
+00:02:15,580 --> 00:02:18,330
+note that for
+identical particles,
+
+35
+00:02:18,330 --> 00:02:21,720
+we can't tell apart
+the phase space
+
+36
+00:02:21,720 --> 00:02:25,340
+if you were to make these in
+[? factorial ?] permutations.
+
+37
+00:02:25,340 --> 00:02:27,650
+And we also made
+it dimensionless
+
+38
+00:02:27,650 --> 00:02:30,620
+by dividing by h to the 3n.
+
+39
+00:02:30,620 --> 00:02:33,250
+And then we have e
+to the minus beta
+
+40
+00:02:33,250 --> 00:02:39,340
+h, which has a part that is
+e to the minus sum over i pi
+
+41
+00:02:39,340 --> 00:02:43,240
+squared over 2m, that
+depends on the momenta.
+
+42
+00:02:43,240 --> 00:02:48,660
+And a part that depends
+on the interaction U.
+
+43
+00:02:48,660 --> 00:02:52,390
+The integrals over the
+momenta, we can easily perform.
+
+44
+00:02:52,390 --> 00:02:55,770
+They give us the
+result of Gaussians
+
+45
+00:02:55,770 --> 00:03:03,240
+that we can express as
+lambda to the power of 3n
+
+46
+00:03:03,240 --> 00:03:09,322
+where we introduced this lambda
+to be h over root 2 pi m k t.
+
+47
+00:03:12,770 --> 00:03:18,170
+And actually, sort
+of keeping in mind
+
+48
+00:03:18,170 --> 00:03:22,620
+the result that we had for
+the case of the ideal gas,
+
+49
+00:03:22,620 --> 00:03:28,700
+let's rewrite this as V over
+lambda cubed to the power of N.
+
+50
+00:03:28,700 --> 00:03:34,770
+So I essentially divided
+and multiplied by V to the N
+
+51
+00:03:34,770 --> 00:03:37,200
+so that this part
+becomes the partition
+
+52
+00:03:37,200 --> 00:03:42,010
+function than I would
+have had if U was absent.
+
+53
+00:03:42,010 --> 00:03:47,650
+And so then the remainder is the
+integral over all of the q's,
+
+54
+00:03:47,650 --> 00:03:50,580
+but I divided by
+V. So basically,
+
+55
+00:03:50,580 --> 00:03:53,580
+with each integration,
+I'm uniformly
+
+56
+00:03:53,580 --> 00:03:57,890
+sampling all of the points
+inside the box with probability
+
+57
+00:03:57,890 --> 00:04:02,540
+density 1/V e to
+the minus beta U.
+
+58
+00:04:02,540 --> 00:04:05,760
+And we said that
+this quantity we
+
+59
+00:04:05,760 --> 00:04:10,470
+can regard as sampling
+e to the minus beta U
+
+60
+00:04:10,470 --> 00:04:12,540
+through 0 to all
+other probability
+
+61
+00:04:12,540 --> 00:04:17,149
+distribution in which the
+particles ideal-like are
+
+62
+00:04:17,149 --> 00:04:19,160
+uniformly distributed.
+
+63
+00:04:19,160 --> 00:04:23,870
+And we call this e
+to the minus beta U.
+
+64
+00:04:23,870 --> 00:04:27,810
+And the index 0
+again to indicate
+
+65
+00:04:27,810 --> 00:04:31,265
+that we are dealing
+with a uniform 0
+
+66
+00:04:31,265 --> 00:04:33,750
+to order distribution
+with respect
+
+67
+00:04:33,750 --> 00:04:35,584
+to which this average is taken.
+
+68
+00:04:38,190 --> 00:04:44,060
+And then, this quantity
+we can write as Z0.
+
+69
+00:04:44,060 --> 00:04:46,760
+And this exponential
+we can formally
+
+70
+00:04:46,760 --> 00:04:51,160
+express as a sum
+over all, let's say,
+
+71
+00:04:51,160 --> 00:04:54,750
+l running from 0 to
+infinity minus beta
+
+72
+00:04:54,750 --> 00:04:58,080
+to the l divided by l factorial.
+
+73
+00:04:58,080 --> 00:05:02,290
+Then, expanding this, a quantity
+that depends on the coordinates
+
+74
+00:05:02,290 --> 00:05:06,930
+is U. So I could have U raised
+to the l power, this kind
+
+75
+00:05:06,930 --> 00:05:10,360
+of average taken
+with respect to that.
+
+76
+00:05:10,360 --> 00:05:13,720
+And immediately, my
+writing something like this
+
+77
+00:05:13,720 --> 00:05:17,110
+suggests that what
+I'm after eventually
+
+78
+00:05:17,110 --> 00:05:20,120
+is some kind of a
+perturbation theory.
+
+79
+00:05:20,120 --> 00:05:24,460
+Because I know how to solve
+the problem where U is absent.
+
+80
+00:05:24,460 --> 00:05:26,370
+That's the ideal gas problem.
+
+81
+00:05:26,370 --> 00:05:29,900
+Maybe we can start to move
+away from the ideal gas
+
+82
+00:05:29,900 --> 00:05:33,160
+and calculate things
+perturbatively
+
+83
+00:05:33,160 --> 00:05:34,850
+in some quantity.
+
+84
+00:05:34,850 --> 00:05:36,910
+And exactly what
+that quantity is
+
+85
+00:05:36,910 --> 00:05:39,090
+will become apparent shortly.
+
+86
+00:05:39,090 --> 00:05:43,260
+At this time, it looks like
+it's an expansion in beta U
+
+87
+00:05:43,260 --> 00:05:46,850
+having to be a small quantity.
+
+88
+00:05:46,850 --> 00:05:51,050
+Now, of course, for calculating
+thermodynamic functions
+
+89
+00:05:51,050 --> 00:05:55,520
+and behaviors, we don't
+really rely usually on Z,
+
+90
+00:05:55,520 --> 00:05:59,120
+but log Z, which can be
+related to the free energy,
+
+91
+00:05:59,120 --> 00:06:01,110
+for example.
+
+92
+00:06:01,110 --> 00:06:04,230
+So taking the log
+of that expression,
+
+93
+00:06:04,230 --> 00:06:07,490
+I have a term that is log of Z0.
+
+94
+00:06:07,490 --> 00:06:11,190
+And a term that is
+the log of that sum.
+
+95
+00:06:11,190 --> 00:06:14,530
+But we recognize that
+that sum, in some sense,
+
+96
+00:06:14,530 --> 00:06:20,240
+is a generator of moments
+of this quantity U.
+
+97
+00:06:20,240 --> 00:06:22,020
+And we have
+experienced that when
+
+98
+00:06:22,020 --> 00:06:25,565
+we take the logarithm of a
+generator of moments, what
+
+99
+00:06:25,565 --> 00:06:29,350
+we will get is a
+generator of Cumulants,
+
+100
+00:06:29,350 --> 00:06:33,460
+now starting with l
+equals to 1 minus beta
+
+101
+00:06:33,460 --> 00:06:38,180
+to the power of l
+divided by l factorial U
+
+102
+00:06:38,180 --> 00:06:42,910
+to the l0 with a subscript c.
+
+103
+00:06:42,910 --> 00:06:48,880
+Of course, this subscript c sort
+of captures all of the various
+
+104
+00:06:48,880 --> 00:06:51,600
+subtractions that you
+have to make in order
+
+105
+00:06:51,600 --> 00:06:54,120
+to go from a moment
+to a Cumulant.
+
+106
+00:06:54,120 --> 00:06:56,070
+But that's quite
+general and something
+
+107
+00:06:56,070 --> 00:07:00,720
+that we know essentially is
+relating log of the expansion
+
+108
+00:07:00,720 --> 00:07:02,120
+to the expansion itself.
+
+109
+00:07:02,120 --> 00:07:03,170
+But that's well-known.
+
+110
+00:07:05,790 --> 00:07:10,230
+So presumably, I can
+perturbatively calculate these.
+
+111
+00:07:10,230 --> 00:07:13,410
+And I will have,
+therefore, progressively
+
+112
+00:07:13,410 --> 00:07:17,130
+better approximations
+to log Z in the presence
+
+113
+00:07:17,130 --> 00:07:19,810
+of this interaction.
+
+114
+00:07:19,810 --> 00:07:22,270
+Now at this point,
+we have to start
+
+115
+00:07:22,270 --> 00:07:29,150
+thinking about a particular
+expression for U.
+
+116
+00:07:29,150 --> 00:07:34,850
+So let's imagine that our U is a
+sum over pairwise interactions.
+
+117
+00:07:34,850 --> 00:07:37,290
+So if I think about
+the particles,
+
+118
+00:07:37,290 --> 00:07:41,030
+there are molecules that
+are in the gas in this room.
+
+119
+00:07:41,030 --> 00:07:43,880
+Basically, the most important
+thing is when the two of them
+
+120
+00:07:43,880 --> 00:07:47,960
+approach each other and I have
+to put a pairwise interaction
+
+121
+00:07:47,960 --> 00:07:50,710
+between them of this form.
+
+122
+00:07:50,710 --> 00:07:53,280
+In principle, I could add
+three-point and higher-order
+
+123
+00:07:53,280 --> 00:07:54,530
+interactions.
+
+124
+00:07:54,530 --> 00:07:57,290
+But for all intents
+and purposes,
+
+125
+00:07:57,290 --> 00:07:59,140
+this should be enough.
+
+126
+00:07:59,140 --> 00:08:04,190
+And then again, what I
+have here to evaluate,
+
+127
+00:08:04,190 --> 00:08:07,735
+the first term
+would be minus beta,
+
+128
+00:08:07,735 --> 00:08:14,730
+the average of the first
+power, and the next one
+
+129
+00:08:14,730 --> 00:08:17,810
+will be beta squared over 2.
+
+130
+00:08:17,810 --> 00:08:20,090
+For the first Cumulant,
+it is the same thing
+
+131
+00:08:20,090 --> 00:08:21,870
+as the first moment.
+
+132
+00:08:21,870 --> 00:08:24,550
+The second Cumulant is the
+thing that is the variance.
+
+133
+00:08:24,550 --> 00:08:28,520
+So this would have been
+U squared 0 minus average
+
+134
+00:08:28,520 --> 00:08:32,633
+of U squared, and then
+there will be higher orders.
+
+135
+00:08:38,760 --> 00:08:43,669
+So let's calculate these
+first two moments explicitly
+
+136
+00:08:43,669 --> 00:08:46,250
+for this potential.
+
+137
+00:08:46,250 --> 00:08:54,110
+So the first term U in this 0
+to order average, what is it?
+
+138
+00:08:54,110 --> 00:08:59,270
+Well, that's my U. So I
+have to do a sum over i
+
+139
+00:08:59,270 --> 00:09:06,570
+and j of V of qi minus qj.
+
+140
+00:09:06,570 --> 00:09:08,380
+What does the averaging mean?
+
+141
+00:09:08,380 --> 00:09:14,670
+It means I have to integrate
+this over all qi divided
+
+142
+00:09:14,670 --> 00:09:19,030
+by V. Let's call this qk divided
+V and this is [INAUDIBLE].
+
+143
+00:09:22,958 --> 00:09:28,400
+OK, so let's say we look at the
+first term in this series which
+
+144
+00:09:28,400 --> 00:09:33,390
+involves V of q1 minus q2.
+
+145
+00:09:33,390 --> 00:09:36,800
+Let's say we pick
+that pair, q1 and q2.
+
+146
+00:09:36,800 --> 00:09:45,940
+And explicitly, what I have
+here is integrals over q1, q2,
+
+147
+00:09:45,940 --> 00:09:54,520
+qn, each one of them
+coming with a factor of V.
+
+148
+00:09:54,520 --> 00:09:58,100
+Now, of course, it doesn't
+matter which pair I pick.
+
+149
+00:09:58,100 --> 00:09:59,580
+Everything is symmetric.
+
+150
+00:09:59,580 --> 00:10:03,090
+The weight that I start
+with uniformly is symmetric.
+
+151
+00:10:03,090 --> 00:10:06,510
+So clearly, my
+choice of this pair
+
+152
+00:10:06,510 --> 00:10:08,500
+was arbitrary and
+the answer when
+
+153
+00:10:08,500 --> 00:10:12,950
+I do the sum is the answer for
+1 times the number of pairs,
+
+154
+00:10:12,950 --> 00:10:14,680
+which is N N minus 1 over 2.
+
+155
+00:10:19,250 --> 00:10:23,510
+Now, over here I have
+integrals over q3 or qn,
+
+156
+00:10:23,510 --> 00:10:26,260
+et cetera, that don't
+appear in the function
+
+157
+00:10:26,260 --> 00:10:27,840
+that I'm integrating.
+
+158
+00:10:27,840 --> 00:10:32,100
+So all of those integrals
+will give me factors of 1.
+
+159
+00:10:32,100 --> 00:10:34,660
+And really, the only thing
+that I am going to be left with
+
+160
+00:10:34,660 --> 00:10:39,020
+is these two integrals
+over q1 and q2.
+
+161
+00:10:39,020 --> 00:10:42,310
+But even then, the function
+that I'm integrating
+
+162
+00:10:42,310 --> 00:10:45,230
+is only a function of
+the relative coordinate
+
+163
+00:10:45,230 --> 00:10:47,270
+that I can call q.
+
+164
+00:10:47,270 --> 00:10:54,470
+And then I can, if I want,
+integrate over q1 and q.
+
+165
+00:10:54,470 --> 00:10:56,970
+The integral over q1
+would also give me
+
+166
+00:10:56,970 --> 00:10:59,520
+1 when I divide by the volume.
+
+167
+00:10:59,520 --> 00:11:04,280
+So the answer is going
+to be N N minus 1 over 2,
+
+168
+00:11:04,280 --> 00:11:06,600
+which is the number of pairs.
+
+169
+00:11:06,600 --> 00:11:11,420
+The integral over the
+relative coordinate times
+
+170
+00:11:11,420 --> 00:11:14,330
+the potential-- there
+is a factor of 1 over V
+
+171
+00:11:14,330 --> 00:11:17,780
+that I can put out here.
+
+172
+00:11:17,780 --> 00:11:21,790
+So you tell me what the
+first pair potential is
+
+173
+00:11:21,790 --> 00:11:25,790
+and I tell you that this is the
+first correction that you will
+
+174
+00:11:25,790 --> 00:11:29,780
+get once you multiply
+by minus beta
+
+175
+00:11:29,780 --> 00:11:32,890
+to log Z from which you
+can calculate the partition
+
+176
+00:11:32,890 --> 00:11:35,450
+functions.
+
+177
+00:11:35,450 --> 00:11:36,642
+Yes.
+
+178
+00:11:36,642 --> 00:11:39,222
+AUDIENCE: How did you turn the
+product of two differentials
+
+179
+00:11:39,222 --> 00:11:44,670
+d q1 times d q2 into
+just one differential?
+
+180
+00:11:44,670 --> 00:11:49,590
+PROFESSOR: OK, I have
+the integral dq q1 dq q2,
+
+181
+00:11:49,590 --> 00:11:53,000
+some function of q1 minus q2.
+
+182
+00:11:53,000 --> 00:11:58,160
+I change variables keeping
+q1 as one of my variables
+
+183
+00:11:58,160 --> 00:12:03,800
+and q [INAUDIBLE] replace
+q2 with q minus q2.
+
+184
+00:12:03,800 --> 00:12:06,950
+So then I have the
+integration over q1.
+
+185
+00:12:06,950 --> 00:12:10,200
+I have the integration over q2.
+
+186
+00:12:10,200 --> 00:12:14,160
+Not q2, but q f of q.
+
+187
+00:12:14,160 --> 00:12:15,520
+And then everything's fine.
+
+188
+00:12:23,280 --> 00:12:25,950
+All right, so that's
+the first term.
+
+189
+00:12:25,950 --> 00:12:29,140
+Let's calculate the next term.
+
+190
+00:12:29,140 --> 00:12:33,540
+Next term becomes
+somewhat interesting.
+
+191
+00:12:33,540 --> 00:12:39,520
+I have to calculate this
+quantity as a Cumulant.
+
+192
+00:12:39,520 --> 00:12:41,785
+It's the variance.
+
+193
+00:12:45,900 --> 00:12:49,480
+V itself is a sum over pairs.
+
+194
+00:12:49,480 --> 00:12:53,200
+So to get V squared
+to U squared,
+
+195
+00:12:53,200 --> 00:12:56,160
+I have to essentially
+square this expression.
+
+196
+00:12:56,160 --> 00:12:59,780
+So rather than having
+sum over one pair ij,
+
+197
+00:12:59,780 --> 00:13:02,690
+I have the sum over
+two pairs ij and kl.
+
+198
+00:13:05,890 --> 00:13:09,120
+And then what I
+need to calculate
+
+199
+00:13:09,120 --> 00:13:12,910
+is an average that if
+I were to square this,
+
+200
+00:13:12,910 --> 00:13:22,230
+I will get v of qi minus
+qj, v of qk minus ql 0.
+
+201
+00:13:22,230 --> 00:13:25,720
+This will be the
+average of U squared.
+
+202
+00:13:25,720 --> 00:13:28,900
+But when I calculate
+the variance,
+
+203
+00:13:28,900 --> 00:13:32,380
+I have to subtract from it
+the average of U squared.
+
+204
+00:13:32,380 --> 00:13:40,502
+So I have to subtract V of
+qi minus qj V of qk minus ql.
+
+205
+00:13:49,810 --> 00:13:52,510
+Fine.
+
+206
+00:13:52,510 --> 00:13:57,190
+So this is just rewriting
+of that expression
+
+207
+00:13:57,190 --> 00:14:00,000
+in terms of the sum.
+
+208
+00:14:00,000 --> 00:14:06,590
+Now, each one of these is
+N N minus 1 over two terms.
+
+209
+00:14:06,590 --> 00:14:10,016
+And so this, when I sum
+over all possibility,
+
+210
+00:14:10,016 --> 00:14:15,640
+is the square of N N minus 1
+over two possible terms that
+
+211
+00:14:15,640 --> 00:14:20,220
+will occur here in the
+series that I've written.
+
+212
+00:14:20,220 --> 00:14:26,190
+Now, let's group those terms
+that can occur in this as
+
+213
+00:14:26,190 --> 00:14:27,620
+follows.
+
+214
+00:14:27,620 --> 00:14:33,680
+One class of terms
+will be when the pair
+
+215
+00:14:33,680 --> 00:14:45,260
+ij that I pick for the first sum
+is distinct from the pair kl.
+
+216
+00:14:45,260 --> 00:14:49,140
+So huge number of terms
+as I go through the pairs
+
+217
+00:14:49,140 --> 00:14:52,720
+will have this possibility.
+
+218
+00:14:52,720 --> 00:14:55,400
+OK, then what happens?
+
+219
+00:14:55,400 --> 00:15:02,640
+Then when I calculate the
+average of qi minus qj qk minus
+
+220
+00:15:02,640 --> 00:15:09,580
+ql, which is this part, what
+I need to do is to do all
+
+221
+00:15:09,580 --> 00:15:19,420
+of these integral of
+this form over all q's.
+
+222
+00:15:19,420 --> 00:15:26,630
+And then I have this V of qi
+minus qj V of qk minus ql.
+
+223
+00:15:29,745 --> 00:15:32,980
+Now, my statement is that
+I have, let's say here,
+
+224
+00:15:32,980 --> 00:15:37,450
+q1 and q2 and somewhere
+else q7 and q8.
+
+225
+00:15:37,450 --> 00:15:39,740
+Or, q7 and q974.
+
+226
+00:15:39,740 --> 00:15:41,710
+It doesn't matter.
+
+227
+00:15:41,710 --> 00:15:43,880
+The point is that
+this integral that
+
+228
+00:15:43,880 --> 00:15:45,810
+involves this pair
+of variables has
+
+229
+00:15:45,810 --> 00:15:47,310
+nothing to do with
+the integral that
+
+230
+00:15:47,310 --> 00:15:49,650
+involves the other
+pair of variables.
+
+231
+00:15:49,650 --> 00:15:54,460
+So this answer is the same
+thing as the average of qi
+
+232
+00:15:54,460 --> 00:16:00,120
+minus qj average of qk minus ql.
+
+233
+00:16:00,120 --> 00:16:04,000
+Essentially, in the 0 order
+probability that we are using,
+
+234
+00:16:04,000 --> 00:16:06,620
+the particles are
+completely independently
+
+235
+00:16:06,620 --> 00:16:11,040
+exploring this space and these
+averages will independently
+
+236
+00:16:11,040 --> 00:16:13,160
+rely on one pair
+and independently
+
+237
+00:16:13,160 --> 00:16:15,380
+rely on another pair.
+
+238
+00:16:15,380 --> 00:16:21,060
+And once this kind of
+factorization occurs,
+
+239
+00:16:21,060 --> 00:16:24,640
+it's clear that this
+subtraction that I
+
+240
+00:16:24,640 --> 00:16:28,430
+need to do for the variance
+will get rid of this term.
+
+241
+00:16:28,430 --> 00:16:33,090
+So these pairs do
+not contribute.
+
+242
+00:16:33,090 --> 00:16:33,765
+No contribution.
+
+243
+00:16:38,450 --> 00:16:41,510
+If you like, this is this thing.
+
+244
+00:16:45,320 --> 00:16:53,678
+All right, so let's do the
+next possible term, ij and ik,
+
+245
+00:16:53,678 --> 00:16:57,710
+with k not equal to this k.
+
+246
+00:16:57,710 --> 00:17:02,720
+So basically, I make the pairs
+have one point in common.
+
+247
+00:17:02,720 --> 00:17:05,460
+So previously, I had a
+pair here, a pair here.
+
+248
+00:17:05,460 --> 00:17:08,390
+Now I joined one
+of their points.
+
+249
+00:17:08,390 --> 00:17:11,760
+So what do I get here?
+
+250
+00:17:11,760 --> 00:17:20,520
+I will get for this average
+qi minus qj qi minus ql.
+
+251
+00:17:20,520 --> 00:17:24,470
+You can see that essentially,
+the three integrals that I need
+
+252
+00:17:24,470 --> 00:17:27,060
+to worry about are
+the integrals that
+
+253
+00:17:27,060 --> 00:17:28,510
+involve these three indices.
+
+254
+00:17:28,510 --> 00:17:30,810
+All the others will give me 0.
+
+255
+00:17:30,810 --> 00:17:40,370
+So this is going to be the
+integral qi qj ql divided by V.
+
+256
+00:17:40,370 --> 00:17:47,170
+I have V of qi minus
+qj V of qi minus ql.
+
+257
+00:17:50,026 --> 00:17:52,237
+AUDIENCE: You
+switched [INAUDIBLE].
+
+258
+00:17:52,237 --> 00:17:52,820
+PROFESSOR: OK.
+
+259
+00:17:58,720 --> 00:18:00,050
+I think that's fine.
+
+260
+00:18:04,440 --> 00:18:06,640
+All right.
+
+261
+00:18:06,640 --> 00:18:11,150
+Now, I can do the same
+thing that I did over here.
+
+262
+00:18:11,150 --> 00:18:13,760
+I have three variables.
+
+263
+00:18:13,760 --> 00:18:17,370
+I will pick qi to stay
+as one of my variables.
+
+264
+00:18:17,370 --> 00:18:23,920
+I replace qj with this
+difference, q j i.
+
+265
+00:18:23,920 --> 00:18:29,440
+I replace ql with
+its distance to i.
+
+266
+00:18:32,120 --> 00:18:34,610
+And again, I can
+independently integrate
+
+267
+00:18:34,610 --> 00:18:37,810
+over these three variables.
+
+268
+00:18:37,810 --> 00:18:41,520
+So this again,
+becomes the same thing
+
+269
+00:18:41,520 --> 00:18:50,670
+as V of qi minus qj average
+V of qi minus ql average.
+
+270
+00:18:50,670 --> 00:18:52,430
+And again, there
+is no contribution.
+
+271
+00:19:02,430 --> 00:19:06,180
+Now, the first class it was
+obvious because this pair
+
+272
+00:19:06,180 --> 00:19:09,800
+and this pair were
+completely distinct.
+
+273
+00:19:09,800 --> 00:19:12,830
+This class is a
+little bit more subtle
+
+274
+00:19:12,830 --> 00:19:17,300
+because I joined one
+of the points together,
+
+275
+00:19:17,300 --> 00:19:23,090
+and then I used this and
+this as well as this point
+
+276
+00:19:23,090 --> 00:19:25,280
+as independent variables.
+
+277
+00:19:25,280 --> 00:19:29,450
+And I saw that the sum
+breaks into pieces.
+
+278
+00:19:29,450 --> 00:19:32,680
+And you won't be
+surprised if no matter
+
+279
+00:19:32,680 --> 00:19:37,870
+how complicated I make various
+more interactions over here,
+
+280
+00:19:37,870 --> 00:19:40,780
+I can measure all of the
+coordinates with respect
+
+281
+00:19:40,780 --> 00:19:44,150
+to the single point and
+same thing would happen.
+
+282
+00:19:44,150 --> 00:19:52,548
+This class of diagrams are
+called 1-particle reducible.
+
+283
+00:19:52,548 --> 00:19:56,160
+And the first part had to
+do with distinct graphs.
+
+284
+00:19:56,160 --> 00:19:58,090
+You didn't have to
+worry about them.
+
+285
+00:19:58,090 --> 00:20:01,170
+But if I were to sort of
+convert this expression--
+
+286
+00:20:01,170 --> 00:20:04,150
+and we will do so
+shortly-- into graphs,
+
+287
+00:20:04,150 --> 00:20:06,575
+it corresponds to
+graphs where there
+
+288
+00:20:06,575 --> 00:20:10,620
+is a point from which
+everything else is hanging.
+
+289
+00:20:10,620 --> 00:20:12,760
+And measuring
+coordinates with respect
+
+290
+00:20:12,760 --> 00:20:18,490
+to that point will allow the
+average to break into pieces,
+
+291
+00:20:18,490 --> 00:20:23,520
+and then to be removed
+through this subtraction.
+
+292
+00:20:23,520 --> 00:20:28,190
+So this is simple example of
+something that is more general.
+
+293
+00:20:28,190 --> 00:20:31,560
+So at the level of this
+second-order theorem,
+
+294
+00:20:31,560 --> 00:20:34,540
+the only type of thing
+that will survive
+
+295
+00:20:34,540 --> 00:20:40,030
+is if the pairs are
+identical, ij and other term
+
+296
+00:20:40,030 --> 00:20:41,780
+is also the same pair ij.
+
+297
+00:20:44,380 --> 00:20:46,250
+What do I get then?
+
+298
+00:20:46,250 --> 00:20:58,613
+I get V of qi minus
+qj squared minus V
+
+299
+00:20:58,613 --> 00:21:04,740
+of qi minus qj 0 order squared.
+
+300
+00:21:04,740 --> 00:21:09,260
+So it's the variance of a
+single one of these bond
+
+301
+00:21:09,260 --> 00:21:11,060
+contributions.
+
+302
+00:21:11,060 --> 00:21:14,390
+If I write that in
+terms of integrals,
+
+303
+00:21:14,390 --> 00:21:19,200
+this becomes the
+integral d cubed q1,
+
+304
+00:21:19,200 --> 00:21:26,580
+d cubed q2-- well, qi qj.
+
+305
+00:21:26,580 --> 00:21:30,210
+I will have factors
+of V. Then, I
+
+306
+00:21:30,210 --> 00:21:39,250
+would have V squared qi
+minus qj for the first term
+
+307
+00:21:39,250 --> 00:21:51,360
+and then the square of something
+like this for the second term.
+
+308
+00:21:58,680 --> 00:22:04,560
+So putting everything
+together up to this order,
+
+309
+00:22:04,560 --> 00:22:05,580
+what do I get?
+
+310
+00:22:05,580 --> 00:22:09,530
+I will get log Z,
+which is log of Z0.
+
+311
+00:22:09,530 --> 00:22:13,560
+Let me remind you,
+log of Z0 was N log
+
+312
+00:22:13,560 --> 00:22:24,400
+of V over lambda cubed N.
+That's on form such as this.
+
+313
+00:22:24,400 --> 00:22:26,865
+And then I have
+these corrections.
+
+314
+00:22:29,490 --> 00:22:33,520
+Note that both of the
+terms that have survived
+
+315
+00:22:33,520 --> 00:22:37,240
+correspond to
+looking at one pair.
+
+316
+00:22:37,240 --> 00:22:42,620
+So the corrections will be
+of the order of N N minus 1
+
+317
+00:22:42,620 --> 00:22:43,850
+over 2.
+
+318
+00:22:43,850 --> 00:22:48,000
+Because in both cases, I
+really look at one pair.
+
+319
+00:22:48,000 --> 00:22:55,230
+The first contribution was minus
+beta integral d cubed q v of q.
+
+320
+00:22:55,230 --> 00:22:57,600
+There was a factor of
+1 over V. Actually,
+
+321
+00:22:57,600 --> 00:23:01,270
+I can take-- well, let's
+put the factor of 1 over V
+
+322
+00:23:01,270 --> 00:23:03,970
+here for the time being.
+
+323
+00:23:03,970 --> 00:23:10,290
+The next term will be
+beta squared over 2
+
+324
+00:23:10,290 --> 00:23:12,740
+because I am looking at
+the second-order term.
+
+325
+00:23:12,740 --> 00:23:14,701
+And what do I have?
+
+326
+00:23:14,701 --> 00:23:19,610
+I have the difference
+of integral d cubed q
+
+327
+00:23:19,610 --> 00:23:21,240
+over V V squared.
+
+328
+00:23:25,010 --> 00:23:32,210
+And the square of the integral
+of d cubed q over V V.
+
+329
+00:23:32,210 --> 00:23:34,910
+And presumably, there
+will be higher-order terms
+
+330
+00:23:34,910 --> 00:23:36,367
+as we will discuss.
+
+331
+00:23:40,510 --> 00:23:45,760
+Now, I'm interested in the
+limit of thermodynamics
+
+332
+00:23:45,760 --> 00:23:47,800
+where N and V are large.
+
+333
+00:23:51,480 --> 00:23:53,250
+And in that limit,
+what do I get?
+
+334
+00:23:53,250 --> 00:23:56,800
+I will get log Z is log of Z0.
+
+335
+00:24:00,520 --> 00:24:10,340
+And then I can see that these
+terms I can write as beta.
+
+336
+00:24:10,340 --> 00:24:14,900
+N N minus 1 I will
+replace will N squared.
+
+337
+00:24:14,900 --> 00:24:18,250
+The factors-- here I
+have a 1 over V. Here,
+
+338
+00:24:18,250 --> 00:24:20,310
+I have 1 over V squared.
+
+339
+00:24:20,310 --> 00:24:23,920
+So this factor is
+smaller by an amount that
+
+340
+00:24:23,920 --> 00:24:28,560
+is order of V in
+the large V-limit.
+
+341
+00:24:28,560 --> 00:24:32,770
+I will bring the
+factor of V outside,
+
+342
+00:24:32,770 --> 00:24:35,310
+so I have something like this.
+
+343
+00:24:35,310 --> 00:24:38,090
+And then, what do I have here?
+
+344
+00:24:38,090 --> 00:24:43,530
+Actually, let's keep
+this in this form,
+
+345
+00:24:43,530 --> 00:24:50,455
+minus beta integral
+d cubed q V plus beta
+
+346
+00:24:50,455 --> 00:24:57,460
+squared over 2 integral d
+cubed q V squared [INAUDIBLE].
+
+347
+00:25:04,590 --> 00:25:06,690
+So the kinds of things
+that we are interested
+
+348
+00:25:06,690 --> 00:25:09,980
+and we can measure are
+the energy of the system,
+
+349
+00:25:09,980 --> 00:25:11,585
+but let's say we
+focus on pressure.
+
+350
+00:25:15,700 --> 00:25:21,140
+And if you look through various
+things that we derived before,
+
+351
+00:25:21,140 --> 00:25:23,510
+beta times the
+pressure you can get
+
+352
+00:25:23,510 --> 00:25:35,220
+from taking a derivative
+of log Z with respect to V.
+
+353
+00:25:35,220 --> 00:25:39,160
+We can express the log Z in
+terms of the free energy,
+
+354
+00:25:39,160 --> 00:25:41,940
+and then the derivative of free
+energy with respect to volume
+
+355
+00:25:41,940 --> 00:25:44,830
+will give you the pressure of
+the various factors of beta
+
+356
+00:25:44,830 --> 00:25:47,660
+[? and signs, ?] we
+will come up with this.
+
+357
+00:25:47,660 --> 00:25:53,360
+So from the first term, N long
+V, we get our ideal gas result.
+
+358
+00:25:53,360 --> 00:25:57,920
+Beta p is the same
+thing as density.
+
+359
+00:25:57,920 --> 00:26:01,830
+And we see that we get a
+correction from here when
+
+360
+00:26:01,830 --> 00:26:05,420
+I divide by-- when I take
+a derivative with respect
+
+361
+00:26:05,420 --> 00:26:09,760
+to V of 1 over V, I will
+get minus 1 over V squared.
+
+362
+00:26:09,760 --> 00:26:13,040
+So the next term would be
+the square of the density.
+
+363
+00:26:16,260 --> 00:26:18,310
+And then, there is
+a series that we
+
+364
+00:26:18,310 --> 00:26:27,650
+will encounter which depends
+on the interaction potential.
+
+365
+00:26:32,960 --> 00:26:37,070
+Now, it turns out that
+so far I have calculated
+
+366
+00:26:37,070 --> 00:26:41,400
+terms that relied on
+only two points, ij.
+
+367
+00:26:41,400 --> 00:26:43,740
+And hence, they
+become at the end
+
+368
+00:26:43,740 --> 00:26:46,750
+proportional to density squared.
+
+369
+00:26:46,750 --> 00:26:48,930
+If I go further
+in my expansion, I
+
+370
+00:26:48,930 --> 00:26:52,770
+will encounter things that I
+will need triangular points.
+
+371
+00:26:52,770 --> 00:26:56,470
+For example, i j k
+forming a triangle.
+
+372
+00:26:56,470 --> 00:26:58,490
+And then, that would
+give me something
+
+373
+00:26:58,490 --> 00:27:00,750
+that would be of the order
+of the density cubed.
+
+374
+00:27:03,300 --> 00:27:11,030
+So somehow, I can also see
+that ultimately this series
+
+375
+00:27:11,030 --> 00:27:14,080
+in perturbation theory,
+as we shall see,
+
+376
+00:27:14,080 --> 00:27:18,980
+also more precisely can be
+organized in powers of density.
+
+377
+00:27:18,980 --> 00:27:21,210
+Why is that important?
+
+378
+00:27:21,210 --> 00:27:23,930
+Because typically,
+as we discussed right
+
+379
+00:27:23,930 --> 00:27:27,580
+at the beginning, when you
+look at the pressure of a gas
+
+380
+00:27:27,580 --> 00:27:31,050
+when it is dilute and
+over V is very small,
+
+381
+00:27:31,050 --> 00:27:34,140
+it is always ideal gas-like.
+
+382
+00:27:34,140 --> 00:27:36,620
+As you make it more
+dense, you start
+
+383
+00:27:36,620 --> 00:27:41,300
+to get corrections that you can
+express in powers of density.
+
+384
+00:27:41,300 --> 00:27:45,020
+And the coefficients of that
+are called Virial coefficients.
+
+385
+00:27:45,020 --> 00:27:46,810
+So in some sense,
+we have already
+
+386
+00:27:46,810 --> 00:27:50,850
+started in calculating the
+second Virial coefficient,
+
+387
+00:27:50,850 --> 00:27:53,620
+and there are higher-order
+Virial coefficients,
+
+388
+00:27:53,620 --> 00:27:56,960
+which together give you the
+equation of states relating
+
+389
+00:27:56,960 --> 00:28:01,059
+pressure to density
+by a power series.
+
+390
+00:28:01,059 --> 00:28:01,850
+AUDIENCE: Question.
+
+391
+00:28:01,850 --> 00:28:02,632
+PROFESSOR: Yes.
+
+392
+00:28:02,632 --> 00:28:04,048
+AUDIENCE: The
+Virial coefficients,
+
+393
+00:28:04,048 --> 00:28:06,670
+if they have integral
+over the whole volume,
+
+394
+00:28:06,670 --> 00:28:09,956
+then they will be
+functions of volume, right?
+
+395
+00:28:09,956 --> 00:28:10,580
+PROFESSOR: Yes.
+
+396
+00:28:10,580 --> 00:28:14,170
+But imagine that I'm thinking
+about the gas in this room
+
+397
+00:28:14,170 --> 00:28:16,590
+and the interaction of
+two oxygen molecules.
+
+398
+00:28:16,590 --> 00:28:20,290
+So what I am saying is you
+pick an oxygen molecule.
+
+399
+00:28:20,290 --> 00:28:22,940
+There is interaction and
+I have to integrate over
+
+400
+00:28:22,940 --> 00:28:25,530
+where the other
+oxygen molecule is.
+
+401
+00:28:25,530 --> 00:28:28,250
+And by the time it
+is tiny, tiny bit
+
+402
+00:28:28,250 --> 00:28:30,800
+[? away, ?] the
+interaction is 0.
+
+403
+00:28:30,800 --> 00:28:33,886
+It doesn't really matter.
+
+404
+00:28:33,886 --> 00:28:36,353
+AUDIENCE: If the characteristic
+volume of interaction
+
+405
+00:28:36,353 --> 00:28:37,561
+is much smaller than volume--
+
+406
+00:28:37,561 --> 00:28:38,741
+PROFESSOR: Of the space.
+
+407
+00:28:38,741 --> 00:28:41,032
+AUDIENCE: [INAUDIBLE], then
+the integrals just converge
+
+408
+00:28:41,032 --> 00:28:41,660
+to [? constant. ?]
+
+409
+00:28:41,660 --> 00:28:42,660
+PROFESSOR: That's right.
+
+410
+00:28:42,660 --> 00:28:45,170
+So if you want to be
+even more precise,
+
+411
+00:28:45,170 --> 00:28:48,610
+you will get corrections
+when your particles are
+
+412
+00:28:48,610 --> 00:28:50,840
+close to the wall and
+uniformity, et cetera,
+
+413
+00:28:50,840 --> 00:28:52,790
+is violated.
+
+414
+00:28:52,790 --> 00:28:55,740
+So there will, actually,
+be corrections to, say, log
+
+415
+00:28:55,740 --> 00:29:00,800
+Z that are not only proportional
+ultimately to number volume,
+
+416
+00:29:00,800 --> 00:29:03,620
+but the area of the enclosure
+and other [? subleading ?]
+
+417
+00:29:03,620 --> 00:29:04,270
+factors.
+
+418
+00:29:04,270 --> 00:29:07,740
+But in the thermodynamic
+limit, we ignore all of that.
+
+419
+00:29:07,740 --> 00:29:11,860
+So a lot of that is resolved
+by this statement here.
+
+420
+00:29:23,240 --> 00:29:28,510
+Again, you won't be surprised
+that if I were to go ahead,
+
+421
+00:29:28,510 --> 00:29:30,740
+then there will be a
+term in this series that
+
+422
+00:29:30,740 --> 00:29:34,280
+would be beta cubed over 3
+factorial integral over q
+
+423
+00:29:34,280 --> 00:29:36,740
+of vq, et cetera.
+
+424
+00:29:36,740 --> 00:29:43,290
+And that's actually very good
+because as I have written
+
+425
+00:29:43,290 --> 00:29:48,850
+for you currently, this
+expression is totally useless.
+
+426
+00:29:48,850 --> 00:29:50,580
+Why is it useless?
+
+427
+00:29:50,580 --> 00:29:55,820
+Because let's think back
+about these two oxygen
+
+428
+00:29:55,820 --> 00:29:58,130
+molecules in the
+gas in this room
+
+429
+00:29:58,130 --> 00:30:01,700
+and what the potential of
+interaction between them
+
+430
+00:30:01,700 --> 00:30:04,960
+would look like.
+
+431
+00:30:04,960 --> 00:30:08,340
+Presumably, it is a function
+of the relative separation.
+
+432
+00:30:08,340 --> 00:30:12,650
+We can call it r or
+q, it doesn't matter.
+
+433
+00:30:12,650 --> 00:30:19,260
+And if you bring them
+closer than the typical size
+
+434
+00:30:19,260 --> 00:30:24,610
+of these molecules, their
+potential will go to infinity.
+
+435
+00:30:24,610 --> 00:30:29,440
+So basically, they don't want
+to come close to each other.
+
+436
+00:30:29,440 --> 00:30:31,820
+If you go very far
+away, typically you
+
+437
+00:30:31,820 --> 00:30:33,660
+have the van der
+Waals attraction
+
+438
+00:30:33,660 --> 00:30:35,440
+between the particles.
+
+439
+00:30:35,440 --> 00:30:37,280
+So out here, it is attractive.
+
+440
+00:30:37,280 --> 00:30:39,820
+The potential is
+negative and falls off,
+
+441
+00:30:39,820 --> 00:30:42,980
+typically, as 1 over
+r to the 6 related
+
+442
+00:30:42,980 --> 00:30:46,360
+to the polarizabilities
+of the particles.
+
+443
+00:30:46,360 --> 00:30:51,570
+And these, when you come
+very short distances,
+
+444
+00:30:51,570 --> 00:30:54,830
+the electronic
+clouds will overlap
+
+445
+00:30:54,830 --> 00:30:57,910
+and the potential
+goes to infinity.
+
+446
+00:30:57,910 --> 00:31:02,310
+And if you want to sort of think
+about numbers, typical scales
+
+447
+00:31:02,310 --> 00:31:05,120
+that we have here--
+let's say here,
+
+448
+00:31:05,120 --> 00:31:08,730
+are presumably of the
+order of angstroms.
+
+449
+00:31:08,730 --> 00:31:11,900
+And the typical depths
+of these potentials
+
+450
+00:31:11,900 --> 00:31:16,720
+in units that make sense
+to statistical physics
+
+451
+00:31:16,720 --> 00:31:20,370
+are of the order of
+100 degrees Kelvin.
+
+452
+00:31:20,370 --> 00:31:26,370
+So it's why typical
+gases liquidy
+
+453
+00:31:26,370 --> 00:31:29,020
+at range of temperatures
+that is of the order of 100
+
+454
+00:31:29,020 --> 00:31:31,790
+degrees Kelvin.
+
+455
+00:31:31,790 --> 00:31:37,020
+Now, if I want to take this
+potential and calculate this,
+
+456
+00:31:37,020 --> 00:31:38,920
+I have trouble.
+
+457
+00:31:38,920 --> 00:31:44,000
+Because the integral over
+here will give me infinity.
+
+458
+00:31:44,000 --> 00:31:47,620
+So this expression
+is, in general, fine.
+
+459
+00:31:47,620 --> 00:31:49,780
+But whenever you have
+perturbation theory,
+
+460
+00:31:49,780 --> 00:31:51,670
+you start to evaluate
+things and you
+
+461
+00:31:51,670 --> 00:31:54,430
+have to see whether
+the correction indeed
+
+462
+00:31:54,430 --> 00:31:56,100
+is sufficiently small.
+
+463
+00:31:56,100 --> 00:31:58,500
+And it seems we can't make
+it sufficiently small.
+
+464
+00:31:58,500 --> 00:31:59,384
+Yes.
+
+465
+00:31:59,384 --> 00:32:05,312
+AUDIENCE: If you're modeling
+interatomic or intermolecular
+
+466
+00:32:05,312 --> 00:32:07,782
+potential as a
+Lennard-Jones potential,
+
+467
+00:32:07,782 --> 00:32:11,960
+isn't the [INAUDIBLE]
+term at the--
+
+468
+00:32:11,960 --> 00:32:17,150
+or near the origin, a
+phenomenological choice?
+
+469
+00:32:17,150 --> 00:32:20,210
+PROFESSOR: If you are
+using as a formula
+
+470
+00:32:20,210 --> 00:32:22,390
+for this the
+Lennard-Jones potential,
+
+471
+00:32:22,390 --> 00:32:24,820
+people phenomenologically
+write something
+
+472
+00:32:24,820 --> 00:32:27,780
+like 1 over r to the
+12th power, et cetera.
+
+473
+00:32:27,780 --> 00:32:30,153
+But I don't have to assume that.
+
+474
+00:32:30,153 --> 00:32:30,980
+AUDIENCE: Right.
+
+475
+00:32:30,980 --> 00:32:33,842
+Because I've seen forms of
+the Lennard-Jones potential
+
+476
+00:32:33,842 --> 00:32:37,500
+which is exponentially
+decaying at the origin.
+
+477
+00:32:37,500 --> 00:32:41,890
+So it reaches a finite,
+albeit probably high value
+
+478
+00:32:41,890 --> 00:32:42,840
+at the origin.
+
+479
+00:32:42,840 --> 00:32:46,620
+Wouldn't that take
+care of the issue?
+
+480
+00:32:46,620 --> 00:32:49,740
+PROFESSOR: If you believe in
+that kind of potential, yes.
+
+481
+00:32:49,740 --> 00:32:52,650
+So what you are
+saying is that if I
+
+482
+00:32:52,650 --> 00:32:55,000
+make this come to
+a finite value,
+
+483
+00:32:55,000 --> 00:32:58,250
+I will be able to find
+the temperature that
+
+484
+00:32:58,250 --> 00:33:01,170
+is sufficiently high
+compared to this,
+
+485
+00:33:01,170 --> 00:33:02,610
+and then things would be fine.
+
+486
+00:33:06,820 --> 00:33:09,750
+If we had that, then we would
+have fusion right here going
+
+487
+00:33:09,750 --> 00:33:10,930
+on, right?
+
+488
+00:33:10,930 --> 00:33:14,950
+So clearly, there
+is some better truth
+
+489
+00:33:14,950 --> 00:33:18,520
+to a potential that is really
+very, very high compared
+
+490
+00:33:18,520 --> 00:33:21,940
+to temperatures that
+we are looking at.
+
+491
+00:33:21,940 --> 00:33:25,790
+So we don't have to
+worry about that.
+
+492
+00:33:25,790 --> 00:33:28,256
+Well, we have to worry
+about this issue.
+
+493
+00:33:28,256 --> 00:33:30,570
+OK?
+
+494
+00:33:30,570 --> 00:33:31,930
+All right.
+
+495
+00:33:31,930 --> 00:33:36,880
+So you say, well, how about
+the following-- let's say
+
+496
+00:33:36,880 --> 00:33:39,940
+that I am something like
+the gas in this room
+
+497
+00:33:39,940 --> 00:33:42,700
+and I am sufficiently dilute.
+
+498
+00:33:42,700 --> 00:33:46,010
+I'm going to forget
+about these terms.
+
+499
+00:33:46,010 --> 00:33:50,880
+But since this potential
+becomes essentially large,
+
+500
+00:33:50,880 --> 00:33:55,550
+I can never ignore a
+particular term in this series.
+
+501
+00:33:55,550 --> 00:33:59,710
+And I keep going adding more
+and more terms in the series.
+
+502
+00:33:59,710 --> 00:34:02,660
+If I sort of think
+back about the picture
+
+503
+00:34:02,660 --> 00:34:07,930
+that I was generating before
+diagrammatically-- which again,
+
+504
+00:34:07,930 --> 00:34:11,780
+we will clarify
+later on-- this term
+
+505
+00:34:11,780 --> 00:34:14,800
+corresponds to taking a
+pair of points and a V
+
+506
+00:34:14,800 --> 00:34:17,449
+that connects them.
+
+507
+00:34:17,449 --> 00:34:21,080
+And this term
+corresponds to two V's
+
+508
+00:34:21,080 --> 00:34:24,090
+going between the
+same pair of points.
+
+509
+00:34:24,090 --> 00:34:26,020
+And you say, well,
+there will be terms
+
+510
+00:34:26,020 --> 00:34:30,000
+that will involve three
+V's, four V's, and they
+
+511
+00:34:30,000 --> 00:34:35,949
+will contribute in the series in
+a manner that I can recognize.
+
+512
+00:34:35,949 --> 00:34:40,350
+So why don't I add all
+of those terms together?
+
+513
+00:34:40,350 --> 00:34:46,699
+And if you like, we can call
+the resulting object something
+
+514
+00:34:46,699 --> 00:34:49,340
+else.
+
+515
+00:34:49,340 --> 00:34:51,219
+What is that something else?
+
+516
+00:34:51,219 --> 00:34:55,585
+Well, what I have done
+is I have minus beta V.
+
+517
+00:34:55,585 --> 00:34:58,430
+Well, all of them--
+so what is this?
+
+518
+00:34:58,430 --> 00:35:03,120
+It is the integral d cubed q.
+
+519
+00:35:03,120 --> 00:35:11,740
+I have minus beta V
+plus 1/2 beta V squared.
+
+520
+00:35:11,740 --> 00:35:13,840
+The next term is
+going to be minus 1
+
+521
+00:35:13,840 --> 00:35:18,240
+over 3 factorial beta V
+cubed because it will come
+
+522
+00:35:18,240 --> 00:35:21,050
+from the third-order
+term in the expansion.
+
+523
+00:35:21,050 --> 00:35:23,740
+And I can go on.
+
+524
+00:35:23,740 --> 00:35:27,850
+And you say, well,
+obviously this whole thing
+
+525
+00:35:27,850 --> 00:35:31,820
+came from the expansion
+of e to the minus beta V
+
+526
+00:35:31,820 --> 00:35:35,960
+except that I don't have
+the 0 order term, 1.
+
+527
+00:35:35,960 --> 00:35:44,070
+So this quantity that I will
+call f of q rather than V of q
+
+528
+00:35:44,070 --> 00:35:49,740
+is obtained as e to the
+minus beta V of q minus 1.
+
+529
+00:35:56,220 --> 00:36:00,420
+So if I were to, in fact,
+add up an infinite number
+
+530
+00:36:00,420 --> 00:36:03,500
+of terms in the series
+rather than having
+
+531
+00:36:03,500 --> 00:36:07,770
+to integrate V V squared
+V cubed, each one of them
+
+532
+00:36:07,770 --> 00:36:09,390
+is divergence.
+
+533
+00:36:09,390 --> 00:36:12,600
+I have to integrate this f of q.
+
+534
+00:36:12,600 --> 00:36:17,980
+So let's see what this f of
+q-- or correspondingly, f of r
+
+535
+00:36:17,980 --> 00:36:19,670
+looks like as a function of r.
+
+536
+00:36:22,910 --> 00:36:28,970
+So in the range that
+I have my hard core
+
+537
+00:36:28,970 --> 00:36:35,650
+and V is large and positive,
+this is going to give me 0.
+
+538
+00:36:35,650 --> 00:36:41,898
+So the function is
+minus 1 down here.
+
+539
+00:36:41,898 --> 00:36:49,480
+At exactly whatever point it
+is that the potential is 0,
+
+540
+00:36:49,480 --> 00:36:51,200
+then f is also 0.
+
+541
+00:36:51,200 --> 00:36:54,505
+So basically, I will
+come to the same 0.
+
+542
+00:36:57,180 --> 00:37:03,570
+When the potential is negative,
+this will be larger than 1.
+
+543
+00:37:03,570 --> 00:37:05,530
+My f will be positive.
+
+544
+00:37:05,530 --> 00:37:07,340
+So presumably, it
+will have some kind
+
+545
+00:37:07,340 --> 00:37:11,400
+of a peak around
+where this peak is.
+
+546
+00:37:11,400 --> 00:37:15,690
+And then at large distances,
+it goes back towards 0.
+
+547
+00:37:15,690 --> 00:37:21,065
+So this is going to go back
+towards 1 minus 1, which is 0.
+
+548
+00:37:21,065 --> 00:37:23,100
+So actually, this
+end of the potential
+
+549
+00:37:23,100 --> 00:37:25,243
+is the same thing as minus beta.
+
+550
+00:37:30,800 --> 00:37:36,330
+And whereas I couldn't integrate
+any one term in this series,
+
+551
+00:37:36,330 --> 00:37:40,460
+I can certainly integrate
+the sum over all positions
+
+552
+00:37:40,460 --> 00:37:43,320
+and it will give
+me a number, which
+
+553
+00:37:43,320 --> 00:37:45,500
+will depend on
+temperature, the properties
+
+554
+00:37:45,500 --> 00:37:47,790
+of the potential, et cetera.
+
+555
+00:37:47,790 --> 00:37:51,080
+And it is that number
+that will tell me
+
+556
+00:37:51,080 --> 00:37:54,660
+what the density squared term in
+the expression for the pressure
+
+557
+00:37:54,660 --> 00:37:59,735
+is and what the second
+Virial coefficient is.
+
+558
+00:37:59,735 --> 00:38:00,235
+Yes.
+
+559
+00:38:00,235 --> 00:38:03,894
+AUDIENCE: Is this basically
+an excluded volume of sorts?
+
+560
+00:38:03,894 --> 00:38:04,560
+PROFESSOR: Yeah.
+
+561
+00:38:04,560 --> 00:38:06,870
+So this part if I
+sent it to infinity,
+
+562
+00:38:06,870 --> 00:38:09,040
+corresponds to an
+excluded volume.
+
+563
+00:38:09,040 --> 00:38:12,670
+So if you want really excluded
+volume, this would be minus 1
+
+564
+00:38:12,670 --> 00:38:14,309
+up to some point.
+
+565
+00:38:14,309 --> 00:38:15,225
+AUDIENCE: [INAUDIBLE].
+
+566
+00:38:15,225 --> 00:38:15,891
+PROFESSOR: Yeah.
+
+567
+00:38:15,891 --> 00:38:18,800
+But I'm talking
+about very general,
+
+568
+00:38:18,800 --> 00:38:21,730
+so I would say that
+excluded volume can
+
+569
+00:38:21,730 --> 00:38:24,095
+be very easily captured
+within this [INAUDIBLE].
+
+570
+00:38:31,720 --> 00:38:34,400
+All right.
+
+571
+00:38:34,400 --> 00:38:40,340
+So we want to sort of
+follow-up from here.
+
+572
+00:38:40,340 --> 00:38:42,370
+But since you will
+have a problem set,
+
+573
+00:38:42,370 --> 00:38:46,150
+I will mention one other thing.
+
+574
+00:38:46,150 --> 00:38:50,640
+That this reorganization of
+the series that I made here
+
+575
+00:38:50,640 --> 00:38:54,220
+is appropriate to the limit
+of low densities, where
+
+576
+00:38:54,220 --> 00:38:58,950
+I would have a nice expansion
+in powers of density.
+
+577
+00:38:58,950 --> 00:39:01,100
+The problem that
+you will deal with
+
+578
+00:39:01,100 --> 00:39:04,370
+has to do with plasmas,
+where the interaction
+
+579
+00:39:04,370 --> 00:39:06,350
+range is very large.
+
+580
+00:39:06,350 --> 00:39:09,710
+And you already saw
+something along those lines
+
+581
+00:39:09,710 --> 00:39:12,350
+when we had the Vlasov
+equation as opposed
+
+582
+00:39:12,350 --> 00:39:13,900
+to Boltzmann equation.
+
+583
+00:39:13,900 --> 00:39:16,450
+There was a regime where
+you had to reorganize
+
+584
+00:39:16,450 --> 00:39:17,970
+the series different ways.
+
+585
+00:39:17,970 --> 00:39:21,720
+In that case, it was
+the BBGKY hierarchy
+
+586
+00:39:21,720 --> 00:39:25,205
+whether you were looking at the
+dense limit or a dilute limit.
+
+587
+00:39:25,205 --> 00:39:28,890
+So this is the analog of where
+the Boltzmann equation would
+
+588
+00:39:28,890 --> 00:39:30,640
+have been inappropriate.
+
+589
+00:39:30,640 --> 00:39:32,550
+The analog of the
+regime where you
+
+590
+00:39:32,550 --> 00:39:43,020
+are dense and something
+like the Vlasov equation
+
+591
+00:39:43,020 --> 00:39:44,550
+would be appropriate.
+
+592
+00:39:44,550 --> 00:39:47,150
+So there is some kind
+of interaction range,
+
+593
+00:39:47,150 --> 00:39:50,770
+n d cubed if it is
+much larger than 1.
+
+594
+00:39:50,770 --> 00:39:55,100
+Then it turns out that rather
+than looking at diagrams that
+
+595
+00:39:55,100 --> 00:39:58,630
+have the fewest number of
+points-- in this case, 2--
+
+596
+00:39:58,630 --> 00:40:00,420
+you have to look
+at diagrams that
+
+597
+00:40:00,420 --> 00:40:02,570
+have the largest
+number of points.
+
+598
+00:40:02,570 --> 00:40:05,200
+Because each additional
+point will give you
+
+599
+00:40:05,200 --> 00:40:07,960
+an additional
+factor of N over V.
+
+600
+00:40:07,960 --> 00:40:13,140
+You can see that these
+factors of N N minus 1 over 2
+
+601
+00:40:13,140 --> 00:40:15,810
+came from the number of
+points that I had selected.
+
+602
+00:40:15,810 --> 00:40:17,850
+So if I had to
+select three points,
+
+603
+00:40:17,850 --> 00:40:23,100
+I would have N cubed and the
+corresponding V. So the more
+
+604
+00:40:23,100 --> 00:40:25,010
+points that I have
+in my series, I
+
+605
+00:40:25,010 --> 00:40:27,540
+will have more powers
+of the density.
+
+606
+00:40:27,540 --> 00:40:29,870
+So in that case, it
+turns out that rather
+
+607
+00:40:29,870 --> 00:40:33,910
+than looking at two points
+and all lines between them,
+
+608
+00:40:33,910 --> 00:40:36,040
+you organize things
+in terms of what
+
+609
+00:40:36,040 --> 00:40:40,910
+are called ring
+diagrams, which are
+
+610
+00:40:40,910 --> 00:40:46,330
+things such as this, this, this.
+
+611
+00:40:46,330 --> 00:40:54,090
+So basically, for a
+given number of lines,
+
+612
+00:40:54,090 --> 00:40:59,270
+the most number of points is
+obtained by creating your ring.
+
+613
+00:40:59,270 --> 00:41:03,980
+And so one of the
+problems that you have
+
+614
+00:41:03,980 --> 00:41:07,510
+is to sort of sum these ring
+diagrams and see what happens.
+
+615
+00:41:13,900 --> 00:41:17,150
+But it seems like what
+I'm telling you here
+
+616
+00:41:17,150 --> 00:41:20,100
+is while we calculated
+order of density squared,
+
+617
+00:41:20,100 --> 00:41:23,370
+but maybe I want to calculate
+order of density cubed.
+
+618
+00:41:23,370 --> 00:41:27,180
+And it makes much more
+sense rather than when
+
+619
+00:41:27,180 --> 00:41:30,910
+faced with potentials
+of this form arranging
+
+620
+00:41:30,910 --> 00:41:34,310
+the series in powers of
+the potential to arrange it
+
+621
+00:41:34,310 --> 00:41:40,490
+in powers of this quantity e
+to the minus beta V minus 1.
+
+622
+00:41:40,490 --> 00:41:45,640
+So let's go through a
+route in which I directly
+
+623
+00:41:45,640 --> 00:41:49,850
+expand everything in
+terms of this quantity.
+
+624
+00:41:49,850 --> 00:41:55,440
+And that's the second
+type of expansion
+
+625
+00:41:55,440 --> 00:41:58,596
+that I will call the
+cluster expansion.
+
+626
+00:42:05,750 --> 00:42:09,470
+So once more, what
+we want to calculate
+
+627
+00:42:09,470 --> 00:42:11,110
+is the partition function.
+
+628
+00:42:11,110 --> 00:42:14,030
+It depends on temperature,
+volume, number
+
+629
+00:42:14,030 --> 00:42:19,200
+of particles obtained
+by integrating over
+
+630
+00:42:19,200 --> 00:42:21,580
+all degrees of freedom.
+
+631
+00:42:21,580 --> 00:42:25,190
+The integration over momenta
+we saw is very simple.
+
+632
+00:42:25,190 --> 00:42:30,710
+Ultimately, will give us this
+N factorial lambda to the 3N.
+
+633
+00:42:30,710 --> 00:42:33,530
+This time, I won't pull
+out the factor of V
+
+634
+00:42:33,530 --> 00:42:36,380
+to the N at this point.
+
+635
+00:42:36,380 --> 00:42:43,130
+And then I have the integration
+over all of these q's.
+
+636
+00:42:43,130 --> 00:42:46,180
+I did not divide by
+V because I did not
+
+637
+00:42:46,180 --> 00:42:51,030
+multiply by V to the N. OK.
+
+638
+00:42:51,030 --> 00:42:54,170
+And then I have e
+to the minus beta U,
+
+639
+00:42:54,170 --> 00:43:00,190
+but this is my U. U is
+the sum of various terms.
+
+640
+00:43:00,190 --> 00:43:06,630
+So e to the minus beta U
+will be a product over all,
+
+641
+00:43:06,630 --> 00:43:15,068
+let's say-- let's
+call this k pairs ij.
+
+642
+00:43:15,068 --> 00:43:20,480
+e to the minus beta
+V of qi minus qj.
+
+643
+00:43:23,380 --> 00:43:27,020
+So basically, the
+only thing that I did
+
+644
+00:43:27,020 --> 00:43:29,860
+was e to the minus
+beta-- this quantity
+
+645
+00:43:29,860 --> 00:43:32,220
+I wrote as a product
+of contributions
+
+646
+00:43:32,220 --> 00:43:33,400
+from the different pairs.
+
+647
+00:43:38,490 --> 00:43:42,810
+Now, this quantity I have
+it in the line above.
+
+648
+00:43:42,810 --> 00:43:45,560
+This is also a
+relative position.
+
+649
+00:43:45,560 --> 00:43:50,650
+Clearly, I can
+think of this as 1
+
+650
+00:43:50,650 --> 00:43:55,420
+plus the f that would correspond
+to the distance between qi
+
+651
+00:43:55,420 --> 00:43:57,310
+and qj.
+
+652
+00:43:57,310 --> 00:44:02,510
+And again, I can either write
+it as Vf of qi minus qj,
+
+653
+00:44:02,510 --> 00:44:07,630
+or simplify of i-- my notation--
+and write it as f i j.
+
+654
+00:44:07,630 --> 00:44:13,900
+So f i j means-- so let
+me maybe write it here.
+
+655
+00:44:13,900 --> 00:44:18,020
+f i j I have defined to
+be e to the minus beta
+
+656
+00:44:18,020 --> 00:44:21,518
+V of qi minus qj minus 1.
+
+657
+00:44:28,190 --> 00:44:31,210
+So what do I expect?
+
+658
+00:44:31,210 --> 00:44:33,760
+I saw that the first
+correction to something
+
+659
+00:44:33,760 --> 00:44:39,150
+that was interesting to me
+had one power of f in it
+
+660
+00:44:39,150 --> 00:44:41,480
+that I had to
+ultimately integrate.
+
+661
+00:44:41,480 --> 00:44:46,410
+So maybe what I should do is I
+should start organizing things
+
+662
+00:44:46,410 --> 00:44:49,520
+in terms of how many f's I have.
+
+663
+00:44:49,520 --> 00:44:52,970
+So an expansion in powers of f.
+
+664
+00:44:52,970 --> 00:44:54,610
+So what's going to happen here?
+
+665
+00:44:54,610 --> 00:44:59,100
+I would have 1 over N
+factorial lambda to the 3N.
+
+666
+00:44:59,100 --> 00:45:05,460
+I have a product of all
+of the integrations.
+
+667
+00:45:05,460 --> 00:45:10,010
+And I have all of these
+factors of 1 plus f1 2 times 1.
+
+668
+00:45:10,010 --> 00:45:15,240
+So basically, this is maybe--
+it's really a product of 1
+
+669
+00:45:15,240 --> 00:45:20,460
+plus f1 2, 1 plus f1 3, 1 plus
+all of one of these things.
+
+670
+00:45:20,460 --> 00:45:23,690
+So the thing that has
+least number of f's is
+
+671
+00:45:23,690 --> 00:45:26,570
+when I pick the 1 from
+all of these brackets
+
+672
+00:45:26,570 --> 00:45:29,240
+that are multiplying each other.
+
+673
+00:45:29,240 --> 00:45:37,690
+The next term is to
+pick 1f from one pair
+
+674
+00:45:37,690 --> 00:45:40,580
+and all the others would be 1.
+
+675
+00:45:40,580 --> 00:45:49,840
+The next term would be sum
+over ij kl f i j f k l,
+
+676
+00:45:49,840 --> 00:45:53,270
+and then there will be diagrams
+that would progressively
+
+677
+00:45:53,270 --> 00:45:55,790
+have more and more factors of f.
+
+678
+00:46:05,670 --> 00:46:09,350
+Now, what I will do is to
+represent the various terms
+
+679
+00:46:09,350 --> 00:46:11,546
+that I generate in this
+series diagrammatically.
+
+680
+00:46:25,440 --> 00:46:30,790
+So first of all, I have to
+integrate over N points.
+
+681
+00:46:30,790 --> 00:46:43,925
+So I put points 1 through
+N. So I have 1, 2, 3, 4.
+
+682
+00:46:43,925 --> 00:46:48,980
+It doesn't matter
+how I put them-- N.
+
+683
+00:46:48,980 --> 00:46:53,840
+And then, this 1
+would correspond
+
+684
+00:46:53,840 --> 00:46:56,970
+to just this diagram.
+
+685
+00:46:56,970 --> 00:47:03,330
+The next thing is I
+put a line for f i j.
+
+686
+00:47:03,330 --> 00:47:05,700
+So let's say that I
+picked in this series
+
+687
+00:47:05,700 --> 00:47:07,400
+the term that was f 2 3.
+
+688
+00:47:07,400 --> 00:47:13,180
+I will represent that by a
+line that goes between 2 and 3.
+
+689
+00:47:13,180 --> 00:47:16,930
+Later on in the
+picture, maybe I will
+
+690
+00:47:16,930 --> 00:47:21,580
+pick a term that is f 2 3 f 4 5.
+
+691
+00:47:21,580 --> 00:47:26,130
+So some second-order term
+could be something like this.
+
+692
+00:47:26,130 --> 00:47:28,510
+Maybe later on in
+the series, I will
+
+693
+00:47:28,510 --> 00:47:31,120
+pick a term that is
+connecting f3 and f4.
+
+694
+00:47:31,120 --> 00:47:34,760
+So this would be a third-order
+term in the series.
+
+695
+00:47:34,760 --> 00:47:40,540
+Maybe later on the series, I
+have some other pair over here.
+
+696
+00:47:40,540 --> 00:47:44,870
+So any one of the
+huge number of terms
+
+697
+00:47:44,870 --> 00:47:48,460
+that I have generated
+here has one diagram
+
+698
+00:47:48,460 --> 00:47:50,020
+that is appearing over here.
+
+699
+00:47:53,120 --> 00:47:56,630
+Now, the next step is, of course
+I have to integrate over all
+
+700
+00:47:56,630 --> 00:47:57,440
+of the q's.
+
+701
+00:47:57,440 --> 00:48:00,520
+I mean, these diagrams, what
+they represent is essentially
+
+702
+00:48:00,520 --> 00:48:04,130
+some f of q1 minus q3,
+some f of whatever.
+
+703
+00:48:04,130 --> 00:48:07,570
+And I have to integrate
+over all of these q's.
+
+704
+00:48:07,570 --> 00:48:11,290
+So the contribution to
+the partition function
+
+705
+00:48:11,290 --> 00:48:14,770
+that I will get would
+be some value associated
+
+706
+00:48:14,770 --> 00:48:17,140
+with one of these
+graphs obtained by doing
+
+707
+00:48:17,140 --> 00:48:18,420
+the integrations over q.
+
+708
+00:48:21,560 --> 00:48:24,870
+Now, the thing that
+I want you to notice
+
+709
+00:48:24,870 --> 00:48:38,760
+is that contribution of one
+of these graphs or diagrams
+
+710
+00:48:38,760 --> 00:48:50,640
+is the product of contributions
+of its linked clusters.
+
+711
+00:48:59,190 --> 00:49:02,910
+So here I have one
+particular diagram
+
+712
+00:49:02,910 --> 00:49:04,350
+that is represented here.
+
+713
+00:49:04,350 --> 00:49:10,390
+Well, let's say 2, 3,
+4, 5 are linked together
+
+714
+00:49:10,390 --> 00:49:12,460
+and separate from
+whatever this is.
+
+715
+00:49:12,460 --> 00:49:13,950
+Let's say this is 7, 9.
+
+716
+00:49:16,640 --> 00:49:21,520
+So when I do the integrations
+over q2, q3, q4, q5,
+
+717
+00:49:21,520 --> 00:49:25,530
+I don't really rely on
+any of the other things.
+
+718
+00:49:25,530 --> 00:49:28,120
+So my integration
+here, we break off
+
+719
+00:49:28,120 --> 00:49:29,760
+into the integration
+that involves
+
+720
+00:49:29,760 --> 00:49:32,690
+this, the integration that
+involves this, as well
+
+721
+00:49:32,690 --> 00:49:35,060
+as integrations over
+all of these points
+
+722
+00:49:35,060 --> 00:49:36,650
+that are not
+connected to anybody.
+
+723
+00:49:36,650 --> 00:49:41,520
+All of those will simply
+give me a factor of v.
+
+724
+00:49:41,520 --> 00:49:45,110
+So is everybody happy
+with this simple statement
+
+725
+00:49:45,110 --> 00:49:49,070
+that the contribution-- if I
+think of these linked clusters
+
+726
+00:49:49,070 --> 00:49:52,940
+as some collection of points
+that are linked together,
+
+727
+00:49:52,940 --> 00:49:55,100
+the value that I would
+get for this diagram
+
+728
+00:49:55,100 --> 00:49:58,365
+would be the contribution--
+product of the contributions
+
+729
+00:49:58,365 --> 00:49:59,490
+that I would have for this.
+
+730
+00:50:04,060 --> 00:50:05,590
+So yes?
+
+731
+00:50:05,590 --> 00:50:07,417
+AUDIENCE: Can you
+explain [INAUDIBLE]?
+
+732
+00:50:07,417 --> 00:50:08,000
+PROFESSOR: OK.
+
+733
+00:50:08,000 --> 00:50:13,060
+So let's pick a
+particular thing.
+
+734
+00:50:13,060 --> 00:50:16,510
+Let's say we do
+something like this,
+
+735
+00:50:16,510 --> 00:50:25,795
+where this is number
+7, 245, 6, 5, 4.
+
+736
+00:50:25,795 --> 00:50:26,920
+This is a particular thing.
+
+737
+00:50:26,920 --> 00:50:28,230
+So what do I have to do?
+
+738
+00:50:28,230 --> 00:50:33,020
+There's also a whole
+bunch of points-- 1, 2, 3.
+
+739
+00:50:33,020 --> 00:50:36,980
+What I am instructed to
+do is to integrate over
+
+740
+00:50:36,980 --> 00:50:44,490
+q1, q2, q3, et cetera.
+
+741
+00:50:44,490 --> 00:50:49,240
+Now, the integral over q1
+is just the integral of q1.
+
+742
+00:50:49,240 --> 00:50:52,110
+So this integral by
+itself will give me
+
+743
+00:50:52,110 --> 00:50:57,190
+V. Any number of points
+that are by themselves
+
+744
+00:50:57,190 --> 00:51:02,950
+will also give me
+V. So the first term
+
+745
+00:51:02,950 --> 00:51:04,870
+that becomes
+nontrivial is when I
+
+746
+00:51:04,870 --> 00:51:23,020
+have to do the integration over
+q4, q5, q6 of f 4 5, f 5 6,
+
+747
+00:51:23,020 --> 00:51:24,010
+f 6 4.
+
+748
+00:51:26,990 --> 00:51:31,350
+I don't know what
+this is, but there
+
+749
+00:51:31,350 --> 00:51:33,960
+is something that
+will come from here.
+
+750
+00:51:33,960 --> 00:51:37,570
+Then, later on I have
+to integrate over 7
+
+751
+00:51:37,570 --> 00:51:39,310
+and something else.
+
+752
+00:51:39,310 --> 00:51:44,652
+So then I have the integral
+over q7, q-- let's call this 8.
+
+753
+00:51:49,380 --> 00:51:50,760
+f of 7 8.
+
+754
+00:51:50,760 --> 00:51:53,910
+So this is something else.
+
+755
+00:51:53,910 --> 00:51:59,460
+So the overall value of this
+term in the perturbation theory
+
+756
+00:51:59,460 --> 00:52:02,800
+is the product of contributions
+from a huge number of one
+
+757
+00:52:02,800 --> 00:52:04,690
+clusters.
+
+758
+00:52:04,690 --> 00:52:06,070
+Here, I have a two cluster.
+
+759
+00:52:06,070 --> 00:52:07,740
+Here, I have a three cluster.
+
+760
+00:52:07,740 --> 00:52:09,360
+Maybe I will have more things.
+
+761
+00:52:13,410 --> 00:52:20,140
+Also, notice that if I have
+more of these two clusters,
+
+762
+00:52:20,140 --> 00:52:24,350
+the result for them would
+be exactly the same.
+
+763
+00:52:24,350 --> 00:52:27,550
+So if I have lots of these
+pairs, the same way that I
+
+764
+00:52:27,550 --> 00:52:30,080
+had lots of single
+points-- and it became V
+
+765
+00:52:30,080 --> 00:52:32,020
+to the number of
+single points-- it
+
+766
+00:52:32,020 --> 00:52:34,820
+will become whatever that
+y is to the number of pair
+
+767
+00:52:34,820 --> 00:52:38,530
+points, x, whatever that is,
+to the number of triplets
+
+768
+00:52:38,530 --> 00:52:40,680
+that I have in triangles.
+
+769
+00:52:40,680 --> 00:52:44,970
+So this is how this
+object is built up.
+
+770
+00:52:44,970 --> 00:52:45,680
+Yes?
+
+771
+00:52:45,680 --> 00:52:48,580
+AUDIENCE: How are we
+deciding how many triplets
+
+772
+00:52:48,580 --> 00:52:51,226
+and how many pairs
+we actually have?
+
+773
+00:52:51,226 --> 00:52:53,100
+PROFESSOR: At this point,
+I haven't told you.
+
+774
+00:52:53,100 --> 00:52:55,940
+So there is a multiplicity
+that we have to calculate.
+
+775
+00:52:55,940 --> 00:52:57,500
+Yes.
+
+776
+00:52:57,500 --> 00:53:00,080
+So at this point, all
+I'm saying is given
+
+777
+00:53:00,080 --> 00:53:03,099
+this, the answer is the
+product of contribution.
+
+778
+00:53:03,099 --> 00:53:05,015
+There is a multiplicity
+factor-- you're right.
+
+779
+00:53:05,015 --> 00:53:07,185
+We have to calculate that.
+
+780
+00:53:09,980 --> 00:53:11,780
+OK?
+
+781
+00:53:11,780 --> 00:53:14,715
+Anything else?
+
+782
+00:53:14,715 --> 00:53:16,040
+All right.
+
+783
+00:53:16,040 --> 00:53:21,300
+So I mean, think of
+this as taking a number
+
+784
+00:53:21,300 --> 00:53:24,850
+and writing it as the
+product of its prime factors,
+
+785
+00:53:24,850 --> 00:53:27,500
+factorizing into primes.
+
+786
+00:53:27,500 --> 00:53:31,770
+So you sort of immediately know
+that somehow prime factors,
+
+787
+00:53:31,770 --> 00:53:34,730
+the prime numbers,
+are more important.
+
+788
+00:53:34,730 --> 00:53:37,920
+Because everything else you
+can write as prime numbers.
+
+789
+00:53:37,920 --> 00:53:40,530
+So clearly, what is
+also buried in heart
+
+790
+00:53:40,530 --> 00:53:46,610
+of calculating this partition
+function is these clusters.
+
+791
+00:53:46,610 --> 00:53:56,950
+So let me define the analog
+of prime numbers as follows.
+
+792
+00:53:56,950 --> 00:54:08,870
+I define bl to be the
+sum over contributions
+
+793
+00:54:08,870 --> 00:54:17,430
+of all linked
+clusters of l-points.
+
+794
+00:54:39,350 --> 00:54:42,050
+So let's go term by term.
+
+795
+00:54:42,050 --> 00:54:46,480
+b1 corresponds essentially
+to the one point
+
+796
+00:54:46,480 --> 00:54:50,460
+by itself in the diagram
+that I was drawing down here.
+
+797
+00:54:50,460 --> 00:54:53,970
+And corresponds to
+integrating over
+
+798
+00:54:53,970 --> 00:54:56,890
+the coordinate that
+goes all over the space.
+
+799
+00:54:56,890 --> 00:55:03,330
+And hence, the volume is the
+same thing as the volume V.
+
+800
+00:55:03,330 --> 00:55:08,810
+b2 is a cluster of two points.
+
+801
+00:55:08,810 --> 00:55:11,160
+So it is this.
+
+802
+00:55:11,160 --> 00:55:16,300
+And so it is the
+integral over q1 and q2,
+
+803
+00:55:16,300 --> 00:55:24,910
+which are two endpoints of
+this, of f of q1 minus q2.
+
+804
+00:55:24,910 --> 00:55:27,430
+And this we have seen
+already many times.
+
+805
+00:55:27,430 --> 00:55:33,550
+It's the same thing as volume,
+the integral over q f of q.
+
+806
+00:55:33,550 --> 00:55:36,270
+It is the thing that was
+related to our second Virial
+
+807
+00:55:36,270 --> 00:55:36,770
+coefficient.
+
+808
+00:55:40,040 --> 00:55:43,600
+Now, this is very
+important for b3.
+
+809
+00:55:46,640 --> 00:55:52,040
+I note that I
+underlined here "all."
+
+810
+00:55:52,040 --> 00:55:54,580
+And this is for
+later convenience.
+
+811
+00:55:54,580 --> 00:55:57,610
+It seems that I'm essentially
+pushing complexity
+
+812
+00:55:57,610 --> 00:56:00,080
+from one place to another.
+
+813
+00:56:00,080 --> 00:56:03,090
+So there are a
+number of diagrams
+
+814
+00:56:03,090 --> 00:56:08,130
+that have three things
+linked together.
+
+815
+00:56:08,130 --> 00:56:09,440
+This is one of them.
+
+816
+00:56:09,440 --> 00:56:14,380
+Let's say, think of 1, 2,
+3 connected to each other.
+
+817
+00:56:14,380 --> 00:56:16,920
+But then, I have diagrams.
+
+818
+00:56:16,920 --> 00:56:19,380
+At this stage, I
+don't really care
+
+819
+00:56:19,380 --> 00:56:22,430
+that this is one
+particle irreducible.
+
+820
+00:56:22,430 --> 00:56:26,800
+Here, I have no constraints on
+one particle irreducibility.
+
+821
+00:56:26,800 --> 00:56:29,710
+And in fact, this comes
+in three varieties
+
+822
+00:56:29,710 --> 00:56:33,640
+because the bond that is
+missing can be one of three.
+
+823
+00:56:33,640 --> 00:56:38,040
+So once I pick the triplets
+of three points, sum
+
+824
+00:56:38,040 --> 00:56:42,360
+over all clusters that involve
+these three points is this,
+
+825
+00:56:42,360 --> 00:56:45,560
+in particular with this
+one, appearing three times.
+
+826
+00:56:45,560 --> 00:56:46,283
+Yes.
+
+827
+00:56:46,283 --> 00:56:48,116
+AUDIENCE: Do we still
+count all the diagrams
+
+828
+00:56:48,116 --> 00:56:49,990
+when particles are identical?
+
+829
+00:56:49,990 --> 00:56:51,220
+PROFESSOR: Yes.
+
+830
+00:56:51,220 --> 00:56:56,230
+Because here, at
+this stage, there
+
+831
+00:56:56,230 --> 00:56:57,830
+is an N factorial out here.
+
+832
+00:56:57,830 --> 00:57:00,410
+All I'm really doing
+is transcribing
+
+833
+00:57:00,410 --> 00:57:02,700
+a mathematical formula.
+
+834
+00:57:02,700 --> 00:57:04,600
+The mathematical
+formula says you
+
+835
+00:57:04,600 --> 00:57:06,840
+have to do a bunch
+of integrations.
+
+836
+00:57:06,840 --> 00:57:09,580
+And I am just
+following translating
+
+837
+00:57:09,580 --> 00:57:11,730
+that mathematical
+formula to diagrams.
+
+838
+00:57:11,730 --> 00:57:13,600
+At this stage, we forget.
+
+839
+00:57:13,600 --> 00:57:17,510
+This has nothing to do with
+this N factorial or identity.
+
+840
+00:57:17,510 --> 00:57:24,990
+It's just a transcription
+of the mathematics
+
+841
+00:57:24,990 --> 00:57:31,710
+So at this stage, don't try
+to correct my conceptual parts
+
+842
+00:57:31,710 --> 00:57:37,090
+but try to make sure that my
+mathematical steps are correct.
+
+843
+00:57:37,090 --> 00:57:39,115
+OK?
+
+844
+00:57:39,115 --> 00:57:39,615
+Yes.
+
+845
+00:57:39,615 --> 00:57:41,070
+AUDIENCE: I didn't
+understand what
+
+846
+00:57:41,070 --> 00:57:43,690
+that missing links represents.
+
+847
+00:57:43,690 --> 00:57:45,040
+PROFESSOR: OK.
+
+848
+00:57:45,040 --> 00:57:53,340
+So at the end of this story,
+what I want to write down
+
+849
+00:57:53,340 --> 00:57:57,390
+is that the value of some
+particular term in this series
+
+850
+00:57:57,390 --> 00:58:00,610
+is related to product
+of contributions.
+
+851
+00:58:00,610 --> 00:58:03,360
+I described to you how
+productive contributions
+
+852
+00:58:03,360 --> 00:58:05,450
+comes along.
+
+853
+00:58:05,450 --> 00:58:08,880
+And each contribution
+is a bunch of points
+
+854
+00:58:08,880 --> 00:58:12,400
+that are connected together.
+
+855
+00:58:12,400 --> 00:58:16,360
+So what I want to do, in order
+to make my algebra easier
+
+856
+00:58:16,360 --> 00:58:19,360
+later on, is to say
+that-- let's say
+
+857
+00:58:19,360 --> 00:58:22,760
+these three points
+are part of a cluster.
+
+858
+00:58:22,760 --> 00:58:25,320
+They are connected
+together somehow.
+
+859
+00:58:25,320 --> 00:58:28,950
+So they will be
+giving me some factor.
+
+860
+00:58:28,950 --> 00:58:32,030
+Now, they are connected, if
+they are connected like this,
+
+861
+00:58:32,030 --> 00:58:35,360
+like this, like this, like that.
+
+862
+00:58:35,360 --> 00:58:38,080
+So basically, any
+one of these is
+
+863
+00:58:38,080 --> 00:58:41,690
+a way of connecting these
+three points so that they
+
+864
+00:58:41,690 --> 00:58:43,250
+will make a
+contribution together.
+
+865
+00:59:00,960 --> 00:59:01,510
+Yes.
+
+866
+00:59:01,510 --> 00:59:03,764
+AUDIENCE: So the one
+with all three bonds
+
+867
+00:59:03,764 --> 00:59:05,252
+comes with a
+different [INAUDIBLE]
+
+868
+00:59:05,252 --> 00:59:08,200
+in the series than the ones
+with only two bonds, right?
+
+869
+00:59:08,200 --> 00:59:09,030
+PROFESSOR: Yes.
+
+870
+00:59:09,030 --> 00:59:11,020
+Now, there is
+reason, ultimately,
+
+871
+00:59:11,020 --> 00:59:15,300
+why I want to group
+all of them together.
+
+872
+00:59:15,300 --> 00:59:17,760
+Because there was a
+question before about
+
+873
+00:59:17,760 --> 00:59:19,980
+multiplicity factors.
+
+874
+00:59:19,980 --> 00:59:23,190
+I can write down a closed
+form, nice expression
+
+875
+00:59:23,190 --> 00:59:27,320
+for the multiplicity factor
+if I group them together.
+
+876
+00:59:27,320 --> 00:59:30,660
+Otherwise, I have to also worry
+that there are three of these
+
+877
+00:59:30,660 --> 00:59:32,650
+and there is one
+of them, et cetera.
+
+878
+00:59:32,650 --> 00:59:36,220
+There is an additional
+layer of multiplicity.
+
+879
+00:59:36,220 --> 00:59:40,140
+And I want to separate those
+two layers of multiplicity.
+
+880
+00:59:40,140 --> 00:59:46,140
+So here, the thing that I have
+is I have these endpoints.
+
+881
+00:59:46,140 --> 00:59:49,870
+I want to say that the
+eventual result for endpoints
+
+882
+00:59:49,870 --> 00:59:55,630
+comes from clusters that
+involves 1's, clusters that
+
+883
+00:59:55,630 --> 01:00:01,350
+involve pairs, and cluster
+that involve triplets.
+
+884
+01:00:01,350 --> 01:00:05,010
+Now, I realize suddenly that if
+I made the multiplicity count
+
+885
+01:00:05,010 --> 01:00:10,140
+here, then for this triplet,
+I could have put all of them
+
+886
+01:00:10,140 --> 01:00:12,440
+together like this or like that.
+
+887
+01:00:12,440 --> 01:00:14,190
+And the next order
+of business when
+
+888
+01:00:14,190 --> 01:00:17,330
+I am thinking
+about four objects,
+
+889
+01:00:17,330 --> 01:00:21,440
+I can connect them together
+into a cluster in multiple ways.
+
+890
+01:00:21,440 --> 01:00:25,350
+And there is a separate
+way of calculating
+
+891
+01:00:25,350 --> 01:00:27,370
+the relative
+multiplicity of what
+
+892
+01:00:27,370 --> 01:00:31,650
+comes outside and the
+multiplicity of this quartic
+
+893
+01:00:31,650 --> 01:00:33,040
+with respect to entirety.
+
+894
+01:00:36,690 --> 01:00:39,350
+So you have to think
+about this a little bit.
+
+895
+01:00:39,350 --> 01:00:44,240
+So I'll proceed with this.
+
+896
+01:00:44,240 --> 01:00:53,640
+So this mathematically would
+be the integral q1, q2, q3, f
+
+897
+01:00:53,640 --> 01:01:05,310
+1 2, f 2 3, f 3 1 plus, say,
+f 1 2, f 2 3, plus f 1 3 f 3 2
+
+898
+01:01:05,310 --> 01:01:11,250
+plus f 2 3, f 3 1,
+something like this.
+
+899
+01:01:14,080 --> 01:01:17,230
+Well, 1, 2.
+
+900
+01:01:17,230 --> 01:01:17,945
+2 is repeated.
+
+901
+01:01:17,945 --> 01:01:18,750
+3 is repeated.
+
+902
+01:01:18,750 --> 01:01:20,026
+I should repeat 1.
+
+903
+01:01:24,130 --> 01:01:24,780
+OK.
+
+904
+01:01:24,780 --> 01:01:26,960
+Of course, the last
+three are the same thing,
+
+905
+01:01:26,960 --> 01:01:29,630
+but this is the
+expression for this.
+
+906
+01:01:29,630 --> 01:01:34,340
+Now, before would be a
+huge complex of things.
+
+907
+01:01:34,340 --> 01:01:37,060
+It would have a diagram
+that is of this form.
+
+908
+01:01:37,060 --> 01:01:40,720
+It would have a number of
+diagrams that are of this form.
+
+909
+01:01:40,720 --> 01:01:44,540
+It would have diagrams that
+are of this form, diagrams
+
+910
+01:01:44,540 --> 01:01:49,250
+that are like
+this, and so forth.
+
+911
+01:01:49,250 --> 01:01:53,600
+Basically, even
+within the choice
+
+912
+01:01:53,600 --> 01:01:55,470
+of things that
+have four clusters,
+
+913
+01:01:55,470 --> 01:01:57,760
+there is a huge
+number when you go
+
+914
+01:01:57,760 --> 01:01:59,975
+to further and
+further [? down. ?]
+
+915
+01:02:12,870 --> 01:02:20,340
+OK, so maybe this statement
+will now clarify things.
+
+916
+01:02:20,340 --> 01:02:26,510
+So what I have is that
+the partition function
+
+917
+01:02:26,510 --> 01:02:30,650
+is 1 over N factorial
+lambda to the 3N.
+
+918
+01:02:33,380 --> 01:02:42,440
+And then it is all
+of the terms that
+
+919
+01:02:42,440 --> 01:02:44,890
+are obtained by
+summing this series.
+
+920
+01:02:47,450 --> 01:02:54,170
+And so I have to look
+at all possible ways
+
+921
+01:02:54,170 --> 01:02:59,235
+that I can break N-points
+into these clusters.
+
+922
+01:03:01,880 --> 01:03:14,330
+Suppose I created a situation
+where I have clusters of size l
+
+923
+01:03:14,330 --> 01:03:16,100
+and then I have nl of them.
+
+924
+01:03:19,120 --> 01:03:26,120
+So I saw that the contribution
+that I would get from the 1
+
+925
+01:03:26,120 --> 01:03:28,430
+clusters was
+essentially the product
+
+926
+01:03:28,430 --> 01:03:29,650
+of the number of 1 clusters.
+
+927
+01:03:29,650 --> 01:03:31,830
+It was V to the
+number of points that
+
+928
+01:03:31,830 --> 01:03:34,250
+are not connected together.
+
+929
+01:03:34,250 --> 01:03:38,290
+So I have to take b1, raise
+it to the power of N1,
+
+930
+01:03:38,290 --> 01:03:41,040
+which is the number
+of 1 cluster.
+
+931
+01:03:41,040 --> 01:03:47,240
+Then, I have to do the same
+thing for b2, b3, et cetera.
+
+932
+01:03:47,240 --> 01:03:50,160
+And then I have to
+make sure that I
+
+933
+01:03:50,160 --> 01:03:54,580
+have looked at all
+ways of partitioning
+
+934
+01:03:54,580 --> 01:03:56,860
+N the numbers into
+these clusters.
+
+935
+01:03:56,860 --> 01:04:02,470
+So I have a sum over nl
+l has to add up to n.
+
+936
+01:04:02,470 --> 01:04:06,130
+And I have to sum
+over all nl's that are
+
+937
+01:04:06,130 --> 01:04:09,060
+consistent with this constraint.
+
+938
+01:04:11,650 --> 01:04:15,750
+But then there is this
+issue of the multiplicity.
+
+939
+01:04:15,750 --> 01:04:21,166
+Given that I chose some
+articular set of these,
+
+940
+01:04:21,166 --> 01:04:26,930
+if I were to
+reorganize the numbers,
+
+941
+01:04:26,930 --> 01:04:29,130
+I would get the
+same contribution.
+
+942
+01:04:29,130 --> 01:04:32,210
+So let's say we pick
+this diagram that
+
+943
+01:04:32,210 --> 01:04:34,320
+has precisely a
+contribution that
+
+944
+01:04:34,320 --> 01:04:39,580
+is V, which is b1 to the
+number of these one points.
+
+945
+01:04:39,580 --> 01:04:43,520
+This to the number
+of b2 to the power
+
+946
+01:04:43,520 --> 01:04:46,290
+of the number of
+these, this, et cetera.
+
+947
+01:04:46,290 --> 01:04:50,100
+But then I can take these
+labels-- 1, 2, 3, 4, 5,
+
+948
+01:04:50,100 --> 01:04:54,270
+6-- that I assigned to these
+things and permute them.
+
+949
+01:04:54,270 --> 01:04:58,510
+If I permute them, I will get
+exactly the same contribution.
+
+950
+01:04:58,510 --> 01:05:03,310
+So there is a large
+number of diagrams
+
+951
+01:05:03,310 --> 01:05:05,990
+that have exactly this
+same contribution because
+
+952
+01:05:05,990 --> 01:05:06,990
+of this permutation.
+
+953
+01:05:06,990 --> 01:05:09,230
+There was a question back there.
+
+954
+01:05:09,230 --> 01:05:11,086
+AUDIENCE: You've
+already answered it.
+
+955
+01:05:15,165 --> 01:05:16,040
+PROFESSOR: All right.
+
+956
+01:05:19,120 --> 01:05:21,060
+Actually, this is an
+interesting thing--
+
+957
+01:05:21,060 --> 01:05:23,170
+I don't know how many
+of you recognize this.
+
+958
+01:05:23,170 --> 01:05:27,840
+So essentially, I have
+to take a huge number, N,
+
+959
+01:05:27,840 --> 01:05:31,210
+and break it into a number
+of 1 clusters, 2 clusters, et
+
+960
+01:05:31,210 --> 01:05:32,460
+cetera.
+
+961
+01:05:32,460 --> 01:05:34,360
+The number of ways
+of doing that is
+
+962
+01:05:34,360 --> 01:05:36,700
+called a partition
+of an integer.
+
+963
+01:05:36,700 --> 01:05:41,520
+And last century,
+the [INAUDIBLE]
+
+964
+01:05:41,520 --> 01:05:43,370
+calculated what that number is.
+
+965
+01:05:43,370 --> 01:05:47,160
+So there is a [INAUDIBLE]
+theorem associated with that.
+
+966
+01:05:47,160 --> 01:05:48,740
+And actually,
+later in the course
+
+967
+01:05:48,740 --> 01:05:50,930
+I will give you a
+problem to calculate
+
+968
+01:05:50,930 --> 01:05:53,445
+the asymptotic version
+of the [INAUDIBLE].
+
+969
+01:05:57,160 --> 01:05:58,390
+But this is different story.
+
+970
+01:05:58,390 --> 01:06:01,830
+So given that you had made
+one of these partitions
+
+971
+01:06:01,830 --> 01:06:05,950
+of this integer, what is
+this degeneracy factor?
+
+972
+01:06:05,950 --> 01:06:09,090
+So let me tell you what
+this degeneracy factor is.
+
+973
+01:06:09,090 --> 01:06:13,960
+So given this
+choice of nl's, you
+
+974
+01:06:13,960 --> 01:06:18,550
+say-- well, the first
+thing is what I told you.
+
+975
+01:06:18,550 --> 01:06:21,690
+For a particular
+graph, the value
+
+976
+01:06:21,690 --> 01:06:26,320
+is independent of how these
+numbers were assigned.
+
+977
+01:06:26,320 --> 01:06:29,540
+So I will permute those
+numbers in all possible ways
+
+978
+01:06:29,540 --> 01:06:31,630
+and I will get the same thing.
+
+979
+01:06:31,630 --> 01:06:33,272
+So that will give
+me N factorial.
+
+980
+01:06:33,272 --> 01:06:34,605
+It's the number of permutations.
+
+981
+01:06:37,130 --> 01:06:41,860
+But then, I have over-counted
+things because within,
+
+982
+01:06:41,860 --> 01:06:45,850
+let's say, a 2 cluster--
+if I count 7, 8, 8,
+
+983
+01:06:45,850 --> 01:06:47,370
+7 they are the same thing.
+
+984
+01:06:47,370 --> 01:06:50,520
+And by multiplying
+by this N factorial,
+
+985
+01:06:50,520 --> 01:06:53,320
+I have over-counted that.
+
+986
+01:06:53,320 --> 01:06:58,990
+So I have to divide by 2 for
+every one of my 2 clusters.
+
+987
+01:06:58,990 --> 01:07:04,750
+So I have to divide by
+2 to the power of N2.
+
+988
+01:07:04,750 --> 01:07:07,700
+For the 3 clusters, I have
+the permutation of everything
+
+989
+01:07:07,700 --> 01:07:08,330
+that is inside.
+
+990
+01:07:08,330 --> 01:07:10,930
+So it is 3 factor here.
+
+991
+01:07:10,930 --> 01:07:14,050
+So what I have here
+is I have to divide
+
+992
+01:07:14,050 --> 01:07:21,020
+by the over-counting, which
+is l factorial-- labels
+
+993
+01:07:21,020 --> 01:07:24,740
+within a cluster-- to
+the number of clusters
+
+994
+01:07:24,740 --> 01:07:27,790
+that I have that
+are subject to this.
+
+995
+01:07:30,830 --> 01:07:40,195
+There is another thing that this
+pair is 100, 101 and this pair
+
+996
+01:07:40,195 --> 01:07:42,280
+is 7, 8.
+
+997
+01:07:42,280 --> 01:07:46,310
+Exchanging that pair of numbers
+with that pair of numbers
+
+998
+01:07:46,310 --> 01:07:50,960
+is also part of the symmetries
+that I have now over-counted.
+
+999
+01:07:50,960 --> 01:07:54,210
+So that has to be
+taken into account
+
+1000
+01:07:54,210 --> 01:07:59,630
+because the number of
+these 2 clusters here is 2.
+
+1001
+01:07:59,630 --> 01:08:00,790
+Here is actually 3.
+
+1002
+01:08:00,790 --> 01:08:03,050
+I have to divide by 3 factorial.
+
+1003
+01:08:03,050 --> 01:08:06,406
+In general, I have to
+divide by nl factorial.
+
+1004
+01:08:10,300 --> 01:08:11,490
+OK.
+
+1005
+01:08:11,490 --> 01:08:14,810
+Again, this is one
+of those things
+
+1006
+01:08:14,810 --> 01:08:19,580
+that the best advice that I
+can give you is to draw five
+
+1007
+01:08:19,580 --> 01:08:22,890
+or six points so
+your n is small.
+
+1008
+01:08:22,890 --> 01:08:25,430
+And draw some diagrams.
+
+1009
+01:08:25,430 --> 01:08:27,640
+And convince yourself
+that what I told you
+
+1010
+01:08:27,640 --> 01:08:30,510
+here rapidly is correct.
+
+1011
+01:08:30,510 --> 01:08:32,590
+And it is correct.
+
+1012
+01:08:35,192 --> 01:08:35,691
+Yes.
+
+1013
+01:08:35,691 --> 01:08:38,517
+AUDIENCE: Can you just clarify
+which is in the [INAUDIBLE]?
+
+1014
+01:08:38,517 --> 01:08:39,100
+PROFESSOR: OK.
+
+1015
+01:08:39,100 --> 01:08:41,700
+So the N factorial is outside.
+
+1016
+01:08:41,700 --> 01:08:44,290
+And then-- so maybe
+write it better.
+
+1017
+01:08:44,290 --> 01:08:49,819
+For each l, I have to
+multiply nl factorial and l
+
+1018
+01:08:49,819 --> 01:08:52,422
+factorial to the power of nl.
+
+1019
+01:09:04,020 --> 01:09:07,954
+So this is my partition function
+in terms of these clusters.
+
+1020
+01:09:10,760 --> 01:09:13,270
+Even with all of
+these definitions
+
+1021
+01:09:13,270 --> 01:09:18,670
+that I have up there, maybe
+not so obvious an answer.
+
+1022
+01:09:18,670 --> 01:09:22,590
+And one of the reason it is
+kind of an obscure answer
+
+1023
+01:09:22,590 --> 01:09:28,240
+is because here I have
+to do a constrained sum.
+
+1024
+01:09:28,240 --> 01:09:31,870
+That is, I have all
+of these variables.
+
+1025
+01:09:31,870 --> 01:09:38,220
+Let's call them n1,
+n2, n3, et cetera.
+
+1026
+01:09:38,220 --> 01:09:42,920
+Each one of them can
+go from 0, 1, 2, 3.
+
+1027
+01:09:42,920 --> 01:09:44,890
+But they are all
+linked to each other
+
+1028
+01:09:44,890 --> 01:09:49,399
+because their sum is kind of
+restricted by some total value
+
+1029
+01:09:49,399 --> 01:09:52,500
+l, by this constraint.
+
+1030
+01:09:52,500 --> 01:09:57,530
+And constrained
+sums are hard to do.
+
+1031
+01:09:57,530 --> 01:10:00,310
+But in statistical
+physics, we know
+
+1032
+01:10:00,310 --> 01:10:03,170
+how to gets rid of
+constrained sums.
+
+1033
+01:10:03,170 --> 01:10:06,290
+The way that we do
+that is we essentially
+
+1034
+01:10:06,290 --> 01:10:09,560
+allow this N to go all the way.
+
+1035
+01:10:09,560 --> 01:10:13,420
+So if I say, let's make--
+it's very hard for me
+
+1036
+01:10:13,420 --> 01:10:15,560
+to do this n1 from
+0 to something,
+
+1037
+01:10:15,560 --> 01:10:19,760
+n2 from 0 to something with
+all of this constrained.
+
+1038
+01:10:19,760 --> 01:10:22,800
+My life would be very easier
+if I could independently
+
+1039
+01:10:22,800 --> 01:10:26,080
+have n1 go take any
+value, n2 take any value,
+
+1040
+01:10:26,080 --> 01:10:28,450
+n3 take any value.
+
+1041
+01:10:28,450 --> 01:10:32,570
+But if I do that essentially
+for each choice of n1, n2, n3,
+
+1042
+01:10:32,570 --> 01:10:38,010
+I have shifted the
+value of big N.
+
+1043
+01:10:38,010 --> 01:10:39,970
+But there is an
+ensemble that I know
+
+1044
+01:10:39,970 --> 01:10:42,650
+which has possibly
+any value of N,
+
+1045
+01:10:42,650 --> 01:10:44,044
+and that's the grand canonical.
+
+1046
+01:10:50,820 --> 01:10:54,810
+So rather than looking at
+the partition function,
+
+1047
+01:10:54,810 --> 01:10:57,840
+I say I will look at the
+grand partition function
+
+1048
+01:10:57,840 --> 01:11:01,920
+Q that is obtained
+by summing over
+
+1049
+01:11:01,920 --> 01:11:06,470
+all N. Can take any
+value from 0 to infinity.
+
+1050
+01:11:06,470 --> 01:11:12,280
+I have e to the beta mu N times
+the partition function that
+
+1051
+01:11:12,280 --> 01:11:13,395
+is for N particles.
+
+1052
+01:11:16,750 --> 01:11:21,130
+So that's the definition of how
+you would go from the canonical
+
+1053
+01:11:21,130 --> 01:11:23,260
+where you have fixed
+N to grand canonical
+
+1054
+01:11:23,260 --> 01:11:27,630
+where you have fixed the
+chemical potential mu.
+
+1055
+01:11:27,630 --> 01:11:31,620
+So let's apply this
+sum over there.
+
+1056
+01:11:31,620 --> 01:11:36,690
+I have a sum over N, but
+I said that if I allowed
+
+1057
+01:11:36,690 --> 01:11:40,940
+the nl's to vary
+independently, it
+
+1058
+01:11:40,940 --> 01:11:45,480
+is equivalent to varying
+that N, recognizing
+
+1059
+01:11:45,480 --> 01:11:50,019
+that this n is sum over l l nl.
+
+1060
+01:11:50,019 --> 01:11:50,935
+That's the constraint.
+
+1061
+01:11:54,140 --> 01:11:55,800
+So that's just the first term.
+
+1062
+01:11:55,800 --> 01:12:01,000
+I have rewritten this sum that
+was constrained and this sum
+
+1063
+01:12:01,000 --> 01:12:05,370
+over the total number as
+independent sums over the nl's.
+
+1064
+01:12:05,370 --> 01:12:06,640
+Got rid of the constraint.
+
+1065
+01:12:09,570 --> 01:12:12,290
+Now, I write W. Oh, OK.
+
+1066
+01:12:12,290 --> 01:12:13,404
+The partition function.
+
+1067
+01:12:13,404 --> 01:12:14,820
+Now, write the
+partition function.
+
+1068
+01:12:14,820 --> 01:12:18,680
+I have 1 over N factorial.
+
+1069
+01:12:18,680 --> 01:12:21,240
+I have lambda cubed
+raised to this power.
+
+1070
+01:12:21,240 --> 01:12:25,980
+So actually, let me put
+this in this fashion.
+
+1071
+01:12:25,980 --> 01:12:28,470
+So both e to the
+beta mu over lambda
+
+1072
+01:12:28,470 --> 01:12:31,090
+cubed that is raised
+to that power.
+
+1073
+01:12:31,090 --> 01:12:33,310
+OK, so that's that part.
+
+1074
+01:12:33,310 --> 01:12:36,140
+The sum I have gotten rid of.
+
+1075
+01:12:36,140 --> 01:12:40,350
+I notice that my W
+has an N factorial.
+
+1076
+01:12:40,350 --> 01:12:43,160
+So this is the N factorial
+that came from here.
+
+1077
+01:12:45,670 --> 01:12:49,790
+But then there is an N factorial
+that is up here from the W.
+
+1078
+01:12:49,790 --> 01:12:54,440
+So the two of them will cancel
+each other, N factorial.
+
+1079
+01:12:54,440 --> 01:13:00,770
+And then I have a product
+over all clusters.
+
+1080
+01:13:00,770 --> 01:13:04,980
+Part of it is this bl
+to the power of nl,
+
+1081
+01:13:04,980 --> 01:13:08,790
+and then I have the contribution
+that is nl factorial l
+
+1082
+01:13:08,790 --> 01:13:10,236
+factorial to the power of nl.
+
+1083
+01:13:15,930 --> 01:13:17,150
+So this part cancels.
+
+1084
+01:13:19,840 --> 01:13:25,360
+For each l, I can
+now independently
+
+1085
+01:13:25,360 --> 01:13:31,910
+sum over the values of nl can
+be anything, 0 to infinity.
+
+1086
+01:13:31,910 --> 01:13:33,762
+And what do I have?
+
+1087
+01:13:33,762 --> 01:13:39,650
+I have bl to the power of nl.
+
+1088
+01:13:39,650 --> 01:13:43,790
+I have division by nl factorial.
+
+1089
+01:13:43,790 --> 01:13:48,630
+I have l factorial
+to the power of nl.
+
+1090
+01:13:48,630 --> 01:13:55,920
+And then I have e to the beta
+mu over lambda cubed raised
+
+1091
+01:13:55,920 --> 01:13:57,431
+to the power of l nl.
+
+1092
+01:14:08,500 --> 01:14:12,650
+I recognize that each one
+of these terms in the sum
+
+1093
+01:14:12,650 --> 01:14:19,150
+is 1 over nl factorial something
+raised to the power of nl,
+
+1094
+01:14:19,150 --> 01:14:22,240
+which is the definition
+of the exponential.
+
+1095
+01:14:22,240 --> 01:14:27,880
+So my q is a product
+over all l's.
+
+1096
+01:14:27,880 --> 01:14:35,690
+Once I exponentiate, I
+have e to the beta mu
+
+1097
+01:14:35,690 --> 01:14:42,380
+over lambda cubed raised
+to the power of l.
+
+1098
+01:14:42,380 --> 01:14:46,890
+And then I have bl
+divided by l factorial.
+
+1099
+01:14:53,080 --> 01:14:59,770
+Or, log of Q, which is the
+quantity that I'm interested,
+
+1100
+01:14:59,770 --> 01:15:04,240
+is obtained by summing
+over all clusters 1
+
+1101
+01:15:04,240 --> 01:15:11,290
+to infinity e to the beta
+mu over lambda cubed raised
+
+1102
+01:15:11,290 --> 01:15:16,366
+to the power of l bl
+divided by l factorial.
+
+1103
+01:15:26,840 --> 01:15:30,330
+So what does this
+tell us, which is
+
+1104
+01:15:30,330 --> 01:15:34,050
+kind of nice and
+fundamentally important?
+
+1105
+01:15:34,050 --> 01:15:38,110
+You see, we started at
+the beginning over here
+
+1106
+01:15:38,110 --> 01:15:40,510
+with a huge number of graphs.
+
+1107
+01:15:43,280 --> 01:15:49,240
+These graphs could be organizing
+all kinds of clusters.
+
+1108
+01:15:49,240 --> 01:15:51,980
+And they would give us
+either the partition function
+
+1109
+01:15:51,980 --> 01:15:56,700
+or summing over N, the
+grand partition function.
+
+1110
+01:15:56,700 --> 01:16:05,230
+But when we take the log, I get
+only single connect objects.
+
+1111
+01:16:05,230 --> 01:16:07,510
+And this is something
+that you had already
+
+1112
+01:16:07,510 --> 01:16:10,440
+seen as the connection
+that we have
+
+1113
+01:16:10,440 --> 01:16:13,750
+between moments and Cumulants.
+
+1114
+01:16:13,750 --> 01:16:17,010
+So the way that we
+got Cumulants was
+
+1115
+01:16:17,010 --> 01:16:19,860
+to look at the
+expansion of the log.
+
+1116
+01:16:19,860 --> 01:16:23,250
+So the function itself was
+the generator of all moments
+
+1117
+01:16:23,250 --> 01:16:24,830
+and we took the log.
+
+1118
+01:16:24,830 --> 01:16:26,990
+And graphically,
+we presented that
+
+1119
+01:16:26,990 --> 01:16:29,480
+as getting the moments
+by putting together
+
+1120
+01:16:29,480 --> 01:16:34,920
+all kinds of clusters of points
+that corresponded to Cumulants.
+
+1121
+01:16:34,920 --> 01:16:37,300
+And this is again,
+a representation
+
+1122
+01:16:37,300 --> 01:16:38,660
+of the same thing.
+
+1123
+01:16:38,660 --> 01:16:41,490
+That is, in the log
+you have essentially
+
+1124
+01:16:41,490 --> 01:16:44,290
+individual contributions.
+
+1125
+01:16:44,290 --> 01:16:49,790
+Once you exponentiated, you
+get multiple contributions.
+
+1126
+01:16:49,790 --> 01:16:54,870
+Now, the other thing is, that
+if I am thinking about the gas,
+
+1127
+01:16:54,870 --> 01:17:00,730
+then log of Q is e
+to the minus beta g.
+
+1128
+01:17:00,730 --> 01:17:11,270
+And g is E minus TS minus
+mu N. Bur for a gas that
+
+1129
+01:17:11,270 --> 01:17:16,840
+has extensive properties,
+E is TS mu N minus PV.
+
+1130
+01:17:16,840 --> 01:17:19,210
+So this is the same
+thing as beta PV.
+
+1131
+01:17:22,320 --> 01:17:25,730
+So this quantity that
+we have calculated here
+
+1132
+01:17:25,730 --> 01:17:27,830
+is, in fact, related
+to the pressure
+
+1133
+01:17:27,830 --> 01:17:30,001
+directly through this formula.
+
+1134
+01:17:32,810 --> 01:17:35,770
+And the important part or
+the important observation
+
+1135
+01:17:35,770 --> 01:17:40,800
+is that it says that it should
+be proportional to volume.
+
+1136
+01:17:40,800 --> 01:17:44,170
+You can see that
+each one of my b's
+
+1137
+01:17:44,170 --> 01:17:48,500
+that I calculated here will
+have one free integral.
+
+1138
+01:17:48,500 --> 01:17:50,010
+If you like, its center of mass.
+
+1139
+01:17:50,010 --> 01:17:52,310
+You can go over
+the entire volume.
+
+1140
+01:17:52,310 --> 01:17:58,560
+So all of my b's are indeed
+proportionality to volume.
+
+1141
+01:17:58,560 --> 01:18:00,440
+And you can see what
+disaster it would
+
+1142
+01:18:00,440 --> 01:18:05,310
+have been if there was a term
+here that was not just a linked
+
+1143
+01:18:05,310 --> 01:18:07,510
+cluster but product of
+two linked clusters.
+
+1144
+01:18:07,510 --> 01:18:10,240
+Then I would have something
+that would go like V squared.
+
+1145
+01:18:10,240 --> 01:18:12,010
+It's not allowed.
+
+1146
+01:18:12,010 --> 01:18:16,970
+So essentially, this linked
+cluster nature is also
+
+1147
+01:18:16,970 --> 01:18:19,850
+related to extensivity
+in this sense.
+
+1148
+01:18:23,350 --> 01:18:28,620
+So in some sense, what I have
+established here-- again,
+
+1149
+01:18:28,620 --> 01:18:35,170
+related to that-- is that
+clearly all of my bl's
+
+1150
+01:18:35,170 --> 01:18:38,650
+are proportional to volume.
+
+1151
+01:18:38,650 --> 01:18:40,510
+And I can define
+something that I
+
+1152
+01:18:40,510 --> 01:18:48,540
+will call bl bar, which is
+divide the thing by the volume.
+
+1153
+01:18:48,540 --> 01:18:54,770
+And then what we
+have established
+
+1154
+01:18:54,770 --> 01:19:03,400
+is that the pressure of this
+interacting gas as an expansion
+
+1155
+01:19:03,400 --> 01:19:09,142
+beta p, which takes this
+nice, simple form, sum over l
+
+1156
+01:19:09,142 --> 01:19:14,770
+e to the beta mu divided
+by lambda cubed bl
+
+1157
+01:19:14,770 --> 01:19:21,580
+bar-- the intensive part of the
+contribution of these cluster--
+
+1158
+01:19:21,580 --> 01:19:23,300
+divided by l factorial.
+
+1159
+01:19:23,300 --> 01:19:26,540
+This, of course, runs
+from 1 to [INAUDIBLE].
+
+1160
+01:19:29,510 --> 01:19:30,070
+Yes.
+
+1161
+01:19:30,070 --> 01:19:33,592
+AUDIENCE: [INAUDIBLE]
+is raised to the l?
+
+1162
+01:19:33,592 --> 01:19:35,133
+PROFESSOR: Who's
+asking the question?
+
+1163
+01:19:35,133 --> 01:19:37,999
+AUDIENCE: The term in the
+parentheses is raised to the l?
+
+1164
+01:19:37,999 --> 01:19:38,790
+PROFESSOR: Exactly.
+
+1165
+01:19:38,790 --> 01:19:42,120
+Thank you very much.
+
+1166
+01:19:42,120 --> 01:19:43,534
+Yes.
+
+1167
+01:19:43,534 --> 01:19:44,450
+AUDIENCE: [INAUDIBLE].
+
+1168
+01:19:53,575 --> 01:19:55,930
+But they don't, actually.
+
+1169
+01:19:55,930 --> 01:19:58,870
+Could that be true, for
+example [INAUDIBLE]?
+
+1170
+01:20:04,667 --> 01:20:05,250
+PROFESSOR: OK.
+
+1171
+01:20:05,250 --> 01:20:07,750
+So the triangle, I have it here.
+
+1172
+01:20:07,750 --> 01:20:12,320
+Integral d q1, d q2, d
+Q3, f 1 2, f 2 3, f 3.
+
+1173
+01:20:12,320 --> 01:20:14,370
+Let's write it explicitly.
+
+1174
+01:20:14,370 --> 01:20:23,210
+It is f of q1 minus q2, f of
+q2 minus q3, f of q3 minus q1.
+
+1175
+01:20:23,210 --> 01:20:25,725
+I call this vector x.
+
+1176
+01:20:25,725 --> 01:20:28,500
+I call that vector y.
+
+1177
+01:20:28,500 --> 01:20:30,700
+This vector is x plus y.
+
+1178
+01:20:35,310 --> 01:20:36,109
+Yes.
+
+1179
+01:20:36,109 --> 01:20:38,504
+AUDIENCE: Does the
+contribution from [INAUDIBLE]?
+
+1180
+01:20:44,260 --> 01:20:45,290
+PROFESSOR: OK.
+
+1181
+01:20:45,290 --> 01:20:52,720
+So you say that I have here
+an expansion for the pressure.
+
+1182
+01:20:52,720 --> 01:20:55,930
+I had given you previously
+an expansion for pressure
+
+1183
+01:20:55,930 --> 01:20:59,240
+that I said is sensible, which
+is this Virial expansion, which
+
+1184
+01:20:59,240 --> 01:21:01,870
+is powers of density.
+
+1185
+01:21:01,870 --> 01:21:06,160
+This is not an expansion
+in powers of density.
+
+1186
+01:21:06,160 --> 01:21:10,320
+So whether or not the
+terms in this expansion
+
+1187
+01:21:10,320 --> 01:21:13,230
+becomes smaller or
+larger will depend
+
+1188
+01:21:13,230 --> 01:21:16,490
+on density in some indirect way.
+
+1189
+01:21:16,490 --> 01:21:21,100
+So my next task, which
+I will do next lecture,
+
+1190
+01:21:21,100 --> 01:21:23,540
+is within this ensemble
+I have told you
+
+1191
+01:21:23,540 --> 01:21:25,740
+what the chemical potential is.
+
+1192
+01:21:25,740 --> 01:21:28,160
+Once I know what the
+chemical potential is,
+
+1193
+01:21:28,160 --> 01:21:30,770
+I can calculate the
+number of particles
+
+1194
+01:21:30,770 --> 01:21:36,380
+as d log Q by d beta mu.
+
+1195
+01:21:36,380 --> 01:21:41,640
+And hence, I can calculate
+what the density is.
+
+1196
+01:21:41,640 --> 01:21:46,390
+And so the answer for this will
+also be a series in powers of e
+
+1197
+01:21:46,390 --> 01:21:47,980
+to the beta mu.
+
+1198
+01:21:47,980 --> 01:21:51,280
+And what then I will do is
+I will combine these two
+
+1199
+01:21:51,280 --> 01:21:56,620
+series to get an expansion for
+pressure in powers of density,
+
+1200
+01:21:56,620 --> 01:22:00,410
+and then identify the
+convergence of this series
+
+1201
+01:22:00,410 --> 01:22:03,320
+and all of that
+via that procedure.

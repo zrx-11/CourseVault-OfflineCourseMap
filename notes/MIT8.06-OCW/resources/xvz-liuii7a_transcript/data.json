@@ -1,0 +1,44 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-06-quantum-physics-iii-spring-2018/xVZ-lIuIi7A_transcript.pdf",
+  "file_size": 34582,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "L13.4 Charged particles in EM fields: potentials and gauge invariance transcript",
+  "uid": "4f833a8b-3f1a-443a-8b95-c1134fef3971",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-06-quantum-physics-iii-spring-2018"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-06-quantum-physics-iii-spring-2018"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

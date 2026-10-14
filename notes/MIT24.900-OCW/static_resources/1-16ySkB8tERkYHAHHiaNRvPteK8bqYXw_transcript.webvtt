@@ -1,0 +1,5638 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.942 align:middle line:90%
+
+
+00:00:10.942 --> 00:00:12.400 align:middle line:84%
+NORVIN RICHARDS:
+So we have already
+
+00:00:12.400 --> 00:00:16.353 align:middle line:84%
+talked for a while about
+various kinds of ambiguity.
+
+00:00:16.353 --> 00:00:18.520 align:middle line:84%
+And today, we're going to
+talk about ambiguity more.
+
+00:00:18.520 --> 00:00:20.978 align:middle line:84%
+This is, if anything, the best
+time to talk about ambiguity
+
+00:00:20.978 --> 00:00:23.497 align:middle line:84%
+because we're now
+actually into semantics.
+
+00:00:23.497 --> 00:00:25.330 align:middle line:84%
+The kinds of ambiguity
+we were talking about
+
+00:00:25.330 --> 00:00:29.350 align:middle line:84%
+before were kinds
+of what's sometimes
+
+00:00:29.350 --> 00:00:31.810 align:middle line:84%
+called structural
+ambiguity-- that is,
+
+00:00:31.810 --> 00:00:34.630 align:middle line:84%
+sentences that had
+more than one meaning.
+
+00:00:34.630 --> 00:00:37.895 align:middle line:84%
+The way we were talking about
+it was had more than one
+
+00:00:37.895 --> 00:00:39.520 align:middle line:84%
+meaning because it
+was possible to draw
+
+00:00:39.520 --> 00:00:41.240 align:middle line:90%
+more than one tree for them.
+
+00:00:41.240 --> 00:00:43.870 align:middle line:84%
+So the sentence that we spend
+a lot of time talking about
+
+00:00:43.870 --> 00:00:46.120 align:middle line:84%
+was I once shot an
+elephant in my pajamas,
+
+00:00:46.120 --> 00:00:52.390 align:middle line:84%
+where the whole joke there
+was that "in my pajamas" could
+
+00:00:52.390 --> 00:00:54.628 align:middle line:84%
+be attached in a couple
+of different places.
+
+00:00:54.628 --> 00:00:56.170 align:middle line:84%
+It could either
+modify "the elephant"
+
+00:00:56.170 --> 00:00:58.540 align:middle line:84%
+or it could modify the verb
+phrase "shot an elephant."
+
+00:00:58.540 --> 00:01:02.290 align:middle line:84%
+And the upshot of that
+was, well, the pajamas
+
+00:01:02.290 --> 00:01:04.209 align:middle line:84%
+could be on either
+of you, and yeah--
+
+00:01:04.209 --> 00:01:04.959 align:middle line:90%
+ambiguity.
+
+00:01:04.959 --> 00:01:08.278 align:middle line:84%
+Similar kinds of ambiguities
+in these other examples.
+
+00:01:08.278 --> 00:01:09.820 align:middle line:84%
+But there's another
+kind of ambiguity
+
+00:01:09.820 --> 00:01:11.890 align:middle line:84%
+that's the one I want
+to talk about today.
+
+00:01:11.890 --> 00:01:14.650 align:middle line:90%
+
+
+00:01:14.650 --> 00:01:17.830 align:middle line:84%
+People have claimed that
+this sentence is ambiguous--
+
+00:01:17.830 --> 00:01:19.690 align:middle line:90%
+"someone loves everyone."
+
+00:01:19.690 --> 00:01:22.100 align:middle line:84%
+The claim is this can
+mean at least two things.
+
+00:01:22.100 --> 00:01:25.930 align:middle line:84%
+It can mean-- let's get some
+lights on up here in the front.
+
+00:01:25.930 --> 00:01:28.750 align:middle line:90%
+
+
+00:01:28.750 --> 00:01:31.450 align:middle line:90%
+Oh dear, so many options.
+
+00:01:31.450 --> 00:01:36.290 align:middle line:90%
+
+
+00:01:36.290 --> 00:01:38.510 align:middle line:90%
+Stage left, stage right--
+
+00:01:38.510 --> 00:01:40.480 align:middle line:90%
+sure.
+
+00:01:40.480 --> 00:01:41.230 align:middle line:90%
+Oh, I see.
+
+00:01:41.230 --> 00:01:44.110 align:middle line:90%
+
+
+00:01:44.110 --> 00:01:44.950 align:middle line:90%
+That's what I want.
+
+00:01:44.950 --> 00:01:49.000 align:middle line:90%
+
+
+00:01:49.000 --> 00:01:51.520 align:middle line:84%
+Two kinds of meanings for this
+that people have posited--
+
+00:01:51.520 --> 00:01:59.620 align:middle line:84%
+one meaning in which it means
+the following situation holds
+
+00:01:59.620 --> 00:02:01.390 align:middle line:90%
+everyone is loved.
+
+00:02:01.390 --> 00:02:07.390 align:middle line:84%
+That is, for each person, there
+is someone that loves them.
+
+00:02:07.390 --> 00:02:11.380 align:middle line:84%
+That's what's diagrammed
+in that first diagram
+
+00:02:11.380 --> 00:02:16.375 align:middle line:84%
+up there, where the love
+relation holds between X and A
+
+00:02:16.375 --> 00:02:16.900 align:middle line:90%
+and B--
+
+00:02:16.900 --> 00:02:19.840 align:middle line:84%
+X loves both A and B,
+and between Y and C,
+
+00:02:19.840 --> 00:02:23.020 align:middle line:84%
+and between Z and both
+D and E. So that's
+
+00:02:23.020 --> 00:02:24.972 align:middle line:84%
+a possible reading
+for the sentence.
+
+00:02:24.972 --> 00:02:26.680 align:middle line:84%
+And then there's
+another possible reading
+
+00:02:26.680 --> 00:02:29.380 align:middle line:84%
+for the sentence,
+and then there are
+
+00:02:29.380 --> 00:02:33.160 align:middle line:84%
+arguments about whether this
+is a different reading or not,
+
+00:02:33.160 --> 00:02:35.320 align:middle line:84%
+in which it means
+someone loves everyone
+
+00:02:35.320 --> 00:02:38.350 align:middle line:84%
+what that means is there is
+a person who loves everyone.
+
+00:02:38.350 --> 00:02:39.760 align:middle line:90%
+Maybe it's my grandma--
+
+00:02:39.760 --> 00:02:40.880 align:middle line:90%
+very loving person.
+
+00:02:40.880 --> 00:02:43.700 align:middle line:90%
+She loves absolutely everyone.
+
+00:02:43.700 --> 00:02:46.300 align:middle line:84%
+And so the love relation
+holds between X and absolutely
+
+00:02:46.300 --> 00:02:49.010 align:middle line:90%
+everyone, including herself.
+
+00:02:49.010 --> 00:02:51.890 align:middle line:84%
+So that's a kind of ambiguity
+people have claimed to exist.
+
+00:02:51.890 --> 00:02:54.730 align:middle line:84%
+I don't want us to get too
+hung up on whether it does.
+
+00:02:54.730 --> 00:02:57.640 align:middle line:84%
+There are clearer
+examples maybe.
+
+00:02:57.640 --> 00:03:00.400 align:middle line:84%
+Think about a sentence
+like "Everyone in this room
+
+00:03:00.400 --> 00:03:01.810 align:middle line:90%
+speaks two languages."
+
+00:03:01.810 --> 00:03:04.215 align:middle line:90%
+
+
+00:03:04.215 --> 00:03:06.340 align:middle line:84%
+This is going to be a
+clearer example because we'll
+
+00:03:06.340 --> 00:03:09.550 align:middle line:84%
+see that the availability
+of the two meanings
+
+00:03:09.550 --> 00:03:12.160 align:middle line:84%
+can be affected by
+things that we can do.
+
+00:03:12.160 --> 00:03:14.900 align:middle line:90%
+What's something this can mean?
+
+00:03:14.900 --> 00:03:16.200 align:middle line:90%
+Yeah?
+
+00:03:16.200 --> 00:03:18.270 align:middle line:84%
+AUDIENCE: For every
+individual, it's
+
+00:03:18.270 --> 00:03:21.150 align:middle line:84%
+true that that individual
+speaks two different languages.
+
+00:03:21.150 --> 00:03:22.775 align:middle line:84%
+NORVIN RICHARDS:
+Yeah, so it's possible
+
+00:03:22.775 --> 00:03:25.380 align:middle line:84%
+that it means everyone in
+this room is bilingual.
+
+00:03:25.380 --> 00:03:28.420 align:middle line:84%
+So maybe I speak
+English and Spanish,
+
+00:03:28.420 --> 00:03:31.530 align:middle line:84%
+and you speak
+Ukrainian and Polish,
+
+00:03:31.530 --> 00:03:34.170 align:middle line:84%
+and you speak
+Mandarin and Japanese.
+
+00:03:34.170 --> 00:03:35.930 align:middle line:84%
+So everybody in this
+room is bilingual.
+
+00:03:35.930 --> 00:03:38.700 align:middle line:90%
+It could mean that.
+
+00:03:38.700 --> 00:03:40.470 align:middle line:84%
+What's another
+thing it can mean?
+
+00:03:40.470 --> 00:03:41.092 align:middle line:90%
+Yeah?
+
+00:03:41.092 --> 00:03:43.050 align:middle line:84%
+AUDIENCE: If you put
+together all the languages
+
+00:03:43.050 --> 00:03:45.300 align:middle line:84%
+that everyone in this room
+knew, it would only be two.
+
+00:03:45.300 --> 00:03:46.633 align:middle line:90%
+NORVIN RICHARDS: Right, exactly.
+
+00:03:46.633 --> 00:03:48.780 align:middle line:84%
+So if you took a survey
+of everybody in this room
+
+00:03:48.780 --> 00:03:50.780 align:middle line:84%
+and found out all the
+languages that they speak,
+
+00:03:50.780 --> 00:03:52.980 align:middle line:84%
+there would be two things,
+two languages that we all
+
+00:03:52.980 --> 00:03:53.920 align:middle line:90%
+have in common.
+
+00:03:53.920 --> 00:03:57.360 align:middle line:84%
+Maybe we all speak English
+and we all speak Tagalog.
+
+00:03:57.360 --> 00:04:00.060 align:middle line:84%
+Maybe some of you speak 12
+languages, but two of them
+
+00:04:00.060 --> 00:04:01.590 align:middle line:90%
+are English and Tagalog.
+
+00:04:01.590 --> 00:04:03.260 align:middle line:84%
+That's another thing
+that it could mean.
+
+00:04:03.260 --> 00:04:03.760 align:middle line:90%
+Yeah?
+
+00:04:03.760 --> 00:04:09.030 align:middle line:84%
+AUDIENCE: I don't actually read
+the sentence that second way.
+
+00:04:09.030 --> 00:04:11.700 align:middle line:84%
+If everyone in this room
+speaks two languages,
+
+00:04:11.700 --> 00:04:15.190 align:middle line:84%
+as in collectively, everyone in
+this room speaks two languages.
+
+00:04:15.190 --> 00:04:16.720 align:middle line:90%
+That just doesn't--
+
+00:04:16.720 --> 00:04:17.980 align:middle line:90%
+I don't read it like that.
+
+00:04:17.980 --> 00:04:20.522 align:middle line:84%
+NORVIN RICHARDS: That's not the
+first reading you get for it.
+
+00:04:20.522 --> 00:04:21.920 align:middle line:84%
+Yeah, I agree with
+you, actually.
+
+00:04:21.920 --> 00:04:24.250 align:middle line:84%
+So what you're
+claiming is that if I
+
+00:04:24.250 --> 00:04:26.200 align:middle line:84%
+were to say "Everyone
+in this room
+
+00:04:26.200 --> 00:04:28.948 align:middle line:84%
+speaks two languages,
+namely English and Tagalog,"
+
+00:04:28.948 --> 00:04:31.240 align:middle line:84%
+your interpretation would be
+that everyone in this room
+
+00:04:31.240 --> 00:04:32.740 align:middle line:84%
+is bilingual in
+English and Tagalog.
+
+00:04:32.740 --> 00:04:35.957 align:middle line:84%
+(Tagalog is a language
+from the Philippines.)
+
+00:04:35.957 --> 00:04:37.540 align:middle line:84%
+It's a lot easier
+to get that reading,
+
+00:04:37.540 --> 00:04:39.790 align:middle line:84%
+I agree with you, than it
+is to get the other reading,
+
+00:04:39.790 --> 00:04:42.340 align:middle line:84%
+where it just means everyone
+in this room is bilingual.
+
+00:04:42.340 --> 00:04:42.970 align:middle line:90%
+Yeah?
+
+00:04:42.970 --> 00:04:46.960 align:middle line:84%
+AUDIENCE: I think I
+would have [INAUDIBLE]
+
+00:04:46.960 --> 00:04:50.357 align:middle line:90%
+something to me in total.
+
+00:04:50.357 --> 00:04:51.940 align:middle line:84%
+NORVIN RICHARDS:
+Everyone in this room
+
+00:04:51.940 --> 00:04:54.460 align:middle line:90%
+speaks two languages between us.
+
+00:04:54.460 --> 00:04:56.918 align:middle line:84%
+Yeah, you feel as though
+there could be modifications
+
+00:04:56.918 --> 00:04:58.960 align:middle line:84%
+that you could make that
+would make that reading.
+
+00:04:58.960 --> 00:05:00.550 align:middle line:84%
+Here's one modification
+you can make that makes
+
+00:05:00.550 --> 00:05:01.467 align:middle line:90%
+that reading come out.
+
+00:05:01.467 --> 00:05:03.160 align:middle line:90%
+You can passivize the sentence.
+
+00:05:03.160 --> 00:05:08.410 align:middle line:84%
+So "Two languages are spoken
+by everyone in this room,"
+
+00:05:08.410 --> 00:05:10.690 align:middle line:84%
+I think has that
+reading really clear.
+
+00:05:10.690 --> 00:05:13.750 align:middle line:84%
+There are two languages
+that we all have in common.
+
+00:05:13.750 --> 00:05:16.098 align:middle line:84%
+It's possible that it can
+also mean the other thing,
+
+00:05:16.098 --> 00:05:17.890 align:middle line:84%
+that it can also mean
+everyone in this room
+
+00:05:17.890 --> 00:05:21.880 align:middle line:84%
+is bilingual, but at
+least can mean that.
+
+00:05:21.880 --> 00:05:26.140 align:middle line:84%
+The fact that we can have
+this sensation that these two
+
+00:05:26.140 --> 00:05:29.860 align:middle line:84%
+imaginable readings are
+maybe both available for both
+
+00:05:29.860 --> 00:05:32.350 align:middle line:84%
+of these sentences, maybe
+not, but certainly one
+
+00:05:32.350 --> 00:05:35.530 align:middle line:84%
+is more available than
+the other depending
+
+00:05:35.530 --> 00:05:37.697 align:middle line:84%
+on whether the sentence
+is active or passive--
+
+00:05:37.697 --> 00:05:39.280 align:middle line:84%
+it suggests we want
+to be able to talk
+
+00:05:39.280 --> 00:05:41.830 align:middle line:84%
+about this kind of
+difference in meaning
+
+00:05:41.830 --> 00:05:42.970 align:middle line:90%
+between these sentences.
+
+00:05:42.970 --> 00:05:45.430 align:middle line:84%
+So we're going to develop
+the tools to do that today.
+
+00:05:45.430 --> 00:05:50.030 align:middle line:90%
+
+
+00:05:50.030 --> 00:05:52.250 align:middle line:84%
+So in order to do
+that, we're going
+
+00:05:52.250 --> 00:05:54.980 align:middle line:84%
+to need to develop a theory of
+a certain special kind of noun
+
+00:05:54.980 --> 00:05:57.320 align:middle line:84%
+phrase-- what's
+called a quantifier.
+
+00:05:57.320 --> 00:05:58.820 align:middle line:84%
+And to do that,
+we're going to start
+
+00:05:58.820 --> 00:06:01.230 align:middle line:84%
+by talking about what noun
+phrases mean more generally.
+
+00:06:01.230 --> 00:06:03.140 align:middle line:90%
+So here's a noun phrase--
+
+00:06:03.140 --> 00:06:07.730 align:middle line:84%
+refers to a person who's
+the TA for some of you.
+
+00:06:07.730 --> 00:06:11.643 align:middle line:84%
+And if you were to ask, what
+does that noun phrase mean?
+
+00:06:11.643 --> 00:06:13.310 align:middle line:84%
+Well, we talked about
+this a little bit.
+
+00:06:13.310 --> 00:06:16.550 align:middle line:84%
+I had the example of there
+are various things that you
+
+00:06:16.550 --> 00:06:18.785 align:middle line:90%
+could use to refer to me.
+
+00:06:18.785 --> 00:06:20.660 align:middle line:84%
+You could refer to me
+as "Professor Richards"
+
+00:06:20.660 --> 00:06:23.630 align:middle line:84%
+or as "Norvin" or "that
+so-and-so who gave me a C"--
+
+00:06:23.630 --> 00:06:25.500 align:middle line:90%
+and we're talking about that.
+
+00:06:25.500 --> 00:06:29.270 align:middle line:84%
+So similarly, here's a phrase
+that if you ask what it means,
+
+00:06:29.270 --> 00:06:32.570 align:middle line:84%
+you might expect that if we look
+this up in your mental lexicon,
+
+00:06:32.570 --> 00:06:35.810 align:middle line:84%
+what we would find is
+a picture of this guy--
+
+00:06:35.810 --> 00:06:38.390 align:middle line:84%
+those of you who have
+him as your TA, at least.
+
+00:06:38.390 --> 00:06:39.890 align:middle line:84%
+So if you don't
+have him as your TA,
+
+00:06:39.890 --> 00:06:42.223 align:middle line:84%
+maybe you don't know who he
+is, but he's one of the TAs.
+
+00:06:42.223 --> 00:06:44.450 align:middle line:90%
+
+
+00:06:44.450 --> 00:06:48.560 align:middle line:84%
+And to say, for example, "Enrico
+Flor is an avid hangglider"
+
+00:06:48.560 --> 00:06:51.030 align:middle line:90%
+is to say something like--
+
+00:06:51.030 --> 00:06:54.290 align:middle line:84%
+we ask what that means, it's
+going to mean something like--
+
+00:06:54.290 --> 00:06:57.092 align:middle line:84%
+we'll have to figure out the
+meaning of avid hangglider.
+
+00:06:57.092 --> 00:06:59.300 align:middle line:84%
+What is it to say that
+someone is an avid hangglider?
+
+00:06:59.300 --> 00:07:01.160 align:middle line:84%
+But when we figure
+out what that is,
+
+00:07:01.160 --> 00:07:02.780 align:middle line:84%
+we'll have a list
+of all of the people
+
+00:07:02.780 --> 00:07:04.070 align:middle line:90%
+who are avid hanggliders.
+
+00:07:04.070 --> 00:07:08.360 align:middle line:84%
+And this claim is that list will
+have Enrico Flor's name on it.
+
+00:07:08.360 --> 00:07:11.310 align:middle line:90%
+That's what that means.
+
+00:07:11.310 --> 00:07:15.350 align:middle line:84%
+So that's a comparatively simple
+meaning for a noun phrase.
+
+00:07:15.350 --> 00:07:18.350 align:middle line:84%
+Enrico Flor-- that noun
+phrase refers to that guy.
+
+00:07:18.350 --> 00:07:20.960 align:middle line:90%
+
+
+00:07:20.960 --> 00:07:24.380 align:middle line:84%
+What if I wanted to tell
+you, the 24.900 TAs are avid
+
+00:07:24.380 --> 00:07:25.760 align:middle line:90%
+hanggliders.
+
+00:07:25.760 --> 00:07:29.150 align:middle line:84%
+So again, we're going to have
+a list of the avid hanggliders.
+
+00:07:29.150 --> 00:07:32.780 align:middle line:90%
+What does this sentence say?
+
+00:07:32.780 --> 00:07:34.640 align:middle line:90%
+What does it mean?
+
+00:07:34.640 --> 00:07:38.270 align:middle line:84%
+AUDIENCE: You first have to
+parse what the 24.900 TAs are
+
+00:07:38.270 --> 00:07:42.260 align:middle line:84%
+and decompose that into a list
+of people and match them up
+
+00:07:42.260 --> 00:07:44.898 align:middle line:90%
+with who are the [INAUDIBLE].
+
+00:07:44.898 --> 00:07:46.190 align:middle line:90%
+NORVIN RICHARDS: Yeah, exactly.
+
+00:07:46.190 --> 00:07:47.450 align:middle line:90%
+That's a nice way to say it.
+
+00:07:47.450 --> 00:07:49.700 align:middle line:84%
+So we're going to have a
+list of the avid hanggliders,
+
+00:07:49.700 --> 00:07:52.057 align:middle line:84%
+and we're going to have
+a list of the 24.900 TAs.
+
+00:07:52.057 --> 00:07:54.140 align:middle line:84%
+It'll have Enrico Flor,
+and it'll have Yash Sinha,
+
+00:07:54.140 --> 00:07:58.010 align:middle line:84%
+and it'll have all
+four of the TAs.
+
+00:07:58.010 --> 00:07:59.875 align:middle line:84%
+And what this says
+is if you look
+
+00:07:59.875 --> 00:08:01.250 align:middle line:84%
+at that list of
+avid hanggliders,
+
+00:08:01.250 --> 00:08:02.958 align:middle line:84%
+it'll have all four
+of those names on it.
+
+00:08:02.958 --> 00:08:07.320 align:middle line:90%
+
+
+00:08:07.320 --> 00:08:09.960 align:middle line:84%
+I'm trying to lure you into a
+false sense of security here.
+
+00:08:09.960 --> 00:08:13.250 align:middle line:84%
+So far, this should
+seem pretty simple.
+
+00:08:13.250 --> 00:08:14.890 align:middle line:90%
+So yeah, there's a list--
+
+00:08:14.890 --> 00:08:15.430 align:middle line:90%
+set.
+
+00:08:15.430 --> 00:08:16.630 align:middle line:90%
+I've made it a set here.
+
+00:08:16.630 --> 00:08:20.380 align:middle line:84%
+It's a set that contains Enrico
+and Peter and Yash and Anton.
+
+00:08:20.380 --> 00:08:23.890 align:middle line:84%
+And what we're
+saying is that set
+
+00:08:23.890 --> 00:08:26.535 align:middle line:84%
+is a subset of the set
+of avid hanggliders.
+
+00:08:26.535 --> 00:08:31.630 align:middle line:90%
+
+
+00:08:31.630 --> 00:08:36.320 align:middle line:90%
+What set does "every Italian"--
+
+00:08:36.320 --> 00:08:38.289 align:middle line:90%
+Enrico Flor is Italian--
+
+00:08:38.289 --> 00:08:43.200 align:middle line:84%
+what set does "every
+Italian" refer to,
+
+00:08:43.200 --> 00:08:45.780 align:middle line:84%
+if we're going to let noun
+phrases refer to sets?
+
+00:08:45.780 --> 00:08:47.560 align:middle line:90%
+Yeah?
+
+00:08:47.560 --> 00:08:50.680 align:middle line:84%
+AUDIENCE: Either every
+person such that that person
+
+00:08:50.680 --> 00:08:55.573 align:middle line:84%
+has Italian citizenship
+or Italian ancestry?
+
+00:08:55.573 --> 00:08:57.740 align:middle line:84%
+NORVIN RICHARDS: Yeah, so
+you're being very careful.
+
+00:08:57.740 --> 00:08:59.520 align:middle line:84%
+But yes, so somehow
+we'll have to define
+
+00:08:59.520 --> 00:09:00.520 align:middle line:90%
+what we mean by Italian.
+
+00:09:00.520 --> 00:09:01.062 align:middle line:90%
+You're right.
+
+00:09:01.062 --> 00:09:01.960 align:middle line:90%
+That's right.
+
+00:09:01.960 --> 00:09:05.020 align:middle line:84%
+And then we'll end up
+with a list of Italians.
+
+00:09:05.020 --> 00:09:07.510 align:middle line:90%
+And then that'll be the set.
+
+00:09:07.510 --> 00:09:10.570 align:middle line:84%
+So similarly, if you say "Every
+Italian is an avid hangglider,"
+
+00:09:10.570 --> 00:09:13.670 align:middle line:84%
+what we mean is it's kind of
+like "The 24.900 TAs are avid
+
+00:09:13.670 --> 00:09:14.350 align:middle line:90%
+hanggliders."
+
+00:09:14.350 --> 00:09:16.150 align:middle line:84%
+Everyone in this list
+is also in this list.
+
+00:09:16.150 --> 00:09:17.920 align:middle line:84%
+Everyone in this set
+is also in this set.
+
+00:09:17.920 --> 00:09:20.020 align:middle line:90%
+That's what that means.
+
+00:09:20.020 --> 00:09:22.587 align:middle line:84%
+So "every Italian" will
+have a list of Italians--
+
+00:09:22.587 --> 00:09:23.920 align:middle line:90%
+that's how the list could start.
+
+00:09:23.920 --> 00:09:29.050 align:middle line:84%
+And you're saying
+everybody in that
+
+00:09:29.050 --> 00:09:32.120 align:middle line:90%
+list is an avid hangglider.
+
+00:09:32.120 --> 00:09:35.282 align:middle line:90%
+OK, so far, so good.
+
+00:09:35.282 --> 00:09:36.240 align:middle line:90%
+How about "No Italian?"
+
+00:09:36.240 --> 00:09:36.990 align:middle line:90%
+What set is that?
+
+00:09:36.990 --> 00:09:39.790 align:middle line:90%
+
+
+00:09:39.790 --> 00:09:40.960 align:middle line:90%
+Yeah?
+
+00:09:40.960 --> 00:09:43.210 align:middle line:84%
+AUDIENCE: It's like if you
+took the set of all people,
+
+00:09:43.210 --> 00:09:45.280 align:middle line:84%
+but you took out
+all of the Italians.
+
+00:09:45.280 --> 00:09:46.988 align:middle line:84%
+NORVIN RICHARDS:
+Subtracted the Italians.
+
+00:09:46.988 --> 00:09:49.568 align:middle line:90%
+
+
+00:09:49.568 --> 00:09:51.860 align:middle line:84%
+AUDIENCE: It would be the
+partition of all people who's
+
+00:09:51.860 --> 00:09:53.135 align:middle line:90%
+not Italian.
+
+00:09:53.135 --> 00:09:54.760 align:middle line:84%
+NORVIN RICHARDS: But
+if it means that--
+
+00:09:54.760 --> 00:09:56.500 align:middle line:90%
+no, that's a nice idea.
+
+00:09:56.500 --> 00:09:59.553 align:middle line:84%
+So we'll take the set of people,
+and we'll subtract from it
+
+00:09:59.553 --> 00:10:00.970 align:middle line:84%
+all of the Italians,
+everybody who
+
+00:10:00.970 --> 00:10:02.410 align:middle line:90%
+was on the list of Italians.
+
+00:10:02.410 --> 00:10:05.170 align:middle line:84%
+But then what is "No Italian
+is an avid hangglider"
+
+00:10:05.170 --> 00:10:05.890 align:middle line:90%
+going to mean?
+
+00:10:05.890 --> 00:10:08.610 align:middle line:90%
+
+
+00:10:08.610 --> 00:10:09.352 align:middle line:90%
+Yeah?
+
+00:10:09.352 --> 00:10:11.310 align:middle line:84%
+AUDIENCE: Just means that
+of the list of people
+
+00:10:11.310 --> 00:10:13.560 align:middle line:84%
+that you identify as
+Italians, none of them
+
+00:10:13.560 --> 00:10:15.997 align:middle line:84%
+will be found in the
+list of avid hanggliders.
+
+00:10:15.997 --> 00:10:17.830 align:middle line:84%
+NORVIN RICHARDS: So we
+want it to mean that.
+
+00:10:17.830 --> 00:10:19.260 align:middle line:90%
+But if it meant what Raquel--
+
+00:10:19.260 --> 00:10:21.498 align:middle line:84%
+if no Italian meant what
+Raquel wanted it to make--
+
+00:10:21.498 --> 00:10:23.040 align:middle line:84%
+I'm sorry, Raquel,
+I'm picking on you
+
+00:10:23.040 --> 00:10:25.410 align:middle line:84%
+because you were smart enough
+to make a suggestion-- it
+
+00:10:25.410 --> 00:10:29.858 align:middle line:84%
+would mean everyone who is not
+Italian is an avid hangglider.
+
+00:10:29.858 --> 00:10:32.400 align:middle line:84%
+And that's not what "No Italian
+is an avid hangglider" means,
+
+00:10:32.400 --> 00:10:33.270 align:middle line:90%
+I think.
+
+00:10:33.270 --> 00:10:34.785 align:middle line:84%
+Sorry, what were
+you going to say?
+
+00:10:34.785 --> 00:10:35.190 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:10:35.190 --> 00:10:36.482 align:middle line:90%
+NORVIN RICHARDS: Say that, yes.
+
+00:10:36.482 --> 00:10:39.000 align:middle line:84%
+Yeah, I'm sorry, I should
+start calling on you
+
+00:10:39.000 --> 00:10:40.922 align:middle line:90%
+guys instead of-- yes, Raquel?
+
+00:10:40.922 --> 00:10:42.630 align:middle line:84%
+AUDIENCE: If there is
+an avid hangglider,
+
+00:10:42.630 --> 00:10:46.230 align:middle line:84%
+it has to be part
+of the subtracted--
+
+00:10:46.230 --> 00:10:48.450 align:middle line:84%
+like the set that
+doesn't have Italian--
+
+00:10:48.450 --> 00:10:51.210 align:middle line:84%
+like every single one must, but
+if there is going to be one,
+
+00:10:51.210 --> 00:10:52.410 align:middle line:90%
+it better be in that.
+
+00:10:52.410 --> 00:10:54.202 align:middle line:84%
+NORVIN RICHARDS: All
+the other hang gliders
+
+00:10:54.202 --> 00:10:57.030 align:middle line:84%
+have to be in the complement
+set of the set of Italians,
+
+00:10:57.030 --> 00:10:58.800 align:middle line:90%
+something like that.
+
+00:10:58.800 --> 00:10:59.630 align:middle line:90%
+Yeah?
+
+00:10:59.630 --> 00:11:00.930 align:middle line:90%
+Yeah, Joseph?
+
+00:11:00.930 --> 00:11:03.180 align:middle line:84%
+AUDIENCE: Instead of Italians,
+instead of hanggliders,
+
+00:11:03.180 --> 00:11:04.523 align:middle line:90%
+the intersection is a null set.
+
+00:11:04.523 --> 00:11:06.690 align:middle line:84%
+NORVIN RICHARDS: Yeah, so
+I think what we're saying,
+
+00:11:06.690 --> 00:11:09.330 align:middle line:84%
+what we're getting to and
+I think you said this more
+
+00:11:09.330 --> 00:11:13.260 align:middle line:84%
+or less the same way, every
+other set that we've talked
+
+00:11:13.260 --> 00:11:16.590 align:middle line:84%
+about, when we said "The 24.900
+TAs are avid hanggliders,"
+
+00:11:16.590 --> 00:11:19.110 align:middle line:84%
+we said, yeah, there's a set
+of 24.900 TAs and there's a set
+
+00:11:19.110 --> 00:11:21.930 align:middle line:84%
+of avid hanggliders, and
+the first set is contained
+
+00:11:21.930 --> 00:11:23.130 align:middle line:90%
+in the second set.
+
+00:11:23.130 --> 00:11:24.210 align:middle line:90%
+That's what that means.
+
+00:11:24.210 --> 00:11:26.677 align:middle line:84%
+And every Italian is
+an avid hangglider--
+
+00:11:26.677 --> 00:11:29.010 align:middle line:84%
+there's a set of Italians and
+a set of avid hanggliders,
+
+00:11:29.010 --> 00:11:31.410 align:middle line:84%
+and the first set is
+contained in the second set.
+
+00:11:31.410 --> 00:11:35.280 align:middle line:84%
+But "no," as in
+"no Italian," makes
+
+00:11:35.280 --> 00:11:38.280 align:middle line:84%
+you have the sets interact with
+each other in a different way.
+
+00:11:38.280 --> 00:11:42.420 align:middle line:84%
+It says this first
+set is not contained.
+
+00:11:42.420 --> 00:11:45.520 align:middle line:84%
+Nothing in this first set is
+contained in the second set.
+
+00:11:45.520 --> 00:11:47.665 align:middle line:84%
+So this is a popular
+way of talking
+
+00:11:47.665 --> 00:11:50.040 align:middle line:84%
+about the meanings of what
+are called quantifiers-- words
+
+00:11:50.040 --> 00:11:52.140 align:middle line:90%
+like "every" and "no."
+
+00:11:52.140 --> 00:11:53.250 align:middle line:90%
+So it's not the null set.
+
+00:11:53.250 --> 00:11:54.990 align:middle line:84%
+It's not a set
+containing no Italian.
+
+00:11:54.990 --> 00:11:58.570 align:middle line:90%
+
+
+00:11:58.570 --> 00:12:01.653 align:middle line:84%
+A popular way of talking about
+the meanings of these kinds
+
+00:12:01.653 --> 00:12:03.570 align:middle line:84%
+of expressions-- these
+are called quantifiers,
+
+00:12:03.570 --> 00:12:07.620 align:middle line:84%
+these expressions which do
+fancier things with sets than
+
+00:12:07.620 --> 00:12:11.172 align:middle line:84%
+just say, oh yeah, this
+set is inside this set--
+
+00:12:11.172 --> 00:12:12.630 align:middle line:84%
+a popular way of
+talking about them
+
+00:12:12.630 --> 00:12:16.020 align:middle line:84%
+is to say they do
+fancier things with sets.
+
+00:12:16.020 --> 00:12:18.660 align:middle line:84%
+They allow you to do
+more interesting things
+
+00:12:18.660 --> 00:12:20.970 align:middle line:84%
+with set interaction
+than just say this set is
+
+00:12:20.970 --> 00:12:22.380 align:middle line:90%
+a subset of that set.
+
+00:12:22.380 --> 00:12:23.380 align:middle line:90%
+That's what they do.
+
+00:12:23.380 --> 00:12:25.680 align:middle line:90%
+That's what they're for.
+
+00:12:25.680 --> 00:12:28.847 align:middle line:84%
+Quantifiers have a bunch
+of interesting properties.
+
+00:12:28.847 --> 00:12:30.180 align:middle line:90%
+They're weird in other ways too.
+
+00:12:30.180 --> 00:12:33.060 align:middle line:84%
+So, for example, there
+is something called
+
+00:12:33.060 --> 00:12:35.760 align:middle line:90%
+the Law of Contradiction.
+
+00:12:35.760 --> 00:12:39.180 align:middle line:84%
+If-- the Law of Contradiction
+says if you take two predicates
+
+00:12:39.180 --> 00:12:43.660 align:middle line:84%
+that are contradictory, like
+"be inside" and "be outside,"
+
+00:12:43.660 --> 00:12:47.910 align:middle line:84%
+if you join me in imagining that
+it's not possible to be both
+
+00:12:47.910 --> 00:12:51.000 align:middle line:90%
+inside and outside--
+
+00:12:51.000 --> 00:12:52.553 align:middle line:84%
+and I can see some
+of you thinking
+
+00:12:52.553 --> 00:12:54.970 align:middle line:84%
+of alternative ways of thinking
+about the world in which--
+
+00:12:54.970 --> 00:12:58.000 align:middle line:84%
+but suppose I'm halfway
+inside and halfway outside.
+
+00:12:58.000 --> 00:12:59.760 align:middle line:90%
+Which am I?
+
+00:12:59.760 --> 00:13:02.035 align:middle line:84%
+I'm in the Department of
+Linguistics and Philosophy,
+
+00:13:02.035 --> 00:13:03.910 align:middle line:84%
+so I'm used to hearing
+people talk like that.
+
+00:13:03.910 --> 00:13:06.480 align:middle line:90%
+But please stop.
+
+00:13:06.480 --> 00:13:09.095 align:middle line:84%
+Just imagine that you're either
+inside or you are outside
+
+00:13:09.095 --> 00:13:09.720 align:middle line:90%
+and that's all.
+
+00:13:09.720 --> 00:13:12.000 align:middle line:84%
+And imagine that Paul
+is a single person.
+
+00:13:12.000 --> 00:13:14.700 align:middle line:84%
+There's only one person
+on Earth named Paul.
+
+00:13:14.700 --> 00:13:21.930 align:middle line:84%
+So then "Paul is inside and
+Paul is outside" cannot be true.
+
+00:13:21.930 --> 00:13:23.560 align:middle line:90%
+That's the Law of Contradiction.
+
+00:13:23.560 --> 00:13:27.150 align:middle line:84%
+So if you have two predicates
+that are opposites of each
+
+00:13:27.150 --> 00:13:29.760 align:middle line:84%
+other, cannot both be
+true of a single person,
+
+00:13:29.760 --> 00:13:33.360 align:middle line:84%
+then if you apply them
+to a single person,
+
+00:13:33.360 --> 00:13:35.080 align:middle line:84%
+then the sentence
+has to be false.
+
+00:13:35.080 --> 00:13:36.960 align:middle line:84%
+That's what that
+first example is.
+
+00:13:36.960 --> 00:13:39.600 align:middle line:84%
+It's an example of the
+Law of Contradiction.
+
+00:13:39.600 --> 00:13:42.390 align:middle line:84%
+But there are quantifiers
+like "several Americans,"
+
+00:13:42.390 --> 00:13:45.120 align:middle line:84%
+which just flagrantly violate
+the Law of Contradiction.
+
+00:13:45.120 --> 00:13:47.370 align:middle line:84%
+So "Several Americans are
+inside and several Americans
+
+00:13:47.370 --> 00:13:48.660 align:middle line:90%
+are outside"--
+
+00:13:48.660 --> 00:13:49.800 align:middle line:90%
+fine.
+
+00:13:49.800 --> 00:13:50.970 align:middle line:90%
+No problem.
+
+00:13:50.970 --> 00:13:52.680 align:middle line:84%
+And you don't have
+to play games with
+
+00:13:52.680 --> 00:13:55.110 align:middle line:84%
+whether if you're halfway
+inside or halfway outside
+
+00:13:55.110 --> 00:13:59.488 align:middle line:84%
+or you're inside the building
+but you're outside the campus
+
+00:13:59.488 --> 00:14:00.030 align:middle line:90%
+or something.
+
+00:14:00.030 --> 00:14:01.320 align:middle line:90%
+Just forget about all that.
+
+00:14:01.320 --> 00:14:06.320 align:middle line:90%
+
+
+00:14:06.320 --> 00:14:08.540 align:middle line:84%
+There are also
+quantifiers that fail
+
+00:14:08.540 --> 00:14:11.990 align:middle line:84%
+what's called the Law
+of the Excluded Middle.
+
+00:14:11.990 --> 00:14:13.880 align:middle line:84%
+The Law of the
+Excluded Middle says
+
+00:14:13.880 --> 00:14:17.930 align:middle line:84%
+if you have two predicates
+like "be under 6 feet tall"
+
+00:14:17.930 --> 00:14:22.260 align:middle line:84%
+and "be over 5 feet
+tall," then a sentence
+
+00:14:22.260 --> 00:14:24.240 align:middle line:84%
+like "Takashi is
+under 6 feet tall
+
+00:14:24.240 --> 00:14:29.230 align:middle line:84%
+or Takashi is over 5 feet
+tall" has to be true.
+
+00:14:29.230 --> 00:14:32.700 align:middle line:84%
+We don't have to measure Takashi
+to find out whether that's true
+
+00:14:32.700 --> 00:14:34.530 align:middle line:84%
+because the set
+of people who are
+
+00:14:34.530 --> 00:14:38.790 align:middle line:84%
+under 6 feet tall and the set of
+people who are over 5 feet tall
+
+00:14:38.790 --> 00:14:40.240 align:middle line:90%
+overlap.
+
+00:14:40.240 --> 00:14:42.030 align:middle line:84%
+If you have both of
+those sets together,
+
+00:14:42.030 --> 00:14:44.070 align:middle line:90%
+they cover all people.
+
+00:14:44.070 --> 00:14:47.730 align:middle line:84%
+Any height that someone
+is, they are at least one
+
+00:14:47.730 --> 00:14:49.980 align:middle line:84%
+of those two things,
+possibly both.
+
+00:14:49.980 --> 00:14:53.320 align:middle line:84%
+Someone who's between 5 feet
+tall and 6 feet tall is both.
+
+00:14:53.320 --> 00:14:56.410 align:middle line:84%
+And someone who's
+under 5 is under 6,
+
+00:14:56.410 --> 00:15:00.590 align:middle line:84%
+and someone who's over
+6 is, well, over 5.
+
+00:15:00.590 --> 00:15:01.760 align:middle line:90%
+That sound right?
+
+00:15:01.760 --> 00:15:06.290 align:middle line:84%
+These are two predicates
+such that here's 5 feet tall.
+
+00:15:06.290 --> 00:15:07.800 align:middle line:90%
+Here's 6 feet tall.
+
+00:15:07.800 --> 00:15:10.670 align:middle line:84%
+We're talking about people
+who are under 6 feet tall
+
+00:15:10.670 --> 00:15:13.190 align:middle line:84%
+and also the people who
+are over 5 feet tall.
+
+00:15:13.190 --> 00:15:15.500 align:middle line:90%
+Well, we've covered everybody.
+
+00:15:15.500 --> 00:15:17.360 align:middle line:84%
+So we don't have
+to look at Takashi.
+
+00:15:17.360 --> 00:15:20.592 align:middle line:84%
+We don't have to
+know who Takashi is.
+
+00:15:20.592 --> 00:15:21.800 align:middle line:90%
+That first sentence is true--
+
+00:15:21.800 --> 00:15:27.290 align:middle line:84%
+Takashi is under 6 feet tall
+or Takashi is over 5 feet tall.
+
+00:15:27.290 --> 00:15:30.590 align:middle line:84%
+But the second sentence
+is false, or at least
+
+00:15:30.590 --> 00:15:32.100 align:middle line:90%
+doesn't have to be true.
+
+00:15:32.100 --> 00:15:34.760 align:middle line:84%
+So "All Japanese men
+are under 6 feet tall
+
+00:15:34.760 --> 00:15:39.440 align:middle line:84%
+or all Japanese men
+are over 5 feet tall."
+
+00:15:39.440 --> 00:15:41.090 align:middle line:90%
+That could be false.
+
+00:15:41.090 --> 00:15:43.805 align:middle line:84%
+Can somebody name a context
+in which that would be false?
+
+00:15:43.805 --> 00:15:47.655 align:middle line:90%
+
+
+00:15:47.655 --> 00:15:49.280 align:middle line:84%
+I'm asking you to do
+it because I can't
+
+00:15:49.280 --> 00:15:50.630 align:middle line:90%
+do math while standing up here.
+
+00:15:50.630 --> 00:15:51.950 align:middle line:90%
+Yeah, Joseph.
+
+00:15:51.950 --> 00:15:55.483 align:middle line:84%
+AUDIENCE: There happened
+to be a particularly tall--
+
+00:15:55.483 --> 00:15:58.360 align:middle line:84%
+someone who's over 6 feet,
+or particularly short
+
+00:15:58.360 --> 00:16:01.677 align:middle line:84%
+under 5 feet [INAUDIBLE],, and
+the population of Japanese men
+
+00:16:01.677 --> 00:16:02.710 align:middle line:90%
+are [INAUDIBLE].
+
+00:16:02.710 --> 00:16:04.822 align:middle line:90%
+
+
+00:16:04.822 --> 00:16:06.530 align:middle line:84%
+NORVIN RICHARDS: Yeah,
+there we go, good.
+
+00:16:06.530 --> 00:16:08.810 align:middle line:84%
+So as long as you have at
+least one Japanese man who's
+
+00:16:08.810 --> 00:16:10.910 align:middle line:84%
+over 6 feet tall and at
+least one Japanese man who
+
+00:16:10.910 --> 00:16:13.160 align:middle line:84%
+is under 5 feet tall, the
+rest of the Japanese men
+
+00:16:13.160 --> 00:16:14.580 align:middle line:90%
+can all do whatever they want.
+
+00:16:14.580 --> 00:16:16.970 align:middle line:90%
+The sentence will be false.
+
+00:16:16.970 --> 00:16:18.110 align:middle line:90%
+Good.
+
+00:16:18.110 --> 00:16:21.080 align:middle line:84%
+So quantifier
+phrases, quantifiers,
+
+00:16:21.080 --> 00:16:23.690 align:middle line:84%
+quantification expressions,
+like "all Japanese men"
+
+00:16:23.690 --> 00:16:28.610 align:middle line:84%
+or "some Italians"
+or "no Italians,"
+
+00:16:28.610 --> 00:16:36.410 align:middle line:84%
+fail these otherwise
+reliable generalizations
+
+00:16:36.410 --> 00:16:40.100 align:middle line:90%
+about sentences.
+
+00:16:40.100 --> 00:16:43.070 align:middle line:84%
+So expressions like "no
+Turks" or "several Americans"
+
+00:16:43.070 --> 00:16:44.810 align:middle line:84%
+or "all Italians"
+or "most Ukrainians"
+
+00:16:44.810 --> 00:16:46.380 align:middle line:90%
+don't refer to sets of people.
+
+00:16:46.380 --> 00:16:47.130 align:middle line:90%
+What do they mean?
+
+00:16:47.130 --> 00:16:50.970 align:middle line:90%
+Well, what they do is they--
+
+00:16:50.970 --> 00:16:53.960 align:middle line:84%
+already said this-- these words
+at the beginning, like "no"
+
+00:16:53.960 --> 00:16:59.540 align:middle line:84%
+or "several" or "all" or
+"most," are doing cool set
+
+00:16:59.540 --> 00:17:03.440 align:middle line:84%
+theoretic things with the set
+that they are combining with.
+
+00:17:03.440 --> 00:17:07.190 align:middle line:84%
+So the set of Turks or Americans
+or Italians or Ukrainians,
+
+00:17:07.190 --> 00:17:09.829 align:middle line:84%
+they're causing that set to
+interact in interesting ways
+
+00:17:09.829 --> 00:17:12.387 align:middle line:84%
+with a set that's determined
+by the rest of the sentence.
+
+00:17:12.387 --> 00:17:13.970 align:middle line:84%
+In order to talk
+about this, let me do
+
+00:17:13.970 --> 00:17:18.488 align:middle line:90%
+a quick review of set theory.
+
+00:17:18.488 --> 00:17:20.530 align:middle line:84%
+You're not going to need
+to very much that theory
+
+00:17:20.530 --> 00:17:21.859 align:middle line:90%
+in order to do this.
+
+00:17:21.859 --> 00:17:24.069 align:middle line:84%
+I tell you this because I
+don't very much set theory,
+
+00:17:24.069 --> 00:17:27.970 align:middle line:84%
+and I can do this, so
+I'll just show you what
+
+00:17:27.970 --> 00:17:30.980 align:middle line:90%
+I'm going to show you here.
+
+00:17:30.980 --> 00:17:34.270 align:middle line:90%
+Here are two sets, pi and phi--
+
+00:17:34.270 --> 00:17:35.470 align:middle line:90%
+a Venn diagram.
+
+00:17:35.470 --> 00:17:37.750 align:middle line:84%
+It's hopefully not
+too unfamiliar.
+
+00:17:37.750 --> 00:17:41.590 align:middle line:84%
+Two sets, pi and phi,
+which have an overlap
+
+00:17:41.590 --> 00:17:44.290 align:middle line:84%
+that contains D and F,
+and then there are also
+
+00:17:44.290 --> 00:17:47.178 align:middle line:84%
+things that are only in pi
+and not in phi, like A and B.
+
+00:17:47.178 --> 00:17:49.720 align:middle line:84%
+And there are some things that
+are only in phi and not in pi,
+
+00:17:49.720 --> 00:17:51.520 align:middle line:90%
+like C and E. That sound right?
+
+00:17:51.520 --> 00:17:55.020 align:middle line:84%
+People are all familiar
+with Venn diagrams.
+
+00:17:55.020 --> 00:17:59.970 align:middle line:84%
+We say that D and F is the
+intersection of pi and phi,
+
+00:17:59.970 --> 00:18:04.140 align:middle line:84%
+and that little hoop
+is the thing that you
+
+00:18:04.140 --> 00:18:07.380 align:middle line:90%
+use to express intersection.
+
+00:18:07.380 --> 00:18:12.997 align:middle line:84%
+And we say that A, B, C, D, and
+F is the union of pi and phi,
+
+00:18:12.997 --> 00:18:15.330 align:middle line:84%
+where I have, for some reason,
+used the word "of" twice.
+
+00:18:15.330 --> 00:18:18.900 align:middle line:84%
+I'll try to fix that
+before I put up the slides.
+
+00:18:18.900 --> 00:18:21.450 align:middle line:84%
+And the little thing that
+looks more or less like a U
+
+00:18:21.450 --> 00:18:24.510 align:middle line:90%
+is the expression for union.
+
+00:18:24.510 --> 00:18:28.410 align:middle line:84%
+We also say that A, B,
+and D is a subset of pi,
+
+00:18:28.410 --> 00:18:31.515 align:middle line:84%
+and there's a symbol that's
+used sometimes for subsets.
+
+00:18:31.515 --> 00:18:34.560 align:middle line:90%
+
+
+00:18:34.560 --> 00:18:39.970 align:middle line:84%
+None of this seems alarming--
+subsets, union, intersection?
+
+00:18:39.970 --> 00:18:42.285 align:middle line:84%
+OK, so here's the
+popular answer--
+
+00:18:42.285 --> 00:18:44.410 align:middle line:84%
+which we've now already
+gone through for quantifier
+
+00:18:44.410 --> 00:18:47.590 align:middle line:84%
+meaning-- what we say is
+when you're saying something
+
+00:18:47.590 --> 00:18:52.120 align:middle line:84%
+like "All Americans eat junk
+food" is you are asserting
+
+00:18:52.120 --> 00:18:54.040 align:middle line:84%
+a relation between
+the set of Americans
+
+00:18:54.040 --> 00:18:56.882 align:middle line:90%
+and the set of junk food eaters.
+
+00:18:56.882 --> 00:18:58.840 align:middle line:84%
+You're saying something
+about what happens when
+
+00:18:58.840 --> 00:19:02.590 align:middle line:90%
+you intersect those two sets.
+
+00:19:02.590 --> 00:19:05.530 align:middle line:84%
+And depending on what
+quantifier you're using,
+
+00:19:05.530 --> 00:19:07.080 align:middle line:84%
+you're making
+different assertions
+
+00:19:07.080 --> 00:19:08.830 align:middle line:84%
+about the relation
+between these two sets.
+
+00:19:08.830 --> 00:19:14.206 align:middle line:84%
+So "all" says set number one
+is a subset of set number two--
+
+00:19:14.206 --> 00:19:15.395 align:middle line:90%
+what some say.
+
+00:19:15.395 --> 00:19:18.125 align:middle line:90%
+
+
+00:19:18.125 --> 00:19:19.085 align:middle line:90%
+Yeah, [INAUDIBLE]?
+
+00:19:19.085 --> 00:19:20.960 align:middle line:84%
+AUDIENCE: The intersection
+is not a null set.
+
+00:19:20.960 --> 00:19:23.180 align:middle line:84%
+NORVIN RICHARDS: Yeah, the
+intersection is nonempty.
+
+00:19:23.180 --> 00:19:24.930 align:middle line:84%
+So there are things
+that are in both sets.
+
+00:19:24.930 --> 00:19:28.070 align:middle line:90%
+
+
+00:19:28.070 --> 00:19:31.730 align:middle line:84%
+"No" says the intersection of
+set one and set two is empty--
+
+00:19:31.730 --> 00:19:33.410 align:middle line:90%
+"No Americans eat nattoo"--
+
+00:19:33.410 --> 00:19:35.110 align:middle line:90%
+are people familiar with nattoo?
+
+00:19:35.110 --> 00:19:36.860 align:middle line:84%
+Have we talked about
+nattoo in this class?
+
+00:19:36.860 --> 00:19:39.560 align:middle line:84%
+Yes, some of us are
+from nattoo cultures.
+
+00:19:39.560 --> 00:19:43.670 align:middle line:90%
+Nattoo is a Japanese food.
+
+00:19:43.670 --> 00:19:46.460 align:middle line:84%
+It's very good, and
+it's good for you.
+
+00:19:46.460 --> 00:19:48.985 align:middle line:84%
+It's high in protein, but it's
+one of those kinds of food--
+
+00:19:48.985 --> 00:19:51.110 align:middle line:84%
+I think a lot of cultures
+have something like this.
+
+00:19:51.110 --> 00:19:54.050 align:middle line:84%
+It's a kind of food one
+of the points of which
+
+00:19:54.050 --> 00:19:56.180 align:middle line:84%
+is to feed it to
+outsiders so that you
+
+00:19:56.180 --> 00:19:59.010 align:middle line:90%
+can watch and be amused.
+
+00:19:59.010 --> 00:20:01.790 align:middle line:84%
+So this happened to me
+when I was living in Japan.
+
+00:20:01.790 --> 00:20:05.330 align:middle line:84%
+We were visiting some the family
+of a Japanese friend of mine,
+
+00:20:05.330 --> 00:20:07.622 align:middle line:84%
+and the mother made me
+up a big dish of nattoo
+
+00:20:07.622 --> 00:20:09.830 align:middle line:84%
+and they put it in front of
+me, and the entire family
+
+00:20:09.830 --> 00:20:11.720 align:middle line:90%
+gathered around to watch.
+
+00:20:11.720 --> 00:20:13.430 align:middle line:84%
+So you see what is
+he going to do?--
+
+00:20:13.430 --> 00:20:17.010 align:middle line:90%
+Nattoo is fermented soybeans.
+
+00:20:17.010 --> 00:20:23.660 align:middle line:84%
+So the soybeans are covered
+in a thin layer of slime,
+
+00:20:23.660 --> 00:20:27.680 align:middle line:84%
+and then you mix this up
+with rice and often mustard
+
+00:20:27.680 --> 00:20:29.000 align:middle line:90%
+and soy sauce.
+
+00:20:29.000 --> 00:20:29.750 align:middle line:90%
+It's really tasty.
+
+00:20:29.750 --> 00:20:31.542 align:middle line:84%
+It's really good, but
+it's also very messy.
+
+00:20:31.542 --> 00:20:34.042 align:middle line:84%
+So if you're like me and
+you have facial hair,
+
+00:20:34.042 --> 00:20:35.750 align:middle line:84%
+by the time you're
+done, your entire face
+
+00:20:35.750 --> 00:20:38.180 align:middle line:84%
+is covered in
+nattoo slime, so you
+
+00:20:38.180 --> 00:20:39.960 align:middle line:84%
+have to go take a
+shower after you eat.
+
+00:20:39.960 --> 00:20:42.110 align:middle line:90%
+But it's good for you.
+
+00:20:42.110 --> 00:20:43.460 align:middle line:90%
+Tasty stuff.
+
+00:20:43.460 --> 00:20:45.380 align:middle line:84%
+So it's not true that
+no Americans eat nattoo,
+
+00:20:45.380 --> 00:20:46.255 align:middle line:90%
+but it's grammatical.
+
+00:20:46.255 --> 00:20:48.147 align:middle line:84%
+And what it means is
+the set of Americans--
+
+00:20:48.147 --> 00:20:49.730 align:middle line:84%
+you're looking at
+the set of Americans
+
+00:20:49.730 --> 00:20:51.397 align:middle line:84%
+and the set of nattoo
+eaters, and you're
+
+00:20:51.397 --> 00:20:53.940 align:middle line:84%
+saying the intersection
+of those sets is empty.
+
+00:20:53.940 --> 00:20:57.770 align:middle line:84%
+There's nothing that's
+in both of these sets.
+
+00:20:57.770 --> 00:21:00.740 align:middle line:84%
+OK, I don't know whether
+we have a food like that
+
+00:21:00.740 --> 00:21:03.427 align:middle line:84%
+in our culture, a food
+that you feed to people
+
+00:21:03.427 --> 00:21:05.510 align:middle line:84%
+in order to be amused by
+their attempts to eat it.
+
+00:21:05.510 --> 00:21:07.310 align:middle line:84%
+This is something
+to think about.
+
+00:21:07.310 --> 00:21:08.780 align:middle line:84%
+I can tell you that the
+Tagalog version of it though.
+
+00:21:08.780 --> 00:21:11.238 align:middle line:84%
+I'm sorry, I'll start talking
+about sets again in a second.
+
+00:21:11.238 --> 00:21:13.910 align:middle line:84%
+The Tagalog version of this
+is something called balut.
+
+00:21:13.910 --> 00:21:15.800 align:middle line:84%
+Have I talked about
+it in this class?
+
+00:21:15.800 --> 00:21:16.730 align:middle line:90%
+You've had balut too?
+
+00:21:16.730 --> 00:21:18.020 align:middle line:90%
+You're an adventurous person.
+
+00:21:18.020 --> 00:21:21.485 align:middle line:84%
+AUDIENCE: I have
+not had [INAUDIBLE]..
+
+00:21:21.485 --> 00:21:22.897 align:middle line:90%
+NORVIN RICHARDS: Not balut, OK.
+
+00:21:22.897 --> 00:21:24.230 align:middle line:90%
+AUDIENCE: --a whole other level.
+
+00:21:24.230 --> 00:21:27.860 align:middle line:84%
+NORVIN RICHARDS: Yeah,
+balut is a duck's egg
+
+00:21:27.860 --> 00:21:29.720 align:middle line:84%
+that has been allowed
+to be fertilized.
+
+00:21:29.720 --> 00:21:31.345 align:middle line:84%
+It's a popular food
+in the Philippines,
+
+00:21:31.345 --> 00:21:32.813 align:middle line:90%
+so people sell it in the street.
+
+00:21:32.813 --> 00:21:34.730 align:middle line:84%
+You have balut sellers
+who walk around saying,
+
+00:21:34.730 --> 00:21:39.170 align:middle line:84%
+balut [NON-ENGLISH],, which means
+"Balut strengthens your knees."
+
+00:21:39.170 --> 00:21:42.590 align:middle line:84%
+That's apparently the
+standard thing you say.
+
+00:21:42.590 --> 00:21:46.100 align:middle line:84%
+And balut is a duck's egg
+that's been fertilized and then
+
+00:21:46.100 --> 00:21:47.738 align:middle line:90%
+hardboiled before it hatches.
+
+00:21:47.738 --> 00:21:49.280 align:middle line:84%
+So you've got a
+hardboiled duck's egg
+
+00:21:49.280 --> 00:21:53.148 align:middle line:84%
+with a duck embryo inside,
+which you're supposed to eat.
+
+00:21:53.148 --> 00:21:54.690 align:middle line:84%
+When I was living
+in the Philippines,
+
+00:21:54.690 --> 00:21:56.810 align:middle line:84%
+my host brother got
+me got me a balut.
+
+00:21:56.810 --> 00:21:58.993 align:middle line:90%
+And we were in a dark room.
+
+00:21:58.993 --> 00:22:00.410 align:middle line:84%
+He handed me the
+balut, and I went
+
+00:22:00.410 --> 00:22:05.270 align:middle line:84%
+to turn on the light he
+was like, no, just eat it.
+
+00:22:05.270 --> 00:22:08.280 align:middle line:84%
+And I unfortunately turned on
+the light, so I chickened out.
+
+00:22:08.280 --> 00:22:12.380 align:middle line:84%
+I looked at it, and there's a
+little duck looking up at me.
+
+00:22:12.380 --> 00:22:14.160 align:middle line:90%
+Pretty weird.
+
+00:22:14.160 --> 00:22:17.270 align:middle line:84%
+So quantifiers-- so that's
+their version of that.
+
+00:22:17.270 --> 00:22:23.300 align:middle line:84%
+Quantifiers then-- quantifiers
+like all or no or three--
+
+00:22:23.300 --> 00:22:27.470 align:middle line:84%
+are saying things about the
+interactions of the two sets.
+
+00:22:27.470 --> 00:22:30.230 align:middle line:90%
+So "all" says the first set.
+
+00:22:30.230 --> 00:22:34.280 align:middle line:84%
+So in a sentence like "All
+Americans eat nattoo,"
+
+00:22:34.280 --> 00:22:35.900 align:middle line:84%
+the first set is
+the set of Americans
+
+00:22:35.900 --> 00:22:38.780 align:middle line:84%
+and the second set is
+the set of nattoo eaters,
+
+00:22:38.780 --> 00:22:41.540 align:middle line:84%
+"all" says the first set is
+a subset of the second set.
+
+00:22:41.540 --> 00:22:44.390 align:middle line:84%
+"Some" says the intersection
+of these sets is nonempty.
+
+00:22:44.390 --> 00:22:47.350 align:middle line:84%
+"No" says the intersection
+of these sets is empty.
+
+00:22:47.350 --> 00:22:49.850 align:middle line:84%
+"Three" says, if you look at
+the intersection of these sets,
+
+00:22:49.850 --> 00:22:51.050 align:middle line:90%
+you will find three things.
+
+00:22:51.050 --> 00:22:53.403 align:middle line:90%
+That has cardinality three.
+
+00:22:53.403 --> 00:22:55.445 align:middle line:84%
+That's the kind of meaning
+that a quantifier has.
+
+00:22:55.445 --> 00:23:01.120 align:middle line:90%
+
+
+00:23:01.120 --> 00:23:04.120 align:middle line:84%
+If you're already
+familiar with set theory,
+
+00:23:04.120 --> 00:23:06.610 align:middle line:84%
+it's obviously
+interesting to try
+
+00:23:06.610 --> 00:23:10.630 align:middle line:84%
+to think about what kinds of
+intersections between sets
+
+00:23:10.630 --> 00:23:14.200 align:middle line:90%
+quantifiers can state.
+
+00:23:14.200 --> 00:23:18.610 align:middle line:84%
+So mathematicians can
+get sets to tangle
+
+00:23:18.610 --> 00:23:20.980 align:middle line:84%
+with each other in all
+kinds of entertaining ways.
+
+00:23:20.980 --> 00:23:23.860 align:middle line:84%
+I mean, there are all kinds of
+things you can get sets to do.
+
+00:23:23.860 --> 00:23:26.920 align:middle line:84%
+It turns out that natural
+language quantifiers
+
+00:23:26.920 --> 00:23:31.180 align:middle line:84%
+are what's called conservative,
+which means that you can always
+
+00:23:31.180 --> 00:23:35.410 align:middle line:84%
+replace set number two with the
+intersection of set number one
+
+00:23:35.410 --> 00:23:37.630 align:middle line:84%
+and set number two and
+get the same meaning.
+
+00:23:37.630 --> 00:23:38.297 align:middle line:90%
+That is to say--
+
+00:23:38.297 --> 00:23:40.380 align:middle line:84%
+maybe I'm about to do this
+on the slide, but here,
+
+00:23:40.380 --> 00:23:41.800 align:middle line:90%
+we'll do it on the board--
+
+00:23:41.800 --> 00:23:46.672 align:middle line:84%
+if this is set number one
+and this is set number two,
+
+00:23:46.672 --> 00:23:48.130 align:middle line:84%
+I've been talking
+about quantifiers
+
+00:23:48.130 --> 00:23:49.505 align:middle line:84%
+as though they
+tell you something
+
+00:23:49.505 --> 00:23:51.470 align:middle line:90%
+about this set and this set.
+
+00:23:51.470 --> 00:23:56.125 align:middle line:84%
+But all of the quantifiers can
+be stated in terms of this set,
+
+00:23:56.125 --> 00:24:00.550 align:middle line:84%
+set number one, and this area
+here, the intersection of set
+
+00:24:00.550 --> 00:24:01.960 align:middle line:90%
+number one and set number two.
+
+00:24:01.960 --> 00:24:06.880 align:middle line:84%
+This part of set
+number two is always
+
+00:24:06.880 --> 00:24:09.280 align:middle line:84%
+irrelevant to the
+meaning of a quantifier.
+
+00:24:09.280 --> 00:24:14.110 align:middle line:84%
+That's a fact about natural
+language quantifiers.
+
+00:24:14.110 --> 00:24:16.790 align:middle line:90%
+And it's not a necessary fact.
+
+00:24:16.790 --> 00:24:19.900 align:middle line:84%
+So here's an example, if
+I say "All opera singers
+
+00:24:19.900 --> 00:24:22.090 align:middle line:84%
+smoke," which I
+believe to be false,
+
+00:24:22.090 --> 00:24:25.600 align:middle line:84%
+but anyway, I'm making a
+claim about the relationship
+
+00:24:25.600 --> 00:24:28.943 align:middle line:84%
+between the set of opera
+singers and the set of smokers.
+
+00:24:28.943 --> 00:24:30.610 align:middle line:84%
+I'm saying that the
+set of opera singers
+
+00:24:30.610 --> 00:24:34.320 align:middle line:84%
+is completely contained
+in the set of smokers.
+
+00:24:34.320 --> 00:24:37.230 align:middle line:84%
+But that's essentially
+the same thing.
+
+00:24:37.230 --> 00:24:40.320 align:middle line:84%
+It is the same thing as saying
+that all opera singers are
+
+00:24:40.320 --> 00:24:41.460 align:middle line:90%
+opera singers who smoke.
+
+00:24:41.460 --> 00:24:44.370 align:middle line:84%
+That is, opera singers are all
+in the set of smoking opera
+
+00:24:44.370 --> 00:24:46.020 align:middle line:90%
+singers.
+
+00:24:46.020 --> 00:24:50.790 align:middle line:84%
+We don't care about smokers
+who are not opera singers when
+
+00:24:50.790 --> 00:24:54.210 align:middle line:84%
+we are thinking about the
+meaning of "All opera singers
+
+00:24:54.210 --> 00:24:55.390 align:middle line:90%
+smoke."
+
+00:24:55.390 --> 00:24:57.450 align:middle line:84%
+So if I tell you "All
+opera singers smoke"
+
+00:24:57.450 --> 00:25:00.570 align:middle line:84%
+and you begin to talk to me
+about someone who smokes and is
+
+00:25:00.570 --> 00:25:04.270 align:middle line:84%
+not an opera singer, which
+may be fun to talk about that,
+
+00:25:04.270 --> 00:25:06.760 align:middle line:84%
+but it's not relevant to
+the truth of my claim.
+
+00:25:06.760 --> 00:25:10.230 align:middle line:84%
+The truth of my claim is only
+about the set of opera singers
+
+00:25:10.230 --> 00:25:12.258 align:middle line:84%
+and the set of
+smoking opera singers.
+
+00:25:12.258 --> 00:25:13.800 align:middle line:84%
+It says that the
+set of opera singers
+
+00:25:13.800 --> 00:25:16.950 align:middle line:84%
+is completely contained in the
+set of smoking opera singers.
+
+00:25:16.950 --> 00:25:18.760 align:middle line:90%
+Does that make sense?
+
+00:25:18.760 --> 00:25:21.060 align:middle line:84%
+So if I say "All opera singers
+smoke" and you tell me,
+
+00:25:21.060 --> 00:25:23.550 align:middle line:84%
+"Oh no, Arnold
+Schwarzenegger smokes,
+
+00:25:23.550 --> 00:25:27.210 align:middle line:84%
+and he's not an opera singer,"
+you haven't contradicted me.
+
+00:25:27.210 --> 00:25:28.080 align:middle line:90%
+It doesn't matter.
+
+00:25:28.080 --> 00:25:31.860 align:middle line:90%
+
+
+00:25:31.860 --> 00:25:33.350 align:middle line:84%
+You can imagine
+quantifiers which
+
+00:25:33.350 --> 00:25:34.438 align:middle line:90%
+would not be conservative.
+
+00:25:34.438 --> 00:25:35.480 align:middle line:90%
+So I've just made one up.
+
+00:25:35.480 --> 00:25:37.310 align:middle line:90%
+Here's a quantifier, "glorp."
+
+00:25:37.310 --> 00:25:41.480 align:middle line:84%
+It says, if you add up all of
+the things in set number one
+
+00:25:41.480 --> 00:25:44.030 align:middle line:84%
+and set number two, so the
+union of set number one
+
+00:25:44.030 --> 00:25:46.490 align:middle line:84%
+and set number two
+has cardinality three.
+
+00:25:46.490 --> 00:25:48.050 align:middle line:90%
+I just made up glorp.
+
+00:25:48.050 --> 00:25:49.670 align:middle line:90%
+I'll give you an example.
+
+00:25:49.670 --> 00:25:52.910 align:middle line:84%
+It would be true, in this
+picture, that glorp circles are
+
+00:25:52.910 --> 00:25:57.900 align:middle line:84%
+red because if you add
+up the number of circles
+
+00:25:57.900 --> 00:26:02.690 align:middle line:84%
+and the number of red
+things, the total is three.
+
+00:26:02.690 --> 00:26:06.150 align:middle line:84%
+There are two circles
+and one red thing.
+
+00:26:06.150 --> 00:26:09.740 align:middle line:84%
+So if there were a
+quantifier glorp,
+
+00:26:09.740 --> 00:26:11.900 align:middle line:84%
+then you could say
+that glorp circles
+
+00:26:11.900 --> 00:26:14.600 align:middle line:90%
+are red in this picture.
+
+00:26:14.600 --> 00:26:17.720 align:middle line:84%
+There is no quantifier
+glorp, not in English and not
+
+00:26:17.720 --> 00:26:19.820 align:middle line:84%
+in any language on Earth
+as far as we can tell.
+
+00:26:19.820 --> 00:26:22.910 align:middle line:84%
+So quantifiers don't ever
+do this kind of thing.
+
+00:26:22.910 --> 00:26:24.890 align:middle line:84%
+And this would be a
+nonconservative quantifier
+
+00:26:24.890 --> 00:26:27.650 align:middle line:84%
+because in order
+to evaluate glorp,
+
+00:26:27.650 --> 00:26:30.350 align:middle line:84%
+you would have to look not just
+at the part of set number two
+
+00:26:30.350 --> 00:26:33.440 align:middle line:84%
+that's intersecting
+with set number one,
+
+00:26:33.440 --> 00:26:36.020 align:middle line:84%
+but also at the part
+of set number two
+
+00:26:36.020 --> 00:26:38.330 align:middle line:84%
+that I've hatched out
+here, the part that's
+
+00:26:38.330 --> 00:26:39.860 align:middle line:90%
+not part of set number one.
+
+00:26:39.860 --> 00:26:42.170 align:middle line:84%
+So this is a
+nonconservative quantifier,
+
+00:26:42.170 --> 00:26:44.000 align:middle line:90%
+and there aren't any.
+
+00:26:44.000 --> 00:26:44.780 align:middle line:90%
+That's the point.
+
+00:26:44.780 --> 00:26:49.360 align:middle line:90%
+
+
+00:26:49.360 --> 00:26:51.870 align:middle line:90%
+OK, good.
+
+00:26:51.870 --> 00:26:55.500 align:middle line:90%
+So just practice some more--
+
+00:26:55.500 --> 00:26:59.130 align:middle line:90%
+so "all Brazilians love soccer."
+
+00:26:59.130 --> 00:27:01.890 align:middle line:84%
+There's this danger when
+you do simple sentences
+
+00:27:01.890 --> 00:27:04.740 align:middle line:84%
+with qualifiers in them that you
+will find yourself trafficking
+
+00:27:04.740 --> 00:27:05.850 align:middle line:90%
+in stereotypes.
+
+00:27:05.850 --> 00:27:08.127 align:middle line:84%
+This is why I like
+to use examples
+
+00:27:08.127 --> 00:27:10.710 align:middle line:84%
+like "All opera singers smoke,"
+which there isn't a stereotype
+
+00:27:10.710 --> 00:27:14.290 align:middle line:90%
+about as far as I know.
+
+00:27:14.290 --> 00:27:16.590 align:middle line:84%
+So, of course, it's not
+true that all Brazilians
+
+00:27:16.590 --> 00:27:17.100 align:middle line:90%
+love soccer.
+
+00:27:17.100 --> 00:27:19.050 align:middle line:90%
+It might almost be true.
+
+00:27:19.050 --> 00:27:23.010 align:middle line:84%
+It says there's a relation
+between the set of Brazilians
+
+00:27:23.010 --> 00:27:25.140 align:middle line:84%
+and the set of people
+who love soccer--
+
+00:27:25.140 --> 00:27:27.930 align:middle line:84%
+namely, the first set is a
+subset of the second set.
+
+00:27:27.930 --> 00:27:30.660 align:middle line:84%
+If you look at the set of
+people who love soccer,
+
+00:27:30.660 --> 00:27:32.820 align:middle line:84%
+inside that set,
+you will find all
+
+00:27:32.820 --> 00:27:35.190 align:middle line:84%
+of the Brazilians, the
+people in the Brazilian set.
+
+00:27:35.190 --> 00:27:38.770 align:middle line:90%
+
+
+00:27:38.770 --> 00:27:42.100 align:middle line:84%
+Let's talk a little more
+about how we get these sets,
+
+00:27:42.100 --> 00:27:44.390 align:middle line:84%
+just to be slightly
+more formal about it.
+
+00:27:44.390 --> 00:27:47.230 align:middle line:84%
+So what we'll say is the
+set of Brazilians-- maybe
+
+00:27:47.230 --> 00:27:48.430 align:middle line:90%
+that's not such a mystery.
+
+00:27:48.430 --> 00:27:50.050 align:middle line:90%
+So all Brazilians love soccer--
+
+00:27:50.050 --> 00:27:54.110 align:middle line:84%
+you're taking the set from
+the rest of the noun phrase.
+
+00:27:54.110 --> 00:27:57.457 align:middle line:84%
+So "All Brazilians
+love soccer"--
+
+00:27:57.457 --> 00:27:59.290 align:middle line:84%
+the first set is just
+the set of Brazilians,
+
+00:27:59.290 --> 00:28:02.110 align:middle line:84%
+the thing that comes after all
+that's part of the noun phrase
+
+00:28:02.110 --> 00:28:03.640 align:middle line:90%
+there.
+
+00:28:03.640 --> 00:28:07.120 align:middle line:84%
+If it were more extensive
+than just Brazilians, then
+
+00:28:07.120 --> 00:28:08.210 align:middle line:90%
+that set might change.
+
+00:28:08.210 --> 00:28:11.410 align:middle line:84%
+So if I said something like "All
+female Brazilians love soccer,"
+
+00:28:11.410 --> 00:28:15.010 align:middle line:84%
+"All Brazilians from
+São Paulo" love soccer,
+
+00:28:15.010 --> 00:28:18.200 align:middle line:84%
+we'd have a different set,
+Brazilians from São Paulo.
+
+00:28:18.200 --> 00:28:19.630 align:middle line:90%
+And then the second set--
+
+00:28:19.630 --> 00:28:23.680 align:middle line:84%
+what we're doing is we're
+taking the set of things x such
+
+00:28:23.680 --> 00:28:25.390 align:middle line:90%
+that x loves soccer.
+
+00:28:25.390 --> 00:28:28.270 align:middle line:84%
+We're getting that
+set by replacing
+
+00:28:28.270 --> 00:28:31.370 align:middle line:84%
+the quantifier "all
+Brazilians" with a variable.
+
+00:28:31.370 --> 00:28:33.490 align:middle line:84%
+So we start off with "All
+Brazilians love soccer."
+
+00:28:33.490 --> 00:28:35.115 align:middle line:84%
+We're going to replace
+"All Brazilians"
+
+00:28:35.115 --> 00:28:36.940 align:middle line:90%
+with a variable called x.
+
+00:28:36.940 --> 00:28:38.110 align:middle line:90%
+So x loves soccer.
+
+00:28:38.110 --> 00:28:40.000 align:middle line:84%
+So the second set
+is the set of x.
+
+00:28:40.000 --> 00:28:43.090 align:middle line:84%
+We have this property
+x loves soccer.
+
+00:28:43.090 --> 00:28:46.385 align:middle line:84%
+This is just an attempt to do
+very slightly more formally
+
+00:28:46.385 --> 00:28:48.010 align:middle line:84%
+what I've been kind
+of breezing through
+
+00:28:48.010 --> 00:28:49.180 align:middle line:90%
+in the preceding slides.
+
+00:28:49.180 --> 00:28:52.630 align:middle line:84%
+But does any of this seem
+alarming or disturbing?
+
+00:28:52.630 --> 00:28:54.430 align:middle line:90%
+Is it causing unhappiness?
+
+00:28:54.430 --> 00:28:56.972 align:middle line:84%
+Have you all had your
+nattoo this morning?
+
+00:28:56.972 --> 00:28:58.930 align:middle line:84%
+This is good-- maybe I
+should bring some nattoo
+
+00:28:58.930 --> 00:29:00.990 align:middle line:84%
+and I can stand
+around and watch.
+
+00:29:00.990 --> 00:29:04.240 align:middle line:90%
+It would be revenge.
+
+00:29:04.240 --> 00:29:06.338 align:middle line:84%
+I will not bring
+a balut to class.
+
+00:29:06.338 --> 00:29:07.630 align:middle line:90%
+Not sure where I would get one.
+
+00:29:07.630 --> 00:29:10.710 align:middle line:90%
+
+
+00:29:10.710 --> 00:29:15.720 align:middle line:84%
+So it's worth doing this because
+doing this slight formalization
+
+00:29:15.720 --> 00:29:18.030 align:middle line:84%
+of what we've been doing
+because, well, I've
+
+00:29:18.030 --> 00:29:20.088 align:middle line:84%
+have been carefully
+giving you examples
+
+00:29:20.088 --> 00:29:21.630 align:middle line:84%
+in which the quantifier
+is a subject,
+
+00:29:21.630 --> 00:29:23.880 align:middle line:84%
+but, of course, quantifiers
+don't have to be subjects.
+
+00:29:23.880 --> 00:29:28.260 align:middle line:84%
+You can say things like
+"Soccer bores all Americans."
+
+00:29:28.260 --> 00:29:31.840 align:middle line:84%
+Here, the first set is going
+to be the set of Americans.
+
+00:29:31.840 --> 00:29:34.100 align:middle line:90%
+What's the second set?
+
+00:29:34.100 --> 00:29:35.870 align:middle line:84%
+So "Americans" as a
+subset of what set?
+
+00:29:35.870 --> 00:29:38.890 align:middle line:90%
+
+
+00:29:38.890 --> 00:29:41.700 align:middle line:90%
+Again, what we do is--
+
+00:29:41.700 --> 00:29:42.780 align:middle line:90%
+sorry, go ahead.
+
+00:29:42.780 --> 00:29:44.657 align:middle line:84%
+AUDIENCE: X such
+that soccer bores x?
+
+00:29:44.657 --> 00:29:46.740 align:middle line:84%
+NORVIN RICHARDS: Yeah, x
+such that soccer bores x.
+
+00:29:46.740 --> 00:29:49.890 align:middle line:84%
+So we take this sentence, we
+replace "all Americans" with x,
+
+00:29:49.890 --> 00:29:53.532 align:middle line:84%
+and now we have the set of
+x such that soccer bores x.
+
+00:29:53.532 --> 00:29:55.240 align:middle line:84%
+X doesn't have to be
+in subject position.
+
+00:29:55.240 --> 00:29:56.760 align:middle line:90%
+That's the only point here.
+
+00:29:56.760 --> 00:29:59.022 align:middle line:90%
+That can be anywhere.
+
+00:29:59.022 --> 00:30:03.090 align:middle line:84%
+So that's how we'll do
+the meaning of qualifiers.
+
+00:30:03.090 --> 00:30:05.490 align:middle line:84%
+So it says "Americans"
+is a subset
+
+00:30:05.490 --> 00:30:09.060 align:middle line:84%
+of the people whom soccer bores,
+the x such that soccer bores x.
+
+00:30:09.060 --> 00:30:11.310 align:middle line:84%
+So the quantifier has been
+replaced with the variable.
+
+00:30:11.310 --> 00:30:15.540 align:middle line:90%
+
+
+00:30:15.540 --> 00:30:19.020 align:middle line:84%
+So now we can get
+back to the ambiguity
+
+00:30:19.020 --> 00:30:21.900 align:middle line:84%
+that I started us
+off with, and I
+
+00:30:21.900 --> 00:30:26.188 align:middle line:84%
+will try to do this
+slowly and carefully.
+
+00:30:26.188 --> 00:30:28.230 align:middle line:84%
+What we're going to see
+is that a way of thinking
+
+00:30:28.230 --> 00:30:30.660 align:middle line:84%
+about the ambiguity that
+I started this off with
+
+00:30:30.660 --> 00:30:33.990 align:middle line:84%
+is to think, yeah, you
+have these two qualifiers
+
+00:30:33.990 --> 00:30:36.060 align:middle line:84%
+that are doing these
+operations involving
+
+00:30:36.060 --> 00:30:38.518 align:middle line:90%
+the formation of sets.
+
+00:30:38.518 --> 00:30:40.560 align:middle line:84%
+So in all of the sentences
+I've given you before,
+
+00:30:40.560 --> 00:30:42.120 align:middle line:84%
+there's only been
+one quantifier,
+
+00:30:42.120 --> 00:30:43.890 align:middle line:84%
+so it forms these
+sets and asserts
+
+00:30:43.890 --> 00:30:45.170 align:middle line:90%
+a relation between them.
+
+00:30:45.170 --> 00:30:47.670 align:middle line:84%
+But in a sentence like this,
+where there are two qualifiers,
+
+00:30:47.670 --> 00:30:50.850 align:middle line:84%
+well, you're going to need to
+perform that kind of operation
+
+00:30:50.850 --> 00:30:53.070 align:middle line:90%
+twice.
+
+00:30:53.070 --> 00:30:55.770 align:middle line:84%
+And the ambiguity just has to
+do with the order in which you
+
+00:30:55.770 --> 00:30:57.370 align:middle line:90%
+perform the operations.
+
+00:30:57.370 --> 00:30:59.640 align:middle line:84%
+So do you do the
+operations for "some child"
+
+00:30:59.640 --> 00:31:02.670 align:middle line:84%
+first and then the
+operations for "every puppy,"
+
+00:31:02.670 --> 00:31:04.740 align:middle line:84%
+or do you do the operations
+for "every puppy"
+
+00:31:04.740 --> 00:31:08.230 align:middle line:84%
+first and then the
+operations for "some child"?
+
+00:31:08.230 --> 00:31:11.220 align:middle line:84%
+So if I remember my
+own slides correctly,
+
+00:31:11.220 --> 00:31:13.620 align:middle line:84%
+I think what we're going to
+do now is work fairly slowly
+
+00:31:13.620 --> 00:31:15.787 align:middle line:84%
+and painfully through what
+happens if you do the two
+
+00:31:15.787 --> 00:31:17.050 align:middle line:90%
+things in that order.
+
+00:31:17.050 --> 00:31:19.290 align:middle line:84%
+But I'm telling you
+this now in advance
+
+00:31:19.290 --> 00:31:21.240 align:middle line:84%
+to give you some
+hope that you will
+
+00:31:21.240 --> 00:31:24.450 align:middle line:84%
+have an understanding by
+the time we're done of what
+
+00:31:24.450 --> 00:31:25.540 align:middle line:90%
+the heck is going on here.
+
+00:31:25.540 --> 00:31:29.490 align:middle line:84%
+It's just what order do
+you do the operations in.
+
+00:31:29.490 --> 00:31:31.410 align:middle line:84%
+That's why there's
+ambiguity here.
+
+00:31:31.410 --> 00:31:33.920 align:middle line:84%
+You have these two
+qualifiers and you
+
+00:31:33.920 --> 00:31:35.920 align:middle line:84%
+have options about which
+one to interpret first.
+
+00:31:35.920 --> 00:31:38.490 align:middle line:84%
+So if you interpret
+"every" first, then you're
+
+00:31:38.490 --> 00:31:42.540 align:middle line:84%
+saying the set of puppies is
+a subset of the set of things
+
+00:31:42.540 --> 00:31:43.620 align:middle line:90%
+that some child loves.
+
+00:31:43.620 --> 00:31:46.730 align:middle line:90%
+
+
+00:31:46.730 --> 00:31:51.020 align:middle line:84%
+And then, if you
+interpret that part,
+
+00:31:51.020 --> 00:31:54.590 align:middle line:84%
+you're going to say,
+what's the set of things
+
+00:31:54.590 --> 00:31:55.640 align:middle line:90%
+that some child loves?
+
+00:31:55.640 --> 00:31:58.190 align:middle line:84%
+Well, it's the set such
+that the intersection
+
+00:31:58.190 --> 00:32:00.680 align:middle line:84%
+of the set of children
+with the set of things
+
+00:32:00.680 --> 00:32:03.525 align:middle line:90%
+that loves them is nonempty.
+
+00:32:03.525 --> 00:32:05.900 align:middle line:84%
+So if we interpret "every"
+first, then the sentence means
+
+00:32:05.900 --> 00:32:08.750 align:middle line:84%
+the set of puppies is
+a subset of the set
+
+00:32:08.750 --> 00:32:11.870 align:middle line:84%
+of things such that
+the intersection
+
+00:32:11.870 --> 00:32:14.300 align:middle line:84%
+of the set of children
+with the set of things
+
+00:32:14.300 --> 00:32:18.590 align:middle line:84%
+that love those things
+is nonempty-- whew.
+
+00:32:18.590 --> 00:32:22.430 align:middle line:84%
+If we do the operations in
+that order we get that reading.
+
+00:32:22.430 --> 00:32:26.120 align:middle line:84%
+That is, we get the
+reading the set of puppies
+
+00:32:26.120 --> 00:32:29.150 align:middle line:84%
+is a subset of the things
+that some child loves.
+
+00:32:29.150 --> 00:32:32.003 align:middle line:84%
+Some child loves many
+things, possibly,
+
+00:32:32.003 --> 00:32:33.920 align:middle line:84%
+and among those things
+is the set of puppies--
+
+00:32:33.920 --> 00:32:35.570 align:middle line:84%
+so every member of
+the set of puppies
+
+00:32:35.570 --> 00:32:39.350 align:middle line:84%
+is such that the
+intersection of children such
+
+00:32:39.350 --> 00:32:41.450 align:middle line:84%
+that there is some
+child that loves it.
+
+00:32:41.450 --> 00:32:43.790 align:middle line:84%
+And I think I have a picture
+of that now-- yeah, there.
+
+00:32:43.790 --> 00:32:47.473 align:middle line:84%
+So doing the operations in that
+order, we get this reading.
+
+00:32:47.473 --> 00:32:48.890 align:middle line:84%
+Every member of
+the set of puppies
+
+00:32:48.890 --> 00:32:52.640 align:middle line:84%
+has this property-- there
+is some child that loves it.
+
+00:32:52.640 --> 00:32:54.590 align:middle line:84%
+That's a reading the
+sentence can have,
+
+00:32:54.590 --> 00:32:58.160 align:middle line:84%
+and we can get this reading
+by doing the interpretation
+
+00:32:58.160 --> 00:33:00.920 align:middle line:90%
+of every puppy first.
+
+00:33:00.920 --> 00:33:04.060 align:middle line:84%
+That's one reading
+the sentence can have.
+
+00:33:04.060 --> 00:33:06.272 align:middle line:84%
+So that's the reading
+that's pictured here,
+
+00:33:06.272 --> 00:33:08.230 align:middle line:84%
+where there are many
+puppies and many children,
+
+00:33:08.230 --> 00:33:11.710 align:middle line:84%
+and every puppy is loved by
+at least one child, possibly
+
+00:33:11.710 --> 00:33:13.130 align:middle line:90%
+more than one.
+
+00:33:13.130 --> 00:33:15.610 align:middle line:84%
+There are also children who
+love more than one puppy.
+
+00:33:15.610 --> 00:33:18.220 align:middle line:84%
+Children are not monogamous
+when it comes to puppies.
+
+00:33:18.220 --> 00:33:22.440 align:middle line:90%
+
+
+00:33:22.440 --> 00:33:25.050 align:middle line:84%
+What if you interpreted
+"some child" first?
+
+00:33:25.050 --> 00:33:27.810 align:middle line:84%
+Well, then you'd be saying
+take the set of children
+
+00:33:27.810 --> 00:33:31.290 align:middle line:84%
+and the set of things
+that love every puppy.
+
+00:33:31.290 --> 00:33:34.870 align:middle line:90%
+That intersection is nonempty.
+
+00:33:34.870 --> 00:33:36.490 align:middle line:84%
+So take a deep
+breath because we're
+
+00:33:36.490 --> 00:33:37.840 align:middle line:84%
+about to interpret the
+second part of that,
+
+00:33:37.840 --> 00:33:40.090 align:middle line:84%
+but even before we interpret
+the second part of that,
+
+00:33:40.090 --> 00:33:41.715 align:middle line:84%
+maybe this is the
+point at which things
+
+00:33:41.715 --> 00:33:43.720 align:middle line:84%
+are as coherent as
+they're ever going to get.
+
+00:33:43.720 --> 00:33:47.620 align:middle line:84%
+What this means is there
+is at least one child
+
+00:33:47.620 --> 00:33:49.390 align:middle line:90%
+that loves every puppy.
+
+00:33:49.390 --> 00:33:51.922 align:middle line:84%
+There's at least one child
+who's very fond of puppies.
+
+00:33:51.922 --> 00:33:53.380 align:middle line:84%
+That's the other
+kind of reading we
+
+00:33:53.380 --> 00:33:56.560 align:middle line:84%
+were saying this kind
+of sentence could have.
+
+00:33:56.560 --> 00:33:58.570 align:middle line:90%
+So we next interpret that.
+
+00:33:58.570 --> 00:34:00.370 align:middle line:84%
+So the intersection
+of the set of children
+
+00:34:00.370 --> 00:34:03.130 align:middle line:84%
+and the set of things such
+that the set of puppies
+
+00:34:03.130 --> 00:34:07.542 align:middle line:84%
+is a subset of the things that
+that thing loves is nonempty.
+
+00:34:07.542 --> 00:34:09.000 align:middle line:84%
+And to put that
+back in English, it
+
+00:34:09.000 --> 00:34:11.370 align:middle line:84%
+means there is at
+least one child such
+
+00:34:11.370 --> 00:34:13.469 align:middle line:84%
+that the set of puppies
+is a subset of the things
+
+00:34:13.469 --> 00:34:14.472 align:middle line:90%
+that x loves.
+
+00:34:14.472 --> 00:34:16.889 align:middle line:84%
+Or to put it another way, there
+is at least one child such
+
+00:34:16.889 --> 00:34:18.347 align:middle line:84%
+that all puppies
+are loved by them.
+
+00:34:18.347 --> 00:34:20.820 align:middle line:90%
+
+
+00:34:20.820 --> 00:34:25.080 align:middle line:84%
+So early in this-- maybe one of
+the first things I said today
+
+00:34:25.080 --> 00:34:28.590 align:middle line:84%
+was a sentence like "Some
+child loves every puppy"--
+
+00:34:28.590 --> 00:34:31.590 align:middle line:84%
+or I think the example back then
+was "Someone loves everyone"--
+
+00:34:31.590 --> 00:34:33.330 align:middle line:84%
+people have argued
+that it's ambiguous,
+
+00:34:33.330 --> 00:34:35.760 align:middle line:84%
+that it can mean either
+there is one person who
+
+00:34:35.760 --> 00:34:40.398 align:middle line:84%
+loves everyone or everyone
+has someone that loves them.
+
+00:34:40.398 --> 00:34:42.690 align:middle line:84%
+And these are both meanings
+that the sentence can have.
+
+00:34:42.690 --> 00:34:44.491 align:middle line:84%
+And I switched over to
+people and languages
+
+00:34:44.491 --> 00:34:46.949 align:middle line:84%
+because our intuitions about
+the difference between the two
+
+00:34:46.949 --> 00:34:50.870 align:middle line:84%
+meanings are a little sharper
+for that kind of example.
+
+00:34:50.870 --> 00:34:52.370 align:middle line:84%
+Here, I'm showing
+you some mechanics
+
+00:34:52.370 --> 00:34:55.730 align:middle line:84%
+that we can use to
+get this ambiguity,
+
+00:34:55.730 --> 00:35:01.100 align:middle line:84%
+and the mechanics
+involve allowing yourself
+
+00:35:01.100 --> 00:35:03.638 align:middle line:84%
+to do the operations
+for interpreting
+
+00:35:03.638 --> 00:35:05.930 align:middle line:84%
+the quantifier-- when you
+have more than one quantifier
+
+00:35:05.930 --> 00:35:08.790 align:middle line:84%
+in a sentence, you're allowed to
+interpret them in either order.
+
+00:35:08.790 --> 00:35:11.900 align:middle line:84%
+So you're allowed to do the
+operations for the subject
+
+00:35:11.900 --> 00:35:13.793 align:middle line:84%
+first or the operations
+for the object first,
+
+00:35:13.793 --> 00:35:15.710 align:middle line:84%
+and depending on which
+of those things you do,
+
+00:35:15.710 --> 00:35:19.160 align:middle line:84%
+you get these two different
+readings for the sentence.
+
+00:35:19.160 --> 00:35:21.980 align:middle line:90%
+So far so good?
+
+00:35:21.980 --> 00:35:25.700 align:middle line:84%
+Sorry, this is a lot to deal
+with on a Tuesday morning
+
+00:35:25.700 --> 00:35:26.545 align:middle line:90%
+through a mask.
+
+00:35:26.545 --> 00:35:35.230 align:middle line:90%
+
+
+00:35:35.230 --> 00:35:38.310 align:middle line:84%
+So here's the tree
+for that sentence
+
+00:35:38.310 --> 00:35:40.050 align:middle line:90%
+"some child loves every puppy."
+
+00:35:40.050 --> 00:35:43.320 align:middle line:84%
+And we've said that's
+an ambiguous tree.
+
+00:35:43.320 --> 00:35:46.320 align:middle line:90%
+So why is the tree ambiguous?
+
+00:35:46.320 --> 00:35:48.790 align:middle line:84%
+What I've now said a couple
+of times-- and who knows,
+
+00:35:48.790 --> 00:35:50.010 align:middle line:90%
+this could be true--
+
+00:35:50.010 --> 00:35:53.100 align:middle line:84%
+is yeah, you've got
+these two qualifiers.
+
+00:35:53.100 --> 00:35:58.507 align:middle line:84%
+You've got to perform
+operations that form these sets.
+
+00:35:58.507 --> 00:36:00.840 align:middle line:84%
+The part of the process of
+interpreting these qualifiers
+
+00:36:00.840 --> 00:36:04.440 align:middle line:84%
+involves forming these sets and
+there's nothing in particular
+
+00:36:04.440 --> 00:36:07.290 align:middle line:84%
+telling you what order to
+perform those operations in.
+
+00:36:07.290 --> 00:36:10.440 align:middle line:84%
+And so you can interpret
+them in either order,
+
+00:36:10.440 --> 00:36:12.120 align:middle line:90%
+and so you get ambiguities.
+
+00:36:12.120 --> 00:36:13.920 align:middle line:84%
+That's the way
+I've been talking.
+
+00:36:13.920 --> 00:36:17.410 align:middle line:84%
+That turns out to be a lie,
+which is kind of interesting.
+
+00:36:17.410 --> 00:36:22.550 align:middle line:84%
+We have lots of good evidence,
+and I'll show you some of it,
+
+00:36:22.550 --> 00:36:25.580 align:middle line:84%
+that we don't just get to freely
+choose the order in which we
+
+00:36:25.580 --> 00:36:27.020 align:middle line:90%
+interpret qualifiers.
+
+00:36:27.020 --> 00:36:31.640 align:middle line:84%
+But what really happens is
+that there is another kind
+
+00:36:31.640 --> 00:36:33.600 align:middle line:90%
+of movement operation.
+
+00:36:33.600 --> 00:36:36.860 align:middle line:84%
+So we've left syntax behind,
+and maybe some of you
+
+00:36:36.860 --> 00:36:40.190 align:middle line:84%
+were hoping we wouldn't have
+to see things move anymore,
+
+00:36:40.190 --> 00:36:43.130 align:middle line:84%
+but actually, in semantics,
+there's also movement going on,
+
+00:36:43.130 --> 00:36:46.588 align:middle line:84%
+possibly movement of an even
+sneakier and weirder kind.
+
+00:36:46.588 --> 00:36:49.130 align:middle line:84%
+There's lots of evidence that
+the reason that the sentence is
+
+00:36:49.130 --> 00:36:52.070 align:middle line:84%
+ambiguous is that there's
+an operation which
+
+00:36:52.070 --> 00:36:55.490 align:middle line:84%
+is optional that takes
+the object "every puppy"
+
+00:36:55.490 --> 00:37:01.420 align:middle line:84%
+and moves it to a position above
+"some child" in the process
+
+00:37:01.420 --> 00:37:04.280 align:middle line:90%
+of interpreting the sentence.
+
+00:37:04.280 --> 00:37:07.670 align:middle line:84%
+Now there are several alarming
+things about this movement.
+
+00:37:07.670 --> 00:37:10.730 align:middle line:84%
+All of the movements that
+I've shown you up until now--
+
+00:37:10.730 --> 00:37:13.040 align:middle line:84%
+so when I first tried
+introducing you to movement,
+
+00:37:13.040 --> 00:37:21.110 align:middle line:84%
+I think I was showing you things
+like "Mary devoured a pizza."
+
+00:37:21.110 --> 00:37:23.060 align:middle line:84%
+I was saying yeah,
+look, the pizza
+
+00:37:23.060 --> 00:37:24.500 align:middle line:90%
+absolutely has to be here.
+
+00:37:24.500 --> 00:37:27.800 align:middle line:90%
+You can't say "Mary devoured."
+
+00:37:27.800 --> 00:37:30.290 align:middle line:90%
+That's out.
+
+00:37:30.290 --> 00:37:34.820 align:middle line:84%
+So "devour" selects for
+a sister-- it absolutely
+
+00:37:34.820 --> 00:37:35.870 align:middle line:90%
+has to have a sister.
+
+00:37:35.870 --> 00:37:37.515 align:middle line:84%
+And moreover, its
+sister absolutely
+
+00:37:37.515 --> 00:37:38.640 align:middle line:90%
+has to be right next to it.
+
+00:37:38.640 --> 00:37:42.870 align:middle line:84%
+So if I put an adverb
+here, it gets bad.
+
+00:37:42.870 --> 00:37:45.513 align:middle line:84%
+So Mary devoured quickly
+a pizza-- that's no good.
+
+00:37:45.513 --> 00:37:47.930 align:middle line:84%
+So we know something about the
+properties of the "devour."
+
+00:37:47.930 --> 00:37:49.740 align:middle line:84%
+It absolutely has
+to have an object,
+
+00:37:49.740 --> 00:37:51.740 align:middle line:84%
+and the object absolutely
+has to be right after.
+
+00:37:51.740 --> 00:37:53.250 align:middle line:90%
+It cannot be anywhere else.
+
+00:37:53.250 --> 00:37:55.625 align:middle line:84%
+And then I said, wait, what
+about "what did Mary devour?"
+
+00:37:55.625 --> 00:37:58.750 align:middle line:90%
+
+
+00:37:58.750 --> 00:38:05.830 align:middle line:84%
+And we ended up deciding that
+"what" is starting off here
+
+00:38:05.830 --> 00:38:08.080 align:middle line:90%
+and it's moving up to here.
+
+00:38:08.080 --> 00:38:09.830 align:middle line:90%
+And that's why it's over there.
+
+00:38:09.830 --> 00:38:13.690 align:middle line:84%
+So we said the process of
+producing a sentence like "what
+
+00:38:13.690 --> 00:38:16.300 align:middle line:84%
+did Mary devour" involves
+"what" starting off
+
+00:38:16.300 --> 00:38:17.530 align:middle line:90%
+exactly where it should--
+
+00:38:17.530 --> 00:38:20.590 align:middle line:84%
+as the sister of "devour"
+right next to "devour"--
+
+00:38:20.590 --> 00:38:22.180 align:middle line:84%
+and then there's
+this other process
+
+00:38:22.180 --> 00:38:24.130 align:middle line:84%
+that doesn't care about
+what "devour" wants.
+
+00:38:24.130 --> 00:38:25.572 align:middle line:84%
+This process of
+wh- movement that
+
+00:38:25.572 --> 00:38:28.030 align:middle line:84%
+takes "what" and moves it to
+the beginning of the sentence,
+
+00:38:28.030 --> 00:38:28.530 align:middle line:90%
+we saw.
+
+00:38:28.530 --> 00:38:31.210 align:middle line:84%
+Some languages have
+this and others don't.
+
+00:38:31.210 --> 00:38:32.710 align:middle line:84%
+I was looking at
+WALS the other day.
+
+00:38:32.710 --> 00:38:34.918 align:middle line:84%
+It turns out roughly a third
+of the world's languages
+
+00:38:34.918 --> 00:38:36.338 align:middle line:90%
+have this, and English does.
+
+00:38:36.338 --> 00:38:38.380 align:middle line:84%
+So you take what and you
+move it to the beginning
+
+00:38:38.380 --> 00:38:40.960 align:middle line:90%
+of the sentence.
+
+00:38:40.960 --> 00:38:43.210 align:middle line:84%
+So every kind of movement
+that we've seen up until now
+
+00:38:43.210 --> 00:38:44.170 align:middle line:90%
+has been like this.
+
+00:38:44.170 --> 00:38:46.060 align:middle line:84%
+It's been part of an
+explanation for why
+
+00:38:46.060 --> 00:38:48.220 align:middle line:84%
+you pronounce things
+in different places
+
+00:38:48.220 --> 00:38:50.088 align:middle line:90%
+than you would expect.
+
+00:38:50.088 --> 00:38:51.880 align:middle line:84%
+You would expect "devour"
+to have a sister,
+
+00:38:51.880 --> 00:38:53.838 align:middle line:84%
+to have an object that
+would be right after it.
+
+00:38:53.838 --> 00:38:56.350 align:middle line:84%
+And "what" isn't there, and
+it's because of a movement
+
+00:38:56.350 --> 00:38:58.122 align:middle line:90%
+operation.
+
+00:38:58.122 --> 00:38:59.580 align:middle line:84%
+I'm going to give
+you some evidence
+
+00:38:59.580 --> 00:39:02.100 align:middle line:84%
+now that this ambiguity
+shows up because you have
+
+00:39:02.100 --> 00:39:04.920 align:middle line:84%
+the option of moving
+"every puppy" to a position
+
+00:39:04.920 --> 00:39:06.570 align:middle line:84%
+to the left of
+"some child," higher
+
+00:39:06.570 --> 00:39:08.910 align:middle line:90%
+than "some child" in the tree.
+
+00:39:08.910 --> 00:39:11.640 align:middle line:84%
+But this had better be a
+different kind of movement
+
+00:39:11.640 --> 00:39:13.890 align:middle line:84%
+because the sentence
+is ambiguous
+
+00:39:13.890 --> 00:39:18.970 align:middle line:84%
+even if you don't see the noun
+phrases going anywhere else.
+
+00:39:18.970 --> 00:39:25.800 align:middle line:84%
+This is a type of movement
+called covert movement,
+
+00:39:25.800 --> 00:39:29.100 align:middle line:84%
+and you should all be
+very suspicious of this
+
+00:39:29.100 --> 00:39:34.200 align:middle line:84%
+because basically,
+it's like the--
+
+00:39:34.200 --> 00:39:35.070 align:middle line:90%
+what's it like?
+
+00:39:35.070 --> 00:39:37.200 align:middle line:84%
+It's like the dark
+matter that physicists
+
+00:39:37.200 --> 00:39:38.700 align:middle line:84%
+have to posit in
+order to explain
+
+00:39:38.700 --> 00:39:41.130 align:middle line:84%
+why most of the
+matter in the universe
+
+00:39:41.130 --> 00:39:42.660 align:middle line:90%
+doesn't seem to be there.
+
+00:39:42.660 --> 00:39:45.540 align:middle line:84%
+So there's all this undetectable
+matter that's out there.
+
+00:39:45.540 --> 00:39:47.553 align:middle line:90%
+We just haven't detected it yet.
+
+00:39:47.553 --> 00:39:49.470 align:middle line:84%
+Somehow, when physicists
+say things like this,
+
+00:39:49.470 --> 00:39:52.390 align:middle line:84%
+we believe them because they
+can build bombs and things.
+
+00:39:52.390 --> 00:39:55.190 align:middle line:84%
+But I'm about to say something
+kind of similar to that.
+
+00:39:55.190 --> 00:39:56.940 align:middle line:84%
+We have some arguments,
+really good ones--
+
+00:39:56.940 --> 00:39:58.920 align:middle line:84%
+I'll try to show you
+some of them, anyway--
+
+00:39:58.920 --> 00:40:01.140 align:middle line:90%
+that this thing can move.
+
+00:40:01.140 --> 00:40:04.290 align:middle line:84%
+And the fact that when it
+moves, you still pronounce it
+
+00:40:04.290 --> 00:40:07.710 align:middle line:84%
+as though it hadn't moved,
+this is really interesting,
+
+00:40:07.710 --> 00:40:10.990 align:middle line:84%
+but what it shows is
+that this is dark matter.
+
+00:40:10.990 --> 00:40:11.700 align:middle line:90%
+It is moving.
+
+00:40:11.700 --> 00:40:13.117 align:middle line:84%
+It's just not
+moving in a way that
+
+00:40:13.117 --> 00:40:16.778 align:middle line:84%
+changes the order of the
+sentence, order of the words.
+
+00:40:16.778 --> 00:40:18.570 align:middle line:84%
+All of you are making
+the appropriate face,
+
+00:40:18.570 --> 00:40:19.770 align:middle line:90%
+which is a very skeptical one.
+
+00:40:19.770 --> 00:40:21.160 align:middle line:84%
+I mean, some of you
+are wearing masks,
+
+00:40:21.160 --> 00:40:23.285 align:middle line:84%
+so I can only see your
+skeptical eyebrows and eyes,
+
+00:40:23.285 --> 00:40:26.098 align:middle line:90%
+but I appreciate that.
+
+00:40:26.098 --> 00:40:27.390 align:middle line:90%
+Let me show you some arguments.
+
+00:40:27.390 --> 00:40:32.210 align:middle line:84%
+First, there are
+some languages--
+
+00:40:32.210 --> 00:40:34.410 align:middle line:84%
+yeah, so here's another
+ambiguous example.
+
+00:40:34.410 --> 00:40:37.640 align:middle line:90%
+"Most people ate two cakes."
+
+00:40:37.640 --> 00:40:40.160 align:middle line:90%
+That can mean two things.
+
+00:40:40.160 --> 00:40:42.500 align:middle line:84%
+It can mean either-- what's
+one thing it can mean?
+
+00:40:42.500 --> 00:40:47.370 align:middle line:90%
+
+
+00:40:47.370 --> 00:40:49.770 align:middle line:84%
+Softening you up for
+the next set of slides.
+
+00:40:49.770 --> 00:40:52.200 align:middle line:84%
+You don't have to use
+x's and y's and things.
+
+00:40:52.200 --> 00:40:54.090 align:middle line:84%
+Just tell me what
+it seems to mean.
+
+00:40:54.090 --> 00:40:57.270 align:middle line:90%
+
+
+00:40:57.270 --> 00:40:57.770 align:middle line:90%
+Yeah?
+
+00:40:57.770 --> 00:40:59.102 align:middle line:84%
+AUDIENCE: Most of the
+people in the room
+
+00:40:59.102 --> 00:41:00.620 align:middle line:90%
+ate two cakes for each person.
+
+00:41:00.620 --> 00:41:01.320 align:middle line:84%
+NORVIN RICHARDS:
+For each person.
+
+00:41:01.320 --> 00:41:03.080 align:middle line:84%
+So there were a
+whole bunch of cakes,
+
+00:41:03.080 --> 00:41:04.692 align:middle line:90%
+and there was a free for all.
+
+00:41:04.692 --> 00:41:06.650 align:middle line:84%
+People could have as many
+cakes as they wanted,
+
+00:41:06.650 --> 00:41:09.067 align:middle line:84%
+and we were keeping track of
+how many cakes people wanted,
+
+00:41:09.067 --> 00:41:10.550 align:middle line:90%
+and most people ate two cakes.
+
+00:41:10.550 --> 00:41:12.170 align:middle line:90%
+Some people ate three.
+
+00:41:12.170 --> 00:41:15.440 align:middle line:84%
+There was this Richards
+guy who ate 12.
+
+00:41:15.440 --> 00:41:17.180 align:middle line:84%
+And then some people
+didn't eat any.
+
+00:41:17.180 --> 00:41:18.290 align:middle line:90%
+But most people ate two.
+
+00:41:18.290 --> 00:41:19.940 align:middle line:90%
+That's one thing it can mean.
+
+00:41:19.940 --> 00:41:22.110 align:middle line:84%
+What's another
+thing it can mean?
+
+00:41:22.110 --> 00:41:22.865 align:middle line:90%
+Yeah?
+
+00:41:22.865 --> 00:41:24.990 align:middle line:84%
+AUDIENCE: There are a total
+of two cakes from which
+
+00:41:24.990 --> 00:41:26.100 align:middle line:90%
+most people have eaten.
+
+00:41:26.100 --> 00:41:28.950 align:middle line:84%
+NORVIN RICHARDS: Yeah, so
+there were various cakes
+
+00:41:28.950 --> 00:41:30.600 align:middle line:84%
+out there, maybe
+really big cakes
+
+00:41:30.600 --> 00:41:33.360 align:middle line:84%
+that you could eat a slice
+of, and we were finding out
+
+00:41:33.360 --> 00:41:34.830 align:middle line:84%
+what the most
+popular cakes were,
+
+00:41:34.830 --> 00:41:38.220 align:middle line:84%
+and most people ate
+two cakes, the vanilla
+
+00:41:38.220 --> 00:41:40.110 align:middle line:84%
+frosted and the
+chocolate frosted,
+
+00:41:40.110 --> 00:41:41.918 align:middle line:84%
+and then there were a
+couple of other cakes
+
+00:41:41.918 --> 00:41:42.960 align:middle line:90%
+that were not as popular.
+
+00:41:42.960 --> 00:41:44.250 align:middle line:90%
+So concentrate on those.
+
+00:41:44.250 --> 00:41:46.050 align:middle line:90%
+It can kind of mean that.
+
+00:41:46.050 --> 00:41:48.780 align:middle line:84%
+Some of you were raising
+your eyebrows at that.
+
+00:41:48.780 --> 00:41:51.360 align:middle line:90%
+But it can sort of mean that.
+
+00:41:51.360 --> 00:41:53.460 align:middle line:84%
+So one reason to take
+seriously the idea
+
+00:41:53.460 --> 00:41:55.890 align:middle line:84%
+that this ambiguity comes
+from an optional movement
+
+00:41:55.890 --> 00:42:00.270 align:middle line:84%
+operation which you can't see
+is that there are languages
+
+00:42:00.270 --> 00:42:02.410 align:middle line:90%
+in which you can see it.
+
+00:42:02.410 --> 00:42:05.290 align:middle line:84%
+So you remember how I said
+English has wh- movement
+
+00:42:05.290 --> 00:42:08.230 align:middle line:84%
+and there are languages out
+there that don't, languages
+
+00:42:08.230 --> 00:42:12.010 align:middle line:84%
+like Mandarin or Japanese
+or Chaha or whatever?
+
+00:42:12.010 --> 00:42:14.440 align:middle line:84%
+Similarly, this
+operation that takes one
+
+00:42:14.440 --> 00:42:17.140 align:middle line:84%
+quantifier and moves it
+past another quantifier--
+
+00:42:17.140 --> 00:42:18.640 align:middle line:84%
+you don't get to
+see it in English,
+
+00:42:18.640 --> 00:42:21.610 align:middle line:84%
+but you do get to see it,
+for example, in Hungarian.
+
+00:42:21.610 --> 00:42:27.350 align:middle line:84%
+So in Hungarian, the Hungarian
+translations for "Most people
+
+00:42:27.350 --> 00:42:34.030 align:middle line:84%
+ate two cakes" have two
+word orders, each of which
+
+00:42:34.030 --> 00:42:36.400 align:middle line:90%
+means only a single thing.
+
+00:42:36.400 --> 00:42:38.242 align:middle line:84%
+So you either say,
+in Hungarian--
+
+00:42:38.242 --> 00:42:39.700 align:middle line:84%
+I don't speak
+Hungarian and I won't
+
+00:42:39.700 --> 00:42:40.825 align:middle line:90%
+try to say these sentences.
+
+00:42:40.825 --> 00:42:42.980 align:middle line:84%
+Does anyone here
+speak Hungarian?
+
+00:42:42.980 --> 00:42:45.055 align:middle line:90%
+OK, that's very freeing.
+
+00:42:45.055 --> 00:42:47.555 align:middle line:84%
+I almost feel as though I should
+try to say these sentences.
+
+00:42:47.555 --> 00:42:49.930 align:middle line:84%
+I know you don't know what
+Hungarian is supposed to sound
+
+00:42:49.930 --> 00:42:52.530 align:middle line:90%
+like, but I won't.
+
+00:42:52.530 --> 00:42:55.700 align:middle line:84%
+The first sentence
+only has one meaning,
+
+00:42:55.700 --> 00:42:58.200 align:middle line:84%
+and the second sentence
+also has only one meaning.
+
+00:42:58.200 --> 00:43:00.320 align:middle line:84%
+So you can take these
+expressions "most people"
+
+00:43:00.320 --> 00:43:02.960 align:middle line:84%
+and "from two cakes" and
+put them in either order,
+
+00:43:02.960 --> 00:43:05.540 align:middle line:84%
+and depending on
+what order you're in,
+
+00:43:05.540 --> 00:43:06.780 align:middle line:90%
+you only get one reading.
+
+00:43:06.780 --> 00:43:11.720 align:middle line:84%
+So the first sentence means the
+first reading that was offered,
+
+00:43:11.720 --> 00:43:16.520 align:middle line:84%
+the most reasonable
+reading, most of the people
+
+00:43:16.520 --> 00:43:18.590 align:middle line:90%
+ate two kinds of cake.
+
+00:43:18.590 --> 00:43:22.160 align:middle line:84%
+The second meaning means there
+were two particular cakes that
+
+00:43:22.160 --> 00:43:24.480 align:middle line:90%
+were the most popular ones.
+
+00:43:24.480 --> 00:43:26.930 align:middle line:84%
+So in Hungarian,
+the order in which
+
+00:43:26.930 --> 00:43:29.480 align:middle line:84%
+you apply the operations
+to interpret the qualifiers
+
+00:43:29.480 --> 00:43:31.050 align:middle line:90%
+is not optional.
+
+00:43:31.050 --> 00:43:32.090 align:middle line:90%
+It's completely fixed.
+
+00:43:32.090 --> 00:43:34.785 align:middle line:84%
+It's determined by the
+order of the phrases.
+
+00:43:34.785 --> 00:43:36.410 align:middle line:84%
+That's what determines
+what's going on.
+
+00:43:36.410 --> 00:43:38.840 align:middle line:84%
+And the claim is
+that all languages
+
+00:43:38.840 --> 00:43:42.560 align:middle line:90%
+are Hungarian deep down.
+
+00:43:42.560 --> 00:43:47.040 align:middle line:84%
+It's just that some languages
+are better at this than others.
+
+00:43:47.040 --> 00:43:49.820 align:middle line:84%
+So there are languages
+like Hungarian,
+
+00:43:49.820 --> 00:43:52.250 align:middle line:84%
+for example, that are really
+good at being Hungarian.
+
+00:43:52.250 --> 00:43:53.850 align:middle line:90%
+You can just see it right there.
+
+00:43:53.850 --> 00:43:55.308 align:middle line:84%
+And then there are
+other languages,
+
+00:43:55.308 --> 00:43:58.410 align:middle line:84%
+like English, that are Hungarian
+but they're shy about it.
+
+00:43:58.410 --> 00:44:01.070 align:middle line:84%
+And so you don't get to see
+the relevant kinds of movement.
+
+00:44:01.070 --> 00:44:06.200 align:middle line:90%
+
+
+00:44:06.200 --> 00:44:08.930 align:middle line:90%
+OK, what are we doing?
+
+00:44:08.930 --> 00:44:13.760 align:middle line:84%
+So I'm going to show
+you some more reasons
+
+00:44:13.760 --> 00:44:19.400 align:middle line:84%
+to take this idea seriously that
+this operation, which is called
+
+00:44:19.400 --> 00:44:26.778 align:middle line:84%
+quantifier raising,
+or QR, that it exists.
+
+00:44:26.778 --> 00:44:28.820 align:middle line:84%
+So we'll talk about some
+of the properties of it.
+
+00:44:28.820 --> 00:44:33.045 align:middle line:90%
+
+
+00:44:33.045 --> 00:44:34.920 align:middle line:84%
+We'll talk about some
+of the properties of it
+
+00:44:34.920 --> 00:44:37.080 align:middle line:90%
+in the next little while.
+
+00:44:37.080 --> 00:44:39.630 align:middle line:84%
+Here's another sentence
+with two qualifiers in it.
+
+00:44:39.630 --> 00:44:43.410 align:middle line:84%
+This is work that I'm taking
+from my colleague Danny
+
+00:44:43.410 --> 00:44:45.270 align:middle line:84%
+Fox, who's done a
+lot of fantastic work
+
+00:44:45.270 --> 00:44:48.330 align:middle line:84%
+on the properties
+of quantifiers.
+
+00:44:48.330 --> 00:44:50.310 align:middle line:84%
+So here's an ambiguous
+sentence, "A guard
+
+00:44:50.310 --> 00:44:52.530 align:middle line:84%
+is standing in front
+of every building."
+
+00:44:52.530 --> 00:44:56.130 align:middle line:90%
+What does this sentence mean?
+
+00:44:56.130 --> 00:44:57.120 align:middle line:90%
+Yes?
+
+00:44:57.120 --> 00:44:59.850 align:middle line:84%
+AUDIENCE: Either that every
+building has a different guard
+
+00:44:59.850 --> 00:45:01.225 align:middle line:84%
+standing in front
+of it, or there
+
+00:45:01.225 --> 00:45:03.000 align:middle line:84%
+is one guard that is
+continuously standing
+
+00:45:03.000 --> 00:45:03.810 align:middle line:90%
+in front of every building.
+
+00:45:03.810 --> 00:45:04.660 align:middle line:84%
+NORVIN RICHARDS:
+Yeah, there we go.
+
+00:45:04.660 --> 00:45:07.350 align:middle line:84%
+So it has a sensible reading--
+every building is guarded.
+
+00:45:07.350 --> 00:45:12.210 align:middle line:84%
+And it has a reading
+involving a very large guard,
+
+00:45:12.210 --> 00:45:15.480 align:middle line:84%
+or maybe lots of really
+small buildings or something
+
+00:45:15.480 --> 00:45:17.955 align:middle line:90%
+like that.
+
+00:45:17.955 --> 00:45:20.580 align:middle line:84%
+Oh yeah, no, let's imagine that
+there's more than one building.
+
+00:45:20.580 --> 00:45:23.410 align:middle line:90%
+
+
+00:45:23.410 --> 00:45:25.410 align:middle line:84%
+So those are two things
+the sentence could mean.
+
+00:45:25.410 --> 00:45:28.590 align:middle line:84%
+So yeah, here are a bunch of
+buildings, a bunch of guards,
+
+00:45:28.590 --> 00:45:32.900 align:middle line:84%
+one guard per building, or
+a bunch of buildings and one
+
+00:45:32.900 --> 00:45:35.090 align:middle line:90%
+guard who is kind of wide.
+
+00:45:35.090 --> 00:45:37.460 align:middle line:84%
+So it could mean either
+of those things that's it.
+
+00:45:37.460 --> 00:45:40.300 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:45:40.300 --> 00:45:42.500 align:middle line:84%
+NORVIN RICHARDS: Ah, yes,
+so if the buildings are
+
+00:45:42.500 --> 00:45:44.000 align:middle line:84%
+all in a circle and they're
+all facing each other,
+
+00:45:44.000 --> 00:45:45.890 align:middle line:84%
+there could be one
+guard in the middle.
+
+00:45:45.890 --> 00:45:48.050 align:middle line:84%
+A guard is standing--
+he managed to stand
+
+00:45:48.050 --> 00:45:50.720 align:middle line:84%
+in front of every
+building by standing right
+
+00:45:50.720 --> 00:45:51.673 align:middle line:90%
+in the center spot.
+
+00:45:51.673 --> 00:45:53.090 align:middle line:84%
+Yes, I suppose it
+could mean that.
+
+00:45:53.090 --> 00:45:55.010 align:middle line:90%
+I think that's right.
+
+00:45:55.010 --> 00:45:58.820 align:middle line:90%
+Let's discount that reading.
+
+00:45:58.820 --> 00:46:01.228 align:middle line:84%
+So here's an ambiguity,
+the kind of ambiguity
+
+00:46:01.228 --> 00:46:02.270 align:middle line:90%
+we've been talking about.
+
+00:46:02.270 --> 00:46:05.330 align:middle line:84%
+You've got these two
+qualifiers and you
+
+00:46:05.330 --> 00:46:08.240 align:middle line:84%
+can interpret-- so
+the first pass on why
+
+00:46:08.240 --> 00:46:10.190 align:middle line:84%
+we got this kind of
+ambiguity was there's
+
+00:46:10.190 --> 00:46:14.480 align:middle line:84%
+this process of interpreting
+qualifiers where you figure out
+
+00:46:14.480 --> 00:46:16.670 align:middle line:84%
+what the sets are that the
+quantifier is relating,
+
+00:46:16.670 --> 00:46:18.795 align:middle line:84%
+and you relate
+them to each other.
+
+00:46:18.795 --> 00:46:21.170 align:middle line:84%
+And if you have a sentence
+that has two qualifiers in it,
+
+00:46:21.170 --> 00:46:22.970 align:middle line:90%
+you get to do that process--
+
+00:46:22.970 --> 00:46:25.250 align:middle line:84%
+either you've got to quantifier,
+quantifier number one
+
+00:46:25.250 --> 00:46:26.420 align:middle line:90%
+and quantifier number two.
+
+00:46:26.420 --> 00:46:29.360 align:middle line:84%
+You either apply that process
+to quantifier number one first
+
+00:46:29.360 --> 00:46:31.760 align:middle line:90%
+or quantifier number two first.
+
+00:46:31.760 --> 00:46:35.930 align:middle line:84%
+And then I asserted and
+offered you, so far,
+
+00:46:35.930 --> 00:46:38.810 align:middle line:90%
+only evidence from Hungarian.
+
+00:46:38.810 --> 00:46:40.310 align:middle line:84%
+I asserted that
+there is actually
+
+00:46:40.310 --> 00:46:42.590 align:middle line:84%
+this operation of
+quantifier raising
+
+00:46:42.590 --> 00:46:46.550 align:middle line:84%
+that has the option of moving
+one quantifier to a higher
+
+00:46:46.550 --> 00:46:48.170 align:middle line:84%
+position than the
+other quantifier,
+
+00:46:48.170 --> 00:46:52.190 align:middle line:84%
+and that the order in which
+you perform the operations
+
+00:46:52.190 --> 00:46:53.060 align:middle line:90%
+is actually fixed.
+
+00:46:53.060 --> 00:46:55.477 align:middle line:84%
+It's completely determined
+by the structure
+
+00:46:55.477 --> 00:46:57.560 align:middle line:84%
+that you get after you've
+done quantifier raising,
+
+00:46:57.560 --> 00:46:59.060 align:middle line:90%
+if you have.
+
+00:46:59.060 --> 00:47:01.070 align:middle line:84%
+So what I'm going to do
+in the next few slides
+
+00:47:01.070 --> 00:47:04.580 align:middle line:84%
+is show you some reasons to
+take that seriously, even
+
+00:47:04.580 --> 00:47:06.650 align:middle line:90%
+for English.
+
+00:47:06.650 --> 00:47:08.840 align:middle line:84%
+So here's a sentence
+that has ambiguity
+
+00:47:08.840 --> 00:47:12.110 align:middle line:84%
+and the story was going to be
+it's ambiguous because you have
+
+00:47:12.110 --> 00:47:15.200 align:middle line:84%
+the option of leaving
+"every building" where it is
+
+00:47:15.200 --> 00:47:17.810 align:middle line:84%
+or the option of moving
+"every building" so that it's
+
+00:47:17.810 --> 00:47:19.760 align:middle line:90%
+higher than "a guard."
+
+00:47:19.760 --> 00:47:24.510 align:middle line:84%
+And if you take the option
+of moving "every building"
+
+00:47:24.510 --> 00:47:27.740 align:middle line:84%
+so that it's higher than
+"a guard," invisibly,
+
+00:47:27.740 --> 00:47:29.390 align:middle line:84%
+without changing
+the word order--
+
+00:47:29.390 --> 00:47:32.420 align:middle line:84%
+very weird to try to
+understand what's going on--
+
+00:47:32.420 --> 00:47:35.630 align:middle line:84%
+then what you do so
+the generalization is
+
+00:47:35.630 --> 00:47:38.670 align:middle line:84%
+that you must interpret the
+highest quantifier first.
+
+00:47:38.670 --> 00:47:40.280 align:middle line:84%
+So if you do QR of
+"every building"
+
+00:47:40.280 --> 00:47:43.130 align:middle line:84%
+higher than "a guard," what
+you're saying is you're
+
+00:47:43.130 --> 00:47:46.100 align:middle line:84%
+going to start by relating
+the set of buildings
+
+00:47:46.100 --> 00:47:49.310 align:middle line:84%
+to the set of things that a
+guard is standing in front of.
+
+00:47:49.310 --> 00:47:51.590 align:middle line:84%
+And you're going to say
+that first set is completely
+
+00:47:51.590 --> 00:47:53.660 align:middle line:90%
+contained in the second set.
+
+00:47:53.660 --> 00:47:57.860 align:middle line:84%
+And then you will interpret
+the quantifier of "guard."
+
+00:47:57.860 --> 00:48:01.730 align:middle line:84%
+So you have this
+optional operation of QR,
+
+00:48:01.730 --> 00:48:08.252 align:middle line:84%
+and there isn't actually
+any optionality in the order
+
+00:48:08.252 --> 00:48:09.710 align:middle line:84%
+in which you
+interpret quantifiers.
+
+00:48:09.710 --> 00:48:12.110 align:middle line:84%
+You always interpret the
+highest quantifier first.
+
+00:48:12.110 --> 00:48:13.670 align:middle line:90%
+That's going to be the story.
+
+00:48:13.670 --> 00:48:15.590 align:middle line:84%
+The optionality has to
+do with the optionality
+
+00:48:15.590 --> 00:48:19.042 align:middle line:90%
+of the application of QR.
+
+00:48:19.042 --> 00:48:21.000 align:middle line:84%
+So here's a sentence with
+two qualifiers in it,
+
+00:48:21.000 --> 00:48:21.840 align:middle line:90%
+and it's ambiguous.
+
+00:48:21.840 --> 00:48:24.390 align:middle line:84%
+And I'm asserting it's
+ambiguous because you can do QR.
+
+00:48:24.390 --> 00:48:26.610 align:middle line:84%
+Here's another sentence
+with two quantifiers in it:
+
+00:48:26.610 --> 00:48:27.990 align:middle line:84%
+"A guard said that
+I should stand
+
+00:48:27.990 --> 00:48:31.380 align:middle line:90%
+in front of every building."
+
+00:48:31.380 --> 00:48:34.250 align:middle line:84%
+Now is this ambiguous
+in the same way?
+
+00:48:34.250 --> 00:48:34.750 align:middle line:90%
+No.
+
+00:48:34.750 --> 00:48:37.400 align:middle line:90%
+
+
+00:48:37.400 --> 00:48:41.080 align:middle line:84%
+It doesn't mean-- so
+what does it mean?
+
+00:48:41.080 --> 00:48:43.380 align:middle line:90%
+
+
+00:48:43.380 --> 00:48:43.880 align:middle line:90%
+Joseph?
+
+00:48:43.880 --> 00:48:47.812 align:middle line:84%
+AUDIENCE: The guard thinks that
+I have to be particularly--
+
+00:48:47.812 --> 00:48:48.770 align:middle line:90%
+NORVIN RICHARDS: Large.
+
+00:48:48.770 --> 00:48:51.690 align:middle line:84%
+AUDIENCE: --to be able to stand
+in front of all [INAUDIBLE]..
+
+00:48:51.690 --> 00:48:52.982 align:middle line:90%
+NORVIN RICHARDS: Yeah, exactly.
+
+00:48:52.982 --> 00:48:57.090 align:middle line:84%
+There is one guard who
+demands that I gain weight--
+
+00:48:57.090 --> 00:48:58.605 align:middle line:84%
+wants me to be wide
+enough to stand
+
+00:48:58.605 --> 00:48:59.730 align:middle line:90%
+in front of every building.
+
+00:48:59.730 --> 00:49:00.230 align:middle line:90%
+Yeah, Faith?
+
+00:49:00.230 --> 00:49:04.500 align:middle line:84%
+AUDIENCE: I interpreted it
+instead as move from one
+
+00:49:04.500 --> 00:49:06.180 align:middle line:90%
+building to the next one.
+
+00:49:06.180 --> 00:49:08.460 align:middle line:84%
+NORVIN RICHARDS: Yeah, that's
+a more reasonable thing
+
+00:49:08.460 --> 00:49:10.860 align:middle line:84%
+for the guard to ask
+me to do, isn't it?
+
+00:49:10.860 --> 00:49:14.040 align:middle line:84%
+And I guess it helps
+that we've switched here
+
+00:49:14.040 --> 00:49:18.510 align:middle line:84%
+to "That I should stand in
+front of every building"
+
+00:49:18.510 --> 00:49:19.650 align:middle line:90%
+rather than--
+
+00:49:19.650 --> 00:49:21.150 align:middle line:84%
+so what we had
+before was a guard
+
+00:49:21.150 --> 00:49:23.340 align:middle line:84%
+is standing in front
+of every building.
+
+00:49:23.340 --> 00:49:25.020 align:middle line:84%
+I guess we could interpret
+that as meaning that there's
+
+00:49:25.020 --> 00:49:27.210 align:middle line:84%
+a single guard who is walking
+from building to building
+
+00:49:27.210 --> 00:49:28.500 align:middle line:84%
+and standing briefly
+in front of them.
+
+00:49:28.500 --> 00:49:30.270 align:middle line:84%
+These are all ways of
+getting a single guard
+
+00:49:30.270 --> 00:49:31.110 align:middle line:90%
+to do all the work.
+
+00:49:31.110 --> 00:49:32.068 align:middle line:90%
+There's only one guard.
+
+00:49:32.068 --> 00:49:35.297 align:middle line:90%
+Yeah, you're absolutely right.
+
+00:49:35.297 --> 00:49:36.880 align:middle line:84%
+But it doesn't have
+the other reading.
+
+00:49:36.880 --> 00:49:40.112 align:middle line:84%
+It doesn't mean there
+was one guard who
+
+00:49:40.112 --> 00:49:42.070 align:middle line:84%
+wanted me to stand in
+front of the Stata Center
+
+00:49:42.070 --> 00:49:43.600 align:middle line:84%
+and another guard who
+wanted me to stand in front
+
+00:49:43.600 --> 00:49:45.433 align:middle line:84%
+of the Student Center,
+and another guard who
+
+00:49:45.433 --> 00:49:47.410 align:middle line:84%
+wanted me to stand in
+front of the MIT Museum.
+
+00:49:47.410 --> 00:49:48.285 align:middle line:90%
+It doesn't mean that.
+
+00:49:48.285 --> 00:49:50.910 align:middle line:90%
+
+
+00:49:50.910 --> 00:49:52.260 align:middle line:90%
+All right, why not?
+
+00:49:52.260 --> 00:49:55.290 align:middle line:84%
+Because we've got
+two qualifiers.
+
+00:49:55.290 --> 00:49:57.510 align:middle line:84%
+Why can't we interpret
+these qualifiers
+
+00:49:57.510 --> 00:49:59.582 align:middle line:90%
+in any order we want?
+
+00:49:59.582 --> 00:50:02.070 align:middle line:84%
+Well, if we believe in QR,
+we have an answer to that.
+
+00:50:02.070 --> 00:50:04.340 align:middle line:84%
+We get to say what's
+special about this example
+
+00:50:04.340 --> 00:50:05.930 align:middle line:84%
+and distinguishes
+it from the examples
+
+00:50:05.930 --> 00:50:10.070 align:middle line:84%
+we had before is that "a
+guard" is in the matrix clause,
+
+00:50:10.070 --> 00:50:12.650 align:middle line:84%
+and there's an embedded
+clause, an embedded CP,
+
+00:50:12.650 --> 00:50:14.900 align:middle line:84%
+that I should stand in
+front of every building.
+
+00:50:14.900 --> 00:50:17.150 align:middle line:90%
+Yeah, that's an embedded clause.
+
+00:50:17.150 --> 00:50:17.900 align:middle line:90%
+Is that clear?
+
+00:50:17.900 --> 00:50:19.670 align:middle line:90%
+Should I draw a tree?
+
+00:50:19.670 --> 00:50:22.820 align:middle line:84%
+So say it's taking,
+as its sister,
+
+00:50:22.820 --> 00:50:25.220 align:middle line:84%
+a CP that I should stand
+in front of every building.
+
+00:50:25.220 --> 00:50:27.137 align:middle line:84%
+And what we're learning
+is that although there
+
+00:50:27.137 --> 00:50:28.820 align:middle line:84%
+is this optional
+operation, QR, that
+
+00:50:28.820 --> 00:50:30.680 align:middle line:84%
+can get one quantifier
+passed to another,
+
+00:50:30.680 --> 00:50:33.215 align:middle line:84%
+it can't get you
+out of a clause.
+
+00:50:33.215 --> 00:50:35.660 align:middle line:84%
+We're going to have to figure
+out what counts as a clause,
+
+00:50:35.660 --> 00:50:37.550 align:middle line:84%
+but apparently this
+counts as a clause.
+
+00:50:37.550 --> 00:50:40.670 align:middle line:84%
+There's some limitation
+on how far you can QR.
+
+00:50:40.670 --> 00:50:44.920 align:middle line:90%
+
+
+00:50:44.920 --> 00:50:45.790 align:middle line:90%
+How about this one?
+
+00:50:45.790 --> 00:50:49.330 align:middle line:84%
+"A guard seems to be standing
+in front of every building."
+
+00:50:49.330 --> 00:50:50.320 align:middle line:90%
+Is that ambiguous?
+
+00:50:50.320 --> 00:51:01.970 align:middle line:90%
+
+
+00:51:01.970 --> 00:51:03.940 align:middle line:90%
+I think so.
+
+00:51:03.940 --> 00:51:09.350 align:middle line:84%
+So it means either "Looks like
+every building is guarded"
+
+00:51:09.350 --> 00:51:14.540 align:middle line:90%
+or "Man, that guard is wide!"
+
+00:51:14.540 --> 00:51:16.550 align:middle line:84%
+or "Man, that guard
+is running hard
+
+00:51:16.550 --> 00:51:18.440 align:middle line:84%
+to be in front of every
+building at once!"
+
+00:51:18.440 --> 00:51:21.110 align:middle line:84%
+or "Look how clever that
+guard is at geometry.
+
+00:51:21.110 --> 00:51:23.930 align:middle line:84%
+He's managed to stand in front
+of every building at once!"
+
+00:51:23.930 --> 00:51:28.050 align:middle line:84%
+(Lucky thing for him,
+they all face each other.)
+
+00:51:28.050 --> 00:51:33.710 align:middle line:84%
+So it has two meanings,
+one with a very wide
+
+00:51:33.710 --> 00:51:35.912 align:middle line:84%
+or clever or fast-moving
+guard, and then
+
+00:51:35.912 --> 00:51:37.370 align:middle line:84%
+the other more
+normal reading where
+
+00:51:37.370 --> 00:51:38.915 align:middle line:84%
+it's like every
+building has a guard.
+
+00:51:38.915 --> 00:51:40.790 align:middle line:84%
+So either every building
+is such that there's
+
+00:51:40.790 --> 00:51:42.290 align:middle line:84%
+a guard standing in
+front of it, or there
+
+00:51:42.290 --> 00:51:43.707 align:middle line:84%
+is a guard who is
+somehow standing
+
+00:51:43.707 --> 00:51:45.890 align:middle line:90%
+in front of every building.
+
+00:51:45.890 --> 00:51:47.360 align:middle line:90%
+So yes, this is ambiguous.
+
+00:51:47.360 --> 00:51:50.740 align:middle line:90%
+
+
+00:51:50.740 --> 00:51:52.030 align:middle line:90%
+How about this one?
+
+00:51:52.030 --> 00:51:53.473 align:middle line:84%
+"I seem to a guard
+to be standing
+
+00:51:53.473 --> 00:51:54.640 align:middle line:90%
+in front of every building."
+
+00:51:54.640 --> 00:51:57.640 align:middle line:90%
+
+
+00:51:57.640 --> 00:52:00.010 align:middle line:90%
+Is that ambiguous?
+
+00:52:00.010 --> 00:52:01.510 align:middle line:90%
+No.
+
+00:52:01.510 --> 00:52:03.340 align:middle line:84%
+This is a sentence
+about one guard
+
+00:52:03.340 --> 00:52:06.640 align:middle line:84%
+who needs rest, who
+needs to be taken
+
+00:52:06.640 --> 00:52:10.270 align:middle line:84%
+off-duty and convinced
+to get some rest.
+
+00:52:10.270 --> 00:52:12.460 align:middle line:84%
+This is a guard who
+thinks that, I don't know,
+
+00:52:12.460 --> 00:52:14.320 align:middle line:84%
+maybe he goes to one
+building and I'm there
+
+00:52:14.320 --> 00:52:16.778 align:middle line:84%
+and he goes to another building
+and I seem to be there too,
+
+00:52:16.778 --> 00:52:19.810 align:middle line:84%
+and he's seeing me everywhere
+and this guard has problems.
+
+00:52:19.810 --> 00:52:21.180 align:middle line:90%
+And besides-- yes?
+
+00:52:21.180 --> 00:52:23.140 align:middle line:84%
+AUDIENCE: Is it just
+because "a guard" could
+
+00:52:23.140 --> 00:52:26.410 align:middle line:84%
+be referring to multiple
+guards whereas I-- you can't
+
+00:52:26.410 --> 00:52:29.765 align:middle line:90%
+have more than one I?
+
+00:52:29.765 --> 00:52:31.390 align:middle line:84%
+NORVIN RICHARDS: But
+the question still
+
+00:52:31.390 --> 00:52:33.430 align:middle line:90%
+remains, the other reading--
+
+00:52:33.430 --> 00:52:34.510 align:middle line:90%
+you're absolutely right.
+
+00:52:34.510 --> 00:52:36.052 align:middle line:84%
+But the other reading
+that this could
+
+00:52:36.052 --> 00:52:39.520 align:middle line:84%
+have would be one with
+something like every building
+
+00:52:39.520 --> 00:52:42.310 align:middle line:84%
+has this property:
+I seem to a guard
+
+00:52:42.310 --> 00:52:44.467 align:middle line:90%
+to be standing in front of it.
+
+00:52:44.467 --> 00:52:46.050 align:middle line:84%
+That would be a
+reading that would be,
+
+00:52:46.050 --> 00:52:48.303 align:middle line:84%
+like, "For this
+building, there's
+
+00:52:48.303 --> 00:52:50.470 align:middle line:84%
+a guard who thinks that I'm
+standing in front of it.
+
+00:52:50.470 --> 00:52:51.750 align:middle line:84%
+And for this other
+building, there's
+
+00:52:51.750 --> 00:52:53.375 align:middle line:84%
+another guard, maybe
+a different guard,
+
+00:52:53.375 --> 00:52:55.260 align:middle line:84%
+who thinks that I'm
+standing in front of it."
+
+00:52:55.260 --> 00:52:58.740 align:middle line:84%
+That's a story
+where there are lots
+
+00:52:58.740 --> 00:53:03.300 align:middle line:84%
+of guards who don't
+necessarily believe
+
+00:53:03.300 --> 00:53:04.830 align:middle line:84%
+that I am
+simultaneously standing
+
+00:53:04.830 --> 00:53:06.080 align:middle line:90%
+in front of lots of buildings.
+
+00:53:06.080 --> 00:53:08.007 align:middle line:84%
+They just all--
+their hallucinations
+
+00:53:08.007 --> 00:53:09.090 align:middle line:90%
+are more simple than that.
+
+00:53:09.090 --> 00:53:11.007 align:middle line:84%
+They just all see me in
+front of one building,
+
+00:53:11.007 --> 00:53:13.132 align:middle line:84%
+one particular building,
+maybe the building they're
+
+00:53:13.132 --> 00:53:14.250 align:middle line:90%
+supposed to be guarding.
+
+00:53:14.250 --> 00:53:15.667 align:middle line:84%
+All of them are
+taking the day off
+
+00:53:15.667 --> 00:53:17.970 align:middle line:84%
+because they're like, oh
+yeah, that Richards guy, he's
+
+00:53:17.970 --> 00:53:20.300 align:middle line:90%
+guarding that building.
+
+00:53:20.300 --> 00:53:20.930 align:middle line:90%
+Yeah?
+
+00:53:20.930 --> 00:53:23.303 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:53:23.303 --> 00:53:24.220 align:middle line:90%
+NORVIN RICHARDS: Yeah?
+
+00:53:24.220 --> 00:53:26.020 align:middle line:84%
+AUDIENCE: Somehow it
+didn't register to me
+
+00:53:26.020 --> 00:53:27.560 align:middle line:90%
+that you were the one--
+
+00:53:27.560 --> 00:53:30.173 align:middle line:90%
+not the guard.
+
+00:53:30.173 --> 00:53:32.840 align:middle line:84%
+NORVIN RICHARDS: Yeah, so that's
+what the second sentence means.
+
+00:53:32.840 --> 00:53:34.757 align:middle line:84%
+But the point is that
+it only means one thing.
+
+00:53:34.757 --> 00:53:37.120 align:middle line:84%
+It means there is one guard
+who thinks that I'm standing
+
+00:53:37.120 --> 00:53:38.245 align:middle line:90%
+in front of every building.
+
+00:53:38.245 --> 00:53:40.822 align:middle line:84%
+It doesn't mean every
+building is such
+
+00:53:40.822 --> 00:53:42.280 align:middle line:84%
+that there is some
+guard who thinks
+
+00:53:42.280 --> 00:53:43.700 align:middle line:90%
+I'm standing in front of it.
+
+00:53:43.700 --> 00:53:44.470 align:middle line:90%
+Doesn't mean that.
+
+00:53:44.470 --> 00:53:45.690 align:middle line:90%
+Yeah?
+
+00:53:45.690 --> 00:53:51.420 align:middle line:84%
+AUDIENCE: Could it be
+that a guard [INAUDIBLE]??
+
+00:53:51.420 --> 00:53:53.760 align:middle line:84%
+It's a singular
+phrase, but it could
+
+00:53:53.760 --> 00:54:00.560 align:middle line:84%
+refer to any number of people,
+whereas "I seem to a guard"
+
+00:54:00.560 --> 00:54:04.010 align:middle line:84%
+means that there is one entity
+that "a guard" refers to
+
+00:54:04.010 --> 00:54:05.180 align:middle line:90%
+and it can't be anyone else.
+
+00:54:05.180 --> 00:54:09.253 align:middle line:84%
+There is a person who has
+this quality that saw you.
+
+00:54:09.253 --> 00:54:10.670 align:middle line:84%
+NORVIN RICHARDS:
+Yeah, so that's--
+
+00:54:10.670 --> 00:54:13.190 align:middle line:84%
+I think there was a
+related comment earlier,
+
+00:54:13.190 --> 00:54:14.810 align:middle line:84%
+and I think that's
+onto something,
+
+00:54:14.810 --> 00:54:18.890 align:middle line:84%
+but it's describing the
+problem that we have.
+
+00:54:18.890 --> 00:54:21.748 align:middle line:84%
+If it's "A guard is standing
+in front of every building,"
+
+00:54:21.748 --> 00:54:24.290 align:middle line:84%
+or "A guard seems to be standing
+in front of every building,"
+
+00:54:24.290 --> 00:54:27.020 align:middle line:84%
+then yeah, "a guard" can
+either be one guard that's
+
+00:54:27.020 --> 00:54:29.720 align:middle line:84%
+in many places at once
+or it can be many guards,
+
+00:54:29.720 --> 00:54:30.710 align:middle line:90%
+one for each building.
+
+00:54:30.710 --> 00:54:33.410 align:middle line:90%
+That's the original ambiguity.
+
+00:54:33.410 --> 00:54:36.080 align:middle line:84%
+"A guard" has that power
+that it can do that.
+
+00:54:36.080 --> 00:54:38.690 align:middle line:84%
+But why can't it do it
+in the second sentence
+
+00:54:38.690 --> 00:54:39.590 align:middle line:90%
+is the question?
+
+00:54:39.590 --> 00:54:43.970 align:middle line:84%
+Why can't the
+second sentence mean
+
+00:54:43.970 --> 00:54:47.060 align:middle line:84%
+there are three guards--
+let's call them A, B, and C,
+
+00:54:47.060 --> 00:54:49.520 align:middle line:84%
+and guard A thinks that I'm
+standing in front of building
+
+00:54:49.520 --> 00:54:52.090 align:middle line:84%
+number one, and guard B thinks
+that I'm standing in front
+
+00:54:52.090 --> 00:54:53.840 align:middle line:84%
+of building number
+two, and guard C thinks
+
+00:54:53.840 --> 00:54:57.760 align:middle line:84%
+that I'm standing in front
+of building number three.
+
+00:54:57.760 --> 00:55:00.670 align:middle line:84%
+Why can't it mean that
+when the first sentence can
+
+00:55:00.670 --> 00:55:03.080 align:middle line:84%
+mean A seems to be standing
+in front of building one,
+
+00:55:03.080 --> 00:55:05.080 align:middle line:84%
+B seems to be standing
+in front of building two,
+
+00:55:05.080 --> 00:55:07.163 align:middle line:84%
+C seems to be standing in
+front of building three.
+
+00:55:07.163 --> 00:55:09.640 align:middle line:84%
+We can play that game, the
+alphabet and number game,
+
+00:55:09.640 --> 00:55:12.500 align:middle line:84%
+with the first example, but
+not with the second example.
+
+00:55:12.500 --> 00:55:15.420 align:middle line:90%
+We're trying to figure out why.
+
+00:55:15.420 --> 00:55:19.030 align:middle line:84%
+Yep, I'm trying
+to figure out why.
+
+00:55:19.030 --> 00:55:22.940 align:middle line:84%
+Here's a plausible
+story about why.
+
+00:55:22.940 --> 00:55:25.970 align:middle line:84%
+We went through this very
+fast, so I don't blame anybody
+
+00:55:25.970 --> 00:55:27.620 align:middle line:90%
+if you don't remember this.
+
+00:55:27.620 --> 00:55:29.848 align:middle line:84%
+But when we were
+doing "A guard seems
+
+00:55:29.848 --> 00:55:31.640 align:middle line:84%
+to be standing in front
+of every building,"
+
+00:55:31.640 --> 00:55:32.750 align:middle line:90%
+sentences like that--
+
+00:55:32.750 --> 00:55:40.770 align:middle line:90%
+
+
+00:55:40.770 --> 00:55:45.390 align:middle line:84%
+what we said was that there
+is a movement operation going
+
+00:55:45.390 --> 00:55:48.720 align:middle line:84%
+on in sentences involving
+"seems," this kind of sentence
+
+00:55:48.720 --> 00:55:52.590 align:middle line:84%
+involving "seems," where "seem"
+is followed by an infinitive.
+
+00:55:52.590 --> 00:55:57.060 align:middle line:84%
+What's going on is that
+"the guard," the thing that
+
+00:55:57.060 --> 00:55:59.850 align:middle line:84%
+ends up in subject
+position, starts out
+
+00:55:59.850 --> 00:56:00.990 align:middle line:90%
+in the embedded clause.
+
+00:56:00.990 --> 00:56:06.060 align:middle line:84%
+Here is a guard, and it's
+raising, moving up to here.
+
+00:56:06.060 --> 00:56:09.570 align:middle line:84%
+There's NP movement--
+so a movement.
+
+00:56:09.570 --> 00:56:12.810 align:middle line:84%
+I'm sorry, I know it's
+dangerous taking 24.900 from
+
+00:56:12.810 --> 00:56:15.390 align:middle line:84%
+a syntactician, because I keep
+trying to change the subject
+
+00:56:15.390 --> 00:56:16.877 align:middle line:90%
+back to syntax.
+
+00:56:16.877 --> 00:56:18.960 align:middle line:84%
+So now we're going to talk
+about syntax some more.
+
+00:56:18.960 --> 00:56:20.835 align:middle line:84%
+This is a bit of syntax
+that we talked about.
+
+00:56:20.835 --> 00:56:23.977 align:middle line:84%
+I tried to convince you that
+sentences like this, sentences
+
+00:56:23.977 --> 00:56:25.560 align:middle line:84%
+with "seem" and an
+infinitive in them,
+
+00:56:25.560 --> 00:56:27.870 align:middle line:84%
+the subject of the
+whole thing started out
+
+00:56:27.870 --> 00:56:28.890 align:middle line:90%
+in the embedded clause.
+
+00:56:28.890 --> 00:56:30.270 align:middle line:84%
+One of the kinds
+of arguments had
+
+00:56:30.270 --> 00:56:32.820 align:middle line:84%
+to do with properties of idioms,
+that you could say things
+
+00:56:32.820 --> 00:56:41.350 align:middle line:84%
+like "The shit seems
+to have hit the fan,"
+
+00:56:41.350 --> 00:56:44.080 align:middle line:84%
+where we think that the
+idiom is "The shit hit
+
+00:56:44.080 --> 00:56:48.730 align:middle line:84%
+the fan," that "the shit"
+needs to be somewhere near
+
+00:56:48.730 --> 00:56:51.293 align:middle line:84%
+"hit the fan," but it's way
+over there, and the story was,
+
+00:56:51.293 --> 00:56:53.710 align:middle line:84%
+yeah, that's because it starts
+out in the embedded clause,
+
+00:56:53.710 --> 00:56:57.700 align:middle line:84%
+and it undergoes NP movement
+into the matrix clause.
+
+00:56:57.700 --> 00:56:59.560 align:middle line:90%
+So it moves, it raises.
+
+00:56:59.560 --> 00:57:01.000 align:middle line:90%
+That sound familiar at all?
+
+00:57:01.000 --> 00:57:05.297 align:middle line:84%
+Have you all expunged the
+terrible memory of syntax?
+
+00:57:05.297 --> 00:57:06.880 align:middle line:84%
+That's the way we
+were talking before.
+
+00:57:06.880 --> 00:57:09.420 align:middle line:90%
+
+
+00:57:09.420 --> 00:57:14.480 align:middle line:84%
+So we said a bit ago
+that QR is clause-bound.
+
+00:57:14.480 --> 00:57:15.080 align:middle line:90%
+There we go.
+
+00:57:15.080 --> 00:57:16.610 align:middle line:84%
+That's us saying the
+QR is clause-bound.
+
+00:57:16.610 --> 00:57:17.690 align:middle line:84%
+"The guard said
+that I should stand
+
+00:57:17.690 --> 00:57:18.620 align:middle line:90%
+in front of every building."
+
+00:57:18.620 --> 00:57:19.280 align:middle line:90%
+I said yeah.
+
+00:57:19.280 --> 00:57:20.690 align:middle line:90%
+Why isn't that ambiguous?
+
+00:57:20.690 --> 00:57:23.930 align:middle line:84%
+Well, it's not ambiguous because
+"every building" is inside
+
+00:57:23.930 --> 00:57:26.480 align:middle line:84%
+an embedded clause that
+doesn't contain "a guard."
+
+00:57:26.480 --> 00:57:29.255 align:middle line:90%
+
+
+00:57:29.255 --> 00:57:31.850 align:middle line:84%
+So QR can't take
+"every building"
+
+00:57:31.850 --> 00:57:34.790 align:middle line:90%
+and move it past "a guard."
+
+00:57:34.790 --> 00:57:37.950 align:middle line:84%
+And then I think I also said, if
+we're saying things like that,
+
+00:57:37.950 --> 00:57:39.440 align:middle line:84%
+we eventually will
+have to explain
+
+00:57:39.440 --> 00:57:42.500 align:middle line:84%
+what kinds of things-- what
+we mean by clauses, exactly.
+
+00:57:42.500 --> 00:57:44.660 align:middle line:84%
+So clause has to include
+things like that--
+
+00:57:44.660 --> 00:57:47.940 align:middle line:84%
+I should stand in front
+of every building.
+
+00:57:47.940 --> 00:57:53.608 align:middle line:84%
+What about a sentence
+like "A guard
+
+00:57:53.608 --> 00:57:55.650 align:middle line:84%
+seems to be standing in
+front of every building"?
+
+00:57:55.650 --> 00:57:57.193 align:middle line:90%
+Well, here we get ambiguity.
+
+00:57:57.193 --> 00:57:59.610 align:middle line:84%
+And it could be that we're
+getting ambiguity here because,
+
+00:57:59.610 --> 00:58:13.575 align:middle line:84%
+well, "every building" has the
+option of undergoing QR here.
+
+00:58:13.575 --> 00:58:17.150 align:middle line:90%
+
+
+00:58:17.150 --> 00:58:19.430 align:middle line:84%
+The chalk I'm using
+is very small.
+
+00:58:19.430 --> 00:58:21.920 align:middle line:84%
+I'm blaming my
+illegible handwriting
+
+00:58:21.920 --> 00:58:24.955 align:middle line:90%
+on the poor quality of my chalk.
+
+00:58:24.955 --> 00:58:27.080 align:middle line:84%
+It's foolish of me to pick
+up a new piece of chalk,
+
+00:58:27.080 --> 00:58:28.400 align:middle line:84%
+because that will
+blow that excuse out
+
+00:58:28.400 --> 00:58:29.650 align:middle line:90%
+of the water in just a second.
+
+00:58:29.650 --> 00:58:32.610 align:middle line:90%
+
+
+00:58:32.610 --> 00:58:35.840 align:middle line:90%
+So here's "a guard" in the end.
+
+00:58:35.840 --> 00:58:37.370 align:middle line:84%
+It could be that
+there's ambiguity
+
+00:58:37.370 --> 00:58:39.440 align:middle line:84%
+in "a guard seems to be standing
+in front of every building"
+
+00:58:39.440 --> 00:58:41.270 align:middle line:84%
+because "every building"
+can undergo QR up
+
+00:58:41.270 --> 00:58:45.570 align:middle line:84%
+to here to a position
+above "every guard."
+
+00:58:45.570 --> 00:58:47.850 align:middle line:84%
+If that's possible, then
+that would be telling us
+
+00:58:47.850 --> 00:58:50.910 align:middle line:84%
+that well this TP down
+here, "to be standing in
+
+00:58:50.910 --> 00:58:53.490 align:middle line:84%
+front of every building"
+doesn't count as a clause
+
+00:58:53.490 --> 00:58:55.420 align:middle line:90%
+that you can QR out of that.
+
+00:58:55.420 --> 00:58:57.120 align:middle line:84%
+So when we say that
+QR is clause-bound,
+
+00:58:57.120 --> 00:58:59.010 align:middle line:84%
+we don't mean this
+kind of thing.
+
+00:58:59.010 --> 00:59:01.460 align:middle line:90%
+We mean tensed clauses.
+
+00:59:01.460 --> 00:59:04.760 align:middle line:84%
+But another possibility
+is that we do actually
+
+00:59:04.760 --> 00:59:08.180 align:middle line:84%
+mean tensed clauses and that
+the reason we do actually
+
+00:59:08.180 --> 00:59:12.530 align:middle line:84%
+need every TP, that QR out
+of this TP is impossible,
+
+00:59:12.530 --> 00:59:15.020 align:middle line:84%
+and that it's not
+possible to QR up to here,
+
+00:59:15.020 --> 00:59:16.820 align:middle line:90%
+it's only possible to QR here.
+
+00:59:16.820 --> 00:59:26.870 align:middle line:90%
+
+
+00:59:26.870 --> 00:59:28.970 align:middle line:84%
+And that the reason
+that you get ambiguity
+
+00:59:28.970 --> 00:59:31.550 align:middle line:84%
+in "A guard seems to be standing
+in front of every building"
+
+00:59:31.550 --> 00:59:32.540 align:middle line:90%
+goes like this--
+
+00:59:32.540 --> 00:59:34.790 align:middle line:84%
+"every building"
+can QR to a position
+
+00:59:34.790 --> 00:59:37.070 align:middle line:84%
+in the periphery of
+that embedded clause,
+
+00:59:37.070 --> 00:59:40.750 align:middle line:84%
+and "a guard" started out
+in that embedded clause.
+
+00:59:40.750 --> 00:59:43.290 align:middle line:90%
+And that's enough.
+
+00:59:43.290 --> 00:59:46.545 align:middle line:84%
+This would be a story
+where we're already--
+
+00:59:46.545 --> 00:59:49.897 align:middle line:84%
+if we're doing QR at all,
+we're slowly, hopefully,
+
+00:59:49.897 --> 00:59:52.230 align:middle line:84%
+getting accustomed to the
+idea that part of interpreting
+
+00:59:52.230 --> 00:59:55.350 align:middle line:84%
+sentences will be interpreting
+things in places where we
+
+00:59:55.350 --> 00:59:58.090 align:middle line:90%
+cannot necessarily see them.
+
+00:59:58.090 --> 01:00:00.720 align:middle line:84%
+So we can take things and move
+them invisibly to other places
+
+01:00:00.720 --> 01:00:02.950 align:middle line:90%
+and interpret them there.
+
+01:00:02.950 --> 01:00:04.500 align:middle line:84%
+So in "A guard
+seems to be standing
+
+01:00:04.500 --> 01:00:05.940 align:middle line:84%
+in front of every
+building," there
+
+01:00:05.940 --> 01:00:08.590 align:middle line:84%
+are two invisible
+movements going on.
+
+01:00:08.590 --> 01:00:10.640 align:middle line:84%
+One is we are invisibly
+moving "every building,"
+
+01:00:10.640 --> 01:00:12.390 align:middle line:84%
+maybe not all the way
+up to here, but just
+
+01:00:12.390 --> 01:00:15.210 align:middle line:84%
+to the edge of the embedded
+clause, the embedded TP.
+
+01:00:15.210 --> 01:00:19.020 align:middle line:84%
+And we are invisibly taking
+"a guard," which started out
+
+01:00:19.020 --> 01:00:21.370 align:middle line:84%
+in the embedded subject
+position and moved up to here
+
+01:00:21.370 --> 01:00:25.010 align:middle line:84%
+and underwent NP movement,
+and we're putting it back.
+
+01:00:25.010 --> 01:00:27.135 align:middle line:84%
+So we end up with "every
+building" above "a guard."
+
+01:00:27.135 --> 01:00:30.050 align:middle line:90%
+
+
+01:00:30.050 --> 01:00:32.000 align:middle line:90%
+And the reason to take that--
+
+01:00:32.000 --> 01:00:32.750 align:middle line:90%
+you're stunned.
+
+01:00:32.750 --> 01:00:34.250 align:middle line:84%
+I don't blame you
+for being stunned.
+
+01:00:34.250 --> 01:00:37.070 align:middle line:84%
+So there are these two
+invisible things happening.
+
+01:00:37.070 --> 01:00:40.070 align:middle line:84%
+A reason to take
+that idea seriously
+
+01:00:40.070 --> 01:00:42.140 align:middle line:84%
+is the fact at the
+bottom of this.
+
+01:00:42.140 --> 01:00:43.850 align:middle line:84%
+So "I seem to a
+guard to be standing
+
+01:00:43.850 --> 01:00:46.490 align:middle line:84%
+in front of every building--"
+we can get a story
+
+01:00:46.490 --> 01:00:48.650 align:middle line:84%
+about why we're not getting
+ambiguity here if we're
+
+01:00:48.650 --> 01:00:51.530 align:middle line:84%
+willing to say no, QR
+can't, in fact, get out
+
+01:00:51.530 --> 01:00:53.783 align:middle line:84%
+of an infinitival clause
+like "to be standing
+
+01:00:53.783 --> 01:00:54.950 align:middle line:90%
+in front of every building."
+
+01:00:54.950 --> 01:00:57.410 align:middle line:84%
+It can only get to the
+edge of such a clause.
+
+01:00:57.410 --> 01:00:58.970 align:middle line:84%
+And what's special
+about this example
+
+01:00:58.970 --> 01:01:02.717 align:middle line:84%
+is that "a guard" is not
+inside the embedded clause
+
+01:01:02.717 --> 01:01:04.550 align:middle line:84%
+"to be standing in front
+of every building."
+
+01:01:04.550 --> 01:01:07.520 align:middle line:90%
+It's an argument of "seem."
+
+01:01:07.520 --> 01:01:10.563 align:middle line:90%
+So it's in the higher clause.
+
+01:01:10.563 --> 01:01:12.480 align:middle line:84%
+I don't know why I did
+this with a blackboard.
+
+01:01:12.480 --> 01:01:13.770 align:middle line:90%
+I think I have slides here.
+
+01:01:13.770 --> 01:01:14.710 align:middle line:90%
+So let me show you the slides.
+
+01:01:14.710 --> 01:01:15.585 align:middle line:90%
+Maybe they will help.
+
+01:01:15.585 --> 01:01:18.750 align:middle line:90%
+
+
+01:01:18.750 --> 01:01:21.860 align:middle line:84%
+So we think that "a
+guard seems to be
+
+01:01:21.860 --> 01:01:23.360 align:middle line:84%
+standing in front
+of every building"
+
+01:01:23.360 --> 01:01:24.990 align:middle line:90%
+involves a step of movement.
+
+01:01:24.990 --> 01:01:27.480 align:middle line:84%
+"A guard" is moving out
+of the embedded clause
+
+01:01:27.480 --> 01:01:29.415 align:middle line:84%
+and into the matrix
+subject position.
+
+01:01:29.415 --> 01:01:32.390 align:middle line:90%
+
+
+01:01:32.390 --> 01:01:35.175 align:middle line:84%
+And I see now I don't
+actually have slides
+
+01:01:35.175 --> 01:01:36.300 align:middle line:90%
+that help with any of this.
+
+01:01:36.300 --> 01:01:38.990 align:middle line:84%
+So the reason we're
+getting this ambiguity
+
+01:01:38.990 --> 01:01:41.840 align:middle line:84%
+is not that "every building"
+can QR past the higher
+
+01:01:41.840 --> 01:01:42.980 align:middle line:90%
+position of "a guard."
+
+01:01:42.980 --> 01:01:45.500 align:middle line:84%
+It can only QR past the
+lower position of "a guard,"
+
+01:01:45.500 --> 01:01:47.100 align:middle line:90%
+and that's good enough.
+
+01:01:47.100 --> 01:01:49.460 align:middle line:84%
+So we get to interpret the
+lower position of "a guard"
+
+01:01:49.460 --> 01:01:53.150 align:middle line:84%
+as well as the higher invisible
+position of "every building."
+
+01:01:53.150 --> 01:01:55.405 align:middle line:84%
+So we get a handle
+on all of these facts
+
+01:01:55.405 --> 01:01:56.780 align:middle line:84%
+as long as we're
+willing to posit
+
+01:01:56.780 --> 01:02:00.470 align:middle line:84%
+these particular invisible
+kinds of movements.
+
+01:02:00.470 --> 01:02:02.990 align:middle line:84%
+Learning something about QR--
+when we say it's clause-bound,
+
+01:02:02.990 --> 01:02:06.350 align:middle line:84%
+we mean it can't get any
+further than TP, any kind of TP,
+
+01:02:06.350 --> 01:02:07.645 align:middle line:90%
+tensed or nontensed.
+
+01:02:07.645 --> 01:02:10.900 align:middle line:90%
+
+
+01:02:10.900 --> 01:02:12.940 align:middle line:84%
+Now Danny Fox also
+discovered something else
+
+01:02:12.940 --> 01:02:14.890 align:middle line:90%
+that's cool about QR.
+
+01:02:14.890 --> 01:02:17.300 align:middle line:84%
+He's discovered
+many cool things.
+
+01:02:17.300 --> 01:02:20.570 align:middle line:84%
+And the next thing is
+quite long and complicated,
+
+01:02:20.570 --> 01:02:23.980 align:middle line:84%
+so maybe I will pause
+here and take questions.
+
+01:02:23.980 --> 01:02:25.480 align:middle line:84%
+Do people have
+questions about this?
+
+01:02:25.480 --> 01:02:29.900 align:middle line:84%
+Would you like me to go through
+it more slowly or carefully?
+
+01:02:29.900 --> 01:02:34.437 align:middle line:84%
+I've been talking so far
+as QR is always optional.
+
+01:02:34.437 --> 01:02:36.520 align:middle line:84%
+Danny Fox has discovered--
+it was one of his early
+
+01:02:36.520 --> 01:02:37.902 align:middle line:90%
+discoveries--
+
+01:02:37.902 --> 01:02:39.610 align:middle line:84%
+it's actually more
+complicated than that.
+
+01:02:39.610 --> 01:02:41.860 align:middle line:84%
+What we'll see, and we'll
+start doing this next time,
+
+01:02:41.860 --> 01:02:45.790 align:middle line:84%
+is that you can
+only do QR if it's
+
+01:02:45.790 --> 01:02:49.160 align:middle line:84%
+going to change the
+meaning of the sentence.
+
+01:02:49.160 --> 01:02:51.550 align:middle line:84%
+So if you have two
+qualifiers, you
+
+01:02:51.550 --> 01:02:54.740 align:middle line:84%
+can QR the lower quantifier
+past the higher quantifier
+
+01:02:54.740 --> 01:02:56.740 align:middle line:84%
+if that's going to give
+you a different meaning,
+
+01:02:56.740 --> 01:03:00.910 align:middle line:84%
+a meaning you wouldn't have
+had if the QR hadn't happened.
+
+01:03:00.910 --> 01:03:03.580 align:middle line:84%
+If you have a sentence where
+QR wouldn't affect the meaning,
+
+01:03:03.580 --> 01:03:04.510 align:middle line:90%
+it can't happen.
+
+01:03:04.510 --> 01:03:08.000 align:middle line:90%
+
+
+01:03:08.000 --> 01:03:09.560 align:middle line:84%
+And what we'll do
+next time-- we'll
+
+01:03:09.560 --> 01:03:10.970 align:middle line:84%
+start with this
+next time-- we'll
+
+01:03:10.970 --> 01:03:12.815 align:middle line:84%
+develop the tools
+to discover that,
+
+01:03:12.815 --> 01:03:15.140 align:middle line:84%
+the tools that Danny
+Fox discovered,
+
+01:03:15.140 --> 01:03:18.540 align:middle line:84%
+and then I'll show
+you that that's true.
+
+01:03:18.540 --> 01:03:20.810 align:middle line:84%
+So any further questions
+about any of this?
+
+01:03:20.810 --> 01:03:24.530 align:middle line:84%
+At this point, you should
+all be weirded out.
+
+01:03:24.530 --> 01:03:26.780 align:middle line:84%
+Suddenly things are moving
+around in an invisible way,
+
+01:03:26.780 --> 01:03:28.363 align:middle line:84%
+and this is part of
+interpreting them.
+
+01:03:28.363 --> 01:03:29.840 align:middle line:90%
+Yeah?
+
+01:03:29.840 --> 01:03:31.610 align:middle line:84%
+AUDIENCE: If QR
+are can only happen
+
+01:03:31.610 --> 01:03:39.330 align:middle line:84%
+if it will change the meaning
+of the sentence, that indicates
+
+01:03:39.330 --> 01:03:42.450 align:middle line:84%
+that the English language, and
+I imagine other languages that
+
+01:03:42.450 --> 01:03:49.440 align:middle line:84%
+allow this, they build in
+the ambiguity as opposed
+
+01:03:49.440 --> 01:03:51.272 align:middle line:84%
+to trying to mitigate
+the ambiguity?
+
+01:03:51.272 --> 01:03:52.980 align:middle line:84%
+NORVIN RICHARDS: Oh,
+I see what you mean.
+
+01:03:52.980 --> 01:03:55.320 align:middle line:90%
+I think I see what you mean.
+
+01:03:55.320 --> 01:03:57.600 align:middle line:84%
+I mean, the claim in the
+end is that the structures
+
+01:03:57.600 --> 01:04:01.020 align:middle line:84%
+that are interpreted
+are never ambiguous.
+
+01:04:01.020 --> 01:04:03.870 align:middle line:90%
+You either do QR or you don't.
+
+01:04:03.870 --> 01:04:05.880 align:middle line:84%
+And if you do QR, then
+you get one reading.
+
+01:04:05.880 --> 01:04:08.310 align:middle line:84%
+And if you don't do QR, then
+you get another reading.
+
+01:04:08.310 --> 01:04:10.560 align:middle line:84%
+And English is one of the
+languages in which you don't
+
+01:04:10.560 --> 01:04:13.800 align:middle line:84%
+get to see QR, and the result is
+that the sentence is ambiguous
+
+01:04:13.800 --> 01:04:16.503 align:middle line:84%
+because you can't tell whether
+QR has happened or not.
+
+01:04:16.503 --> 01:04:18.420 align:middle line:84%
+There are languages out
+there, like Hungarian,
+
+01:04:18.420 --> 01:04:22.303 align:middle line:84%
+where you can see QR, and so
+the sentences are not ambiguous.
+
+01:04:22.303 --> 01:04:24.720 align:middle line:84%
+But yes, that means there are
+certain kinds of ambiguities
+
+01:04:24.720 --> 01:04:27.720 align:middle line:84%
+in English that don't exist
+in some other languages,
+
+01:04:27.720 --> 01:04:28.560 align:middle line:90%
+like Hungarian.
+
+01:04:28.560 --> 01:04:29.610 align:middle line:84%
+There are other
+languages where it's
+
+01:04:29.610 --> 01:04:30.735 align:middle line:90%
+more complicated than that.
+
+01:04:30.735 --> 01:04:35.760 align:middle line:84%
+So there are languages
+like Japanese,
+
+01:04:35.760 --> 01:04:37.760 align:middle line:84%
+and German, actually, has
+a version of this too.
+
+01:04:37.760 --> 01:04:41.840 align:middle line:84%
+But in Japanese, if you
+have two qualifiers,
+
+01:04:41.840 --> 01:04:43.460 align:middle line:84%
+their scope with
+respect to each other
+
+01:04:43.460 --> 01:04:47.270 align:middle line:84%
+is unambiguous unless you move
+one of them past the other,
+
+01:04:47.270 --> 01:04:49.100 align:middle line:90%
+and then it becomes ambiguous.
+
+01:04:49.100 --> 01:04:53.120 align:middle line:84%
+So basically, it's as though
+the movement operation that
+
+01:04:53.120 --> 01:04:56.270 align:middle line:84%
+moves one quantifier past
+the other could be QR
+
+01:04:56.270 --> 01:04:58.170 align:middle line:90%
+or it could be something else.
+
+01:04:58.170 --> 01:05:01.130 align:middle line:84%
+And so you can't tell whether
+you have done QR of that thing
+
+01:05:01.130 --> 01:05:01.740 align:middle line:90%
+or not.
+
+01:05:01.740 --> 01:05:04.400 align:middle line:84%
+But there is no invisible
+QR in Japanese--
+
+01:05:04.400 --> 01:05:06.030 align:middle line:90%
+something like that.
+
+01:05:06.030 --> 01:05:07.610 align:middle line:90%
+Cool.
+
+01:05:07.610 --> 01:05:08.300 align:middle line:90%
+All right, good.
+
+01:05:08.300 --> 01:05:11.568 align:middle line:84%
+Thank you for coming in braving
+my possible cold viruses.
+
+01:05:11.568 --> 01:05:13.110 align:middle line:84%
+I apologize for
+exposing you to them.
+
+01:05:13.110 --> 01:05:16.900 align:middle line:90%
+And I will see you on Thursday.
+
+01:05:16.900 --> 01:05:24.000 align:middle line:90%

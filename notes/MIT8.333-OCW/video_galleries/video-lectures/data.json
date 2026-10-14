@@ -1,0 +1,1168 @@
+
+{
+  "content": "<p>The titles reflect content of the <a href=\"../../pages/lecture-notes/index.html\">lecture notes</a>, which may not completely reflect the sequence of the video lectures.</p>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-thermodynamics-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4RX_lpoGRBg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Thermodynamics Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-thermodynamics-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/EQB2Pw0lWRU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Thermodynamics Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-thermodynamics-part-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/JaEqS1ozlHY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Thermodynamics Part 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-thermodynamics-part-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/__tGxUu5BTc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Thermodynamics Part 4</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-probability-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/w_I0AkvbWFc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Probability Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-probability-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/I_LcUur7quE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Probability Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7-kinetic-theory-of-gases-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/BhVyiU_dWps/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Kinetic Theory of Gases Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-kinetic-theory-of-gases-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/8woIHrY6eM0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Kinetic Theory of Gases Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-kinetic-theory-of-gases-part-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/t7pTpwMjQ5I/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Kinetic Theory of Gases Part 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-kinetic-theory-of-gases-part-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ybCsMYk5xMg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Kinetic Theory of Gases Part 4</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-kinetic-theory-of-gases-part-5/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/QmV7FOXijMo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: Kinetic Theory of Gases Part 5</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12-classical-statistical-mechanics-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ckUyxmwaC5E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Classical Statistical Mechanics Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-classical-statistical-mechanics-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Lt8FtWsq0q0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Classical Statistical Mechanics Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-classical-statistical-mechanics-part-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/tCxonq5r-O8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Classical Statistical Mechanics Part 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-interacting-particles-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Y59FgktB4uQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Interacting Particles Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-interacting-particles-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/TDnfhpAZBqs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Interacting Particles Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-interacting-particles-part-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/TSjJlJJ2aoI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Interacting Particles Part 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-interacting-particles-part-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/l2Q31eoy_rY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Interacting Particles Part 4</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-interacting-particles-part-5/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/hl4c1P9D8IY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Interacting Particles Part 5</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-quantum-statistical-mechanics-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/b1P0hurY6UE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Quantum Statistical Mechanics Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-quantum-statistical-mechanics-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/34lmLIYpkYQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Quantum Statistical Mechanics Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-ideal-quantum-gases-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/hRHzPaDpgu0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Ideal Quantum Gases Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23-ideal-quantum-gases-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/8kNP_VWmfFs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: Ideal Quantum Gases Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-24-ideal-quantum-gases-part-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/FmylhZqFXNk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 24: Ideal Quantum Gases Part 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-25-ideal-quantum-gases-part-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/6rn4q9mv4jQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 25: Ideal Quantum Gases Part 4</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-26-ideal-quantum-gases-part-5/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/6gMgNriK1Nk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 26: Ideal Quantum Gases Part 5</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section includes twenty six lecture videos recorded on the MIT campus.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "9d57c8d0-3ae5-67b2-6a8c-d8c8f296187c",
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "206734695",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Thermodynamics Part 1",
+      "uid": "ad4ffdad-c60d-c282-63b4-b9798ea4c9de",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/720ff815e09b547299dac2a3810720a2_4RX_lpoGRBg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4RX_lpoGRBg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/ec0fde883ae677301a2453718d569c3d_4RX_lpoGRBg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, first law, fundamental definitions, zeroth law",
+        "youtube_id": "4RX_lpoGRBg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "199753406",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Thermodynamics Part 2",
+      "uid": "a58a6a60-1295-29d5-86e8-e844e7083ecb",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/34a46af0462f5f36b3897d5edc765c01_EQB2Pw0lWRU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/EQB2Pw0lWRU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/e1efe147ded37e41e647d5054387e9d6_EQB2Pw0lWRU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, carnot engines, entropy, second law, thermodynamic temperature",
+        "youtube_id": "EQB2Pw0lWRU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "201704407",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Thermodynamics Part 3",
+      "uid": "35c877ee-67cf-86ea-6d42-5717a48e88f9",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/78b6b39df7105de0be91708a960c2374_JaEqS1ozlHY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/JaEqS1ozlHY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/c3d07415ae30b0415845de789aec3410_JaEqS1ozlHY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, equilibrium, thermodynamic potentials, useful mathematical results",
+        "youtube_id": "JaEqS1ozlHY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "190071171",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Thermodynamics Part 4",
+      "uid": "e115746f-2632-8d67-b4ab-9d86af807343",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/b019c56529685b9985fb2f551753aad3_tGxUu5BTc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/__tGxUu5BTc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/1f11d9152f17c6dbde332ca436ade743_tGxUu5BTc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, stability conditions, third law",
+        "youtube_id": "__tGxUu5BTc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "195233168",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Probability Part 1",
+      "uid": "d5becea4-2c2f-dd47-303f-5d5cffe5808c",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/a4b4aec63ca050fca33bdbe282da1729_w_I0AkvbWFc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/w_I0AkvbWFc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/ee6add2aaf20b812ca2c2a8d31dbcd87_w_I0AkvbWFc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, general definitions, one random variable, some important probability distributions",
+        "youtube_id": "w_I0AkvbWFc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "203394163",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Probability Part 2",
+      "uid": "dff846fe-630e-2525-fbb1-522f3b9af3f0",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/0c6c24661d785f06a02f7997addd0578_I_LcUur7quE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/I_LcUur7quE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/2632a11d682c265c4b538a8b55f847bf_I_LcUur7quE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, central limit theorem, entropy, estimation, information, many random variables, rules for large numbers, sums of random variables",
+        "youtube_id": "I_LcUur7quE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "189112273",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Kinetic Theory of Gases Part 1",
+      "uid": "fcc47c71-9784-7853-cc0b-cd475da6dca9",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/4b8cb9743f985a2d896b95a2d8878802_BhVyiU_dWps.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/BhVyiU_dWps/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/058ba7e6ebb0f65b84efa51d568e001f_BhVyiU_dWps.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, general definitions, liouville's theorem",
+        "youtube_id": "BhVyiU_dWps"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "183180181",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Kinetic Theory of Gases Part 2",
+      "uid": "e0297c95-8331-f7e2-82c3-9d4cda651434",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/e9c68470743257338b60c139be7afbb4_8woIHrY6eM0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/8woIHrY6eM0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/8a8e853159f66987bd6f3b46cb4b755b_8woIHrY6eM0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, bogoliubov-born-green-kirkwood-yvon hierarchy, boltzmann equation",
+        "youtube_id": "8woIHrY6eM0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "204370118",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Kinetic Theory of Gases Part 3",
+      "uid": "8f133546-f62f-8807-444a-5d160f9fa5df",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/d6bf248bac35542db5f277036a6ccb01_t7pTpwMjQ5I.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/t7pTpwMjQ5I/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/ae652d51b9555e1c62dbe254ad1f1a70_t7pTpwMjQ5I.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, equilibrium properties, h-theorem and irreversibility",
+        "youtube_id": "t7pTpwMjQ5I"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "205046146",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Kinetic Theory of Gases Part 4",
+      "uid": "e9a5416a-cf19-5609-8c7c-db77ce08b49a",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/57fcdd7e4b695bd5af9f3847b6b18563_ybCsMYk5xMg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ybCsMYk5xMg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/55078611fbd0737af4a91e9c2cefc0bf_ybCsMYk5xMg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, conservation, laws",
+        "youtube_id": "ybCsMYk5xMg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "197695606",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: Kinetic Theory of Gases Part 5",
+      "uid": "a8dcd8bd-8174-e1f9-4898-38ab156061bd",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/7100fb32a59a5d52a68570fd5d723082_QmV7FOXijMo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/QmV7FOXijMo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/6e2b7447063287237ac494de2b888505_QmV7FOXijMo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, first order hydrodynamics, zeroth order hydrodynamics",
+        "youtube_id": "QmV7FOXijMo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "205466621",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Classical Statistical Mechanics Part 1",
+      "uid": "1714fcfe-43a3-a05f-8efd-047df39ef03b",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/f0c3b838642d5b3aa104177a8b1a2bde_ckUyxmwaC5E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ckUyxmwaC5E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/dacedb19c2ff0e4e35665f64ecaff298_ckUyxmwaC5E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, general definitions, microcanonical ensemble, two-level systems",
+        "youtube_id": "ckUyxmwaC5E"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "197730084",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Classical Statistical Mechanics Part 2",
+      "uid": "d5ca4bef-d982-9aa8-8745-c1520593ca7a",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/0e5507024fca5c3bbf6531d2c2051ae1_Lt8FtWsq0q0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Lt8FtWsq0q0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/8543438265ff0d90d34bec39a4d09099_Lt8FtWsq0q0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, canonical ensemble, gibbs' paradox, ideal gas, mixing entropy",
+        "youtube_id": "Lt8FtWsq0q0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "204296732",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Classical Statistical Mechanics Part 3",
+      "uid": "6ca77b3f-dfc1-0df2-0ce1-77eeb4086a5e",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/6edb8e1d73cf51f588179e685a90a7e9_tCxonq5r-O8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/tCxonq5r-O8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/6e37592197f9a11636cee6c1f7123b03_tCxonq5r-O8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, examples, gibbs canonical ensemble, grand canonical ensemble",
+        "youtube_id": "tCxonq5r-O8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "205290261",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Interacting Particles Part 1",
+      "uid": "6a80b276-5a66-1893-021a-2c69fcca2144",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/928c4083bd1e57b2bae398c1e2285905_Y59FgktB4uQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Y59FgktB4uQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/5a4e8b6bc1fb2d63c43e4e6274d66854_Y59FgktB4uQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, cumulant, expansion",
+        "youtube_id": "Y59FgktB4uQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "197395120",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Interacting Particles Part 2",
+      "uid": "6f855484-28aa-52e1-bdbc-cdc7753c396f",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/d5b48a5eef7b5e70ad61ed53dcbd9a24_TDnfhpAZBqs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/TDnfhpAZBqs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/66fa0f380384ec076609905e1607a612_TDnfhpAZBqs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, cluster, expansion",
+        "youtube_id": "TDnfhpAZBqs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "199614963",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Interacting Particles Part 3",
+      "uid": "49b96589-d641-a6d0-202d-e1cd39243cfc",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/ee1dfb52f57f51529c69c5b3373dc3f3_TSjJlJJ2aoI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/TSjJlJJ2aoI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/547f0740c216a199d10571b6e9de8277_TSjJlJJ2aoI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, breakdown of the van der waals equation, mean field theory of condensation, second virial coefficient, van der waals equation",
+        "youtube_id": "TSjJlJJ2aoI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "202106227",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Interacting Particles Part 4",
+      "uid": "5c6908a1-e825-87db-5647-acb402479cb6",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/c7d24ddf67c55241b8ca9f10241fa024_l2Q31eoy_rY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/l2Q31eoy_rY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/8a857cba1c051ac073a8c9d106dc7501_l2Q31eoy_rY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, corresponding states, critical point behavior, variational methods",
+        "youtube_id": "l2Q31eoy_rY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "190495500",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Interacting Particles Part 5",
+      "uid": "28fb1dcb-30b6-addd-c910-1ff4d9b64600",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/501e540a4b47545ebf603fae664a1eaf_hl4c1P9D8IY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/hl4c1P9D8IY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/413c42dbf435c80fde21dadb21104246_hl4c1P9D8IY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, corresponding states, critical point behavior, mean field theory of condensation",
+        "youtube_id": "hl4c1P9D8IY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "200345653",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Quantum Statistical Mechanics Part 1",
+      "uid": "e34b7cce-fa88-37e7-1016-18bd3584f356",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/91843e793c885f6db2ab298a92c27928_b1P0hurY6UE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/b1P0hurY6UE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/f38da5fe5bb800fb411f1c253ead20a0_b1P0hurY6UE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, black-body radiation, dilute polyatomic gases, vibrations of a solid",
+        "youtube_id": "b1P0hurY6UE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "200969489",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Quantum Statistical Mechanics Part 2",
+      "uid": "277b4da5-42eb-8ee5-d26b-0ac4d1248952",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/10e9328ab4145ad69732b9960c83e95d_34lmLIYpkYQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/34lmLIYpkYQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/8d8391a5b4d128c30b35fd1a1527df88_34lmLIYpkYQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, quantum macrostates, quantum microstates",
+        "youtube_id": "34lmLIYpkYQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192613888",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Ideal Quantum Gases Part 1",
+      "uid": "d32c7e63-1b45-07e7-c314-0b7983484a21",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/fde5ce7b96a65c538b5e153d074484d1_hRHzPaDpgu0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/hRHzPaDpgu0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/dd39ab5d8b1f984801987fa01f4ceaa7_hRHzPaDpgu0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, hilbert space, identical particles",
+        "youtube_id": "hRHzPaDpgu0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "199719417",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: Ideal Quantum Gases Part 2",
+      "uid": "624a29b5-7df4-75fd-605e-1b5cc70c4998",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec23_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/4fc19d31fa1452fe850156b499004c04_8kNP_VWmfFs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/8kNP_VWmfFs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/56a2099e34b22710649c80cb661cc3b6_8kNP_VWmfFs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, canonical formulation, grand canonical formulation",
+        "youtube_id": "8kNP_VWmfFs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "200262023",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 24: Ideal Quantum Gases Part 3",
+      "uid": "b6407bb4-ffcb-a6c5-cf87-2819fda56914",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec24_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/e8ed224a2a4359bfb388531a5ecd2022_FmylhZqFXNk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/FmylhZqFXNk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/d1845cd7161125b471024dd0a0ff41eb_FmylhZqFXNk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, degenerate, fermi, gas",
+        "youtube_id": "FmylhZqFXNk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "198876614",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 25: Ideal Quantum Gases Part 4",
+      "uid": "e08ae80d-cb1a-6298-bd1e-8fb138596af1",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec25_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/1596762e4d555f93a90783b94725f51d_6rn4q9mv4jQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/6rn4q9mv4jQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/16724724ff6aba5d4b04b38a706c1411_6rn4q9mv4jQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, bose, degenerate, gas",
+        "youtube_id": "6rn4q9mv4jQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192974145",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 26: Ideal Quantum Gases Part 5",
+      "uid": "86c73544-e30e-97ae-aac0-546cebc0d8f7",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT8.333F13/MIT8_333F13_lec26_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/04a25d33663252fd9c47ee0fad0c11fa_6gMgNriK1Nk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/6gMgNriK1Nk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/fcfa960bd1309c289df2b67f09ee01ad_6gMgNriK1Nk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013, he4, superfluid",
+        "youtube_id": "6gMgNriK1Nk"
+      }
+    }
+  ]
+}
+

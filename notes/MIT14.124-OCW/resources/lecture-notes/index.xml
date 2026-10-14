@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>14.124 Spring 2017 Lecture Slides - Part 1</title>
+      <link>/resources/mit14_124s17_slide1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_slide1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14.124 Spring 2017 Lecture Slides - Part 2</title>
+      <link>/resources/mit14_124s17_slide2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_slide2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14.124 Spring 2017 Lecture Slides - Part 3</title>
+      <link>/resources/mit14_124s17_slide3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_slide3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14.124 Spring 2017 Lecture Slides - Part 4</title>
+      <link>/resources/mit14_124s17_slide4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_slide4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14.124 Spring 2017 Lectures on the Theory of Contracts-Section 1 and 2</title>
+      <link>/resources/mit14_124s17_lecnote1_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_lecnote1_2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>14.124 Spring 2017 Lectures on the Theory of Contracts-Section 3</title>
+      <link>/resources/mit14_124s17_lecnote3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit14_124s17_lecnote3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The following lecture notes were created by Lars Stole. Used with permission. &lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;lectures-on-the-theory-of-contracts&#34;&gt;Lectures on the Theory of Contracts&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit14_124s17_lecnote1_2/index.html&#34;&gt;Sections 1 &amp;amp; 2: Preface and Moral Hazard and Incentives Contracts (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;1. Preface&lt;/p&gt;&#xA;&lt;p&gt;2. Moral Hazard and Incentives Contracts (pg. 2) &lt;/p&gt;&#xA;&lt;p&gt;2.1 Static Principal-Agent Moral Hazard Models (pg. 2)&lt;/p&gt;&#xA;&lt;p&gt;2.1.1 The Basic Theory (pg. 2) &lt;/p&gt;&#xA;&lt;p&gt;2.1.2 Extensions: Moral Hazard in Teams (pg. 16) &lt;/p&gt;&#xA;&lt;p&gt;2.1.3 Extensions: A Rationale for Linear Contracts (pg. 23)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides</title>
+      <link>/pages/lecture-slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-slides/data.json</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../resources/mit14_124s17_slide1/index.html&#34;&gt;Lecture Slides-Part 1 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Topics covered: Comparison of distributions; decision making under uncertainty; sequential updating; statistics and sufficient statistics; decision analysis, comparison of experiments&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit14_124s17_slide2/index.html&#34;&gt;Lecture Slides-Part 2 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Topics covered: Moral hazard; LEN model; certainty equivalent; multi-tasking&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit14_124s17_slide3/index.html&#34;&gt;Lecture Slides-Part 3 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Topics covered: Adverse selection; virtual cost function; m-state case; continuous case; &lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit14_124s17_slide4/index.html&#34;&gt;Lecture Slides-Part 4 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Topics covered: Mechanism design; revelation principle; VCG mechanism; uniqueness; balancing the budget; BNE implementation; envelope theorem; continuous BNE implementation; revenue equivalence theorem, Myerson-Sattherthwaite Theorem;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

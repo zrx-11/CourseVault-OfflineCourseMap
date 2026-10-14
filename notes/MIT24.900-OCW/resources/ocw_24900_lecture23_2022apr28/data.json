@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p>This video explains how semantic drift, recuttings, and sound changes over time cause languages to evolve and/or split into distinctly different languages.</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture23_2022apr28_360p_16_9.mp4",
+  "file_size": 103600261,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Lecture 23: Historical Linguistics",
+  "uid": "b560163d-cd89-4d21-b98e-3d53df5cfc63",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1INQT8RnPt_b1LJm_g5kQ_ByluD5u_NWO_transcript.webvtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/5itfLAwQol8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/24-900-introduction-to-linguistics-spring-2022/1INQT8RnPt_b1LJm_g5kQ_ByluD5u_NWO_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "Prof. Norvin W. Richards",
+    "video_tags": "24-900-introduction-to-linguistics-spring-2022, chain shifts, glottochronology, grimm's law, neogrammarian hypothesis, protolanguages",
+    "youtube_description": "MIT 24.900 Introduction to Linguistics, Spring 2022\nInstructor: Prof. Norvin W. Richards\n\nView the complete course: https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP63BZGNOqrF2qf_yxOjuG35j\n\nThis video explains how semantic drift, recuttings, and sound changes over time cause languages to evolve and/or split into distinctly different languages.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.\n",
+    "youtube_id": "5itfLAwQol8"
+  }
+}

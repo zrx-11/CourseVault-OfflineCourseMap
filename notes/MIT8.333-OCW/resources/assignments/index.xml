@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;The problem sets were due in the sessions listed in the table.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;ASSIGNMENTS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-1/index.html&#34;&gt;Problem Set 1 Thermodynamics (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L10&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-2/index.html&#34;&gt;Problem Set 2 Probability (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L13&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-3/index.html&#34;&gt;Problem Set 3 Kinetic Theory (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L20&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-4/index.html&#34;&gt;Problem Set 4 Non-interacting Particles (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;R8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-5/index.html&#34;&gt;Problem Set 5 Interacting Particles &amp;amp; Quantum Ensembles (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L25&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/problem-set-6/index.html&#34;&gt;Problem Set 6 Ideal Quantum Gases (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

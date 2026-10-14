@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;The 3 in-class tests are composed entirely from a subset of the problem sets. The tests are &amp;ldquo;closed book,&amp;rdquo; but students may bring a one-sided sheet of formulas.&lt;/p&gt;&#xA;&lt;p&gt;All topics presented in the course will be covered in the final exam, with emphasis on the second half. The exam is closed book, but students may bring a two-sided sheet of formulas.&lt;/p&gt;&#xA;&lt;p&gt;Below are review problems from previous tests.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAM #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAM REVIEWS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAM REVIEW SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

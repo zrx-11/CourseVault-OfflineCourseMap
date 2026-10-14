@@ -1,0 +1,5889 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.952 align:middle line:90%
+[SQUEAKER]
+
+00:00:01.952 --> 00:00:02.928 align:middle line:90%
+[SQUEAK]
+
+00:00:02.928 --> 00:00:04.392 align:middle line:90%
+[SQUEAKIN]
+
+00:00:04.392 --> 00:00:11.192 align:middle line:90%
+
+
+00:00:11.192 --> 00:00:12.900 align:middle line:84%
+NORVIN RICHARDS: I'm
+going to start today
+
+00:00:12.900 --> 00:00:14.880 align:middle line:84%
+with a little bit of
+a review of something
+
+00:00:14.880 --> 00:00:18.690 align:middle line:84%
+that we talked about
+sort of earlier
+
+00:00:18.690 --> 00:00:21.540 align:middle line:84%
+when we were doing syntax
+because it came in handy.
+
+00:00:21.540 --> 00:00:23.520 align:middle line:84%
+At a certain point, you
+guys were pushing me
+
+00:00:23.520 --> 00:00:26.190 align:middle line:84%
+with questions about
+the fine details
+
+00:00:26.190 --> 00:00:27.300 align:middle line:90%
+of syntactic structures.
+
+00:00:27.300 --> 00:00:29.520 align:middle line:84%
+And I wasn't able to
+answer your questions
+
+00:00:29.520 --> 00:00:32.400 align:middle line:84%
+without making reference
+to another kind of test
+
+00:00:32.400 --> 00:00:35.260 align:middle line:84%
+for syntactic structure,
+which was binding theory.
+
+00:00:35.260 --> 00:00:37.200 align:middle line:84%
+And so I showed you
+binding theory back then,
+
+00:00:37.200 --> 00:00:40.160 align:middle line:84%
+but I'm going to go over it
+again in a little more detail.
+
+00:00:40.160 --> 00:00:42.660 align:middle line:84%
+And we'll talk about some things
+that we didn't get a chance
+
+00:00:42.660 --> 00:00:44.530 align:middle line:90%
+to talk about last time.
+
+00:00:44.530 --> 00:00:46.470 align:middle line:90%
+And then we'll go on from there.
+
+00:00:46.470 --> 00:00:48.750 align:middle line:84%
+Binding theory is
+the theory that's
+
+00:00:48.750 --> 00:00:52.170 align:middle line:84%
+meant to handle facts
+like the facts that
+
+00:00:52.170 --> 00:00:55.230 align:middle line:84%
+are on this slide,
+namely, the fact that,
+
+00:00:55.230 --> 00:00:57.760 align:middle line:84%
+if you say that these are
+both grammatical sentences,
+
+00:00:57.760 --> 00:00:59.950 align:middle line:84%
+but that they mean
+different things.
+
+00:00:59.950 --> 00:01:02.010 align:middle line:84%
+The first one, "Susan
+likes herself,"
+
+00:01:02.010 --> 00:01:05.340 align:middle line:84%
+you could paraphrase
+as "Susan likes Susan."
+
+00:01:05.340 --> 00:01:08.460 align:middle line:90%
+"Herself" has to refer to Susan.
+
+00:01:08.460 --> 00:01:13.260 align:middle line:84%
+And possibly relatedly,
+"Susan likes her."
+
+00:01:13.260 --> 00:01:15.030 align:middle line:90%
+You don't know who "her" is.
+
+00:01:15.030 --> 00:01:18.300 align:middle line:84%
+But you do one thing, which
+is that it is not Susan.
+
+00:01:18.300 --> 00:01:20.550 align:middle line:84%
+That's not a general
+fact about "her."
+
+00:01:20.550 --> 00:01:23.020 align:middle line:84%
+It's a fact about
+"her" in this sentence.
+
+00:01:23.020 --> 00:01:24.720 align:middle line:84%
+So if I said "I like
+her," then "her"
+
+00:01:24.720 --> 00:01:27.060 align:middle line:84%
+could be Susan,
+whoever Susan is.
+
+00:01:27.060 --> 00:01:29.820 align:middle line:84%
+But if it's "Susan likes
+her," then that "her"
+
+00:01:29.820 --> 00:01:33.290 align:middle line:84%
+cannot be Susan, or at least not
+the same Susan as the subject,
+
+00:01:33.290 --> 00:01:34.620 align:middle line:90%
+yeah?
+
+00:01:34.620 --> 00:01:39.090 align:middle line:84%
+Binding theory is meant to
+capture facts like this.
+
+00:01:39.090 --> 00:01:44.460 align:middle line:84%
+And these starred sentences
+incorporate some of the things
+
+00:01:44.460 --> 00:01:46.710 align:middle line:90%
+that I just said, not only--
+
+00:01:46.710 --> 00:01:48.852 align:middle line:84%
+so these little letters,
+these subscripts
+
+00:01:48.852 --> 00:01:50.310 align:middle line:84%
+that people put on
+these words, are
+
+00:01:50.310 --> 00:01:53.880 align:middle line:84%
+meant to indicate things about
+what can corefer with what.
+
+00:01:53.880 --> 00:01:58.770 align:middle line:84%
+So "Susan likes herself,"
+the first sentence, is OK.
+
+00:01:58.770 --> 00:02:00.660 align:middle line:84%
+And the third
+sentence is starred.
+
+00:02:00.660 --> 00:02:03.480 align:middle line:84%
+Because if you say the
+string "Susan likes herself,"
+
+00:02:03.480 --> 00:02:06.630 align:middle line:84%
+then "Susan" and "herself" have
+to refer to the same person.
+
+00:02:06.630 --> 00:02:10.139 align:middle line:84%
+And we indicate that by giving
+them the same subscript.
+
+00:02:10.139 --> 00:02:14.520 align:middle line:84%
+So "Susan" sub a likes
+"herself" sub a, that's OK.
+
+00:02:14.520 --> 00:02:17.970 align:middle line:84%
+But "Susan" sub a likes
+"herself" sub b is not OK.
+
+00:02:17.970 --> 00:02:20.433 align:middle line:84%
+The two subscripts
+have to be the same.
+
+00:02:20.433 --> 00:02:22.350 align:middle line:84%
+And with a pronoun, it's
+the other way around.
+
+00:02:22.350 --> 00:02:23.735 align:middle line:90%
+They have to be different.
+
+00:02:23.735 --> 00:02:25.103 align:middle line:90%
+OK so far?
+
+00:02:25.103 --> 00:02:27.270 align:middle line:84%
+Nobody is sitting there
+quietly thinking, "No, wait.
+
+00:02:27.270 --> 00:02:30.180 align:middle line:84%
+I say 'Susan likes her,' and I
+mean 'Susan likes herself' all
+
+00:02:30.180 --> 00:02:31.150 align:middle line:90%
+the time.
+
+00:02:31.150 --> 00:02:33.497 align:middle line:84%
+No wonder nobody
+ever understands me."
+
+00:02:33.497 --> 00:02:34.830 align:middle line:90%
+Nobody's having that experience?
+
+00:02:34.830 --> 00:02:37.800 align:middle line:90%
+OK, good.
+
+00:02:37.800 --> 00:02:41.940 align:middle line:84%
+So, you know, looking at this
+without thinking about it
+
+00:02:41.940 --> 00:02:44.790 align:middle line:84%
+too hard, we could think,
+OK, maybe pronouns--
+
+00:02:44.790 --> 00:02:47.550 align:middle line:84%
+we'll use "pronoun" to
+refer to words like "her"--
+
+00:02:47.550 --> 00:02:51.660 align:middle line:84%
+cannot corefer with anything in
+the sentence, where "corefer"
+
+00:02:51.660 --> 00:02:54.600 align:middle line:90%
+means refer to the same person.
+
+00:02:54.600 --> 00:02:59.130 align:middle line:84%
+And anaphors, which is a name
+for fancy words like "herself,"
+
+00:02:59.130 --> 00:03:00.810 align:middle line:90%
+must corefer with something.
+
+00:03:00.810 --> 00:03:03.210 align:middle line:84%
+So "Susan likes
+herself, herself"
+
+00:03:03.210 --> 00:03:04.800 align:middle line:90%
+needs to refer back to Susan.
+
+00:03:04.800 --> 00:03:08.100 align:middle line:84%
+You have to give
+"herself" something for it
+
+00:03:08.100 --> 00:03:09.090 align:middle line:90%
+to corefer with.
+
+00:03:09.090 --> 00:03:15.520 align:middle line:90%
+
+
+00:03:15.520 --> 00:03:17.650 align:middle line:84%
+And when we did
+binding theory before,
+
+00:03:17.650 --> 00:03:19.270 align:middle line:90%
+we already got this far.
+
+00:03:19.270 --> 00:03:21.430 align:middle line:84%
+A word like "herself"
+has this special property
+
+00:03:21.430 --> 00:03:25.450 align:middle line:84%
+that it has to corefer with
+something else in the sentence.
+
+00:03:25.450 --> 00:03:29.950 align:middle line:84%
+But interesting fact, it can't
+just refer with anything.
+
+00:03:29.950 --> 00:03:32.177 align:middle line:84%
+And this is why
+there's a theory.
+
+00:03:32.177 --> 00:03:33.760 align:middle line:84%
+You have to do some
+work to figure out
+
+00:03:33.760 --> 00:03:35.930 align:middle line:84%
+which kinds of things
+it can refer to.
+
+00:03:35.930 --> 00:03:38.680 align:middle line:84%
+So "Susan likes
+herself" is fine,
+
+00:03:38.680 --> 00:03:42.380 align:middle line:84%
+but "Susan's father
+likes herself,"
+
+00:03:42.380 --> 00:03:47.000 align:middle line:84%
+where "herself" is
+Susan, is no good.
+
+00:03:47.000 --> 00:03:49.190 align:middle line:84%
+One hopes that Susan's
+father likes Susan,
+
+00:03:49.190 --> 00:03:51.020 align:middle line:84%
+but this is not
+the way to say it.
+
+00:03:51.020 --> 00:03:53.360 align:middle line:84%
+So "herself" can't
+refer back to Susan
+
+00:03:53.360 --> 00:03:55.940 align:middle line:84%
+in a sentence like
+this, which knocks out
+
+00:03:55.940 --> 00:03:58.250 align:middle line:84%
+some of the simplest,
+easiest theories you might
+
+00:03:58.250 --> 00:04:02.630 align:middle line:84%
+have had from the first batch of
+sentences on the earlier slide.
+
+00:04:02.630 --> 00:04:04.340 align:middle line:84%
+You might have thought,
+well, you know,
+
+00:04:04.340 --> 00:04:06.110 align:middle line:84%
+anaphors, they need to
+refer back to something.
+
+00:04:06.110 --> 00:04:07.610 align:middle line:84%
+And you might even
+have thought they
+
+00:04:07.610 --> 00:04:10.250 align:middle line:84%
+have to refer back to something
+that's earlier in the sentence.
+
+00:04:10.250 --> 00:04:13.700 align:middle line:84%
+They're kind of a pointer
+that points back to something
+
+00:04:13.700 --> 00:04:14.492 align:middle line:90%
+that's before them.
+
+00:04:14.492 --> 00:04:15.908 align:middle line:84%
+And what we're
+seeing is that it's
+
+00:04:15.908 --> 00:04:17.209 align:middle line:90%
+more complicated than that.
+
+00:04:17.209 --> 00:04:20.400 align:middle line:84%
+They can't just
+pick out anything.
+
+00:04:20.400 --> 00:04:22.650 align:middle line:84%
+There are some restrictions
+on what they can refer to.
+
+00:04:22.650 --> 00:04:24.232 align:middle line:84%
+We have to understand
+what those are.
+
+00:04:24.232 --> 00:04:26.690 align:middle line:84%
+There's a classic story, which
+we've already been through--
+
+00:04:26.690 --> 00:04:28.130 align:middle line:90%
+I'll just show it to you again--
+
+00:04:28.130 --> 00:04:31.970 align:middle line:84%
+about why it's OK to say
+"Susan must like herself,"
+
+00:04:31.970 --> 00:04:36.230 align:middle line:84%
+but bad to say "Susan's
+father must like herself."
+
+00:04:36.230 --> 00:04:38.083 align:middle line:84%
+The classic story
+goes like this.
+
+00:04:38.083 --> 00:04:39.500 align:middle line:84%
+What we're trying
+to do is come up
+
+00:04:39.500 --> 00:04:42.620 align:middle line:84%
+with a structural
+relationship between "Susan"
+
+00:04:42.620 --> 00:04:46.220 align:middle line:84%
+and "herself" that holds
+in the tree in the left,
+
+00:04:46.220 --> 00:04:48.557 align:middle line:84%
+but not in the
+tree in the right.
+
+00:04:48.557 --> 00:04:50.390 align:middle line:84%
+We're talking about
+structural relationships
+
+00:04:50.390 --> 00:04:54.500 align:middle line:84%
+because, well, your first
+hope, which might have been,
+
+00:04:54.500 --> 00:04:57.980 align:middle line:84%
+yeah, "herself" has to refer to
+something that's been mentioned
+
+00:04:57.980 --> 00:05:02.220 align:middle line:84%
+before, the way you might have
+hoped language was designed,
+
+00:05:02.220 --> 00:05:03.740 align:middle line:84%
+there are no
+languages like that.
+
+00:05:03.740 --> 00:05:05.510 align:middle line:84%
+There are, instead,
+languages like this
+
+00:05:05.510 --> 00:05:07.760 align:middle line:84%
+that apparently care
+about trees when
+
+00:05:07.760 --> 00:05:09.230 align:middle line:84%
+they're deciding
+which things can
+
+00:05:09.230 --> 00:05:12.650 align:middle line:90%
+refer to which other things.
+
+00:05:12.650 --> 00:05:14.150 align:middle line:84%
+And so we're going
+to try to develop
+
+00:05:14.150 --> 00:05:17.330 align:middle line:84%
+a structural distinction
+between the relationship
+
+00:05:17.330 --> 00:05:20.047 align:middle line:84%
+between "Susan" and "herself"
+in the tree on the left
+
+00:05:20.047 --> 00:05:22.130 align:middle line:84%
+and the relationship between
+"Susan" and "herself"
+
+00:05:22.130 --> 00:05:23.590 align:middle line:90%
+in the tree on the right.
+
+00:05:23.590 --> 00:05:25.340 align:middle line:84%
+As I said, we've talked
+about this before.
+
+00:05:25.340 --> 00:05:27.280 align:middle line:90%
+We're just reviewing it.
+
+00:05:27.280 --> 00:05:30.430 align:middle line:84%
+The story that people have
+classically come up with
+
+00:05:30.430 --> 00:05:33.940 align:middle line:84%
+makes use of the fact
+that Susan is more deeply
+
+00:05:33.940 --> 00:05:38.090 align:middle line:84%
+buried in the tree on the
+right than she is on the left.
+
+00:05:38.090 --> 00:05:40.405 align:middle line:84%
+So there's a relation
+called c-command.
+
+00:05:40.405 --> 00:05:43.540 align:middle line:90%
+
+
+00:05:43.540 --> 00:05:47.605 align:middle line:84%
+It's a relation that can hold
+between two nodes in a tree.
+
+00:05:47.605 --> 00:05:52.600 align:middle line:84%
+It says alpha c-commands beta if
+every node that dominates alpha
+
+00:05:52.600 --> 00:05:54.790 align:middle line:90%
+dominates beta.
+
+00:05:54.790 --> 00:05:58.300 align:middle line:84%
+So you c-command basically the
+thing that you were merged with
+
+00:05:58.300 --> 00:06:01.450 align:middle line:84%
+and everything that
+that dominates.
+
+00:06:01.450 --> 00:06:07.810 align:middle line:84%
+So in this tree, the NP
+"Susan" c-commands "herself."
+
+00:06:07.810 --> 00:06:09.340 align:middle line:84%
+The way we find
+that out is we ask,
+
+00:06:09.340 --> 00:06:12.190 align:middle line:84%
+what are the nodes that dominate
+the noun phrase "Susan"?
+
+00:06:12.190 --> 00:06:15.140 align:middle line:84%
+And there's only one, that
+TP that I've put up there.
+
+00:06:15.140 --> 00:06:17.170 align:middle line:84%
+And that TP also
+dominates "herself,"
+
+00:06:17.170 --> 00:06:20.470 align:middle line:84%
+and so "Susan"
+c-commands "herself."
+
+00:06:20.470 --> 00:06:23.810 align:middle line:84%
+Does "herself"
+c-command "Susan"?
+
+00:06:23.810 --> 00:06:24.310 align:middle line:90%
+No.
+
+00:06:24.310 --> 00:06:26.685 align:middle line:84%
+Yeah, you're all shaking your
+heads appropriately, right?
+
+00:06:26.685 --> 00:06:28.350 align:middle line:84%
+And the way to find
+that out is to ask,
+
+00:06:28.350 --> 00:06:30.920 align:middle line:84%
+what are the nodes
+that dominate herself?
+
+00:06:30.920 --> 00:06:33.590 align:middle line:84%
+And they include that TP,
+but somebody name another one
+
+00:06:33.590 --> 00:06:35.380 align:middle line:90%
+that doesn't dominate "Susan."
+
+00:06:35.380 --> 00:06:36.017 align:middle line:90%
+AUDIENCE: VP.
+
+00:06:36.017 --> 00:06:37.100 align:middle line:90%
+NORVIN RICHARDS: VP, yeah.
+
+00:06:37.100 --> 00:06:38.000 align:middle line:90%
+Or T bar, yeah?
+
+00:06:38.000 --> 00:06:41.465 align:middle line:84%
+So there are at least those
+two which dominate "herself,"
+
+00:06:41.465 --> 00:06:42.590 align:middle line:90%
+but don't dominate "Susan."
+
+00:06:42.590 --> 00:06:44.390 align:middle line:84%
+So "Susan" c-commands
+"herself," but "herself"
+
+00:06:44.390 --> 00:06:45.590 align:middle line:90%
+doesn't c-command "Susan."
+
+00:06:45.590 --> 00:06:49.460 align:middle line:84%
+And what we're seeing
+is that maybe an anaphor
+
+00:06:49.460 --> 00:06:52.110 align:middle line:84%
+needs to refer to something
+that c-commands it.
+
+00:06:52.110 --> 00:06:54.860 align:middle line:84%
+So in this sentence,
+"Susan" must like herself,"
+
+00:06:54.860 --> 00:06:56.810 align:middle line:90%
+"herself" is referring to Susan.
+
+00:06:56.810 --> 00:06:59.240 align:middle line:84%
+And "Susan" c-commands
+"herself," as opposed
+
+00:06:59.240 --> 00:07:02.700 align:middle line:84%
+to the other tree, "Susan's
+father must like herself,"
+
+00:07:02.700 --> 00:07:03.855 align:middle line:90%
+which is no good.
+
+00:07:03.855 --> 00:07:04.730 align:middle line:90%
+What's wrong with it?
+
+00:07:04.730 --> 00:07:07.430 align:middle line:84%
+Well, what's wrong with
+it is, on this story,
+
+00:07:07.430 --> 00:07:10.340 align:middle line:84%
+there are multiple nodes
+dominating "Susan."
+
+00:07:10.340 --> 00:07:13.070 align:middle line:90%
+There's TP, but also NP and DP.
+
+00:07:13.070 --> 00:07:15.500 align:middle line:84%
+And some of those don't
+dominate "herself."
+
+00:07:15.500 --> 00:07:18.920 align:middle line:84%
+So "Susan" doesn't
+c-command "herself."
+
+00:07:18.920 --> 00:07:21.925 align:middle line:84%
+Binding theory
+makes use of this.
+
+00:07:21.925 --> 00:07:23.300 align:middle line:84%
+Let me just call
+your attention--
+
+00:07:23.300 --> 00:07:26.240 align:middle line:84%
+maybe your attention is
+already firmly fixed on this--
+
+00:07:26.240 --> 00:07:28.190 align:middle line:90%
+to how weird this is.
+
+00:07:28.190 --> 00:07:33.710 align:middle line:84%
+I just alluded to this, but
+let me just say it again.
+
+00:07:33.710 --> 00:07:36.110 align:middle line:84%
+I'm showing you a bunch
+of facts about English.
+
+00:07:36.110 --> 00:07:38.390 align:middle line:84%
+And different languages
+do have different anaphors
+
+00:07:38.390 --> 00:07:40.230 align:middle line:90%
+that behave in different ways.
+
+00:07:40.230 --> 00:07:43.350 align:middle line:84%
+But here's something no language
+ever does, as far as I know.
+
+00:07:43.350 --> 00:07:45.020 align:middle line:84%
+There are languages
+in the world where
+
+00:07:45.020 --> 00:07:49.370 align:middle line:84%
+an anaphor can refer to
+anything that was said earlier.
+
+00:07:49.370 --> 00:07:53.432 align:middle line:84%
+There are no languages in which
+both "Susan likes herself"
+
+00:07:53.432 --> 00:07:54.890 align:middle line:84%
+and "Susan's father
+likes herself,"
+
+00:07:54.890 --> 00:07:56.330 align:middle line:90%
+in which they're both OK.
+
+00:07:56.330 --> 00:07:58.130 align:middle line:84%
+There just aren't any
+languages like that
+
+00:07:58.130 --> 00:08:01.820 align:middle line:84%
+in which the important thing
+is does the noun precede
+
+00:08:01.820 --> 00:08:06.440 align:middle line:84%
+the anaphor, which is, so
+first of all, interesting.
+
+00:08:06.440 --> 00:08:08.090 align:middle line:84%
+There aren't any
+languages like that.
+
+00:08:08.090 --> 00:08:12.483 align:middle line:84%
+But second of all, weirdly,
+surprisingly, interesting,
+
+00:08:12.483 --> 00:08:14.150 align:middle line:84%
+let's get ourselves
+in the frame of mind
+
+00:08:14.150 --> 00:08:16.100 align:middle line:84%
+where we can be impressed
+by a fact like that.
+
+00:08:16.100 --> 00:08:19.760 align:middle line:84%
+Because, look, imagine
+what you were like when
+
+00:08:19.760 --> 00:08:20.960 align:middle line:90%
+you were a baby, right?
+
+00:08:20.960 --> 00:08:21.560 align:middle line:90%
+Here you are.
+
+00:08:21.560 --> 00:08:22.850 align:middle line:90%
+You've just been born.
+
+00:08:22.850 --> 00:08:24.830 align:middle line:84%
+You're hearing
+people speak, right?
+
+00:08:24.830 --> 00:08:27.040 align:middle line:84%
+They're saying sentences
+in this language that's
+
+00:08:27.040 --> 00:08:28.415 align:middle line:84%
+going to be your
+native language,
+
+00:08:28.415 --> 00:08:29.480 align:middle line:90%
+and you're trying to learn it.
+
+00:08:29.480 --> 00:08:31.340 align:middle line:84%
+You're trying to figure
+things out about it.
+
+00:08:31.340 --> 00:08:34.010 align:middle line:84%
+What's the one
+thing that you know?
+
+00:08:34.010 --> 00:08:35.360 align:middle line:90%
+You hear people talking.
+
+00:08:35.360 --> 00:08:37.309 align:middle line:84%
+And they're saying
+things like-- here,
+
+00:08:37.309 --> 00:08:39.539 align:middle line:84%
+I'll put a sentence on
+the board in a language
+
+00:08:39.539 --> 00:08:40.789 align:middle line:90%
+that I hope none of you speak.
+
+00:08:40.789 --> 00:08:48.530 align:middle line:90%
+
+
+00:08:48.530 --> 00:08:50.510 align:middle line:90%
+So here's a sentence.
+
+00:08:50.510 --> 00:08:55.910 align:middle line:84%
+You hear one of your parents
+saying, [NON-ENGLISH SPEECH]..
+
+00:08:55.910 --> 00:08:57.860 align:middle line:84%
+Maybe they write it
+down and show it to you.
+
+00:08:57.860 --> 00:08:59.485 align:middle line:84%
+So you know, for some
+reason, that it's
+
+00:08:59.485 --> 00:09:01.970 align:middle line:90%
+1, 2, 3, 4, 5 words long.
+
+00:09:01.970 --> 00:09:05.893 align:middle line:84%
+What else do you know
+about that sentence?
+
+00:09:05.893 --> 00:09:07.560 align:middle line:84%
+Do you know which
+words in that sentence
+
+00:09:07.560 --> 00:09:09.940 align:middle line:90%
+c-command which other words?
+
+00:09:09.940 --> 00:09:11.400 align:middle line:90%
+Good lord, no.
+
+00:09:11.400 --> 00:09:12.583 align:middle line:90%
+Yeah?
+
+00:09:12.583 --> 00:09:14.250 align:middle line:84%
+Do you know which
+words in that sentence
+
+00:09:14.250 --> 00:09:16.490 align:middle line:90%
+precede which other words?
+
+00:09:16.490 --> 00:09:17.600 align:middle line:90%
+Yeah.
+
+00:09:17.600 --> 00:09:20.975 align:middle line:84%
+So you know that [NON-ENGLISH]
+precedes [NON-ENGLISH]..
+
+00:09:20.975 --> 00:09:22.405 align:middle line:90%
+You know that.
+
+00:09:22.405 --> 00:09:24.530 align:middle line:84%
+But you don't know whether
+[NON-ENGLISH] c-commands
+
+00:09:24.530 --> 00:09:25.890 align:middle line:90%
+[NON-ENGLISH] or not.
+
+00:09:25.890 --> 00:09:28.550 align:middle line:84%
+So the one bit of information
+that you have immediately
+
+00:09:28.550 --> 00:09:32.370 align:middle line:84%
+from the get-go, which words
+come before which other words,
+
+00:09:32.370 --> 00:09:34.610 align:middle line:90%
+you ignore.
+
+00:09:34.610 --> 00:09:36.920 align:middle line:84%
+So languages don't ever
+make use of that when
+
+00:09:36.920 --> 00:09:38.490 align:middle line:90%
+they're doing binding theory.
+
+00:09:38.490 --> 00:09:44.000 align:middle line:84%
+So you would have thought this
+one sort of easy to access
+
+00:09:44.000 --> 00:09:45.410 align:middle line:84%
+bit of information
+that all of us
+
+00:09:45.410 --> 00:09:48.365 align:middle line:84%
+have from day one,
+no matter, you know--
+
+00:09:48.365 --> 00:09:50.240 align:middle line:84%
+don't know anything else
+about your language.
+
+00:09:50.240 --> 00:09:53.090 align:middle line:84%
+You at least know which things
+come before which other things.
+
+00:09:53.090 --> 00:09:55.688 align:middle line:84%
+Binding theory never,
+ever cares about that.
+
+00:09:55.688 --> 00:09:57.230 align:middle line:84%
+It only cares about
+c-commands, which
+
+00:09:57.230 --> 00:09:59.120 align:middle line:84%
+is this thing that you
+have to know something
+
+00:09:59.120 --> 00:10:00.560 align:middle line:90%
+in order to understand.
+
+00:10:00.560 --> 00:10:03.550 align:middle line:90%
+
+
+00:10:03.550 --> 00:10:05.890 align:middle line:84%
+It's as though our
+brains are designed
+
+00:10:05.890 --> 00:10:08.980 align:middle line:84%
+to build language in
+some ways and not others
+
+00:10:08.980 --> 00:10:14.620 align:middle line:84%
+and to ignore certain
+sources of data
+
+00:10:14.620 --> 00:10:16.148 align:middle line:90%
+which are very, very fruitful.
+
+00:10:16.148 --> 00:10:18.190 align:middle line:84%
+You have lots and lots of
+data about which things
+
+00:10:18.190 --> 00:10:20.868 align:middle line:84%
+precede which other
+things, but you don't care.
+
+00:10:20.868 --> 00:10:21.910 align:middle line:90%
+It's kind of interesting.
+
+00:10:21.910 --> 00:10:23.770 align:middle line:90%
+Yeah.
+
+00:10:23.770 --> 00:10:26.590 align:middle line:84%
+AUDIENCE: If, for
+some reason, we
+
+00:10:26.590 --> 00:10:29.823 align:middle line:84%
+did care about the order of
+the words that we're saying,
+
+00:10:29.823 --> 00:10:30.990 align:middle line:90%
+would that create ambiguity?
+
+00:10:30.990 --> 00:10:35.790 align:middle line:84%
+Because some languages
+like, German, half of it
+
+00:10:35.790 --> 00:10:38.108 align:middle line:84%
+is head initial and
+half is head final.
+
+00:10:38.108 --> 00:10:40.035 align:middle line:90%
+And so you'd be confused.
+
+00:10:40.035 --> 00:10:42.410 align:middle line:84%
+NORVIN RICHARDS: So which
+things proceed and follow which
+
+00:10:42.410 --> 00:10:42.990 align:middle line:90%
+other things?
+
+00:10:42.990 --> 00:10:44.990 align:middle line:84%
+I mean, there are ambiguities
+in binding theory.
+
+00:10:44.990 --> 00:10:47.032 align:middle line:84%
+We've been talking about
+simple sentences so far,
+
+00:10:47.032 --> 00:10:50.090 align:middle line:84%
+but you can say things like--
+if anybody is wondering,
+
+00:10:50.090 --> 00:10:51.320 align:middle line:90%
+this [NON-ENGLISH].
+
+00:10:51.320 --> 00:10:59.070 align:middle line:84%
+It means "Is drinking
+the man the water,"
+
+00:10:59.070 --> 00:11:01.130 align:middle line:84%
+so "The man is
+drinking the water."
+
+00:11:01.130 --> 00:11:03.218 align:middle line:84%
+Sorry, I just told you
+that so you wouldn't
+
+00:11:03.218 --> 00:11:04.260 align:middle line:90%
+have to worry about that.
+
+00:11:04.260 --> 00:11:05.630 align:middle line:84%
+There are ambiguities
+in binding theory.
+
+00:11:05.630 --> 00:11:07.250 align:middle line:84%
+I've been talking about
+sentences where there aren't
+
+00:11:07.250 --> 00:11:08.708 align:middle line:84%
+ambiguities, but
+you can say things
+
+00:11:08.708 --> 00:11:19.210 align:middle line:84%
+like "Susan told
+Stacy about herself,"
+
+00:11:19.210 --> 00:11:23.260 align:middle line:84%
+where probably the
+easiest reading for that
+
+00:11:23.260 --> 00:11:26.560 align:middle line:84%
+is that Susan told
+Stacy about Susan.
+
+00:11:26.560 --> 00:11:32.025 align:middle line:84%
+But if Stacy is
+unclear about herself,
+
+00:11:32.025 --> 00:11:34.150 align:middle line:84%
+there's something Stacy
+doesn't know about herself,
+
+00:11:34.150 --> 00:11:35.800 align:middle line:84%
+Susan could tell
+Stacy about herself
+
+00:11:35.800 --> 00:11:39.010 align:middle line:84%
+and have that mean Susan told
+Stacy about Stacy, I think.
+
+00:11:39.010 --> 00:11:40.220 align:middle line:90%
+Am I making that up?
+
+00:11:40.220 --> 00:11:41.110 align:middle line:90%
+I think that's true.
+
+00:11:41.110 --> 00:11:42.730 align:middle line:90%
+This is just ambiguous.
+
+00:11:42.730 --> 00:11:43.700 align:middle line:90%
+So here's a sentence.
+
+00:11:43.700 --> 00:11:46.570 align:middle line:84%
+So we're OK with
+ambiguity usually.
+
+00:11:46.570 --> 00:11:48.142 align:middle line:84%
+There are plenty
+of places where,
+
+00:11:48.142 --> 00:11:49.600 align:middle line:84%
+if we were to draw
+a tree for this,
+
+00:11:49.600 --> 00:11:51.700 align:middle line:84%
+we'd want to draw a tree
+where "Susan" and "Stacy"
+
+00:11:51.700 --> 00:11:53.500 align:middle line:90%
+both c-command "herself."
+
+00:11:53.500 --> 00:11:56.050 align:middle line:84%
+And so it has a choice
+of which kind of thing
+
+00:11:56.050 --> 00:11:57.310 align:middle line:90%
+it wants to refer to.
+
+00:11:57.310 --> 00:11:59.558 align:middle line:84%
+All it cares about is
+which thing c-commands it,
+
+00:11:59.558 --> 00:12:01.600 align:middle line:84%
+but it doesn't care about
+which thing precedes it
+
+00:12:01.600 --> 00:12:03.250 align:middle line:90%
+in any language on Earth.
+
+00:12:03.250 --> 00:12:05.170 align:middle line:90%
+It was kind of interesting.
+
+00:12:05.170 --> 00:12:06.040 align:middle line:90%
+Yeah, go.
+
+00:12:06.040 --> 00:12:08.540 align:middle line:84%
+AUDIENCE: I was also thinking
+about you could have something
+
+00:12:08.540 --> 00:12:12.450 align:middle line:84%
+like "Carrie likes
+Mary herself."
+
+00:12:12.450 --> 00:12:16.710 align:middle line:84%
+Maybe Mary played the evil
+character on TV and people
+
+00:12:16.710 --> 00:12:18.210 align:middle line:84%
+don't like-- she
+likes Mary herself.
+
+00:12:18.210 --> 00:12:19.460 align:middle line:90%
+NORVIN RICHARDS: Right, right.
+
+00:12:19.460 --> 00:12:22.230 align:middle line:84%
+AUDIENCE: But it's like, all the
+other people, they hate Mary.
+
+00:12:22.230 --> 00:12:24.573 align:middle line:90%
+But she, herself, she likes--
+
+00:12:24.573 --> 00:12:25.740 align:middle line:90%
+NORVIN RICHARDS: She-- yeah.
+
+00:12:25.740 --> 00:12:28.265 align:middle line:84%
+You're raising-- actually, I'm
+glad you asked that question
+
+00:12:28.265 --> 00:12:30.640 align:middle line:84%
+because it raises a good point,
+which I should have made.
+
+00:12:30.640 --> 00:12:34.920 align:middle line:84%
+And so thank you for raising
+it, which is that languages use
+
+00:12:34.920 --> 00:12:38.910 align:middle line:84%
+"herself," "himself,"
+"myself," all these "-self"
+
+00:12:38.910 --> 00:12:42.390 align:middle line:84%
+kinds of doohickeys, for a
+bunch of different things.
+
+00:12:42.390 --> 00:12:46.290 align:middle line:84%
+We're going to be concentrating
+on the "herself" that
+
+00:12:46.290 --> 00:12:48.960 align:middle line:84%
+sits where a noun phrase
+would normally sit
+
+00:12:48.960 --> 00:12:52.590 align:middle line:84%
+and refers back to
+another noun phrase.
+
+00:12:52.590 --> 00:12:54.780 align:middle line:84%
+But there is this
+other, sometimes called,
+
+00:12:54.780 --> 00:12:57.630 align:middle line:90%
+an intensive use of reflexives.
+
+00:12:57.630 --> 00:12:59.220 align:middle line:90%
+And I can't spell today--
+
+00:12:59.220 --> 00:13:13.020 align:middle line:84%
+intensive, where you say things
+like "John, himself, fixed
+
+00:13:13.020 --> 00:13:16.980 align:middle line:84%
+the computer," or,
+for that matter,
+
+00:13:16.980 --> 00:13:20.380 align:middle line:84%
+"John fixed the
+computer himself,"
+
+00:13:20.380 --> 00:13:27.270 align:middle line:84%
+where that means something
+not so different from "John
+
+00:13:27.270 --> 00:13:29.010 align:middle line:90%
+fixed the computer."
+
+00:13:29.010 --> 00:13:31.080 align:middle line:84%
+It means something like
+"John fixed the computer,
+
+00:13:31.080 --> 00:13:33.990 align:middle line:90%
+and no one else did."
+
+00:13:33.990 --> 00:13:37.060 align:middle line:84%
+So "Susan's father
+must like herself."
+
+00:13:37.060 --> 00:13:40.230 align:middle line:84%
+We were talking about things
+that "herself" can refer to.
+
+00:13:40.230 --> 00:13:42.168 align:middle line:84%
+Or "Susan told Stacy
+about herself."
+
+00:13:42.168 --> 00:13:44.460 align:middle line:84%
+We're talking about things
+that "herself" can refer to.
+
+00:13:44.460 --> 00:13:46.860 align:middle line:84%
+This would be an OK sentence
+if you changed "herself"
+
+00:13:46.860 --> 00:13:47.400 align:middle line:90%
+to something else.
+
+00:13:47.400 --> 00:13:48.608 align:middle line:90%
+It would mean something else.
+
+00:13:48.608 --> 00:13:52.080 align:middle line:84%
+But "Susan told
+Stacy about Mary,"
+
+00:13:52.080 --> 00:13:53.610 align:middle line:90%
+that's also a sentence, right?
+
+00:13:53.610 --> 00:13:55.390 align:middle line:84%
+So "herself" is
+just a noun phrase,
+
+00:13:55.390 --> 00:13:57.060 align:middle line:84%
+noun phrase with
+special properties,
+
+00:13:57.060 --> 00:13:59.370 align:middle line:84%
+that's sitting where
+noun phrases go.
+
+00:13:59.370 --> 00:14:02.500 align:middle line:84%
+If you replaced "himself"
+here with something else,
+
+00:14:02.500 --> 00:14:05.940 align:middle line:84%
+so if it were "John,
+Mary fixed the computer,"
+
+00:14:05.940 --> 00:14:09.450 align:middle line:84%
+you would no longer
+be speaking English.
+
+00:14:09.450 --> 00:14:12.345 align:middle line:84%
+So this is a different
+construction, the construction
+
+00:14:12.345 --> 00:14:14.220 align:middle line:84%
+that you're raising, a
+really interesting one
+
+00:14:14.220 --> 00:14:17.790 align:middle line:84%
+which I'm now going to
+ignore for the rest of today.
+
+00:14:17.790 --> 00:14:20.940 align:middle line:90%
+But that's what this is.
+
+00:14:20.940 --> 00:14:21.823 align:middle line:90%
+Yeah.
+
+00:14:21.823 --> 00:14:23.490 align:middle line:84%
+AUDIENCE: Well, I'm
+bringing this again.
+
+00:14:23.490 --> 00:14:24.330 align:middle line:90%
+NORVIN RICHARDS: Oh, no.
+
+00:14:24.330 --> 00:14:25.090 align:middle line:90%
+I'm ignoring you.
+
+00:14:25.090 --> 00:14:25.590 align:middle line:90%
+No, sorry.
+
+00:14:25.590 --> 00:14:26.480 align:middle line:90%
+Go ahead.
+
+00:14:26.480 --> 00:14:27.480 align:middle line:84%
+AUDIENCE: Is that
+a type of movement?
+
+00:14:27.480 --> 00:14:28.020 align:middle line:90%
+NORVIN RICHARDS: Sorry?
+
+00:14:28.020 --> 00:14:29.970 align:middle line:84%
+AUDIENCE: Is that another
+example of movement?
+
+00:14:29.970 --> 00:14:30.510 align:middle line:90%
+Or--
+
+00:14:30.510 --> 00:14:31.050 align:middle line:90%
+NORVIN RICHARDS: Which one?
+
+00:14:31.050 --> 00:14:33.258 align:middle line:84%
+Oh, the fact that himself
+can be either here or here?
+
+00:14:33.258 --> 00:14:34.412 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:14:34.412 --> 00:14:35.370 align:middle line:90%
+NORVIN RICHARDS: Maybe.
+
+00:14:35.370 --> 00:14:39.640 align:middle line:90%
+
+
+00:14:39.640 --> 00:14:43.490 align:middle line:90%
+Ah, we have to be careful.
+
+00:14:43.490 --> 00:14:47.770 align:middle line:84%
+There are various kinds
+of-- so himself, here, it's
+
+00:14:47.770 --> 00:14:49.570 align:middle line:90%
+kind of like an adverb, right?
+
+00:14:49.570 --> 00:14:53.140 align:middle line:84%
+It's modifying the way in
+which he fixed the computer.
+
+00:14:53.140 --> 00:14:56.082 align:middle line:84%
+And just as you can see
+things like "John quickly"--
+
+00:14:56.082 --> 00:14:57.790 align:middle line:84%
+I don't know why I
+switched to John here.
+
+00:14:57.790 --> 00:14:59.170 align:middle line:90%
+Let's make Susan do this, too.
+
+00:14:59.170 --> 00:15:03.220 align:middle line:90%
+
+
+00:15:03.220 --> 00:15:06.010 align:middle line:84%
+Just as you can say Susan
+quickly fixed the computer,
+
+00:15:06.010 --> 00:15:09.850 align:middle line:84%
+or Susan fixed the
+computer quickly,
+
+00:15:09.850 --> 00:15:11.860 align:middle line:90%
+you could do that with movement.
+
+00:15:11.860 --> 00:15:12.965 align:middle line:90%
+Or you could decide--
+
+00:15:12.965 --> 00:15:14.590 align:middle line:84%
+we're learning
+something about adverbs,
+
+00:15:14.590 --> 00:15:17.140 align:middle line:84%
+that adverbs, because
+it's an adjunct maybe,
+
+00:15:17.140 --> 00:15:19.270 align:middle line:84%
+there are more options
+about where it can go.
+
+00:15:19.270 --> 00:15:22.750 align:middle line:84%
+The rules about where exactly
+it goes are not as strict.
+
+00:15:22.750 --> 00:15:25.090 align:middle line:84%
+The clean arguments
+for movement are
+
+00:15:25.090 --> 00:15:28.300 align:middle line:84%
+cases where we know for a fact
+that something should be here,
+
+00:15:28.300 --> 00:15:31.150 align:middle line:90%
+and yet it's over here.
+
+00:15:31.150 --> 00:15:33.910 align:middle line:90%
+When we do "What did he devour?"
+
+00:15:33.910 --> 00:15:35.380 align:middle line:90%
+that's what we're doing there.
+
+00:15:35.380 --> 00:15:36.130 align:middle line:90%
+Yes?
+
+00:15:36.130 --> 00:15:37.750 align:middle line:84%
+AUDIENCE: But doesn't the
+"you" in that sentence kind
+
+00:15:37.750 --> 00:15:40.058 align:middle line:84%
+of change depending on
+where you put the "herself"?
+
+00:15:40.058 --> 00:15:41.350 align:middle line:90%
+NORVIN RICHARDS: Oh, sometimes.
+
+00:15:41.350 --> 00:15:42.227 align:middle line:90%
+Yeah.
+
+00:15:42.227 --> 00:15:43.510 align:middle line:84%
+AUDIENCE: The first one,
+you could have "herself"
+
+00:15:43.510 --> 00:15:45.827 align:middle line:84%
+after Susan if you're
+implying that it's surprising
+
+00:15:45.827 --> 00:15:48.160 align:middle line:84%
+that Susan, herself, was the
+one who fixed the computer.
+
+00:15:48.160 --> 00:15:48.760 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:15:48.760 --> 00:15:50.650 align:middle line:84%
+AUDIENCE: Or as you put it
+at the end, it's you just
+
+00:15:50.650 --> 00:15:51.700 align:middle line:90%
+say that it was Susan that--
+
+00:15:51.700 --> 00:15:52.660 align:middle line:84%
+NORVIN RICHARDS:
+Yeah, so these might
+
+00:15:52.660 --> 00:15:53.870 align:middle line:90%
+be different kinds of adverbs.
+
+00:15:53.870 --> 00:15:54.700 align:middle line:90%
+That's a very good point.
+
+00:15:54.700 --> 00:15:55.970 align:middle line:90%
+Yeah, that's a very nice point.
+
+00:15:55.970 --> 00:15:58.012 align:middle line:84%
+So if I say "Susan, herself,
+fixed the computer,"
+
+00:15:58.012 --> 00:15:59.853 align:middle line:84%
+we mean Susan is the
+CEO of the company.
+
+00:15:59.853 --> 00:16:02.270 align:middle line:84%
+You would have expected her
+to hire someone else to do it,
+
+00:16:02.270 --> 00:16:04.540 align:middle line:84%
+but she did it
+herself, whereas "Susan
+
+00:16:04.540 --> 00:16:08.290 align:middle line:84%
+fixed the computer herself,"
+it doesn't mean necessarily
+
+00:16:08.290 --> 00:16:09.860 align:middle line:84%
+that it's surprising
+that she did it.
+
+00:16:09.860 --> 00:16:12.340 align:middle line:84%
+It just means that she did
+it and no one else did.
+
+00:16:12.340 --> 00:16:13.090 align:middle line:90%
+Yeah.
+
+00:16:13.090 --> 00:16:15.670 align:middle line:84%
+So they're related
+meanings, but separate.
+
+00:16:15.670 --> 00:16:18.730 align:middle line:84%
+So we may want to distinguish
+two different types
+
+00:16:18.730 --> 00:16:19.930 align:middle line:90%
+of intensive modification.
+
+00:16:19.930 --> 00:16:22.267 align:middle line:84%
+You're absolutely
+right, nice point.
+
+00:16:22.267 --> 00:16:23.850 align:middle line:84%
+Other nice points
+people wish to make?
+
+00:16:23.850 --> 00:16:24.350 align:middle line:90%
+Yes?
+
+00:16:24.350 --> 00:16:27.428 align:middle line:84%
+AUDIENCE: So to clarify, the
+reason this tree is not valid
+
+00:16:27.428 --> 00:16:32.220 align:middle line:84%
+[INAUDIBLE] is that "herself"
+is looking for something to bind
+
+00:16:32.220 --> 00:16:32.720 align:middle line:90%
+to.
+
+00:16:32.720 --> 00:16:33.637 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:16:33.637 --> 00:16:37.190 align:middle line:84%
+AUDIENCE: And so it needs to be
+binded [INAUDIBLE] binds to NP.
+
+00:16:37.190 --> 00:16:39.820 align:middle line:84%
+It binds "Susan," and it
+binds "Susan's father."
+
+00:16:39.820 --> 00:16:41.410 align:middle line:84%
+And it can't bind
+to "Susan" because
+
+00:16:41.410 --> 00:16:42.742 align:middle line:90%
+of the c-command constraint.
+
+00:16:42.742 --> 00:16:45.747 align:middle line:84%
+It can't bind to "Susan's
+father" because "father"--
+
+00:16:45.747 --> 00:16:47.330 align:middle line:84%
+NORVIN RICHARDS:
+Because wrong gender.
+
+00:16:47.330 --> 00:16:47.570 align:middle line:90%
+AUDIENCE: Right.
+
+00:16:47.570 --> 00:16:48.050 align:middle line:90%
+NORVIN RICHARDS: Yup.
+
+00:16:48.050 --> 00:16:48.770 align:middle line:90%
+AUDIENCE: [INAUDIBLE] himself.
+
+00:16:48.770 --> 00:16:49.645 align:middle line:90%
+NORVIN RICHARDS: Yup.
+
+00:16:49.645 --> 00:16:51.740 align:middle line:90%
+Yeah, that's it exactly.
+
+00:16:51.740 --> 00:16:53.690 align:middle line:90%
+Yeah, so the idea is--
+
+00:16:53.690 --> 00:16:56.390 align:middle line:84%
+so we weren't asking why can't
+it refer to Susan's father.
+
+00:16:56.390 --> 00:16:58.098 align:middle line:84%
+You just asked that
+question, and I think
+
+00:16:58.098 --> 00:17:00.850 align:middle line:90%
+you answered it perfectly.
+
+00:17:00.850 --> 00:17:02.600 align:middle line:84%
+"Herself" can't refer
+to "Susan's father,"
+
+00:17:02.600 --> 00:17:06.170 align:middle line:84%
+which does c-command "herself,"
+because Susan's father is male.
+
+00:17:06.170 --> 00:17:06.710 align:middle line:90%
+Wake up.
+
+00:17:06.710 --> 00:17:09.380 align:middle line:90%
+
+
+00:17:09.380 --> 00:17:11.329 align:middle line:84%
+And it can't refer to
+"Susan" because "Susan"
+
+00:17:11.329 --> 00:17:14.995 align:middle line:90%
+doesn't c-command it.
+
+00:17:14.995 --> 00:17:15.810 align:middle line:90%
+Is it back?
+
+00:17:15.810 --> 00:17:15.950 align:middle line:90%
+Good.
+
+00:17:15.950 --> 00:17:16.460 align:middle line:90%
+Yes.
+
+00:17:16.460 --> 00:17:17.320 align:middle line:90%
+Yeah.
+
+00:17:17.320 --> 00:17:19.740 align:middle line:84%
+AUDIENCE: So then to
+clarify, if the sentence was,
+
+00:17:19.740 --> 00:17:21.750 align:middle line:84%
+"Susan's father
+must like himself,"
+
+00:17:21.750 --> 00:17:23.609 align:middle line:84%
+that's fine because
+"Susan's father"
+
+00:17:23.609 --> 00:17:24.962 align:middle line:90%
+is the NP that's c-commanding.
+
+00:17:24.962 --> 00:17:25.920 align:middle line:90%
+NORVIN RICHARDS: Right.
+
+00:17:25.920 --> 00:17:27.660 align:middle line:84%
+And that's my intuition
+about the sentence.
+
+00:17:27.660 --> 00:17:28.243 align:middle line:90%
+Is that yours?
+
+00:17:28.243 --> 00:17:29.760 align:middle line:90%
+And that would be OK.
+
+00:17:29.760 --> 00:17:34.320 align:middle line:84%
+It means Susan's father
+has a healthy self-regard.
+
+00:17:34.320 --> 00:17:35.550 align:middle line:90%
+Yeah?
+
+00:17:35.550 --> 00:17:36.360 align:middle line:90%
+OK, cool.
+
+00:17:36.360 --> 00:17:39.600 align:middle line:84%
+So binding theory, I introduced
+you to binding theory
+
+00:17:39.600 --> 00:17:41.220 align:middle line:90%
+as a test for structure, right?
+
+00:17:41.220 --> 00:17:45.450 align:middle line:84%
+So once we are willing
+to trust binding theory
+
+00:17:45.450 --> 00:17:47.580 align:middle line:84%
+at least a little ways,
+we can convince ourselves
+
+00:17:47.580 --> 00:17:49.680 align:middle line:84%
+that we have a new
+way of finding out
+
+00:17:49.680 --> 00:17:50.982 align:middle line:90%
+things about structure.
+
+00:17:50.982 --> 00:17:52.440 align:middle line:84%
+We know we have
+the right structure
+
+00:17:52.440 --> 00:17:54.898 align:middle line:84%
+if we have the right c-command
+relations to get the binding
+
+00:17:54.898 --> 00:17:57.400 align:middle line:90%
+relations that we seem to find.
+
+00:17:57.400 --> 00:18:00.300 align:middle line:84%
+So for example, when we're
+thinking about sentences
+
+00:18:00.300 --> 00:18:03.122 align:middle line:84%
+like this, "Susan told
+Stacy about herself,"
+
+00:18:03.122 --> 00:18:05.580 align:middle line:84%
+we're going to need it to have
+a structure in which "Susan"
+
+00:18:05.580 --> 00:18:07.680 align:middle line:84%
+and "Stacy" both
+c-command herself.
+
+00:18:07.680 --> 00:18:10.200 align:middle line:84%
+And so when we were talking
+before about complicated
+
+00:18:10.200 --> 00:18:12.795 align:middle line:84%
+verb phrases, binding
+theory is the kind of thing
+
+00:18:12.795 --> 00:18:14.670 align:middle line:84%
+that people use as a
+probe into the structure
+
+00:18:14.670 --> 00:18:16.910 align:middle line:90%
+of complicated verb phrases.
+
+00:18:16.910 --> 00:18:19.353 align:middle line:90%
+OK.
+
+00:18:19.353 --> 00:18:21.020 align:middle line:84%
+All right, so one
+part of binding theory
+
+00:18:21.020 --> 00:18:23.240 align:middle line:84%
+is going to say
+anaphors, these are words
+
+00:18:23.240 --> 00:18:26.210 align:middle line:90%
+like "herself" or "myself"--
+
+00:18:26.210 --> 00:18:29.450 align:middle line:84%
+in English, they all
+end with "-self."
+
+00:18:29.450 --> 00:18:32.330 align:middle line:84%
+They need to be
+c-commanded by something
+
+00:18:32.330 --> 00:18:34.620 align:middle line:90%
+that corefers with them.
+
+00:18:34.620 --> 00:18:36.582 align:middle line:90%
+And then we have a short name.
+
+00:18:36.582 --> 00:18:38.040 align:middle line:84%
+I hope I do this
+on the next slide.
+
+00:18:38.040 --> 00:18:39.207 align:middle line:90%
+I'm not sure if I do or not.
+
+00:18:39.207 --> 00:18:42.650 align:middle line:84%
+We have a short name for
+to c-command something
+
+00:18:42.650 --> 00:18:45.750 align:middle line:84%
+that you corefer with,
+we call that bind.
+
+00:18:45.750 --> 00:18:51.110 align:middle line:84%
+So we say that, in "Susan
+told Stacy about herself,"
+
+00:18:51.110 --> 00:18:53.060 align:middle line:90%
+"herself" needs to be bound.
+
+00:18:53.060 --> 00:18:55.460 align:middle line:84%
+And there are two noun
+phrases that could bind it,
+
+00:18:55.460 --> 00:18:57.367 align:middle line:90%
+"Susan" and "Stacy."
+
+00:18:57.367 --> 00:18:59.450 align:middle line:84%
+And so we need a structure
+for this in which those
+
+00:18:59.450 --> 00:19:01.850 align:middle line:84%
+both c-command herself,
+and either of them
+
+00:19:01.850 --> 00:19:03.830 align:middle line:90%
+could corefer with herself.
+
+00:19:03.830 --> 00:19:05.570 align:middle line:90%
+Yeah?
+
+00:19:05.570 --> 00:19:09.290 align:middle line:84%
+AUDIENCE: Do all anaphors
+necessarily end in "-self,"
+
+00:19:09.290 --> 00:19:12.590 align:middle line:84%
+or are there cases where
+pronouns act as anaphors?
+
+00:19:12.590 --> 00:19:15.740 align:middle line:84%
+So for example, "John said
+he went to the store,"
+
+00:19:15.740 --> 00:19:17.280 align:middle line:90%
+where "he" is referring to John.
+
+00:19:17.280 --> 00:19:19.280 align:middle line:84%
+NORVIN RICHARDS: Yeah,
+that's a very nice point.
+
+00:19:19.280 --> 00:19:21.960 align:middle line:84%
+So, so far, you may have
+noticed all of my examples
+
+00:19:21.960 --> 00:19:24.510 align:middle line:90%
+have only been one clause long.
+
+00:19:24.510 --> 00:19:28.050 align:middle line:84%
+And we're going to make
+things more complicated
+
+00:19:28.050 --> 00:19:30.550 align:middle line:90%
+in just a second.
+
+00:19:30.550 --> 00:19:33.405 align:middle line:84%
+But here, just to get started on
+making things more complicated,
+
+00:19:33.405 --> 00:19:35.530 align:middle line:84%
+we've been talking about
+the fact that you can say,
+
+00:19:35.530 --> 00:19:43.110 align:middle line:90%
+"Susan must like herself."
+
+00:19:43.110 --> 00:19:45.100 align:middle line:84%
+If we make this an
+embedded clause,
+
+00:19:45.100 --> 00:19:51.870 align:middle line:84%
+so if we say "Mary thinks
+Susan must like herself," well,
+
+00:19:51.870 --> 00:19:54.520 align:middle line:90%
+"herself" can refer to Susan.
+
+00:19:54.520 --> 00:19:57.460 align:middle line:90%
+But it can't refer to Mary.
+
+00:19:57.460 --> 00:19:59.950 align:middle line:84%
+So "Mary thinks Susan
+must like herself."
+
+00:19:59.950 --> 00:20:02.173 align:middle line:84%
+And that's not going
+to be because "Mary"
+
+00:20:02.173 --> 00:20:03.340 align:middle line:90%
+doesn't c-command "herself."
+
+00:20:03.340 --> 00:20:05.740 align:middle line:84%
+It does in the kinds of
+trees that we're drawing.
+
+00:20:05.740 --> 00:20:08.450 align:middle line:84%
+So you are finding
+a complication,
+
+00:20:08.450 --> 00:20:10.870 align:middle line:84%
+which I was planning to
+hide for a few more slides.
+
+00:20:10.870 --> 00:20:13.540 align:middle line:84%
+There's an additional
+requirement on anaphors.
+
+00:20:13.540 --> 00:20:16.673 align:middle line:84%
+They don't just need to be
+c-commanded by something
+
+00:20:16.673 --> 00:20:17.590 align:middle line:90%
+that corefers to them.
+
+00:20:17.590 --> 00:20:19.000 align:middle line:84%
+They don't just
+need to be bound.
+
+00:20:19.000 --> 00:20:20.417 align:middle line:84%
+They need to be
+bound by something
+
+00:20:20.417 --> 00:20:22.690 align:middle line:90%
+that's sufficiently close.
+
+00:20:22.690 --> 00:20:24.308 align:middle line:84%
+And if they're in
+different clauses,
+
+00:20:24.308 --> 00:20:25.600 align:middle line:90%
+they're not sufficiently close.
+
+00:20:25.600 --> 00:20:26.980 align:middle line:90%
+And we'll talk about that soon.
+
+00:20:26.980 --> 00:20:28.750 align:middle line:84%
+You'll get to look
+back with nostalgia
+
+00:20:28.750 --> 00:20:32.920 align:middle line:84%
+on this little interchange
+in just a few minutes.
+
+00:20:32.920 --> 00:20:33.420 align:middle line:90%
+Raquel?
+
+00:20:33.420 --> 00:20:35.045 align:middle line:84%
+AUDIENCE: This isn't
+really a question,
+
+00:20:35.045 --> 00:20:37.190 align:middle line:84%
+but I think it's
+interesting that coreference
+
+00:20:37.190 --> 00:20:40.070 align:middle line:90%
+could create a presupposition.
+
+00:20:40.070 --> 00:20:44.390 align:middle line:84%
+"The magician made
+herself disappear."
+
+00:20:44.390 --> 00:20:46.040 align:middle line:84%
+It's like, OK, well,
+suddenly the fact
+
+00:20:46.040 --> 00:20:49.985 align:middle line:84%
+that the magician is female is
+a presupposition that's there.
+
+00:20:49.985 --> 00:20:53.110 align:middle line:84%
+But it could be wrong, and you
+couldn't star it necessarily
+
+00:20:53.110 --> 00:20:54.110 align:middle line:90%
+because you're not sure.
+
+00:20:54.110 --> 00:20:55.400 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:20:55.400 --> 00:20:56.420 align:middle line:90%
+No, I take your point.
+
+00:20:56.420 --> 00:20:59.720 align:middle line:84%
+So I take your point to be,
+if you say "The magician made
+
+00:20:59.720 --> 00:21:02.240 align:middle line:84%
+herself disappear,"
+or "The magician made
+
+00:21:02.240 --> 00:21:04.490 align:middle line:84%
+her father disappear,"
+whether you
+
+00:21:04.490 --> 00:21:06.813 align:middle line:84%
+use an anaphor or a
+pronoun, "magician" doesn't
+
+00:21:06.813 --> 00:21:08.480 align:middle line:84%
+have any information
+about gender in it.
+
+00:21:08.480 --> 00:21:11.420 align:middle line:84%
+But a fact about-- a thing
+about pronouns and reflexives
+
+00:21:11.420 --> 00:21:14.420 align:middle line:84%
+in English is that they
+carry presuppositions
+
+00:21:14.420 --> 00:21:15.920 align:middle line:84%
+about the gender
+of their reference.
+
+00:21:15.920 --> 00:21:16.970 align:middle line:90%
+That's absolutely right.
+
+00:21:16.970 --> 00:21:17.840 align:middle line:90%
+Yeah.
+
+00:21:17.840 --> 00:21:19.400 align:middle line:90%
+Yeah, that's quite true.
+
+00:21:19.400 --> 00:21:20.742 align:middle line:90%
+Yup.
+
+00:21:20.742 --> 00:21:22.848 align:middle line:90%
+OK.
+
+00:21:22.848 --> 00:21:23.890 align:middle line:90%
+All right, so-- oh, good.
+
+00:21:23.890 --> 00:21:25.610 align:middle line:84%
+I did say it on the
+next slide, bind.
+
+00:21:25.610 --> 00:21:29.333 align:middle line:84%
+This is just a name for
+c-command and "corefer with"
+
+00:21:29.333 --> 00:21:31.750 align:middle line:84%
+just because we get tired of
+saying c-command and "corefer
+
+00:21:31.750 --> 00:21:32.250 align:middle line:90%
+with."
+
+00:21:32.250 --> 00:21:34.960 align:middle line:84%
+We say alpha binds beta
+if alpha c-commands
+
+00:21:34.960 --> 00:21:36.010 align:middle line:90%
+and corefers with beta.
+
+00:21:36.010 --> 00:21:40.810 align:middle line:84%
+So in "Susan must like herself,"
+"Susan" binds "herself."
+
+00:21:40.810 --> 00:21:45.580 align:middle line:84%
+"Susan" corefers with "herself,"
+and it c-commands "herself."
+
+00:21:45.580 --> 00:21:47.590 align:middle line:90%
+And anaphors need to be bound.
+
+00:21:47.590 --> 00:21:50.585 align:middle line:84%
+And thanks to Faith, you
+know that, pretty soon, it's
+
+00:21:50.585 --> 00:21:52.210 align:middle line:84%
+going to be more
+complicated than that.
+
+00:21:52.210 --> 00:21:53.918 align:middle line:84%
+They need to be bound
+by something that's
+
+00:21:53.918 --> 00:21:55.690 align:middle line:90%
+sufficiently close to them.
+
+00:21:55.690 --> 00:21:57.870 align:middle line:90%
+Yeah.
+
+00:21:57.870 --> 00:22:00.150 align:middle line:84%
+AUDIENCE: Speaking about
+behavior of c-command,
+
+00:22:00.150 --> 00:22:04.116 align:middle line:84%
+you mentioned earlier in the
+semester how normal pronouns
+
+00:22:04.116 --> 00:22:04.810 align:middle line:90%
+or--
+
+00:22:04.810 --> 00:22:07.383 align:middle line:84%
+yeah, normal pronouns
+are not A c-commanded.
+
+00:22:07.383 --> 00:22:09.800 align:middle line:84%
+NORVIN RICHARDS: Yeah, so we're
+going to do pronouns next.
+
+00:22:09.800 --> 00:22:10.100 align:middle line:90%
+Yeah.
+
+00:22:10.100 --> 00:22:10.640 align:middle line:90%
+AUDIENCE: OK.
+
+00:22:10.640 --> 00:22:11.630 align:middle line:84%
+NORVIN RICHARDS:
+Yeah, that's right.
+
+00:22:11.630 --> 00:22:12.740 align:middle line:90%
+We're going to get to that.
+
+00:22:12.740 --> 00:22:14.323 align:middle line:84%
+Actually, I think
+we're doing it next.
+
+00:22:14.323 --> 00:22:15.620 align:middle line:90%
+Anaphors must be bound.
+
+00:22:15.620 --> 00:22:17.700 align:middle line:90%
+OK, sorry, one more thing.
+
+00:22:17.700 --> 00:22:19.110 align:middle line:90%
+There are two kinds of anaphors.
+
+00:22:19.110 --> 00:22:21.027 align:middle line:84%
+There are reflexives,
+which are the ones we've
+
+00:22:21.027 --> 00:22:23.302 align:middle line:84%
+been concentrating on, words
+like herself and himself.
+
+00:22:23.302 --> 00:22:25.260 align:middle line:84%
+And then there are what
+are called reciprocals,
+
+00:22:25.260 --> 00:22:26.468 align:middle line:90%
+which have the same behavior.
+
+00:22:26.468 --> 00:22:28.080 align:middle line:90%
+They're words like "each other."
+
+00:22:28.080 --> 00:22:30.410 align:middle line:84%
+So "John and Bill
+like each other."
+
+00:22:30.410 --> 00:22:34.100 align:middle line:84%
+The meaning of "each other"
+is much more complicated
+
+00:22:34.100 --> 00:22:36.020 align:middle line:84%
+than the meaning
+of "themselves,"
+
+00:22:36.020 --> 00:22:37.670 align:middle line:84%
+but "each other"
+and "themselves"
+
+00:22:37.670 --> 00:22:40.700 align:middle line:84%
+have the same behavior in
+that they are OK in sentences
+
+00:22:40.700 --> 00:22:43.130 align:middle line:84%
+like "John and Bill like
+each other" or "themselves,"
+
+00:22:43.130 --> 00:22:44.930 align:middle line:84%
+and that they are
+both bad in "John
+
+00:22:44.930 --> 00:22:47.570 align:middle line:84%
+and Bill's father likes
+each other" or "themselves."
+
+00:22:47.570 --> 00:22:50.870 align:middle line:84%
+So "each other" and
+"themselves" are both anaphors,
+
+00:22:50.870 --> 00:22:55.203 align:middle line:84%
+and they're both subject to this
+requirement that they be bound.
+
+00:22:55.203 --> 00:22:56.870 align:middle line:84%
+So "John and Bill
+like each other" means
+
+00:22:56.870 --> 00:23:00.110 align:middle line:84%
+something like "John likes Bill
+and Bill likes John," yeah?
+
+00:23:00.110 --> 00:23:02.750 align:middle line:84%
+There's literature on
+exactly what reciprocals
+
+00:23:02.750 --> 00:23:05.730 align:middle line:90%
+mean because it's complicated.
+
+00:23:05.730 --> 00:23:07.910 align:middle line:84%
+For example, it's possible
+to say things like,
+
+00:23:07.910 --> 00:23:11.610 align:middle line:84%
+"We piled the books
+on top of each other."
+
+00:23:11.610 --> 00:23:15.260 align:middle line:84%
+So each other doesn't
+mean for every pair
+
+00:23:15.260 --> 00:23:19.803 align:middle line:84%
+in the group A relation B
+and B relation A, right?
+
+00:23:19.803 --> 00:23:21.470 align:middle line:84%
+You might have thought,
+looking at this,
+
+00:23:21.470 --> 00:23:23.012 align:middle line:84%
+that "John and Bill
+like each other,"
+
+00:23:23.012 --> 00:23:25.490 align:middle line:84%
+to interpret that, what you do
+is you take all of the pairs
+
+00:23:25.490 --> 00:23:26.420 align:middle line:90%
+you can make out of the group.
+
+00:23:26.420 --> 00:23:27.920 align:middle line:90%
+OK, there's one pair, you know?
+
+00:23:27.920 --> 00:23:31.700 align:middle line:84%
+And what this means is John
+likes Bill and Bill likes John.
+
+00:23:31.700 --> 00:23:34.620 align:middle line:84%
+But if you say "The books are
+piled on top of each other,"
+
+00:23:34.620 --> 00:23:38.930 align:middle line:84%
+it doesn't mean this book
+is on top of that book and--
+
+00:23:38.930 --> 00:23:40.215 align:middle line:90%
+That's not what it means.
+
+00:23:40.215 --> 00:23:41.840 align:middle line:84%
+So there's work on
+trying to figure out
+
+00:23:41.840 --> 00:23:44.150 align:middle line:84%
+what the heck it
+means, what reciprocals
+
+00:23:44.150 --> 00:23:49.640 align:middle line:84%
+mean exactly, which we will
+not get any further into now.
+
+00:23:49.640 --> 00:23:53.000 align:middle line:84%
+OK, this was Joseph's
+question, pronouns.
+
+00:23:53.000 --> 00:23:54.480 align:middle line:90%
+Anaphors must be bound.
+
+00:23:54.480 --> 00:23:55.633 align:middle line:90%
+Pronouns must be free.
+
+00:23:55.633 --> 00:23:57.050 align:middle line:84%
+It sounds like a
+political slogan,
+
+00:23:57.050 --> 00:23:59.480 align:middle line:84%
+but it's a fact
+about grammar, yeah?
+
+00:23:59.480 --> 00:24:03.270 align:middle line:84%
+So pronouns need
+to not be bound.
+
+00:24:03.270 --> 00:24:05.570 align:middle line:84%
+So "Susan likes
+herself" is fine.
+
+00:24:05.570 --> 00:24:07.257 align:middle line:84%
+"Susan's father likes
+herself" is bad.
+
+00:24:07.257 --> 00:24:08.840 align:middle line:84%
+That's the behavior
+of anaphors, which
+
+00:24:08.840 --> 00:24:10.550 align:middle line:90%
+we're familiar with by now.
+
+00:24:10.550 --> 00:24:13.190 align:middle line:84%
+And "her" behaves the
+same way only backwards.
+
+00:24:13.190 --> 00:24:17.600 align:middle line:84%
+So "Susan likes her," fine
+sentence as long as "Susan"
+
+00:24:17.600 --> 00:24:19.070 align:middle line:90%
+and "her" are different people.
+
+00:24:19.070 --> 00:24:21.823 align:middle line:84%
+So "her" can't be
+bound by "Susan."
+
+00:24:21.823 --> 00:24:23.240 align:middle line:84%
+It can't be
+c-commanded by "Susan"
+
+00:24:23.240 --> 00:24:26.520 align:middle line:84%
+if "Susan" and "her" are going
+to refer to the same person.
+
+00:24:26.520 --> 00:24:30.470 align:middle line:84%
+On the other hand, "Susan's
+father likes her"-- fine.
+
+00:24:30.470 --> 00:24:34.770 align:middle line:84%
+So it's not quite true,
+but it's almost true
+
+00:24:34.770 --> 00:24:37.410 align:middle line:84%
+that anaphors and pronouns are
+in complementary distribution
+
+00:24:37.410 --> 00:24:38.330 align:middle line:90%
+with each other.
+
+00:24:38.330 --> 00:24:41.340 align:middle line:84%
+So for a given meaning,
+you either use the pronoun,
+
+00:24:41.340 --> 00:24:43.980 align:middle line:90%
+or you use the anaphor, OK?
+
+00:24:43.980 --> 00:24:47.445 align:middle line:90%
+
+
+00:24:47.445 --> 00:24:47.945 align:middle line:90%
+OK.
+
+00:24:47.945 --> 00:24:50.840 align:middle line:90%
+
+
+00:24:50.840 --> 00:24:54.790 align:middle line:84%
+More examples--
+even more examples.
+
+00:24:54.790 --> 00:24:58.560 align:middle line:84%
+So now, we're getting
+to Faith's point--
+
+00:24:58.560 --> 00:25:01.050 align:middle line:84%
+my version of
+Faith's point, sorry.
+
+00:25:01.050 --> 00:25:03.960 align:middle line:90%
+So "Susan likes herself."
+
+00:25:03.960 --> 00:25:05.310 align:middle line:90%
+We've seen this is OK.
+
+00:25:05.310 --> 00:25:06.870 align:middle line:90%
+"Susan thinks I like herself."
+
+00:25:06.870 --> 00:25:09.840 align:middle line:84%
+Or I have the
+sentence on the board,
+
+00:25:09.840 --> 00:25:12.300 align:middle line:84%
+"Mary thinks Susan
+must like herself."
+
+00:25:12.300 --> 00:25:16.740 align:middle line:84%
+"Herself" is trying to
+get bound, in this case,
+
+00:25:16.740 --> 00:25:18.390 align:middle line:90%
+on the slide by Susan.
+
+00:25:18.390 --> 00:25:20.670 align:middle line:90%
+And it can't be.
+
+00:25:20.670 --> 00:25:22.260 align:middle line:84%
+The kinds of trees
+we were drawing
+
+00:25:22.260 --> 00:25:24.150 align:middle line:84%
+for this kind of
+sentence, Susan certainly
+
+00:25:24.150 --> 00:25:25.740 align:middle line:90%
+does c-command herself.
+
+00:25:25.740 --> 00:25:29.660 align:middle line:84%
+I don't think I put
+the tree on the slide.
+
+00:25:29.660 --> 00:25:31.890 align:middle line:84%
+So let me just
+create it quickly.
+
+00:25:31.890 --> 00:25:42.670 align:middle line:84%
+"Susan thinks"-- there's going
+to be a CP here, then null C.
+
+00:25:42.670 --> 00:25:45.430 align:middle line:84%
+And then down here,
+we have a noun phrase,
+
+00:25:45.430 --> 00:25:52.990 align:middle line:84%
+"I," and a verb
+phrase like "herself."
+
+00:25:52.990 --> 00:25:56.450 align:middle line:90%
+So if we ask ourselves does--
+
+00:25:56.450 --> 00:25:57.640 align:middle line:90%
+here's the tree.
+
+00:25:57.640 --> 00:25:59.140 align:middle line:90%
+Did I write the right sentence?
+
+00:25:59.140 --> 00:26:01.720 align:middle line:84%
+"Susan thinks I
+like herself," yes.
+
+00:26:01.720 --> 00:26:04.930 align:middle line:84%
+If we ask ourself, does
+"Susan" c-command "herself,"
+
+00:26:04.930 --> 00:26:06.520 align:middle line:90%
+the answer is yes.
+
+00:26:06.520 --> 00:26:08.710 align:middle line:84%
+If we ask what
+are the nodes that
+
+00:26:08.710 --> 00:26:11.602 align:middle line:84%
+dominate the noun
+phrase "Susan," well,
+
+00:26:11.602 --> 00:26:12.310 align:middle line:90%
+there's only one.
+
+00:26:12.310 --> 00:26:14.200 align:middle line:90%
+It's this TP.
+
+00:26:14.200 --> 00:26:16.300 align:middle line:84%
+And so if we're asking,
+does "Susan" c-command
+
+00:26:16.300 --> 00:26:18.627 align:middle line:84%
+"herself," well,
+we're really asking,
+
+00:26:18.627 --> 00:26:19.960 align:middle line:90%
+does this TP dominate "herself"?
+
+00:26:19.960 --> 00:26:21.730 align:middle line:90%
+And yes, it does.
+
+00:26:21.730 --> 00:26:25.800 align:middle line:90%
+So "Susan" c-commands "herself."
+
+00:26:25.800 --> 00:26:29.100 align:middle line:84%
+So it looks as though "Susan"
+ought to bind "herself."
+
+00:26:29.100 --> 00:26:31.800 align:middle line:84%
+What we're learning
+here is the complication
+
+00:26:31.800 --> 00:26:35.865 align:middle line:84%
+that Faith made me reveal
+early, which is that not only do
+
+00:26:35.865 --> 00:26:36.990 align:middle line:90%
+anaphors need to get bound.
+
+00:26:36.990 --> 00:26:38.070 align:middle line:84%
+They need to get
+bound by something
+
+00:26:38.070 --> 00:26:38.987 align:middle line:90%
+which is close enough.
+
+00:26:38.987 --> 00:26:42.000 align:middle line:90%
+
+
+00:26:42.000 --> 00:26:43.560 align:middle line:90%
+There's a principle.
+
+00:26:43.560 --> 00:26:45.420 align:middle line:84%
+It's called principle
+A. You can think
+
+00:26:45.420 --> 00:26:47.190 align:middle line:90%
+of A as standing for Anaphor.
+
+00:26:47.190 --> 00:26:52.320 align:middle line:84%
+It says anaphors must
+be bound within TP.
+
+00:26:52.320 --> 00:26:57.270 align:middle line:84%
+If this were Intro to Syntax, we
+would now spend weeks, possibly
+
+00:26:57.270 --> 00:27:01.350 align:middle line:84%
+months trying to figure
+out what the real locality
+
+00:27:01.350 --> 00:27:03.720 align:middle line:84%
+requirement is because it's
+more complicated than that.
+
+00:27:03.720 --> 00:27:05.370 align:middle line:90%
+But that's close.
+
+00:27:05.370 --> 00:27:10.680 align:middle line:84%
+So the idea here is that
+"herself," yes, it's
+
+00:27:10.680 --> 00:27:12.720 align:middle line:90%
+bound by "Susan" in this tree.
+
+00:27:12.720 --> 00:27:15.690 align:middle line:84%
+But it's not bound by "Susan"
+within the smallest TP.
+
+00:27:15.690 --> 00:27:18.150 align:middle line:84%
+Here's the smallest TP
+that includes "herself,"
+
+00:27:18.150 --> 00:27:21.800 align:middle line:90%
+and "Susan" is too far away.
+
+00:27:21.800 --> 00:27:25.715 align:middle line:84%
+So there's a
+locality requirement.
+
+00:27:25.715 --> 00:27:26.590 align:middle line:90%
+Does that make sense?
+
+00:27:26.590 --> 00:27:28.510 align:middle line:84%
+So principle A
+says, anaphors need
+
+00:27:28.510 --> 00:27:31.110 align:middle line:84%
+to be bound within the
+smallest TP that contains them.
+
+00:27:31.110 --> 00:27:33.920 align:middle line:90%
+
+
+00:27:33.920 --> 00:27:37.430 align:middle line:84%
+And then principle B, where B
+stands for the principle that
+
+00:27:37.430 --> 00:27:40.850 align:middle line:84%
+comes after principle
+A, says, pronouns
+
+00:27:40.850 --> 00:27:44.870 align:middle line:84%
+must be free within TP,
+so just as we saw before,
+
+00:27:44.870 --> 00:27:46.700 align:middle line:84%
+that pronouns and
+anaphors are, so
+
+00:27:46.700 --> 00:27:49.520 align:middle line:84%
+far, in complementary
+distribution for a given
+
+00:27:49.520 --> 00:27:50.030 align:middle line:90%
+reading.
+
+00:27:50.030 --> 00:27:52.340 align:middle line:84%
+So you can say "Susan
+likes herself,"
+
+00:27:52.340 --> 00:27:55.340 align:middle line:84%
+and that means that you
+can't say "Susan likes her"
+
+00:27:55.340 --> 00:27:56.930 align:middle line:84%
+and mean the same
+thing, that you mean
+
+00:27:56.930 --> 00:27:59.930 align:middle line:90%
+that "Susan likes herself."
+
+00:27:59.930 --> 00:28:03.650 align:middle line:84%
+Similarly, we've now seen,
+thanks to principle A,
+
+00:28:03.650 --> 00:28:07.200 align:middle line:84%
+that you cannot say "Susan
+thinks I like herself,"
+
+00:28:07.200 --> 00:28:11.290 align:middle line:84%
+where "herself" refers
+back to "Susan."
+
+00:28:11.290 --> 00:28:14.110 align:middle line:84%
+And principle B
+says, yeah, pronouns
+
+00:28:14.110 --> 00:28:15.880 align:middle line:90%
+have to be free within TP.
+
+00:28:15.880 --> 00:28:18.430 align:middle line:84%
+So "Susan thinks I like her,"
+where "her" refers to "Susan."
+
+00:28:18.430 --> 00:28:20.640 align:middle line:84%
+Fine, it doesn't have to
+refer to "Susan," right?
+
+00:28:20.640 --> 00:28:21.640 align:middle line:90%
+It can refer to anybody.
+
+00:28:21.640 --> 00:28:25.090 align:middle line:84%
+It can be free regardless of
+whether it's bound by "Susan"
+
+00:28:25.090 --> 00:28:26.770 align:middle line:90%
+or not, free within TP.
+
+00:28:26.770 --> 00:28:27.460 align:middle line:90%
+Yeah, Faith.
+
+00:28:27.460 --> 00:28:28.960 align:middle line:84%
+AUDIENCE: I may
+have just forgotten,
+
+00:28:28.960 --> 00:28:33.250 align:middle line:84%
+but with that T there, is the
+invisible T that's dominated
+
+00:28:33.250 --> 00:28:35.080 align:middle line:90%
+by T bar always necessary?
+
+00:28:35.080 --> 00:28:36.400 align:middle line:90%
+Or could you just say--
+
+00:28:36.400 --> 00:28:36.910 align:middle line:90%
+NORVIN RICHARDS: This?
+
+00:28:36.910 --> 00:28:37.535 align:middle line:90%
+AUDIENCE: Yeah.
+
+00:28:37.535 --> 00:28:38.040 align:middle line:90%
+And--
+
+00:28:38.040 --> 00:28:39.370 align:middle line:90%
+NORVIN RICHARDS: And also this?
+
+00:28:39.370 --> 00:28:39.870 align:middle line:90%
+Yeah.
+
+00:28:39.870 --> 00:28:40.460 align:middle line:90%
+You know what?
+
+00:28:40.460 --> 00:28:42.252 align:middle line:84%
+In most of the trees
+I've been showing you,
+
+00:28:42.252 --> 00:28:45.305 align:middle line:84%
+I've been smart enough to put
+auxiliaries in the sentences.
+
+00:28:45.305 --> 00:28:46.930 align:middle line:84%
+So I've been saying
+things like, "Susan
+
+00:28:46.930 --> 00:28:50.650 align:middle line:84%
+will think that I
+must like herself."
+
+00:28:50.650 --> 00:28:53.980 align:middle line:84%
+And then people don't ask the
+question that you're asking.
+
+00:28:53.980 --> 00:28:57.400 align:middle line:84%
+But when I drew this tree, I
+was not smart enough to do that.
+
+00:28:57.400 --> 00:29:01.933 align:middle line:84%
+There does need to
+be a T because--
+
+00:29:01.933 --> 00:29:03.100 align:middle line:90%
+why does there need to be T?
+
+00:29:03.100 --> 00:29:06.850 align:middle line:84%
+Well, we have principles
+like the extended projection
+
+00:29:06.850 --> 00:29:10.330 align:middle line:84%
+principle, which says that
+TP must have a specifier.
+
+00:29:10.330 --> 00:29:13.960 align:middle line:84%
+And sentences without
+auxiliaries in them
+
+00:29:13.960 --> 00:29:15.905 align:middle line:90%
+show the effects of that.
+
+00:29:15.905 --> 00:29:18.280 align:middle line:84%
+So it doesn't matter whether
+there's an auxiliary or not.
+
+00:29:18.280 --> 00:29:22.452 align:middle line:90%
+
+
+00:29:22.452 --> 00:29:22.952 align:middle line:90%
+Yeah.
+
+00:29:22.952 --> 00:29:24.770 align:middle line:84%
+It doesn't matter whether
+there's an auxiliary or not.
+
+00:29:24.770 --> 00:29:27.395 align:middle line:84%
+You still get the effects of the
+extended projection principle.
+
+00:29:27.395 --> 00:29:29.650 align:middle line:84%
+So we do want there
+to be a T because we
+
+00:29:29.650 --> 00:29:30.598 align:middle line:90%
+want there to be a TP.
+
+00:29:30.598 --> 00:29:32.890 align:middle line:84%
+And we don't have any way to
+make a TP without starting
+
+00:29:32.890 --> 00:29:36.670 align:middle line:84%
+with a T. So you have to merge
+T with a verb phrase and so on.
+
+00:29:36.670 --> 00:29:39.376 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:29:39.376 --> 00:29:40.533 align:middle line:90%
+
+
+00:29:40.533 --> 00:29:41.450 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:29:41.450 --> 00:29:42.500 align:middle line:90%
+So I mean, here's--
+
+00:29:42.500 --> 00:29:45.110 align:middle line:90%
+
+
+00:29:45.110 --> 00:29:47.170 align:middle line:84%
+I'm not totally unhappy
+about the direction
+
+00:29:47.170 --> 00:29:48.920 align:middle line:84%
+this conversation is
+taking because you're
+
+00:29:48.920 --> 00:29:52.940 align:middle line:84%
+forcing me to talk about syntax,
+which is fine, even though this
+
+00:29:52.940 --> 00:29:54.660 align:middle line:84%
+is the semantic
+part of the story.
+
+00:29:54.660 --> 00:29:58.380 align:middle line:84%
+Suppose I was smart enough
+to use an auxiliary here.
+
+00:29:58.380 --> 00:30:00.530 align:middle line:90%
+So we'll do "Susan will think."
+
+00:30:00.530 --> 00:30:03.535 align:middle line:84%
+And we'll forget about the
+embedded clause for a second.
+
+00:30:03.535 --> 00:30:04.910 align:middle line:84%
+We've talked about
+this, I think,
+
+00:30:04.910 --> 00:30:09.620 align:middle line:84%
+that, if you want to
+ask a yes/no question,
+
+00:30:09.620 --> 00:30:13.370 align:middle line:84%
+the way to do it is
+to head move T into C.
+
+00:30:13.370 --> 00:30:19.430 align:middle line:84%
+So you ask questions like, "Will
+Susan think that" blah-di-blah?
+
+00:30:19.430 --> 00:30:21.630 align:middle line:90%
+So bear that in mind.
+
+00:30:21.630 --> 00:30:25.220 align:middle line:84%
+And now, let's switch
+to the version of this
+
+00:30:25.220 --> 00:30:26.930 align:middle line:90%
+where there isn't an auxiliary.
+
+00:30:26.930 --> 00:30:29.970 align:middle line:90%
+"Susan thinks that I like."
+
+00:30:29.970 --> 00:30:32.570 align:middle line:84%
+If I want to make a question
+out of that, what I do
+
+00:30:32.570 --> 00:30:35.000 align:middle line:90%
+is I put "Does" here.
+
+00:30:35.000 --> 00:30:36.630 align:middle line:90%
+And I get rid of the S here.
+
+00:30:36.630 --> 00:30:40.400 align:middle line:84%
+So it's "Does Susan
+think that" blah-di-blah?
+
+00:30:40.400 --> 00:30:42.540 align:middle line:84%
+So there's a story about
+what's going on here,
+
+00:30:42.540 --> 00:30:45.740 align:middle line:84%
+which says what's in T-- so
+there are various things that
+
+00:30:45.740 --> 00:30:50.840 align:middle line:84%
+can be in T. There's "will"
+and "should," "might."
+
+00:30:50.840 --> 00:30:56.750 align:middle line:84%
+And there's also "-s," as in
+"Mary thinks that I like her."
+
+00:30:56.750 --> 00:31:01.382 align:middle line:84%
+And if you do T to C of
+"will" or "should" or "might,"
+
+00:31:01.382 --> 00:31:02.840 align:middle line:84%
+then you just move
+them over there.
+
+00:31:02.840 --> 00:31:04.040 align:middle line:90%
+And nothing else happens.
+
+00:31:04.040 --> 00:31:06.960 align:middle line:84%
+If you have a "-s" then there
+are a couple of things that
+
+00:31:06.960 --> 00:31:07.460 align:middle line:90%
+happen.
+
+00:31:07.460 --> 00:31:10.430 align:middle line:84%
+If you aren't head-moving it,
+then it attaches to this verb.
+
+00:31:10.430 --> 00:31:11.920 align:middle line:84%
+So you end up with
+"Susan thinks."
+
+00:31:11.920 --> 00:31:14.420 align:middle line:84%
+And we have to figure out how
+these two things come together
+
+00:31:14.420 --> 00:31:15.380 align:middle line:90%
+to form a verb.
+
+00:31:15.380 --> 00:31:20.360 align:middle line:84%
+And sadly, it's long
+enough since we did syntax
+
+00:31:20.360 --> 00:31:23.000 align:middle line:84%
+that I'm unwilling to
+try to tell you that.
+
+00:31:23.000 --> 00:31:25.310 align:middle line:84%
+There's a big literature on
+trying to figure that out.
+
+00:31:25.310 --> 00:31:27.902 align:middle line:84%
+And then the other story is,
+if you're going to do T to C,
+
+00:31:27.902 --> 00:31:29.360 align:middle line:84%
+if you're going to
+make a question,
+
+00:31:29.360 --> 00:31:30.470 align:middle line:90%
+you're going to take this.
+
+00:31:30.470 --> 00:31:32.090 align:middle line:90%
+It's not going to show up here.
+
+00:31:32.090 --> 00:31:33.960 align:middle line:90%
+It's going to show up up here.
+
+00:31:33.960 --> 00:31:37.400 align:middle line:84%
+So you would have expected this
+to be "-s Susan think I like
+
+00:31:37.400 --> 00:31:38.060 align:middle line:90%
+herself?"
+
+00:31:38.060 --> 00:31:41.050 align:middle line:84%
+But "-s" is too small to be an
+English word or something like
+
+00:31:41.050 --> 00:31:41.550 align:middle line:90%
+that.
+
+00:31:41.550 --> 00:31:45.030 align:middle line:90%
+And so you put in this "do."
+
+00:31:45.030 --> 00:31:48.110 align:middle line:84%
+There's a process that
+is called "do support."
+
+00:31:48.110 --> 00:31:51.480 align:middle line:84%
+You add "do" there so that
+we'll have a verb to be part of.
+
+00:31:51.480 --> 00:31:53.300 align:middle line:90%
+It's the story that people tell.
+
+00:31:53.300 --> 00:31:55.550 align:middle line:84%
+And so that's why the
+question version of that
+
+00:31:55.550 --> 00:31:58.100 align:middle line:84%
+is "Does Susan think
+that I like her?"
+
+00:31:58.100 --> 00:32:01.220 align:middle line:84%
+Can you see why I
+have been hiding all
+
+00:32:01.220 --> 00:32:03.200 align:middle line:90%
+of this from you all semester?
+
+00:32:03.200 --> 00:32:05.660 align:middle line:84%
+So I've been using auxiliaries
+instead of giving you verbs
+
+00:32:05.660 --> 00:32:07.100 align:middle line:90%
+that have suffixes on them.
+
+00:32:07.100 --> 00:32:09.898 align:middle line:84%
+This is why, because I
+didn't want to do this.
+
+00:32:09.898 --> 00:32:10.940 align:middle line:90%
+But it's been fun anyway.
+
+00:32:10.940 --> 00:32:12.440 align:middle line:84%
+But now, it's over,
+except it's not.
+
+00:32:12.440 --> 00:32:14.325 align:middle line:90%
+Joseph?
+
+00:32:14.325 --> 00:32:15.700 align:middle line:84%
+AUDIENCE: Just a
+brief question--
+
+00:32:15.700 --> 00:32:15.827 align:middle line:90%
+NORVIN RICHARDS: Yes.
+
+00:32:15.827 --> 00:32:17.230 align:middle line:84%
+AUDIENCE: --about
+that movement, you
+
+00:32:17.230 --> 00:32:19.240 align:middle line:84%
+said the extended production
+principle requires
+
+00:32:19.240 --> 00:32:21.040 align:middle line:90%
+you TP has a specifier.
+
+00:32:21.040 --> 00:32:24.960 align:middle line:84%
+So that means that, because
+[INAUDIBLE] creating
+
+00:32:24.960 --> 00:32:28.430 align:middle line:84%
+a yes or no question means
+moving ahead out of TP,
+
+00:32:28.430 --> 00:32:30.400 align:middle line:90%
+you can't move "Susan."
+
+00:32:30.400 --> 00:32:32.453 align:middle line:84%
+Because then TP was
+the specifier, right?
+
+00:32:32.453 --> 00:32:33.370 align:middle line:90%
+NORVIN RICHARDS: Yeah.
+
+00:32:33.370 --> 00:32:34.180 align:middle line:90%
+Oh, I see.
+
+00:32:34.180 --> 00:32:34.900 align:middle line:90%
+AUDIENCE: Yeah, why [INAUDIBLE]?
+
+00:32:34.900 --> 00:32:35.800 align:middle line:90%
+NORVIN RICHARDS: No, no.
+
+00:32:35.800 --> 00:32:37.508 align:middle line:84%
+Oh, you mean why are
+you moving the head?
+
+00:32:37.508 --> 00:32:39.580 align:middle line:90%
+Why are you not moving a phrase?
+
+00:32:39.580 --> 00:32:41.747 align:middle line:84%
+AUDIENCE: Why can't you
+just move the phrase around?
+
+00:32:41.747 --> 00:32:43.540 align:middle line:90%
+
+
+00:32:43.540 --> 00:32:46.120 align:middle line:84%
+NORVIN RICHARDS: There isn't a
+deep answer to that question.
+
+00:32:46.120 --> 00:32:48.730 align:middle line:84%
+Forming questions involves
+taking whatever is in T
+
+00:32:48.730 --> 00:32:51.550 align:middle line:84%
+and moving it into
+C. You'd like to know
+
+00:32:51.550 --> 00:32:56.100 align:middle line:84%
+why we don't move other things,
+and that's a good question.
+
+00:32:56.100 --> 00:32:56.730 align:middle line:90%
+This is--
+
+00:32:56.730 --> 00:32:57.696 align:middle line:90%
+AUDIENCE: [INAUDIBLE] to her.
+
+00:32:57.696 --> 00:33:00.070 align:middle line:84%
+And I said, you can't do this
+because of the shortest path.
+
+00:33:00.070 --> 00:33:00.580 align:middle line:90%
+NORVIN RICHARDS: Ah, yes.
+
+00:33:00.580 --> 00:33:00.880 align:middle line:90%
+I see.
+
+00:33:00.880 --> 00:33:01.180 align:middle line:90%
+Yes.
+
+00:33:01.180 --> 00:33:03.650 align:middle line:84%
+So, yeah, you can't take the
+verb and move it up there.
+
+00:33:03.650 --> 00:33:05.192 align:middle line:84%
+That's right because
+that's too long.
+
+00:33:05.192 --> 00:33:07.540 align:middle line:90%
+Why can't you move this?
+
+00:33:07.540 --> 00:33:09.040 align:middle line:90%
+Because it's not a head.
+
+00:33:09.040 --> 00:33:10.960 align:middle line:90%
+It's a phrase.
+
+00:33:10.960 --> 00:33:13.060 align:middle line:84%
+Apparently, we think
+that only heads can
+
+00:33:13.060 --> 00:33:14.480 align:middle line:90%
+move to attach to other heads.
+
+00:33:14.480 --> 00:33:14.980 align:middle line:90%
+Yeah.
+
+00:33:14.980 --> 00:33:16.692 align:middle line:90%
+And we might want to know why.
+
+00:33:16.692 --> 00:33:18.650 align:middle line:84%
+There are lots of things
+we might want to know.
+
+00:33:18.650 --> 00:33:20.080 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:33:20.080 --> 00:33:20.650 align:middle line:90%
+
+
+00:33:20.650 --> 00:33:22.270 align:middle line:90%
+NORVIN RICHARDS: Go take syntax.
+
+00:33:22.270 --> 00:33:24.310 align:middle line:90%
+Yeah.
+
+00:33:24.310 --> 00:33:25.780 align:middle line:90%
+Yeah?
+
+00:33:25.780 --> 00:33:26.830 align:middle line:90%
+OK.
+
+00:33:26.830 --> 00:33:29.650 align:middle line:84%
+All right, all of
+you, you dragged
+
+00:33:29.650 --> 00:33:31.990 align:middle line:84%
+me kicking and screaming
+into doing more syntax.
+
+00:33:31.990 --> 00:33:32.560 align:middle line:90%
+Shame on you.
+
+00:33:32.560 --> 00:33:35.350 align:middle line:90%
+OK.
+
+00:33:35.350 --> 00:33:37.090 align:middle line:84%
+Right, principle A,
+principle B, yes?
+
+00:33:37.090 --> 00:33:39.940 align:middle line:84%
+Are people reasonably happy with
+principle A and principle B?
+
+00:33:39.940 --> 00:33:42.220 align:middle line:84%
+So they say anaphors need
+to be bound within TP.
+
+00:33:42.220 --> 00:33:43.690 align:middle line:84%
+Pronouns have to
+be free within TP.
+
+00:33:43.690 --> 00:33:46.800 align:middle line:90%
+
+
+00:33:46.800 --> 00:33:50.520 align:middle line:84%
+Side note, since I just told
+you universal about anaphors,
+
+00:33:50.520 --> 00:33:52.290 align:middle line:84%
+anaphors only ever
+care about c-command.
+
+00:33:52.290 --> 00:33:54.715 align:middle line:84%
+They never seem to care
+about linear order.
+
+00:33:54.715 --> 00:33:57.090 align:middle line:84%
+They don't care about what
+precedes them or follows them.
+
+00:33:57.090 --> 00:33:59.220 align:middle line:84%
+I should say that
+there are points
+
+00:33:59.220 --> 00:34:00.780 align:middle line:90%
+of variation between languages.
+
+00:34:00.780 --> 00:34:04.620 align:middle line:84%
+There are languages that have
+anaphors that need to be bound,
+
+00:34:04.620 --> 00:34:07.620 align:middle line:84%
+but they can be bound
+longer than this.
+
+00:34:07.620 --> 00:34:09.330 align:middle line:84%
+So there are languages
+that have anaphors
+
+00:34:09.330 --> 00:34:10.980 align:middle line:84%
+that can be bound
+outside of the TP
+
+00:34:10.980 --> 00:34:13.270 align:middle line:84%
+that they're in called
+long-distance anaphors.
+
+00:34:13.270 --> 00:34:16.739 align:middle line:84%
+English doesn't have them, but
+Mandarin does, for example.
+
+00:34:16.739 --> 00:34:18.989 align:middle line:84%
+So Mandarin, [NON-ENGLISH]
+is a long-distance anaphor.
+
+00:34:18.989 --> 00:34:22.739 align:middle line:90%
+
+
+00:34:22.739 --> 00:34:25.500 align:middle line:84%
+Principle A is not a parameter
+that distinguishes languages.
+
+00:34:25.500 --> 00:34:27.420 align:middle line:84%
+It's a parameter that
+distinguishes anaphors.
+
+00:34:27.420 --> 00:34:29.722 align:middle line:84%
+So Mandarin actually
+has two anaphors.
+
+00:34:29.722 --> 00:34:31.430 align:middle line:84%
+It has an anaphor that
+behaves like this.
+
+00:34:31.430 --> 00:34:33.600 align:middle line:84%
+It's just pronounced
+[NON-ENGLISH]..
+
+00:34:33.600 --> 00:34:37.170 align:middle line:84%
+And then it has another one
+that is long distance that can
+
+00:34:37.170 --> 00:34:38.610 align:middle line:90%
+be bound from outside its TP.
+
+00:34:38.610 --> 00:34:41.040 align:middle line:84%
+It's just [NON-ENGLISH]
+by itself.
+
+00:34:41.040 --> 00:34:44.310 align:middle line:84%
+Those of you who speak Mandarin
+can be thinking about that.
+
+00:34:44.310 --> 00:34:47.040 align:middle line:84%
+There are languages that
+have more anaphors than that.
+
+00:34:47.040 --> 00:34:48.659 align:middle line:84%
+Korean, I think,
+holds the record.
+
+00:34:48.659 --> 00:34:50.909 align:middle line:84%
+It has four different anaphors
+with slightly different
+
+00:34:50.909 --> 00:34:51.690 align:middle line:90%
+behaviors.
+
+00:34:51.690 --> 00:34:52.190 align:middle line:90%
+Yeah.
+
+00:34:52.190 --> 00:34:54.600 align:middle line:84%
+AUDIENCE: Do languages that
+have long-distance anaphors
+
+00:34:54.600 --> 00:34:59.490 align:middle line:84%
+also always have this type
+of anaphor, or does it vary?
+
+00:34:59.490 --> 00:35:03.120 align:middle line:84%
+NORVIN RICHARDS:
+As far as I know,
+
+00:35:03.120 --> 00:35:05.970 align:middle line:84%
+every language has
+this type of anaphor.
+
+00:35:05.970 --> 00:35:12.370 align:middle line:84%
+And long-distance anaphors
+are an additional luxury
+
+00:35:12.370 --> 00:35:14.222 align:middle line:84%
+that a language can
+allow itself or not.
+
+00:35:14.222 --> 00:35:16.180 align:middle line:84%
+I don't think there are
+any languages that only
+
+00:35:16.180 --> 00:35:17.830 align:middle line:90%
+have long-distance anaphors.
+
+00:35:17.830 --> 00:35:20.570 align:middle line:90%
+Yeah, good question.
+
+00:35:20.570 --> 00:35:21.070 align:middle line:90%
+Yup?
+
+00:35:21.070 --> 00:35:21.570 align:middle line:90%
+OK.
+
+00:35:21.570 --> 00:35:27.670 align:middle line:90%
+
+
+00:35:27.670 --> 00:35:28.270 align:middle line:90%
+Where are we?
+
+00:35:28.270 --> 00:35:29.020 align:middle line:90%
+OK, yes.
+
+00:35:29.020 --> 00:35:32.980 align:middle line:84%
+So we have principle A. We
+have principle B. Anaphors need
+
+00:35:32.980 --> 00:35:33.940 align:middle line:90%
+to be bound within TP.
+
+00:35:33.940 --> 00:35:35.500 align:middle line:84%
+Pronouns have to
+be free within TP.
+
+00:35:35.500 --> 00:35:38.020 align:middle line:84%
+And let's stick
+to English again.
+
+00:35:38.020 --> 00:35:40.390 align:middle line:84%
+Now, let's consider these
+sentences, "She likes Susan"
+
+00:35:40.390 --> 00:35:47.612 align:middle line:84%
+and "Her father likes
+Susan," with these subscripts
+
+00:35:47.612 --> 00:35:49.320 align:middle line:84%
+and these grammaticality
+judgments, which
+
+00:35:49.320 --> 00:35:50.530 align:middle line:90%
+I hope everybody agrees with.
+
+00:35:50.530 --> 00:35:52.018 align:middle line:90%
+So "She likes Susan"--
+
+00:35:52.018 --> 00:35:54.435 align:middle line:84%
+fine sentence, but she and
+Susan can't be the same person.
+
+00:35:54.435 --> 00:35:56.803 align:middle line:90%
+
+
+00:35:56.803 --> 00:35:58.845 align:middle line:84%
+Does either of our principles
+handle these facts?
+
+00:35:58.845 --> 00:36:03.380 align:middle line:90%
+
+
+00:36:03.380 --> 00:36:07.910 align:middle line:84%
+That's a leading question
+if there ever was one.
+
+00:36:07.910 --> 00:36:09.750 align:middle line:90%
+No, they do not.
+
+00:36:09.750 --> 00:36:11.938 align:middle line:84%
+So first of all,
+principle A is obviously
+
+00:36:11.938 --> 00:36:12.980 align:middle line:90%
+going to be useless here.
+
+00:36:12.980 --> 00:36:15.560 align:middle line:84%
+There are no anaphors
+in these sentences.
+
+00:36:15.560 --> 00:36:17.630 align:middle line:84%
+So forget principle
+A. Principle B,
+
+00:36:17.630 --> 00:36:20.880 align:middle line:84%
+pronouns need to
+be free within TP.
+
+00:36:20.880 --> 00:36:24.300 align:middle line:84%
+Well, is she free within
+TP in "She likes Susan"?
+
+00:36:24.300 --> 00:36:30.040 align:middle line:84%
+Is there a noun phrase that
+c-commands "she" and corefers
+
+00:36:30.040 --> 00:36:30.540 align:middle line:90%
+with it?
+
+00:36:30.540 --> 00:36:34.990 align:middle line:90%
+
+
+00:36:34.990 --> 00:36:37.220 align:middle line:90%
+Is "she" free?
+
+00:36:37.220 --> 00:36:38.450 align:middle line:90%
+Yes.
+
+00:36:38.450 --> 00:36:39.260 align:middle line:90%
+She is free.
+
+00:36:39.260 --> 00:36:40.310 align:middle line:90%
+Shall I draw a tree?
+
+00:36:40.310 --> 00:36:43.400 align:middle line:90%
+
+
+00:36:43.400 --> 00:36:44.570 align:middle line:90%
+What's the sentence?
+
+00:36:44.570 --> 00:36:45.320 align:middle line:90%
+"She likes Susan."
+
+00:36:45.320 --> 00:36:50.350 align:middle line:90%
+
+
+00:36:50.350 --> 00:36:54.700 align:middle line:84%
+Someday, I'm going
+to ask somebody
+
+00:36:54.700 --> 00:36:58.090 align:middle line:84%
+to make me a stamp, a
+chalk stamp, you know,
+
+00:36:58.090 --> 00:37:01.040 align:middle line:84%
+that just has this tree,
+TP, T bar, [INAUDIBLE]..
+
+00:37:01.040 --> 00:37:01.540 align:middle line:90%
+Wham.
+
+00:37:01.540 --> 00:37:03.000 align:middle line:90%
+And then there it would be.
+
+00:37:03.000 --> 00:37:03.860 align:middle line:90%
+That would be great.
+
+00:37:03.860 --> 00:37:05.950 align:middle line:90%
+"She likes Susan," yeah?
+
+00:37:05.950 --> 00:37:06.910 align:middle line:90%
+Here's the pronoun.
+
+00:37:06.910 --> 00:37:08.560 align:middle line:84%
+Pronoun needs to
+be free within TP.
+
+00:37:08.560 --> 00:37:11.410 align:middle line:84%
+That is there had better not
+be anything c-commanding "she"
+
+00:37:11.410 --> 00:37:12.580 align:middle line:90%
+that corefers with "she."
+
+00:37:12.580 --> 00:37:13.990 align:middle line:90%
+Does anything c-command "she"?
+
+00:37:13.990 --> 00:37:19.420 align:middle line:90%
+
+
+00:37:19.420 --> 00:37:23.110 align:middle line:90%
+I guess maybe T bar.
+
+00:37:23.110 --> 00:37:27.670 align:middle line:84%
+So T bar is dominated by all
+the same nodes as noun phrase.
+
+00:37:27.670 --> 00:37:29.263 align:middle line:84%
+But T bar doesn't
+refer to "she."
+
+00:37:29.263 --> 00:37:30.430 align:middle line:90%
+It doesn't refer to "Susan."
+
+00:37:30.430 --> 00:37:31.870 align:middle line:90%
+So "she" is free, yeah.
+
+00:37:31.870 --> 00:37:35.700 align:middle line:84%
+So our principles don't
+handle these facts.
+
+00:37:35.700 --> 00:37:38.310 align:middle line:84%
+There are at least two
+things we could do.
+
+00:37:38.310 --> 00:37:40.740 align:middle line:84%
+One would be to say,
+ah, principle B,
+
+00:37:40.740 --> 00:37:46.650 align:middle line:84%
+we were wrong to confine
+principle B to pronouns.
+
+00:37:46.650 --> 00:37:50.790 align:middle line:84%
+So it's really just a
+distinction between anaphors
+
+00:37:50.790 --> 00:37:52.750 align:middle line:90%
+and everything else.
+
+00:37:52.750 --> 00:37:56.070 align:middle line:84%
+So the problem with "She
+likes Susan" isn't "she."
+
+00:37:56.070 --> 00:37:57.750 align:middle line:90%
+It's "Susan."
+
+00:37:57.750 --> 00:38:00.870 align:middle line:84%
+So "Susan" also needs
+to be free within TP.
+
+00:38:00.870 --> 00:38:03.150 align:middle line:84%
+And then the story would be
+"Her father likes Susan."
+
+00:38:03.150 --> 00:38:05.530 align:middle line:84%
+"Her" is embedded
+inside "her father."
+
+00:38:05.530 --> 00:38:07.840 align:middle line:84%
+And so it doesn't c-command
+"Susan," and so there.
+
+00:38:07.840 --> 00:38:12.170 align:middle line:84%
+That version of principle
+B would cover this.
+
+00:38:12.170 --> 00:38:21.920 align:middle line:84%
+But pronouns really are
+the opposite of anaphors.
+
+00:38:21.920 --> 00:38:23.690 align:middle line:90%
+They need to be free within TP.
+
+00:38:23.690 --> 00:38:27.650 align:middle line:84%
+So "Susan thinks I like her,"
+where "Susan" c-commands "her"
+
+00:38:27.650 --> 00:38:30.638 align:middle line:84%
+and corefers with "her," so
+"Susan" binds "her," is fine.
+
+00:38:30.638 --> 00:38:32.180 align:middle line:84%
+Because although
+"her" is bound, it's
+
+00:38:32.180 --> 00:38:34.290 align:middle line:84%
+bound by something
+that's far away.
+
+00:38:34.290 --> 00:38:36.180 align:middle line:90%
+And that's all right.
+
+00:38:36.180 --> 00:38:38.800 align:middle line:84%
+But in "She thinks
+I like Susan,"
+
+00:38:38.800 --> 00:38:42.480 align:middle line:84%
+we're seeing that names do
+not behave like pronouns.
+
+00:38:42.480 --> 00:38:47.940 align:middle line:84%
+"Susan" requires absolute
+freedom, freedom everywhere.
+
+00:38:47.940 --> 00:38:51.060 align:middle line:84%
+Pronouns just need to be
+free within a certain domain,
+
+00:38:51.060 --> 00:38:52.500 align:middle line:90%
+within TP let's say.
+
+00:38:52.500 --> 00:38:56.640 align:middle line:84%
+But a name like "Susan"
+needs to be free everywhere.
+
+00:38:56.640 --> 00:38:58.650 align:middle line:84%
+The fact that "Susan"
+is bound by "she"
+
+00:38:58.650 --> 00:39:00.900 align:middle line:84%
+in that second example,
+"She thinks I like Susan,"
+
+00:39:00.900 --> 00:39:02.207 align:middle line:90%
+means that the sentence is bad.
+
+00:39:02.207 --> 00:39:03.915 align:middle line:84%
+It doesn't matter that
+they're far apart.
+
+00:39:03.915 --> 00:39:07.990 align:middle line:90%
+
+
+00:39:07.990 --> 00:39:11.440 align:middle line:84%
+So we make up a new principle--
+it's called principle C--
+
+00:39:11.440 --> 00:39:14.410 align:middle line:84%
+and, also, a new
+term, R-expressions.
+
+00:39:14.410 --> 00:39:19.720 align:middle line:84%
+R-expressions means things that
+are not anaphors or pronouns.
+
+00:39:19.720 --> 00:39:22.940 align:middle line:84%
+It stands for
+Referring expressions,
+
+00:39:22.940 --> 00:39:26.350 align:middle line:84%
+which is an unfortunate name
+because they don't necessarily
+
+00:39:26.350 --> 00:39:27.248 align:middle line:90%
+refer.
+
+00:39:27.248 --> 00:39:27.790 align:middle line:90%
+"Susan" does.
+
+00:39:27.790 --> 00:39:28.582 align:middle line:90%
+It refers to Susan.
+
+00:39:28.582 --> 00:39:31.600 align:middle line:90%
+But anyway, that's all it means.
+
+00:39:31.600 --> 00:39:33.340 align:middle line:84%
+Things that are not
+anaphors or pronouns.
+
+00:39:33.340 --> 00:39:36.910 align:middle line:84%
+So everything that isn't subject
+to principle A or principle B
+
+00:39:36.910 --> 00:39:39.670 align:middle line:84%
+is subject to principle
+C. Every noun phrase that
+
+00:39:39.670 --> 00:39:41.650 align:middle line:84%
+isn't subject to
+principle A or principal B
+
+00:39:41.650 --> 00:39:44.590 align:middle line:84%
+is subject to principle C,
+which says our expressions must
+
+00:39:44.590 --> 00:39:47.223 align:middle line:90%
+be free everywhere.
+
+00:39:47.223 --> 00:39:49.390 align:middle line:84%
+Our expressions must be
+free, and everywhere they're
+
+00:39:49.390 --> 00:39:50.540 align:middle line:90%
+in chains.
+
+00:39:50.540 --> 00:39:53.650 align:middle line:90%
+Yeah, OK?
+
+00:39:53.650 --> 00:39:54.430 align:middle line:90%
+All right.
+
+00:39:54.430 --> 00:39:58.390 align:middle line:84%
+And then this is the fact that
+I made a big deal about before.
+
+00:39:58.390 --> 00:40:02.860 align:middle line:84%
+Even though which thing
+precedes which other thing is
+
+00:40:02.860 --> 00:40:05.470 align:middle line:84%
+the kind of thing that every
+infant knows as soon as they
+
+00:40:05.470 --> 00:40:08.410 align:middle line:84%
+can hear, words and segment
+words, which infants
+
+00:40:08.410 --> 00:40:13.300 align:middle line:84%
+are eerily good
+at, even though--
+
+00:40:13.300 --> 00:40:19.090 align:middle line:84%
+if you were going to design
+a computer, a language
+
+00:40:19.090 --> 00:40:21.880 align:middle line:90%
+for computers to use--
+
+00:40:21.880 --> 00:40:23.380 align:middle line:90%
+I am not a computer person.
+
+00:40:23.380 --> 00:40:25.030 align:middle line:90%
+You may have picked up on this.
+
+00:40:25.030 --> 00:40:28.240 align:middle line:84%
+Even I think it would be
+easier for me to get a computer
+
+00:40:28.240 --> 00:40:31.960 align:middle line:84%
+to figure out which thing
+linearly precedes which
+
+00:40:31.960 --> 00:40:34.240 align:middle line:84%
+other thing than it would
+be to get a computer
+
+00:40:34.240 --> 00:40:36.910 align:middle line:84%
+to figure out which thing
+c-commands which other things.
+
+00:40:36.910 --> 00:40:38.603 align:middle line:84%
+That's a much more
+complicated task,
+
+00:40:38.603 --> 00:40:41.020 align:middle line:84%
+it seems to me, not that I
+know anything about this stuff.
+
+00:40:41.020 --> 00:40:43.840 align:middle line:84%
+And yet all of us go for
+the more complicated task.
+
+00:40:43.840 --> 00:40:44.840 align:middle line:90%
+We're built that way.
+
+00:40:44.840 --> 00:40:45.850 align:middle line:90%
+We can't help it.
+
+00:40:45.850 --> 00:40:47.800 align:middle line:84%
+So language doesn't
+care which thing
+
+00:40:47.800 --> 00:40:49.000 align:middle line:90%
+precedes which other thing.
+
+00:40:49.000 --> 00:40:51.520 align:middle line:84%
+It cares which things c-commands
+which other thing, always,
+
+00:40:51.520 --> 00:40:53.740 align:middle line:84%
+in every language,
+over and over again.
+
+00:40:53.740 --> 00:40:54.490 align:middle line:90%
+Yeah.
+
+00:40:54.490 --> 00:40:58.490 align:middle line:84%
+AUDIENCE: How do we draw a tree
+when the subordinate phrase is
+
+00:40:58.490 --> 00:40:59.127 align:middle line:90%
+[INAUDIBLE]?
+
+00:40:59.127 --> 00:40:59.960 align:middle line:90%
+NORVIN RICHARDS: Oh.
+
+00:40:59.960 --> 00:41:02.540 align:middle line:84%
+Well, we could do
+different ways.
+
+00:41:02.540 --> 00:41:06.710 align:middle line:90%
+
+
+00:41:06.710 --> 00:41:08.510 align:middle line:90%
+Where will I put this?
+
+00:41:08.510 --> 00:41:09.350 align:middle line:90%
+I'll put it up here.
+
+00:41:09.350 --> 00:41:13.320 align:middle line:90%
+
+
+00:41:13.320 --> 00:41:17.310 align:middle line:84%
+So maybe you would start
+by drawing the TP first.
+
+00:41:17.310 --> 00:41:33.970 align:middle line:90%
+So "Susan read a book," right?
+
+00:41:33.970 --> 00:41:36.220 align:middle line:90%
+Do that for "Susan read a book."
+
+00:41:36.220 --> 00:41:40.480 align:middle line:84%
+And then we need somewhere to
+hang "while she was eating."
+
+00:41:40.480 --> 00:41:43.780 align:middle line:84%
+And we need it to be
+some kind of adjunct.
+
+00:41:43.780 --> 00:41:50.400 align:middle line:84%
+So it's not in the same kind
+of relation as anything else.
+
+00:41:50.400 --> 00:41:51.400 align:middle line:90%
+What am I trying to say?
+
+00:41:51.400 --> 00:41:52.780 align:middle line:90%
+It's not selected by anything.
+
+00:41:52.780 --> 00:41:55.490 align:middle line:84%
+There's no particular reason
+for it to be anywhere.
+
+00:41:55.490 --> 00:41:59.140 align:middle line:84%
+So there are various
+ways we could do that.
+
+00:41:59.140 --> 00:42:02.980 align:middle line:84%
+Notice, for example, that if
+this were an embedded clause,
+
+00:42:02.980 --> 00:42:07.850 align:middle line:90%
+so if it were "I think that"--
+
+00:42:07.850 --> 00:42:12.556 align:middle line:84%
+so here's a C. It's
+going to be a CP--
+
+00:42:12.556 --> 00:42:15.730 align:middle line:90%
+sorry, a CP.
+
+00:42:15.730 --> 00:42:18.580 align:middle line:84%
+So if we were doing, "I think
+that Susan read a book,"
+
+00:42:18.580 --> 00:42:20.563 align:middle line:84%
+the embedded clause
+"that Susan read a book"
+
+00:42:20.563 --> 00:42:21.730 align:middle line:90%
+would look like this, right?
+
+00:42:21.730 --> 00:42:24.430 align:middle line:84%
+It would have a CP here where
+I can just connect these.
+
+00:42:24.430 --> 00:42:27.040 align:middle line:84%
+We have a CP with
+a C that that's
+
+00:42:27.040 --> 00:42:29.800 align:middle line:90%
+got this TP as its sister.
+
+00:42:29.800 --> 00:42:32.920 align:middle line:84%
+And if we were going to
+add this embedded clause,
+
+00:42:32.920 --> 00:42:35.410 align:middle line:84%
+this adjuncty clause
+to the beginning
+
+00:42:35.410 --> 00:42:40.360 align:middle line:84%
+of the embedded clause,
+while she was eating,
+
+00:42:40.360 --> 00:42:41.830 align:middle line:84%
+let's think about
+places to put it.
+
+00:42:41.830 --> 00:42:44.740 align:middle line:84%
+If it's going to be before
+"Susan," we could ask,
+
+00:42:44.740 --> 00:42:45.940 align:middle line:90%
+does it go here?
+
+00:42:45.940 --> 00:42:47.710 align:middle line:90%
+Or does it go here?
+
+00:42:47.710 --> 00:42:50.770 align:middle line:84%
+So "I think that,
+while she was eating,
+
+00:42:50.770 --> 00:42:55.290 align:middle line:84%
+Susan read a book" is, I think,
+something that we can say.
+
+00:42:55.290 --> 00:42:57.855 align:middle line:84%
+"I think, while she was eating,
+that Susan read a book."
+
+00:42:57.855 --> 00:43:02.520 align:middle line:90%
+
+
+00:43:02.520 --> 00:43:04.620 align:middle line:84%
+I think does not
+mean the same thing.
+
+00:43:04.620 --> 00:43:06.820 align:middle line:84%
+There's something
+wrong with that.
+
+00:43:06.820 --> 00:43:08.850 align:middle line:84%
+So this is at least
+one place that it can
+
+00:43:08.850 --> 00:43:13.097 align:middle line:90%
+go between the C and the TP.
+
+00:43:13.097 --> 00:43:15.180 align:middle line:84%
+And given that it can go
+between the C and the TP,
+
+00:43:15.180 --> 00:43:17.370 align:middle line:84%
+maybe the easiest thing
+to do would be to just
+
+00:43:17.370 --> 00:43:20.550 align:middle line:90%
+make it an adjunct on TP.
+
+00:43:20.550 --> 00:43:22.980 align:middle line:90%
+We'll duplicate the TP node.
+
+00:43:22.980 --> 00:43:27.030 align:middle line:84%
+And we'll have a CP here where
+I won't do the insides of it,
+
+00:43:27.030 --> 00:43:29.395 align:middle line:84%
+but that's where you would
+put "while she was eating."
+
+00:43:29.395 --> 00:43:30.270 align:middle line:90%
+Does that make sense?
+
+00:43:30.270 --> 00:43:32.830 align:middle line:90%
+
+
+00:43:32.830 --> 00:43:34.235 align:middle line:90%
+Yeah?
+
+00:43:34.235 --> 00:43:34.735 align:middle line:90%
+OK.
+
+00:43:34.735 --> 00:43:38.060 align:middle line:90%
+
+
+00:43:38.060 --> 00:43:39.710 align:middle line:90%
+So that's binding theory.
+
+00:43:39.710 --> 00:43:41.960 align:middle line:84%
+I think I flagged the fact
+there are many, many things
+
+00:43:41.960 --> 00:43:43.127 align:middle line:90%
+to say about binding theory.
+
+00:43:43.127 --> 00:43:44.630 align:middle line:90%
+That's part of it.
+
+00:43:44.630 --> 00:43:47.780 align:middle line:84%
+Reasons to be happy
+about binding theory,
+
+00:43:47.780 --> 00:43:50.060 align:middle line:84%
+I first showed you
+binding theory as a probe
+
+00:43:50.060 --> 00:43:52.278 align:middle line:84%
+into c-command relations,
+but there's so much more.
+
+00:43:52.278 --> 00:43:54.570 align:middle line:84%
+There are lots of things we
+can do with binding theory.
+
+00:43:54.570 --> 00:43:56.300 align:middle line:90%
+Let me show you one.
+
+00:43:56.300 --> 00:43:57.290 align:middle line:90%
+Here's a sentence.
+
+00:43:57.290 --> 00:43:59.270 align:middle line:90%
+"Mary decided to leave."
+
+00:43:59.270 --> 00:44:00.590 align:middle line:90%
+Yeah, fine sentence.
+
+00:44:00.590 --> 00:44:03.400 align:middle line:90%
+
+
+00:44:03.400 --> 00:44:05.515 align:middle line:84%
+How many TPs are
+in this sentence?
+
+00:44:05.515 --> 00:44:09.360 align:middle line:90%
+
+
+00:44:09.360 --> 00:44:12.720 align:middle line:90%
+well there's at least one.
+
+00:44:12.720 --> 00:44:14.265 align:middle line:90%
+What's "to leave"?
+
+00:44:14.265 --> 00:44:19.290 align:middle line:90%
+
+
+00:44:19.290 --> 00:44:21.900 align:middle line:90%
+"To" isn't a preposition here.
+
+00:44:21.900 --> 00:44:27.090 align:middle line:84%
+This isn't like "Mary
+went to Toledo," yeah?
+
+00:44:27.090 --> 00:44:39.920 align:middle line:84%
+In fact, this "to" is in
+complementary distribution
+
+00:44:39.920 --> 00:44:44.300 align:middle line:84%
+with a bunch of
+different things.
+
+00:44:44.300 --> 00:44:46.070 align:middle line:90%
+You can't say, for example--
+
+00:44:46.070 --> 00:44:47.570 align:middle line:84%
+you can say "Mary
+decided to leave."
+
+00:44:47.570 --> 00:44:49.910 align:middle line:84%
+You can't say "Mary
+decided will leave"
+
+00:44:49.910 --> 00:44:57.650 align:middle line:84%
+or "should leave" or, for that
+matter, "Mary decided left."
+
+00:44:57.650 --> 00:44:59.480 align:middle line:90%
+These are not sentences.
+
+00:44:59.480 --> 00:45:05.720 align:middle line:84%
+So these are all bad, which
+makes people think that maybe
+
+00:45:05.720 --> 00:45:09.860 align:middle line:84%
+"to" is the same kind of
+thing as "will" and "should."
+
+00:45:09.860 --> 00:45:12.443 align:middle line:84%
+So here's a spot where you can
+only have one of these things.
+
+00:45:12.443 --> 00:45:14.360 align:middle line:84%
+You can have "will," or
+you can have "should,"
+
+00:45:14.360 --> 00:45:17.170 align:middle line:90%
+or you can "have to."
+
+00:45:17.170 --> 00:45:19.180 align:middle line:90%
+And so people think-- yeah.
+
+00:45:19.180 --> 00:45:21.730 align:middle line:84%
+AUDIENCE: Is "to" not
+joined with the verb
+
+00:45:21.730 --> 00:45:24.910 align:middle line:84%
+itself, though, as
+part of the infinitive?
+
+00:45:24.910 --> 00:45:26.295 align:middle line:90%
+NORVIN RICHARDS: I don't know.
+
+00:45:26.295 --> 00:45:28.420 align:middle line:84%
+This gets into questions
+about whether you believed
+
+00:45:28.420 --> 00:45:33.040 align:middle line:84%
+your English teacher when she or
+he told you that you cannot say
+
+00:45:33.040 --> 00:45:39.070 align:middle line:84%
+things like "Mary decided
+to immediately leave,
+
+00:45:39.070 --> 00:45:41.935 align:middle line:84%
+but we decided to boldly go
+where no one has gone before."
+
+00:45:41.935 --> 00:45:44.800 align:middle line:90%
+
+
+00:45:44.800 --> 00:45:50.070 align:middle line:84%
+There are languages in which
+the marker of the infinitive
+
+00:45:50.070 --> 00:45:51.820 align:middle line:84%
+is a morpheme that's
+attached to the verb.
+
+00:45:51.820 --> 00:45:53.230 align:middle line:90%
+Yeah, you're absolutely right.
+
+00:45:53.230 --> 00:45:55.390 align:middle line:84%
+But in English, it's
+not so clear that it is.
+
+00:45:55.390 --> 00:45:58.240 align:middle line:84%
+There's stuff like adverbs that
+you can put between the "to"
+
+00:45:58.240 --> 00:46:01.760 align:middle line:90%
+and the verb, at least I can.
+
+00:46:01.760 --> 00:46:03.120 align:middle line:90%
+Yeah?
+
+00:46:03.120 --> 00:46:04.090 align:middle line:90%
+All right, Joseph?
+
+00:46:04.090 --> 00:46:07.370 align:middle line:84%
+AUDIENCE: Is the "to" shorthand
+for "that she should," "would,"
+
+00:46:07.370 --> 00:46:07.870 align:middle line:90%
+or--
+
+00:46:07.870 --> 00:46:09.840 align:middle line:84%
+NORVIN RICHARDS:
+Well, so this sentence
+
+00:46:09.840 --> 00:46:11.590 align:middle line:84%
+means more or less the
+same thing as "Mary
+
+00:46:11.590 --> 00:46:12.970 align:middle line:90%
+decided that she would leave."
+
+00:46:12.970 --> 00:46:20.710 align:middle line:90%
+
+
+00:46:20.710 --> 00:46:23.278 align:middle line:84%
+So interesting fact,
+you can't have "that"
+
+00:46:23.278 --> 00:46:24.570 align:middle line:90%
+if you're going to have a "to."
+
+00:46:24.570 --> 00:46:27.920 align:middle line:90%
+
+
+00:46:27.920 --> 00:46:28.420 align:middle line:90%
+Yeah.
+
+00:46:28.420 --> 00:46:30.100 align:middle line:84%
+If you have a "that," then
+you cannot have a "to."
+
+00:46:30.100 --> 00:46:32.920 align:middle line:84%
+If you have "that," then you
+can have all these other things
+
+00:46:32.920 --> 00:46:35.080 align:middle line:84%
+that would be here if
+"to" were not here.
+
+00:46:35.080 --> 00:46:36.730 align:middle line:84%
+You could have a
+"will," or a "should,"
+
+00:46:36.730 --> 00:46:39.140 align:middle line:84%
+or a past tense, or all
+of these other things.
+
+00:46:39.140 --> 00:46:40.630 align:middle line:84%
+That's the relation
+that we talked
+
+00:46:40.630 --> 00:46:41.797 align:middle line:90%
+about in terms of selection.
+
+00:46:41.797 --> 00:46:46.660 align:middle line:84%
+We said C selects T.
+T is selected by C.
+
+00:46:46.660 --> 00:46:52.180 align:middle line:84%
+So these are all reasons to
+think maybe that "to" is a T.
+
+00:46:52.180 --> 00:46:54.040 align:middle line:84%
+There are two TPs
+in this sentence.
+
+00:46:54.040 --> 00:46:56.560 align:middle line:90%
+There's "Mary decided to leave."
+
+00:46:56.560 --> 00:46:57.250 align:middle line:90%
+That's one TP.
+
+00:46:57.250 --> 00:47:02.410 align:middle line:84%
+And that "to leave"
+is another TP, OK?
+
+00:47:02.410 --> 00:47:04.090 align:middle line:90%
+Are you buying this?
+
+00:47:04.090 --> 00:47:04.930 align:middle line:90%
+You should.
+
+00:47:04.930 --> 00:47:07.080 align:middle line:90%
+Yeah.
+
+00:47:07.080 --> 00:47:09.000 align:middle line:90%
+OK, so maybe there are two TPs.
+
+00:47:09.000 --> 00:47:11.713 align:middle line:84%
+But if there are two
+TPs in this sentence,
+
+00:47:11.713 --> 00:47:14.130 align:middle line:84%
+we have this principle, the
+extended projection principle,
+
+00:47:14.130 --> 00:47:17.460 align:middle line:84%
+that says every TP
+must have a specifier.
+
+00:47:17.460 --> 00:47:22.230 align:middle line:84%
+But we only seem to have
+one subject, "Mary,"
+
+00:47:22.230 --> 00:47:25.240 align:middle line:90%
+who's doing the deciding.
+
+00:47:25.240 --> 00:47:29.080 align:middle line:84%
+Now, there's a classic answer
+to this question, which
+
+00:47:29.080 --> 00:47:35.350 align:middle line:84%
+says English is a language with
+many pronouns, and one of them
+
+00:47:35.350 --> 00:47:38.050 align:middle line:90%
+is invisible.
+
+00:47:38.050 --> 00:47:41.770 align:middle line:84%
+And the invisible one is the one
+that is the subject of "leave."
+
+00:47:41.770 --> 00:47:44.260 align:middle line:84%
+It's the thing that's
+satisfying the EPP here.
+
+00:47:44.260 --> 00:47:48.400 align:middle line:84%
+So it isn't that TP doesn't
+have a specifier in "to leave."
+
+00:47:48.400 --> 00:47:49.960 align:middle line:90%
+That TP does have a specifier.
+
+00:47:49.960 --> 00:47:54.070 align:middle line:84%
+It's just an
+invisible specifier.
+
+00:47:54.070 --> 00:47:59.480 align:middle line:84%
+When this theory
+was first offered,
+
+00:47:59.480 --> 00:48:02.740 align:middle line:84%
+people reacted the way
+you might expect them to,
+
+00:48:02.740 --> 00:48:04.850 align:middle line:84%
+sort of the way some of
+you possibly mentally are:
+
+00:48:04.850 --> 00:48:08.320 align:middle line:84%
+"I mean, come on,
+you're just trying
+
+00:48:08.320 --> 00:48:10.750 align:middle line:84%
+to avoid having to say
+that the EPP is not right
+
+00:48:10.750 --> 00:48:14.560 align:middle line:84%
+or parameterize the EPP to
+different kinds of positions."
+
+00:48:14.560 --> 00:48:16.120 align:middle line:84%
+But actually, binding
+theory gives us
+
+00:48:16.120 --> 00:48:19.270 align:middle line:84%
+some reasons to believe that
+there is such a thing as PRO.
+
+00:48:19.270 --> 00:48:22.040 align:middle line:84%
+And let me show you
+some of the arguments.
+
+00:48:22.040 --> 00:48:24.670 align:middle line:84%
+So in this case, that's
+a story that says,
+
+00:48:24.670 --> 00:48:27.010 align:middle line:84%
+no, the EPP is being satisfied
+in the embedded clause
+
+00:48:27.010 --> 00:48:30.085 align:middle line:84%
+by an invisible pronoun that
+refers, in this case, to Mary.
+
+00:48:30.085 --> 00:48:33.120 align:middle line:90%
+
+
+00:48:33.120 --> 00:48:36.000 align:middle line:90%
+Here are some data.
+
+00:48:36.000 --> 00:48:37.920 align:middle line:84%
+"John promised Mary
+to defend himself."
+
+00:48:37.920 --> 00:48:39.900 align:middle line:84%
+"John promised Mary
+to defend herself."
+
+00:48:39.900 --> 00:48:41.670 align:middle line:84%
+"John told Mary to
+defend himself."
+
+00:48:41.670 --> 00:48:44.310 align:middle line:84%
+"John told Mary to
+defend herself"--
+
+00:48:44.310 --> 00:48:47.910 align:middle line:84%
+sentences with
+grammaticality judgments.
+
+00:48:47.910 --> 00:48:50.110 align:middle line:84%
+I'm going to copy these
+sentences onto the board
+
+00:48:50.110 --> 00:48:52.360 align:middle line:84%
+because I want to do various
+graphic things with them.
+
+00:48:52.360 --> 00:48:54.450 align:middle line:84%
+And while I'm copying
+them, I'll ask
+
+00:48:54.450 --> 00:48:58.740 align:middle line:84%
+you to look at those sentences
+and ask yourself whether you
+
+00:48:58.740 --> 00:49:00.300 align:middle line:90%
+get these judgments.
+
+00:49:00.300 --> 00:49:11.590 align:middle line:84%
+So "John promised Mary
+to defend herself"--
+
+00:49:11.590 --> 00:49:13.902 align:middle line:90%
+"himself."
+
+00:49:13.902 --> 00:49:15.360 align:middle line:84%
+Did I put those in
+the wrong order?
+
+00:49:15.360 --> 00:49:16.050 align:middle line:90%
+Yes, I did.
+
+00:49:16.050 --> 00:49:19.620 align:middle line:90%
+
+
+00:49:19.620 --> 00:49:33.492 align:middle line:84%
+And then "John told Mary
+to defend himself"--
+
+00:49:33.492 --> 00:49:40.110 align:middle line:84%
+"herself," where the
+middle two-- so this is bad
+
+00:49:40.110 --> 00:49:41.390 align:middle line:90%
+and this is bad.
+
+00:49:41.390 --> 00:49:42.640 align:middle line:90%
+Do people get these judgments?
+
+00:49:42.640 --> 00:49:43.420 align:middle line:90%
+Is this true?
+
+00:49:43.420 --> 00:49:45.050 align:middle line:90%
+Am I just making this up?
+
+00:49:45.050 --> 00:49:46.150 align:middle line:90%
+Nobody wants to protest?
+
+00:49:46.150 --> 00:49:46.690 align:middle line:90%
+OK.
+
+00:49:46.690 --> 00:49:51.250 align:middle line:84%
+So I told you before we're
+going to use binding theory
+
+00:49:51.250 --> 00:49:56.353 align:middle line:84%
+to find things out about how far
+away things are, which things
+
+00:49:56.353 --> 00:49:58.270 align:middle line:84%
+c-command which other
+things, now that we have
+
+00:49:58.270 --> 00:50:02.800 align:middle line:84%
+this theory that we think, we
+hope, is more or less reliable.
+
+00:50:02.800 --> 00:50:04.300 align:middle line:84%
+We know, when we
+look at an anaphor,
+
+00:50:04.300 --> 00:50:06.758 align:middle line:84%
+it had better have an antecedent
+that's close enough to it.
+
+00:50:06.758 --> 00:50:09.220 align:middle line:84%
+And we think that close
+enough is more or less
+
+00:50:09.220 --> 00:50:12.950 align:middle line:90%
+within the same TP.
+
+00:50:12.950 --> 00:50:14.390 align:middle line:84%
+Forget it, now,
+that I've done all
+
+00:50:14.390 --> 00:50:15.557 align:middle line:90%
+that talking about anaphors.
+
+00:50:15.557 --> 00:50:17.580 align:middle line:84%
+Forget about the
+anaphors for a second.
+
+00:50:17.580 --> 00:50:25.895 align:middle line:84%
+If I say "John promised Mary to
+leave," who's going to leave?
+
+00:50:25.895 --> 00:50:26.520 align:middle line:90%
+AUDIENCE: John.
+
+00:50:26.520 --> 00:50:27.540 align:middle line:90%
+NORVIN RICHARDS: John.
+
+00:50:27.540 --> 00:50:32.135 align:middle line:84%
+And if I say "John told Mary to
+leave," who's going to leave?
+
+00:50:32.135 --> 00:50:32.760 align:middle line:90%
+AUDIENCE: Mary.
+
+00:50:32.760 --> 00:50:33.930 align:middle line:90%
+NORVIN RICHARDS: Mary, yeah?
+
+00:50:33.930 --> 00:50:38.370 align:middle line:84%
+So the understood subjects
+of these embedded clauses,
+
+00:50:38.370 --> 00:50:41.400 align:middle line:84%
+the PRO if there's
+a PRO, is going
+
+00:50:41.400 --> 00:50:49.590 align:middle line:84%
+to refer to John when the
+first verb is promised.
+
+00:50:49.590 --> 00:50:53.730 align:middle line:84%
+But it's going to
+refer to Mary when--
+
+00:50:53.730 --> 00:50:56.940 align:middle line:84%
+I'm just going to give
+it a subscript, Mary--
+
+00:50:56.940 --> 00:50:59.880 align:middle line:90%
+the first verb is told, yeah?
+
+00:50:59.880 --> 00:51:02.580 align:middle line:84%
+So let me do this
+the easy way first.
+
+00:51:02.580 --> 00:51:07.140 align:middle line:84%
+If there is such a thing as PRO,
+we ask ourself, these anaphors,
+
+00:51:07.140 --> 00:51:10.050 align:middle line:84%
+they need to get bound
+within the smallest
+
+00:51:10.050 --> 00:51:12.960 align:middle line:90%
+TP that contains the anaphor.
+
+00:51:12.960 --> 00:51:15.330 align:middle line:84%
+And the smallest TP that
+contains the anaphor is
+
+00:51:15.330 --> 00:51:19.820 align:middle line:90%
+going to be this, yeah?
+
+00:51:19.820 --> 00:51:24.410 align:middle line:84%
+And so when we ask
+ourself "Is the anaphor
+
+00:51:24.410 --> 00:51:28.230 align:middle line:84%
+bound by a noun phrase
+that's close enough to it?"
+
+00:51:28.230 --> 00:51:30.410 align:middle line:90%
+well, the answer is yes here.
+
+00:51:30.410 --> 00:51:33.560 align:middle line:84%
+Because "himself" gets to be
+bound by that PRO, "John."
+
+00:51:33.560 --> 00:51:34.910 align:middle line:90%
+That refers to John.
+
+00:51:34.910 --> 00:51:37.260 align:middle line:90%
+And so "himself" can be John.
+
+00:51:37.260 --> 00:51:39.260 align:middle line:84%
+It can't be "herself"
+because the PRO is "John."
+
+00:51:39.260 --> 00:51:43.700 align:middle line:84%
+It's not "Mary," whereas, when
+the higher verb is "told,"
+
+00:51:43.700 --> 00:51:45.140 align:middle line:90%
+then the PRO is "Mary."
+
+00:51:45.140 --> 00:51:47.090 align:middle line:84%
+And so now "himself" is
+bad because "himself"
+
+00:51:47.090 --> 00:51:47.990 align:middle line:90%
+can't refer to Mary.
+
+00:51:47.990 --> 00:51:49.370 align:middle line:90%
+And "herself" is good.
+
+00:51:49.370 --> 00:51:51.380 align:middle line:90%
+It can get bound by "Mary."
+
+00:51:51.380 --> 00:51:53.330 align:middle line:84%
+So we can capture
+all of these facts
+
+00:51:53.330 --> 00:51:55.700 align:middle line:84%
+if we're willing to
+posit the PRO, which
+
+00:51:55.700 --> 00:51:57.410 align:middle line:84%
+refers to who it
+should refer to,
+
+00:51:57.410 --> 00:52:00.800 align:middle line:84%
+the person who's going
+to do the defending.
+
+00:52:00.800 --> 00:52:03.110 align:middle line:84%
+That'll depend on what
+the higher verb is.
+
+00:52:03.110 --> 00:52:05.240 align:middle line:84%
+Interesting fact, which
+people work on-- what
+
+00:52:05.240 --> 00:52:07.220 align:middle line:90%
+determines who PRO refers to?
+
+00:52:07.220 --> 00:52:11.390 align:middle line:84%
+Why is it "John" for "promise,"
+but "Mary" for "defend"?
+
+00:52:11.390 --> 00:52:14.990 align:middle line:84%
+It's what's called subject
+control and object control.
+
+00:52:14.990 --> 00:52:16.940 align:middle line:84%
+But once we believe
+in PRO, we have
+
+00:52:16.940 --> 00:52:20.690 align:middle line:84%
+a handle on why the anaphors
+refer to who they refer to.
+
+00:52:20.690 --> 00:52:22.340 align:middle line:90%
+OK?
+
+00:52:22.340 --> 00:52:23.690 align:middle line:90%
+Now, let's do this the hard way.
+
+00:52:23.690 --> 00:52:25.250 align:middle line:84%
+What if we didn't
+believe in PRO?
+
+00:52:25.250 --> 00:52:28.690 align:middle line:90%
+
+
+00:52:28.690 --> 00:52:36.330 align:middle line:84%
+Well, if we don't believe
+in PRO, woo, what we want
+
+00:52:36.330 --> 00:52:44.550 align:middle line:84%
+is for this position to
+be bindable by "John,"
+
+00:52:44.550 --> 00:52:45.780 align:middle line:90%
+but not by "Mary."
+
+00:52:45.780 --> 00:52:49.890 align:middle line:90%
+
+
+00:52:49.890 --> 00:52:54.750 align:middle line:84%
+And we want this position
+to be bindable by "Mary,"
+
+00:52:54.750 --> 00:52:55.620 align:middle line:90%
+but not by "John."
+
+00:52:55.620 --> 00:52:58.530 align:middle line:90%
+
+
+00:52:58.530 --> 00:53:01.765 align:middle line:84%
+And this is going
+to be hard, right?
+
+00:53:01.765 --> 00:53:03.640 align:middle line:84%
+The first one is going
+to be especially hard.
+
+00:53:03.640 --> 00:53:05.880 align:middle line:84%
+So far, our conditions
+just say, anaphors
+
+00:53:05.880 --> 00:53:07.380 align:middle line:84%
+have to get c-commanded
+by something
+
+00:53:07.380 --> 00:53:11.940 align:middle line:84%
+that's close enough to them
+and corefers with them.
+
+00:53:11.940 --> 00:53:14.313 align:middle line:84%
+But if "John" is close enough
+to that anaphor position,
+
+00:53:14.313 --> 00:53:15.480 align:middle line:90%
+well, then surely "Mary" is.
+
+00:53:15.480 --> 00:53:16.890 align:middle line:90%
+"Mary" is closer.
+
+00:53:16.890 --> 00:53:19.500 align:middle line:90%
+There's no way to do that.
+
+00:53:19.500 --> 00:53:22.830 align:middle line:84%
+I'll have to come up with
+something very complicated.
+
+00:53:22.830 --> 00:53:24.690 align:middle line:84%
+And the second set
+of examples is also
+
+00:53:24.690 --> 00:53:30.660 align:middle line:84%
+going to be kind of hard because
+"Mary" is the object of "told."
+
+00:53:30.660 --> 00:53:33.660 align:middle line:84%
+So this anaphor will need to
+have a binding domain that
+
+00:53:33.660 --> 00:53:36.900 align:middle line:84%
+gets up to the higher verb
+phrase, a domain in which
+
+00:53:36.900 --> 00:53:40.840 align:middle line:90%
+its anaphor finds a binder.
+
+00:53:40.840 --> 00:53:42.840 align:middle line:84%
+It's going to need to
+find a binder in a domain.
+
+00:53:42.840 --> 00:53:45.630 align:middle line:84%
+We have to say, OK, we
+were wrong about TPs.
+
+00:53:45.630 --> 00:53:48.510 align:middle line:84%
+It's, like, the next
+verb phrase or something.
+
+00:53:48.510 --> 00:53:50.610 align:middle line:84%
+The domain in which
+it finds a binder
+
+00:53:50.610 --> 00:53:53.845 align:middle line:84%
+has to be this new special kind
+of domain that doesn't seem
+
+00:53:53.845 --> 00:53:54.970 align:middle line:90%
+to be useful anywhere else.
+
+00:53:54.970 --> 00:53:57.060 align:middle line:90%
+It's a mess, basically.
+
+00:53:57.060 --> 00:53:59.640 align:middle line:84%
+And PRO gets us out
+of the mess if we're
+
+00:53:59.640 --> 00:54:04.840 align:middle line:84%
+willing to put PRO in the
+places where we want to put it.
+
+00:54:04.840 --> 00:54:08.790 align:middle line:84%
+So one reason to be happy
+about binding theory
+
+00:54:08.790 --> 00:54:11.940 align:middle line:84%
+is that it gives us a reason
+to make a move that we might
+
+00:54:11.940 --> 00:54:13.500 align:middle line:90%
+have wanted to make anyway.
+
+00:54:13.500 --> 00:54:16.950 align:middle line:84%
+These infinitives
+are acting like they
+
+00:54:16.950 --> 00:54:19.530 align:middle line:90%
+have subjects in two respects.
+
+00:54:19.530 --> 00:54:22.470 align:middle line:84%
+They are satisfying
+EPP, first of all.
+
+00:54:22.470 --> 00:54:25.980 align:middle line:84%
+And they are acting like
+they have a subject that
+
+00:54:25.980 --> 00:54:27.840 align:middle line:84%
+corefers with somebody
+in the higher clause,
+
+00:54:27.840 --> 00:54:31.110 align:middle line:84%
+either "John" or "Mary," for
+purposes of binding theory.
+
+00:54:31.110 --> 00:54:35.580 align:middle line:84%
+Binding theory is simplest
+if there is a pronoun there.
+
+00:54:35.580 --> 00:54:40.510 align:middle line:84%
+Now, minor problem, we
+can't see a pronoun there.
+
+00:54:40.510 --> 00:54:44.422 align:middle line:84%
+But if we're willing to rely
+on binding theory a little bit,
+
+00:54:44.422 --> 00:54:46.380 align:middle line:84%
+we can use binding theory
+to convince ourselves
+
+00:54:46.380 --> 00:54:47.910 align:middle line:84%
+that the pronoun
+actually is there.
+
+00:54:47.910 --> 00:54:49.440 align:middle line:90%
+It's just that we can't see it.
+
+00:54:49.440 --> 00:54:52.140 align:middle line:84%
+We have a new
+detector for pronouns.
+
+00:54:52.140 --> 00:54:54.185 align:middle line:90%
+We can find them this way.
+
+00:54:54.185 --> 00:54:55.060 align:middle line:90%
+Does that make sense?
+
+00:54:55.060 --> 00:54:56.500 align:middle line:84%
+Are all of you
+appropriately skeptical?
+
+00:54:56.500 --> 00:54:58.120 align:middle line:84%
+Is anybody
+inappropriately skeptical?
+
+00:54:58.120 --> 00:55:01.315 align:middle line:84%
+Do you have questions about
+any of this chain of reasoning?
+
+00:55:01.315 --> 00:55:03.370 align:middle line:84%
+It's a reason to take
+seriously the idea
+
+00:55:03.370 --> 00:55:06.280 align:middle line:84%
+that there are invisible
+pronouns sometimes.
+
+00:55:06.280 --> 00:55:08.710 align:middle line:84%
+We talked about invisible
+pronouns before, I think.
+
+00:55:08.710 --> 00:55:11.860 align:middle line:84%
+I think I gave you
+examples like I can
+
+00:55:11.860 --> 00:55:18.300 align:middle line:90%
+say "Defend yourself," yeah?
+
+00:55:18.300 --> 00:55:20.488 align:middle line:90%
+
+
+00:55:20.488 --> 00:55:22.780 align:middle line:84%
+I think somebody said that
+they were taught in school--
+
+00:55:22.780 --> 00:55:24.960 align:middle line:84%
+I can't remember who it
+was-- that the subject
+
+00:55:24.960 --> 00:55:28.080 align:middle line:84%
+of an imperative is
+understood as "you," that this
+
+00:55:28.080 --> 00:55:29.760 align:middle line:90%
+means "You defend yourself."
+
+00:55:29.760 --> 00:55:31.320 align:middle line:84%
+And one reason to
+take that seriously
+
+00:55:31.320 --> 00:55:33.510 align:middle line:84%
+is that, yeah, an
+anaphor here is
+
+00:55:33.510 --> 00:55:35.220 align:middle line:84%
+acting like there
+is a subject around,
+
+00:55:35.220 --> 00:55:38.340 align:middle line:84%
+or at least another noun phrase
+around, that refers to "you."
+
+00:55:38.340 --> 00:55:40.380 align:middle line:84%
+Because "Defend
+yourself" is fine.
+
+00:55:40.380 --> 00:55:44.127 align:middle line:84%
+But "Defend myself"--
+no good, right?
+
+00:55:44.127 --> 00:55:45.960 align:middle line:84%
+No matter how much you
+might want to say it,
+
+00:55:45.960 --> 00:55:47.168 align:middle line:90%
+that's not the way to say it.
+
+00:55:47.168 --> 00:55:49.110 align:middle line:90%
+You say "Defend me," no?
+
+00:55:49.110 --> 00:55:50.780 align:middle line:84%
+It's acting like the
+subject is "you."
+
+00:55:50.780 --> 00:55:52.043 align:middle line:90%
+OK, you can't hear it.
+
+00:55:52.043 --> 00:55:54.210 align:middle line:84%
+You can't hear the "you,"
+but there's a "you" there.
+
+00:55:54.210 --> 00:55:57.120 align:middle line:84%
+You can use these
+anaphors to find it.
+
+00:55:57.120 --> 00:55:59.370 align:middle line:84%
+Same thing here--
+in "John promised
+
+00:55:59.370 --> 00:56:01.770 align:middle line:84%
+Mary to defend himself,"
+there's a pronoun
+
+00:56:01.770 --> 00:56:03.060 align:middle line:90%
+in the subject of "defend."
+
+00:56:03.060 --> 00:56:07.740 align:middle line:84%
+It's really "John promised
+Mary him to defend himself."
+
+00:56:07.740 --> 00:56:11.280 align:middle line:84%
+And that "him," that PRO,
+is referring back to "John."
+
+00:56:11.280 --> 00:56:14.670 align:middle line:84%
+In "John told Mary her
+to defend herself,"
+
+00:56:14.670 --> 00:56:18.310 align:middle line:84%
+that "her" is referring
+back to "Mary."
+
+00:56:18.310 --> 00:56:21.842 align:middle line:90%
+Binding theory tells us so.
+
+00:56:21.842 --> 00:56:25.780 align:middle line:84%
+Yeah, yeah, yeah-- slide
+after slide after slide.
+
+00:56:25.780 --> 00:56:28.210 align:middle line:90%
+Yes.
+
+00:56:28.210 --> 00:56:31.240 align:middle line:84%
+OK, here's another reason to
+be happy about binding theory,
+
+00:56:31.240 --> 00:56:33.370 align:middle line:84%
+another thing that
+it teaches us,
+
+00:56:33.370 --> 00:56:35.770 align:middle line:84%
+a new argument for
+something that I showed you
+
+00:56:35.770 --> 00:56:37.450 align:middle line:90%
+an argument for before.
+
+00:56:37.450 --> 00:56:40.270 align:middle line:84%
+And now, I will show you
+a new argument, possibly
+
+00:56:40.270 --> 00:56:41.080 align:middle line:90%
+a simpler argument.
+
+00:56:41.080 --> 00:56:43.790 align:middle line:84%
+Actually, I should
+start with this one.
+
+00:56:43.790 --> 00:56:45.970 align:middle line:84%
+"Which picture of himself
+did John like best"?
+
+00:56:45.970 --> 00:56:49.090 align:middle line:90%
+First-- setup for the argument.
+
+00:56:49.090 --> 00:56:53.140 align:middle line:84%
+Observation, "John"
+sure doesn't look
+
+00:56:53.140 --> 00:56:56.600 align:middle line:90%
+like it c-commands himself.
+
+00:56:56.600 --> 00:56:59.660 align:middle line:84%
+But "John" used to
+c-command "himself."
+
+00:56:59.660 --> 00:57:05.040 align:middle line:84%
+And apparently, principle A can
+be satisfied with nostalgia.
+
+00:57:05.040 --> 00:57:07.400 align:middle line:84%
+So it thinks back
+to the happy days
+
+00:57:07.400 --> 00:57:10.190 align:middle line:84%
+when "John" used to c-command
+"himself," back before you
+
+00:57:10.190 --> 00:57:11.870 align:middle line:90%
+did wh- movement.
+
+00:57:11.870 --> 00:57:13.700 align:middle line:90%
+And it's satisfied.
+
+00:57:13.700 --> 00:57:15.850 align:middle line:84%
+Principle A, it's
+easy going that way.
+
+00:57:15.850 --> 00:57:18.320 align:middle line:84%
+So this starts off
+with "John liked
+
+00:57:18.320 --> 00:57:19.958 align:middle line:90%
+which picture of himself best?"
+
+00:57:19.958 --> 00:57:21.500 align:middle line:84%
+"Which picture of
+himself" starts off
+
+00:57:21.500 --> 00:57:22.760 align:middle line:90%
+as the object of "like."
+
+00:57:22.760 --> 00:57:25.550 align:middle line:90%
+And it wh- moves.
+
+00:57:25.550 --> 00:57:26.870 align:middle line:90%
+It becomes the specifier of CP.
+
+00:57:26.870 --> 00:57:29.350 align:middle line:84%
+Shall I draw a tree for
+that, or is that clear?
+
+00:57:29.350 --> 00:57:29.850 align:middle line:90%
+I'm sorry.
+
+00:57:29.850 --> 00:57:32.140 align:middle line:84%
+Those were yes/no questions
+with opposite answers.
+
+00:57:32.140 --> 00:57:35.300 align:middle line:84%
+Who would like me to
+draw a tree for that?
+
+00:57:35.300 --> 00:57:35.800 align:middle line:90%
+Yes?
+
+00:57:35.800 --> 00:57:38.380 align:middle line:90%
+OK, let me draw a tree for that.
+
+00:57:38.380 --> 00:57:41.410 align:middle line:90%
+I'll hide these trees.
+
+00:57:41.410 --> 00:57:46.090 align:middle line:90%
+So-- stamp.
+
+00:57:46.090 --> 00:57:51.520 align:middle line:90%
+
+
+00:57:51.520 --> 00:57:52.680 align:middle line:90%
+John-- yeah.
+
+00:57:52.680 --> 00:57:57.525 align:middle line:90%
+
+
+00:57:57.525 --> 00:57:58.400 align:middle line:90%
+Here's a noun phrase.
+
+00:57:58.400 --> 00:58:01.890 align:middle line:84%
+I'm going to leave out "best"
+just because we don't need it.
+
+00:58:01.890 --> 00:58:05.570 align:middle line:84%
+Here's your DP,
+"which," and N bar,
+
+00:58:05.570 --> 00:58:11.583 align:middle line:84%
+"picture," prepositional
+phrase, "of,"
+
+00:58:11.583 --> 00:58:12.875 align:middle line:90%
+and the noun phrase, "himself."
+
+00:58:12.875 --> 00:58:15.490 align:middle line:90%
+
+
+00:58:15.490 --> 00:58:18.530 align:middle line:84%
+OK, so this is just "John liked
+which picture of himself."
+
+00:58:18.530 --> 00:58:19.780 align:middle line:90%
+We could put a "best" in here.
+
+00:58:19.780 --> 00:58:20.860 align:middle line:84%
+I don't know why
+I left out "best."
+
+00:58:20.860 --> 00:58:21.700 align:middle line:90%
+We'll put it here.
+
+00:58:21.700 --> 00:58:31.020 align:middle line:90%
+
+
+00:58:31.020 --> 00:58:34.070 align:middle line:84%
+There, so "John liked which
+picture of himself best?"
+
+00:58:34.070 --> 00:58:37.580 align:middle line:84%
+And then wh- movement
+will take this noun phrase
+
+00:58:37.580 --> 00:58:42.140 align:middle line:84%
+and move it to make it the
+specifier of a CP, which
+
+00:58:42.140 --> 00:58:44.370 align:middle line:90%
+is up here.
+
+00:58:44.370 --> 00:58:49.890 align:middle line:84%
+So now, we have "which
+picture of himself"
+
+00:58:49.890 --> 00:58:51.690 align:middle line:90%
+in the specifier of CP.
+
+00:58:51.690 --> 00:58:56.893 align:middle line:84%
+And "did" ends up here
+because we've moved T to C
+
+00:58:56.893 --> 00:58:58.560 align:middle line:84%
+and done do- support,
+which is something
+
+00:58:58.560 --> 00:59:00.390 align:middle line:90%
+that Faith made me talk about.
+
+00:59:00.390 --> 00:59:02.610 align:middle line:90%
+Yeah?
+
+00:59:02.610 --> 00:59:05.557 align:middle line:84%
+So "Which picture of
+himself did John like best?"
+
+00:59:05.557 --> 00:59:07.140 align:middle line:84%
+And "which picture
+of himself"-- which
+
+00:59:07.140 --> 00:59:09.270 align:middle line:84%
+I'd spelled without
+the final H, just to
+
+00:59:09.270 --> 00:59:12.168 align:middle line:84%
+give you an
+additional challenge--
+
+00:59:12.168 --> 00:59:13.710 align:middle line:84%
+"which picture of
+himself" starts off
+
+00:59:13.710 --> 00:59:14.790 align:middle line:90%
+as the sister of "like."
+
+00:59:14.790 --> 00:59:17.770 align:middle line:84%
+And wh- moves and becomes
+the specifier of CP.
+
+00:59:17.770 --> 00:59:18.570 align:middle line:90%
+Yeah?
+
+00:59:18.570 --> 00:59:19.890 align:middle line:90%
+That's the derivation for that.
+
+00:59:19.890 --> 00:59:23.490 align:middle line:90%
+
+
+00:59:23.490 --> 00:59:28.510 align:middle line:84%
+So fact, which we're going
+to have to get used to--
+
+00:59:28.510 --> 00:59:30.910 align:middle line:84%
+after we do the movement,
+"John" no longer c-commands
+
+00:59:30.910 --> 00:59:31.690 align:middle line:90%
+"himself," right?
+
+00:59:31.690 --> 00:59:32.815 align:middle line:90%
+What does "John" c-command?
+
+00:59:32.815 --> 00:59:35.890 align:middle line:84%
+Well, we ask which
+nodes dominate "John."
+
+00:59:35.890 --> 00:59:37.250 align:middle line:90%
+And it's these nodes.
+
+00:59:37.250 --> 00:59:39.545 align:middle line:84%
+So "John" c-commands its
+sister and everything
+
+00:59:39.545 --> 00:59:40.420 align:middle line:90%
+its sister dominates.
+
+00:59:40.420 --> 00:59:43.270 align:middle line:84%
+So "John" c-commands "like
+which picture of himself best."
+
+00:59:43.270 --> 00:59:45.770 align:middle line:84%
+But "which picture of himself"
+has moved out of that domain.
+
+00:59:45.770 --> 00:59:46.330 align:middle line:90%
+It's up here.
+
+00:59:46.330 --> 00:59:49.460 align:middle line:90%
+
+
+00:59:49.460 --> 00:59:54.280 align:middle line:84%
+Apparently, the
+fact that "himself"
+
+00:59:54.280 --> 00:59:55.990 align:middle line:84%
+used to be down
+here in a position
+
+00:59:55.990 --> 00:59:59.513 align:middle line:84%
+that "John" could
+c-command is good enough.
+
+00:59:59.513 --> 01:00:01.180 align:middle line:84%
+It's a phenomenon
+called reconstruction.
+
+01:00:01.180 --> 01:00:05.770 align:middle line:84%
+It's as though, when you
+are evaluating things
+
+01:00:05.770 --> 01:00:08.340 align:middle line:84%
+for binding theory, you get to
+rewind the tape a little bit
+
+01:00:08.340 --> 01:00:09.430 align:middle line:90%
+and think, oh, yeah.
+
+01:00:09.430 --> 01:00:10.513 align:middle line:90%
+This used to be over here.
+
+01:00:10.513 --> 01:00:11.590 align:middle line:90%
+That's good enough.
+
+01:00:11.590 --> 01:00:15.820 align:middle line:84%
+Various ways to talk about
+that, but that's one.
+
+01:00:15.820 --> 01:00:18.490 align:middle line:90%
+So file that fact.
+
+01:00:18.490 --> 01:00:19.480 align:middle line:90%
+Yes, I just said that.
+
+01:00:19.480 --> 01:00:19.980 align:middle line:90%
+Thank you.
+
+01:00:19.980 --> 01:00:21.760 align:middle line:84%
+This phenomenon is
+called reconstruction.
+
+01:00:21.760 --> 01:00:25.700 align:middle line:84%
+You treat something which is
+moved as though it hadn't.
+
+01:00:25.700 --> 01:00:26.480 align:middle line:90%
+OK.
+
+01:00:26.480 --> 01:00:29.900 align:middle line:84%
+Now, let's think about longer,
+more complicated questions,
+
+01:00:29.900 --> 01:00:33.430 align:middle line:84%
+like "Which picture did John
+think that Mary bought?"
+
+01:00:33.430 --> 01:00:37.810 align:middle line:84%
+So "which picture"
+has wh- moved, right?
+
+01:00:37.810 --> 01:00:41.410 align:middle line:84%
+But we talked about this
+question about whether it
+
+01:00:41.410 --> 01:00:44.710 align:middle line:84%
+has moved once in
+one mighty leap,
+
+01:00:44.710 --> 01:00:46.480 align:middle line:84%
+started off as
+the object of "by"
+
+01:00:46.480 --> 01:00:48.760 align:middle line:84%
+and moved through all of
+that intervening material
+
+01:00:48.760 --> 01:00:51.760 align:middle line:84%
+and became the specifier
+of the higher CP,
+
+01:00:51.760 --> 01:00:54.880 align:middle line:90%
+or moved in a series of hops.
+
+01:00:54.880 --> 01:00:57.940 align:middle line:84%
+Notice that "John thinks
+that Mary bought a picture"
+
+01:00:57.940 --> 01:00:59.560 align:middle line:90%
+has two CPs in it.
+
+01:00:59.560 --> 01:01:01.420 align:middle line:84%
+There's "that Mary
+bought a picture."
+
+01:01:01.420 --> 01:01:02.710 align:middle line:90%
+That's the embedded clause.
+
+01:01:02.710 --> 01:01:05.350 align:middle line:84%
+And then there's
+the matrix clause.
+
+01:01:05.350 --> 01:01:07.505 align:middle line:90%
+And we raised the question.
+
+01:01:07.505 --> 01:01:09.130 align:middle line:84%
+And I gave you all
+of these Dinka facts
+
+01:01:09.130 --> 01:01:12.610 align:middle line:84%
+that were meant to get you to
+take seriously the possibility
+
+01:01:12.610 --> 01:01:15.550 align:middle line:84%
+that the second picture
+is the right one,
+
+01:01:15.550 --> 01:01:17.890 align:middle line:84%
+that movement is what is
+called successive cyclic.
+
+01:01:17.890 --> 01:01:19.570 align:middle line:90%
+That is you move in short hops.
+
+01:01:19.570 --> 01:01:21.670 align:middle line:90%
+You don't move in mighty leaps.
+
+01:01:21.670 --> 01:01:25.630 align:middle line:84%
+So a wh- phrase, it's
+not just that it likes
+
+01:01:25.630 --> 01:01:27.190 align:middle line:90%
+to move to the specifier of CP.
+
+01:01:27.190 --> 01:01:29.350 align:middle line:84%
+It likes to land in
+every specifier of CP
+
+01:01:29.350 --> 01:01:30.940 align:middle line:90%
+that it can find along the way.
+
+01:01:30.940 --> 01:01:32.650 align:middle line:84%
+It moves in this
+series of short hops.
+
+01:01:32.650 --> 01:01:34.150 align:middle line:84%
+And I gave you some
+Dinka facts that
+
+01:01:34.150 --> 01:01:37.600 align:middle line:84%
+were meant to get you to take
+that possibility seriously.
+
+01:01:37.600 --> 01:01:40.540 align:middle line:84%
+Here's another set of
+facts that might also
+
+01:01:40.540 --> 01:01:42.850 align:middle line:84%
+get you to take that
+possibility seriously.
+
+01:01:42.850 --> 01:01:45.370 align:middle line:84%
+Think about a sentence like,
+"Which picture of himself
+
+01:01:45.370 --> 01:01:48.640 align:middle line:84%
+did John think
+that Mary bought?"
+
+01:01:48.640 --> 01:01:50.080 align:middle line:90%
+First of all, it's fine.
+
+01:01:50.080 --> 01:01:51.220 align:middle line:90%
+Do people agree?
+
+01:01:51.220 --> 01:01:53.660 align:middle line:84%
+So "himself" can
+refer to "John."
+
+01:01:53.660 --> 01:01:55.660 align:middle line:84%
+All right, now, let's
+think about why it's fine.
+
+01:01:55.660 --> 01:01:58.600 align:middle line:90%
+
+
+01:01:58.600 --> 01:02:00.730 align:middle line:84%
+"Which picture of
+himself" starts off
+
+01:02:00.730 --> 01:02:03.990 align:middle line:84%
+as the sister of "by," starts
+off in the embedded clause.
+
+01:02:03.990 --> 01:02:06.490 align:middle line:84%
+And it ends up, well, in the
+position where it's pronounced,
+
+01:02:06.490 --> 01:02:07.990 align:middle line:90%
+in the matrix clause.
+
+01:02:07.990 --> 01:02:10.330 align:middle line:84%
+Is "himself" bound by
+"John" in the position
+
+01:02:10.330 --> 01:02:12.940 align:middle line:90%
+where it's pronounced?
+
+01:02:12.940 --> 01:02:16.090 align:middle line:90%
+The specifier of the highest TP?
+
+01:02:16.090 --> 01:02:17.635 align:middle line:84%
+Does "John" c-command
+that position?
+
+01:02:17.635 --> 01:02:20.860 align:middle line:90%
+
+
+01:02:20.860 --> 01:02:21.940 align:middle line:90%
+No, right?
+
+01:02:21.940 --> 01:02:23.260 align:middle line:90%
+Shall I draw a tree for this?
+
+01:02:23.260 --> 01:02:26.020 align:middle line:84%
+Would that be a
+good thing to do?
+
+01:02:26.020 --> 01:02:27.932 align:middle line:90%
+Let's draw a tree.
+
+01:02:27.932 --> 01:02:30.390 align:middle line:84%
+"Which picture of himself did
+John think that Mary bought?"
+
+01:02:30.390 --> 01:02:34.930 align:middle line:90%
+
+
+01:02:34.930 --> 01:02:35.545 align:middle line:90%
+Here's "John."
+
+01:02:35.545 --> 01:02:40.140 align:middle line:90%
+
+
+01:02:40.140 --> 01:02:44.770 align:middle line:90%
+"Think," there's the CP.
+
+01:02:44.770 --> 01:02:48.340 align:middle line:90%
+"That," there's a TP.
+
+01:02:48.340 --> 01:02:54.880 align:middle line:84%
+"Mary," here's T. And here's
+a VP and then "bought."
+
+01:02:54.880 --> 01:02:56.980 align:middle line:84%
+And so we start off
+with "which picture,"
+
+01:02:56.980 --> 01:02:59.563 align:middle line:84%
+which I'm running out of room,
+so I'm going to use a triangle.
+
+01:02:59.563 --> 01:03:00.910 align:middle line:90%
+Here's "which picture."
+
+01:03:00.910 --> 01:03:02.410 align:middle line:84%
+I'm going to use a
+triangle, and I'm
+
+01:03:02.410 --> 01:03:04.478 align:middle line:84%
+going to abbreviate
+picture as "pic."
+
+01:03:04.478 --> 01:03:05.770 align:middle line:90%
+And the question we're asking--
+
+01:03:05.770 --> 01:03:09.710 align:middle line:84%
+and so here's the tree
+we start off with, yeah?
+
+01:03:09.710 --> 01:03:12.140 align:middle line:84%
+Anybody wish to object to
+any aspects of this tree?
+
+01:03:12.140 --> 01:03:13.400 align:middle line:90%
+Is this is OK?
+
+01:03:13.400 --> 01:03:14.780 align:middle line:90%
+All right.
+
+01:03:14.780 --> 01:03:17.480 align:middle line:84%
+And the question we're asking
+ourselves is, this noun phrase,
+
+01:03:17.480 --> 01:03:21.210 align:middle line:90%
+does it move just once to here?
+
+01:03:21.210 --> 01:03:25.680 align:middle line:84%
+So we have which
+picture of himself.
+
+01:03:25.680 --> 01:03:26.180 align:middle line:90%
+[SNEEZE]
+
+01:03:26.180 --> 01:03:28.885 align:middle line:90%
+Bless you.
+
+01:03:28.885 --> 01:03:33.000 align:middle line:84%
+Does it move just once, or does
+it stop along the way here?
+
+01:03:33.000 --> 01:03:34.820 align:middle line:84%
+That's the question
+we're asking ourselves.
+
+01:03:34.820 --> 01:03:36.570 align:middle line:84%
+And now, we're going
+to use binding theory
+
+01:03:36.570 --> 01:03:39.480 align:middle line:90%
+to come up with the answer.
+
+01:03:39.480 --> 01:03:42.780 align:middle line:84%
+Does "John" c-command
+"himself" here?
+
+01:03:42.780 --> 01:03:43.950 align:middle line:90%
+No.
+
+01:03:43.950 --> 01:03:45.660 align:middle line:84%
+I just said "no"
+before I drew the tree.
+
+01:03:45.660 --> 01:03:47.077 align:middle line:84%
+But now, that I've
+drawn the tree,
+
+01:03:47.077 --> 01:03:49.110 align:middle line:84%
+you can see that the
+answer is, in fact, no.
+
+01:03:49.110 --> 01:03:52.020 align:middle line:84%
+So "John" doesn't
+c-command this position.
+
+01:03:52.020 --> 01:03:56.240 align:middle line:84%
+Does "John" c-command "himself"
+when himself is down here?
+
+01:03:56.240 --> 01:03:57.410 align:middle line:90%
+Yeah, right?
+
+01:03:57.410 --> 01:03:59.160 align:middle line:84%
+So what's the c-command
+domain for "John"?
+
+01:03:59.160 --> 01:04:01.860 align:middle line:84%
+Well, it's its sister, that
+T bar, this T bar here,
+
+01:04:01.860 --> 01:04:04.740 align:middle line:84%
+and everything this T bar
+dominates, so all of this.
+
+01:04:04.740 --> 01:04:09.360 align:middle line:84%
+So "John" c-commands
+this position, "himself."
+
+01:04:09.360 --> 01:04:10.560 align:middle line:90%
+Is this just reconstruction?
+
+01:04:10.560 --> 01:04:11.490 align:middle line:90%
+Can "John" bind this?
+
+01:04:11.490 --> 01:04:14.490 align:middle line:90%
+No, it's too far away, right?
+
+01:04:14.490 --> 01:04:16.548 align:middle line:90%
+And so we can see that here.
+
+01:04:16.548 --> 01:04:18.090 align:middle line:84%
+You can't say "John
+thought that Mary
+
+01:04:18.090 --> 01:04:19.980 align:middle line:90%
+bought a picture of himself."
+
+01:04:19.980 --> 01:04:22.260 align:middle line:84%
+So this position
+is too far away.
+
+01:04:22.260 --> 01:04:25.140 align:middle line:84%
+And this position "John"
+doesn't c-command.
+
+01:04:25.140 --> 01:04:29.650 align:middle line:84%
+If these are the only
+positions, then we are doomed.
+
+01:04:29.650 --> 01:04:33.510 align:middle line:84%
+"Himself" can't be bound happily
+in either of those positions,
+
+01:04:33.510 --> 01:04:34.530 align:middle line:90%
+doomed.
+
+01:04:34.530 --> 01:04:38.130 align:middle line:84%
+But if "which
+picture of himself"
+
+01:04:38.130 --> 01:04:44.910 align:middle line:84%
+spent some time here, well,
+then "John" c-commands "himself"
+
+01:04:44.910 --> 01:04:47.790 align:middle line:84%
+when "which picture of
+himself" is here, right?
+
+01:04:47.790 --> 01:04:51.360 align:middle line:84%
+This is inside this T bar,
+"John"'s sister, yeah?
+
+01:04:51.360 --> 01:04:54.570 align:middle line:84%
+It's dominated by all the same
+nodes that dominate "John."
+
+01:04:54.570 --> 01:05:00.540 align:middle line:84%
+And it's not contained in
+any TP that excludes "John."
+
+01:05:00.540 --> 01:05:03.810 align:middle line:84%
+Remember, our conditions on
+how far away things can be
+
+01:05:03.810 --> 01:05:05.963 align:middle line:84%
+and still bind say
+that anaphors need
+
+01:05:05.963 --> 01:05:07.380 align:middle line:84%
+to have binders
+that are contained
+
+01:05:07.380 --> 01:05:09.090 align:middle line:84%
+in all the TPs
+that contain them,
+
+01:05:09.090 --> 01:05:12.190 align:middle line:90%
+that aren't excluded by any TPs.
+
+01:05:12.190 --> 01:05:16.020 align:middle line:84%
+So if we do successive cyclic
+movement, which Dinka already
+
+01:05:16.020 --> 01:05:17.940 align:middle line:84%
+told us that we
+should, if movement
+
+01:05:17.940 --> 01:05:21.450 align:middle line:84%
+happens not in one big jump,
+but in two small jumps,
+
+01:05:21.450 --> 01:05:24.090 align:middle line:84%
+then we have an account of this,
+the fact that the sentence is
+
+01:05:24.090 --> 01:05:25.110 align:middle line:90%
+OK.
+
+01:05:25.110 --> 01:05:29.070 align:middle line:84%
+The sentence is OK because
+"himself," yes, it's been here.
+
+01:05:29.070 --> 01:05:32.160 align:middle line:84%
+Yes, it's up there, but
+it's also been here.
+
+01:05:32.160 --> 01:05:36.450 align:middle line:84%
+And the fact that it spent time
+here is why the sentence is OK.
+
+01:05:36.450 --> 01:05:37.950 align:middle line:84%
+Binding theory gives
+us a new reason
+
+01:05:37.950 --> 01:05:42.460 align:middle line:84%
+to believe that, cool, so some
+of the cool things binding
+
+01:05:42.460 --> 01:05:43.210 align:middle line:90%
+theory is for.
+
+01:05:43.210 --> 01:05:43.710 align:middle line:90%
+Yeah.
+
+01:05:43.710 --> 01:05:47.050 align:middle line:84%
+AUDIENCE: So it's like you go
+to multiple museums in one day,
+
+01:05:47.050 --> 01:05:49.310 align:middle line:84%
+they give you a little
+stamp to get in the museum.
+
+01:05:49.310 --> 01:05:49.750 align:middle line:90%
+NORVIN RICHARDS: Yes.
+
+01:05:49.750 --> 01:05:51.145 align:middle line:84%
+AUDIENCE: And so at the end,
+you look a little bit different.
+
+01:05:51.145 --> 01:05:53.800 align:middle line:84%
+You all have stamps
+to show that you've
+
+01:05:53.800 --> 01:05:56.310 align:middle line:90%
+been to multiple museums.
+
+01:05:56.310 --> 01:05:58.060 align:middle line:84%
+NORVIN RICHARDS: Yes,
+it's just like that.
+
+01:05:58.060 --> 01:06:00.170 align:middle line:90%
+Yes.
+
+01:06:00.170 --> 01:06:00.910 align:middle line:90%
+Yes.
+
+01:06:00.910 --> 01:06:03.260 align:middle line:84%
+So "himself" has been here,
+and it's been up there.
+
+01:06:03.260 --> 01:06:04.360 align:middle line:90%
+But it's also been here.
+
+01:06:04.360 --> 01:06:06.640 align:middle line:84%
+And the fact that it was
+here meant that it got to go
+
+01:06:06.640 --> 01:06:10.860 align:middle line:84%
+see the T-Rex skeleton
+while it was here.
+
+01:06:10.860 --> 01:06:12.570 align:middle line:90%
+Yeah?
+
+01:06:12.570 --> 01:06:13.200 align:middle line:90%
+OK, cool.
+
+01:06:13.200 --> 01:06:16.020 align:middle line:90%
+
+
+01:06:16.020 --> 01:06:18.120 align:middle line:84%
+So movement is
+successive-cyclic-- new reason
+
+01:06:18.120 --> 01:06:18.900 align:middle line:90%
+to believe that.
+
+01:06:18.900 --> 01:06:22.420 align:middle line:90%
+
+
+01:06:22.420 --> 01:06:25.210 align:middle line:84%
+We have 15 minutes
+left, and I don't
+
+01:06:25.210 --> 01:06:27.340 align:middle line:84%
+think I can do this next
+thing in 15 minutes.
+
+01:06:27.340 --> 01:06:28.720 align:middle line:90%
+It involves guards.
+
+01:06:28.720 --> 01:06:29.530 align:middle line:90%
+No, maybe I can.
+
+01:06:29.530 --> 01:06:31.360 align:middle line:84%
+Let's start at
+least, and then this
+
+01:06:31.360 --> 01:06:34.580 align:middle line:84%
+will give you something to think
+about until we get to Thursday.
+
+01:06:34.580 --> 01:06:36.178 align:middle line:90%
+So consider this sentence.
+
+01:06:36.178 --> 01:06:37.720 align:middle line:84%
+"Two guards seem to
+me to be standing
+
+01:06:37.720 --> 01:06:39.880 align:middle line:90%
+in front of every building."
+
+01:06:39.880 --> 01:06:42.310 align:middle line:90%
+Is that ambiguous?
+
+01:06:42.310 --> 01:06:44.350 align:middle line:84%
+Yeah, it's ambiguous in
+a familiar way, right?
+
+01:06:44.350 --> 01:06:48.870 align:middle line:84%
+It either means each building
+is guarded by two guards
+
+01:06:48.870 --> 01:06:53.068 align:middle line:84%
+as far as I can tell, or there
+are two really weird guards
+
+01:06:53.068 --> 01:06:54.860 align:middle line:84%
+who are guarding all
+the buildings at once.
+
+01:06:54.860 --> 01:06:56.402 align:middle line:84%
+Yeah, it has those
+readings at least.
+
+01:06:56.402 --> 01:06:59.280 align:middle line:90%
+
+
+01:06:59.280 --> 01:07:00.330 align:middle line:90%
+How about this sentence?
+
+01:07:00.330 --> 01:07:01.800 align:middle line:84%
+"Two guards seem
+to themselves"--
+
+01:07:01.800 --> 01:07:03.540 align:middle line:90%
+[LAUGHTER]
+
+01:07:03.540 --> 01:07:05.400 align:middle line:90%
+Sorry.
+
+01:07:05.400 --> 01:07:07.320 align:middle line:84%
+"Two guards seem to
+themselves to be standing
+
+01:07:07.320 --> 01:07:08.487 align:middle line:90%
+in front of every building."
+
+01:07:08.487 --> 01:07:11.550 align:middle line:90%
+
+
+01:07:11.550 --> 01:07:14.070 align:middle line:90%
+This is not ambiguous.
+
+01:07:14.070 --> 01:07:16.410 align:middle line:84%
+This means that there
+are two guards who
+
+01:07:16.410 --> 01:07:19.320 align:middle line:90%
+need to be taken off duty.
+
+01:07:19.320 --> 01:07:21.840 align:middle line:84%
+There are two guards who
+are having hallucinations
+
+01:07:21.840 --> 01:07:25.007 align:middle line:90%
+of being very, very large.
+
+01:07:25.007 --> 01:07:26.340 align:middle line:90%
+That's what this sentence means.
+
+01:07:26.340 --> 01:07:28.798 align:middle line:84%
+It doesn't mean-- and there's
+something else it could mean.
+
+01:07:28.798 --> 01:07:32.618 align:middle line:84%
+It could mean this
+building has two guards who
+
+01:07:32.618 --> 01:07:34.410 align:middle line:84%
+think that they're
+standing in front of it.
+
+01:07:34.410 --> 01:07:36.060 align:middle line:84%
+That building has
+two different guards
+
+01:07:36.060 --> 01:07:38.018 align:middle line:84%
+who think that they're
+standing in front of it.
+
+01:07:38.018 --> 01:07:39.813 align:middle line:84%
+That building has
+two other guards who
+
+01:07:39.813 --> 01:07:40.980 align:middle line:90%
+are standing in front of it.
+
+01:07:40.980 --> 01:07:42.720 align:middle line:84%
+In a sense, the reading
+that it actually has
+
+01:07:42.720 --> 01:07:43.710 align:middle line:90%
+is the more reassuring one.
+
+01:07:43.710 --> 01:07:45.793 align:middle line:84%
+It just means that there
+are two guards who really
+
+01:07:45.793 --> 01:07:48.330 align:middle line:84%
+need a psych profile,
+whereas on the other reading
+
+01:07:48.330 --> 01:07:50.850 align:middle line:84%
+there are however many
+buildings there are times two.
+
+01:07:50.850 --> 01:07:54.040 align:middle line:84%
+There are that many guards who
+are in psychological trouble.
+
+01:07:54.040 --> 01:07:56.880 align:middle line:84%
+So it doesn't mean all of the
+things that it could mean.
+
+01:07:56.880 --> 01:08:00.990 align:middle line:84%
+And you might be able to guess
+the problem is themselves.
+
+01:08:00.990 --> 01:08:04.200 align:middle line:84%
+That's what's going to
+prevent the other reading.
+
+01:08:04.200 --> 01:08:06.720 align:middle line:84%
+But for reasons of time,
+let's let it prevent
+
+01:08:06.720 --> 01:08:08.940 align:middle line:90%
+the other reading on Thursday.
+
+01:08:08.940 --> 01:08:10.500 align:middle line:84%
+So come back on
+Thursday, and I'll
+
+01:08:10.500 --> 01:08:13.563 align:middle line:84%
+finish this point, another thing
+that binding theory is for.
+
+01:08:13.563 --> 01:08:15.480 align:middle line:84%
+We'll talk a little more
+about reconstruction,
+
+01:08:15.480 --> 01:08:16.290 align:middle line:90%
+exactly what it is.
+
+01:08:16.290 --> 01:08:17.335 align:middle line:90%
+Because it's fascinating.
+
+01:08:17.335 --> 01:08:19.710 align:middle line:84%
+There's a lot of really cool
+work on trying to figure out
+
+01:08:19.710 --> 01:08:20.989 align:middle line:90%
+what the heck it means.
+
+01:08:20.989 --> 01:08:21.689 align:middle line:90%
+OK?
+
+01:08:21.689 --> 01:08:24.060 align:middle line:90%
+Questions about anything else?
+
+01:08:24.060 --> 01:08:25.050 align:middle line:90%
+All right, good.
+
+01:08:25.050 --> 01:08:29.990 align:middle line:84%
+Go forth and think
+about linguistics.
+
+01:08:29.990 --> 01:08:35.000 align:middle line:90%

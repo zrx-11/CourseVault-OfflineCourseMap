@@ -1,0 +1,32 @@
+{
+  "body": "",
+  "content": "<p>A close-up of the Bible as translated into the Massachusett language by John Eliot in the 16th century.</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/24-900-introduction-to-linguistics-spring-2022/24-900s22.jpg",
+  "file_size": 41185,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A portion of the 23rd Psalm, as translated by John Eliot into the language of the Wampanoag people of Massachusetts in the 17th century. In the 21st century, that translation and other surviving written documents have formed the basis for efforts to re-establish Wampanoag as a living language. (Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}.)",
+    "credit": "Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}.",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Image",
+  "title": "24-900s22.jpg",
+  "uid": "467fe435-68d3-4d3e-9ef6-ad4f94edb839",
+  "video_files": {
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

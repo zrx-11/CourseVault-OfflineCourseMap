@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 10: Phonology, Part 3</title>
+      <link>/resources/ocw_24900_lecture10_2022mar08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture10_2022mar08/data.json</guid>
+      <description>&lt;p&gt;This video discusses language-specific rules for accent placement and other phonological features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Syntax, Part 1</title>
+      <link>/resources/ocw_24900_lecture11_2022mar10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture11_2022mar10/data.json</guid>
+      <description>&lt;p&gt;This video introduces the fundamentals of how words are put together to form sentences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Syntax, Part 2</title>
+      <link>/resources/ocw_24900_lecture12_2022mar15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture12_2022mar15/data.json</guid>
+      <description>&lt;p&gt;This video demonstrates how syntactic trees are used to show the structure of sentences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Syntax, Part 3</title>
+      <link>/resources/ocw_24900_lecture13_2022mar17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture13_2022mar17/data.json</guid>
+      <description>&lt;p&gt;This video explains the relations between verbs and other constituents in a sentence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Syntax, Part 4</title>
+      <link>/resources/ocw_24900_lecture14_2022mar29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture14_2022mar29/data.json</guid>
+      <description>&lt;p&gt;This video discusses how to use syntactic trees to analyze the grammar of sentences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Syntax, Part 5</title>
+      <link>/resources/ocw_24900_lecture15_2022mar31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture15_2022mar31/data.json</guid>
+      <description>&lt;p&gt;This video discusses the acquisition of wh-movement and the extended projection principle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Syntax, Part 6</title>
+      <link>/resources/ocw_24900_lecture16_2022apr05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture16_2022apr05/data.json</guid>
+      <description>&lt;p&gt;This video discusses the relations between heads and their complements in different languages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Syntax, Part 7, and Semantics, Part 1</title>
+      <link>/resources/ocw_24900_lecture17_2022apr07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture17_2022apr07/data.json</guid>
+      <description>&lt;p&gt;This video concludes the discussion of syntax and begins the examination of semantics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Semantics, Part 2</title>
+      <link>/resources/ocw_24900_lecture18_2022apr12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture18_2022apr12/data.json</guid>
+      <description>&lt;p&gt;This video discusses different kinds of ambiguity relating to quantifiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Semantics, Part 3</title>
+      <link>/resources/ocw_24900_lecture19_2022apr14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture19_2022apr14/data.json</guid>
+      <description>&lt;p&gt;This video discusses the semantics of quantifiers, including negative polarity items.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Morphology, Part 1</title>
+      <link>/resources/ocw_24900_lecture02_2022feb03-fixed/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture02_2022feb03-fixed/data.json</guid>
+      <description>&lt;p&gt;This video provides a quick introduction to what morphology is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Semantics, Part 4</title>
+      <link>/resources/ocw_24900_lecture20_2022apr19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture20_2022apr19/data.json</guid>
+      <description>&lt;p&gt;This video discusses the semantics of pronouns, anaphora, and binding theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Semantics, Part 5</title>
+      <link>/resources/ocw_24900_lecture21_2022apr21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture21_2022apr21/data.json</guid>
+      <description>&lt;p&gt;This video discusses semantic interpretations of sentences, particularly ones featuring ellipsis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Dialects</title>
+      <link>/resources/ocw_24900_lecture22_2022spr26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture22_2022spr26/data.json</guid>
+      <description>&lt;p&gt;This video discusses differences in how languages deal with negatives, and explains some of the grammatical constraints that apply in African American English.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Historical Linguistics</title>
+      <link>/resources/ocw_24900_lecture23_2022apr28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture23_2022apr28/data.json</guid>
+      <description>&lt;p&gt;This video explains how semantic drift, recuttings, and sound changes over time cause languages to evolve and/or split into distinctly different languages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Endangered Languages</title>
+      <link>/resources/ocw_24900_lecture24_2022may03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture24_2022may03/data.json</guid>
+      <description>&lt;p&gt;This video describes the efforts to revive the Wampanoag language, and the ways historical documents can be used to reconstruct the grammar of an extinct language.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Language Acquisition</title>
+      <link>/resources/ocw_24900_lecture25_2022may05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture25_2022may05/data.json</guid>
+      <description>&lt;p&gt;This video deals with how young children learn to understand and use language, as well as touching on the hypothesis that some aspects of grammar are innate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26: Signed Languages</title>
+      <link>/resources/ocw_24900_lecture26_2022may10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture26_2022may10/data.json</guid>
+      <description>&lt;p&gt;This video deals with the linguistic aspects of signed rather than spoken languages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Morphology, Part 2</title>
+      <link>/resources/ocw_24900_lecture03_2022feb08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture03_2022feb08/data.json</guid>
+      <description>&lt;p&gt;This video discusses the forms morphemes can take, and how morphemes are combined to make words.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Morphology, Part 3</title>
+      <link>/resources/ocw_24900_lecture04_2022feb10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture04_2022feb10/data.json</guid>
+      <description>&lt;p&gt;This video discusses how aspects of morphology vary from one language to another.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Phonetics, Part 1</title>
+      <link>/resources/ocw_24900_lecture05_2022feb15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture05_2022feb15/data.json</guid>
+      <description>&lt;p&gt;This video introduces the basic vocabulary used in discussing the sounds of speech.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Phonetics, Part 2</title>
+      <link>/resources/ocw_24900_lecture06_2022feb17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture06_2022feb17/data.json</guid>
+      <description>&lt;p&gt;This video presents more information on speech sounds, especially vowels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Phonology, Part 1</title>
+      <link>/resources/ocw_24900_lecture08_2022mar01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture08_2022mar01/data.json</guid>
+      <description>&lt;p&gt;This video discusses rules by which morphemes are realized in pronunciation in various languages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Phonology, Part 2</title>
+      <link>/resources/ocw_24900_lecture09_2022mar03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_24900_lecture09_2022mar03/data.json</guid>
+      <description>&lt;p&gt;This video discusses phonology and phonotactics in Japanese, English, and Arabic.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

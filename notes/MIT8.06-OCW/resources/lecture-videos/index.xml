@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L1.1 General problem. Non-degenerate perturbation theory</title>
+      <link>/resources/l1-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l1-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L1.2 Setting up the perturbative equations</title>
+      <link>/resources/l1-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l1-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L1.3 Calculating the energy corrections</title>
+      <link>/resources/l1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L1.4 First order correction to the state. Second order correction to energy</title>
+      <link>/resources/l1-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l1-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L10.1 Box regularization: density of states for the continuum</title>
+      <link>/resources/l10-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L10.2 Transitions with a constant perturbation</title>
+      <link>/resources/l10-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L10.3 Integrating over the continuum to find Fermi&#39;s Golden Rule</title>
+      <link>/resources/l10-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L10.4 Autoionization transitions</title>
+      <link>/resources/l10-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L11.1 Harmonic transitions between discrete states</title>
+      <link>/resources/l11-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L11.2 Transition rates for stimulated emission and absorption processes</title>
+      <link>/resources/l11-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L11.3 Ionization of hydrogen:  conditions of validity, initial and final states</title>
+      <link>/resources/l11-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L11.4 Ionization of Hydrogen: Matrix Element for Transition</title>
+      <link>/resources/l11-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L12.1 Ionization Rate for Hydrogen: Final Result</title>
+      <link>/resources/l12-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L12.2 Light and Atoms with Two Levels, Qualitative Analysis</title>
+      <link>/resources/l12-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L12.3 Einstein&#39;s Argument: the Need for Spontaneous Emission</title>
+      <link>/resources/l12-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L12.4 Einstein&#39;s argument: B and A coefficients</title>
+      <link>/resources/l12-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L12.5 Atom-light interactions:  dipole operator</title>
+      <link>/resources/l12-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12-5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.1 Transition rates induced by thermal radiation</title>
+      <link>/resources/l13-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.2 Transition rates induced by thermal radiation (continued)</title>
+      <link>/resources/l13-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.3 Einstein&#39;s B and A coefficients determined. Lifetimes and selection rules</title>
+      <link>/resources/l13-3-einsteins-b-and-a-coefficients-determined/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13-3-einsteins-b-and-a-coefficients-determined/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.4 Charged particles in EM fields: potentials and gauge invariance</title>
+      <link>/resources/l13-4-charged-particles-in-em-fields-potentials-and-gauge-invariance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13-4-charged-particles-in-em-fields-potentials-and-gauge-invariance/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.5 Charged particles in EM fields: Schrodinger equation</title>
+      <link>/resources/l13-5-charged-particles-in-em-fields-schrodinger-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13-5-charged-particles-in-em-fields-schrodinger-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L14.1 Gauge invariance of the Schrodinger Equation</title>
+      <link>/resources/l14-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L14.2 Quantization of the magnetic field on a torus</title>
+      <link>/resources/l14-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L14.3 Particle in a constant magnetic field:  Landau levels</title>
+      <link>/resources/l14-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L14.4 Landau levels (continued). Finite sample</title>
+      <link>/resources/l14-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L15.1 Classical analog: oscillator with slowly varying frequency</title>
+      <link>/resources/l15-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L15.2 Classical adiabatic invariant</title>
+      <link>/resources/l15-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L15.3 Phase space and intuition for quantum adiabatic invariants</title>
+      <link>/resources/l15-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L15.4 Instantaneous energy eigenstates and Schrodinger equation</title>
+      <link>/resources/l15-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L16.1 Quantum adiabatic theorem stated</title>
+      <link>/resources/l16-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L16.2 Analysis with an orthonormal basis of instantaneous energy eigenstates</title>
+      <link>/resources/l16-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L16.3 Error in the adiabatic approximation</title>
+      <link>/resources/l16-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L16.4 Landau-Zener transitions</title>
+      <link>/resources/l16-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L16.5 Landau-Zener transitions (continued)</title>
+      <link>/resources/l16-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16-5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L17.1 Configuration space for Hamiltonians</title>
+      <link>/resources/l17-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L17.2 Berry&#39;s phase and Berry&#39;s connection</title>
+      <link>/resources/l17-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L17.3 Properties of Berry&#39;s phase</title>
+      <link>/resources/l17-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L17.4 Molecules and energy scales</title>
+      <link>/resources/l17-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L18.1 Born-Oppenheimer approximation: Hamiltonian and electronic states</title>
+      <link>/resources/l18-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l18-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L18.2 Effective nuclear Hamiltonian. Electronic Berry connection</title>
+      <link>/resources/l18-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l18-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L18.3 Example: The hydrogen molecule ion</title>
+      <link>/resources/l18-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l18-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L19.1 Elastic scattering defined and assumptions</title>
+      <link>/resources/l19-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l19-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L19.2 Energy eigenstates: incident and outgoing waves. Scattering amplitude</title>
+      <link>/resources/l19-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l19-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L19.3 Differential and total cross section</title>
+      <link>/resources/l19-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l19-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L19.4 Differential as a Sum of Partial Waves</title>
+      <link>/resources/l19-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l19-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L2.1 Remarks and validity of the perturbation series</title>
+      <link>/resources/l2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l2-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L2.2 Anharmonic Oscillator via a quartic perturbation</title>
+      <link>/resources/l2-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l2-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L2.3 Degenerate Perturbation theory: Example and setup</title>
+      <link>/resources/l2-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l2-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L2.4 Degenerate Perturbation Theory: Leading energy corrections</title>
+      <link>/resources/l2-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l2-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L20.1 Review of Scattering Concepts Developed So Far</title>
+      <link>/resources/l20-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L20.2 The One-Dimensional Analogy for Phase Shifts</title>
+      <link>/resources/l20-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L20.3 Scattering Amplitude in Terms of Phase Shifts</title>
+      <link>/resources/l20-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L20.4 Cross Section in Terms of Partial Cross Sections. Optical Theorem</title>
+      <link>/resources/l20-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L20.5 Identification of Phase Shifts. Example: Hard Sphere</title>
+      <link>/resources/l20-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20-5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L21.1 General Computation of the Phase Shifts</title>
+      <link>/resources/l21-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l21-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L21.2 Phase Shifts and Impact Parameter</title>
+      <link>/resources/l21-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l21-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L21.3 Integral Equation for Scattering and Green&#39;s Function</title>
+      <link>/resources/l21-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l21-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L22.1 Setting Up the Born Series</title>
+      <link>/resources/l22-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L22.2 First Born Approximation. Calculation of the Scattering Amplitude</title>
+      <link>/resources/l22-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L22.3 Diagrammatic Representation of the Born series. Scattering Amplitude for Spherically Symmetric Potentials</title>
+      <link>/resources/l22-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L22.4 Identical Particles and Exchange Degeneracy</title>
+      <link>/resources/l22-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L23.1 Permutation Operators and Projectors for Two Particles</title>
+      <link>/resources/l23-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L23.2 Permutation Operators Acting on Operators</title>
+      <link>/resources/l23-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L23.3 Permutation Operators on N Particles and Transpositions</title>
+      <link>/resources/l23-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L23.4 Symmetric and Antisymmetric States of N Particles</title>
+      <link>/resources/l23-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L24.1 Symmetrizer and Antisymmetrizer for N Particles</title>
+      <link>/resources/l24-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L24.2 Symmetrizer and Antisymmetrizer for N Particles (continued)</title>
+      <link>/resources/l24-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L24.3 The Symmetrization Postulate</title>
+      <link>/resources/l24-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L24.4 The Symmetrization Postulate (continued)</title>
+      <link>/resources/l24-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L3.1 Remarks on a &#34;good basis&#34;</title>
+      <link>/resources/l3-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l3-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L3.2 Degeneracy resolved to first order; state and energy corrections</title>
+      <link>/resources/l3-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l3-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L3.3 Degeneracy resolved to second order</title>
+      <link>/resources/l3-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l3-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L3.4 Degeneracy resolved to second order (continued)</title>
+      <link>/resources/l3-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l3-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L4.1 Scales and zeroth-order spectrum</title>
+      <link>/resources/l4-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l4-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L4.2 The uncoupled and coupled basis states for the spectrum</title>
+      <link>/resources/l4-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l4-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L4.3 The Pauli equation for the electron in an electromagnetic field</title>
+      <link>/resources/l4-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l4-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L4.4 Dirac equation for the electron and hydrogen Hamiltonian</title>
+      <link>/resources/l4-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l4-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L5.1 Evaluating the Darwin correction</title>
+      <link>/resources/l5-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L5.2 Interpretation of the Darwin correction from nonlocality</title>
+      <link>/resources/l5-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L5.3 The relativistic correction</title>
+      <link>/resources/l5-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L5.4 Spin-orbit correction</title>
+      <link>/resources/l5-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L5.5 Assembling the fine-structure corrections</title>
+      <link>/resources/l5-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5-5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L6.1 Zeeman effect and fine structure</title>
+      <link>/resources/l6-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L6.2 Weak-field Zeeman effect; general structure</title>
+      <link>/resources/l6-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L6.3 Weak-field Zeeman effect; the projection lemma</title>
+      <link>/resources/l6-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L6.4 Strong-field Zeeman</title>
+      <link>/resources/l6-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L6.5 Semiclassical approximation and local de Broglie wavelength</title>
+      <link>/resources/l6-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6-5/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L7.1 The WKB approximation scheme</title>
+      <link>/resources/l7-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l7-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L7.2 Approximate WKB solutions</title>
+      <link>/resources/l7-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l7-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L7.3 Validity of the WKB approximation</title>
+      <link>/resources/l7-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l7-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L7.4 Connection formula stated and example</title>
+      <link>/resources/l7-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l7-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L8.1 Airy functions as integrals in the complex plane</title>
+      <link>/resources/l8-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l8-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L8.2 Asymptotic expansions of Airy functions</title>
+      <link>/resources/l8-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l8-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L8.3 Deriving the connection formulae</title>
+      <link>/resources/l8-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l8-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L8.4 Deriving the connection formulae (continued) logical arrows</title>
+      <link>/resources/l8-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l8-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L9.1 The interaction picture and time evolution</title>
+      <link>/resources/l9-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l9-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L9.2 The interaction picture equation in an orthonormal basis</title>
+      <link>/resources/l9-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l9-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L9.3 Example:  Instantaneous transitions in a two-level system</title>
+      <link>/resources/l9-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l9-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L9.4 Setting up perturbation theory</title>
+      <link>/resources/l9-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l9-4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scattering and Identical Particles</title>
+      <link>/pages/video-lectures/scattering-and-identical-particles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/scattering-and-identical-particles/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 19: Scattering&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l19-1/index.html&#34;&gt;L19.1 Elastic scattering defined and assumptions&lt;/a&gt; (15:35)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l19-2/index.html&#34;&gt;L19.2 Energy eigenstates: incident and outgoing waves. Scattering amplitude&lt;/a&gt; (25:02)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l19-3/index.html&#34;&gt;L19.3 Differential and total cross section&lt;/a&gt; (20:20)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l19-4/index.html&#34;&gt;L19.4 Differential as a Sum of Partial Waves&lt;/a&gt; (17:46)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 20: Scattering (continued 1)&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L20.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l20-1/index.html&#34;&gt;L20.1 Review of Scattering Concepts Developed So Far&lt;/a&gt; (9:02)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L20.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l20-2/index.html&#34;&gt;L20.2 The One-Dimensional Analogy for Phase Shifts&lt;/a&gt; (16:57)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time Dependent Perturbation Theory and Adiabatic Approximation</title>
+      <link>/pages/video-lectures/time-dependent-perturbation-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/time-dependent-perturbation-theory/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA; &#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 10: Fermi&amp;rsquo;s Golden Rule&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L10.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l10-1/index.html&#34;&gt;L10.1 Box regularization: density of states for the continuum&lt;/a&gt; (20:31)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L10.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l10-2/index.html&#34;&gt;L10.2 Transitions with a constant perturbation&lt;/a&gt; (19:01)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L10.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l10-3/index.html&#34;&gt;L10.3 Integrating over the continuum to find Fermi&amp;rsquo;s Golden Rule&lt;/a&gt; (19:37)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L10.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l10-4/index.html&#34;&gt;L10.4 Autoionization transitions&lt;/a&gt; (11:30)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 11: Fermi&amp;rsquo;s Golden Rule for Harmonic Transitions&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L11.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l11-1/index.html&#34;&gt;L11.1 Harmonic transitions between discrete states&lt;/a&gt; (15:12)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L11.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l11-2/index.html&#34;&gt;L11.2 Transition rates for stimulated emission and absorption processes&lt;/a&gt; (17:12)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L11.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l11-3/index.html&#34;&gt;L11.3 Ionization of hydrogen: conditions of validity, initial and final states&lt;/a&gt; (20:54)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L11.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l11-4/index.html&#34;&gt;L11.4 Ionization of Hydrogen: Matrix Element for Transition&lt;/a&gt; (22:20)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 12: Hydrogen Ionization (completed). Light and Atoms&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l12-1/index.html&#34;&gt;L12.1 Ionization Rate for Hydrogen: Final Result&lt;/a&gt; (16:23)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l12-2/index.html&#34;&gt;L12.2 Light and Atoms with Two Levels, Qualitative Analysis&lt;/a&gt; (14:31)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l12-3/index.html&#34;&gt;L12.3 Einstein&amp;rsquo;s Argument: the Need for Spontaneous Emission&lt;/a&gt; (19:31)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l12-4/index.html&#34;&gt;L12.4 Einstein&amp;rsquo;s argument: B and A coefficients&lt;/a&gt; (9:42)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12.5&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l12-5/index.html&#34;&gt;L12.5 Atom-light interactions: dipole operator&lt;/a&gt; (11:10)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 13: Light and Atoms (continued). Charged Particles in Electromagnetic Fields&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l13-1/index.html&#34;&gt;L13.1 Transition rates induced by thermal radiation&lt;/a&gt; (17:50)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l13-2/index.html&#34;&gt;L13.2 Transition rates induced by thermal radiation (continued)&lt;/a&gt; (16:35)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l13-3-einsteins-b-and-a-coefficients-determined/index.html&#34;&gt;L13.3 Einstein&amp;rsquo;s B and A coefficients determined. Lifetimes and selection rules&lt;/a&gt; (13:54)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l13-4-charged-particles-in-em-fields-potentials-and-gauge-invariance/index.html&#34;&gt;L13.4 Charged particles in EM fields: potentials and gauge invariance&lt;/a&gt; (21:50)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13.5&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l13-5-charged-particles-in-em-fields-schrodinger-equation/index.html&#34;&gt;L13.5 Charged particles in EM fields: Schrodinger equation&lt;/a&gt; (8:38)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 14: Charged Particles in Electromagnetic Fields (continued)&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L14.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l14-1/index.html&#34;&gt;L14.1 Gauge invariance of the Schrodinger Equation&lt;/a&gt; (21:08)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L14.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l14-2/index.html&#34;&gt;L14.2 Quantization of the magnetic field on a torus&lt;/a&gt; (25:14)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L14.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l14-3/index.html&#34;&gt;L14.3 Particle in a constant magnetic field: Landau levels&lt;/a&gt; (18:19)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L14.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l14-4/index.html&#34;&gt;L14.4 Landau levels (continued). Finite sample&lt;/a&gt; (9:07)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 15: Adiabatic Approximation&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L15.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l15-1/index.html&#34;&gt;L15.1 Classical analog: oscillator with slowly varying frequency&lt;/a&gt; (16:34)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L15.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l15-2/index.html&#34;&gt;L15.2 Classical adiabatic invariant&lt;/a&gt; (15:07)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L15.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l15-3/index.html&#34;&gt;L15.3 Phase space and intuition for quantum adiabatic invariants&lt;/a&gt; (16:23)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L15.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l15-4/index.html&#34;&gt;L15.4 Instantaneous energy eigenstates and Schrodinger equation&lt;/a&gt; (26:46)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 16: Adiabatic Approximation (continued)&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l16-1/index.html&#34;&gt;L16.1 Quantum adiabatic theorem stated&lt;/a&gt; (13:02)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l16-2/index.html&#34;&gt;L16.2 Analysis with an orthonormal basis of instantaneous energy eigenstates&lt;/a&gt; (14:31)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l16-3/index.html&#34;&gt;L16.3 Error in the adiabatic approximation&lt;/a&gt; (14:21)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l16-4/index.html&#34;&gt;L16.4 Landau-Zener transitions&lt;/a&gt; (19:30)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16.5&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l16-5/index.html&#34;&gt;L16.5 Landau-Zener transitions (continued)&lt;/a&gt; (14:18)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 17: Adiabatic Approximation: Berry&amp;rsquo;s Phase&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L17.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l17-1/index.html&#34;&gt;L17.1 Configuration space for Hamiltonians&lt;/a&gt; (15:27)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L17.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l17-2/index.html&#34;&gt;L17.2 Berry&amp;rsquo;s phase and Berry&amp;rsquo;s connection&lt;/a&gt; (25:04)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L17.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l17-3/index.html&#34;&gt;L17.3 Properties of Berry&amp;rsquo;s phase&lt;/a&gt; (11:12)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L17.4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l17-4/index.html&#34;&gt;L17.4 Molecules and energy scales&lt;/a&gt; (17:57)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 18: Adiabatic Approximation: Molecules&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L18.1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l18-1/index.html&#34;&gt;L18.1 Born-Oppenheimer approximation: Hamiltonian and electronic states&lt;/a&gt; (24:48)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L18.2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l18-2/index.html&#34;&gt;L18.2 Effective nuclear Hamiltonian. Electronic Berry connection&lt;/a&gt; (20:02)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L18.3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l18-3/index.html&#34;&gt;L18.3 Example: The hydrogen molecule ion&lt;/a&gt; (27:01)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time Independent Perturbation Theory and WKB Approximation</title>
+      <link>/pages/video-lectures/time-independent-perturbation-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/time-independent-perturbation-theory/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 1: Time Independent Perturbation Theory&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;﻿&lt;a href=&#34;../../../resources/l1-1/index.html&#34;&gt;L1.1 General problem. Non-degenerate perturbation theory&lt;/a&gt; (22:55)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;﻿&lt;a href=&#34;../../../resources/l1-2/index.html&#34;&gt;L1.2 Setting up the perturbative equations&lt;/a&gt; (16:07)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/l1/index.html&#34;&gt;L1.3 Calculating the energy corrections&lt;/a&gt; (6:25)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;﻿&lt;a href=&#34;../../../resources/l1-4/index.html&#34;&gt;L1.4 First order correction to the state. Second order correction to energy&lt;/a&gt; (13:43)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 2: Time Independent Perturbation Theory (continued)&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L2.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;﻿&lt;a href=&#34;../../../resources/l2-1/index.html&#34;&gt;L2.1 Remarks and validity of the perturbation series&lt;/a&gt; (22:26)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/pages/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/data.json</guid>
+      <description>&lt;p&gt;The videos in this course are broadly divided into three parts:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;../../pages/video-lectures/time-independent-perturbation-theory/index.html&#34;&gt;Part 1. Time Independent Perturbation Theory and WKB Approximation.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this section, we discuss in detail non-degenerate and degenerate time-independent perturbation theory. As an application and illustration of the methods, we study the fine structure of the hydrogen atom as well as the Zeeman effect, both in its weak and strong forms. We develop the Wentzel-Kramers-Brillouin (WKB) approximation, useful for time-independent problems that involve potentials with slow-varying spatial dependence.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

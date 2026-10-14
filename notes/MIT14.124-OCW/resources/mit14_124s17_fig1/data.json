@@ -1,0 +1,24 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/14-124-microeconomic-theory-iv-spring-2017/c4070738a47e0877f5212886eb0bd21b_MIT14_124S17_Fig1.JPG",
+  "file_size": 34731,
+  "file_type": "image/png",
+  "image_metadata": {
+    "caption": "An incentive compatible transfer scheme with four types",
+    "credit": "Image courtesy of Kosti Takala. Used with permission.",
+    "image-alt": "A graph with blue, teal, red, and green lines that go from bottom left corner to the top right corner. "
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "b5cbd324-e6ea-5fba-a8e9-515482ba5a80",
+  "resourcetype": "Image",
+  "title": "MIT14_124S17_Fig1.JPG",
+  "uid": "c4070738-a47e-0877-f521-2886eb0bd21b"
+}

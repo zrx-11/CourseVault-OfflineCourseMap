@@ -1,0 +1,43 @@
+{
+  "content": "<p><strong>Description:</strong> We prove some of the most useful tools of calculus: the Min/Max theorem or the Extreme Value Theorem (EVT) and the Intermediate Value Theorem (IVT). Is every hypothesis in these theorems required?</p>\n<p><strong>Speaker:</strong> Casey Rodriguez</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-100a-real-analysis-fall-2020/18100a-lecture-16-multicam_360p_16_9.mp4",
+  "file_size": 111042704,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Lecture 16: The Min/Max Theorem and Bolzano's Intermediate Value Theorem",
+  "uid": "e94ff385-dd21-4f53-9644-d15616098b19",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.webvtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/dcUKdwHRSD8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "18-100a-real-analysis-fall-2020, evt, extreme value theorem, intermediate value theorem, ivt, min/max theorem",
+    "youtube_description": "MIT 18.100A Real Analysis, Fall 2020\nInstructor: Dr. Casey Rodriguez\nView the complete course: http://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61O7HkcF7UImpM0cR_L2gSw\n\nWe prove some of the most useful tools of calculus: the Min/Max theorem or the Extreme Value Theorem (EVT) and the Intermediate Value Theorem (IVT). Is every hypothesis in these theorems required? \n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW’s YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+    "youtube_id": "dcUKdwHRSD8"
+  }
+}

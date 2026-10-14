@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1: Non-degenerate and Degenerate Perturbation theory</title>
+      <link>/resources/chapter-1-non-degenerate-and-degenerate-perturbation-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-1-non-degenerate-and-degenerate-perturbation-theory/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 2: Hydrogen Fine Structure</title>
+      <link>/resources/chapter-2-hydrogen-fine-structure/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-2-hydrogen-fine-structure/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 3: Semiclassical Approximation</title>
+      <link>/resources/chapter-3-semiclassical-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-3-semiclassical-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 4: Time Dependent Perturbation Theory</title>
+      <link>/resources/chapter-4-time-dependent-perturbation-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-4-time-dependent-perturbation-theory/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 6: Adiabatic Approximation</title>
+      <link>/resources/chapter-6-adiabatic-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-6-adiabatic-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 7: Scattering</title>
+      <link>/resources/chapter-7-scattering/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-7-scattering/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 8: Summary of Connection Formulas</title>
+      <link>/resources/chapter-8-summary-of-connection-formulas/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter-8-summary-of-connection-formulas/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.4 Charged particles in EM fields: potentials and gauge invariance transcript</title>
+      <link>/resources/xvz-liuii7a_transcript/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/xvz-liuii7a_transcript/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L13.5 Charged particles in EM fields: Schrodinger equation transcript</title>
+      <link>/resources/yhffsuyggaq_transcript/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/yhffsuyggaq_transcript/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Chapter 1: &lt;a href=&#34;../../resources/chapter-1-non-degenerate-and-degenerate-perturbation-theory/index.html&#34;&gt;Perturbation Theory (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 2: &lt;a href=&#34;../../resources/chapter-2-hydrogen-fine-structure/index.html&#34;&gt;Hydrogen Fine Structure (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 3: &lt;a href=&#34;../../resources/chapter-3-semiclassical-approximation/index.html&#34;&gt;Semiclassical Approximation (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 4: &lt;a href=&#34;../../resources/chapter-4-time-dependent-perturbation-theory/index.html&#34;&gt;Time Dependent Perturbation Theory (PDF - 1.1MB)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 5: Particles in Electromagnetic Fields [not available]&lt;/p&gt;&#xA;&lt;p&gt;Chapter 6: &lt;a href=&#34;../../resources/chapter-6-adiabatic-approximation/index.html&#34;&gt;Adiabatic Approximation (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 7: &lt;a href=&#34;../../resources/chapter-7-scattering/index.html&#34;&gt;Scattering (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chapter 8: &lt;a href=&#34;../../resources/chapter-8-summary-of-connection-formulas/index.html&#34;&gt;Identical Particles (PDF)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

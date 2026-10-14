@@ -1,0 +1,96 @@
+{
+  "course_description": "Statistical Mechanics is a probabilistic approach to equilibrium properties of large numbers of degrees of freedom. In this two-semester course, basic principles are examined. Topics include: Thermodynamics, probability theory, kinetic theory, classical statistical mechanics, interacting systems, quantum statistical mechanics, and identical particles.\n",
+  "course_description_html": "Statistical Mechanics is a probabilistic approach to equilibrium properties of large numbers of degrees of freedom. In this two-semester course, basic principles are examined. Topics include: Thermodynamics, probability theory, kinetic theory, classical statistical mechanics, interacting systems, quantum statistical mechanics, and identical particles.",
+  "course_image": {
+    "content": "451d74d2-6c16-3467-208d-2c423a69b95c",
+    "website": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/451d74d26c163467208d2c423a69b95c_8-333f13.jpg",
+    "file_size": 76494,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A digitally modified image of a sand dune, which served as the inspiration for the cover of Prof. Kardar's textbook _Statistical Physics of Particles_. (Image by Mehran Kardar)",
+      "credit": "",
+      "image-alt": "A sequence of dots in a variety of color that look like grains of sand."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "8-333f13.jpg",
+    "uid": "451d74d2-6c16-3467-208d-2c423a69b95c"
+  },
+  "course_image_thumbnail": {
+    "content": "da83eab1-9c70-969a-0573-81039f5b4ce9",
+    "website": "8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013"
+  },
+  "course_title": "Statistical Mechanics I:  Statistical Mechanics of Particles",
+  "department_numbers": [
+    "8"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/451d74d26c163467208d2c423a69b95c_8-333f13.jpg",
+  "instructors": [
+    {
+      "first_name": "Mehran",
+      "last_name": "Kardar",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Mehran Kardar",
+      "uid": "5ca75388-b83e-6c39-f97d-8f49f7f012b4",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Mehran+Kardar"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Problem Sets",
+    "Lecture Notes"
+  ],
+  "legacy_uid": "4fa4ac0a-9ee2-d26b-a760-c400aa053e26",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Mathematics"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "8.333",
+  "site_short_id": "8.333-fall-2013",
+  "site_uid": "905039bd-13d8-4ef1-b90c-7c130180d9fb",
+  "site_url_path": "courses/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Mathematics",
+      "Probability and Statistics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Particle Physics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Quantum Mechanics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Thermodynamics"
+    ]
+  ],
+  "year": "2013"
+}

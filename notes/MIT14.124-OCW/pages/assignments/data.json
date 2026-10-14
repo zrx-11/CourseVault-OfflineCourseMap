@@ -1,0 +1,16 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nProblem Sets\n</th>\n\n<th>\n\nProblem Set Solutions\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset1/index.html\">Problem Set 1 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset1_sol/index.html\">Problem Set 1 Solutions (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset2/index.html\">Problem Set 2 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset2_sol/index.html\">Problem Set 2 Solutions (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset3/index.html\">Problem Set 3 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset3_sol/index.html\">Problem Set 3 Solutions (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset4/index.html\">Problem Set 4 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit14_124s17_pset4_sol/index.html\">Problem Set 4 Solutions (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section contains problem sets with solutions. ",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "b4342457-8658-628e-ce4d-d45b7126e95e"
+}
+

@@ -1,0 +1,32 @@
+{
+  "body": "",
+  "content": "<p>A close-up of the printed text of John Eliot&rsquo;s 1663 translation of the Bible.</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/24-900-introduction-to-linguistics-spring-2022/24-900s22-th.jpg",
+  "file_size": 6495,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A portion of the 23rd Psalm, as translated by John Eliot into the language of the indigenous Wampanoag people of Massachusetts in the late 16th century. In the 21st century, that translation and other surviving written documents have formed the basis for efforts to re-establish Wampanoag as a living language. (Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}.)",
+    "credit": "Public domain image courtesy of the {{% resource_link \"40e914bb-4a61-46e0-8464-e71413ad98fa\" \"Internet Archive\" %}}",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Image",
+  "title": "24-900s22-th.jpg",
+  "uid": "def0ab47-db7e-46f8-b2d1-830d7b4ff8ea",
+  "video_files": {
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

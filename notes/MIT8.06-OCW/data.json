@@ -1,0 +1,84 @@
+{
+  "course_description": "This course is a continuation of [*8.05 Quantum Physics II*](/courses/8-05-quantum-physics-ii-fall-2013/). It introduces some of the important model systems studied in contemporary physics, including two-dimensional electron systems, the fine structure of hydrogen, lasers, and particle scattering. The lectures and lecture notes for this course form the basis of Zwiebach’s textbook *Mastering Quantum Mechanics* published by {{% resource_link \"72ac1d19-0329-4eba-82bf-fc12a83ec946\" \"MIT Press\" %}} in April 2022.",
+  "course_description_html": "This course is a continuation of <a href=\"https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/\" target=\"_blank\" rel=\"noopener\"><em>8.05 Quantum Physics II</em></a>. It introduces some of the important model systems studied in contemporary physics, including two-dimensional electron systems, the fine structure of hydrogen, lasers, and particle scattering. The lectures and lecture notes for this course form the basis of Zwiebach’s textbook <em>Mastering Quantum Mechanics</em> published by <a   class=\"external-link \"   target=\"_blank\"   href=\"https://mitpress.mit.edu/books/mastering-quantum-mechanics\"  aria-label=\"MIT Press (opens in a new tab)\"  >MIT Press</a> in April 2022.",
+  "course_image": {
+    "content": "7e06e41a-ca11-8a29-6f88-1bd3c53a520f",
+    "website": "8-06-quantum-physics-iii-spring-2018"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/8-06-quantum-physics-iii-spring-2018/7e06e41aca118a296f881bd3c53a520f_8-06s18.jpg",
+    "file_size": 13596,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Weak field Zeeman effect, in which splittings of hydrogen atom degenerate multiplets due to an external magnetic field are smaller than fine-structure effect. (Image courtesy of {{% resource_link \"b9ac7a22-9ce2-4597-ba6a-66e30214da8a\" \"Evgeny at English Wikipedia\" %}}. License CC BY.)",
+      "credit": "(Image courtesy of Evgeny at English Wikipedia. License CC BY)",
+      "image-alt": "Two sets of horizontal and vertical lines with labels next to the horizontal lines and arrows at the bottom ends of the vertical lines."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "8-06s18.jpg",
+    "uid": "7e06e41a-ca11-8a29-6f88-1bd3c53a520f"
+  },
+  "course_image_thumbnail": {
+    "content": "0725cf37-c5f1-70f7-6cc2-af38e7bceda8",
+    "website": "8-06-quantum-physics-iii-spring-2018"
+  },
+  "course_title": "Quantum Physics III",
+  "department_numbers": [
+    "8"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/7e06e41aca118a296f881bd3c53a520f_8-06s18.jpg",
+  "instructors": [
+    {
+      "first_name": "Barton",
+      "last_name": "Zwiebach",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Barton Zwiebach",
+      "uid": "8a059de4-4694-c03f-61e8-c6f0b9e8babe",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Barton+Zwiebach"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Problem Sets",
+    "Lecture Notes",
+    "Projects"
+  ],
+  "legacy_uid": "a22f7727-cc30-0af4-3a17-359b6652aa86",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "8.06",
+  "site_short_id": "8.06-spring-2018",
+  "site_uid": "e7abfec3-bb7b-4ffe-9ce0-1e84d8fcc62d",
+  "site_url_path": "courses/8-06-quantum-physics-iii-spring-2018",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Physics",
+      "Quantum Mechanics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Theoretical Physics"
+    ]
+  ],
+  "year": "2018"
+}
