@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>名校公开课学习路径地图（离线版）— 数学 / 计算机 / 哲学 / 经济金融 / 物理</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232C4A6E'/%3E%3Cpath d='M7 9h13v14H7z' fill='none' stroke='%23F6F4EF' stroke-width='2'/%3E%3Cpath d='M12 9v14' stroke='%23F6F4EF' stroke-width='2'/%3E%3Cpath d='M17 13h4M17 16h4M17 19h4' stroke='%23C89A5B' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="katex/katex.min.css">
+<style>
+  :root{
+    --paper:#F6F4EF;
+    --paper-2:#EFEDE6;
+    --card:#FCFBF8;
+    --ink:#25282E;
+    --ink-soft:#5B6070;
+    --ink-faint:#8A8E99;
+    --blue:#2C4A6E;
+    --blue-soft:#E4E9F0;
+    --ochre:#9A6A1F;
+    --ochre-soft:#F2E8D6;
+    --line:#D9D5CB;
+    --line-soft:#E7E3D9;
+    --ok:#3F6B4F;
+    --serif:"Noto Serif SC",serif,"Songti SC","SimSun";
+    --sans:"Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    --mono:ui-monospace,"Cascadia Code","JetBrains Mono",Consolas,"Courier New",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    font-size:15.5px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--ochre-soft);color:var(--ink)}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+
+  /* ===== 顶部 ===== */
+  .masthead{
+    border-bottom:1px solid var(--line);
+    background:var(--paper);
+    padding:56px 0 40px;
+  }
+  .masthead .kicker{
+    font-family:var(--mono);
+    font-size:12.5px;
+    letter-spacing:.14em;
+    color:var(--ochre);
+    text-transform:none;
+    margin-bottom:14px;
+  }
+  .masthead h1{
+    font-family:var(--serif);
+    font-weight:900;
+    font-size:clamp(28px,4.6vw,44px);
+    line-height:1.25;
+    letter-spacing:.01em;
+  }
+  .masthead h1 .blue{color:var(--blue)}
+  .masthead .sub{
+    margin-top:14px;
+    color:var(--ink-soft);
+    max-width:46em;
+    font-size:15px;
+  }
+  .stats{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0;
+    margin-top:26px;
+    border:1px solid var(--line);
+    background:var(--card);
+  }
+  .stats .cell{
+    flex:1 1 0;
+    min-width:130px;
+    padding:14px 18px;
+    border-right:1px solid var(--line-soft);
+  }
+  .stats .cell:last-child{border-right:none}
+  .stats .n{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:26px;
+    color:var(--blue);
+    line-height:1.2;
+  }
+  .stats .t{font-size:12.5px;color:var(--ink-soft)}
+
+  /* ===== 目录 ===== */
+  .toc{
+    position:sticky;
+    top:0;
+    z-index:50;
+    background:rgba(246,244,239,.96);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .toc .inner{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    overflow-x:auto;
+    padding:0 22px;
+    max-width:1060px;
+    margin:0 auto;
+    scrollbar-width:none;
+  }
+  .toc .inner::-webkit-scrollbar{display:none}
+  .toc a{
+    white-space:nowrap;
+    padding:11px 10px;
+    font-size:13px;
+    color:var(--ink-soft);
+    text-decoration:none;
+    border-bottom:2px solid transparent;
+    font-weight:500;
+  }
+  .toc a:hover{color:var(--ink)}
+  .toc a.on{color:var(--blue);border-bottom-color:var(--blue)}
+
+  /* ===== 章节 ===== */
+  section{
+    padding:46px 0 8px;
+    border-top:1px solid var(--line-soft);
+  }
+  section:first-of-type{border-top:none;padding-top:36px}
+  .sec-head{
+    display:flex;
+    align-items:baseline;
+    gap:16px;
+    margin-bottom:8px;
+  }
+  .sec-no{
+    font-family:var(--mono);
+    font-size:13px;
+    color:var(--ochre);
+    border:1px solid var(--ochre);
+    padding:2px 9px;
+    border-radius:3px;
+    flex:none;
+  }
+  .sec-head h2{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:24px;
+    line-height:1.3;
+  }
+  .sec-sub{
+    color:var(--ink-soft);
+    font-size:14px;
+    max-width:60em;
+    margin:4px 0 22px;
+  }
+  .sec-sub b{color:var(--blue);font-weight:700}
+
+  /* ===== 全局路径时间轴 ===== */
+  .path{
+    display:grid;
+    grid-template-columns:92px 26px 1fr;
+    row-gap:0;
+  }
+  .path .plabel{
+    justify-self:end;
+    padding:14px 10px 14px 0;
+    text-align:right;
+  }
+  .path .plabel .stage{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-faint);
+    letter-spacing:.08em;
+  }
+  .path .plabel .pname{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:15px;
+    color:var(--blue);
+    line-height:1.4;
+    margin-top:3px;
+  }
+  .path .pdot{
+    justify-self:center;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .path .pdot::before{
+    content:"";
+    position:absolute;
+    top:0;bottom:0;left:50%;
+    width:2px;
+    transform:translateX(-50%);
+    background:var(--line);
+  }
+  .path:first-child .pdot::before{display:none}
+  .path .pdot .d{
+    position:relative;
+    z-index:1;
+    width:13px;height:13px;
+    border-radius:50%;
+    background:var(--paper);
+    border:3px solid var(--blue);
+  }
+  .path .pcontent{
+    padding:10px 0 26px 8px;
+  }
+  .path .pgoal{
+    font-size:13px;
+    color:var(--ink-soft);
+    margin:0 0 10px;
+  }
+  .flow{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:7px;
+  }
+  .chip{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:5px 10px;
+    font-size:12.5px;
+    text-decoration:none;
+    color:var(--ink);
+    transition:border-color .15s;
+  }
+  .chip:hover{border-color:var(--blue)}
+  .chip .code{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--blue);
+    font-weight:700;
+  }
+  .chip .school{
+    font-size:11px;
+    color:var(--ink-faint);
+  }
+  .flow .arrow{
+    color:var(--ink-faint);
+    font-size:12px;
+    font-family:var(--mono);
+  }
+  .flow .fork{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ochre);
+    margin:0 2px;
+  }
+
+  /* ===== 课程条目 ===== */
+  .course{
+    display:grid;
+    grid-template-columns:150px 1fr;
+    gap:0;
+    margin-bottom:14px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:3px solid var(--blue);
+  }
+  .course .side{
+    padding:14px 14px 14px 16px;
+    border-right:1px solid var(--line-soft);
+    background:var(--paper-2);
+  }
+  .course .side .code{
+    font-family:var(--mono);
+    font-weight:700;
+    font-size:17px;
+    color:var(--blue);
+    line-height:1.25;
+    word-break:break-word;
+  }
+  .course .side .school{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-top:3px;
+  }
+  .course .side .tag{
+    display:inline-block;
+    margin-top:8px;
+    font-size:11px;
+    color:var(--ochre);
+    border:1px solid var(--ochre);
+    border-radius:3px;
+    padding:1px 7px;
+  }
+  .course .body{padding:14px 18px 14px 16px;min-width:0}
+  .course .body .name{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:16.5px;
+    line-height:1.4;
+    margin-bottom:3px;
+  }
+  .course .body .one{
+    font-size:13px;
+    color:var(--blue);
+    font-weight:500;
+    margin-bottom:7px;
+  }
+  .course .body p.desc{
+    font-size:14px;
+    color:var(--ink);
+    margin-bottom:7px;
+  }
+  .course .meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 16px;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    border-top:1px dashed var(--line);
+    padding-top:8px;
+    margin-top:8px;
+  }
+  .course .meta .m b{color:var(--ink);font-weight:600}
+  .course .meta .m.prereq b{color:var(--ochre)}
+  .repo{
+    margin-top:9px;
+    background:var(--blue-soft);
+    border-radius:3px;
+    padding:8px 12px;
+    font-size:12.5px;
+    color:var(--ink);
+  }
+  .repo .rlabel{
+    font-size:11px;
+    font-family:var(--mono);
+    letter-spacing:.06em;
+    color:var(--blue);
+    font-weight:700;
+    margin-right:6px;
+  }
+  .repo a{
+    color:var(--blue);
+    text-decoration:none;
+    border-bottom:1px dotted var(--blue);
+    display:inline-block;
+    margin:2px 6px 2px 0;
+    word-break:break-word;
+  }
+  .repo a:hover{border-bottom-style:solid}
+  .repo .note{color:var(--ink-soft);font-size:12px;display:block;margin-top:2px}
+
+  /* ===== 工具箱 ===== */
+  .tools{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+    margin-top:6px;
+  }
+  .tool{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-top:3px solid var(--ochre);
+    padding:16px 18px;
+  }
+  .tool h4{
+    font-family:var(--serif);
+    font-size:15.5px;
+    margin-bottom:6px;
+  }
+  .tool h4 .cmd{
+    font-family:var(--mono);
+    font-size:13px;
+    color:var(--blue);
+    background:var(--blue-soft);
+    padding:1px 7px;
+    border-radius:3px;
+  }
+  .tool p{font-size:13.5px;color:var(--ink-soft)}
+  .tool code{
+    font-family:var(--mono);
+    font-size:12px;
+    background:var(--paper-2);
+    border:1px solid var(--line-soft);
+    border-radius:3px;
+    padding:1px 5px;
+    color:var(--ink);
+  }
+
+  /* ===== 清单 ===== */
+  .pick{
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:4px 20px 16px;
+  }
+  .pick ol{
+    list-style:none;
+    counter-reset:pc;
+  }
+  .pick li{
+    counter-increment:pc;
+    display:grid;
+    grid-template-columns:34px 1fr;
+    gap:10px;
+    align-items:baseline;
+    padding:12px 0;
+    border-bottom:1px dashed var(--line-soft);
+  }
+  .pick li:last-child{border-bottom:none}
+  .pick li::before{
+    content:counter(pc,decimal-leading-zero);
+    font-family:var(--mono);
+    font-size:13px;
+    color:var(--ochre);
+  }
+  .pick .pk{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:15px;
+  }
+  .pick .pd{
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+
+  /* ===== 页脚 ===== */
+  footer{
+    margin-top:44px;
+    border-top:1px solid var(--line);
+    padding:22px 0 44px;
+    font-size:12.5px;
+    color:var(--ink-faint);
+  }
+  footer .inner{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:8px;
+    max-width:1060px;
+    margin:0 auto;
+    padding:0 22px;
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width:720px){
+    body{font-size:14.5px}
+    .masthead{padding:38px 0 30px}
+    .stats .cell{min-width:calc(50% - 1px);border-bottom:1px solid var(--line-soft)}
+    .stats .cell:nth-child(2n){border-right:none}
+    .tools{grid-template-columns:1fr}
+    .course{grid-template-columns:1fr}
+    .course .side{
+      border-right:none;
+      border-bottom:1px solid var(--line-soft);
+      padding:10px 16px;
+      display:flex;
+      align-items:baseline;
+      gap:12px;
+    }
+    .course .side .tag{margin-top:0;margin-left:auto}
+    .path{grid-template-columns:64px 20px 1fr}
+    .path .plabel .pname{font-size:13.5px}
+    .path .plabel .stage{font-size:11px}
+    .flow{gap:5px}
+    .flow .chip{min-height:44px;align-items:center;padding:7px 11px}
+    .chip .code{font-size:12px}
+    .chip .school{font-size:11.5px}
+  }
+  .offline-banner{
+    background:var(--ochre-soft);
+    border:1px solid var(--ochre);
+    border-radius:4px;
+    padding:10px 16px;
+    font-size:13.5px;
+    color:var(--ink);
+    margin:18px 0 0;
+  }
+  .offline-banner b{color:var(--ochre)}
+  .offline-banner code{
+    font-family:var(--mono);
+    font-size:12px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:1px 6px;
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">OPEN COURSE MAP · 公开课学习路径地图 · 2026</div>
+    <h1>名校公开课<span class="blue">学习路径地图</span></h1>
+    <p class="sub">把数学、计算机、哲学、经济金融、物理等领域的研究生级公开课，按「前置关系与学习顺序」重排成一张可执行的地图。每门课附带定位、内容、前置要求、GitHub 系统笔记仓库与自学提示——可读性内容全部合并进课程条目，按顺序读即可。</p>
+    <div class="stats">
+      <div class="cell"><div class="n">9</div><div class="t">学科方向</div></div>
+      <div class="cell"><div class="n">35</div><div class="t">门公开课</div></div>
+      <div class="cell"><div class="n">14</div><div class="t">GitHub 笔记仓库</div></div>
+      <div class="cell"><div class="n">6</div><div class="t">学习阶段</div></div>
+    </div>
+    <div class="offline-banner"><b>离线版</b>：本页面零联网即可使用。课程资料已下载到同级 <code>notes/</code> 文件夹，下方「本地资料」链接直接打开本地文件；<code>katex/</code> 为本地公式渲染库。原列表中的部分 GitHub 外链经核实不存在，已替换为真实可下载的官方讲义 / 课程资料包（详见包内 <code>资源核验说明.md</code>）。</div>
+  </div>
+</header>
+
+<nav class="toc" id="toc">
+  <div class="inner" id="tocInner">
+    <a href="#map">全局路径</a>
+    <a href="#sec-math">数学地基</a>
+    <a href="#sec-prob">概率统计与信息</a>
+    <a href="#sec-cs">计算机系统</a>
+    <a href="#sec-sec">安全与密码</a>
+    <a href="#sec-gfx">图形与视觉</a>
+    <a href="#sec-rob">机器人与决策</a>
+    <a href="#sec-eco">经济与金融</a>
+    <a href="#sec-phil">哲学与语言</a>
+    <a href="#sec-phy">物理深化</a>
+    <a href="#sec-more">数学深造</a>
+    <a href="#sec-tools">自学工具箱</a>
+    <a href="#sec-pick">优先入坑</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ===== 全局学习路径 ===== -->
+<section id="map">
+  <div class="sec-head">
+    <span class="sec-no">00</span>
+    <h2>全局学习路径：按顺序从地基到方向</h2>
+  </div>
+  <p class="sec-sub">前置关系即学习顺序。<b>阶段 0 是所有人都值得先打的数学地基</b>；阶段 1 是概率统计与信息论的延伸；阶段 2 是计算机系统核心；阶段 3 起按兴趣分岔，各方向内部严格按箭头顺序推进。</p>
+
+  <div id="pathWrap">
+
+    <div class="path">
+      <div class="plabel"><div class="stage">PHASE 0</div><div class="pname">数学地基<br>（全员必打）</div></div>
+      <div class="pdot"><span class="d"></span></div>
+      <div class="pcontent">
+        <p class="pgoal">分析、代数、测度、概率、优化五块基石。后续统计、经济金融、CS 系统、物理全都要从这里借工具。</p>
+        <div class="flow">
+          <a class="chip" href="#c-18100"><span class="code">MIT 18.100</span>实分析<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-18701"><span class="code">MIT 18.701</span>抽象代数<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-210"><span class="code">MATH 210</span>测度论<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-210p"><span class="code">STAT 210</span>测度概率<span class="school">Berkeley</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-ee364a"><span class="code">EE 364A</span>凸优化<span class="school">Stanford</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="plabel"><div class="stage">PHASE 1</div><div class="pname">概率统计<br>与信息延伸</div></div>
+      <div class="pdot"><span class="d"></span></div>
+      <div class="pcontent">
+        <p class="pgoal">在测度概率之上继续：随机过程衔接金融与物理，统计衔接实证研究，信息论衔接编码、压缩与 NLP 底层思想。</p>
+        <div class="flow">
+          <a class="chip" href="#c-18175"><span class="code">MIT 18.175</span>随机过程<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-18650"><span class="code">MIT 18.650</span>应用统计<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-ee276"><span class="code">EE 276</span>信息论<span class="school">Stanford</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="plabel"><div class="stage">PHASE 2</div><div class="pname">计算机系统<br>核心</div></div>
+      <div class="pdot"><span class="d"></span></div>
+      <div class="pcontent">
+        <p class="pgoal">从语言到机器的一条纵线：编译 → 操作系统 → 网络 → 分布式 → 数据库，全部是「动手实现一个系统」的硬课。</p>
+        <div class="flow">
+          <a class="chip" href="#c-cs143"><span class="code">CS 143</span>编译原理<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-cs162"><span class="code">CS 162</span>操作系统<span class="school">Berkeley</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-cs144"><span class="code">CS 144</span>计算机网络<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-6824"><span class="code">6.824</span>分布式系统<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-cs186"><span class="code">CS 186</span>数据库<span class="school">Berkeley</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="plabel"><div class="stage">PHASE 3</div><div class="pname">方向分岔<br>（按兴趣选一）</div></div>
+      <div class="pdot"><span class="d"></span></div>
+      <div class="pcontent">
+        <p class="pgoal">六条支线相互独立，任选一条深入。箭头即课程顺序，全部延续到专业级。</p>
+        <div class="flow">
+          <span class="fork">A</span>
+          <a class="chip" href="#c-cs161"><span class="code">CS 161</span>计算机安全<span class="school">Berkeley</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-6875"><span class="code">6.875</span>高级密码学<span class="school">MIT</span></a>
+          <span class="arrow">·</span>
+          <span class="fork">B</span>
+          <a class="chip" href="#c-cs231a"><span class="code">CS 231A</span>计算机视觉<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-cs248"><span class="code">CS 248</span>图形学<span class="school">Stanford</span></a>
+          <span class="arrow">·</span>
+          <span class="fork">C</span>
+          <a class="chip" href="#c-cs223a"><span class="code">CS 223A</span>机器人学<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-aa203"><span class="code">AA 203</span>强化学习<span class="school">Stanford</span></a>
+        </div>
+        <div class="flow" style="margin-top:8px">
+          <span class="fork">D</span>
+          <a class="chip" href="#c-1412"><span class="code">14.12</span>高级微观<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-1414"><span class="code">14.14</span>高级宏观<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-ec202"><span class="code">Econ 202</span>博弈论<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-ec210"><span class="code">Econ 210</span>计量经济<span class="school">Berkeley</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-15450"><span class="code">15.450</span>金融理论<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-ms245"><span class="code">MS&amp;E 245</span>投资科学<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-h231a"><span class="code">HAAS 231A</span>资产定价<span class="school">Berkeley</span></a>
+        </div>
+        <div class="flow" style="margin-top:8px">
+          <span class="fork">E</span>
+          <a class="chip" href="#c-24900"><span class="code">24.900</span>理论语言学<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-24500"><span class="code">24.500</span>语言哲学<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-24501"><span class="code">24.501</span>形而上学<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-phil242"><span class="code">PHIL 242</span>知识论<span class="school">Berkeley</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-phil270"><span class="code">PHIL 270</span>科学哲学<span class="school">Stanford</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-oxlog"><span class="code">Oxford</span>逻辑哲学<span class="school">Oxford</span></a>
+          <span class="arrow">·</span>
+          <span class="fork">F</span>
+          <a class="chip" href="#c-806"><span class="code">8.06</span>量子力学 III<span class="school">MIT</span></a>
+          <span class="arrow">→</span>
+          <a class="chip" href="#c-8333"><span class="code">8.333</span>统计力学<span class="school">MIT</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="plabel"><div class="stage">PHASE 4</div><div class="pname">数学深造<br>（可选）</div></div>
+      <div class="pdot"><span class="d"></span></div>
+      <div class="pcontent">
+        <p class="pgoal">读完测度论与代数之后，想走纯数学路线可继续。</p>
+        <div class="flow">
+          <a class="chip" href="#c-math248"><span class="code">Math 248</span>代数拓扑<span class="school">Berkeley</span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== 学科一：数学地基 ===== -->
+<section id="sec-math">
+  <div class="sec-head">
+    <span class="sec-no">01</span>
+    <h2>数学地基：分析 · 代数 · 测度 · 概率 · 优化</h2>
+  </div>
+  <p class="sec-sub">这是整张地图的地基。<b>建议顺序：实分析 → 代数 → 测度论 → 概率论 → 凸优化</b>，前四门是严格证明训练，凸优化是通向工程、统计、经济学的枢纽课。</p>
+
+  <div class="course" id="c-18100">
+    <div class="side"><div class="code">MIT 18.100</div><div class="school">MIT · Real Analysis</div><span class="tag">分析</span></div>
+    <div class="body">
+      <div class="name">实分析 Real Analysis</div>
+      <div class="one">本科高年级 / 研一 · Baby Rudin 配套</div>
+      <p class="desc">极限、收敛、度量空间、紧致性、连续性与一致连续、Riemann 积分的严格化。整门课就是「把直觉变成 ε-δ 证明」的训练，是所有后续严格数学的第一道关。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>微积分、线性代数、初等证明经验</span>
+        <span class="m prereq"><b>通向：</b>测度论、概率论、泛函、拓扑</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT18.100A-rmwu/18-100a-notes.pdf">MIT 学生原版 LaTeX 逐讲笔记 PDF</a> ·
+        <a href="./notes/MIT18.100A-OCW/">MIT OCW 完整课程包（讲义+作业）</a>
+        <span class="note">rmwu 课堂笔记 PDF 与 OCW 官方课程资料，纯本地可读。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-18701">
+    <div class="side"><div class="code">MIT 18.701</div><div class="school">MIT · Algebra I</div><span class="tag">代数</span></div>
+    <div class="body">
+      <div class="name">抽象代数 Algebra I</div>
+      <div class="one">研究生代数入门标准课</div>
+      <p class="desc">群、环、域三大结构的系统展开：商群、同构定理、多项式环、域的扩张与 Galois 理论的引子。证明导向，与实分析并行学效果最佳。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>线性代数</span>
+        <span class="m prereq"><b>通向：</b>代数拓扑、数论、现代密码学（6.875 的数学底座）</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-210">
+    <div class="side"><div class="code">MATH 210</div><div class="school">Stanford · Measure Theory</div><span class="tag">测度</span></div>
+    <div class="body">
+      <div class="name">测度论 Measure Theory</div>
+      <div class="one">实分析的延续，概率论的前置</div>
+      <p class="desc">σ-代数、Lebesgue 测度与积分、收敛定理、乘积测度与 Fubini。Lebesgue 积分取代 Riemann 积分后，极限与积分才能自由交换——这是现代概率、统计、泛函分析的共同地基。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>MIT 18.100 / 等价实分析</span>
+        <span class="m prereq"><b>通向：</b>STAT 210、随机过程、泛函分析</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-210p">
+    <div class="side"><div class="code">STAT 210</div><div class="school">Berkeley · Probability Theory</div><span class="tag">概率</span></div>
+    <div class="body">
+      <div class="name">概率论（研究生）Probability Theory</div>
+      <div class="one">基于测度论的严格概率，研究生概率标准</div>
+      <p class="desc">概率空间、随机变量、期望、条件期望、大数定律与中心极限定理的严格证明。本科概率是算题，这门课才真正建立概率的数学结构。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>测度论（MATH 210）</span>
+        <span class="m prereq"><b>通向：</b>随机过程、金融数学、信息论、统计力学</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-ee364a">
+    <div class="side"><div class="code">EE 364A</div><div class="school">Stanford · Convex Optimization</div><span class="tag">优化</span></div>
+    <div class="body">
+      <div class="name">凸优化 Convex Optimization（Boyd）</div>
+      <div class="one">全地图最推荐的一门枢纽课 · 理论推导 + 数值编程作业</div>
+      <p class="desc">凸集、凸函数、对偶理论、KKT 条件、内点法。Boyd 的课程结构完美：证明跟着直觉走，编程作业用 CVXPY 把理论落地。工程、统计、经济、机器学习四大学科的共用工具。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>线性代数 + 基础分析（不需测度论）</span>
+        <span class="m prereq"><b>通向：</b>控制、计量、金融、机器学习</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/EE364A-Stanford-lectures/lectures.pdf">EE364A 官方讲义全集 lectures.pdf</a> ·
+        <a href="./notes/EE364A-Stanford-lectures/">全部讲义 PDF</a> ·
+        <a href="./notes/PKUFlyingPig__Standford_CVX101/">作业实现与资源汇总（真实仓库）</a>
+        <span class="note">Stanford 官网公开讲义 23 份 + 北大学生的完整作业实现仓库，纯本地可读。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科二：概率统计与信息论 ===== -->
+<section id="sec-prob">
+  <div class="sec-head">
+    <span class="sec-no">02</span>
+    <h2>概率统计与信息论延伸</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：随机过程 → 应用统计 → 信息论</b>。随机过程承接金融与物理，统计衔接实证研究，信息论是编码、压缩与概率模型的思想源头。</p>
+
+  <div class="course" id="c-18175">
+    <div class="side"><div class="code">MIT 18.175</div><div class="school">MIT · Stochastic Processes</div><span class="tag">随机过程</span></div>
+    <div class="body">
+      <div class="name">随机过程 Stochastic Processes</div>
+      <div class="one">马尔可夫链 · 布朗运动 · 鞅</div>
+      <p class="desc">离散与连续时间马尔可夫链、泊松过程、布朗运动、鞅论与停时。金融定价（15.450）、物理统计力学（8.333）的共同语言。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>STAT 210 或等价测度概率</span>
+        <span class="m prereq"><b>通向：</b>金融理论、排队论、统计力学</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT18.615-rmwu/18-615-notes.pdf">MIT 18.615 随机过程课堂笔记 PDF</a> ·
+        <a href="./notes/MIT18.445-OCW/">MIT OCW 随机过程课程包（讲义+作业）</a>
+        <span class="note">原列 GitHub 链接不存在，替换为 MIT 官方可下载的课堂笔记与 OCW 课程包。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-18650">
+    <div class="side"><div class="code">MIT 18.650</div><div class="school">MIT · Statistics for Applications</div><span class="tag">统计</span></div>
+    <div class="body">
+      <div class="name">应用统计 Statistics for Applications</div>
+      <div class="one">估计 · 假设检验 · 回归，兼顾理论与应用</div>
+      <p class="desc">极大似然、充分统计量、置信区间、似然比检验、线性回归与方差分析。不是纯理论课，每块结论都落到实证操作上，是计量经济学（Econ 210）的直接前置。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>本科概率 + 线性代数</span>
+        <span class="m prereq"><b>通向：</b>计量经济、实验设计、数据科学</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-ee276">
+    <div class="side"><div class="code">EE 276</div><div class="school">Stanford · Information Theory</div><span class="tag">信息论</span></div>
+    <div class="body">
+      <div class="name">信息论 Information Theory（Cover）</div>
+      <div class="one">熵 · 互信息 · 信道编码 · 率失真</div>
+      <p class="desc">Shannon 信息论的系统展开：熵与互信息、渐近等分性、信道容量、率失真理论。理解「信息是什么」的最优路径，也是压缩、编码、NLP 概率建模的思想源头。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>测度概率（STAT 210）</span>
+        <span class="m prereq"><b>通向：</b>编码理论、机器学习理论、统计物理</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/EE376A-InformationTheory-scribes/lecture_notes.pdf">Stanford EE376A 信息论课堂笔记全集 PDF</a>
+        <span class="note">EE376A 与 EE276 同源（同课程不同编号），完整 scribes 课堂笔记，纯本地可读。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科三：计算机系统核心 ===== -->
+<section id="sec-cs">
+  <div class="sec-head">
+    <span class="sec-no">03</span>
+    <h2>计算机系统核心：从语言到机器的一条纵线</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：编译 → 操作系统 → 网络 → 分布式 → 数据库</b>。五门都是「动手实现一个系统」的硬课，作业质量和 CS336 / 6.824 同档，属于计算机底层的必修纵线。</p>
+
+  <div class="course" id="c-cs143">
+    <div class="side"><div class="code">CS 143</div><div class="school">Stanford · Compilers</div><span class="tag">编译</span></div>
+    <div class="body">
+      <div class="name">编译原理 Compilers</div>
+      <div class="one">词法 · 语法 · IR · 优化 · 代码生成</div>
+      <p class="desc">从正则表达式与文法，到递归下降、LR 解析、中间表示、数据流优化与代码生成。作业分阶段手写一个完整编译器前端，龙书配套。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>数据结构与汇编基础</span>
+        <span class="m prereq"><b>通向：</b>语言设计与实现、程序分析</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-cs162">
+    <div class="side"><div class="code">CS 162</div><div class="school">Berkeley · Operating Systems</div><span class="tag">系统</span></div>
+    <div class="body">
+      <div class="name">操作系统 Operating Systems</div>
+      <div class="one">进程 · 内存 · 文件系统 · 并发 · 分布式</div>
+      <p class="desc">经典 OS 课：进程与线程、调度、虚拟内存、文件系统、并发与锁、分布式系统引论。作业写简易 shell、内核组件与并发程序，B 站有完整录播。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>C 语言 + 计算机组成</span>
+        <span class="m prereq"><b>通向：</b>分布式、数据库、高性能计算</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-cs144">
+    <div class="side"><div class="code">CS 144</div><div class="school">Stanford · Computer Networks</div><span class="tag">网络</span></div>
+    <div class="body">
+      <div class="name">计算机网络 Computer Networks</div>
+      <div class="one">TCP/IP · 拥塞控制 · 路由</div>
+      <p class="desc">从物理层到应用层的协议栈：TCP 状态机、拥塞控制、IP 路由、DNS。编程作业手写简易 TCP 协议栈与 HTTP 客户端，公认神课。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>C/C++ + 基本系统知识</span>
+        <span class="m prereq"><b>通向：</b>分布式系统、网络安全、Web 后端</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-6824">
+    <div class="side"><div class="code">MIT 6.824</div><div class="school">MIT · Distributed Systems</div><span class="tag">分布式</span></div>
+    <div class="body">
+      <div class="name">分布式系统 Distributed Systems</div>
+      <div class="one">MapReduce · Raft · 分布式 KV · 一致性</div>
+      <p class="desc">系统领域天花板级课程：MapReduce、GFS、Raft 共识算法、分布式事务与一致性模型。作业实现完整 Raft 与容错 KV 存储，硬核到足以写进简历。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>OS（CS 162）+ 网络（CS 144）</span>
+        <span class="m prereq"><b>通向：</b>大规模系统、数据库内核、云原生</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-cs186">
+    <div class="side"><div class="code">CS 186</div><div class="school">Berkeley · Databases</div><span class="tag">数据库</span></div>
+    <div class="body">
+      <div class="name">数据库 Databases</div>
+      <div class="one">B+ 树 · 查询优化 · 事务 · MVCC</div>
+      <p class="desc">存储引擎（B+ 树、LSM）、查询执行与代价优化、事务与隔离级别、MVCC。作业手写存储引擎与查询执行器，把 6.824 学到的一致性落到数据库内核。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>OS + 数据结构</span>
+        <span class="m prereq"><b>通向：</b>数据库内核、大数据系统</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科四：安全与密码 ===== -->
+<section id="sec-sec">
+  <div class="sec-head">
+    <span class="sec-no">04</span>
+    <h2>安全与密码：先攻防，后理论</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：CS 161 → 6.875</b>。先通过攻防实战建立威胁模型，再进入可证明安全的密码学理论。</p>
+
+  <div class="course" id="c-cs161">
+    <div class="side"><div class="code">CS 161</div><div class="school">Berkeley · Computer Security</div><span class="tag">安全</span></div>
+    <div class="body">
+      <div class="name">计算机安全 Computer Security</div>
+      <div class="one">缓冲区溢出 · 内存安全 · Web 安全 · 侧信道</div>
+      <p class="desc">威胁建模、漏洞利用原理（溢出、注入、XSS）、CIA 三要素、认证与加密协议实战。Lab 是真实攻防环境，快速建立安全直觉。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>C 语言 + 网络基础</span>
+        <span class="m prereq"><b>通向：</b>密码学、系统安全、漏洞研究</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-6875">
+    <div class="side"><div class="code">MIT 6.875</div><div class="school">MIT · Advanced Cryptography</div><span class="tag">密码</span></div>
+    <div class="body">
+      <div class="name">高级密码学 Advanced Cryptography</div>
+      <div class="one">可证明安全 · 零知识证明 · 同态加密</div>
+      <p class="desc">研究生级密码理论：语义安全与不可区分性、安全多方计算、零知识证明、全同态加密。大量数学证明，抽象代数（18.701）是最好的前置。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>CS 161 + 抽象代数 + 概率</span>
+        <span class="m prereq"><b>通向：</b>密码学前沿、区块链技术</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科五：图形与视觉 ===== -->
+<section id="sec-gfx">
+  <div class="sec-head">
+    <span class="sec-no">05</span>
+    <h2>图形与视觉：传统方向的两条硬课</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：CS 231A → CS 248</b>。与传统「深度学习大模型」无关，专注几何、光照与相机模型的底层原理。</p>
+
+  <div class="course" id="c-cs231a">
+    <div class="side"><div class="code">CS 231A</div><div class="school">Stanford · Computer Vision</div><span class="tag">视觉</span></div>
+    <div class="body">
+      <div class="name">计算机视觉 Computer Vision</div>
+      <div class="one">图像 · 特征 · 相机几何 · 立体视觉</div>
+      <p class="desc">图像形成与相机模型、特征检测与匹配、单目/双目几何、光流与三维重建。偏传统 CV 与几何方法，不侧重神经网络，是视觉几何的扎实底座。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>线性代数 + 微积分</span>
+        <span class="m prereq"><b>通向：</b>三维视觉、SLAM、计算摄影</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-cs248">
+    <div class="side"><div class="code">CS 248</div><div class="school">Stanford · Computer Graphics</div><span class="tag">图形</span></div>
+    <div class="body">
+      <div class="name">计算机图形学 Computer Graphics</div>
+      <div class="one">光栅化 · 光线追踪 · 渲染管线</div>
+      <p class="desc">变换与齐次坐标、光栅化、着色模型、光线追踪与路径追踪、几何表示。作业从零写光线追踪器，图形学领域经典。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>线性代数 + C/C++</span>
+        <span class="m prereq"><b>通向：</b>实时渲染、物理模拟、电影特效</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科六：机器人与决策 ===== -->
+<section id="sec-rob">
+  <div class="sec-head">
+    <span class="sec-no">06</span>
+    <h2>机器人与决策：经典控制与经典强化学习</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：CS 223A → AA 203</b>。注意 AA 203 是经典 MDP 决策与控制，不是 LLM 对齐。</p>
+
+  <div class="course" id="c-cs223a">
+    <div class="side"><div class="code">CS 223A</div><div class="school">Stanford · Robotics</div><span class="tag">机器人</span></div>
+    <div class="body">
+      <div class="name">机器人学 Robotics</div>
+      <div class="one">运动学 · 动力学 · 轨迹规划</div>
+      <p class="desc">刚体变换与旋转表示、正逆运动学、雅可比与奇异位形、动力学与轨迹规划。机械臂与控制的基础，数学结构清晰。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>线性代数 + 微积分</span>
+        <span class="m prereq"><b>通向：</b>控制理论、规划算法、无人机</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-aa203">
+    <div class="side"><div class="code">AA 203</div><div class="school">Stanford · Reinforcement Learning</div><span class="tag">决策</span></div>
+    <div class="body">
+      <div class="name">强化学习 Reinforcement Learning（航空系）</div>
+      <div class="one">马尔可夫决策 · 动态规划 · 最优控制</div>
+      <p class="desc">MDP 建模、动态规划与策略迭代、LQR 与最优控制、RL 基础算法。经典决策与控制视角，凸优化与概率是隐性前置。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>CS 223A + 凸优化（EE 364A）</span>
+        <span class="m prereq"><b>通向：</b>控制理论、运筹优化、具身智能</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科七：经济与金融 ===== -->
+<section id="sec-eco">
+  <div class="sec-head">
+    <span class="sec-no">07</span>
+    <h2>经济与金融：从理论到定价的完整链条</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：高级微观 → 高级宏观 → 博弈论 → 计量 → 金融理论 → 投资科学 → 资产定价</b>。前四门是经济学理论核心，后三门转向金融资产定价，需要随机过程（18.175）作为数学工具。</p>
+
+  <div class="course" id="c-1412">
+    <div class="side"><div class="code">MIT 14.12</div><div class="school">MIT · Microeconomic Theory</div><span class="tag">微观</span></div>
+    <div class="body">
+      <div class="name">高级微观经济学 Microeconomic Theory</div>
+      <div class="one">效用 · 一般均衡 · 博弈论 · 机制设计引论</div>
+      <p class="desc">研究生微观标准课（MWG 配套）：偏好与效用、消费者/生产者理论、一般均衡与福利定理、博弈论与机制设计引子。数学化程度高，是经济理论的地基。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>本科微观 + 凸优化/实分析</span>
+        <span class="m prereq"><b>通向：</b>博弈论、机制设计、金融理论</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT14.124-OCW/">MIT OCW 14.124 高级微观课程包（MWG 配套讲义+作业）</a>
+        <span class="note">原列 GitHub 链接不存在，替换为 MIT OCW 官方课程资料（14.124 与 14.12 同源）。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-1414">
+    <div class="side"><div class="code">MIT 14.14</div><div class="school">MIT · Macroeconomic Theory</div><span class="tag">宏观</span></div>
+    <div class="body">
+      <div class="name">高级宏观经济学 Macroeconomic Theory</div>
+      <div class="one">增长理论 · DSGE · 货币理论</div>
+      <p class="desc">Solow 增长、Ramsey-Cass-Koopmans、跨期选择与 DSGE 模型、货币与通胀。以动态优化为主，数学工具是变分法与动态规划。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>14.12 + 动态优化基础</span>
+        <span class="m prereq"><b>通向：</b>宏观实证、政策研究、央行模型</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-ec202">
+    <div class="side"><div class="code">Econ 202</div><div class="school">Stanford · Game Theory</div><span class="tag">博弈</span></div>
+    <div class="body">
+      <div class="name">博弈论 Game Theory</div>
+      <div class="one">不完全信息 · 拍卖 · 机制设计</div>
+      <p class="desc">纳什均衡与精炼、贝叶斯博弈、拍卖理论与机制设计。经济、AI、多智能体系统三栖通用，思想性极强。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>14.12 或等价高级微观</span>
+        <span class="m prereq"><b>通向：</b>机制设计、市场设计、算法博弈</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-ec210">
+    <div class="side"><div class="code">Econ 210</div><div class="school">Berkeley · Econometrics</div><span class="tag">计量</span></div>
+    <div class="body">
+      <div class="name">计量经济学 Econometrics（研究生）</div>
+      <div class="one">识别 · 工具变量 · 大样本理论</div>
+      <p class="desc">在概率统计框架下做因果识别：OLS 与 GMM、工具变量、面板数据、大样本渐近理论。实证研究的看家本领，需要 18.650 的统计基础。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>18.650 或等价统计 + 线性代数</span>
+        <span class="m prereq"><b>通向：</b>实证研究、因果推断、政策评估</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-15450">
+    <div class="side"><div class="code">MIT 15.450</div><div class="school">MIT · Finance Theory</div><span class="tag">金融</span></div>
+    <div class="body">
+      <div class="name">金融理论 Finance Theory</div>
+      <div class="one">资产定价 · CAPM · 期权 · 连续时间金融</div>
+      <p class="desc">无套利定价、风险溢价与 CAPM、Black-Scholes 期权定价、连续时间金融与伊藤积分。金融数学化的核心课，随机过程是硬前置。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>18.175 随机过程 + 微观基础</span>
+        <span class="m prereq"><b>通向：</b>资产定价、衍生品、量化金融</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-ms245">
+    <div class="side"><div class="code">MS&amp;E 245</div><div class="school">Stanford · Investment Science</div><span class="tag">投资</span></div>
+    <div class="body">
+      <div class="name">投资科学 Investment Science</div>
+      <div class="one">投资组合 · 风险 · 衍生品</div>
+      <p class="desc">Luenberger 配套：均值-方差组合、风险度量、利率与债券、期权与实物期权。工程化视角讲金融，数学风格比 15.450 友好，适合衔接。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>概率 + 优化基础</span>
+        <span class="m prereq"><b>通向：</b>组合管理、量化策略</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-h231a">
+    <div class="side"><div class="code">HAAS 231A</div><div class="school">Berkeley · Asset Pricing</div><span class="tag">资产定价</span></div>
+    <div class="body">
+      <div class="name">资产定价 Asset Pricing</div>
+      <div class="one">随机贴现因子 SDF · 无套利理论</div>
+      <p class="desc">以随机贴现因子为统一框架重构资产定价：无套利、风险溢价、跨期定价核。研究生硬核金融课，15.450 的深化。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>15.450 + 随机过程</span>
+        <span class="m prereq"><b>通向：</b>金融学研究、因子投资</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科八：哲学与语言 ===== -->
+<section id="sec-phil">
+  <div class="sec-head">
+    <span class="sec-no">08</span>
+    <h2>哲学与语言：分析哲学一条线</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：理论语言学 → 语言哲学 → 形而上学 → 知识论 → 科学哲学 → 逻辑哲学</b>。哲学课无编程作业，替代的是大量原始文献阅读与论证写作；其中语言哲学与 NLP 的语义思想有奇妙联动。</p>
+
+  <div class="course" id="c-24900">
+    <div class="side"><div class="code">MIT 24.900</div><div class="school">MIT · Introduction to Linguistics</div><span class="tag">语言学</span></div>
+    <div class="body">
+      <div class="name">理论语言学导论 Introduction to Linguistics</div>
+      <div class="one">句法 · 音系 · 语义</div>
+      <p class="desc">人类语言本身的结构：音系学、形态学、句法学、语义学。与 CS224N 同源的起点，但完全不含神经网络，讲的是语言系统的内在规律。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>无</span>
+        <span class="m prereq"><b>通向：</b>语言哲学、计算语言学</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT24.900-OCW/">MIT OCW 24.900 理论语言学课程包（讲义+作业）</a>
+        <span class="note">MIT OCW 官方完整课程资料。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-24500">
+    <div class="side"><div class="code">MIT 24.500</div><div class="school">MIT · Philosophy of Language</div><span class="tag">语言哲学</span></div>
+    <div class="body">
+      <div class="name">语言哲学 Philosophy of Language</div>
+      <div class="one">弗雷格 · 罗素 · 维特根斯坦 · 克里普克</div>
+      <p class="desc">意义与指称问题：弗雷格的涵义/指称区分、罗素的摹状词理论、克里普克的专名与可能世界语义、维特根斯坦的意义即使用。自然语言语义研究的哲学地基。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>24.900 或对语义问题的基本了解</span>
+        <span class="m prereq"><b>通向：</b>形式语义学、NLP 语义建模的思想源头</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/tquadrivium__An-Introduction-to-the-Philosophy-of-Language/">语言哲学研读仓库（完整）</a>
+        <span class="note">已核实存在的真实仓库，论文导读 + 论证拆解，克隆到本地可离线阅读。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-24501">
+    <div class="side"><div class="code">MIT 24.501</div><div class="school">MIT · Metaphysics</div><span class="tag">形而上学</span></div>
+    <div class="body">
+      <div class="name">形而上学 Metaphysics</div>
+      <div class="one">存在 · 同一性 · 模态 · 因果</div>
+      <p class="desc">当代分析形而上学核心议题：个体与属性、跨时间的同一性、模态与可能世界、因果关系理论。训练「把概念问题逼到精确表述」的能力。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>24.500 或分析哲学基础</span>
+        <span class="m prereq"><b>通向：</b>知识论、逻辑哲学、科学哲学</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-phil242">
+    <div class="side"><div class="code">PHIL 242</div><div class="school">Berkeley · Epistemology</div><span class="tag">知识论</span></div>
+    <div class="body">
+      <div class="name">知识论 Epistemology</div>
+      <div class="one">知识 · 辩护 · 怀疑论 · 可靠论</div>
+      <p class="desc">知识的定义与 Gettier 问题、信念辩护的结构（基础论/融贯论）、怀疑论与语境主义、可靠论与德性知识论。AI 认识论、可信度评估的哲学源头。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>分析哲学基础</span>
+        <span class="m prereq"><b>通向：</b>认知科学、AI 安全论证</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-phil270">
+    <div class="side"><div class="code">PHIL 270</div><div class="school">Stanford · Philosophy of Science</div><span class="tag">科学哲学</span></div>
+    <div class="body">
+      <div class="name">科学哲学 Philosophy of Science</div>
+      <div class="one">波普尔 · 库恩 · 贝叶斯确认理论</div>
+      <p class="desc">科学划界问题、证伪主义与范式革命、贝叶斯确认理论、模型与证据的关系。做研究的「元视角」，理解科学范式如何变迁。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>知识论基础</span>
+        <span class="m prereq"><b>通向：</b>科学方法论、研究设计反思</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-oxlog">
+    <div class="side"><div class="code">OXFORD</div><div class="school">Oxford · Philosophy of Logic</div><span class="tag">逻辑</span></div>
+    <div class="body">
+      <div class="name">逻辑哲学 Philosophy of Logic</div>
+      <div class="one">逻辑悖论 · 真值 · 模型理论</div>
+      <p class="desc">说谎者悖论与真值理论、逻辑常项、二阶逻辑与模型论哲学。数理逻辑与分析哲学的交接面，公开讲座 + 讲义形式。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>一阶逻辑基础</span>
+        <span class="m prereq"><b>通向：</b>数学哲学、形式语义</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-sep">
+    <div class="side"><div class="code">SEP</div><div class="school">Stanford Encyclopedia</div><span class="tag">工具</span></div>
+    <div class="body">
+      <div class="name">斯坦福哲学百科 Stanford Encyclopedia of Philosophy</div>
+      <div class="one">不是课，而是哲学自学的事实标准</div>
+      <p class="desc">每个条目由领域专家撰写并持续更新，相当于哲学领域的「标准讲义百科」。所有哲学课的背景概念，先查 SEP 再读原文，效率最高。</p>
+      <div class="meta">
+        <span class="m"><b>使用：</b>任何哲学课程学习时并行查阅</span>
+        <span class="m prereq"><b>地址：</b>plato.stanford.edu</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科九：物理深化 ===== -->
+<section id="sec-phy">
+  <div class="sec-head">
+    <span class="sec-no">09</span>
+    <h2>物理深化：量子与统计力学</h2>
+  </div>
+  <p class="sec-sub"><b>建议顺序：8.06 → 8.333</b>。统计力学对信息论、机器学习理论（含 scaling law 思想）的学生是极佳的思想补给。</p>
+
+  <div class="course" id="c-806">
+    <div class="side"><div class="code">MIT 8.06</div><div class="school">MIT · Quantum Physics III</div><span class="tag">量子</span></div>
+    <div class="body">
+      <div class="name">量子力学 III Quantum Physics III</div>
+      <div class="one">高等量子 · 散射 · 角动量</div>
+      <p class="desc">角动量理论、近似方法（微扰、变分）、散射理论、二次量子化引论。需要线性代数与偏微分方程功底。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>量子力学 I/II + 数学物理方法</span>
+        <span class="m prereq"><b>通向：</b>凝聚态、量子信息</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT8.06-OCW/">MIT OCW 8.06 量子力学 III 课程包（讲义+作业）</a>
+        <span class="note">MIT OCW 官方完整课程资料。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="course" id="c-8333">
+    <div class="side"><div class="code">MIT 8.333</div><div class="school">MIT · Statistical Mechanics</div><span class="tag">统计物理</span></div>
+    <div class="body">
+      <div class="name">统计力学 Statistical Mechanics</div>
+      <div class="one">系综 · 熵 · 相变</div>
+      <p class="desc">微正则/正则/巨正则系综、熵的微观基础、相变与临界现象、Ising 模型。熵与概率的语言和统计学习理论深度相通，是物理人写给信息论的情书。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>热力学 + 概率论</span>
+        <span class="m prereq"><b>通向：</b>信息论、机器学习理论、复杂系统</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT8.333-OCW/">MIT OCW 8.333 统计力学课程包（讲义+作业）</a>
+        <span class="note">原列 GitHub 链接不存在，替换为 MIT OCW 官方课程资料。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 学科十：数学深造 ===== -->
+<section id="sec-more">
+  <div class="sec-head">
+    <span class="sec-no">10</span>
+    <h2>数学深造：纯数学方向的可选延伸</h2>
+  </div>
+  <p class="sec-sub">读完测度论与抽象代数后，若想继续纯数学路线，代数拓扑是几何思维的最佳入口。</p>
+
+  <div class="course" id="c-math248">
+    <div class="side"><div class="code">Math 248</div><div class="school">Berkeley · Algebraic Topology</div><span class="tag">拓扑</span></div>
+    <div class="body">
+      <div class="name">代数拓扑 Algebraic Topology</div>
+      <div class="one">同伦 · 同调 · 纤维丛引论</div>
+      <p class="desc">基本群与覆盖空间、奇异同调、Van Kampen 定理、CW 复形。把拓扑问题翻译成代数问题的经典范式，几何直觉与代数结构的交汇。</p>
+      <div class="meta">
+        <span class="m"><b>前置：</b>实分析 + 抽象代数 + 点集拓扑</span>
+        <span class="m prereq"><b>通向：</b>几何、代数几何、拓扑数据分析</span>
+      </div>
+      <div class="repo"><span class="rlabel">本地资料</span>
+        <a href="./notes/MIT18.905-OCW/">MIT OCW 18.905 代数拓扑课程包（讲义+作业）</a>
+        <span class="note">MIT OCW 官方完整课程资料，与 Berkeley Math 248 内容对应。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 自学工具箱 ===== -->
+<section id="sec-tools">
+  <div class="sec-head">
+    <span class="sec-no">11</span>
+    <h2>自学工具箱：笔记转 HTML、LaTeX 渲染与搜索</h2>
+  </div>
+  <p class="sec-sub">GitHub 笔记仓库多数是 Markdown / LaTeX 源码。下面四个工具解决「笔记怎么读、公式怎么渲染、仓库怎么找」三类问题。</p>
+
+  <div class="tools">
+    <div class="tool">
+      <h4>本地 HTML + LaTeX 渲染（KaTeX）</h4>
+      <p>本地 <code>file://</code> 打开 HTML 渲染不了公式，通常因为 CDN 脚本被拦或字体加载受限。最稳的方案是起本地服务：<code>python -m http.server 8000</code>，再访问 <code>http://127.0.0.1:8000</code>。离线场景则下载 KaTeX 完整包，用相对路径引入 <code>katex.min.css</code> 与 <code>auto-render.min.js</code>，注意 fonts 目录不能移动。</p>
+    </div>
+    <div class="tool">
+      <h4>mdbook：Markdown 笔记一键变站点</h4>
+      <p>克隆的笔记仓库原生是 Markdown，可用 <code>mdbook</code> 把整套笔记导出成静态 HTML 站点，配合 KaTeX 渲染公式，本地 Edge 直接打开浏览，结构最接近原课程章节。</p>
+    </div>
+    <div class="tool">
+      <h4>pandoc：LaTeX 批量转 HTML</h4>
+      <p>仓库自带 <code>.tex</code> 时，用 <code>pandoc notes.tex -o notes.html --katex</code> 一键转成带 KaTeX 公式的 HTML，公式在本地也能渲染。</p>
+    </div>
+    <div class="tool">
+      <h4>GitHub 搜索技巧</h4>
+      <p>搜课程笔记用组合词：课程编号 + 关键词，例如 <code>EE364a convex optimization notes</code> 或 <code>site:github.com "Lecture Notes" 18.100</code>，再按 <code>Markdown</code> / <code>LaTeX</code> 语言筛选，优先选最近更新、含原版讲义结构的仓库。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 优先入坑清单 ===== -->
+<section id="sec-pick">
+  <div class="sec-head">
+    <span class="sec-no">12</span>
+    <h2>优先入坑清单：按自学友好度排序</h2>
+  </div>
+  <p class="sec-sub">如果时间有限，先打这六门——笔记质量、课程完整度、前置友好度综合最优，且彼此构成合理的递进。</p>
+  <div class="pick">
+    <ol>
+      <li>
+        <div>
+          <div class="pk">EE 364A 凸优化（Stanford / Boyd）</div>
+          <div class="pd">笔记质量天花板，公式多、LaTeX 完善，理论推导 + CVXPY 代码练习齐全，且是经济、统计、CS 三线的共同枢纽。</div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="pk">MIT 18.100 实分析</div>
+          <div class="pd">全地图的起点。有 MIT 学生原版 LaTeX 逐讲笔记可对照，证明训练一步到位。</div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="pk">MIT 14.12 高级微观经济学</div>
+          <div class="pd">MWG 配套笔记完整，推导与习题齐全，是经济金融线的第一块专业砖。</div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="pk">EE 276 信息论（Stanford）</div>
+          <div class="pd">与 NLP、压缩、统计物理全部相通，LaTeX 笔记逐章覆盖 Cover 教材，思想回报率极高。</div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="pk">MIT 24.500 语言哲学</div>
+          <div class="pd">分析哲学线的最佳入口，配套研读仓库稀缺且完整，适合训练论证阅读。</div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="pk">MIT 6.824 分布式系统</div>
+          <div class="pd">系统线的天花板，实现 Raft 的作业是简历级的硬通货；需先完成 CS 162 / CS 144。</div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+</div><!-- /wrap -->
+
+<footer>
+  <div class="inner">
+    <div>名校公开课学习路径地图 · 离线版 · 2026 · 零联网使用</div>
+    <div>课程资料来自 MIT OCW / Stanford 官网等公开渠道 · 资源核验见包内 资源核验说明.md</div>
+  </div>
+</footer>
+
+<script src="katex/katex.min.js"></script>
+<script src="katex/contrib/auto-render.min.js"></script>
+<script>
+  // 本地公式渲染（KaTeX，完全离线）
+  if (window.renderMathInElement) {
+    try {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left:"$$", right:"$$", display:true},
+          {left:"$", right:"$", display:false},
+          {left:"\\(", right:"\\)", display:false}
+        ],
+        throwOnError:false
+      });
+    } catch(e) {}
+  }
+  // 目录滚动高亮
+  (function(){
+    var links = Array.prototype.slice.call(document.querySelectorAll('#tocInner a'));
+    var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+    var toc = document.getElementById('toc');
+    var ticking = false;
+    function onScroll(){
+      if(ticking) return;
+      ticking = true;
+      requestAnimationFrame(function(){
+        var pos = window.scrollY + 90;
+        var idx = 0;
+        for(var i=0;i<secs.length;i++){
+          if(secs[i] && secs[i].offsetTop <= pos) idx = i;
+        }
+        links.forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+        ticking = false;
+      });
+    }
+    window.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+  })();
+</script>
+</body>
+</html>
